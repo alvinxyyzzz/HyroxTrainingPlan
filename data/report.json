@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-11-07",
   "dataThrough": "2026-11-07",
   "lastSync": "2026-11-07 15:21",
@@ -115,25 +115,25 @@
   ],
   "coach": {
     "headline": "先練『撐得住』，再練『衝得快』。",
-    "summary": "目前跑量穩定在十多公里／週，最新週已到 20km；400m 速度足以支撐品質課，但連續高強度與久跑底盤仍是關鍵。",
+    "summary": "最新 11/02 週已記錄約 20 km（截至 11/7，仍是未完整週），較先前 12–16 km 的常態提高；11/04 Petra HIIT 與 11/05 間歇連續兩天強度偏高。下週優先穩定、有品質的 Easy Run 與力量恢復，而非再增加高強度課。",
     "findings": [
       {
         "type": "priority",
-        "title": "有氧底盤是第一優先",
-        "body": "近七週多落在 12–16km，最新約 20km；先穩住 16–21km，再漸進提高長 Easy Run，不急著追 30km。"
+        "title": "先穩住有氧底盤",
+        "body": "前幾週跑量多在 12–16 km；最新週已到約 20 km，先觀察疲勞與 Easy Run 的心率，再循序延長長跑，暫不追求更高週跑量。"
       },
       {
         "type": "positive",
-        "title": "速度潛力足夠，先穩定輸出",
-        "body": "11/05 八趟 400m 平均約 1:42，但趟數與 10/29 的十二趟不同；不能當成同條件進步。"
+        "title": "400m 速度有儲備，耐力需另驗證",
+        "body": "11/05 八趟 400m 工作段平均 1:42（HR 約170）；10/29 十二趟平均 2:00。組數與課程設計不同，不能直接稱為同條件進步。"
       },
       {
         "type": "caution",
-        "title": "每週主要高強度心肺只留一次",
-        "body": "11/04 Petra 平均 HR164，隔天 11/05 Interval 工作段平均 HR170。週三上高強度 WOD，週四就換 Easy／恢復。"
+        "title": "Petra WOD 與 Interval 避免雙重刺激",
+        "body": "11/04 AMRAP28 Garmin 平均心率164、最高186；11/05 跑步強度亦高。未來若週三 WOD RPE≥7，週四改 Easy/休息，週五安排臥推肩，週日硬拉視腿疲勞減量。"
       }
     ],
-    "limitation": "現有 Garmin Strength 記錄缺少可靠的槓鈴重量、組次細節；三大項暫以訓練計畫管理，不顯示虛構的力量成長曲線。"
+    "limitation": "目前 Garmin Strength 沒有可靠的三大項重量與組次；未建立基線前不畫力量成長曲線。Garmin 跑步心率受天氣、地形、感測與疲勞影響；僅用趨勢判讀，不把單次變化視為進步。Petra 白板個人成績、團隊成績與模糊重量分開紀錄。"
   },
   "weeks": [
     {
@@ -429,5 +429,17 @@
       "url": "https://hyrox.com/rulebook/"
     }
   ],
-  "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。"
+  "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
+  "lastReview": "2026-11-07",
+  "reviewStatus": {
+    "verified": true,
+    "garminAsOf": "2026-11-07",
+    "petraPhotoAsOf": "2026-11-04",
+    "garminActivities": 47,
+    "fitLaps": 163,
+    "garminSyncStatus": "ok",
+    "manualReview": "2026-11-07",
+    "nextWeekStart": "2026-11-09",
+    "method": "Activity ID dedup; no WOD distance double count; interval reps from FIT; confirmed Petra individual scores only"
+  }
 }
