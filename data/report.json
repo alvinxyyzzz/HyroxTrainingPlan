@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated": "2026-11-07",
   "dataThrough": "2026-11-07",
-  "lastSync": "2026-11-07 15:21",
+  "lastSync": "2026-11-07 18:15 Asia/Taipei",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,7 +13,7 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 47,
+    "activities": 52,
     "runs": 26,
     "totalKm": 107.7,
     "recentWeekKm": 20.01,
@@ -114,26 +114,31 @@
     }
   ],
   "coach": {
-    "headline": "先練『撐得住』，再練『衝得快』。",
-    "summary": "最新 11/02 週已記錄約 20 km（截至 11/7，仍是未完整週），較先前 12–16 km 的常態提高；11/04 Petra HIIT 與 11/05 間歇連續兩天強度偏高。下週優先穩定、有品質的 Easy Run 與力量恢復，而非再增加高強度課。",
+    "headline": "你的瓶頸不是單站爆發，而是後半程能不能持續輸出。",
+    "summary": "11/07 你上午完成 5.93km 跑步，傍晚又練深蹲、六角槓、單腿弓步、Wall Ball、SkiErg。Garmin 補抓到兩段 Strength 與 Wall Ball HIIT（平均 HR170、最高183）。這是有價值的下肢＋站點日，但今天累積負荷不低；明天先恢復，接下來才有條件提升力量與耐力。",
     "findings": [
       {
         "type": "priority",
-        "title": "先穩住有氧底盤",
-        "body": "前幾週跑量多在 12–16 km；最新週已到約 20 km，先觀察疲勞與 Easy Run 的心率，再循序延長長跑，暫不追求更高週跑量。"
+        "title": "明天先恢復，不要再補強度",
+        "body": "週六跑 5.93km 並做下肢＋Wall Ball，11/08 建議散步／活動度／休息；11/09 Petra 優先技術，週二深蹲按 DOMS 決定維持或減組。"
       },
       {
-        "type": "positive",
-        "title": "400m 速度有儲備，耐力需另驗證",
-        "body": "11/05 八趟 400m 工作段平均 1:42（HR 約170）；10/29 十二趟平均 2:00。組數與課程設計不同，不能直接稱為同條件進步。"
+        "type": "evidence",
+        "title": "Wall Ball 需要更省力，不是一直拚快",
+        "body": "11/07 Garmin Wall Ball HIIT 5:15，平均 HR170、最高183；無法從心率判定技術或實際下數。下次先做 2×10–15 次高品質球路、呼吸節奏與深蹲穩定，不必追加極限 AMRAP。"
+      },
+      {
+        "type": "plan",
+        "title": "新設備好用，但不能每堂都變 WOD",
+        "body": "World Gym 現有 Sled、SkiErg 和新 RowErg。先用每次 5–10 分鐘、低到中強度的技術接觸；Petra 已做腿部/拉雪橇時，World Gym 改補背部、臥推或 Easy 有氧。"
       },
       {
         "type": "caution",
-        "title": "Petra WOD 與 Interval 避免雙重刺激",
-        "body": "11/04 AMRAP28 Garmin 平均心率164、最高186；11/05 跑步強度亦高。未來若週三 WOD RPE≥7，週四改 Easy/休息，週五安排臥推肩，週日硬拉視腿疲勞減量。"
+        "title": "強度連續累積要控制",
+        "body": "11/04 Petra HIIT 與 11/05 Interval 連兩天偏硬，11/07 又是腿＋站點混合課。下週只有一堂主要心肺品質課（Petra 硬 WOD 或 Interval 擇一），再用 Easy 跑補有氧底盤。"
       }
     ],
-    "limitation": "目前 Garmin Strength 沒有可靠的三大項重量與組次；未建立基線前不畫力量成長曲線。Garmin 跑步心率受天氣、地形、感測與疲勞影響；僅用趨勢判讀，不把單次變化視為進步。Petra 白板個人成績、團隊成績與模糊重量分開紀錄。"
+    "limitation": "Garmin 活動數 52 筆包含同一堂訓練拆分的記錄，不等於 52 次獨立訓練。11/07 重訓兩段尚缺深蹲／六角槓重量、組數與 RIR；SkiErg 1000m 約5:00是使用者口述，不是 FIT 驗證。Wall Ball 是 Garmin 對應活動，但無球重、次數、投球效率。"
   },
   "weeks": [
     {
@@ -141,48 +146,48 @@
       "dates": "11/09 – 11/15",
       "tag": "重新建立節奏",
       "km": "16–20 km",
-      "focus": "保留力量刺激，讓腿與心肺適應。",
+      "focus": "本週先消化 11/07 下肢負荷，維持三大項與穩定跑量；新設備只做短技巧，不要堆額外全力站點。",
       "days": [
         [
           "MON",
-          "Petra · 技巧",
-          "技巧／站點 45–60 分鐘，RPE 5–6",
+          "Petra · 技巧優先",
+          "11/07 下肢訓練後優先 RPE5–6；若 WOD 有重雪橇/大量 Wall Ball，減量或做技巧版。",
           "skill"
         ],
         [
           "TUE",
           "World Gym · 深蹲＋背",
-          "Back Squat 3×4–6；下拉 3×6–10；胸靠划船 3×8–12；腿彎舉 2×10–15，主項 RIR 3",
+          "深蹲 2–3×4–6（腿未恢復就 2 組、RIR≥3），下拉 3×6–10、胸靠划船 3×8–12；選配 RowErg Easy 6 分鐘。",
           "strength"
         ],
         [
           "WED",
-          "Petra WOD 或休息",
-          "若 WOD ≥RPE7，隔天不做高強度間歇",
+          "Petra WOD 或恢復",
+          "若 WOD 有 Sled、Lunge 或 Wall Ball 高量，隔天取消間歇，並調低當週下肢強度。",
           "conditional"
         ],
         [
           "THU",
-          "唯一品質跑 or Easy",
-          "如週三不硬：6–8×400m 可控配速，組間 90s；如週三硬：Easy 30–40min",
+          "間歇跑／Easy 二選一",
+          "週三沒硬練才 6–8×400m 可控配速，休 90s；若週三強度高則 Easy 30–40min。",
           "run"
         ],
         [
           "FRI",
           "World Gym · 臥推＋肩",
-          "Bench 3×4–6；DB Shoulder 2×8–10；側平舉 2×12–18；後三角、三頭各2組",
+          "臥推 3×4–6、肩推 2×8–10、側/後三角 2 組；選配 SkiErg 技術 5–8 分鐘，不求極速。",
           "strength"
         ],
         [
           "SAT",
-          "Easy Run",
-          "6–7km，能說完整句子，不追配速",
+          "Easy Run 6–7km",
+          "維持能完整說話強度；若腳部沉重或酸痛，改 20–30 分鐘 Easy Row。",
           "easy"
         ],
         [
           "SUN",
-          "World Gym · 硬拉＋背",
-          "Deadlift 2×3–5；胸靠高位划船 3×8–12；下拉 2×8–12；Farmer Carry 2×30m。疲勞高改背部／休息",
+          "World Gym · 六角槓硬拉＋背",
+          "六角槓 2×3–5（RIR≥3），高位/胸靠划船各 2–3 組；選配 Sled Push/Pull 輕技術 2–4 趟，若腿累直接省略。",
           "conditional"
         ]
       ]
@@ -192,7 +197,7 @@
       "dates": "11/16 – 11/22",
       "tag": "小幅進步",
       "km": "17–21 km",
-      "focus": "若睡眠與腿部恢復好，再加 Easy 里程或主項次數，二選一。",
+      "focus": "若睡眠與腿部恢復好，再加 Easy 里程或主項次數，二選一。；設備運用按前一堂 Petra 與 Garmin 疲勞調整，Sled／SkiErg／RowErg 為選配而非必做。",
       "days": [
         [
           "MON",
@@ -243,7 +248,7 @@
       "dates": "11/23 – 11/29",
       "tag": "恢復週",
       "km": "13–17 km",
-      "focus": "累積適應，不用每週都變強。整體力量組數降低約 30–40%。",
+      "focus": "累積適應，不用每週都變強。整體力量組數降低約 30–40%。；設備運用按前一堂 Petra 與 Garmin 疲勞調整，Sled／SkiErg／RowErg 為選配而非必做。",
       "days": [
         [
           "MON",
@@ -294,7 +299,7 @@
       "dates": "11/30 – 12/06",
       "tag": "進階重新啟動",
       "km": "17–22 km",
-      "focus": "恢復完成才加量；建立 12 月力量＋有氧基礎。",
+      "focus": "恢復完成才加量；建立 12 月力量＋有氧基礎。；設備運用按前一堂 Petra 與 Garmin 疲勞調整，Sled／SkiErg／RowErg 為選配而非必做。",
       "days": [
         [
           "MON",
@@ -351,7 +356,8 @@
         "啞鈴肩推 · 2×8–10（Petra 推舉多則略過）",
         "側平舉 · 2–3×12–18",
         "Reverse Pec Deck · 2×12–15",
-        "三頭下壓 · 2×10–15"
+        "三頭下壓 · 2×10–15",
+        "SkiErg 技術 · 選配 5–8 分鐘，肩膀疲勞時取消"
       ]
     },
     {
@@ -363,7 +369,8 @@
         "引體／Lat Pulldown · 3×6–10",
         "胸靠划船 · 3×8–12",
         "Leg Curl · 2×10–15",
-        "Calf Raise／Pallof · 各2組"
+        "Calf Raise／Pallof · 各2組",
+        "RowErg Easy · 選配 6–10 分鐘，RPE≤4"
       ]
     },
     {
@@ -375,7 +382,8 @@
         "Chest-supported High Row · 3×8–12",
         "Neutral-grip Lat Pulldown · 2×8–12",
         "Farmer Carry · 2×30–40m",
-        "核心 Pallof Press · 2×10／側"
+        "核心 Pallof Press · 2×10／側",
+        "Sled Push/Pull 技術 · 選配 2–4 趟，腿疲勞高則不做"
       ]
     }
   ],
@@ -435,11 +443,63 @@
     "verified": true,
     "garminAsOf": "2026-11-07",
     "petraPhotoAsOf": "2026-11-04",
-    "garminActivities": 47,
+    "garminActivities": 52,
     "fitLaps": 163,
     "garminSyncStatus": "ok",
     "manualReview": "2026-11-07",
     "nextWeekStart": "2026-11-09",
-    "method": "Activity ID dedup; no WOD distance double count; interval reps from FIT; confirmed Petra individual scores only"
+    "method": "Activity ID dedup; no WOD distance double count; interval reps from FIT; confirmed Petra individual scores only",
+    "garminLastSyncUtc": "2026-11-07T10:15:00+00:00",
+    "garminNewActivities": 5,
+    "nov7StrengthActivities": 2,
+    "nov7WallBallRecorded": true,
+    "latestActivityCrossCheck": "2026-11-07 lower-body session user + Garmin 17:00/17:12 strength and 17:34 Wall Ball HIIT; Garmin has no reliable sets, weights or standalone 1000m SkiErg record."
+  },
+  "recentWorkout": {
+    "date": "2026-11-07",
+    "venue": "World Gym",
+    "session": "下肢力量＋HYROX Station",
+    "source": "Alvin 自述＋Garmin API",
+    "status": "部分交叉驗證",
+    "movements": [
+      "深蹲",
+      "六角槓硬拉",
+      "Single-leg Lunge",
+      "Wall Ball",
+      "SkiErg 1000m（約 5:00；自行回報）"
+    ],
+    "garmin": {
+      "strengthSegments": 2,
+      "strengthSegmentSeconds": [
+        556.903,
+        322.148
+      ],
+      "strengthAvgHr": [
+        127,
+        131
+      ],
+      "wallBallSeconds": 315.482,
+      "wallBallAvgHr": 170,
+      "wallBallMaxHr": 183,
+      "wallBallAnaerobicEffect": 2.4,
+      "separateSkiErgVerified": false
+    },
+    "note": "這是同一堂 World Gym 訓練，不按 Garmin 分段數灌水增加世界健身房出席堂數。未記錄重量、組次與 RIR，不建立虛假的最大力量趨勢。",
+    "interpretation": "深蹲與六角槓重疊下肢負荷，加入單腿弓步和 Wall Ball 後疲勞較集中；本次 Wall Ball 最高 HR183，建議接下來 24–48 小時以恢復和低強度活動為主。",
+    "nextSteps": "11/08 休息／散步；11/09 Petra 只做可控技巧；11/10 深蹲照腿部 DOMS 與狀態控制 2–3 組，不追最大重量。"
+  },
+  "equipmentWorldGym": {
+    "confirmedAt": "2026-11-07",
+    "source": "Alvin 親自確認",
+    "available": [
+      "Sled Push/Pull",
+      "SkiErg",
+      "RowErg（新）",
+      "Wall Ball",
+      "Trap Bar",
+      "Barbell Squat Rack",
+      "Bench Press"
+    ],
+    "usage": "力量先做大項；Sled/Ski/Row/Wall Ball 僅少量技巧或有氧補充。Petra 前日若已有類似高強度站點，World Gym 刪減重複負荷。"
   }
 }
