@@ -1,0 +1,433 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "dataThrough": "2026-11-07",
+  "lastSync": "2026-11-07 15:21",
+  "nextReview": "每週日晚上（台灣時間）",
+  "race": {
+    "city": "TAIPEI",
+    "event": "HYROX TAIPEI 2027",
+    "mixed": "2027-03-12",
+    "singles": "2027-03-13",
+    "goal": "週六男單穩定完賽",
+    "stretch": "SUB 90 · 進階目標"
+  },
+  "metrics": {
+    "activities": 47,
+    "runs": 26,
+    "totalKm": 107.7,
+    "recentWeekKm": 20.01,
+    "petraPhotos": 35,
+    "petraIndividualNote": "35 張白板含部分團隊或不明確成績，不能當作 35 次實際出席或 35 筆個人 PR。",
+    "row1500": "6:20.5",
+    "row1500Photo": "6:18",
+    "rowAvgHr": 175,
+    "lastEasyDistance": 5.93,
+    "lastEasyHr": 143,
+    "lastEasyPace": "6:25",
+    "easyPrior": {
+      "date": "10/31",
+      "distance": 5.89,
+      "pace": "6:22",
+      "hr": 139
+    },
+    "intervalLatest": "8 × 400m",
+    "intervalAvgSeconds": 101.9,
+    "intervalOlderAvgSeconds": 120
+  },
+  "weeklyKm": [
+    {
+      "w": "9/21",
+      "km": 14.04,
+      "partial": true
+    },
+    {
+      "w": "9/28",
+      "km": 16.1
+    },
+    {
+      "w": "10/05",
+      "km": 14.6
+    },
+    {
+      "w": "10/12",
+      "km": 14.28
+    },
+    {
+      "w": "10/19",
+      "km": 12.57
+    },
+    {
+      "w": "10/26",
+      "km": 16.1
+    },
+    {
+      "w": "11/02",
+      "km": 20.01,
+      "partial": true
+    }
+  ],
+  "intervals": [
+    {
+      "date": "10/29",
+      "label": "12 × 400m",
+      "reps": 12,
+      "avgSec": 120,
+      "range": "1:38–2:10",
+      "avgHr": 158,
+      "note": "較長課表；平均每趟 2:00，FIT 含最後快速收尾"
+    },
+    {
+      "date": "11/05",
+      "label": "8 × 400m",
+      "reps": 8,
+      "avgSec": 101.9,
+      "range": "1:37–1:46",
+      "avgHr": 170,
+      "note": "先做 4×(200m 快＋200m 緩)；此處只比較後段八趟"
+    }
+  ],
+  "petra": [
+    {
+      "date": "11/04",
+      "name": "AMRAP 28",
+      "score": "4 R",
+      "detail": "350m Run／Ski 或 Row、KB Swing、DB Front Rack Lunge；Garmin HIIT 26:38、平均心率 164、最高 186。白板旁註 12.5，重量歸屬未確認。"
+    },
+    {
+      "date": "10/27",
+      "name": "1500m Row",
+      "score": "6:18",
+      "detail": "白板 6:18；Garmin 6:20.5。保留兩個來源，不能擅自視為同一計時。"
+    },
+    {
+      "date": "10/21",
+      "name": "Run + Sled + WB",
+      "score": "8:22",
+      "detail": "白板為最慢一輪；Garmin HIIT 平均心率 169、最高 189。"
+    },
+    {
+      "date": "10/07",
+      "name": "Devil Press + Run",
+      "score": "6R+30",
+      "detail": "AMRAP28，不能直接與不同 WOD 的回合數比較。"
+    }
+  ],
+  "coach": {
+    "headline": "先練『撐得住』，再練『衝得快』。",
+    "summary": "目前跑量穩定在十多公里／週，最新週已到 20km；400m 速度足以支撐品質課，但連續高強度與久跑底盤仍是關鍵。",
+    "findings": [
+      {
+        "type": "priority",
+        "title": "有氧底盤是第一優先",
+        "body": "近七週多落在 12–16km，最新約 20km；先穩住 16–21km，再漸進提高長 Easy Run，不急著追 30km。"
+      },
+      {
+        "type": "positive",
+        "title": "速度潛力足夠，先穩定輸出",
+        "body": "11/05 八趟 400m 平均約 1:42，但趟數與 10/29 的十二趟不同；不能當成同條件進步。"
+      },
+      {
+        "type": "caution",
+        "title": "每週主要高強度心肺只留一次",
+        "body": "11/04 Petra 平均 HR164，隔天 11/05 Interval 工作段平均 HR170。週三上高強度 WOD，週四就換 Easy／恢復。"
+      }
+    ],
+    "limitation": "現有 Garmin Strength 記錄缺少可靠的槓鈴重量、組次細節；三大項暫以訓練計畫管理，不顯示虛構的力量成長曲線。"
+  },
+  "weeks": [
+    {
+      "week": "W01",
+      "dates": "11/09 – 11/15",
+      "tag": "重新建立節奏",
+      "km": "16–20 km",
+      "focus": "保留力量刺激，讓腿與心肺適應。",
+      "days": [
+        [
+          "MON",
+          "Petra · 技巧",
+          "技巧／站點 45–60 分鐘，RPE 5–6",
+          "skill"
+        ],
+        [
+          "TUE",
+          "World Gym · 深蹲＋背",
+          "Back Squat 3×4–6；下拉 3×6–10；胸靠划船 3×8–12；腿彎舉 2×10–15，主項 RIR 3",
+          "strength"
+        ],
+        [
+          "WED",
+          "Petra WOD 或休息",
+          "若 WOD ≥RPE7，隔天不做高強度間歇",
+          "conditional"
+        ],
+        [
+          "THU",
+          "唯一品質跑 or Easy",
+          "如週三不硬：6–8×400m 可控配速，組間 90s；如週三硬：Easy 30–40min",
+          "run"
+        ],
+        [
+          "FRI",
+          "World Gym · 臥推＋肩",
+          "Bench 3×4–6；DB Shoulder 2×8–10；側平舉 2×12–18；後三角、三頭各2組",
+          "strength"
+        ],
+        [
+          "SAT",
+          "Easy Run",
+          "6–7km，能說完整句子，不追配速",
+          "easy"
+        ],
+        [
+          "SUN",
+          "World Gym · 硬拉＋背",
+          "Deadlift 2×3–5；胸靠高位划船 3×8–12；下拉 2×8–12；Farmer Carry 2×30m。疲勞高改背部／休息",
+          "conditional"
+        ]
+      ]
+    },
+    {
+      "week": "W02",
+      "dates": "11/16 – 11/22",
+      "tag": "小幅進步",
+      "km": "17–21 km",
+      "focus": "若睡眠與腿部恢復好，再加 Easy 里程或主項次數，二選一。",
+      "days": [
+        [
+          "MON",
+          "Petra · 技術",
+          "Sled／Wall Ball 動作品質，不刷 PR",
+          "skill"
+        ],
+        [
+          "TUE",
+          "World Gym · 深蹲＋背",
+          "深蹲 3×4–6 RIR2–3；垂直拉3組＋水平拉3組",
+          "strength"
+        ],
+        [
+          "WED",
+          "Petra WOD or Rest",
+          "如硬 WOD，週四改 Easy 4–6km",
+          "conditional"
+        ],
+        [
+          "THU",
+          "Interval 或 Easy",
+          "若週三休息：8×400m（可控、不要每趟全力），90s 休息；否則 Z2 Easy",
+          "run"
+        ],
+        [
+          "FRI",
+          "World Gym · 臥推＋肩",
+          "臥推 3×4–6；肩推與小肌群不力竭",
+          "strength"
+        ],
+        [
+          "SAT",
+          "Long Easy Run",
+          "7–8km，逐步延長時間而非速度",
+          "easy"
+        ],
+        [
+          "SUN",
+          "World Gym · 硬拉＋背",
+          "硬拉2–3×3–5；胸靠划船3＋下拉2，腿沉則減組",
+          "conditional"
+        ]
+      ]
+    },
+    {
+      "week": "W03",
+      "dates": "11/23 – 11/29",
+      "tag": "恢復週",
+      "km": "13–17 km",
+      "focus": "累積適應，不用每週都變強。整體力量組數降低約 30–40%。",
+      "days": [
+        [
+          "MON",
+          "Petra · 輕技術／休息",
+          "不做強度 PR",
+          "skill"
+        ],
+        [
+          "TUE",
+          "World Gym · 輕深蹲背",
+          "深蹲2×4–6；背部總組數降到3–4",
+          "strength"
+        ],
+        [
+          "WED",
+          "休息／伸展",
+          "睡眠優先",
+          "rest"
+        ],
+        [
+          "THU",
+          "Easy Run",
+          "4–6km；不要完整 400m 高強度",
+          "easy"
+        ],
+        [
+          "FRI",
+          "World Gym · 輕臥推肩",
+          "Bench2×4–6；小肌群少量",
+          "strength"
+        ],
+        [
+          "SAT",
+          "Easy Run",
+          "5–6km，保持活動",
+          "easy"
+        ],
+        [
+          "SUN",
+          "休息或輕背",
+          "無需硬拉硬湊",
+          "rest"
+        ]
+      ]
+    },
+    {
+      "week": "W04",
+      "dates": "11/30 – 12/06",
+      "tag": "進階重新啟動",
+      "km": "17–22 km",
+      "focus": "恢復完成才加量；建立 12 月力量＋有氧基礎。",
+      "days": [
+        [
+          "MON",
+          "Petra · 技巧",
+          "站點、呼吸與動作穩定",
+          "skill"
+        ],
+        [
+          "TUE",
+          "World Gym · 深蹲＋背",
+          "深蹲3×4–6；下拉3＋划船3",
+          "strength"
+        ],
+        [
+          "WED",
+          "休息或低強度 Petra",
+          "若參加硬 WOD，週四改 Easy",
+          "conditional"
+        ],
+        [
+          "THU",
+          "Interval／Easy",
+          "可選 6–8×400m；若週三 WOD 已硬，改 30–45min Easy",
+          "run"
+        ],
+        [
+          "FRI",
+          "World Gym · 臥推＋肩",
+          "Bench3×4–6；肩推2＋側平舉2＋後三角2",
+          "strength"
+        ],
+        [
+          "SAT",
+          "Long Easy Run",
+          "7–8km（狀態佳可 9km，但不強求）",
+          "easy"
+        ],
+        [
+          "SUN",
+          "World Gym · 硬拉＋背",
+          "Deadlift2–3×3–5；划船3＋下拉2。疲勞高可取消硬拉",
+          "conditional"
+        ]
+      ]
+    }
+  ],
+  "lifts": [
+    {
+      "id": "A",
+      "name": "臥推＋肩",
+      "tag": "UPPER PUSH",
+      "movements": [
+        "槓鈴臥推 · 3×4–6 · RIR 2–3",
+        "啞鈴肩推 · 2×8–10（Petra 推舉多則略過）",
+        "側平舉 · 2–3×12–18",
+        "Reverse Pec Deck · 2×12–15",
+        "三頭下壓 · 2×10–15"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "深蹲＋背",
+      "tag": "LOWER + PULL",
+      "movements": [
+        "Back Squat · 3×4–6 · RIR 2–3",
+        "引體／Lat Pulldown · 3×6–10",
+        "胸靠划船 · 3×8–12",
+        "Leg Curl · 2×10–15",
+        "Calf Raise／Pallof · 各2組"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "硬拉＋背",
+      "tag": "HINGE + PULL",
+      "movements": [
+        "Deadlift／Trap-bar · 2–3×3–5 · RIR 2–3",
+        "Chest-supported High Row · 3×8–12",
+        "Neutral-grip Lat Pulldown · 2×8–12",
+        "Farmer Carry · 2×30–40m",
+        "核心 Pallof Press · 2×10／側"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "dates": "11–12 月",
+      "label": "BUILD THE BASE",
+      "head": "力量＋低強度有氧",
+      "detail": "維持三大項、每週 1 次主要品質跑；把長 Easy 跑逐步從 6–7km 提升到 8–10km（依恢復調整）。"
+    },
+    {
+      "dates": "1 月",
+      "label": "RACE TRANSFER",
+      "head": "力量變成站點能力",
+      "detail": "引入 Run→Sled／Wall Ball／Lunge；跑完站點後以可控速度重啟 1km，替代部分一般 WOD，不在既有強度上疊加。"
+    },
+    {
+      "dates": "2 月",
+      "label": "SPECIFICITY",
+      "head": "雙日模擬與配速",
+      "detail": "World Gym 減為約 2 堂維持；與 Stacy 做一次縮量雙日模擬，練混雙不透支及男單的慢開局、Wall Ball 分組。"
+    },
+    {
+      "dates": "2/27–3/11",
+      "label": "TAPER",
+      "head": "恢復、不是再練爆",
+      "detail": "賽前約 10–14 天逐步減量 40–60%，保留少量速度與力量感，避免高傷害風險 WOD、安排睡眠和補給。"
+    },
+    {
+      "dates": "3/12–3/13",
+      "label": "RACE WEEKEND",
+      "head": "先控制、再穩穩完賽",
+      "detail": "週五與 Stacy 混雙不追全力 PR；完賽後補水／碳水／休息。週六男單先穩住前兩公里，再按心肺與腿部感覺完成各站。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "HYROX Taipei 官方賽程",
+      "url": "https://hyrox.com/event/hyrox-taipei/"
+    },
+    {
+      "title": "Lauren Weeks 訓練訪談",
+      "url": "https://bradkearns.com/lauren-weeks-hyrox-world-champion-podcast/"
+    },
+    {
+      "title": "耐力減量 Meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37163550/"
+    },
+    {
+      "title": "HYROX 官方規則",
+      "url": "https://hyrox.com/rulebook/"
+    }
+  ],
+  "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。"
+}
