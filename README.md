@@ -1,39 +1,33 @@
-# HYROX Performance Lab
+# HYROX PERFORMANCE LAB · ALVIN
 
-Phone-first **read-only** training report for Alvin's 2027 Taipei HYROX weekend: Friday Mixed Doubles and Saturday Men's Open.
+iPhone-first, static GitHub Pages dashboard for **HYROX Taipei 2027** (Fri 12 March Mixed Doubles, Sat 13 March Men's Open). Stable finish first; Sub-90 is optional.
 
-## App
+## Open the app
+https://alvinxyyzzz.github.io/HyroxTrainingPlan/
 
-- `index.html` — mobile-first app, no frameworks
-- `data/report.json` — summarized weekly coach review and four-week plan
-- `manifest.webmanifest`, `icon*.png`, `sw.js` — iPhone home-screen support
-- Race countdown, run-volume and interval graphs, Petra verified highlights, 4-week plan, World Gym Big Three, periodization to race week
+Tabs:
+- **今日** – next/recovery session, single most important coaching decision, quick metrics.
+- **分析** – Garmin running and FIT lap evidence, Petra results, with explicit limitations.
+- **課表** – upcoming four weeks, World Gym big-three templates, long-range phases.
 
-## Publish to GitHub Pages
+The frontend is `index.html` and reads `data/report.json` network-first. It is read-only; exercise logs are recorded in Garmin/Petra, never typed into the app. All CSS/JS/brand glyphs are inline; no third-party assets/scripts.
 
-**Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save.**
+## iPhone app icon
+- HTML embeds a fully self-contained **Base64 PNG** in both `rel=apple-touch-icon` and `rel=icon`. This mirrors the pattern used by CarbonPocket and ScreeningTool, avoiding an icon fetch for those references.
+- `apple-touch-icon.png` in repo root is a **Safari fallback**.
+- `icon-180-v7.png`, `icon-192-v7.png`, `icon-512-v7.png` are compatible PWA manifest icons. iOS may still require a fetched file for some installation paths, so retain the fallback.
+- After changing an already installed icon, remove the old Home Screen shortcut, open the webpage again in Safari, and use **Share → Add to Home Screen**. No icon technique guarantees an iOS cached shortcut will update in place.
+- Service Worker `sw.js` is versioned and uses **network-first** for `data/report.json`; cached reports are used only offline.
 
-Then open **https://alvinxyyzzz.github.io/HyroxTrainingPlan/** on iPhone Safari → Share → Add to Home Screen.
+## Private data and weekly refresh
+- Garmin Personal API credentials and authorization are **only** in the separate private repository `alvinxyyzzz/hyrox-garmin-sync` GitHub Secrets.
+- Its Actions schedule checks Garmin daily at 09:15 Taipei time; manual on-demand refresh is possible. The Google Sheets central source is spreadsheet `1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0`.
+- Petra photos stay in private Drive `Hyrox Training data/Alvin/Petra_Photos`. The already reviewed **35 files** are indexed in `Petra_Photo_Audit_v5` and `Petra_Photo_Registry`.
+- The weekly coaching automation (Sunday 20:00 Asia/Taipei) should **list metadata only**, compare Drive file ID and modified time against `Petra_Photo_Registry`, and open **only new or changed photos**. Do not reprocess the 35 already analyzed images. Reuse the audit/history tables for past sessions. Keep activity IDs when joining Garmin records to avoid double counting.
+- Weekly updates to this public repository should **only** publish aggregate analysis and four-week plans in `data/report.json`, never raw FIT files, personal routes/GPS, keys, or private photos. The UI does not read Google Drive or Garmin directly.
 
-If the page is not yet enabled, GitHub Pages settings must be changed by the repository owner. A commit alone does not turn on Pages.
+## Status vs. guarantees
+A scheduled task being enabled is not evidence of a successful weekly revision. Each coaching update must report the latest actual Garmin Actions result, Google Sheets sync log, photo registry status, report commit, and Pages deployment. Distinguish **scheduled**, **executed**, **written**, and **published**.
 
-## Weekly updates
-
-The connected ChatGPT weekly automation (Sunday evening Asia/Taipei) reviews Google Drive Petra whiteboards and `Garmin_API_*` data in the user's existing Google Sheet, checks for duplicates, recalculates training recommendations, and, where its GitHub permissions allow, updates **only `data/report.json`**. The app fetches this JSON with cache disabled online. The automated job is **not a guaranteed unattended model deployment**: review the weekly task result and GitHub commit history.
-
-Garmin private synchronization remains in separate private repository `hyrox-garmin-sync`. That repository pulls Garmin Personal API into a *private* Google Sheet. **No Garmin credentials or Google Service Account JSON are needed here.**
-
-## Public-data warning
-
-**This repository is PUBLIC.** Do not commit original FIT files, complete Google Sheets exports, GPS tracks, health diagnoses, unredacted Petra photos, Drive permission links, or any credentials. `data/report.json` includes summarized training metrics, heart-rate averages, and coach notes visible to anyone with the Pages URL.
-
-For strict privacy, don't use publicly hosted static health metrics: switch to authentication/private delivery before publishing data.
-
-## Analysis safeguards
-
-- Running distance from Garmin actual run activities only; WOD estimate never double-counted.
-- 10/29: 12 x 400m work reps avg 120.0 sec. 11/05: 8 x 400m work reps avg 101.9 sec. Different work volume; NOT a controlled improvement test.
-- 11/04: Petra 4R with uncertain 12.5kg note, matched Garmin HIIT HR avg164/max186.
-- 10/27: Row 1500m photo 6:18 vs Garmin 6:20.5; both retained.
-- Strength load trends omitted until reliable set/weight data become available.
-- Science: [HYROX Official](https://hyrox.com/event/hyrox-taipei/), [Lauren Weeks interview](https://bradkearns.com/lauren-weeks-hyrox-world-champion-podcast/), [taper meta-analysis](https://pubmed.ncbi.nlm.nih.gov/37163550/).
+## Repository privacy
+**Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
