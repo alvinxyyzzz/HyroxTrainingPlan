@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101a23">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HYROX LAB">
+<meta name="description" content="Alvin HYROX Taipei 2027 — performance review and smart training plan.">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="./icon.svg">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<title>HYROX LAB — Alvin Training</title>
+<style>
+:root{--bg:#f4f4f0;--ink:#111b22;--muted:#6d777a;--line:#e2e6e2;--lime:#d6fd68;--blue:#5072ef;--green:#248260;--white:#fff;--radius:22px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Helvetica Neue",sans-serif;font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
+button,a{font:inherit}
+a{color:inherit}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #4871e8;outline-offset:3px}
+.wrap{width:min(1040px,calc(100% - 44px));margin-inline:auto}
+.top{height:74px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-size:14px;font-weight:900;letter-spacing:.01em}
+.mark{width:35px;height:35px;background:var(--ink);border-radius:11px;display:grid;place-items:center;color:var(--lime);font-size:13px;letter-spacing:-1px;font-weight:950}
+.strap{font-size:10px;color:#586465;letter-spacing:.1em;font-weight:750;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+.pulse{height:7px;width:7px;border-radius:50%;background:#6cc98c;box-shadow:0 0 0 4px #dcf0df}
+.hero{background:var(--ink);color:#fff;padding:44px 46px 34px;min-height:385px;position:relative;overflow:hidden;border-radius:32px;isolation:isolate}
+.hero:after{content:"";position:absolute;width:430px;height:430px;right:-145px;top:-175px;background:radial-gradient(circle at center,#b4f26e99,transparent 68%);filter:blur(8px);z-index:-1}
+.hero:before{content:"";position:absolute;inset:0;opacity:.2;background-image:linear-gradient(110deg,transparent 69%,#b4f26e35 70%,transparent 71%);background-size:24px 100%;z-index:-1}
+.eyebrow{display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.13em;font-size:11px;font-weight:800;color:var(--lime)}
+.h-title{font-weight:950;letter-spacing:-.055em;font-size:clamp(44px,7.8vw,83px);line-height:1.02;margin:25px 0 12px}
+.h-sub{font-size:16px;color:#bfc9c7;max-width:550px;margin:0}
+.hero-bottom{margin-top:48px;display:flex;gap:24px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap}
+.events{display:flex;gap:8px;flex-wrap:wrap}
+.event{border:1px solid #465058;background:#ffffff0b;padding:11px 17px;border-radius:12px;min-width:150px}
+.event b{font-size:16px;display:block;letter-spacing:-.03em}
+.event span{color:#bec6cb;font-size:11px}
+.countdown{text-align:right;display:flex;align-items:baseline;gap:8px}
+.countdown strong{color:var(--lime);font-size:59px;line-height:1;letter-spacing:-.075em}
+.countdown span{font-size:12px;color:#c1c9c8}
+.main{padding-bottom:100px}
+.section{padding-top:65px;scroll-margin-top:26px}
+.sec-heading{display:flex;align-items:flex-end;justify-content:space-between;margin:0 0 23px;gap:16px}
+.kicker{font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:900;color:#738083}
+h2{font-weight:880;font-size:clamp(24px,3.2vw,34px);line-height:1.16;letter-spacing:-.045em;margin:7px 0 0}
+.sec-aside{font-size:11px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.kpi{border:1px solid var(--line);background:var(--white);border-radius:17px;padding:20px 19px;min-width:0}
+.kpi b{font-size:clamp(26px,3.5vw,40px);letter-spacing:-.06em;display:block;line-height:1.1;margin:9px 0 6px}
+.kpi b small{font-size:14px;letter-spacing:0;margin-left:3px}
+.kpi .overline{color:#788183;font-weight:700;font-size:11px}
+.kpi .note{color:#6d787d;font-size:11px}
+.kpi.primary{background:var(--lime);border-color:var(--lime)}
+.kpi.primary .overline,.kpi.primary .note{color:#3b4a31}
+.charts{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:12px;margin-top:12px}
+.panel{border:1px solid var(--line);background:#fff;border-radius:20px;padding:25px 26px;min-width:0}
+.p-title{font-size:15px;font-weight:850;letter-spacing:-.02em}
+.p-note{font-size:11px;color:#7b8587;margin-top:5px}
+.bars{height:200px;display:flex;align-items:flex-end;gap:12px;justify-content:space-between;padding-top:22px;border-bottom:1px solid #e8ece8}
+.barcol{display:flex;align-items:center;flex-direction:column;justify-content:flex-end;flex:1;min-width:0;height:100%;gap:4px}
+.bar-value{font-size:11px;color:#687778;font-variant-numeric:tabular-nums}
+.bar{width:min(30px,100%);background:#d9e4d7;border-radius:7px 7px 0 0;min-height:4px}
+.bar.latest{background:var(--ink)}
+.barlabel{font-size:10px;color:#7d8586;position:relative;top:24px;white-space:nowrap}
+.legend{margin-top:38px;color:#7a8585;font-size:11px}
+.interval-rows{margin-top:30px;display:grid;gap:17px}
+.int-row .int-top{display:flex;justify-content:space-between;align-items:end;gap:10px;font-size:12px;font-weight:750}
+.int-top span:last-child{color:#647479;font-size:11px}
+.track{background:#eef2ef;height:10px;border-radius:10px;overflow:hidden;margin-top:8px}
+.fill{height:100%;background:#c6d5d0;border-radius:10px}
+.fill.new{background:var(--blue)}
+.rowmeta{color:#748083;font-size:11px;margin-top:9px}
+.insight-block{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr);gap:12px;margin-top:13px}
+.coach-call{background:var(--ink);border-radius:20px;padding:27px 28px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;min-height:245px}
+.coach-icon{width:37px;height:37px;background:var(--lime);border-radius:12px;color:var(--ink);display:grid;place-items:center;font-size:21px}
+.coach-call h3{font-weight:900;font-size:26px;line-height:1.22;letter-spacing:-.04em;margin:25px 0 14px}
+.coach-call p{font-size:12px;color:#c1caca;margin:0}
+.insight-list{border:1px solid var(--line);background:#fff;border-radius:20px;padding:12px 25px}
+.insight{display:grid;grid-template-columns:31px 1fr;gap:10px;padding:15px 0}
+.insight+.insight{border-top:1px solid #edf0ed}
+.insight em{font-style:normal;font-size:12px;font-weight:800;color:#647577}
+.insight strong{display:block;font-size:13px}
+.insight p{margin:4px 0 0;font-size:12px;color:#697779;line-height:1.6}
+.compare-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:32px 0 12px}
+.compare-title strong{font-size:15px}
+.petra-list{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.petra-card{background:transparent;border:1px solid #d9dfda;border-radius:16px;padding:18px}
+.petra-card small{font-size:10px;color:#708080}
+.petra-card b{font-size:24px;letter-spacing:-.04em;display:block;margin:7px 0 3px}
+.petra-card strong{font-size:12px}
+.petra-card p{font-size:11px;color:#697879;margin:7px 0 0;line-height:1.6}
+.plan-intro{background:#e7f0e3;border:1px solid #d7e6d1;border-radius:16px;padding:17px 21px;margin-bottom:17px;font-size:13px;color:#2f4a3e}
+.plan-intro strong{color:#163426}
+.week-stack{display:grid;gap:11px}
+.week{border:1px solid var(--line);border-radius:20px;background:white;overflow:hidden}
+.week summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:16px;padding:21px 25px}
+.week summary::-webkit-details-marker{display:none}
+.week-count{display:grid;place-items:center;flex:0 0 51px;height:51px;border-radius:13px;background:#f0f3ef;font-weight:850;font-size:14px}
+.week[open] .week-count{background:var(--lime)}
+.week-heading{flex:1;min-width:0}
+.week-heading strong{font-size:16px;display:block;letter-spacing:-.03em}
+.week-heading span{display:block;font-size:11px;color:#768487;margin-top:1px}
+.week-km{font-size:12px;color:#47585b;font-weight:850;white-space:nowrap}
+.arrow{font-size:20px;color:#687879;transform:rotate(0);transition:transform .2s}
+.week[open] .arrow{transform:rotate(45deg)}
+.week-body{border-top:1px solid #e9ece9;padding:15px 25px 22px}
+.week-focus{font-size:12px;color:#5c7473;margin:0 0 15px}
+.dayrow{display:grid;grid-template-columns:40px 90px minmax(0,1fr);gap:13px;align-items:baseline;padding:10px 0}
+.dayrow+.dayrow{border-top:1px dashed #edf1ed}
+.day{font-weight:900;font-size:11px;color:#889395}
+.kind{font-weight:800;font-size:10px;border-radius:6px;padding:4px 7px;white-space:nowrap;width:max-content;background:#ecf0eb;color:#53655c}
+.kind.run{background:#e9edff;color:#4969c9}
+.kind.strength{background:#e5f5d0;color:#446a1c}
+.kind.conditional{background:#fff0da;color:#986629}
+.daycontent strong{display:block;font-size:12px}
+.daycontent p{font-size:11px;color:#7c8586;margin:4px 0 0;line-height:1.58}
+.strength-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+.lift{background:#fff;border:1px solid var(--line);border-radius:18px;padding:21px}
+.lift .letter{font-size:36px;line-height:1;font-weight:950;letter-spacing:-.07em}
+.lift .category{color:#758383;font-size:10px;letter-spacing:.11em;font-weight:800}
+.lift h3{font-size:17px;letter-spacing:-.04em;margin:8px 0 13px}
+.lift ul{padding-left:17px;margin:0;color:#667377;font-size:11px;line-height:1.8}
+.roadmap{border:1px solid var(--line);border-radius:20px;background:#fff;padding:14px 26px}
+.phase{display:grid;grid-template-columns:98px 1fr;gap:18px;padding:19px 0}
+.phase+.phase{border-top:1px solid #e8eeea}
+.phase-date{font-weight:850;font-size:12px}
+.phase-name{font-size:10px;color:#82918c;letter-spacing:.1em;font-weight:850}
+.phase h3{margin:5px 0;font-size:16px;letter-spacing:-.03em}
+.phase p{font-size:12px;color:#6f7d7d;margin:0}
+.fineprint{margin:28px 0 0;font-size:11px;color:#758183;line-height:1.65}
+.foot{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #dadfdb;padding:26px 0 100px;margin-top:50px;color:#728181;font-size:11px;flex-wrap:wrap}
+.foot a{color:#5a6969;text-decoration:underline;text-underline-offset:3px}
+.bottomnav{position:fixed;bottom:0;left:0;right:0;background:#fcfdfaee;backdrop-filter:blur(18px);border-top:1px solid #e2e7e2;display:none;z-index:20;padding:8px max(16px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+.bottomnav a{display:flex;flex-direction:column;align-items:center;gap:2px;flex:1;text-decoration:none;font-size:10px;color:#617170;font-weight:800;padding:4px}
+.bottomnav svg{height:19px;width:19px}
+.loading,.error{padding:36px 0;color:#556467}
+.error{background:#fff2ec;padding:20px;border-radius:14px;margin:20px 0}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.charts,.insight-block{grid-template-columns:1fr}.petra-list{grid-template-columns:repeat(2,1fr)}.strength-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.wrap{width:calc(100% - 28px)}.top{height:65px}.strap{font-size:9px}.hero{border-radius:24px;padding:29px 25px 28px;min-height:0}.h-title{font-size:46px;margin:24px 0 16px}.h-sub{font-size:13px}.hero-bottom{margin-top:36px;display:block}.events{gap:7px}.event{min-width:0;flex:1;padding:9px 11px}.event b{font-size:13px}.event span{font-size:10px}.countdown{margin-top:19px;justify-content:flex-start}.countdown strong{font-size:44px}.section{padding-top:47px}.sec-heading{align-items:start;margin-bottom:16px}.sec-aside{display:none}.kpis{gap:9px}.kpi{padding:16px 14px;border-radius:15px}.kpi b{font-size:32px}.panel{padding:20px 17px}.bars{gap:7px}.barlabel{font-size:9px}.petra-list{gap:8px}.petra-card{padding:14px}.petra-card b{font-size:23px}.coach-call{min-height:0;padding:22px}.coach-call h3{margin-top:17px}.insight-list{padding:7px 18px}.week summary{padding:16px 14px;gap:10px}.week-count{width:43px;height:43px;flex-basis:43px;font-size:12px}.week-heading strong{font-size:14px}.week-heading span{font-size:10px}.week-km{font-size:10px}.week-body{padding:14px 15px 19px}.dayrow{grid-template-columns:33px 67px minmax(0,1fr);gap:7px}.kind{font-size:9px;padding:3px 4px}.phase{grid-template-columns:75px 1fr;gap:12px}.roadmap{padding:9px 16px}.phase-date{font-size:11px}.foot{padding-bottom:115px}.bottomnav{display:flex}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <a href="#top" class="brand"><span class="mark">HX</span><span>HYROX <span style="color:#718081">/</span> LAB</span></a>
+  <span class="strap"><span class="pulse"></span> ALVIN · TAIPEI 2027</span>
+</header>
+<main class="wrap main" id="top">
+<section class="hero">
+  <div class="eyebrow">●　TRAINING INTELLIGENCE　/　2027</div>
+  <h1 class="h-title">STRONGER.<br>SMARTER.<br><span style="color:var(--lime)">READY.</span></h1>
+  <p class="h-sub">週五混雙，週六男單。你的目標不是每堂練爆，而是第二場還能穩穩完賽。</p>
+  <div class="hero-bottom">
+    <div class="events"><div class="event"><b>03.12 · FRI</b><span>STACY × ALVIN · MIXED</span></div><div class="event"><b>03.13 · SAT</b><span>MEN OPEN · 穩定完賽</span></div></div>
+    <div class="countdown"><strong id="days">—</strong><span>DAYS<br>TO MEN OPEN</span></div>
+  </div>
+</section>
+<div id="app" class="loading">正在載入訓練分析…</div>
+</main>
+<nav class="bottomnav" aria-label="頁面導覽">
+<a href="#review"><svg fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path d="M3 17h18M5 14l4-5 4 3 6-7"/></svg>回顧</a>
+<a href="#insights"><svg fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path d="m12 2 3.2 6.8L22 12l-6.8 3.2L12 22l-3.2-6.8L2 12l6.8-3.2z"/></svg>分析</a>
+<a href="#plan"><svg fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 2v6M16 2v6M4 11h16"/></svg>課表</a>
+<a href="#roadmap"><svg fill="none" stroke="currentColor" stroke-width="1.7" viewBox="0 0 24 24"><path d="M3 20c5-8 7-2 11-10s6-4 7-8"/><path d="M15 2h6v6"/></svg>備賽</a>
+</nav>
+<script>
+const e=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt=n=>Number(n).toFixed(1);
+const mmss=s=>Math.floor(s/60)+":"+String(Math.round(s%60)).padStart(2,"0");
+const kinds={skill:"技巧",strength:"力量",run:"品質跑",easy:"Easy",rest:"恢復",conditional:"彈性"};
+const daysLeft=Math.max(0,Math.ceil((new Date("2027-03-13T00:00:00+08:00").getTime()-Date.now())/86400000));
+document.getElementById("days").textContent=daysLeft;
+function render(d){
+ const s=d.metrics, weeks=d.weeklyKm, max=Math.max(22,...weeks.map(x=>x.km));
+ document.getElementById("app").className="";
+ document.getElementById("app").innerHTML=
+ '<section class="section" id="review"><div class="sec-heading"><div><div class="kicker">01 / PERFORMANCE REVIEW</div><h2>你練過的，都有數據。</h2></div><div class="sec-aside">Garmin + Petra · 截至 '+e(d.dataThrough)+'</div></div>'+
+ '<div class="kpis">'+
+ '<div class="kpi primary"><div class="overline">近期週跑量</div><b>'+fmt(s.recentWeekKm)+'<small>km</small></b><div class="note">包含本週已記錄的所有跑步活動</div></div>'+
+ '<div class="kpi"><div class="overline">跑步累積</div><b>'+fmt(s.totalKm)+'<small>km</small></b><div class="note">'+e(s.runs)+' 次 · Garmin API 樣本</div></div>'+
+ '<div class="kpi"><div class="overline">最近 400m 工作段</div><b>'+mmss(s.intervalAvgSeconds)+'</b><div class="note">11/05 · 8 組平均時間</div></div>'+
+ '<div class="kpi"><div class="overline">Row 1500m</div><b>'+e(s.row1500)+'</b><div class="note">Garmin 10/27 · 白板 '+e(s.row1500Photo)+'</div></div>'+
+ '</div>'+
+ '<div class="charts">'+
+ '<div class="panel"><div class="p-title">每週跑量走勢</div><div class="p-note">km / 依週一分組。首週和最後一週為不完整週。</div><div class="bars">'+weeks.map((x,i)=>'<div class="barcol"><div class="bar-value">'+fmt(x.km)+'</div><div class="bar '+(i===weeks.length-1?'latest':'')+'" style="height:'+Math.round(x.km/max*141)+'px"></div><span class="barlabel">'+e(x.w)+'</span></div>').join('')+'</div><div class="legend">觀察重點：週跑量逐步上升，但目前仍要優先讓身體適應 16–21km 左右的負荷。</div></div>'+
+ '<div class="panel"><div class="p-title">間歇課比較</div><div class="p-note">Garmin FIT 真實 Lap，工作段平均時間；不同趟數不可當同條件測驗</div><div class="interval-rows">'+d.intervals.map((x,i)=>'<div class="int-row"><div class="int-top"><span>'+e(x.date)+' · '+e(x.label)+'</span><span>'+mmss(x.avgSec)+'/ 400m</span></div><div class="track"><div class="fill '+(i===1?'new':'')+'" style="width:'+Math.min(100,95*(120/x.avgSec))+'%"></div></div><div class="rowmeta">工作段均心率 '+e(x.avgHr)+' bpm · '+e(x.note)+'</div></div>').join('')+'</div></div>'+
+ '</div><div class="compare-title"><strong>Petra · 已驗證的個人成績</strong><span class="sec-aside">白板照片與 Garmin 交叉比對</span></div>'+
+ '<div class="petra-list">'+d.petra.map(x=>'<article class="petra-card"><small>'+e(x.date)+'</small><b>'+e(x.score)+'</b><strong>'+e(x.name)+'</strong><p>'+e(x.detail)+'</p></article>').join('')+'</div></section>'+
+ '<section class="section" id="insights"><div class="sec-heading"><div><div class="kicker">02 / COACH REVIEW</div><h2>不是更累，是更有策略。</h2></div></div>'+
+ '<div class="insight-block"><div class="coach-call"><div class="coach-icon">✦</div><div><h3>'+e(d.coach.headline)+'</h3><p>'+e(d.coach.summary)+'</p></div></div>'+
+ '<div class="insight-list">'+d.coach.findings.map((x,i)=>'<div class="insight"><em>0'+(i+1)+'</em><div><strong>'+e(x.title)+'</strong><p>'+e(x.body)+'</p></div></div>').join('')+'</div></div>'+
+ '<p class="fineprint">資料限制：'+e(d.coach.limitation)+'</p></section>'+
+ '<section class="section" id="plan"><div class="sec-heading"><div><div class="kicker">03 / NEXT 4 WEEKS</div><h2>下一步，練什麼。</h2></div><div class="sec-aside">點開任一週查看每天的安排</div></div>'+
+ '<div class="plan-intro"><strong>每週核心原則：</strong>World Gym 三大項 2–3 堂、Petra 1–2 堂；跑步以 1 堂品質課＋1 堂 Easy 為主。<strong>週三如果做強度 WOD，週四 Interval 就改 Easy。</strong> 不必為了湊次數犧牲恢復。</div>'+
+ '<div class="week-stack">'+d.weeks.map((w,i)=>'<details class="week" '+(i===0?'open':'')+'><summary><span class="week-count">'+e(w.week)+'</span><span class="week-heading"><strong>'+e(w.tag)+'</strong><span>'+e(w.dates)+'</span></span><span class="week-km">'+e(w.km)+'</span><span class="arrow">+</span></summary><div class="week-body"><p class="week-focus">'+e(w.focus)+'</p>'+w.days.map(a=>'<div class="dayrow"><span class="day">'+e(a[0])+'</span><span class="kind '+e(a[3])+'">'+e(kinds[a[3]]||a[3])+'</span><div class="daycontent"><strong>'+e(a[1])+'</strong><p>'+e(a[2])+'</p></div></div>').join('')+'</div></details>').join('')+'</div>'+
+ '<div class="compare-title"><strong>World Gym · 三大項力量模板</strong><span class="sec-aside">需要時再展開，其他天不用看</span></div>'+
+ '<div class="strength-grid">'+d.lifts.map(x=>'<article class="lift"><div class="category">'+e(x.tag)+'</div><div class="letter">'+e(x.id)+'</div><h3>'+e(x.name)+'</h3><ul>'+x.movements.map(m=>'<li>'+e(m)+'</li>').join('')+'</ul></article>').join('')+'</div></section>'+
+ '<section class="section" id="roadmap"><div class="sec-heading"><div><div class="kicker">04 / ROAD TO RACE DAY</div><h2>一路到三月，循序漸進。</h2></div></div>'+
+ '<div class="roadmap">'+d.phases.map(x=>'<div class="phase"><div class="phase-date">'+e(x.dates)+'</div><div><div class="phase-name">'+e(x.label)+'</div><h3>'+e(x.head)+'</h3><p>'+e(x.detail)+'</p></div></div>').join('')+'</div>'+
+ '<p class="fineprint">本計畫依現有訓練紀錄制定，並非醫療評估；若持續疼痛、異常疲倦或受傷，降低負荷並請教專業人員。賽程與起跑時間以 HYROX 官方最新公告為準。</p></section>'+
+ '<footer class="foot"><span><b>HYROX / LAB</b> · ALVIN · 更新 '+e(d.updated)+'<br>'+e(d.privacy)+'</span><span>'+d.sources.map(x=>'<a href="'+e(x.url)+'" rel="noopener noreferrer" target="_blank">'+e(x.title)+'</a>').join(' · ')+'</span></footer>';
+ document.querySelectorAll('.week').forEach(el=>el.addEventListener('toggle',()=>{if(el.open)document.querySelectorAll('.week').forEach(other=>{if(other!==el)other.open=false})}));
+}
+fetch('./data/report.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(render).catch(err=>{
+document.getElementById('app').className='error';
+document.getElementById('app').innerHTML='目前無法載入訓練資料。請確認網路連線，或從 <a href="./data/report.json">資料連結</a> 檢查更新狀態。';
+console.warn('HYROX Data load failed',err);
+});
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
+</script>
+</body>
+</html>
