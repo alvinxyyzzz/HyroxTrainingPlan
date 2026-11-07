@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "updated": "2026-11-07",
   "dataThrough": "2026-11-07",
   "lastSync": "2026-11-07 18:15 Asia/Taipei",
@@ -453,7 +453,11 @@
     "garminNewActivities": 5,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "2026-11-07 lower-body session user + Garmin 17:00/17:12 strength and 17:34 Wall Ball HIIT; Garmin has no reliable sets, weights or standalone 1000m SkiErg record."
+    "latestActivityCrossCheck": "2026-11-07 lower-body session user + Garmin 17:00/17:12 strength and 17:34 Wall Ball HIIT; Garmin has no reliable sets, weights or standalone 1000m SkiErg record.",
+    "petraRegistryIndexed": 35,
+    "petraRegistryPending": 0,
+    "petraRegistryBaseline": "2026-11-07",
+    "petraIncrementalMode": true
   },
   "recentWorkout": {
     "date": "2026-11-07",
@@ -501,5 +505,13 @@
       "Bench Press"
     ],
     "usage": "力量先做大項；Sled/Ski/Row/Wall Ball 僅少量技巧或有氧補充。Petra 前日若已有類似高強度站點，World Gym 刪減重複負荷。"
+  },
+  "photoProcessing": {
+    "mode": "Only newly added / modified Petra photos (by Drive file ID + modifiedTime)",
+    "historicalRecordsReused": true,
+    "indexed": 35,
+    "pending": 0,
+    "source": "Petra_Photo_Audit_v5 + Petra_Photo_Registry",
+    "asOf": "2026-11-07"
   }
 }
