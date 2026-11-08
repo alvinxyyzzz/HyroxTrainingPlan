@@ -3,12 +3,12 @@
   "name": "HYROX Performance Lab · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=v7",
+  "start_url": "./?app=v8",
   "scope": "./",
   "display": "standalone",
-  "description": "你的 HYROX 雙日賽事訓練教練 · 今日課表 / 過往分析 / 四週計畫",
-  "background_color": "#10141c",
-  "theme_color": "#12161f",
+  "description": "HYROX Taipei 雙日賽事 · 今日教練安排、科學訓練分析與四週計畫",
+  "background_color": "#f6f5f1",
+  "theme_color": "#f6f5f1",
   "icons": [
     {
       "src": "./icon-180-v7.png",
