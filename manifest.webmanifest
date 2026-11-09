@@ -1,29 +1,23 @@
 {
   "id": "./",
-  "name": "HYROX Performance Lab · Alvin",
+  "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=v8",
+  "start_url": "./?app=v9",
   "scope": "./",
   "display": "standalone",
-  "description": "HYROX Taipei 雙日賽事 · 今日教練安排、科學訓練分析與四週計畫",
-  "background_color": "#f6f5f1",
-  "theme_color": "#f6f5f1",
+  "description": "Garmin + Petra 科學訓練復盤、四週計畫與 HYROX Taipei 雙日備賽",
+  "background_color": "#081621",
+  "theme_color": "#081621",
   "icons": [
     {
-      "src": "./icon-180-v7.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon-192-v7.png",
+      "src": "./icon-192-v9.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./icon-512-v7.png",
+      "src": "./icon-512-v9.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
