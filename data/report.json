@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "updated": "2026-11-08",
   "dataThrough": "2026-11-08",
   "lastSync": "2026-11-11 15:46 (Asia/Taipei) · Garmin API sync",
@@ -114,23 +114,23 @@
     }
   ],
   "coach": {
-    "headline": "核心不是湊訓練天數，而是把力量、有氧與 HYROX 耐力累積好。",
-    "summary": "以每週5天為可持續基準、恢復良好時6天；訓練模組可自由調整日期。Petra Strength + Interval、World Gym 2–3堂、Easy Run 是骨架。WOD不是每週必加的第七堂：若當週已做高心率 Petra 循環/WOD，就用它取代一個品質刺激。最新 Garmin 11/09 有 SkiErg、11/10 有約23分鐘 HIIT（平均HR169）；AI 回顧使用已核對活動，部分跑量統計仍為11/08資料快照，等待下次完整匯總。",
+    "headline": "跑得久、站點後還能跑，再讓力量穩定變強。",
+    "summary": "基於截至11/11已同步的58筆Garmin活動、11/8前完整跑量分析、36張已索引Petra白板與本人World Gym回報，本期採『5堂基礎+第6堂選配』。核心是Petra品質跑、Long Easy與可控制的混合耐力，搭配每週Squat/Bench/Trap-bar與背部拉力。若Petra Strength已是硬WOD，不能再額外堆高強度。深入圖表指標仍以11/8快照為界，不假裝已重算。",
     "findings": [
       {
         "type": "priority",
-        "title": "5天是基準，6天是恢復良好才加",
-        "body": "兩堂Petra＋兩堂World Gym全身力量＋一堂Long Easy Run，先完成五個核心刺激。若能上第六堂，再把原本混合上肢/硬拉拆成獨立World Gym C，避免補課心態。"
+        "title": "真正的必修是有氧＋肌力組合",
+        "body": "保住Petra Interval＋Long Easy（先6–8km舒適跑），上肢力量日選配20–30分鐘Easy；5天也能完成Squat、Bench、Trap-bar三大項。"
       },
       {
-        "type": "evidence",
-        "title": "心肺不只靠400m間歇",
-        "body": "每週保留一堂品質跑/混合WOD，再安排一堂可完整說話的Easy 6–9km，並在上肢日選配20–30分鐘低強度Row/Ski/慢跑。先提升持續跑與站點後再起跑的能力。"
+        "type": "conditional",
+        "title": "WOD是替換，不是加法",
+        "body": "Petra Strength若已做大量高心率WOD，就把它算入本週品質刺激；不再追加全力WOD。接近比賽才逐步提高跑步接站點訓練。"
       },
       {
-        "type": "caution",
-        "title": "避免三天連續重刺激",
-        "body": "若Petra Strength含大量蹲/推雪橇/Thruster，下一堂腿日縮減。高強度Interval前盡量不安排重腿；如果剛做RPE≥7的WOD，至少安排一個低強度日後才做下一次品質課。"
+        "type": "strength",
+        "title": "進步不是每天多一點",
+        "body": "重量、跑量和站點只選一個方向增加；每3–4週安排恢復週。兩堂重腿靠太近時先維持背部訓練並降低下肢組數。"
       }
     ],
     "limitation": "Garmin 54 筆活動不等於 54 次獨立訓練；11/08 Strength 無重量組次；11/08 Petra 白板無個人分數，無法證明 Alvin 出席。11/07 SkiErg 1000m 約5:00為自述；Row1500 白板6:18與 Garmin6:20.5差異保留。"
@@ -519,10 +519,10 @@
     "latestStatus": "WORKOUT_ONLY_NO_CLEAR_SCORE; team workout; no Alvin score"
   },
   "flexiblePlan": {
-    "version": "2026-11-11",
+    "version": "2026-11-11 v2",
     "modeDefault": 5,
-    "title": "5–6 天彈性訓練",
-    "principle": "按本週已完成的刺激與恢復狀況調順序，不將任何訓練綁定星期幾；先完成核心，只有有餘裕才增加第六堂。",
+    "title": "HYROX Hybrid Engine · 彈性5+1",
+    "principle": "不是每週硬湊三堂World Gym；以五堂有效刺激＋恢復良好才追加第六堂，心肺和混合耐力優先，三大項維持規律漸進。高強度跑和高強度WOD原則每週合計1–2堂，不能把Easy跑當可犧牲項。",
     "priorities": [
       "有氧底盤與混合耐力",
       "三大項力量與背部拉力",
@@ -531,133 +531,252 @@
     ],
     "modeFive": [
       "petra_strength",
-      "petra_interval",
       "gym_squat_pull",
+      "petra_interval",
       "gym_bench_hinge",
       "easy_long"
     ],
     "modeSix": [
+      "gym_bench_pull",
       "petra_strength",
+      "easy_long",
       "petra_interval",
       "gym_squat_pull",
-      "gym_bench_pull",
-      "gym_hinge_station",
-      "easy_long"
+      "gym_hinge_station"
     ],
     "modules": {
       "petra_strength": {
-        "label": "Petra · Strength",
+        "label": "Petra｜Strength / 技巧",
         "kind": "skill",
-        "level": "核心",
-        "time": "45–60 分",
-        "goal": "全身力量、技巧與動作控制",
-        "detail": "依當週白板：記錄深蹲、推舉、Lunge、Sled、Row與實際RPE。若變成高心率AMRAP/WOD，當成主要混合強度，不另外追加全力WOD。",
-        "constraint": "上課有大量腿部動作時，下一次Squat/Trap-bar降到2組或延後。"
+        "level": "必要·肌力",
+        "time": "45–60分",
+        "goal": "動作技術＋全身力量；若WOD很硬，記作當週品質刺激",
+        "detail": "照白板實際動作和Alvin個人成績練，特別追蹤Squat、Thruster、Lunge、Sled、Row/Ski。若含15–30分高心率AMRAP，等同一個強度日，不再補一堂高強度WOD。",
+        "constraint": "前後24–48小時已有重深蹲／六角槓時，腿部動作保持RIR3或縮短量；當週是否真的上課，以白板及Garmin時間交叉驗證。"
       },
       "petra_interval": {
-        "label": "Petra · Interval Run",
+        "label": "Petra｜Interval Run",
         "kind": "run",
-        "level": "核心",
-        "time": "40–60 分",
-        "goal": "品質跑、心肺上限與跑姿穩定",
-        "detail": "依教練安排做200m節奏轉換／400m重複跑。以均勻完成工作段為先，不追每趟極速。熱身收操都記錄但不拿來和工作段配速混算。",
-        "constraint": "重腿或高強度WOD後24–48h內若仍酸重，改Easy Run/跳過強度。"
+        "level": "必要·品質跑",
+        "time": "45–60分",
+        "goal": "提升速度儲備、閾值與高負荷後穩速能力",
+        "detail": "依教練安排做間歇；例如200m快＋200m緩的連續節奏轉換，再6–8×400m可控完成。配速不必每堂衝4:00，優先每趟穩定、姿勢不散、組間恢復一致。",
+        "constraint": "若之前48小時有強腿／WOD後腿沉，減趟數或改Easy；每週與硬WOD合計最多約2次強刺激。"
       },
       "gym_squat_pull": {
-        "label": "World Gym A · 深蹲＋背",
+        "label": "World Gym｜深蹲＋背",
         "kind": "strength",
-        "level": "核心",
-        "time": "55–70 分",
-        "goal": "深蹲力量、背部垂直和水平拉力",
-        "detail": "Back Squat 3×4–6 RIR2–3（腿疲勞時2組）；Lat Pulldown/引體 3×6–10；Chest-supported Row 3×8–12；Leg Curl 2×10–15。選配Easy Row 6–10分鐘。",
-        "constraint": "前一天Petra大量Squat/Lunge/Sled則優先背、減少深蹲。"
+        "level": "必要·力量",
+        "time": "55–70分",
+        "goal": "下肢最大力量與背部拉力，保持低技術失誤",
+        "detail": "Back Squat 3×4–6（RIR2–3）；Lat Pulldown／引體 3×6–10；Chest-supported Row 3×8–12；Leg Curl 2×10–15。若本週腿重，深蹲改2組或只練背。",
+        "constraint": "在Interval前一天不做重蹲；Petra有大腿部WOD時適度降量；可選6–8分鐘輕Row技巧，不做全力。"
       },
       "gym_bench_pull": {
-        "label": "World Gym B · 臥推＋肩＋背",
+        "label": "World Gym｜臥推＋肩＋背",
         "kind": "strength",
-        "level": "核心",
-        "time": "50–65 分",
-        "goal": "上肢力量、背部容量、推拉平衡",
-        "detail": "Bench Press 3×4–6 RIR2–3；DB Shoulder Press 2×8–10（Petra推舉量大則省略）；Chest-supported Row 3×8–12；Rear Delt/側平舉各2×12–15。選配Easy Ski/Run 20–30分鐘。",
-        "constraint": "肩背痠痛時縮小推舉量，背部維持控制品質。"
+        "level": "必要·六天版",
+        "time": "55–70分",
+        "goal": "胸肩維持力量，背部給足訓練量",
+        "detail": "Bench 3×4–6（RIR2–3）；Shoulder Press 2×8–10（Petra推舉多則略過）；Chest-supported Row 3×8–12；Lat Pulldown 2×8–12；側/後三角各2組。若恢復好，最後加20–30分鐘輕鬆Row／Ski／慢跑。",
+        "constraint": "Easy補量只能是可說話強度；和大重量同日先做力量、再Easy，必要時分開數小時。"
       },
       "gym_bench_hinge": {
-        "label": "World Gym B · 臥推＋六角槓＋背",
+        "label": "World Gym｜臥推＋六角槓＋背",
         "kind": "strength",
-        "level": "核心（5天版）",
-        "time": "65–75 分",
-        "goal": "兩堂World Gym也能涵蓋三大項與背部",
-        "detail": "Bench 3×4–6；Trap-bar Deadlift 2×3–5 RIR≥3（若Petra腿重只做輕技巧2組）；胸靠划船3×8–12；下拉2×8–12；側平舉2×12–15。跳過高強度Station收尾。",
-        "constraint": "不在同堂把Bench和Trap-bar都做到極限；重點在穩定技術與漸進。"
+        "level": "必要·五天版",
+        "time": "60–75分",
+        "goal": "兩堂健身房也涵蓋三大項與背部訓練",
+        "detail": "臥推3×4–6（RIR2–3）→ 六角槓硬拉2×3–5（RIR≥3，不追PR）→ 胸靠划船3×8–12 → 下拉2×8–12 → 後三角2×12–15。額外時間選配20分鐘很Easy Ski／Row。",
+        "constraint": "兩項大重量不都拚極限；如果Petra剛做大量蹲/雪橇，就把六角槓改成2組輕技術，或全程上肢＋Easy。"
       },
       "gym_hinge_station": {
-        "label": "World Gym C · 六角槓＋站點",
+        "label": "World Gym｜六角槓＋HYROX站點",
         "kind": "strength",
-        "level": "第6堂才加入",
-        "time": "50–65 分",
-        "goal": "Hinge力量與站點耐力效率",
-        "detail": "Trap-bar Deadlift 2–3×3–5 RIR2–3；High Row 3×8–12；Farmer Carry 2×30–40m；視Petra當週動作選擇Wall Ball 2×10–15／Sled 2–4趟／SkiErg 500–1000m節奏練習其中一項。",
-        "constraint": "只選一個Station；若本週已做高量WOD或腿部疲勞，省略Station甚至取消此堂。"
+        "level": "第六堂·選配",
+        "time": "50–65分",
+        "goal": "髖伸展力量、握力、站點效率和站點後再出發",
+        "detail": "Trap-bar 2–3×3–5（RIR2–3）；High Row 3×8–12；Farmer Carry 2×30–40m。站點只選一項：Wall Ball 2–3×10–15（6kg若姿勢可控）、Sled輕技術2–4趟、或Ski／Row 6–10分鐘Easy。每隔1–2週可取代收尾做12–18分鐘可控run→station循環。",
+        "constraint": "站點補充非必修；若該週Petra已做Sled、Lunge、Thruster或高量WB就省略同類負荷。重腿日不要以全力WOD收尾。"
       },
       "easy_long": {
-        "label": "Long Easy · 有氧底盤",
+        "label": "Long Easy｜有氧底盤",
         "kind": "easy",
-        "level": "核心",
-        "time": "40–60 分",
-        "goal": "穩定連續跑、後程不崩的基礎",
-        "detail": "起始6–8km RPE3–4、能完整說話；恢復良好再逐步加至8–10km，不追配速PR。若膝蓋不適改RowErg或Bike 35–50分鐘Easy。",
-        "constraint": "和重腿可錯開；間歇表現正常也不能取代這堂。"
+        "level": "必要·跑步",
+        "time": "40–65分",
+        "goal": "長時間低負荷輸出，為8公里跑＋8站耐力打底",
+        "detail": "目前以6–8km、RPE3–4／完整可說話為主，從時間漸進到8–10km；配速不追快。若膝蓋腫脹／疼痛或下肢疲勞高，用RowErg或Bike 35–50分低強度替代。",
+        "constraint": "不可因本週400m跑得很快而刪掉Easy；延長時一次只加約5–10分鐘，依恢復回退。"
       }
     },
     "microAerobic": "若6堂難以兼顧第二次Easy跑，World Gym上肢日加入20–30分鐘Easy跑/Row/Ski（心率及呼吸容易控制），不要再加一個硬WOD。",
     "optionalWod": "不是每週強制：若Petra Strength已是RPE≥7 WOD或週四Interval很硬，本週不再加全力WOD。狀態好時每1–2週可將World Gym C Station改成10–20分鐘可控HYROX混合耐力；1月開始逐步增加賽事專項。不得當作第7堂。",
     "ordering": [
-      "每週最多1堂主要高強度跑／混合耐力；Petra Strength若變高強度也算品質刺激。",
-      "高強度Interval前，盡量避開24–48小時內的重Squat/Trap-bar；有痠痛直接交換模組。",
-      "World Gym深蹲與六角槓重負荷之間盡量留48小時；若做不到改RIR≥3、降組。",
-      "一週至少1堂40–60分鐘Easy；狀態佳在上肢日補20–30分鐘Easy，不追配速。",
-      "主項先完成，Station最後只選一項作5–12分鐘技巧/中等強度；除非該堂已明確取代其他WOD。",
-      "有膝部腫脹、疼痛或動作失控時停止增加下肢負荷並適當就醫。"
+      "先排Petra兩堂與Long Easy，剩下World Gym排在下肢和高強度刺激錯開的日子。日期是建議，不是硬規定。",
+      "高強度Interval和高心率WOD合計通常不超過2次／週；重腿或腰背DOMS高時兩次強刺激間插入Easy／休息。",
+      "重Squat與Trap-bar儘量隔約48小時；如果時間限制不得不靠近，用RIR≥3／減組避免下肢累積。",
+      "若力量與有氧同天，先做該日主要目標；想保有力量訓練品質可先重訓後Easy，能分開數小時更好。",
+      "重要週進步只增加一項變量（重量、週跑時間或站點容量），不要三者一起加；第3週減量。",
+      "有膝蓋腫脹、持續疼痛、跑姿改變時停止加量；必要時尋求專業評估。"
     ],
     "adaptiveChecks": [
       {
-        "signal": "Petra Strength/WOD 腿部高量",
-        "action": "下次深蹲或六角槓減1–2組，先練背；保留Easy。"
+        "signal": "Garmin 最近7日跑量升超過以往習慣／Easy跑心率同條件偏高＋主觀疲勞",
+        "action": "先減下週強度或持平跑量，保留Easy，不加額外WOD；不僅憑單次心率判定過訓。"
       },
       {
-        "signal": "Interval品質下降／後半趟掉速",
-        "action": "不直接加速度；先核對前一兩天重腿、睡眠與跑量；下週品質課減總趟數10–20%。"
+        "signal": "Petra 白板 / Garmin 對到高心率 AMRAP/WOD，含大量蹲、推舉或Lunge",
+        "action": "把該堂記作硬訓練；重腿/肩推減組，下次間歇減趟或在48小時後進行。"
       },
       {
-        "signal": "週跑量明顯增加＋腿沉",
-        "action": "維持週跑量或短暫回落，不新增WOD；下一週Easy跑優先。"
+        "signal": "400m 後半趟掉速明顯、或恢復時間變長",
+        "action": "先查前48小時負荷、睡眠和跑量；下週間歇維持或減10–20%趟數，而非追更快配速。"
       },
       {
-        "signal": "力量重量、次數穩定且RIR保留",
-        "action": "每1–2週於主要動作只小幅增重或多1次；不和Station總量同時加。"
+        "signal": "深蹲／臥推／六角槓連兩次同重量同品質且保留RIR2–3",
+        "action": "下一次該動作微幅加重或每組多1次，不同時提高Station數量。"
       },
       {
-        "signal": "只有5個訓練日",
-        "action": "保留兩堂Petra＋2堂World Gym全身力量＋1堂Easy；不補第六堂。"
+        "signal": "HYROX 站點後重新跑時配速崩落",
+        "action": "以短距離（200–500m）中等強度跑接單站點，練節奏與呼吸，逐漸延長而不是全力衝站點。"
+      },
+      {
+        "signal": "本週只完成5個核心模組",
+        "action": "不用補第六堂，遵守下週負荷；第五堂Long Easy優先保住。"
       }
     ],
     "weekAdjustments": [
       {
         "week": 0,
-        "detail": "本週以恢復和穩定為主；Petra 11/10 HIIT HR169後，不急著補WOD。跑量目標16–20km為上限引導，實際依週中已跑距離調整。"
+        "detail": "11/9–11/15：Garmin有11/10 HIIT約23分鐘（均心169）；本週先穩定16–20km而非加跑量，兩次下肢重刺激都留RIR2–3，避免加全力WOD。"
       },
       {
         "week": 1,
-        "detail": "若前一週疲勞低，長Easy增加約5–10分鐘或主要動作小幅加重，兩者不必同週都加。"
+        "detail": "11/16–11/22：若上週Easy跑舒適、強度課後腿能恢復，長Easy延長約5–10分鐘，或深蹲/臥推/硬拉微增重；只選一項增加。"
       },
       {
         "week": 2,
-        "detail": "Deload，力量工作組減30–40%，站點只技巧，不追400m配速。"
+        "detail": "11/23–11/29：Deload，主要力量工作組減30–40%，Long Easy維持輕鬆不做PR；站點只技術。"
       },
       {
         "week": 3,
-        "detail": "恢復後回到正常量，開始更有結構的跑後Station轉換，不額外堆WOD。"
+        "detail": "11/30–12/6：恢復良好回到基礎量，從Station少量run→station轉換（例如500m舒適跑＋Wall Ball 10–12）而非追加高強度WOD。"
       }
-    ]
-  }
+    ],
+    "modes": {
+      "5": {
+        "title": "5天｜完成必要刺激",
+        "sessions": 5,
+        "strengthTouches": 3,
+        "runOrAerobicTouches": "2＋選配20–30分鐘Easy",
+        "hardSessions": "1–2（含Petra硬WOD）",
+        "note": "Petra Strength也算1次力量刺激，World Gym兩堂做全身大項而非單純推拉腿；上肢／六角槓同堂不追雙PR。"
+      },
+      "6": {
+        "title": "6天｜力量多一堂，耐力不打折",
+        "sessions": 6,
+        "strengthTouches": 4,
+        "runOrAerobicTouches": "2＋一段20–30分鐘Easy",
+        "hardSessions": "1–2（含Petra硬WOD）",
+        "note": "多出的堂數以拆分六角槓、補背和可控站點為主，而非多加高強度課。"
+      }
+    },
+    "secondaryAerobic": "每週需兩種有氧刺激：Petra Interval（品質）＋Long Easy（低強度）；另外在World Gym上肢日視恢復補20–30分鐘Easy Ski/Row/慢跑，這是增加有氧容量，不是額外HIIT。",
+    "wodStrategy": {
+      "now": "11–12月：WOD不強制每週加。若Petra Strength已是高心率WOD，算品質刺激；另一堂Interval可減量。若整週無混合刺激，在第六堂station收尾做10–15分鐘中等強度run→station即可。",
+      "specific": "1–2月：逐步增加HYROX-specific compromised running，每1–2週安排一次20–30分鐘可控循環，以取代一般station finisher或部分Interval，避免變成額外第7堂。",
+      "race": "比賽前10–14天減量，保留短速度與技術，不做超長模擬或高量腿部WOD。"
+    },
+    "doseTargets": [
+      {
+        "metric": "低強度有氧",
+        "minimum": "1×40–65分鐘 Long Easy",
+        "bonus": "再加1×20–30分鐘Easy（同天上肢日也可）",
+        "why": "持續跑與站點間恢復"
+      },
+      {
+        "metric": "品質/混合強度",
+        "minimum": "Petra Interval 1次",
+        "bonus": "若Petra Strength是硬WOD，減間歇量",
+        "why": "不堆疊3個高強度日"
+      },
+      {
+        "metric": "力量大項",
+        "minimum": "Squat 2–3工作組、Bench 3組、Trap-bar 2組；背部至少6–8組",
+        "bonus": "6天版單獨拆出Trap-bar與額外背部",
+        "why": "維持力量漸進、不重腿爆炸"
+      },
+      {
+        "metric": "站點技巧",
+        "minimum": "Sled / Wall Ball / Ski/Row選一個，5–12分鐘可控",
+        "bonus": "每1–2週可替換為短run→station",
+        "why": "動作效率而非額外疲勞"
+      }
+    ],
+    "suggestedSequence": {
+      "case": "如果本週只有週二Petra Strength和週四Petra Interval",
+      "five": [
+        {
+          "day": "週一或週三",
+          "session": "World Gym｜深蹲＋背",
+          "note": "避開Petra腿部WOD；如週二是重腿，改上肢先做"
+        },
+        {
+          "day": "週二",
+          "session": "Petra Strength",
+          "note": "課表可能是純力量或高心率WOD，當日標記RPE"
+        },
+        {
+          "day": "週四",
+          "session": "Petra Interval",
+          "note": "若週二已是硬WOD，減趟數；其他日穿插休息"
+        },
+        {
+          "day": "週五或週六",
+          "session": "World Gym｜臥推＋六角槓＋背",
+          "note": "腿仍沉則六角槓減組；可選20min Easy"
+        },
+        {
+          "day": "週末另一天",
+          "session": "Long Easy 6–8km",
+          "note": "慢、穩、不追配速；前一晚腿特別累則縮短"
+        }
+      ],
+      "six": [
+        {
+          "day": "週一（可換週五）",
+          "session": "World Gym｜臥推＋肩＋背",
+          "note": "若時間充裕補20–30min Easy"
+        },
+        {
+          "day": "週二",
+          "session": "Petra Strength",
+          "note": "標記是否硬WOD"
+        },
+        {
+          "day": "週三或週末",
+          "session": "Long Easy",
+          "note": "只要間歇與腿部疲勞允許"
+        },
+        {
+          "day": "週四",
+          "session": "Petra Interval",
+          "note": "主要品質跑"
+        },
+        {
+          "day": "週五或週六",
+          "session": "World Gym｜深蹲＋背",
+          "note": "間歇後腿沉則先練背、深蹲減組"
+        },
+        {
+          "day": "另一個可用日",
+          "session": "World Gym｜六角槓＋站點",
+          "note": "與重蹲盡量隔48小時，不需每次做WOD"
+        }
+      ]
+    },
+    "selectionRationale": "HYROX是8×1km跑+8站點，對有氧底盤、受疲勞影響下的持續跑、全身肌耐力與力量都有需求；目前重視累積容量，1月起逐漸轉入專項。2026 ACSM對力量訓練建議規律參與與依目標調整；並行訓練可兼顧力量與耐力但需避免重腿/高強度密集。"
+  },
+  "planUpdated": "2026-11-11",
+  "planBasis": "Garmin confirmed 58 activities by 2026-11-11, full running analytics through 2026-11-08; Petra 36 indexed photos; latest classes inferred only when attendance/Alvin score verified."
 }
