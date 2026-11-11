@@ -2,7 +2,7 @@
   "version": "1.4.0",
   "updated": "2026-11-08",
   "dataThrough": "2026-11-08",
-  "lastSync": "2026-11-08 15:23 Asia/Taipei",
+  "lastSync": "2026-11-11 15:46 (Asia/Taipei) · Garmin API sync",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,7 +13,7 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 54,
+    "activities": 58,
     "runs": 26,
     "totalKm": 107.7,
     "recentWeekKm": 20.01,
@@ -455,7 +455,10 @@
     "petraIncrementalMode": true,
     "garminActivitiesObserved": 58,
     "garminObservedAt": "2026-11-11 15:46 Asia/Taipei",
-    "detailReanalysis": "Detailed Garmin activity import was rate limited during review; prior verified performance metrics remain based on 2026-11-08 snapshot. Do not interpret as freshly recomputed."
+    "detailReanalysis": "Detailed Garmin activity import was rate limited during review; prior verified performance metrics remain based on 2026-11-08 snapshot. Do not interpret as freshly recomputed.",
+    "rawGarminActivityCountAsOf": "2026-11-11",
+    "detailedPerformanceSnapshotAsOf": "2026-11-08",
+    "performanceNote": "58 Garmin activity count confirmed as of Nov 11; run paces, weekly km and other performance charts are still based on previously verified dataThrough snapshot and should not be misrepresented as fully recalculated."
   },
   "recentWorkout": {
     "date": "2026-11-07",
