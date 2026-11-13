@@ -1363,7 +1363,7 @@
         "target": {
           "aerobic": "40–50分鐘；不舒適改Bike/Row",
           "quality": "恢復後可控、必要時改Easy",
-          "strength": "Back Squat 2×5 RIR3；Lat Pulldown 3×8；Chest-supported Row 3×10｜Bench Press 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt 2×12；若小腿仍痠只做臥推／背",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1637,24 +1637,23 @@
               "notes": "每週WOD只算一堂。若參加Petra WOD，直接取代這堂；若Petra Strength實際是高心率AMRAP，也改選Petra WOD。保留1–2個高強度日（含跑步Interval與WOD），不要再加第三個硬課。",
               "homeSwap": {
                 "kind": "home-wod",
-                "subtitle": "居家 WOD 20–24min／不需要 World Gym",
-                "duration": "20–24 分鐘",
-                "rpe": "RPE6–7（無傷痛且恢復好才做）",
+                "subtitle": "第一週居家恢復／技巧循環（小腿允許才做）",
+                "duration": "12–16分鐘",
+                "rpe": "RPE 3–5",
                 "warmup": "5分鐘關節活動＋輕快步行",
                 "blocks": [
                   {
-                    "tag": "AT HOME · WOD",
-                    "title": "Quiet apartment-friendly HYROX conditioning",
-                    "minutes": "20–24 分鐘",
-                    "format": "4 rounds: 4min work / 1min recovery; RPE6–7",
+                    "tag": "HOME · RE-ENTRY",
+                    "title": "Gentle no-impact circuit",
+                    "minutes": "12–16分鐘",
+                    "format": "3–4 rounds ×4min",
                     "steps": [
-                      "1 分鐘原地快步／登階（若無痛且安全）",
-                      "45秒 Tempo Squat to Chair 或 Sit-to-Stand；接45秒 Incline Push-up",
-                      "45秒 Backpack Bent-over Row（背包安全、重量適當）＋45秒 Suitcase Carry／原地負重踏步",
-                      "剩餘時間調呼吸；每輪休1分鐘，避免撞地／跳躍吵鄰居",
-                      "若需要全程照顧小孩、無法安全訓練，這堂跳過，不強迫補課"
+                      "60秒原地慢走或室內移動（小腿疼痛即停止）",
+                      "60秒高位靠牆Push-up＋穩定肩胛",
+                      "60秒輕背包划船或無重量肩胛後收",
+                      "60秒休息／呼吸；不做跳躍、登階大組或高量蹲"
                     ],
-                    "note": "居家版是有限器材替代，不等於完整賽事站點暴露"
+                    "note": "11/12後小腿症狀未確認消退，不安排居家硬WOD。"
                   }
                 ],
                 "notes": "若你在家照顧孩子且無法安全離開視線或沒有適當監護安排，就略過，不要邊全力WOD邊照顧幼兒。"
@@ -1808,7 +1807,7 @@
         "target": {
           "aerobic": "45–55分鐘可交談",
           "quality": "週四品質跑按Petra實際課表，腿沉降趟數",
-          "strength": "Back Squat 3×5 RIR3；Lat Pulldown 3×8–10；Chest Row 3×10｜Bench 3×5–6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10＋後三角2×15",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -2255,7 +2254,7 @@
         "target": {
           "aerobic": "40–45分鐘Easy",
           "quality": "品質跑工作量減20–30%或Easy",
-          "strength": "Back Squat 2×5 RIR4；背部拉力4–5組｜Bench 2×5 RIR4；Trap-bar 2×3 RIR4（無痛才做）",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -2700,7 +2699,7 @@
         "target": {
           "aerobic": "50–60分鐘Easy",
           "quality": "如做跑後站點則Petra間歇適度減量",
-          "strength": "Back Squat 3×5 RIR2–3；Lat Pulldown 3×8；Chest Row 3×10｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -3147,7 +3146,7 @@
         "target": {
           "aerobic": "55–60分鐘Easy",
           "quality": "Petra工作段維持，不追每趟PR",
-          "strength": "Back Squat 3×8 RIR2–3；Leg Curl 2×12；Chest Row 4×10｜Bench 3×8 RIR2–3；Trap-bar 2×6 RIR3；Pulldown 3×10＋Rear Delt2×15",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -3594,7 +3593,7 @@
         "target": {
           "aerobic": "55–65分鐘Easy",
           "quality": "品質跑後2天不排重弓步",
-          "strength": "Front Squat 3×6 RIR3；Split Squat 2×8/側；High Row 4×10｜DB Bench 3×10；RDL 3×8 RIR3；Pulldown 3×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -4041,7 +4040,7 @@
         "target": {
           "aerobic": "60–65分鐘Easy",
           "quality": "Petra間歇穩速完成即可",
-          "strength": "Back Squat 4×5 RIR2–3；Chest Row 3×8；Pulldown 3×8｜Bench 4×6 RIR2–3；Trap-bar 3×5 RIR3；Rear Delt2×12",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -4486,7 +4485,7 @@
         "target": {
           "aerobic": "45–50分鐘Easy",
           "quality": "跑步品質減量20–30%",
-          "strength": "Back Squat 2×5 RIR4；Chest Row 3×10｜Bench 2×6 RIR4；Trap-bar 2×4 RIR4；Pulldown 3×8",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -4933,7 +4932,7 @@
         "target": {
           "aerobic": "60–70分鐘Easy",
           "quality": "Petra有品質跑就不要另加3×1km",
-          "strength": "Back Squat 4×4 RIR2–3；Chest Row 3×8；Pulldown 3×8｜Bench 3×5 RIR2–3；Trap-bar 3×4 RIR3；Rear Delt2×15",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -5380,7 +5379,7 @@
         "target": {
           "aerobic": "60–70分鐘Easy",
           "quality": "Petra若已有腿部大WOD則減雪橇量",
-          "strength": "Back Squat 3×5 RIR3；Pulldown3×8；Chest Row3×10｜Bench 3×6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -5827,7 +5826,7 @@
         "target": {
           "aerobic": "65–75分鐘Easy",
           "quality": "Petra間歇＋WOD跑量都納入同一週",
-          "strength": "Back Squat 3×5 RIR3；Reverse Lunge 2×8/側（膝舒適）；Row3×10｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Pulldown3×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -6272,7 +6271,7 @@
         "target": {
           "aerobic": "45–55分鐘Easy",
           "quality": "Interval工作量減20–30%，控制節奏",
-          "strength": "Back Squat 2×4 RIR4；Chest Row 2×10｜Bench 2×5 RIR4；Trap-bar 2×3 RIR4；Pulldown2×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -6719,7 +6718,7 @@
         "target": {
           "aerobic": "65–75分鐘Easy",
           "quality": "Petra品質跑為主，不另開高強度日",
-          "strength": "Back Squat 3×4 RIR3；Chest Row3×8；Pulldown3×8｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt2×12",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -7165,7 +7164,7 @@
         "target": {
           "aerobic": "45–60分鐘（模擬週依疲勞縮短）",
           "quality": "本週Petra品質跑改短節奏",
-          "strength": "Back Squat 2×4 RIR3–4；Chest Row3×8｜Bench 2×4 RIR3–4；Trap-bar 2×3 RIR4；Pulldown2×10",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -7611,7 +7610,7 @@
         "target": {
           "aerobic": "45–55分鐘Easy，模擬週可縮短",
           "quality": "Petra間歇減量；不加額外爆發WOD",
-          "strength": "Back Squat 2×4 RIR4；Row3×8｜Bench 2×4 RIR4；Trap-bar 2×3 RIR4；Pulldown2×8",
+          "strength": "依模式：5天選2個Push/Pull/Legs主課，6天全3個；Petra Strength可依肌群與實際組數替換；前段增肌、後段相關技巧",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -8057,7 +8056,7 @@
         "target": {
           "aerobic": "35–50分鐘Easy",
           "quality": "Petra短工作段，次數顯著減少",
-          "strength": "Back Squat 2×3 RIR4；Row2×10｜Bench 2×3 RIR4；Trap-bar 1–2×3 RIR5（可省略）",
+          "strength": "賽前降載，Push/Pull/Legs主項減工作組，不做高心率WOD",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -8331,24 +8330,22 @@
               "notes": "每週WOD只算一堂。若參加Petra WOD，直接取代這堂；若Petra Strength實際是高心率AMRAP，也改選Petra WOD。保留1–2個高強度日（含跑步Interval與WOD），不要再加第三個硬課。",
               "homeSwap": {
                 "kind": "home-wod",
-                "subtitle": "居家 WOD 20–24min／不需要 World Gym",
-                "duration": "20–24 分鐘",
-                "rpe": "RPE6–7（無傷痛且恢復好才做）",
+                "subtitle": "賽前減量 · 居家Easy Mobility，不是正式WOD",
+                "duration": "10–15分鐘",
+                "rpe": "RPE 2–3",
                 "warmup": "5分鐘關節活動＋輕快步行",
                 "blocks": [
                   {
-                    "tag": "AT HOME · WOD",
-                    "title": "Quiet apartment-friendly HYROX conditioning",
-                    "minutes": "20–24 分鐘",
-                    "format": "4 rounds: 4min work / 1min recovery; RPE6–7",
+                    "tag": "HOME · TAPER",
+                    "title": "Light activation / mobility",
+                    "minutes": "10–15分鐘",
+                    "format": "low fatigue",
                     "steps": [
-                      "1 分鐘原地快步／登階（若無痛且安全）",
-                      "45秒 Tempo Squat to Chair 或 Sit-to-Stand；接45秒 Incline Push-up",
-                      "45秒 Backpack Bent-over Row（背包安全、重量適當）＋45秒 Suitcase Carry／原地負重踏步",
-                      "剩餘時間調呼吸；每輪休1分鐘，避免撞地／跳躍吵鄰居",
-                      "若需要全程照顧小孩、無法安全訓練，這堂跳過，不強迫補課"
+                      "上肢活動度與肩胛控制約5分鐘",
+                      "輕鬆原地步行／Bike約5分鐘",
+                      "伸展與睡眠補給優先；不做深蹲爆量、跳躍或高心率循環"
                     ],
-                    "note": "居家版是有限器材替代，不等於完整賽事站點暴露"
+                    "note": "正式比賽前10–14天降載，保留體力。"
                   }
                 ],
                 "notes": "若你在家照顧孩子且無法安全離開視線或沒有適當監護安排，就略過，不要邊全力WOD邊照顧幼兒。"
@@ -8704,7 +8701,7 @@
     "hardDays": "一般每週Petra interval+WOD共1–2個主要高強度日，避免腿日／Petra高強度或WOD連三天；必要時WOD降量或取消。",
     "setTargets": "以每個肌群每週可恢復的約6–10組直接高品質工作組起步，增肌優先肌群恢復好後可逐步朝10+組靠近。機器Ski、WOD與Petra白板未核實的工作組不算精準增肌組。",
     "progression": "主要動作3×6–12 @RIR1–3，達到次數上限且動作穩定再微幅加重；每3–4週降載；增肌組與功能站訓練量分別記錄。",
-    "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。",
+    "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。 W01家用改恢復技術，W16家用改賽前低量啟動；W17無WOD。",
     "safety": "小腿/膝蓋疼痛、腫脹、步態不穩時改恢復替代方案，必要時尋求專業評估；不依賴單一Garmin心率判斷傷情。"
   }
 }
