@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "updated": "2026-11-13",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -1274,6 +1274,1217 @@
       {
         "title": "Berkshire Healthcare NHS - return to running",
         "url": "https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme"
+      }
+    ]
+  },
+  "seasonPlan": {
+    "version": "2026-11-13",
+    "firstWeek": "2026-11-16",
+    "raceDays": [
+      "2027-03-12",
+      "2027-03-13"
+    ],
+    "weeksCount": 17,
+    "blocks": [
+      {
+        "id": "foundation",
+        "name": "恢復與基礎重建",
+        "dates": "11/16–12/13",
+        "start": 1,
+        "end": 4,
+        "theme": "讓小腿恢復、建立力量基準與長時間低強度有氧",
+        "color": "mint",
+        "target": "穩定恢復後可連續輕鬆跑45–60分鐘；3大項有可記錄重量與RIR"
+      },
+      {
+        "id": "build",
+        "name": "增肌與有氧容量",
+        "dates": "12/14–01/10",
+        "start": 5,
+        "end": 8,
+        "theme": "背部、腿部有效組數逐步累積；增加低強度時間與單腿控制",
+        "color": "cyan",
+        "target": "週週能保持兩次力量刺激＋Long Easy，重量或訓練時間只小幅進步"
+      },
+      {
+        "id": "transfer",
+        "name": "HYROX 肌耐力轉換",
+        "dates": "01/11–02/07",
+        "start": 9,
+        "end": 12,
+        "theme": "讓腿、握力和心肺在跑步與站點交替下持續工作",
+        "color": "blue",
+        "target": "跑後Ski/Row/Sled/Lunge/WB的節奏穩定，避免站點一做完就跑崩"
+      },
+      {
+        "id": "specific",
+        "name": "比賽專項與雙日模擬",
+        "dates": "02/08–02/28",
+        "start": 13,
+        "end": 15,
+        "theme": "站點效率、配速、雙日賽恢復；大項轉維持",
+        "color": "violet",
+        "target": "完成一次縮量雙日模擬，並建立週五不透支、週六穩定策略"
+      },
+      {
+        "id": "taper",
+        "name": "減量與比賽",
+        "dates": "03/01–03/13",
+        "start": 16,
+        "end": 17,
+        "theme": "降低疲勞、保留速度感、睡眠與補給",
+        "color": "lime",
+        "target": "比賽週五混雙保留體力，週六男單以穩定完賽優先"
+      }
+    ],
+    "weeks": [
+      {
+        "id": "W01",
+        "index": 1,
+        "start": "2026-11-16",
+        "end": "2026-11-22",
+        "blockId": "foundation",
+        "tag": "疲勞管理優先",
+        "focus": "小腿恢復／重新定基準",
+        "why": "當前痠痛消退才安排跑步強度",
+        "load": "calf",
+        "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
+        "target": {
+          "aerobic": "40–50分鐘；不舒適改Bike/Row",
+          "quality": "恢復後可控、必要時改Easy",
+          "strength": "深蹲2×5 RIR3；臥推3×5 RIR3；六角槓2×4 RIR3；背部8組",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "恢復後可控、必要時改Easy",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×5 RIR3；臥推3×5 RIR3",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "六角槓2×4 RIR3；背部8組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "40–50分鐘；不舒適改Bike/Row",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "EMOM",
+          "prescription": "EMOM12（Ski 120m → WB 8 → Row 140m）×4，RPE≤6；小腿未恢復取消",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "記錄小腿步行/提踵反應、深蹲與臥推工作kg；不追週跑量",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W02",
+        "index": 2,
+        "start": "2026-11-23",
+        "end": "2026-11-29",
+        "blockId": "foundation",
+        "tag": "基礎容量",
+        "focus": "有氧連續時間與力量基線",
+        "why": "逐步增加Easy而非追間歇速度",
+        "load": "aerobic",
+        "priority": "逐步增加Easy而非追間歇速度",
+        "target": {
+          "aerobic": "45–55分鐘可交談",
+          "quality": "週四品質跑按Petra實際課表，腿沉降趟數",
+          "strength": "深蹲3×5；臥推3×5–6；六角槓2×4；下拉／划船共8–10組，RIR2–3",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "週四品質跑按Petra實際課表，腿沉降趟數",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲3×5；臥推3×5–6",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "六角槓2×4；下拉／划船共8–10組，RIR2–3",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "45–55分鐘可交談",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "AMRAP",
+          "prescription": "AMRAP18：慢跑300m＋反向弓步10下＋Ski150m＋Wall Ball8；RPE≤7",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "只增加跑步時間或一項主力重量，不同週同時加",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W03",
+        "index": 3,
+        "start": "2026-11-30",
+        "end": "2026-12-06",
+        "blockId": "foundation",
+        "tag": "減量",
+        "focus": "第一個恢復週",
+        "why": "消化前兩週負荷，避免小腿反彈",
+        "load": "deload",
+        "priority": "消化前兩週負荷，避免小腿反彈",
+        "target": {
+          "aerobic": "40–45分鐘Easy",
+          "quality": "品質跑工作量減20–30%或Easy",
+          "strength": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
+          "weeklyHard": "0–1短刺激"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "品質跑工作量減20–30%或Easy",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "40–45分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E3MOM",
+          "prescription": "E3MOM×4：Ski150m＋Row150m＋Wall Ball6；RPE≤5",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "睡眠、步態、關節及下週恢復比成績重要",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "減量不是退步，是給適應發生的空間"
+        ]
+      },
+      {
+        "id": "W04",
+        "index": 4,
+        "start": "2026-12-07",
+        "end": "2026-12-13",
+        "blockId": "foundation",
+        "tag": "HYROX 銜接",
+        "focus": "初階跑後站點",
+        "why": "適應轉換動作，不把它當第3堂硬課",
+        "load": "hybrid",
+        "priority": "適應轉換動作，不把它當第3堂硬課",
+        "target": {
+          "aerobic": "50–60分鐘Easy",
+          "quality": "如做跑後站點則Petra間歇適度減量",
+          "strength": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "如做跑後站點則Petra間歇適度減量",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "50–60分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E6MOM",
+          "prescription": "45分整堂：暖身10＋E6MOM×4〔跑400–500m＋Ski150m＋WB8〕＋技巧6＋收操5",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "每輪留下30–90秒恢復，動作與呼吸穩定",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W05",
+        "index": 5,
+        "start": "2026-12-14",
+        "end": "2026-12-20",
+        "blockId": "build",
+        "tag": "肌肉量",
+        "focus": "增肌基礎：背與股四頭",
+        "why": "增加有效訓練量，但保留有氧底盤",
+        "load": "hypertrophy",
+        "priority": "增加有效訓練量，但保留有氧底盤",
+        "target": {
+          "aerobic": "55–60分鐘Easy",
+          "quality": "Petra工作段維持，不追每趟PR",
+          "strength": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra工作段維持，不追每趟PR",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "增肌／力量進階",
+            "dose": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "55–60分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "EMOM",
+          "prescription": "EMOM15：Row170m／Ski140m／Wall Ball8 ×5；RPE≤6",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "先以可控動作累積8–12組背部拉力，隔週再加重量",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W06",
+        "index": 6,
+        "start": "2026-12-21",
+        "end": "2026-12-27",
+        "blockId": "build",
+        "tag": "增肌變化",
+        "focus": "單腿穩定與肌耐力",
+        "why": "擴充Lunge與髖部控制，減少關節代償",
+        "load": "strength",
+        "priority": "擴充Lunge與髖部控制，減少關節代償",
+        "target": {
+          "aerobic": "55–65分鐘Easy",
+          "quality": "品質跑後2天不排重弓步",
+          "strength": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "品質跑後2天不排重弓步",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "增肌／力量進階",
+            "dose": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "55–65分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "AMRAP",
+          "prescription": "AMRAP20：慢跑250m＋Sled Push10m（RPE6）＋Row200m；上限20分鐘",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "記錄單腿左右差異；膝/小腿敏感取消推雪橇",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W07",
+        "index": 7,
+        "start": "2026-12-28",
+        "end": "2027-01-03",
+        "blockId": "build",
+        "tag": "力量進階",
+        "focus": "力量提高＋Erg 續航",
+        "why": "低中次數大項與可控Erg",
+        "load": "strength",
+        "priority": "低中次數大項與可控Erg",
+        "target": {
+          "aerobic": "60–65分鐘Easy",
+          "quality": "Petra間歇穩速完成即可",
+          "strength": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra間歇穩速完成即可",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "增肌／力量進階",
+            "dose": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "60–65分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "Rounds",
+          "prescription": "3 Rounds for Quality：Ski300m＋Row300m＋Wall Ball10；輪間休90秒",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "力量每次保留RIR2–3，Erg維持順暢呼吸",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W08",
+        "index": 8,
+        "start": "2027-01-04",
+        "end": "2027-01-10",
+        "blockId": "build",
+        "tag": "減量",
+        "focus": "第二恢復週",
+        "why": "把有氧與肌肉疲勞降下來",
+        "load": "deload",
+        "priority": "把有氧與肌肉疲勞降下來",
+        "target": {
+          "aerobic": "45–50分鐘Easy",
+          "quality": "跑步品質減量20–30%",
+          "strength": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
+          "weeklyHard": "0–1短刺激"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "跑步品質減量20–30%",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "45–50分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E4MOM",
+          "prescription": "E4MOM×4：Ski200m＋Farmer Carry20m（輕量）；每輪保留休息",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "不追公斤與配速；身體恢復成功就是進步",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "減量不是退步，是給適應發生的空間"
+        ]
+      },
+      {
+        "id": "W09",
+        "index": 9,
+        "start": "2027-01-11",
+        "end": "2027-01-17",
+        "blockId": "transfer",
+        "tag": "HYROX 專項",
+        "focus": "站點後重新跑",
+        "why": "練跑後上Ski與站點後前200m穩定節奏",
+        "load": "hybrid",
+        "priority": "練跑後上Ski與站點後前200m穩定節奏",
+        "target": {
+          "aerobic": "60–70分鐘Easy",
+          "quality": "Petra有品質跑就不要另加3×1km",
+          "strength": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra有品質跑就不要另加3×1km",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "60–70分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E6MOM",
+          "prescription": "E6MOM×4：跑500m＋Ski200m；RPE6–7，留60秒以上",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "觀察站點後呼吸回穩與跑姿，而非只看總秒數",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W10",
+        "index": 10,
+        "start": "2027-01-18",
+        "end": "2027-01-24",
+        "blockId": "transfer",
+        "tag": "專項力量",
+        "focus": "雪橇推拉＋心肺控制",
+        "why": "雪橇技巧、穩定推蹬和握力",
+        "load": "stations",
+        "priority": "雪橇技巧、穩定推蹬和握力",
+        "target": {
+          "aerobic": "60–70分鐘Easy",
+          "quality": "Petra若已有腿部大WOD則減雪橇量",
+          "strength": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra若已有腿部大WOD則減雪橇量",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "60–70分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "EMOM",
+          "prescription": "EMOM20：Sled Push10m／Row180m／Farmer Carry30m／WB10 ×5，推雪橇RPE6–7",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "記錄雪橇總重+地面；不能按賽事總重硬套",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W11",
+        "index": 11,
+        "start": "2027-01-25",
+        "end": "2027-01-31",
+        "blockId": "transfer",
+        "tag": "肌耐力",
+        "focus": "弓步與Wall Ball後程",
+        "why": "在腿部疲勞後保持動作質量",
+        "load": "hybrid",
+        "priority": "在腿部疲勞後保持動作質量",
+        "target": {
+          "aerobic": "65–75分鐘Easy",
+          "quality": "Petra間歇＋WOD跑量都納入同一週",
+          "strength": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra間歇＋WOD跑量都納入同一週",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "65–75分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "AMRAP",
+          "prescription": "AMRAP24：跑500m＋Row200m＋Sandbag Lunge10m（輕）＋WB10，RPE6–7",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "WB練呼吸節奏與分組；不以爆掉為成功",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W12",
+        "index": 12,
+        "start": "2027-02-01",
+        "end": "2027-02-07",
+        "blockId": "transfer",
+        "tag": "減量",
+        "focus": "第三恢復週",
+        "why": "降低腿部累積疲勞，保持站點技巧",
+        "load": "deload",
+        "priority": "降低腿部累積疲勞，保持站點技巧",
+        "target": {
+          "aerobic": "45–55分鐘Easy",
+          "quality": "Interval工作量減20–30%，控制節奏",
+          "strength": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
+          "weeklyHard": "0–1短刺激"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Interval工作量減20–30%，控制節奏",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "45–55分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E5MOM",
+          "prescription": "E5MOM×3：Ski250m＋Sled技巧10m＋WB6；RPE≤5",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "保持技術，任何小腿不適就改Easy Row",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "減量不是退步，是給適應發生的空間"
+        ]
+      },
+      {
+        "id": "W13",
+        "index": 13,
+        "start": "2027-02-08",
+        "end": "2027-02-14",
+        "blockId": "specific",
+        "tag": "賽前效率",
+        "focus": "站點經濟性＋配速",
+        "why": "將RPE6–7的跑步銜接到器械，控制累積時間",
+        "load": "race",
+        "priority": "將RPE6–7的跑步銜接到器械，控制累積時間",
+        "target": {
+          "aerobic": "65–75分鐘Easy",
+          "quality": "Petra品質跑為主，不另開高強度日",
+          "strength": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
+          "weeklyHard": "0–1短刺激"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "以休息為主，必要時僅輕技術",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra品質跑為主，不另開高強度日",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "65–75分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E8MOM",
+          "prescription": "E8MOM×4：跑700m＋Row250m＋WB8，留休息30–90秒",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "記錄每一輪是否掉速超過10%；如果太趕先降距離",
+        "notes": [
+          "週五混雙保留體力、週六男單穩定完賽",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W14",
+        "index": 14,
+        "start": "2027-02-15",
+        "end": "2027-02-21",
+        "blockId": "specific",
+        "tag": "模擬",
+        "focus": "縮量HYROX模擬",
+        "why": "不是全程比賽；練跑→站點轉換與補給",
+        "load": "simulation",
+        "priority": "不是全程比賽；練跑→站點轉換與補給",
+        "target": {
+          "aerobic": "45–60分鐘（模擬週依疲勞縮短）",
+          "quality": "本週Petra品質跑改短節奏",
+          "strength": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "本週Petra品質跑改短節奏",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "45–60分鐘（模擬週依疲勞縮短）",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "Simulation",
+          "prescription": "45–55min：4輪〔跑750m＋Ski250m／Sled10m／Row250m／WB10 輪替〕，RPE≤7，輪間休60–90秒",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "混雙策略先練節奏，隔天不要安排硬腿",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W15",
+        "index": 15,
+        "start": "2027-02-22",
+        "end": "2027-02-28",
+        "blockId": "specific",
+        "tag": "雙日演練",
+        "focus": "雙日縮量模擬／最後專項週",
+        "why": "練前一天負荷控制、隔天恢復與穩速",
+        "load": "simulation",
+        "priority": "練前一天負荷控制、隔天恢復與穩速",
+        "target": {
+          "aerobic": "45–55分鐘Easy，模擬週可縮短",
+          "quality": "Petra間歇減量；不加額外爆發WOD",
+          "strength": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra間歇減量；不加額外爆發WOD",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "45–55分鐘Easy，模擬週可縮短",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "Back-to-back",
+          "prescription": "Day1 35–45min mixed: 3輪〔跑750m＋單站點〕RPE6；Day2 25–35min Easy＋2×10WB（僅完全恢復時）",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "演練補給、睡眠及隔日跑步腿感，不追PR",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W16",
+        "index": 16,
+        "start": "2027-03-01",
+        "end": "2027-03-07",
+        "blockId": "taper",
+        "tag": "Taper",
+        "focus": "賽前減量第一週",
+        "why": "總量較峰值下降約30–40%，保留短刺激",
+        "load": "taper",
+        "priority": "總量較峰值下降約30–40%，保留短刺激",
+        "target": {
+          "aerobic": "35–50分鐘Easy",
+          "quality": "Petra短工作段，次數顯著減少",
+          "strength": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
+          "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "45–60分鐘；看白板記實際RPE/成績",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "Petra短工作段，次數顯著減少",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "35–50分鐘Easy",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "E4MOM",
+          "prescription": "E4MOM×3：Ski150m＋Row150m（輕鬆），無全力站點",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "最後一次高量腿日已過；恢復、睡眠、餐食",
+        "notes": [
+          "不要同週同時增加跑量、力量重量和站點次數",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      },
+      {
+        "id": "W17",
+        "index": 17,
+        "start": "2027-03-08",
+        "end": "2027-03-14",
+        "blockId": "taper",
+        "tag": "Race Week",
+        "focus": "台北比賽週",
+        "why": "減少疲勞，週五混雙保留力量，週六男單穩穩完賽",
+        "load": "race",
+        "priority": "減少疲勞，週五混雙保留力量，週六男單穩穩完賽",
+        "target": {
+          "aerobic": "賽前Easy 20–30分鐘，含幾次短加速",
+          "quality": "不做完整Petra Interval/WOD",
+          "strength": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
+          "weeklyHard": "0–1短刺激"
+        },
+        "sessions": [
+          {
+            "id": "petra",
+            "name": "Petra · Strength／館內",
+            "purpose": "技巧與全身力量，依實際白板內容確認",
+            "dose": "以休息為主，必要時僅輕技術",
+            "details": "如含≥15分鐘高強度AMRAP或高心率WOD，這堂已算當週主要混合刺激；另設的WOD直接取消。"
+          },
+          {
+            "id": "interval",
+            "name": "Petra · Interval／跑步",
+            "purpose": "品質跑與心肺，但不當每次PR測試",
+            "dose": "不做完整Petra Interval/WOD",
+            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+          },
+          {
+            "id": "strengthA",
+            "name": "World Gym A · 力量",
+            "purpose": "主項力量＋背部拉力",
+            "dose": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
+            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+          },
+          {
+            "id": "strengthB",
+            "name": "World Gym B · 補足三大項／背",
+            "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
+            "dose": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
+            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+          },
+          {
+            "id": "easy",
+            "name": "Long Easy · 有氧基礎",
+            "purpose": "提升連續輸出與恢復能力",
+            "dose": "賽前Easy 20–30分鐘，含幾次短加速",
+            "details": "以可完整說話RPE3–4，不追固定配速；跑步不適時以Row/Bike替代。"
+          }
+        ],
+        "wod": {
+          "name": "Primer",
+          "prescription": "賽前8–10分短技術Ski／Wall Ball僅動作暖身；不計訓練成績",
+          "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
+          "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
+        },
+        "check": "週五混雙保守、補水/碳水/睡眠；週六男單以均速和可控站點完成",
+        "notes": [
+          "週五混雙保留體力、週六男單穩定完賽",
+          "依當週 Garmin＋Petra 更新已完成刺激後再微調"
+        ]
+      }
+    ],
+    "design": {
+      "priorities": [
+        "有氧耐力與可持續輸出",
+        "跑後站點能力",
+        "三大項力量／背部增肌",
+        "兩場比賽的恢復與負荷管理"
+      ],
+      "baseline": "Garmin活動64筆、Petra照片37張至2026-11-13；已確認11/12課後100下Air Squat＋緩跑兩圈及小腿劇烈痠痛。跑量指標不等於HYROX完賽預測。",
+      "adaptable": "本週5堂核心（Petra Strength、Petra Interval、兩堂World Gym、Long Easy），恢復好才加第六堂（World Gym補力量或20–35分鐘Easy）；當週Petra硬WOD時，額外EMOM/AMRAP不得同時加碼。",
+      "strengthLoad": "未有可靠1RM或實際工作重量，主項以RIR2–3選工作重量，恢復週RIR4+。必要時不做重腿而保留上肢和Easy。",
+      "calfGate": "若小腿仍明顯痛、步態異常或提踵不舒適，先停止快速跑、爆發雪橇和Wall Ball大組；恢復後依翌日反應漸進，若症狀持續需臨床評估。"
+    },
+    "science": [
+      {
+        "title": "HYROX 8×1km + 8 Stations",
+        "url": "https://hyroxevents.zendesk.com/hc/en-gb/articles/38624619510941-Which-exercises-are-in-HYROX"
+      },
+      {
+        "title": "ACSM 2026 Resistance Position Stand",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+      },
+      {
+        "title": "Taper Meta-analysis 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37163550/"
       }
     ]
   }
