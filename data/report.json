@@ -7404,65 +7404,31 @@
           },
           {
             "id": "easy",
-            "name": "LONG RUN · AM + PM 雙訓",
+            "name": "TAPER EASY · 不安排晚間雙訓",
             "purpose": "上午有氧底盤，晚上可加上肢和Ski/Row技術",
             "dose": "35–50分鐘Easy",
             "details": "Long Run不是整天唯一訓練，但晚上的第二段必須能恢復；休息天仍要保留。",
             "classPlan": {
-              "kind": "double-day",
-              "subtitle": "AM Long Run + PM Optional Station/Upper",
-              "duration": "AM 35–50分鐘Easy / PM 20–30 分鐘 Station Skill + Upper/Core",
-              "rpe": "AM RPE 3–4 / PM RPE 3–5",
-              "focus": "穩定耐力＋可恢復的第二訓練段",
-              "warmup": "跑前 5–8 分鐘慢走、動態暖身；晚上先檢查小腿/膝蓋",
+              "kind": "taper",
+              "subtitle": "Easy only / recover for race weekend",
+              "duration": "35–50 分鐘",
+              "rpe": "RPE 3–4",
+              "warmup": "5分鐘動態活動",
+              "notes": "賽前兩週減量。長跑日晚上的第二訓練段取消；保留精神與跑步腳感。",
               "blocks": [
                 {
-                  "tag": "AM · LONG EASY",
-                  "title": "Aerobic run",
-                  "minutes": "35–50分鐘Easy",
-                  "format": "可說完整句子 RPE3–4",
+                  "tag": "A · EASY",
+                  "title": "Easy aerobic run",
+                  "minutes": "35–50 分鐘",
+                  "format": "可完整說話",
                   "steps": [
-                    "持續 35–50分鐘Easy，若這個數字是跑步時間，不把 Ski/Row 算作跑量",
-                    "跑姿穩定；Garmin 記錄時間、平均HR和隔天疲勞",
-                    "腿沉、疼痛或膝蓋腫脹改 Bike/Row 30–50 分鐘，不硬湊公里"
+                    "穩定35–50分鐘Easy，不追時間或距離PR",
+                    "可選4×10秒舒適加速，完全恢復才做",
+                    "晚間只活動度/散步，不追加Station循環"
                   ],
-                  "note": "跑量依近4週習慣逐步增加，不能因單次快400m就大幅跳量"
-                },
-                {
-                  "tag": "PM · OPTIONAL DOUBLE",
-                  "title": "Upper + station skill",
-                  "minutes": "20–30 分鐘 Station Skill + Upper/Core",
-                  "format": "間隔≥6小時、RPE 3–5",
-                  "steps": [
-                    "SkiErg 3×250m @RPE5，組間60–90秒（技術和呼吸）",
-                    "Chest-supported Row 2×10 + Pallof Press 2×10/側",
-                    "Farmer Carry 2×30m（非極限），若腿部反應不好省略"
-                  ],
-                  "note": "雙訓不是第二個高強度日：不要 Long Run 後再硬蹲、爆量 Wall Ball 或 BBJ"
+                  "note": "減量不是再把強度疊上去"
                 }
-              ],
-              "notes": "若前晚有高強度 Engine 或隔天腿痛加重，就只做早上 Long Easy 或全日恢復；夜間訓練永遠不是必做補課。",
-              "recoverySwap": {
-                "subtitle": "小腿/膝蓋不舒服：低衝擊有氧、無雙訓",
-                "duration": "20–45 分鐘",
-                "rpe": "RPE 2–4",
-                "warmup": "輕活動",
-                "blocks": [
-                  {
-                    "tag": "RECOVERY",
-                    "title": "Bike / easy Row",
-                    "minutes": "20–45 分鐘",
-                    "format": "低衝擊",
-                    "steps": [
-                      "Bike 20–45 分鐘；坐姿划船若不痛也可",
-                      "取消晚上 Station、跑步與高負荷下肢",
-                      "腫脹或症狀持續請評估"
-                    ],
-                    "note": "以症狀和翌日反應決定恢復"
-                  }
-                ],
-                "notes": "不要用交叉訓練掩蓋持續疼痛。"
-              }
+              ]
             }
           }
         ],
@@ -7474,84 +7440,28 @@
           "Petra高強度已足時Engine改Z2；長跑日晚上可加非高強度雙訓。"
         ],
         "optionalSixth": {
-          "title": "World Gym · UPPER + AEROBIC（第六天可選）",
+          "title": "選配恢復／活動度 · 非第六堂強度",
           "dose": "推拉力量耐力 + Ski/Row Z2",
           "classPlan": {
-            "kind": "optional-sixth",
-            "subtitle": "Upper strength endurance + Low-stress Ski/Row",
-            "duration": "40–60 分鐘",
-            "rpe": "RPE 4–6",
-            "focus": "補足胸背肩、站點技術及有氧，非第三個硬 WOD",
-            "warmup": "5 分鐘 Easy Erg＋肩胛熱身",
+            "kind": "recovery",
+            "subtitle": "Mobility only",
+            "duration": "20 分鐘",
+            "rpe": "RPE 2",
+            "warmup": "輕鬆散步",
             "blocks": [
               {
-                "tag": "A · SUPERSET",
-                "title": "Horizontal push / pull",
-                "minutes": "14–18 分鐘",
-                "format": "3 rounds",
+                "tag": "RECOVERY",
+                "title": "Mobility + Sleep",
+                "minutes": "20 分鐘",
+                "format": "輕鬆",
                 "steps": [
-                  "Bench / DB Incline Press 3×8 @RIR3",
-                  "Chest-supported Row 3×10",
-                  "每輪休 75–90 秒；該週 Bench 量足夠可改肩部輕練"
+                  "活動度、呼吸與早睡",
+                  "不再安排重蹲、Sled或HYROX Engine"
                 ],
-                "note": "胸背互補、不是孤立胸日"
-              },
-              {
-                "tag": "B · UPPER STABILITY",
-                "title": "Shoulder + carry transfer",
-                "minutes": "8–10 分鐘",
-                "format": "2 rounds",
-                "steps": [
-                  "Landmine Press 2×10/側 + Face Pull 2×15",
-                  "Farmer Carry 2×30–40m 輕中負荷，步態無痛才做"
-                ],
-                "note": "對應推舉、握力和抗側彎"
-              },
-              {
-                "tag": "C · Z2",
-                "title": "Ski / Row aerobic alternation",
-                "minutes": "20–25 分鐘",
-                "format": "連續 RPE3–4",
-                "steps": [
-                  "SkiErg 5分鐘 → RowErg 5分鐘，交替2輪",
-                  "可完整說話；若 Petra 本週很硬，第六堂改為休息"
-                ],
-                "note": "額外有氧以易恢復為前提"
+                "note": "為比賽恢復"
               }
             ],
-            "notes": "第六堂不重做硬拉、不替代 Long Easy；若已有兩堂硬刺激或當週睡眠不足直接取消。",
-            "recoverySwap": {
-              "subtitle": "目前仍有小腿/膝蓋症狀：替代原課，不是加量",
-              "duration": "35–55 分鐘",
-              "rpe": "RPE 3–5",
-              "warmup": "上肢與肩胛活動 6 分鐘，避免痛的動作",
-              "blocks": [
-                {
-                  "tag": "A · 無痛力量",
-                  "title": "Upper push/pull technique",
-                  "minutes": "15–20 分鐘",
-                  "format": "3 輪非力竭",
-                  "steps": [
-                    "Seated Chest Press 3×8 @RIR 3–4",
-                    "Chest-supported Row 3×10 @RIR 3–4",
-                    "Pallof Press 2×10/側"
-                  ],
-                  "note": "僅在無症狀時執行"
-                },
-                {
-                  "tag": "B · 低衝擊",
-                  "title": "Bike or seated easy erg",
-                  "minutes": "15–25 分鐘",
-                  "format": "Zone 1–2",
-                  "steps": [
-                    "Bike 15–25 分鐘可完整交談",
-                    "任何疼痛、腫脹或跛行停止；必要時休息/就醫評估"
-                  ],
-                  "note": "不做跑步、雪橇、跳躍或高次數 Wall Ball"
-                }
-              ],
-              "notes": "連續兩天步行、樓梯、提踵與隔天反應穩定，再逐步回原強度。"
-            }
+            "notes": "能休息就休息。"
           }
         }
       },
@@ -7567,7 +7477,7 @@
         "load": "race",
         "priority": "減少疲勞，週五混雙保留力量，週六男單穩穩完賽",
         "target": {
-          "aerobic": "賽前Easy 20–30分鐘，含幾次短加速",
+          "aerobic": "賽前Easy 20–25分；週五/週六比賽",
           "quality": "不做完整Petra Interval/WOD",
           "strength": "賽前不做重腿；一堂短技術上肢20–30分｜輕臥推/划船各1–2組 RIR≥5；不再做重Trap-bar",
           "weeklyHard": "0–1短刺激"
@@ -7575,287 +7485,104 @@
         "sessions": [
           {
             "id": "petra",
-            "name": "Petra · Strength／館內",
-            "purpose": "按實際白板判斷：Strength、技能或高強度WOD；影響World Gym的當週強度",
-            "dose": "以休息為主，必要時僅輕技術",
-            "details": "把當堂具體動作/RPE、Sled/Thruster/Run量計入一週負荷。若有15分鐘以上高強度AMRAP、RPE≥7，切換本週『Petra已硬』，HYROX ENGINE自動改Easy方案。"
+            "name": "MON · 比賽週恢復與活動度",
+            "purpose": "維持活動與睡眠，不再參加完整高強度WOD",
+            "dose": "20–30分鐘 Easy + Mobility",
+            "details": "如果Petra仍有高量Squat、Lunge、Burpee或AMRAP，不跟做。用散步、Bike或Mobility替代。"
           },
           {
             "id": "interval",
-            "name": "Petra · Interval／跑步",
-            "purpose": "品質跑與心肺，但不當每次PR測試",
-            "dose": "不做完整Petra Interval/WOD",
-            "details": "實際教練跑課優先；有明顯小腿不適、無法正常提踵或跑姿改變，改Easy Bike/Row，休息優先。"
+            "name": "TUE · Easy Run + Strides",
+            "purpose": "保留跑步腳感，絕非正式Interval",
+            "dose": "20–25分鐘Easy + 3–4次10秒加速",
+            "details": "兩次加速之間充分走路恢復，動作輕鬆。任何小腿/膝蓋症狀就取消加速。"
           },
           {
             "id": "strengthA",
-            "name": "World Gym · FORCE & TRANSFER",
-            "purpose": "全身強度鏈：主力深蹲 → 胸背推拉超組 → Sled / Ski / Row 輪轉",
-            "dose": "賽前不做重腿；一堂短技術上肢20–30分",
-            "details": "場館式完整課堂。重主項充分休息，後段做多站轉換；Petra腿部課多時降低負荷。",
+            "name": "WED · Short Strength Primer",
+            "purpose": "神經啟動，不累積DOMS",
+            "details": "僅使用熟悉重量，不做新動作或主項PR。",
             "classPlan": {
-              "kind": "strength-hybrid",
-              "subtitle": "Strength → Antagonist Pair → Sled/Erg Transfer",
-              "duration": "50–60 分鐘",
-              "rpe": "RPE 4–6",
-              "focus": "下肢推力、推拉鏈結、雪橇與 Erg 效率",
-              "warmup": "8 分鐘 Easy Row/Bike＋踝髖活動＋深蹲逐級暖身",
+              "kind": "taper-primer",
+              "subtitle": "20–30min light upper activation",
+              "duration": "20–30 分鐘",
+              "rpe": "RPE 3–4",
+              "warmup": "動態活動5分鐘",
+              "notes": "賽前不做Sled衝刺、Wall Ball大組或完整HYROX Engine。",
               "blocks": [
                 {
-                  "tag": "A · STRENGTH",
-                  "title": "Squat strength + low-fatigue pull",
-                  "minutes": "20–24 分鐘",
-                  "format": "2 組主項；完整休息",
+                  "tag": "PRIMER",
+                  "title": "Upper pull / push + mobility",
+                  "minutes": "15–20 分鐘",
+                  "format": "2 sets",
                   "steps": [
-                    "Back Squat 2×5 @RIR 4，組間 2–3 分鐘",
-                    "每組之間穿插 6–8 次輕 Scapular Pulldown（不喘、不影響深蹲）",
-                    "記錄重量＋末組 RIR；不猜測 1RM"
+                    "Bench Press 1–2×5 @RIR≥5（可不做）",
+                    "Chest-supported Row 2×8，輕重量",
+                    "Pallof Press 2×8／側、短活動度"
                   ],
-                  "note": "主項維持高品質，不把重蹲做成心肺循環"
-                },
-                {
-                  "tag": "B · SUPERSET",
-                  "title": "Press ↔ Row antagonistic pair",
-                  "minutes": "10–12 分鐘",
-                  "format": "2 rounds",
-                  "steps": [
-                    "DB Incline Press 2×8–10 @RIR2–3",
-                    "Chest-supported Row 2×10 @RIR2–3",
-                    "每個超組完成後休 75–90 秒；肩部穩定、不聳肩"
-                  ],
-                  "note": "推拉交替提高有效工作密度，仍保留恢復"
-                },
-                {
-                  "tag": "C · SKILL",
-                  "title": "Sled and erg mechanics",
-                  "minutes": "10–12 分鐘",
-                  "format": "E3MOM × 4",
-                  "steps": [
-                    "單數輪：Ski 100m + 10m 輕 Sled Push",
-                    "雙數輪：Row 120m + 10m 輕 Sled Pull",
-                    "剩餘時間休息，RPE≤5"
-                  ],
-                  "note": "控制呼吸與動作品質"
+                  "note": "全程留力，輕鬆結束"
                 }
-              ],
-              "notes": "如果 Petra 做過大量 Squat／Lunge／Sled，主蹲減 1–2 組，C 段改 Easy Ski/Row 15 分；週三高強度跑前一天不要重腿。",
-              "recoverySwap": {
-                "subtitle": "目前仍有小腿/膝蓋症狀：替代原課，不是加量",
-                "duration": "35–55 分鐘",
-                "rpe": "RPE 3–5",
-                "warmup": "上肢與肩胛活動 6 分鐘，避免痛的動作",
-                "blocks": [
-                  {
-                    "tag": "A · 無痛力量",
-                    "title": "Upper push/pull technique",
-                    "minutes": "15–20 分鐘",
-                    "format": "3 輪非力竭",
-                    "steps": [
-                      "Seated Chest Press 3×8 @RIR 3–4",
-                      "Chest-supported Row 3×10 @RIR 3–4",
-                      "Pallof Press 2×10/側"
-                    ],
-                    "note": "僅在無症狀時執行"
-                  },
-                  {
-                    "tag": "B · 低衝擊",
-                    "title": "Bike or seated easy erg",
-                    "minutes": "15–25 分鐘",
-                    "format": "Zone 1–2",
-                    "steps": [
-                      "Bike 15–25 分鐘可完整交談",
-                      "任何疼痛、腫脹或跛行停止；必要時休息/就醫評估"
-                    ],
-                    "note": "不做跑步、雪橇、跳躍或高次數 Wall Ball"
-                  }
-                ],
-                "notes": "連續兩天步行、樓梯、提踵與隔天反應穩定，再逐步回原強度。"
-              }
+              ]
             }
           },
           {
             "id": "strengthB",
-            "name": "World Gym · HYROX ENGINE",
-            "purpose": "力量主項 → 複合站點循環 → 疲勞下穩定輸出",
-            "dose": "輕臥推/划船各1–2組 RIR≥5；不再做重Trap-bar",
-            "details": "這就是當週正式的20–35分鐘Engine課，不再有Alternative WOD；Petra做硬WOD就改同堂低強度Engine。",
+            "name": "FRI · HYROX MIXED DOUBLES 比賽",
+            "purpose": "與 Stacy 混雙控制配速、分享站點負荷，保留隔天男單體力",
+            "details": "按實際賽事時段熱身。站點分配遵守先前雙人策略；過站保持冷靜，不要在前兩公里追速。",
             "classPlan": {
-              "kind": "engine-hybrid",
-              "subtitle": "Strength Primer → Multi-station HYROX Engine",
-              "duration": "55–65 分鐘",
-              "rpe": "RPE 4–6",
-              "focus": "完整站點循環、疲勞下跑步、推拉力量維持",
-              "warmup": "8–10 分鐘 Easy Erg＋跑步動態活動／逐級主項暖身",
+              "kind": "race",
+              "subtitle": "Race 1 / Mixed Doubles",
+              "duration": "按官方實際出發時間",
+              "rpe": "可控競賽強度",
+              "warmup": "距離出發約20–30分鐘：Easy移動/動態活動/2–3次短提速，按現場調整",
+              "notes": "賽後補充碳水、水分及電解質，散步緩和，減少不必要的站立；隔天還有Men Open。",
               "blocks": [
                 {
-                  "tag": "A · STRENGTH",
-                  "title": "Hinge + Bench strength",
-                  "minutes": "22–26 分鐘",
-                  "format": "2 sets; 2–3 min rest",
+                  "tag": "RACE",
+                  "title": "8×1km Run + 8 Stations",
+                  "minutes": "正式賽事",
+                  "format": "按官方比賽規則",
                   "steps": [
-                    "Trap-bar Deadlift 2×4 @RIR 4（與重蹲儘量隔約48小時）",
-                    "Bench Press 2×5–6 @RIR 4",
-                    "不要兩個主項都練到極限；腿部疲勞高則取消硬拉，保留上肢"
+                    "前兩公里保守；Ski由Alvin先開始、Sled Pull由Alvin先開始",
+                    "Sled Push/Pull依雙方當日狀態交替，不把Stacy做得很強的項目推到極限",
+                    "Burpee Broad Jump短段交替，Farmer Carry由Alvin負擔較長；Wall Ball由Alvin多一點但保留餘力"
                   ],
-                  "note": "先練重主項而非先用 WOD 耗光力量"
-                },
-                {
-                  "tag": "B · ACCESSORY PAIR",
-                  "title": "Vertical pull + core / carry",
-                  "minutes": "8–12 分鐘",
-                  "format": "2 rounds",
-                  "steps": [
-                    "Lat Pulldown / Pull-up 2×8–10",
-                    "Half-kneeling Pallof Press 10/側；若有空再加輕 Farmer Carry 30m",
-                    "組間 60–75 秒；不要把肩膀提前練爆"
-                  ],
-                  "note": "兼顧上背、握力與姿勢穩定"
-                },
-                {
-                  "tag": "C · RESET",
-                  "title": "Skill flow / no race simulation",
-                  "minutes": "16 分鐘",
-                  "format": "Easy circuit",
-                  "steps": [
-                    "循環：Ski 150m → Row 150m → Farmer Carry 25m（輕）→ 休息 60 秒",
-                    "全程 RPE4–5，保持技巧與換站，不做爆發衝刺",
-                    "賽前週只做短啟動；若進入比賽週，停止任何長循環"
-                  ],
-                  "note": "降載不是不動，而是減少疲勞"
+                  "note": "本站分配和負重以當屆官方規則、選手實際能力與賽場情況為準"
                 }
-              ],
-              "notes": "Petra Strength 若已是高強度 AMRAP/WOD（RPE≥7 或約15分鐘以上大強度），自動切換成 Easy Engine；不疊第三次硬刺激。全週高強度日以約2堂為原則。",
-              "petraHardSwap": {
-                "subtitle": "Petra已經是硬 WOD：不再疊加第三堂高強度",
-                "duration": "55–70 分鐘",
-                "rpe": "RPE 4–6",
-                "warmup": "8 分鐘 Bike 或 Row + 動態活動",
-                "blocks": [
-                  {
-                    "tag": "A · 保持力量",
-                    "title": "Strength reserve",
-                    "minutes": "20 分鐘",
-                    "format": "交替 3 組",
-                    "steps": [
-                      "Bench Press 3×5 @RIR 3，組間 2 分鐘",
-                      "Chest-supported Row 3×8 @RIR 3，間隔約 60 秒"
-                    ],
-                    "note": "控制重量，不練到力竭"
-                  },
-                  {
-                    "tag": "B · Easy Engine",
-                    "title": "30-minute aerobic skill",
-                    "minutes": "25–30 分鐘",
-                    "format": "不中斷、可說話",
-                    "steps": [
-                      "SkiErg 5 分鐘 @RPE 4 → RowErg 5 分鐘 @RPE 4",
-                      "依序交替 3 輪，換站走路 30–45 秒",
-                      "結束前 2×30m Farmer Carry 輕重量（可省略）"
-                    ],
-                    "note": "這是取代高強度 Engine 的同一堂課，不是另加課"
-                  }
-                ],
-                "notes": "計入1堂 World Gym；記錄 Ski/Row 平均配速、呼吸是否可控。若小腿不舒服改 Bike。"
-              },
-              "recoverySwap": {
-                "subtitle": "目前仍有小腿/膝蓋症狀：替代原課，不是加量",
-                "duration": "35–55 分鐘",
-                "rpe": "RPE 3–5",
-                "warmup": "上肢與肩胛活動 6 分鐘，避免痛的動作",
-                "blocks": [
-                  {
-                    "tag": "A · 無痛力量",
-                    "title": "Upper push/pull technique",
-                    "minutes": "15–20 分鐘",
-                    "format": "3 輪非力竭",
-                    "steps": [
-                      "Seated Chest Press 3×8 @RIR 3–4",
-                      "Chest-supported Row 3×10 @RIR 3–4",
-                      "Pallof Press 2×10/側"
-                    ],
-                    "note": "僅在無症狀時執行"
-                  },
-                  {
-                    "tag": "B · 低衝擊",
-                    "title": "Bike or seated easy erg",
-                    "minutes": "15–25 分鐘",
-                    "format": "Zone 1–2",
-                    "steps": [
-                      "Bike 15–25 分鐘可完整交談",
-                      "任何疼痛、腫脹或跛行停止；必要時休息/就醫評估"
-                    ],
-                    "note": "不做跑步、雪橇、跳躍或高次數 Wall Ball"
-                  }
-                ],
-                "notes": "連續兩天步行、樓梯、提踵與隔天反應穩定，再逐步回原強度。"
-              }
+              ]
             }
           },
           {
             "id": "easy",
-            "name": "LONG RUN · AM + PM 雙訓",
-            "purpose": "上午有氧底盤，晚上可加上肢和Ski/Row技術",
-            "dose": "賽前Easy 20–30分鐘，含幾次短加速",
-            "details": "Long Run不是整天唯一訓練，但晚上的第二段必須能恢復；休息天仍要保留。",
+            "name": "SAT · HYROX MEN OPEN 比賽",
+            "purpose": "完成男單，利用昨天混雙經驗控制體力和換站",
+            "details": "這是比賽而不是Long Run雙訓。不在比賽後再做任何Station。",
             "classPlan": {
-              "kind": "double-day",
-              "subtitle": "AM Long Run + PM Optional Station/Upper",
-              "duration": "AM 賽前Easy 20–30分鐘，含幾次短加速 / PM 20–30 分鐘 Station Skill + Upper/Core",
-              "rpe": "AM RPE 3–4 / PM RPE 3–5",
-              "focus": "穩定耐力＋可恢復的第二訓練段",
-              "warmup": "跑前 5–8 分鐘慢走、動態暖身；晚上先檢查小腿/膝蓋",
+              "kind": "race",
+              "subtitle": "Race 2 / Men Open",
+              "duration": "按官方實際出發時間",
+              "rpe": "比賽日",
+              "warmup": "低量動態暖身；評估昨日累積腿部疲勞和任何關節症狀",
+              "notes": "連兩天參賽負荷非常大；若出現尖銳疼痛、明顯腫脹、胸痛、暈厥前兆等，停止比賽並尋求醫療協助。",
               "blocks": [
                 {
-                  "tag": "AM · LONG EASY",
-                  "title": "Aerobic run",
-                  "minutes": "賽前Easy 20–30分鐘，含幾次短加速",
-                  "format": "可說完整句子 RPE3–4",
+                  "tag": "RACE",
+                  "title": "8×1km + 8 stations",
+                  "minutes": "正式賽事",
+                  "format": "穩定完成",
                   "steps": [
-                    "持續 賽前Easy 20–30分鐘，含幾次短加速，若這個數字是跑步時間，不把 Ski/Row 算作跑量",
-                    "跑姿穩定；Garmin 記錄時間、平均HR和隔天疲勞",
-                    "腿沉、疼痛或膝蓋腫脹改 Bike/Row 30–50 分鐘，不硬湊公里"
+                    "前2公里只用能維持的節奏，不跟他人的配速衝",
+                    "Sled與Lunges每站採節奏分段；Row/Ski以均勻輸出避免早爆",
+                    "Wall Ball事先規劃小組數，呼吸控制優先；盡量避免無效動作"
                   ],
-                  "note": "跑量依近4週習慣逐步增加，不能因單次快400m就大幅跳量"
-                },
-                {
-                  "tag": "PM · OPTIONAL DOUBLE",
-                  "title": "Upper + station skill",
-                  "minutes": "20–30 分鐘 Station Skill + Upper/Core",
-                  "format": "間隔≥6小時、RPE 3–5",
-                  "steps": [
-                    "SkiErg 3×250m @RPE5，組間60–90秒（技術和呼吸）",
-                    "Chest-supported Row 2×10 + Pallof Press 2×10/側",
-                    "Farmer Carry 2×30m（非極限），若腿部反應不好省略"
-                  ],
-                  "note": "雙訓不是第二個高強度日：不要 Long Run 後再硬蹲、爆量 Wall Ball 或 BBJ"
+                  "note": "目標穩定完賽，Sub-90是可選進階目標"
                 }
-              ],
-              "notes": "若前晚有高強度 Engine 或隔天腿痛加重，就只做早上 Long Easy 或全日恢復；夜間訓練永遠不是必做補課。",
-              "recoverySwap": {
-                "subtitle": "小腿/膝蓋不舒服：低衝擊有氧、無雙訓",
-                "duration": "20–45 分鐘",
-                "rpe": "RPE 2–4",
-                "warmup": "輕活動",
-                "blocks": [
-                  {
-                    "tag": "RECOVERY",
-                    "title": "Bike / easy Row",
-                    "minutes": "20–45 分鐘",
-                    "format": "低衝擊",
-                    "steps": [
-                      "Bike 20–45 分鐘；坐姿划船若不痛也可",
-                      "取消晚上 Station、跑步與高負荷下肢",
-                      "腫脹或症狀持續請評估"
-                    ],
-                    "note": "以症狀和翌日反應決定恢復"
-                  }
-                ],
-                "notes": "不要用交叉訓練掩蓋持續疼痛。"
-              }
+              ]
             }
           }
         ],
-        "check": "週五混雙保守、補水/碳水/睡眠；週六男單以均速和可控站點完成｜加記：World Gym Engine 各輪跑步/站點成績、站點恢復與末組RIR。",
+        "check": "週五混雙是否能控速、賽後補給與隔天男單是否保持可持續輸出",
         "notes": [
           "週五混雙保留體力、週六男單穩定完賽",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調",
@@ -7863,84 +7590,29 @@
           "Petra高強度已足時Engine改Z2；長跑日晚上可加非高強度雙訓。"
         ],
         "optionalSixth": {
-          "title": "World Gym · UPPER + AEROBIC（第六天可選）",
-          "dose": "推拉力量耐力 + Ski/Row Z2",
+          "title": "SUN · 賽後休息與補給",
+          "dose": "不做正式訓練",
           "classPlan": {
-            "kind": "optional-sixth",
-            "subtitle": "Upper strength endurance + Low-stress Ski/Row",
-            "duration": "40–60 分鐘",
-            "rpe": "RPE 4–6",
-            "focus": "補足胸背肩、站點技術及有氧，非第三個硬 WOD",
-            "warmup": "5 分鐘 Easy Erg＋肩胛熱身",
+            "kind": "postrace",
+            "subtitle": "Recovery only",
+            "duration": "全天",
+            "rpe": "Rest",
+            "warmup": "無",
             "blocks": [
               {
-                "tag": "A · SUPERSET",
-                "title": "Horizontal push / pull",
-                "minutes": "14–18 分鐘",
-                "format": "3 rounds",
+                "tag": "POST RACE",
+                "title": "Rest / Nutrition / Gentle walk",
+                "minutes": "依感覺",
+                "format": "休息",
                 "steps": [
-                  "Bench / DB Incline Press 3×8 @RIR3",
-                  "Chest-supported Row 3×10",
-                  "每輪休 75–90 秒；該週 Bench 量足夠可改肩部輕練"
+                  "補水、補碳水與睡眠",
+                  "非常輕鬆地散步；出現疼痛/腫脹時評估",
+                  "不安排力量、Station或跑步訓練"
                 ],
-                "note": "胸背互補、不是孤立胸日"
-              },
-              {
-                "tag": "B · UPPER STABILITY",
-                "title": "Shoulder + carry transfer",
-                "minutes": "8–10 分鐘",
-                "format": "2 rounds",
-                "steps": [
-                  "Landmine Press 2×10/側 + Face Pull 2×15",
-                  "Farmer Carry 2×30–40m 輕中負荷，步態無痛才做"
-                ],
-                "note": "對應推舉、握力和抗側彎"
-              },
-              {
-                "tag": "C · Z2",
-                "title": "Ski / Row aerobic alternation",
-                "minutes": "20–25 分鐘",
-                "format": "連續 RPE3–4",
-                "steps": [
-                  "SkiErg 5分鐘 → RowErg 5分鐘，交替2輪",
-                  "可完整說話；若 Petra 本週很硬，第六堂改為休息"
-                ],
-                "note": "額外有氧以易恢復為前提"
+                "note": "賽後優先恢復"
               }
             ],
-            "notes": "第六堂不重做硬拉、不替代 Long Easy；若已有兩堂硬刺激或當週睡眠不足直接取消。",
-            "recoverySwap": {
-              "subtitle": "目前仍有小腿/膝蓋症狀：替代原課，不是加量",
-              "duration": "35–55 分鐘",
-              "rpe": "RPE 3–5",
-              "warmup": "上肢與肩胛活動 6 分鐘，避免痛的動作",
-              "blocks": [
-                {
-                  "tag": "A · 無痛力量",
-                  "title": "Upper push/pull technique",
-                  "minutes": "15–20 分鐘",
-                  "format": "3 輪非力竭",
-                  "steps": [
-                    "Seated Chest Press 3×8 @RIR 3–4",
-                    "Chest-supported Row 3×10 @RIR 3–4",
-                    "Pallof Press 2×10/側"
-                  ],
-                  "note": "僅在無症狀時執行"
-                },
-                {
-                  "tag": "B · 低衝擊",
-                  "title": "Bike or seated easy erg",
-                  "minutes": "15–25 分鐘",
-                  "format": "Zone 1–2",
-                  "steps": [
-                    "Bike 15–25 分鐘可完整交談",
-                    "任何疼痛、腫脹或跛行停止；必要時休息/就醫評估"
-                  ],
-                  "note": "不做跑步、雪橇、跳躍或高次數 Wall Ball"
-                }
-              ],
-              "notes": "連續兩天步行、樓梯、提踵與隔天反應穩定，再逐步回原強度。"
-            }
+            "notes": "不再追加第六堂。"
           }
         }
       }
@@ -7953,7 +7625,7 @@
         "兩場比賽的恢復與負荷管理"
       ],
       "baseline": "Garmin活動64筆、Petra照片37張至2026-11-13；已確認11/12課後100下Air Squat＋緩跑兩圈及小腿劇烈痠痛。跑量指標不等於HYROX完賽預測。",
-      "adaptable": "5堂核心：Petra Strength、Petra Interval、World Gym Force & Transfer、World Gym HYROX Engine、Long Run（可早晚雙訓）。第6堂可選Upper+Z2。Petra硬WOD要切換Engine為Easy，不再另列Alternative Session。",
+      "adaptable": "5堂核心：Petra Strength、Petra Interval、World Gym Force & Transfer、World Gym HYROX Engine、Long Run（可早晚雙訓）。第6堂可選Upper+Z2。Petra硬WOD要切換Engine為Easy，不再另列Alternative Session。 賽前W16取消Long Run雙訓；W17直接用比賽週課表取代一般HYROX Engine與Long Run。",
       "strengthLoad": "未有可靠1RM或實際工作重量，主項以RIR2–3選工作重量，恢復週RIR4+。必要時不做重腿而保留上肢和Easy。",
       "calfGate": "若小腿仍明顯痛、步態異常或提踵不舒適，先停止快速跑、爆發雪橇和Wall Ball大組；恢復後依翌日反應漸進，若症狀持續需臨床評估。",
       "worldGym": {
