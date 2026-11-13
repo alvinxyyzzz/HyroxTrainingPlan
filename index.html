@@ -201,7 +201,7 @@ async function load(){
   const d=await res.json();
   if(!Array.isArray(d.seasonPlan?.weeks)||d.seasonPlan.weeks.length!==17)throw new Error("17週課表未完成");
   state.data=d;
-  const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date()); const closest=d.seasonPlan.weeks.findIndex(w=>today<=w.end);state.week=closest>=0?closest:d.seasonPlan.weeks.length-1;
+  const parts=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const datePart=k=>parts.find(x=>x.type===k)?.value||"00";const today=datePart("year")+"-"+datePart("month")+"-"+datePart("day"); const closest=d.seasonPlan.weeks.findIndex(w=>today<=w.end);state.week=closest>=0?closest:d.seasonPlan.weeks.length-1;
   document.getElementById("update-stamp").textContent="COACH "+(d.lastReview||"—");
   const hash=location.hash.replace("#","");
   nav(["roadmap","week","analysis"].includes(hash)?hash:"roadmap");
