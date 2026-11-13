@@ -1278,7 +1278,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-13",
+    "version": "2026-11-13-v2",
     "firstWeek": "2026-11-16",
     "raceDays": [
       "2027-03-12",
@@ -1352,7 +1352,7 @@
         "target": {
           "aerobic": "40–50分鐘；不舒適改Bike/Row",
           "quality": "恢復後可控、必要時改Easy",
-          "strength": "深蹲2×5 RIR3；臥推3×5 RIR3；六角槓2×4 RIR3；背部8組",
+          "strength": "Back Squat 2×5 RIR3；Lat Pulldown 3×8；Chest-supported Row 3×10｜Bench Press 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt 2×12；若小腿仍痠只做臥推／背",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1374,15 +1374,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×5 RIR3；臥推3×5 RIR3",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×5 RIR3；Lat Pulldown 3×8；Chest-supported Row 3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "六角槓2×4 RIR3；背部8組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench Press 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt 2×12；若小腿仍痠只做臥推／背",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1402,7 +1402,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：上肢補強＋Easy",
+          "dose": "胸靠划船2×10、側平舉2×15、輕鬆Row/Bike 15–20分鐘；小腿未恢復則休息"
+        }
       },
       {
         "id": "W02",
@@ -1418,7 +1422,7 @@
         "target": {
           "aerobic": "45–55分鐘可交談",
           "quality": "週四品質跑按Petra實際課表，腿沉降趟數",
-          "strength": "深蹲3×5；臥推3×5–6；六角槓2×4；下拉／划船共8–10組，RIR2–3",
+          "strength": "Back Squat 3×5 RIR3；Lat Pulldown 3×8–10；Chest Row 3×10｜Bench 3×5–6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10＋後三角2×15",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1440,15 +1444,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲3×5；臥推3×5–6",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×5 RIR3；Lat Pulldown 3×8–10；Chest Row 3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "六角槓2×4；下拉／划船共8–10組，RIR2–3",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×5–6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10＋後三角2×15",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1468,7 +1472,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：上肢補強＋Easy",
+          "dose": "胸靠划船2×10、側平舉2×15、輕鬆Row/Bike 15–20分鐘；小腿未恢復則休息"
+        }
       },
       {
         "id": "W03",
@@ -1484,7 +1492,7 @@
         "target": {
           "aerobic": "40–45分鐘Easy",
           "quality": "品質跑工作量減20–30%或Easy",
-          "strength": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
+          "strength": "Back Squat 2×5 RIR4；背部拉力4–5組｜Bench 2×5 RIR4；Trap-bar 2×3 RIR4（無痛才做）",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -1506,15 +1514,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×5 RIR4；背部拉力4–5組",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲2×5／臥推2×5／六角槓2×3，RIR≥4；其他組數減約1/3",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×5 RIR4；Trap-bar 2×3 RIR4（無痛才做）",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1534,7 +1542,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "減量不是退步，是給適應發生的空間"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "恢復或技巧 20–30 分",
+          "dose": "Row或Ski RPE≤3；不再加重量、跑量或WOD"
+        }
       },
       {
         "id": "W04",
@@ -1550,7 +1562,7 @@
         "target": {
           "aerobic": "50–60分鐘Easy",
           "quality": "如做跑後站點則Petra間歇適度減量",
-          "strength": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
+          "strength": "Back Squat 3×5 RIR2–3；Lat Pulldown 3×8；Chest Row 3×10｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1572,15 +1584,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×5 RIR2–3；Lat Pulldown 3×8；Chest Row 3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲3×5／臥推3×5／六角槓2×4，RIR2–3；背部8–10組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×5 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1600,7 +1612,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：上肢補強＋Easy",
+          "dose": "胸靠划船2×10、側平舉2×15、輕鬆Row/Bike 15–20分鐘；小腿未恢復則休息"
+        }
       },
       {
         "id": "W05",
@@ -1616,7 +1632,7 @@
         "target": {
           "aerobic": "55–60分鐘Easy",
           "quality": "Petra工作段維持，不追每趟PR",
-          "strength": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
+          "strength": "Back Squat 3×8 RIR2–3；Leg Curl 2×12；Chest Row 4×10｜Bench 3×8 RIR2–3；Trap-bar 2×6 RIR3；Pulldown 3×10＋Rear Delt2×15",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1638,15 +1654,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "增肌／力量進階",
-            "dose": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×8 RIR2–3；Leg Curl 2×12；Chest Row 4×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲3×8／臥推3×8／六角槓2×6 RIR3；划船4×10＋下拉3×10",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×8 RIR2–3；Trap-bar 2×6 RIR3；Pulldown 3×10＋Rear Delt2×15",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1666,7 +1682,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：背部增肌＋有氧",
+          "dose": "High Row3×10、下拉2×10、Easy Ski/Row 15–20分鐘，RPE3–4"
+        }
       },
       {
         "id": "W06",
@@ -1682,7 +1702,7 @@
         "target": {
           "aerobic": "55–65分鐘Easy",
           "quality": "品質跑後2天不排重弓步",
-          "strength": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
+          "strength": "Front Squat 3×6 RIR3；Split Squat 2×8/側；High Row 4×10｜DB Bench 3×10；RDL 3×8 RIR3；Pulldown 3×10",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1704,15 +1724,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "增肌／力量進階",
-            "dose": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Front Squat 3×6 RIR3；Split Squat 2×8/側；High Row 4×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "Front Squat3×6／DB Bench3×10／RDL3×8／高位Row4×10＋下拉3×10",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "DB Bench 3×10；RDL 3×8 RIR3；Pulldown 3×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1732,7 +1752,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：背部增肌＋有氧",
+          "dose": "High Row3×10、下拉2×10、Easy Ski/Row 15–20分鐘，RPE3–4"
+        }
       },
       {
         "id": "W07",
@@ -1748,7 +1772,7 @@
         "target": {
           "aerobic": "60–65分鐘Easy",
           "quality": "Petra間歇穩速完成即可",
-          "strength": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
+          "strength": "Back Squat 4×5 RIR2–3；Chest Row 3×8；Pulldown 3×8｜Bench 4×6 RIR2–3；Trap-bar 3×5 RIR3；Rear Delt2×12",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1770,15 +1794,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "增肌／力量進階",
-            "dose": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 4×5 RIR2–3；Chest Row 3×8；Pulldown 3×8",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "Back Squat4×5／Bench4×6／六角槓3×5／下拉3×8＋划船3×8",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 4×6 RIR2–3；Trap-bar 3×5 RIR3；Rear Delt2×12",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1798,7 +1822,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：背部增肌＋有氧",
+          "dose": "High Row3×10、下拉2×10、Easy Ski/Row 15–20分鐘，RPE3–4"
+        }
       },
       {
         "id": "W08",
@@ -1814,7 +1842,7 @@
         "target": {
           "aerobic": "45–50分鐘Easy",
           "quality": "跑步品質減量20–30%",
-          "strength": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
+          "strength": "Back Squat 2×5 RIR4；Chest Row 3×10｜Bench 2×6 RIR4；Trap-bar 2×4 RIR4；Pulldown 3×8",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -1836,15 +1864,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×5 RIR4；Chest Row 3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲2×5／臥推2×6／六角槓2×4，RIR≥4，背部6組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×6 RIR4；Trap-bar 2×4 RIR4；Pulldown 3×8",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1864,7 +1892,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "減量不是退步，是給適應發生的空間"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "恢復或技巧 20–30 分",
+          "dose": "Row或Ski RPE≤3；不再加重量、跑量或WOD"
+        }
       },
       {
         "id": "W09",
@@ -1880,7 +1912,7 @@
         "target": {
           "aerobic": "60–70分鐘Easy",
           "quality": "Petra有品質跑就不要另加3×1km",
-          "strength": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
+          "strength": "Back Squat 4×4 RIR2–3；Chest Row 3×8；Pulldown 3×8｜Bench 3×5 RIR2–3；Trap-bar 3×4 RIR3；Rear Delt2×15",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1902,15 +1934,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 4×4 RIR2–3；Chest Row 3×8；Pulldown 3×8",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲4×4／臥推3×5／六角槓3×4，背部8組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×5 RIR2–3；Trap-bar 3×4 RIR3；Rear Delt2×15",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1930,7 +1962,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：站點技巧／Easy",
+          "dose": "Sled 2–3×10m RPE5–6 或 20–30分鐘Easy Erg，若本週Petra WOD很硬則只Easy"
+        }
       },
       {
         "id": "W10",
@@ -1946,7 +1982,7 @@
         "target": {
           "aerobic": "60–70分鐘Easy",
           "quality": "Petra若已有腿部大WOD則減雪橇量",
-          "strength": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
+          "strength": "Back Squat 3×5 RIR3；Pulldown3×8；Chest Row3×10｜Bench 3×6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -1968,15 +2004,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×5 RIR3；Pulldown3×8；Chest Row3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲3×5／臥推3×6／六角槓2×4，背部8–10組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×6 RIR3；Trap-bar 2×4 RIR3；High Row 2×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -1996,7 +2032,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：站點技巧／Easy",
+          "dose": "Sled 2–3×10m RPE5–6 或 20–30分鐘Easy Erg，若本週Petra WOD很硬則只Easy"
+        }
       },
       {
         "id": "W11",
@@ -2012,7 +2052,7 @@
         "target": {
           "aerobic": "65–75分鐘Easy",
           "quality": "Petra間歇＋WOD跑量都納入同一週",
-          "strength": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
+          "strength": "Back Squat 3×5 RIR3；Reverse Lunge 2×8/側（膝舒適）；Row3×10｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Pulldown3×10",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -2034,15 +2074,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×5 RIR3；Reverse Lunge 2×8/側（膝舒適）；Row3×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲3×5／臥推3×5／六角槓2×4；反向弓步2×8/側＋背部8組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Pulldown3×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2062,7 +2102,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：站點技巧／Easy",
+          "dose": "Sled 2–3×10m RPE5–6 或 20–30分鐘Easy Erg，若本週Petra WOD很硬則只Easy"
+        }
       },
       {
         "id": "W12",
@@ -2078,7 +2122,7 @@
         "target": {
           "aerobic": "45–55分鐘Easy",
           "quality": "Interval工作量減20–30%，控制節奏",
-          "strength": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
+          "strength": "Back Squat 2×4 RIR4；Chest Row 2×10｜Bench 2×5 RIR4；Trap-bar 2×3 RIR4；Pulldown2×10",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -2100,15 +2144,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×4 RIR4；Chest Row 2×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲2×4／臥推2×5／六角槓2×3 RIR≥4；拉力減1/3",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×5 RIR4；Trap-bar 2×3 RIR4；Pulldown2×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2128,7 +2172,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "減量不是退步，是給適應發生的空間"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "恢復或技巧 20–30 分",
+          "dose": "Row或Ski RPE≤3；不再加重量、跑量或WOD"
+        }
       },
       {
         "id": "W13",
@@ -2144,7 +2192,7 @@
         "target": {
           "aerobic": "65–75分鐘Easy",
           "quality": "Petra品質跑為主，不另開高強度日",
-          "strength": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
+          "strength": "Back Squat 3×4 RIR3；Chest Row3×8；Pulldown3×8｜Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt2×12",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -2166,15 +2214,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 3×4 RIR3；Chest Row3×8；Pulldown3×8",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲3×4／臥推3×5／六角槓2×4，背部6–8組",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 3×5 RIR3；Trap-bar 2×4 RIR3；Rear Delt2×12",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2194,7 +2242,11 @@
         "notes": [
           "週五混雙保留體力、週六男單穩定完賽",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：恢復與站點技巧",
+          "dose": "Easy Row/Bike 20–30分鐘；可練Wall Ball 2×8動作品質，勿追加高強度"
+        }
       },
       {
         "id": "W14",
@@ -2210,7 +2262,7 @@
         "target": {
           "aerobic": "45–60分鐘（模擬週依疲勞縮短）",
           "quality": "本週Petra品質跑改短節奏",
-          "strength": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
+          "strength": "Back Squat 2×4 RIR3–4；Chest Row3×8｜Bench 2×4 RIR3–4；Trap-bar 2×3 RIR4；Pulldown2×10",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -2232,15 +2284,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×4 RIR3–4；Chest Row3×8",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲2×4／臥推2×4／六角槓2×3 RIR3–4",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×4 RIR3–4；Trap-bar 2×3 RIR4；Pulldown2×10",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2260,7 +2312,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：恢復與站點技巧",
+          "dose": "Easy Row/Bike 20–30分鐘；可練Wall Ball 2×8動作品質，勿追加高強度"
+        }
       },
       {
         "id": "W15",
@@ -2276,7 +2332,7 @@
         "target": {
           "aerobic": "45–55分鐘Easy，模擬週可縮短",
           "quality": "Petra間歇減量；不加額外爆發WOD",
-          "strength": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
+          "strength": "Back Squat 2×4 RIR4；Row3×8｜Bench 2×4 RIR4；Trap-bar 2×3 RIR4；Pulldown2×8",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -2298,15 +2354,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×4 RIR4；Row3×8",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "深蹲2×4／臥推2×4／六角槓2×3，保持力量感",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×4 RIR4；Trap-bar 2×3 RIR4；Pulldown2×8",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2326,7 +2382,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "第六堂選配：恢復與站點技巧",
+          "dose": "Easy Row/Bike 20–30分鐘；可練Wall Ball 2×8動作品質，勿追加高強度"
+        }
       },
       {
         "id": "W16",
@@ -2342,7 +2402,7 @@
         "target": {
           "aerobic": "35–50分鐘Easy",
           "quality": "Petra短工作段，次數顯著減少",
-          "strength": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
+          "strength": "Back Squat 2×3 RIR4；Row2×10｜Bench 2×3 RIR4；Trap-bar 1–2×3 RIR5（可省略）",
           "weeklyHard": "通常1–2堂（包含Petra硬WOD）"
         },
         "sessions": [
@@ -2364,15 +2424,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "Back Squat 2×3 RIR4；Row2×10",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "主項2×3–4 RIR4；背部4–6組，不造成痠痛",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "Bench 2×3 RIR4；Trap-bar 1–2×3 RIR5（可省略）",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2392,7 +2452,11 @@
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "選配 20–25 分鐘 Easy",
+          "dose": "輕鬆 Row／Bike，保持流動，不再練站點極限"
+        }
       },
       {
         "id": "W17",
@@ -2408,7 +2472,7 @@
         "target": {
           "aerobic": "賽前Easy 20–30分鐘，含幾次短加速",
           "quality": "不做完整Petra Interval/WOD",
-          "strength": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
+          "strength": "賽前不做重腿；一堂短技術上肢20–30分｜輕臥推/划船各1–2組 RIR≥5；不再做重Trap-bar",
           "weeklyHard": "0–1短刺激"
         },
         "sessions": [
@@ -2430,15 +2494,15 @@
             "id": "strengthA",
             "name": "World Gym A · 力量",
             "purpose": "主項力量＋背部拉力",
-            "dose": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
-            "details": "主項工作組以RIR2–3為主（恢復週RIR≥4）；重量由熱身遞增決定，現有記錄不足以固定指定kg。"
+            "dose": "賽前不做重腿；一堂短技術上肢20–30分",
+            "details": "熱身逐步找工作重量，以RIR控制，不將固定kg當成1RM推估；前48小時Petra腿部高量就縮短此堂。"
           },
           {
             "id": "strengthB",
             "name": "World Gym B · 補足三大項／背",
             "purpose": "另一堂力量刺激，避免與Petra腿量衝突",
-            "dose": "一堂上肢/全身20–30分鐘light primer，RIR≥5；不做重深蹲/硬拉",
-            "details": "兩堂World Gym需覆蓋Squat、Bench和Trap-bar；若腿沉，臥推／背部先做，硬拉組數可縮減。"
+            "dose": "輕臥推/划船各1–2組 RIR≥5；不再做重Trap-bar",
+            "details": "此堂含臥推與髖伸主項；腿部恢復不足先保留臥推＋背部，Trap-bar可以直接略過。"
           },
           {
             "id": "easy",
@@ -2458,7 +2522,11 @@
         "notes": [
           "週五混雙保留體力、週六男單穩定完賽",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調"
-        ]
+        ],
+        "optionalSixth": {
+          "title": "不加第六堂",
+          "dose": "比賽週優先恢復、短技巧和補給，不另外增添訓練"
+        }
       }
     ],
     "design": {
