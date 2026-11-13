@@ -3,12 +3,12 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=v9",
+  "start_url": "./?app=v10",
   "scope": "./",
   "display": "standalone",
-  "description": "Garmin + Petra 科學訓練復盤、四週計畫與 HYROX Taipei 雙日備賽",
-  "background_color": "#081621",
-  "theme_color": "#081621",
+  "description": "17週HYROX Taipei週期化訓練路線、每週詳細課表與Garmin/Petra科學判讀",
+  "background_color": "#f6f8f7",
+  "theme_color": "#f6f8f7",
   "icons": [
     {
       "src": "./icon-192-v9.png",
