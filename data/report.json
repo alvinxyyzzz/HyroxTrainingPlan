@@ -3433,11 +3433,11 @@
                 }
               ],
               "station": {
-                "name": "Sandbag Lunge",
-                "protocol": "2×10m；趟間75秒，先徒手或輕沙袋",
+                "name": "Kettlebell／Sandbag Lunge",
+                "protocol": "2×10m；趟間75秒，先徒手或輕沙袋；無沙袋用壺鈴前抱或徒手練",
                 "rpe": "RPE≤6",
                 "why": "負重弓步技術、穩住膝踝",
-                "skip": "有小腿/膝痛就省略"
+                "skip": "有小腿/膝痛就省略；沙袋未確認可用"
               },
               "why": "Squat與腿部耐力連結Sled Push / Lunge / Wall Ball；小腿負荷和Petra腿部WOD優先管理。",
               "rule": "Station只作8–12分鐘可控練習。若當週做選配HYROX WOD，原本站點收尾直接替換（不是再加上去）。"
@@ -3508,7 +3508,7 @@
         ],
         "wod": {
           "name": "AMRAP",
-          "prescription": "AMRAP24：跑500m＋Row200m＋Sandbag Lunge10m（輕）＋WB10，RPE6–7",
+          "prescription": "AMRAP24：跑500m＋Row200m＋Sandbag Lunge10m（輕）＋WB10，RPE6–7（現場無沙袋時改壺鈴 Front Rack Lunge，若膝/小腿不適取消）",
           "role": "選配／取代World Gym站點收尾或既有硬WOD，不能算必做第七堂",
           "cancellation": "若Petra已是高強度WOD、下肢疲勞高或小腿影響走路／提踵，直接取消或改低衝擊Easy。"
         },
@@ -4733,7 +4733,8 @@
         ],
         "noDoubleCount": "站點收尾與另列的HYROX WOD為替代關係，不是全部同週加上去。Petra已做高強度WOD，收尾降為Easy或刪除。",
         "loadRules": "目前Strength Log沒有確認工作kg；各主項明確給組數/次數/休息，以暖身和RIR定kg，事後由Garmin或用戶回報補上。6kg Wall Ball和Men/Mixed賽事2×24kg Farmer等是賽事參考而非個人起始重量。",
-        "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。"
+        "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。",
+        "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
       }
     },
     "science": [
