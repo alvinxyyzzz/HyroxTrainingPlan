@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "updated": "2026-11-13",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -119,6 +119,12 @@
   ],
   "petra": [
     {
+      "date": "11/12",
+      "name": "Interval + 100 Air Squats + cooldown",
+      "score": "5×~400m + 4×~600m (FIT work laps)",
+      "detail": "Garmin FIT confirmed 5×~400m and 4×~600m work segments with recoveries. Alvin confirms post-session 100 Air Squats to simulate Wall Ball squat pattern, and 2 easy laps cool-down. Severe calf soreness afterward. Air Squat ≠ Wall Ball counted reps, cool-down run may already be in Garmin runs; do not double count."
+    },
+    {
       "date": "11/10",
       "name": "AMRAP23 · 2人輪替",
       "score": "17R+15（團隊）",
@@ -150,31 +156,31 @@
     }
   ],
   "coach": {
-    "headline": "速度儲備夠用，下一步要練『做完站點還能穩穩跑』。",
-    "summary": "最新64筆Garmin活動、32筆跑步（127.58km）、204筆FIT分段及37張Petra白板已核對。11/02完整週25.84km（高於之前約12–16km），11/09週截至週五14.05km；11/12完成同堂5×400m（平均1:32）+4×600m（平均2:47），11/13另跑5.86km、均心150。11/10 Petra雙人AMRAP23 Garmin均心169、最高192。強度儲備已有，優先提高有氧時長、站點效率及漸進力量，避免再堆第三堂高強度。",
+    "headline": "下一個突破點不是更快的400m，而是恢復良好後讓8公里跑＋8個站點更穩。",
+    "summary": "11/12 Petra間歇實際含5×~400m＋4×~600m，結束後另做100 Air Squat與兩圈緩跑；Alvin回報小腿明顯痠痛。這次不應直接診斷小腿肌耐力不足：可能是高跑速/推蹬、近期跑量和後續下肢訓練堆疊所致。第一優先是評估步行、上樓與提踵的反應，恢復之前暫緩快速跑、爆發跳躍與高量Wall Ball。原有Petra＋World Gym 5–6天彈性模組維持，但訓練強度依恢復改動；長期目標仍是有氧底盤、站點後可跑及三大項漸進。",
     "findings": [
       {
+        "type": "caution",
+        "title": "小腿痠痛是暫時調課訊號，不是弱項診斷",
+        "body": "這次高強度間歇後再做100 Air Squat＋兩圈緩跑；疼痛/僵硬若影響步行、單腳提踵或隔天更重，就取消衝刺和高量站點，先用低強度Row/Bike取代。單側腫脹、急性劇痛需評估。"
+      },
+      {
         "type": "priority",
-        "title": "速度快 ≠ HYROX 後程穩",
-        "body": "11/12間歇工作段配速不慢，但8×1km與8站需要持續有氧與站點轉換。優先保留Long Easy 45–60分；第二次輕鬆Erg 20–25分再視恢復加。"
+        "title": "有氧底盤比多一堂全力WOD更有價值",
+        "body": "11/02完整週跑量25.84km高於先前12–16km常態，下一階段優先穩定Long Easy 45–60分鐘和低強度Erg，而不是繼續推400m極速。"
       },
       {
         "type": "evidence",
-        "title": "Petra WOD 已提供很高的混合刺激",
-        "body": "11/10 AMRAP23雙人17R+15（非Alvin個人輪數）；Garmin HIIT約23分平均169、最高192。若當週Petra已是這類WOD，World Gym WOD只做輕技術，毋須再加強度。"
+        "title": "Petra WOD就是混合耐力課，不要重複計量",
+        "body": "11/10雙人AMRAP23團隊17R+15（非個人），Garmin均心169；11/12為一堂包含400m及600m間歇、100 Air Squat和緩跑的課，不能分拆當作三堂。"
       },
       {
         "type": "strength",
-        "title": "三大項用RIR定重量、再漸進",
-        "body": "目前沒有可靠的Squat/Bench/Trap-bar實際工作重量，因此以3×5/2×4和RIR2–3測基準，之後重量或rep微進步；背部每週8–12組。Sled依現場摩擦與RPE調節，不能直接用比賽總重量推算健身房負重。"
-      },
-      {
-        "type": "caution",
-        "title": "膝蓋與累積腿部疲勞都要守住",
-        "body": "近期11/10 HIIT＋11/12高強度跑＋11/13跑步，11/14優先休息／散步；若週末腿感覺良好再做輕鬆有氧或上肢，避免重腿後再加Wall Ball衝刺。"
+        "title": "力量維持Squat、Bench、Trap-bar與背部拉力",
+        "body": "5天版2堂World Gym涵蓋三大項；6天版拆第3堂。主項依熱身和RIR2–3選重量，等Garmin或本人確認kg/rep才能評估進步；訓練後只在症狀允許時增加站點。"
       }
     ],
-    "limitation": "心率不等於乳酸或VO2max；Garmin Strength_Log缺乏三大項kg／組次，無法計算1RM或精準處方公斤。11/10為團隊共享17R+15，11/12 5×400＋4×600屬同一堂Interval；11/07 Ski 1000m約5:00仍為自述。Sled摩擦、場地、雪橇自身重量未知。"
+    "limitation": "Garmin 64 activities and FIT 204 segments updated Nov13. 11/12 100 Air Squats + two cooldown laps and postexercise calf soreness are user-reported, not independently timed/quantified by FIT. Calf symptoms cannot establish injury or weak muscular endurance alone. Strength log missing verified Squat/Bench/Trap-bar loads; no fabricated kg or percentage 1RM. Team shared 11/10 17R+15 not individual score."
   },
   "weeks": [
     {
@@ -479,6 +485,14 @@
     {
       "title": "ACSM Resistance 2026",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+    },
+    {
+      "title": "NHS Calf Problems (2026)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/leg-and-foot-problems-and-conditions/calf-problems"
+    },
+    {
+      "title": "NHS return-to-running: symptom monitoring",
+      "url": "https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme"
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
@@ -508,7 +522,12 @@
     "rawGarminActivityCountAsOf": "2026-11-11",
     "detailedPerformanceSnapshotAsOf": "2026-11-08",
     "performanceNote": "Strength_Log has no verified kg for squat, bench, trap-bar; absolute working loads assigned from warm-up/RIR rather than fictional 1RM.",
-    "lastIntervalAnalysis": "11/12 5×~400m + 4×~600m; source FIT; no duplicate aerobic sessions"
+    "lastIntervalAnalysis": "11/12 5×~400m + 4×~600m; source FIT; no duplicate aerobic sessions",
+    "workoutSubjectiveUpdate": "2026-11-13",
+    "recoveryDataStatus": "subjective; severity/side/duration unknown",
+    "calfSymptomsRecorded": true,
+    "garminLastConfirmedActivities": 64,
+    "petraIndexed": 37
   },
   "recentWorkout": {
     "date": "2026-11-07",
@@ -569,7 +588,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-13 v1.6",
+    "version": "2026-11-13 v1.7",
     "modeDefault": 5,
     "title": "HYROX Hybrid Engine · 彈性5+1",
     "principle": "不是每週硬湊三堂World Gym；以五堂有效刺激＋恢復良好才追加第六堂，心肺和混合耐力優先，三大項維持規律漸進。高強度跑和高強度WOD原則每週合計1–2堂，不能把Easy跑當可犧牲項。",
@@ -693,24 +712,28 @@
       {
         "signal": "本週只完成5個核心模組",
         "action": "不用補第六堂，遵守下週負荷；第五堂Long Easy優先保住。"
+      },
+      {
+        "signal": "11/12間歇後小腿非常痠，包含100下Air Squat與2圈緩跑",
+        "action": "若走路、提踵疼痛或疲勞惡化，下一個快速跑/WOD與重腿都取消或降為Easy交叉訓練；康復後加入站姿/屈膝提踵2×10–12每週2次，依次日反應漸進。"
       }
     ],
     "weekAdjustments": [
       {
         "week": 0,
-        "detail": "建立配速與負重基線；最多1–2次高強度；跑量參考16–20km（以當週實際恢復優先），Back Squat/Bench 3×5 RIR3；Trap-bar 2–3×4 RIR3"
+        "detail": "小腿恢復與安全回到連續跑；先恢復，再建立三大項RIR基準和有氧底盤：若小腿仍明顯痠/行走或提踵痛：Petra Interval改30–40分Easy Bike/Row，Long Easy改20–40分舒適交叉訓練；完全恢復後才做可控Interval並減20–30%工作量，Long Easy先從40–45分開始，翌日症狀穩定再加。"
       },
       {
         "week": 1,
-        "detail": "有氧時間增加，輕度run→station學習；週跑量17–22km（若W01恢復好）；主要動作增1次rep或加2.5kg其中一個，不同週同時加WOD量。"
+        "detail": "症狀已穩定時，重新建立有氧時間＋小腿力量耐受＋低強度站點效率：先完成30–45分鐘無不良次日反應的Easy；之後Long Easy50–55分，Interval保持可控而非加速。若小腿反應不佳延續W1恢復方案。"
       },
       {
         "week": 2,
-        "detail": "Deload：減工作量約30–40%，保留技術與輕量有氧；週跑量13–17km；Squat/Bench各2×5 RIR4，Trap-bar 2×3 RIR4，其餘配件縮短1/3"
+        "detail": "減量週：主要工作組減30–40%，用較低衝擊的Technique維持動作品質和恢復：Petra Interval減工作段20–30%或改簡短節奏練習；Long Easy 40–45分鐘輕鬆完成"
       },
       {
         "week": 3,
-        "detail": "經過恢復週後重新建構run→station，仍保住長Easy；週跑量17–22km（包含WOD中的跑步）；Squat/Bench 3×5、Trap-bar 2–3×4 RIR2–3，依恢復調整"
+        "detail": "恢復狀態良好才開始標準化run→station銜接，逐步提升有氧混合耐力：Petra Interval照教練但避免和本週混合WOD都衝滿；Long Easy 50–60分鐘；WOD中跑量納入總週跑量"
       }
     ],
     "modes": {
@@ -827,31 +850,36 @@
     },
     "selectionRationale": "HYROX是8×1km跑+8站點，對有氧底盤、受疲勞影響下的持續跑、全身肌耐力與力量都有需求；目前重視累積容量，1月起逐漸轉入專項。2026 ACSM對力量訓練建議規律參與與依目標調整；並行訓練可兼顧力量與耐力但需避免重腿/高強度密集。"
   },
-  "planUpdated": "2026-11-11",
-  "planBasis": "Garmin confirmed 58 activities by 2026-11-11, full running analytics through 2026-11-08; Petra 36 indexed photos; latest classes inferred only when attendance/Alvin score verified.",
+  "planUpdated": "2026-11-13",
+  "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
-    "dates": "2026-11-13–2026-11-15",
-    "title": "本週剩餘安排",
+    "dates": "2026-11-13–2026-11-16",
+    "title": "小腿恢復優先（條件調整）",
     "plan": [
       {
-        "date": "11/13 Fri",
-        "type": "done",
-        "text": "已跑5.86km（均心150），不再補高強度"
+        "date": "11/13 Friday",
+        "type": "observed",
+        "text": "已有5.86km Garmin跑步；若小腿仍痠，不再補快速跑或高次數深蹲。"
       },
       {
-        "date": "11/14 Sat",
-        "type": "rest",
-        "text": "優先恢復／步行＋活動度20–30分鐘；無疼痛且精神好可上肢輕訓，不做重腿"
+        "date": "11/14 Saturday",
+        "type": "recovery",
+        "text": "步行/活動度20–30分；若走路痛或跛行不補跑。可坐姿上肢、輕Row/Bike 15–25分且全程舒適。"
       },
       {
-        "date": "11/15 Sun",
-        "type": "easy",
-        "text": "視腿部恢復，30–45分鐘可說話Easy或Row/Ski Easy；若痠重則完全休息"
+        "date": "11/15 Sunday",
+        "type": "conditional",
+        "text": "若步行、樓梯、提踵均舒適且隔天無反彈，Easy 20–30分起步；否則Bike/Row Easy 20–40分或休息。"
+      },
+      {
+        "date": "11/16 Monday",
+        "type": "conditional",
+        "text": "若仍明顯痠痛，不做快跑、Sled衝刺、高量Wall Ball；以World Gym Bench/Back或休息替代。"
       }
     ]
   },
   "prescriptionEngine": {
-    "version": "2026-11-13",
+    "version": "2026-11-13 calf-adjusted",
     "source": "Garmin FIT (64 activities, 204 laps), 37 Petra indexed photos (new IMG_1702), ACSM 2026 resistance statement, official HYROX station format",
     "basedOn": {
       "row1500GarminSec": 380.5,
@@ -862,7 +890,10 @@
       "squatWorkingKg": null,
       "benchWorkingKg": null,
       "trapBarWorkingKg": null,
-      "weightDataStatus": "unknown"
+      "weightDataStatus": "unknown",
+      "nov12AirSquatRepsUserReported": 100,
+      "nov12CoolDownLapsUserReported": 2,
+      "calfSoreness": "marked, self-reported, unresolved laterality/severity"
     },
     "loadGuide": {
       "main": "Squat/Bench/Trap-bar 首次只根據當天熱身找工作重量：先做空槓或很輕重量8次 → 逐步增加重量做5/3次；工作組要能完成目標次數且還能多做2–3次（RIR2–3），最後一組速度不明顯崩落，下一次才增加2.5–5kg（視動作與器材，非強制）。",
@@ -908,7 +939,7 @@
             "rest": "45秒"
           }
         ],
-        "option": "有餘裕可RowErg Easy 8–12分鐘；Interval前24小時若重腿會影響跑，請交換日子。"
+        "option": "若小腿仍痠/無法舒適腳跟抬起，跳過深蹲、改上肢背部＋坐姿器械。恢復後可選站姿＋屈膝提踵各2×10–12，每週2次、慢速，留48小時間隔，隔日不加重。"
       },
       "B": {
         "title": "World Gym B · 臥推＋肩＋背",
@@ -946,7 +977,7 @@
             "rest": "45–60秒"
           }
         ],
-        "option": "若恢復好，最後加20–25分鐘Easy Ski/Row/Runs，非HIIT。"
+        "option": "若腿部不適，可優先這堂上肢。恢復良好才補20–25分鐘Easy Ski/Row；本週小腿敏感時選Bike/Row舒適強度。"
       },
       "C": {
         "title": "World Gym C · 六角槓＋Station",
@@ -978,7 +1009,7 @@
             "rest": "60秒"
           }
         ],
-        "option": "後面只加一種Station：Sled Push/Pull 3×10m（RPE6）或Wall Ball 2×10（6kg）或Ski 3×150m；如Petra有腿/推舉WOD則跳過。"
+        "option": "Trap-bar及Sled僅在正常步態與小腿耐受下做；站點只選一項、避免當週Petra已有大量Wall Ball/跳躍或重腿，任何不適即取消。"
       },
       "B5": {
         "title": "5天合併版 · 臥推＋六角槓＋背",
@@ -1016,22 +1047,22 @@
             "rest": "45秒"
           }
         ],
-        "option": "此堂不追加高強度WOD；若有空可做10–15分鐘Easy Erg。"
+        "option": "臥推優先；若小腿仍不適，Trap-bar完全取消改做背部，這週不追三大項補齊。不要加高強度WOD。"
       }
     },
     "weeks": [
       {
         "week": "W01",
         "dates": "11/16–11/22",
-        "aim": "建立配速與負重基線；最多1–2次高強度",
-        "running": "Petra Interval依教練課表；Long Easy 45–50分鐘（約6–8km視配速與RPE）；上肢日加15–20分鐘Easy Erg（可選）",
-        "volume": "跑量參考16–20km（以當週實際恢復優先），Back Squat/Bench 3×5 RIR3；Trap-bar 2–3×4 RIR3",
-        "progression": "首週不拚加重量；完成後記錄kg、rep、RIR。",
+        "aim": "小腿恢復與安全回到連續跑；先恢復，再建立三大項RIR基準和有氧底盤",
+        "running": "若小腿仍明顯痠/行走或提踵痛：Petra Interval改30–40分Easy Bike/Row，Long Easy改20–40分舒適交叉訓練；完全恢復後才做可控Interval並減20–30%工作量，Long Easy先從40–45分開始，翌日症狀穩定再加。",
+        "volume": "不強制追16–20km；將症狀和次日反應當作本週第一KPI。Squat/Bench 2–3×5 RIR3；Trap-bar最多2×4且僅在小腿舒適時做。",
+        "progression": "記錄疼痛/僵硬、能否正常步行與單腳提踵、實際負重kg/RIR。先穩住疼痛反應，不急著加重量、跑量或Wall Ball。",
         "wod": {
           "title": "ENGINE CONTROL 12",
           "format": "EMOM 12 · 3站×4輪",
           "duration": "12分鐘主課；含暖身、冷卻共約25–30分鐘",
-          "priority": "條件選配／取代其他Station finisher",
+          "priority": "復原條件選配，完全不必完成",
           "rounds": [
             {
               "slot": "分鐘1",
@@ -1052,15 +1083,15 @@
               "load": "RPE5、約35–45秒完成"
             }
           ],
-          "target": "每分鐘保留至少15秒休息，12分鐘總計約480m Ski、32 Wall Ball、560m Row；RPE不超過6–7。",
-          "swap": "Petra若剛做高心率WOD，本EMOM取消；僅做Ski 3×150m技巧。"
+          "target": "只有無痛、恢復好才進行：每分鐘保留15秒以上、RPE不超過6；若小腿緊或技術變差立即停下。",
+          "swap": "小腿仍痠、提踵不舒適、Petra Strength為硬WOD，三者任一成立就取消整堂EMOM；改Easy Row/Bike 15–25分鐘或休息。6kg Wall Ball不是必做。"
         }
       },
       {
         "week": "W02",
         "dates": "11/23–11/29",
-        "aim": "有氧時間增加，輕度run→station學習",
-        "running": "Petra Interval依教練；Long Easy 50–60分鐘；上肢日Easy Ski/Row 20分鐘可選",
+        "aim": "症狀已穩定時，重新建立有氧時間＋小腿力量耐受＋低強度站點效率",
+        "running": "先完成30–45分鐘無不良次日反應的Easy；之後Long Easy50–55分，Interval保持可控而非加速。若小腿反應不佳延續W1恢復方案。",
         "volume": "週跑量17–22km（若W01恢復好）；主要動作增1次rep或加2.5kg其中一個，不同週同時加WOD量。",
         "progression": "只增加一種變量（Easy時間或主要力量負重）；不能三項同時提高。",
         "wod": {
@@ -1095,13 +1126,13 @@
             }
           ],
           "target": "每輪結束主動休15–30秒，18分鐘完成幾輪不追排名；平均RPE6，最高RPE7。",
-          "swap": "若週二Petra AMRAP已是RPE≥7，此堂改20分鐘Easy Row（能完整說話）。"
+          "swap": "若仍有小腿痠/跑步時痛、最近Petra已有高心率WOD或腿部疲勞，此AMRAP整堂取消，改20–30分鐘Easy Row；不要勉強完成300m跑＋Lunge＋Wall Ball。"
         }
       },
       {
         "week": "W03",
         "dates": "11/30–12/06",
-        "aim": "Deload：減工作量約30–40%，保留技術與輕量有氧",
+        "aim": "減量週：主要工作組減30–40%，用較低衝擊的Technique維持動作品質和恢復",
         "running": "Petra Interval減工作段20–30%或改簡短節奏練習；Long Easy 40–45分鐘輕鬆完成",
         "volume": "週跑量13–17km；Squat/Bench各2×5 RIR4，Trap-bar 2×3 RIR4，其餘配件縮短1/3",
         "progression": "不測PR、不加重量，睡眠和關節恢復優先。",
@@ -1131,13 +1162,13 @@
             }
           ],
           "target": "每輪3分鐘內保留至少45–60秒休息，主觀RPE≤5，總量Ski600m、Row600m、WB24次。",
-          "swap": "膝部疼痛、腫脹或疲勞高時取消Wall Ball，只做舒適有氧。"
+          "swap": "不論本週WOD有無達成均可取消；小腿或膝蓋不舒服時Wall Ball改上肢穩定動作，划船/滑雪只舒適節奏。"
         }
       },
       {
         "week": "W04",
         "dates": "12/07–12/13",
-        "aim": "經過恢復週後重新建構run→station，仍保住長Easy",
+        "aim": "恢復狀態良好才開始標準化run→station銜接，逐步提升有氧混合耐力",
         "running": "Petra Interval照教練但避免和本週混合WOD都衝滿；Long Easy 50–60分鐘；WOD中跑量納入總週跑量",
         "volume": "週跑量17–22km（包含WOD中的跑步）；Squat/Bench 3×5、Trap-bar 2–3×4 RIR2–3，依恢復調整",
         "progression": "單站點與跑步轉換更流暢，不需衝更快400m。",
@@ -1167,7 +1198,7 @@
             }
           ],
           "target": "每輪留45–90秒恢復，累計2km跑＋600m Ski＋32WB，總RPE約6–7。若無法完成或剩不到30秒，先降跑步至400m。",
-          "swap": "若Petra Strength已經高心率AMRAP，本堂改為4×6分鐘Very Easy跑＋Ski，不做Wall Ball；本週最多兩次品質刺激。"
+          "swap": "若小腿曾在跑步後疼痛再發、Petra本週已有硬WOD、或24–48小時腿部負荷很高，取消此45分鐘混合課並改Easy Row/Bike或縮短跑步距離；不是額外第三個高強度日。"
         }
       }
     ],
@@ -1176,7 +1207,74 @@
       "一週5堂優先Petra Strength、Petra Interval、World Gym A、World Gym B5與Long Easy；6堂可拆成World Gym A/B/C且選WOD僅替換C尾段。",
       "重蹲與Trap-bar儘量相隔約48小時，高強度跑前避免24小時內重腿；不足則RIR提高、減組或改上肢。",
       "每週最多1–2個主要高強度刺激，EMOM/AMRAP的RPE和休息都可調，不鼓勵每次限時把自己練爆。",
-      "膝蓋疼痛腫脹等症狀優先停重腿、Wall Ball/跳躍動作，不強迫完成設計。"
+      "膝蓋疼痛腫脹等症狀優先停重腿、Wall Ball/跳躍動作，不強迫完成設計。",
+      "11/12後的小腿痠痛需主動影響處方：走路痛或提踵明顯疼痛就取消跑步Interval、Sled高強度、爆發跳與Wall Ball大組，改Easy Bike/Row或上肢；先恢復再逐步加量。",
+      "每次World Gym力量後若安排站點，跑步/Wall Ball/Sled應視前48小時Petra白板與Garmin實績削減，不能同一週重複堆多堂高強度。"
+    ],
+    "calfStrengthPrescription": {
+      "frequency": "2×/week after symptoms settle; at least 48h apart",
+      "phase1": "Standing calf raise straight-knee 2×10–12 and bent-knee 2×10–12, controlled 2 sec up/down, bodyweight or supported, no next-day flare",
+      "phase2": "3×12–15; once stable add 2–5kg slowly, one variable at a time, stop before form deteriorates",
+      "hold": "If walking hurts or single-leg calf raise provokes discomfort, substitute ankle range-of-motion and rest, do not attempt loaded raises or intervals",
+      "returnRun": "Try 20–30min easy on level ground only after normal walking and a comfortable controlled heel raise. Monitor next-day soreness; delay hard running until easy running is consistently tolerated.",
+      "source": "NHS Inform calf advice and Berkshire NHS return-to-running symptoms guide; coaching adaptation, not diagnosis"
+    }
+  },
+  "calfRecovery": {
+    "lastReported": "2026-11-13",
+    "trigger": "2026-11-12 interval class including 5×~400m, 4×~600m, post-interval 100 air squats simulating Wall Ball, and 2 laps easy cooldown jogging",
+    "symptom": "Calves very sore after interval session; side, exact location, pain intensity, duration, swelling and gait changes not yet known",
+    "interpretation": "Could reflect novel intensity, fast push-off, accumulated run/load, or muscle soreness; cannot diagnose lack of calf endurance from soreness alone.",
+    "status": "RECOVERY_MODIFIER_ACTIVE_NOT_DIAGNOSIS",
+    "checklist": [
+      "Check walking, stairs and normal heel raise without limping or worsening pain before next running workout.",
+      "Do not schedule hard intervals, jumps, explosive sleds or high-rep Wall Ball while calf soreness changes movement or escalates.",
+      "Symptoms still clearly painful or worse beyond 48 hours, focal tenderness/swelling, sharp pain or inability to walk normally: pause impact training and seek evaluation.",
+      "Sudden one-sided swelling, redness/warmth, chest pain or unexplained breathlessness needs prompt medical assessment.",
+      "Use comfortable easy Bike or Row only if movements do not worsen symptoms, rather than forcing mileage to hit targets."
+    ],
+    "gradedBuild": [
+      {
+        "stage": "0 · symptom settling",
+        "entry": "While noticeably sore or walking painful",
+        "dose": "Comfortable walking, ankle motion 1–2min several times/day; easy Bike/Row 15–30min RPE2–3 if symptom-free",
+        "progress": "Do not force stretches, deep loaded calf raises, running, burpee jumps, sled or Wall Ball."
+      },
+      {
+        "stage": "1 · re-entry",
+        "entry": "Walking, stairs and 10 smooth controlled single-leg heel raises are comfortable; soreness not worsening next morning",
+        "dose": "Standing calf raise straight knee 2×10–12 + bent-knee calf raise 2×10–12, slow 2sec up/2sec down, 2 sessions/week",
+        "progress": "Bodyweight/assisted first; leave at least 48h between sessions. If sore afterward, reduce reps."
+      },
+      {
+        "stage": "2 · capacity",
+        "entry": "Two symptom-stable sessions & next-day response acceptable",
+        "dose": "Build to 3×12–15 both straight- and bent-knee; then add small external load (2–5kg) one variable at time; 2/week",
+        "progress": "Add 1 controlled easy run of 20–30min before resuming interval intensity. Increase easy run duration gradually."
+      },
+      {
+        "stage": "3 · HYROX integration",
+        "entry": "Easy run, hopping and loaded lunges comfortable; no delayed flare",
+        "dose": "Wall Ball 2×10 at 6kg (or 4kg for clean movement), sled technique 2–3×10m RPE5–6, run→station transition short reps",
+        "progress": "Do not increase run volume and station volume together; reduce if next-day calf response deteriorates."
+      }
+    ],
+    "weekRules": [
+      "11/14–11/16 consider recovery; after pronounced soreness prioritize symptom-led progression rather than completing planned weekly kilometers.",
+      "Week 1 (11/16–11/22) run intervals only if comfortable with normal walking/calf loading; otherwise replace Petra Interval with easy Row/Bike and cut impact load.",
+      "Heavy Squat or Trap-bar work allowed only if normal calf function and knee symptoms; keep RIR≥3 and reduce to 2 work sets if not fully recovered.",
+      "Only restore WOD with Wall Ball/Run/Lunge once calf symptoms have normalized; existing Petra hard WOD remains one of the weekly hard stimuli."
+    ],
+    "note": "Return-to-running thresholds here are conservative coaching guardrails, not diagnosis or guarantee; discuss ongoing or severe pain with a clinician.",
+    "references": [
+      {
+        "title": "NHS inform - Calf problems",
+        "url": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/leg-and-foot-problems-and-conditions/calf-problems"
+      },
+      {
+        "title": "Berkshire Healthcare NHS - return to running",
+        "url": "https://www.berkshirehealthcare.nhs.uk/advice/return-to-running-programme"
+      }
     ]
   }
 }
