@@ -96,6 +96,51 @@
 .sample-item strong{display:block;font-size:12px;color:#eef6f3}
 .sample-item small{display:block;font-size:10px;color:#abc0c3;line-height:1.6;margin-top:5px}
 @media(max-width:600px){.plan-mission{padding:15px 18px}.training-doses{padding:20px 16px}.dose-grid{grid-template-columns:1fr;gap:8px}.dose-item{padding:13px}.sample-plan{padding:0 17px}.sample-plan summary{font-size:12px}.sample-item>b{width:78px;font-size:10px}.sample-item strong{font-size:11px}}
+
+/* Prescription deck v1.6 */
+.rx-root{border-top:1px solid #35546a;padding:26px 21px 24px;background:#132b3a}
+.rx-header{display:flex;align-items:start;justify-content:space-between;gap:14px}
+.rx-header h3{font-size:22px;letter-spacing:-.05em;color:#fff;margin:8px 0}
+.rx-header p{font-size:12px;color:#a9bfc6;line-height:1.6;max-width:620px}
+.rx-badge{border:1px solid #4b6571;border-radius:99px;padding:6px 10px;font-size:10px;color:#bdec8c;white-space:nowrap}
+.rx-evidence{background:#233e4d;border-radius:13px;padding:16px 18px;margin:15px 0 18px}
+.rx-evidence strong{display:block;font-size:11px;color:#c3f691;margin:6px 0}
+.rx-evidence p{font-size:12px;color:#d9e4e5;line-height:1.7;margin:0 0 8px}
+.rx-wod{background:#d0f59b;color:#0d2634;padding:20px;border-radius:15px;margin-bottom:21px}
+.rx-wod-top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:10px;font-weight:850;color:#284b48}
+.rx-lime{letter-spacing:.08em}
+.rx-wod h4{font-size:28px;line-height:1.05;letter-spacing:-.06em;margin:13px 0 8px;color:#102734}
+.rx-wod-sub{font-size:11px;line-height:1.6;margin:0 0 14px;color:#36564b}
+.rx-station{display:flex;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #9cbc89}
+.rx-station>b{width:70px;font-size:10px;color:#355847;flex-shrink:0}
+.rx-station>span{flex:1;min-width:0}
+.rx-station strong{display:block;font-size:14px;color:#102b35}
+.rx-station small{display:block;font-size:11px;color:#41634e;line-height:1.5;margin-top:4px}
+.rx-station em{font-size:13px;font-style:normal;font-weight:850;text-align:right;color:#102b35}
+.rx-target,.rx-swap{font-size:11px;line-height:1.6;border-top:1px solid #9cbc89;padding-top:10px;margin:12px 0 0}
+.rx-target b,.rx-swap b{color:#13372e}
+.rx-lifts-head{display:flex;justify-content:space-between;align-items:baseline;gap:15px;margin-bottom:9px}
+.rx-lifts-head h4{color:#eaf3f0;font-size:17px;margin:0}
+.rx-lifts-head small{color:#adc2c5;font-size:10px}
+.rx-strength{border-bottom:1px solid #355066}
+.rx-strength>summary{display:flex;align-items:center;gap:13px;cursor:pointer;padding:15px 0;list-style:none}
+.rx-strength>summary::-webkit-details-marker{display:none}
+.rx-strength>summary span{font-size:13px;color:#ecf5ef;font-weight:850;flex:1}
+.rx-strength>summary small{color:#bad1d1;font-size:10px}
+.rx-strength>summary i{font-size:18px;font-style:normal;color:#b5ec7f}
+.rx-inside{padding:0 0 18px}
+.rx-lift{display:flex;gap:13px;padding:12px 0;border-bottom:1px solid #314b5c;align-items:start}
+.rx-lift>span{flex:1;min-width:0}
+.rx-lift strong{display:block;font-size:12px;color:#e2eff0}
+.rx-lift small{display:block;font-size:10px;line-height:1.6;color:#9bb5bd;margin-top:3px}
+.rx-lift>b{font-size:12px;color:#c7ee9a;white-space:nowrap}
+.rx-lift>em{font-size:10px;font-style:normal;color:#9db4bb;white-space:nowrap}
+.rx-small{color:#b0c6cd;font-size:11px;line-height:1.65;margin:11px 0}
+.rx-guide{margin-top:17px;border:1px solid #3d5363;border-radius:12px;padding:0 14px}
+.rx-guide summary{list-style:none;cursor:pointer;color:#dbe7e5;font-size:12px;padding:14px 0;display:flex;justify-content:space-between}
+.rx-guide summary::-webkit-details-marker{display:none}
+.rx-guide-content p{font-size:11px;color:#b9cace;line-height:1.65;margin:0 0 12px}
+@media(max-width:600px){.rx-root{padding:20px 15px}.rx-header{display:block}.rx-badge{display:inline-flex;margin:4px 0 7px}.rx-wod{padding:17px}.rx-wod h4{font-size:25px}.rx-lifts-head{display:block}.rx-lifts-head small{display:block;margin-top:7px}.rx-lift{flex-wrap:wrap;gap:7px}.rx-lift>b{min-width:48px;text-align:right}.rx-lift>em{min-width:55px;text-align:right}.rx-station>b{width:60px}.rx-station strong{font-size:12px}.rx-station em{font-size:11px}}
 </style>
 </head>
 <body>
@@ -120,6 +165,19 @@ function weekStrip(d,wi){const f=d.flexiblePlan;if(!f)return '';const ids=planMo
 function screenToday(d){const f=d.flexiblePlan||{},rec=d.recentWorkout||null;const n=planMode===6?6:5;return '<section class="screen active" id="screen-today"><div class="topline"><span class="eyebrow">TRAINING / ATHLETE CAMPAIGN</span><span class="line-tag"><span class="dot"></span>TAIPEI 2027</span></div><div class="hero"><div><span class="eyebrow">TWO STARTS. ONE FINISH LINE.</span><h1>讓體能，<br><span>更有底氣。</span></h1><p class="hero-copy">有氧耐力、混合運動能力與三大項力量同步提升。為週五混雙保留餘裕，週六男單穩穩完賽。</p><div class="race-chips"><span><b>FRI · 03/12</b>MIXED DOUBLES</span><span><b>SAT · 03/13</b>MEN&#39;S OPEN</span></div></div><aside class="race-timer"><b class="mono">'+raceRemain+'</b><small>DAYS LEFT</small><div class="badge">SUB-90 · STRETCH</div></aside></div><div class="today-layout"><article class="panel next-session"><div><div class="head-flex"><span class="eyebrow">YOUR FLEXIBLE TRAINING WEEK</span><span class="date">5–6 DAYS · MOVE ANY DAY</span></div><h2>先完成核心，<br>再決定要不要加量。</h2><p>基本 5 堂：Petra Strength、Petra Interval、World Gym 全身力量 2 堂、長 Easy 1 堂。恢復好時第 6 堂才拆出獨立的六角槓＋站點課。每天怎麼排，依最近訓練調整。</p></div><div class="bottom"><button type="button" class="next-button" data-goto="program">查看本週訓練模組 <span aria-hidden="true">↗</span></button><span class="worktag">FLEX / 5+1</span></div></article><aside class="panel coaching"><div><span class="eyebrow">COACH / THIS WEEK</span><h3>'+E(d.coach?.headline||'練得可持續，才會越來越強')+'</h3><p>'+E(d.coach?.findings?.[0]?.body||d.coach?.summary||'')+'</p></div><div><div class="rule"></div><div class="coach-status">以 Garmin 和 Petra 實績調整；AI 最後復盤 '+E(d.lastReview||d.updated)+'</div></div></aside></div><div class="section"><div class="section-head"><h2>這週要完成的 '+n+' 個模組</h2><small>自由換日 · 不需補課</small></div>'+weekStrip(d,activeWeek(d))+'</div>'+(rec?'<div class="section"><div class="section-head"><h2>上一堂的學習</h2><small>'+E(rec.date)+' · WORLD GYM</small></div><div class="session-row"><article class="panel recovery"><span class="eyebrow">POST SESSION REVIEW</span><h3>'+E(rec.session)+'</h3><p>'+E(rec.interpretation)+'</p><div class="movements">'+(rec.movements||[]).map(x=>'<span>'+E(x)+'</span>').join('')+'</div></article><aside class="panel mini-evidence"><span class="eyebrow">WALL BALL / AVG HR</span><div class="num mono">'+E(rec.garmin?.wallBallAvgHr||'—')+'<span style="font-size:16px;color:#b8d5d3"> bpm</span></div><p>最高 '+E(rec.garmin?.wallBallMaxHr||'—')+' bpm；這是強度線索，不能代表投球次數或動作品質。</p></aside></div></div>':'')+health(d)+footer()+'</section>'}
 function barChart(rows){const mx=Math.max(21,...rows.map(x=>Number(x.km)||0));return `<div class="bar-chart" role="img" aria-label="Garmin 每週跑量，公里">${rows.map((x,i)=>`<div class="bar-group"><b class="mono">${Number(x.km||0).toFixed(1)}</b><div class="bar ${i===rows.length-1?'last':''}" style="height:${Math.max(3,Number(x.km||0)/mx*145)}px"></div><span class="barname">${E(x.w)}</span>${x.partial?'<span class="partial">部分</span>':''}</div>`).join('')}</div>`}
 function screenProgress(d){const m=d.metrics||{},findings=d.coach?.findings||[],ints=d.intervals||[];return `<section class="screen" id="screen-progress"><div class="intro"><div><span class="eyebrow">01 / YOUR PERFORMANCE</span><h1 class="title-lg">每一筆紀錄，<br>都能幫你練得更聰明。</h1><p>真正有用的不是漂亮分數，而是能改變下一週安排的證據。</p></div><span class="pill">分析截至 ${E(d.dataThrough||d.updated)}</span></div><div class="kpi-grid"><article class="panel kpi strong"><small>最近週跑量</small><b class="mono">${Number(m.recentWeekKm||0).toFixed(1)} <span>km</span></b><p>含熱身、收操；不重複計 WOD</p></article><article class="panel kpi"><small>最近 Easy Run</small><b class="mono">${E(m.lastEasyPace||'—')}</b><p>${E(m.lastEasyHr||'—')} bpm · ${E(m.lastEasyDistance||'—')} km</p></article><article class="panel kpi"><small>Row · 1500m</small><b class="mono">${E(m.row1500||'—')}</b><p>Garmin · 白板 ${E(m.row1500Photo||'—')}</p></article><article class="panel kpi"><small>Garmin 累計跑量</small><b class="mono">${Number(m.totalKm||0).toFixed(1)} <span>km</span></b><p>${E(m.runs||'—')} 筆跑步活動</p></article></div><div class="section analytics-grid"><article class="panel chart-panel"><h3>有氧底盤 · 週跑量</h3><p class="hint">每週公里數｜只用已記錄的跑步距離</p>${barChart(d.weeklyKm||[])}<p class="chart-foot">跑量增加不代表恢復變好。仍需結合 Easy 心率、睡眠及腿部疲勞；部分週不能拿來當完整週比較。</p></article><article class="panel chart-panel"><h3>速度儲備 · 400m</h3><p class="hint">工作段平均時間，保留不同課表條件</p><div>${ints.map(x=>`<div class="interval"><div><strong>${E(x.date)} · ${E(x.label)}</strong><small>${E(x.reps)} 趟 · HR ${E(x.avgHr)} bpm</small></div><b class="mono">${timeFmt(x.avgSec)}</b></div>`).join('')}</div><p class="chart-foot">8 趟和 12 趟不是同一個測試，不把較快的單趟速度解讀成耐力全面提升。</p></article></div><div class="section"><div class="section-head"><h2>AI 教練復盤</h2><small>${E(d.lastReview||d.updated)}</small></div><article class="lead-insight"><span class="eyebrow">BIG PICTURE</span><h3>${E(d.coach?.headline||'穩定輸出才是關鍵')}</h3><p>${E(d.coach?.summary||'')}</p></article><div class="findings">${findings.map((x,i)=>`<article class="panel finding"><span class="number">${String(i+1).padStart(2,'0')} / FINDING</span><h4>${E(x.title)}</h4><p>${E(x.body)}</p></article>`).join('')}</div><p class="chart-foot">資料限制：${E(d.coach?.limitation||'')}</p></div><div class="section"><div class="section-head"><h2>Petra · 關鍵佐證</h2><small>新照片增量處理</small></div><div class="petra-grid">${(d.petra||[]).map(x=>`<article class="panel petra-tile"><small>${E(x.date)} · ${E(x.name)}</small><strong>${E(x.score)}</strong><p>${E(x.detail)}</p></article>`).join('')}</div></div>${health(d)}${footer()}</section>`}
+
+function renderDetailedPrescription(d,weekIndex){
+ const p=d.prescriptionEngine; if(!p?.weeks?.[weekIndex])return '';
+ const w=p.weeks[weekIndex],wod=w.wod||{},strengthIds=planMode===6?['B','A','C']:['A','B5'];
+ const warm=(wod.rounds||[]).map(x=>'<div class="rx-station"><b>'+E(x.slot)+'</b><span><strong>'+E(x.movement)+'</strong><small>'+E(x.load)+'</small></span><em>'+E(x.dose)+'</em></div>').join('');
+ const strength=strengthIds.map(id=>{const z=p.strength?.[id]||{};const rows=(z.exercises||[]).map(r=>'<div class="rx-lift"><span><strong>'+E(r.movement)+'</strong><small>'+E(r.load)+'</small></span><b>'+E(r.dose)+'</b><em>'+E(r.rest)+' rest</em></div>').join('');
+ return '<details class="rx-strength"><summary><span>'+E(z.title)+'</span><small>'+E(z.duration)+'</small><i>＋</i></summary><div class="rx-inside"><p class="rx-small">暖身｜'+E(z.warmup)+'</p>'+rows+'<p class="rx-small">'+E(z.option)+'</p></div></details>'}).join('');
+ return '<section class="rx-root"><div class="rx-header"><div><span class="eyebrow">COACH PRESCRIPTION / '+E(w.week)+'</span><h3>本週精準處方</h3><p>'+E(w.aim)+'</p></div><span class="rx-badge">RIR / RPE 控強度</span></div><div class="rx-evidence"><strong>跑步安排</strong><p>'+E(w.running)+'</p><strong>負荷與進階</strong><p>'+E(w.volume)+'；'+E(w.progression)+'</p></div>'+
+ '<article class="rx-wod"><div class="rx-wod-top"><span class="rx-lime">CONDITIONING SESSION / OPTIONAL</span><span>'+E(wod.format)+'</span></div><h4>'+E(wod.title)+'</h4><p class="rx-wod-sub">'+E(wod.duration)+'</p>'+warm+'<p class="rx-target"><b>完成標準｜</b>'+E(wod.target)+'</p><p class="rx-swap"><b>替換規則｜</b>'+E(wod.swap)+'</p></article>'+
+ '<div class="rx-lifts-head"><h4>力量處方 · '+(planMode===6?'3堂World Gym':'2堂World Gym')+'</h4><small>展開查看組數、重量選擇和休息</small></div>'+strength+
+ '<details class="rx-guide"><summary>重量怎麼選？比賽站點標準與安全規則 <span>＋</span></summary><div class="rx-guide-content">'+Object.values(p.loadGuide||{}).map(x=>'<p>'+E(x)+'</p>').join('')+'</div></details></section>';
+}
+
 function weekPanel(d,i){
  const f=d.flexiblePlan||{},w=d.weeks[i],ids=planMode===6?f.modeSix:f.modeFive;
  const adjust=f.weekAdjustments?.find(x=>x.week===i);
@@ -130,7 +188,7 @@ function weekPanel(d,i){
  return '<div class="plan-card-top"><div><span class="eyebrow">'+E(w.week)+' / '+E(w.dates)+'</span><h2>'+E(w.tag)+'</h2><p>'+E(w.focus)+'</p></div><div class="volume">'+E(w.km)+'</div></div>'+
  '<div class="mode-select"><span>本週的有效訓練</span><div><button type="button" data-mode="5" class="'+(planMode===5?'active':'')+'" aria-pressed="'+(planMode===5)+'">5 天 · 核心</button><button type="button" data-mode="6" class="'+(planMode===6?'active':'')+'" aria-pressed="'+(planMode===6)+'">6 天 · 進階</button></div></div>'+
  '<div class="plan-mission"><strong>'+E(f.modes?.[String(planMode)]?.title||'')+'</strong><p>'+E(f.modes?.[String(planMode)]?.note||'')+'</p></div>'+
- '<div class="mod-list">'+modules+'</div>'+
+ '<div class="mod-list">'+modules+'</div>'+renderDetailedPrescription(d,i)+
  '<div class="training-doses"><h3>這週四種能力都要照顧</h3><div class="dose-grid">'+doses+'</div></div>'+
  '<details class="sample-plan"><summary>例如：週二 Strength、週四 Interval，怎麼排？ <span>＋</span></summary><p>這是可以移動的排列示例，不是指定你一定哪天去。先避開連續重腿及高強度日。</p><div class="sample-grid">'+examples+'</div></details>'+
  '<div class="plan-footer"><strong>本週微調｜</strong>'+E(adjust?.detail||f.principle)+
