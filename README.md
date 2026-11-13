@@ -8,7 +8,7 @@ https://alvinxyyzzz.github.io/HyroxTrainingPlan/
 Tabs:
 - **今日** – next/recovery session, single most important coaching decision, quick metrics.
 - **分析** – Garmin running and FIT lap evidence, Petra results, with explicit limitations.
-- **課表** – upcoming four weeks, World Gym big-three templates, long-range phases.
+- **課表** – 17-week integrated HYROX classes: Force & Transfer, HYROX Engine, Petra sessions, AM/PM Long Run, adaptive recovery and Petra-intensity switches.
 
 The frontend is `index.html` and reads `data/report.json` network-first. It is read-only; exercise logs are recorded in Garmin/Petra, never typed into the app. All CSS/JS/brand glyphs are inline; no third-party assets/scripts.
 
@@ -31,3 +31,16 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 
 ## Repository privacy
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
+
+## Hybrid coach v4 — session programming contract (2026-11-13)
+
+This is NOT a bodybuilding Push/Pull/Legs split with an optional station finisher. The 17-week planner lives at `data/report.json > seasonPlan.weeks[]`; each World Gym module is a full coached class in `sessions[].classPlan`, with ordered `blocks[]` that specify format, minutes, intervals, and transitions.
+
+- **World Gym A / FORCE & TRANSFER**: squat strength with full rest → press/row antagonistic superset → Sled Push/Pull with Ski/Row transitions (low-to-moderate strength-to-station transfer).
+- **World Gym B / HYROX ENGINE**: hinge/bench strength and upper pulling → 20–32 minute multi-station Engine / run-to-station circuit (the formal planned conditioning workout, **not an alternative, bonus, or seventh session**).
+- **Long Run**: morning easy run with an OPTIONAL evening easy Ski/Row, upper-body or core skill block. No second hard session on a long-run day; no PM double in W16 taper or W17 race week.
+- **Petra Strength/Interval**: the actual coach whiteboard/verified Garmin data take priority. If Petra was a hard WOD, switch World Gym B to `petraHardSwap` (Easy Engine) instead of stacking a third hard day. If calf/knee symptoms persist, use `recoverySwap` or rest; never override injury signals to hit numbers.
+- Frontend selectors for Petra intensity and symptom state are per-week `localStorage` flags only. They do not sync back to GitHub or automatically determine attendance or recovery. The UI never claims they are live Garmin observations.
+- Keep progression: heavy lift sets with adequate rest (RIR tracked), then efficient paired movements, then a distinct multi-station conditioning block with measurable pace/reps. Periodize build, deload, specificity, taper. W17 is the two-day race itself and must not be rewritten as five normal workouts.
+
+**Weekly automation requirement:** On every coaching refresh, update evidence/status and adapt the existing `classPlan` fields. Do not regenerate old `sessionDetail.strength + station`, or reintroduce standalone `wod` / “Alternative HYROX Session”. Preserve week-by-week dose and local recovery gates. Public data remains aggregate only.
