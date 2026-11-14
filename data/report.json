@@ -164,14 +164,6 @@
         "body": "WorldGym Mon Legs、Tue Pull、Fri Push（WFH）。Sun/Mon/Tue最多可選一堂Petra Strength/Skill，非必到，按肌群替代。Wed WOD隔週選配，Thu固定跑。Sat主Station通常4–5 rounds、22–40分，力量後2輪只屬低強度技巧收尾；Wed若硬WOD則Sat取消。"
       },
       {
-        "title": "v1.2：週三Petra WOD、週四固定跑課",
-        "body": "週四固定上Petra Interval、不進World Gym；週三WOD只在週三、約隔週可選。如果週三練硬，週四與教練協調降成Easy/Technique或縮量；若不能調整，優先保留週四而不做週三硬WOD。World Gym力量移週一/二，週五休息，週六Ski/Row WOD條件選配。"
-      },
-      {
-        "title": "v1.1：World Gym WOD 不必跑步機",
-        "body": "以SkiErg/RowErg、Carry、Sled和Wall Ball構成每週一堂WOD。Petra硬WOD約隔週可選且直接替代。2–3次戶外跑仍要保留；若小腿尚不舒服先恢復，不硬補課。"
-      },
-      {
         "type": "caution",
         "title": "小腿痠痛是暫時調課訊號，不是弱項診斷",
         "body": "這次高強度間歇後再做100 Air Squat＋兩圈緩跑；疼痛/僵硬若影響步行、單腳提踵或隔天更重，就取消衝刺和高量站點，先用低強度Row/Bike取代。單側腫脹、急性劇痛需評估。"
@@ -611,246 +603,147 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "FINAL-v1.0-2026-11-14",
-    "modeDefault": 5,
-    "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
-    "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
+    "version": "v1.3-2026-11-14",
+    "modeDefault": 6,
+    "title": "HYROX PPL + SKI/ROW STATION MAIN",
+    "principle": "Three separate PPL strength sessions Mon Legs, Tue Pull, Fri Push WFH. Petra Strength/Skill only one optional Sun/Mon/Tue session replaces matching volume. Wed optional Petra WOD, Thu fixed Petra interval, Sat conditional 4–5 round Station main; Sunday Easy/Long flexibility.",
     "priorities": [
-      "增加胸／背／腿的可恢復有效工作組數",
-      "HYROX跑步與Station綜合耐力",
-      "WOD每週一次，Petra有去就替換",
-      "保留Long Easy與週期化恢復"
+      "明確維持Squat/Bench/Pull進步及kg/reps/RIR",
+      "週四Petra Interval與Easy/Long跑步基礎",
+      "SkiErg優先真正4–5輪Station主課而非2輪Finisher",
+      "保護兩場賽事前的疲勞恢復與小腿/膝安全"
     ],
     "modeFive": [
+      "legs",
+      "pull",
       "interval",
-      "wod",
-      "easy",
-      "push_or_pull_or_legs_rotate",
-      "push_or_pull_or_legs_rotate"
+      "push",
+      "station_or_easy_by_recovery"
     ],
     "modeSix": [
-      "push",
-      "pull",
       "legs",
+      "pull",
       "interval",
-      "wod",
-      "easy"
+      "push",
+      "station_main",
+      "easy_long"
     ],
     "modules": {
-      "push": {
-        "label": "World Gym｜Push Hypertrophy + Functional",
-        "time": "60–75分鐘",
-        "kind": "strength",
-        "source": "seasonPlan.weeks[].sessions[id=push].classPlan",
-        "goal": "胸肩三頭增肌+Wall Ball/Sled Push技巧"
+      "legs": {
+        "label": "World Gym｜LEGS Monday",
+        "day": "mon",
+        "source": "seasonPlan.weeks[].sessions[id=legs].classPlan",
+        "goal": "Squat/hinge + unilateral legs; 0–2 easy rounds only optional skill finisher"
       },
       "pull": {
-        "label": "World Gym｜Pull Hypertrophy + Functional",
-        "time": "60–75分鐘",
-        "kind": "strength",
+        "label": "World Gym｜PULL Tuesday",
+        "day": "tue",
         "source": "seasonPlan.weeks[].sessions[id=pull].classPlan",
-        "goal": "背二頭後肩增肌+Carry/Ski/Row/Pull技巧"
+        "goal": "Back pulling + easy Ski technique, no heavy squats"
       },
-      "legs": {
-        "label": "World Gym｜Legs Hypertrophy + Stability",
-        "time": "65–80分鐘",
-        "kind": "strength",
-        "source": "seasonPlan.weeks[].sessions[id=legs].classPlan",
-        "goal": "Squat/RDL/單腿增肌+Step-down+Sled/Lunge技巧"
+      "push": {
+        "label": "World Gym｜PUSH Friday (WFH)",
+        "day": "fri",
+        "source": "seasonPlan.weeks[].sessions[id=push].classPlan",
+        "goal": "Bench/incline/shoulder, 0–2 easy WB technique rounds; W14 sim exception"
       },
-      "wod": {
-        "label": "每週唯一WOD｜Petra / World / Home",
-        "time": "World20–35分鐘／Home20–24分鐘",
-        "kind": "wod",
-        "source": "seasonPlan.weeks[].sessions[id=wod].classPlan",
-        "goal": "完整多站混合耐力；與Petra WOD互斥"
+      "station": {
+        "label": "World Gym｜TRUE STATION MAIN Saturday",
+        "day": "sat",
+        "source": "seasonPlan.weeks[].stationPrescription",
+        "goal": "Normally 4–5 timed rounds 22–40min Ski/Row/Sled/Carry/WB; only if Wed hard Petra WOD not attended and Thu recovered"
       },
-      "petra": {
-        "label": "Petra｜Strength/Skill/WOD/沒去",
-        "time": "依實際課表",
-        "kind": "conditional",
-        "source": "seasonPlan.weeks[].sessions[id=petra]",
-        "goal": "Strength對應取代肌群主課，Skill取代技巧段，WOD取代唯一WOD"
+      "petraStrengthSkill": {
+        "label": "Petra｜Strength or Skill optional Sun/Mon/Tue",
+        "days": [
+          "sun",
+          "mon",
+          "tue"
+        ],
+        "max_per_week": 1,
+        "optional": true,
+        "goal": "Substitute actual matched muscle work, not add mandatory sessions; skill may be just technique"
+      },
+      "petraWod": {
+        "label": "Petra｜WOD Wednesday only",
+        "day": "wed",
+        "optional": true,
+        "goal": "If hard, substitutes Saturday station main, Thursday interval scaled"
       },
       "interval": {
-        "label": "Petra｜Running Interval",
-        "time": "依教練",
-        "kind": "run",
+        "label": "Petra｜Running Interval Thursday only",
+        "day": "thu",
         "source": "seasonPlan.weeks[].sessions[id=interval]",
-        "goal": "維持一堂高品質跑步"
+        "goal": "Fixed Thu class, NO World Gym, conditional downscale after hard Wed"
       },
-      "long": {
-        "label": "Long Easy｜AM + Optional PM",
-        "time": "45–65分鐘＋選配20–25分鐘",
-        "kind": "aerobic",
-        "source": "seasonPlan.weeks[].sessions[id=easy].classPlan",
-        "goal": "有氧底盤與可恢復的上肢／技術雙訓"
+      "easy": {
+        "label": "Long Easy Run｜Sunday or movable",
+        "day": "sun",
+        "source": "seasonPlan.weeks[].sessions[id=easy]",
+        "goal": "Low intensity, optional reschedule if Petra Sunday class or Sat station fatigue"
       }
     },
-    "microAerobic": "Long Easy與可選20–25min Easy Ski/Row是主要低強度補量；不把力量課後功能技巧段衝成第三堂WOD。",
-    "optionalWod": "每週有獨立WOD課：若Petra有去高心率WOD，取代World Gym/Home WOD；若沒去，使用World Gym 25–35min或者Home 20–24min。",
+    "fiveDayRule": "Do not invent six completed sessions. If only five days, choose PPL three days, Thu Petra running, and either Saturday Station main or Sunday Easy/Long depending on recovery and whether Wed Petra WOD covered Station; missed slot not force-made-up.",
+    "sixDayRule": "PPL Mon/Tue/Fri plus Thu Interval, Sat Station when no Wed hard Petra WOD, Sun Easy/Long; if Wed hard Petra WOD it replaces Sat Station and Thu scaled. This is a maximum template, not a rigid attendance demand.",
+    "petraPolicy": "Petra Strength or Skill can ONLY be attended on one day among Sunday, Monday, Tuesday per week; may be zero. Wed Petra WOD separate optional. Actual attendance must be confirmed, not inferred from photo.",
+    "mainStationPolicy": "4–5 rounds 22–40min with Ski emphasis, controlled rests; W01/W04/W08/W12/W16 0–3 easy rounds are technique ONLY; W14 Fri eight-station short simulation replaces Push.",
+    "finisherPolicy": "0–2 easy rounds RPE≤5 after Legs/Push do NOT count as main station training. Do not extrapolate 2 rounds to adequate work capacity stimulus.",
+    "runningPolicy": "Thu Petra Interval+Sunday Long Easy flexible; other short Easy optional by recovery. Ski/Row metres never become run kms.",
     "ordering": [
-      "先保留每週品質跑、WOD（Petra/World/Home三選一）及Long Easy，再安排Push/Pull/Legs增肌主課。",
-      "5天模式只能排兩個肌群主課，依週輪換；6天模式三個肌群全部安排。Petra Strength優先替代相符主課。",
-      "每堂World Gym先做增肌主項，保留完整休息；再做單腿穩定、Carry、Ski/Row或Sled等低中負荷技巧。",
-      "高強度主要來自Interval+WOD，通常每週1–2堂，腿日與間歇/WOD高負荷避免緊貼安排，依實際恢復調整。",
-      "Petra Strength如其實是心肺AMRAP/WOD，狀態請選WOD，不要額外再做World/Home WOD。",
-      "Long Run若早晚雙訓，晚間只做低強度上肢或Erg技巧；小腿/膝蓋有症狀則降載或休息。",
-      "每週主要增肌主項記錄重量、次數、RIR與工作組，Station記錄技術/完成速度與喘感；不要把機器米數當肌肥大組。",
-      "第3、7、11、16週按當期課表減量；第17週進入兩場比賽。"
+      "Fixed Thu Petra Interval first, Wed hard WOD only if it can coexist by scaling Thu; no automatic stacked Wed+Thu full intensity",
+      "Keep Fri WFH Push as an anchor, Mon Legs and Tue Pull as other two strength topics",
+      "Petra Strength/Skill Sun/Mon/Tue max one optional attendance; replace same muscle volume, never add compulsory seventh day",
+      "Sat Station main only if no Wed hard Petra WOD and adequate Thu recovery",
+      "Deload W04/W08/W12, taper W16, W14 Fri mini simulation, W17 races"
     ],
     "adaptiveChecks": [
       {
-        "signal": "Petra 本週已參加WOD",
-        "action": "不再執行World Gym或Home WOD。只做一堂正式WOD。"
+        "signal": "Petra Strength/Skill on Sun/Mon/Tue",
+        "action": "Replace matching muscle-group World Gym sets (Skill does not necessarily count as heavy strength), move/reduce Sunday Long Easy if necessary"
       },
       {
-        "signal": "Petra Strength針對推、拉或腿，且實際有足量工作組",
-        "action": "取代相符的World Gym增肌主課；若只是技巧或工作組不足則改選Skill並補缺口。"
+        "signal": "Wed Petra WOD hard",
+        "action": "Thu Petra running class Easy/Tech or scale with coach; Sat Station main cancelled; if Thu unscalable prefer skipping Wed hard WOD"
       },
       {
-        "signal": "Petra Skill 與World Gym主題相同",
-        "action": "World Gym保留增肌主課、縮短或刪除對應技巧段，避免重複疲勞。"
+        "signal": "Thu Petra Interval hard, Sat not recovered",
+        "action": "Reduce Sat station rounds/intensity or skip and do easy erg/rest"
       },
       {
-        "signal": "需在家照顧小孩，無法到World Gym",
-        "action": "可選居家WOD；若無法安全訓練與照顧則跳過，不在其他日硬補。"
+        "signal": "Mon/Fri only 2 skill finisher rounds",
+        "action": "Do not label this as completed station main. Main 4–5 rounds is Sat if performed."
       },
       {
-        "signal": "Interval / WOD 造成持續疲勞或Station後跑速大幅下降",
-        "action": "降低下一堂站點量，保留有氧低強度，先記錄恢復而不是再加硬WOD。"
-      },
-      {
-        "signal": "有小腿、膝蓋疼痛／積水／步態改變",
-        "action": "直接改低衝擊恢復或休息；若症狀不解須就醫評估。"
-      }
-    ],
-    "weekAdjustments": [
-      {
-        "week": 0,
-        "detail": "小腿恢復與安全回到連續跑；先恢復，再建立三大項RIR基準和有氧底盤：若小腿仍明顯痠/行走或提踵痛：Petra Interval改30–40分Easy Bike/Row，Long Easy改20–40分舒適交叉訓練；完全恢復後才做可控Interval並減20–30%工作量，Long Easy先從40–45分開始，翌日症狀穩定再加。"
-      },
-      {
-        "week": 1,
-        "detail": "症狀已穩定時，重新建立有氧時間＋小腿力量耐受＋低強度站點效率：先完成30–45分鐘無不良次日反應的Easy；之後Long Easy50–55分，Interval保持可控而非加速。若小腿反應不佳延續W1恢復方案。"
-      },
-      {
-        "week": 2,
-        "detail": "減量週：主要工作組減30–40%，用較低衝擊的Technique維持動作品質和恢復：Petra Interval減工作段20–30%或改簡短節奏練習；Long Easy 40–45分鐘輕鬆完成"
-      },
-      {
-        "week": 3,
-        "detail": "恢復狀態良好才開始標準化run→station銜接，逐步提升有氧混合耐力：Petra Interval照教練但避免和本週混合WOD都衝滿；Long Easy 50–60分鐘；WOD中跑量納入總週跑量"
+        "signal": "knee swelling, calf pain changing gait",
+        "action": "Stop provocative high-impact/high-load station movements, recover, seek clinical assessment if persistent"
       }
     ],
     "modes": {
       "5": {
-        "title": "5天｜兩個肌群增肌主課＋WOD＋Interval＋Long Easy",
-        "sessions": 5,
-        "strengthTouches": "2個增肌主課（輪換Push/Pull/Legs；Petra可替代）",
-        "runOrAerobicTouches": "Interval + Long Easy",
-        "hardSessions": "1–2（WOD與Interval，Petra WOD替換）",
-        "note": "較少總增肌刺激，不能假裝全部三分化都完成。"
+        "title": "Five-day flexibility",
+        "strengthTouches": "Mon Legs/Tue Pull/Fri Push where attendance permits",
+        "runOrAerobicTouches": "Thu Petra Interval; pick Sun easy or Sat Station based on weekly load",
+        "hardSessions": "No more than two sustained hard cardio sessions, less when recovering",
+        "note": "Some modules intentionally missed; do not pretend a full six-day programme completed."
       },
       "6": {
-        "title": "6天｜完整Push／Pull／Legs＋WOD＋Interval＋Long Easy",
-        "sessions": 6,
-        "strengthTouches": "3個增肌主課，並依恢復調節Petra",
-        "runOrAerobicTouches": "Interval + Long Easy；夜間可選Easy技巧",
-        "hardSessions": "1–2（WOD與Interval）",
-        "note": "Petra Strength/Skill替換相應主課或技巧段，不自動再加一堂。"
+        "title": "Six-slot full template (conditional)",
+        "strengthTouches": "Mon Legs/Tue Pull/Fri Push",
+        "runOrAerobicTouches": "Thu Petra run, Sun flexible Long Easy",
+        "hardSessions": "Sat main station only if Wed hard WOD absent and adequate recovery",
+        "note": "Wed Petra optional WOD replaces rather than stacks with Sat main."
       }
     },
-    "secondaryAerobic": "Long Easy與可選20–25min Easy Ski/Row是主要低強度補量；不把力量課後功能技巧段衝成第三堂WOD。",
-    "wodStrategy": {
-      "now": "Standalone HYROX WOD uses professional-format variation: 3–5 round Run+Ski/Row/Sled/Farmer/Wall Ball circuits. Petite WOD replaces planned Friday World Gym WOD.",
-      "specific": "W09–W13 compromised running and longer Sled/Erg/Carry transitions; W14 8-station 40–50% simulation includes 3.2km run and scaled station distances; W15 sharpening.",
-      "race": "W16 gentle short activation; W17 two official races without extra WOD."
+    "stationDoseTargets": {
+      "foundation": "4 rounds early",
+      "build": "5 rounds",
+      "transfer": "5 rounds",
+      "specific": "5 rounds, W14 8-station abbreviated sim exception",
+      "sharpen": "4 rounds",
+      "deload": "2–3 rounds skill only; not Main",
+      "taper": "2 easy rounds activation"
     },
-    "doseTargets": [
-      {
-        "metric": "增肌工作組",
-        "minimum": "每個主題日約8–12組直接工作組，按恢復調整",
-        "bonus": "優先肌群若每週有第二次有效刺激，可逐步達到10+組",
-        "why": "肌肥大刺激，記錄kg/reps/RIR"
-      },
-      {
-        "metric": "功能技巧",
-        "minimum": "每個World Gym增肌課後8–14分鐘技巧或穩定",
-        "bonus": "Petra Skill可取代同主題技巧段",
-        "why": "轉移到Wall Ball/Ski/Sled/Carry，保持低中強度"
-      },
-      {
-        "metric": "獨立WOD",
-        "minimum": "每週1堂World/Petra/Home；恢復週減量",
-        "bonus": "不另外加第2堂WOD",
-        "why": "跑後站點與多站輸出"
-      },
-      {
-        "metric": "跑步",
-        "minimum": "一堂Interval + 一堂Long Easy",
-        "bonus": "如恢復良好可加低強度短跑或Erg",
-        "why": "HYROX 8次1km跑的耐力底盤"
-      }
-    ],
-    "suggestedSequence": {
-      "case": "依Petra當週時間和家庭安排，先排最難移動的課。以下是模組順序而非固定星期。",
-      "five": [
-        {
-          "day": "優先安排",
-          "session": "Petra Interval（沒有上則自行完成當週品質跑）",
-          "note": "本週跑步品質刺激"
-        },
-        {
-          "day": "間隔至少一個恢復槽",
-          "session": "正式WOD：Petra / World / Home擇一",
-          "note": "若Petra本週已高強度則不再加World WOD"
-        },
-        {
-          "day": "避開高強度前後",
-          "session": "Push/Pull/Legs任選兩堂（按週輪替）",
-          "note": "若有Legs，把它和Interval及Sled WOD錯開"
-        },
-        {
-          "day": "週末適合時",
-          "session": "Long Easy AM（晚上可選技術）",
-          "note": "跑後腿疲勞或家庭時間不足，取消PM"
-        }
-      ],
-      "six": [
-        {
-          "day": "可自由換日",
-          "session": "Push Hypertrophy + Skill",
-          "note": "避免緊接上肢主導高量WOD"
-        },
-        {
-          "day": "可自由換日",
-          "session": "Pull Hypertrophy + Skill",
-          "note": "不做重Trap-bar"
-        },
-        {
-          "day": "避開高強度課",
-          "session": "Legs + Single-leg Stability",
-          "note": "和間歇/WOD高腿量之間調整恢復間隔"
-        },
-        {
-          "day": "教練時間優先",
-          "session": "Petra Interval",
-          "note": "品質跑"
-        },
-        {
-          "day": "其他適合日",
-          "session": "WOD only once",
-          "note": "Petra/World/Home三擇一"
-        },
-        {
-          "day": "週末或時間充足時",
-          "session": "Long Easy AM",
-          "note": "PM只是低強度選配"
-        }
-      ]
-    },
-    "selectionRationale": "依HWPO/Centr HYROX官方合作方案的力量、站點、跑步分工，和2026年ACSM增肌有效工作組及並行訓練綜述，設計增肌優先+功能轉換。這是針對現有Garmin/Petra資料的練習處方，不是完整賽事表現預測。"
+    "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
   "planUpdated": "2026-11-14",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
@@ -1678,16 +1571,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 1,
@@ -2050,11 +1943,10 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + RDL"
@@ -2073,14 +1965,15 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。",
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes.",
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "SQUAT + RDL",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 4,
-            "fridayRPE": 4,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 3,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           }
@@ -2472,16 +2365,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 2,
@@ -2865,11 +2758,10 @@
           "runHard": 1,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH"
@@ -2891,14 +2783,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "SQUAT + BENCH",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 5,
-            "fridayRPE": 6,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -3288,16 +3181,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 3,
@@ -3680,11 +3573,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "CONVENTIONAL TECHNIQUE + SQUAT"
@@ -3706,14 +3598,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "CONVENTIONAL TECHNIQUE + SQUAT",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 7,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -4078,16 +3971,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 4,
@@ -4451,11 +4344,10 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "DELOAD"
@@ -4477,14 +4369,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 4,
-            "fridayRPE": 4,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 4,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "RECOVERY_DELOAD_PPL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -4872,16 +4765,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 5,
@@ -5263,11 +5156,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "TRAP BUILD"
@@ -5289,14 +5181,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP BUILD",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 7,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -5687,16 +5580,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 6,
@@ -6082,11 +5975,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "TRAP + BENCH"
@@ -6108,14 +6000,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP + BENCH",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 7,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -6504,16 +6397,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 7,
@@ -6895,11 +6788,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "TRAP + BENCH HEAVIER"
@@ -6921,14 +6813,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP + BENCH HEAVIER",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 7,
-            "fridayRPE": 8,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -7293,16 +7186,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 8,
@@ -7667,11 +7560,10 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "DELOAD"
@@ -7693,14 +7585,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 4,
-            "fridayRPE": 4,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 4,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "RECOVERY_DELOAD_PPL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -8089,16 +7982,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 9,
@@ -8481,11 +8374,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "CONVENTIONAL MAINTENANCE"
@@ -8507,14 +8399,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "CONVENTIONAL MAINTENANCE",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 7,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -8904,16 +8797,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 10,
@@ -9298,11 +9191,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH MAINTAIN"
@@ -9324,14 +9216,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "SQUAT + BENCH MAINTAIN",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 8,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -9721,16 +9614,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 11,
@@ -10113,11 +10006,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH MAINTAIN"
@@ -10139,14 +10031,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "SQUAT + BENCH MAINTAIN",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 7,
-            "fridayRPE": 8,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 8,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -10511,16 +10404,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 12,
@@ -10885,11 +10778,10 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "DELOAD"
@@ -10911,14 +10803,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 4,
-            "fridayRPE": 5,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 4,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "RECOVERY_DELOAD_PPL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -11306,16 +11199,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 13,
@@ -11697,11 +11590,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "TRAP MAINTENANCE"
@@ -11723,14 +11615,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "RACE SPECIFIC",
-          "strengthAnchor": "TRAP MAINTENANCE",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 8,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -12090,16 +11983,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 14,
@@ -12451,11 +12344,10 @@
           "runHard": 0,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "NO HEAVY HINGE"
@@ -12477,14 +12369,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "RACE SPECIFIC",
-          "strengthAnchor": "NO HEAVY HINGE",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 5,
+            "tuesdayRPE": 0,
             "fridayRPE": 7,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "W14_SIM_PPL_EXCEPTION",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -12875,16 +12768,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 15,
@@ -13267,11 +13160,10 @@
           "runHard": 1,
           "stationHard": 1,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH TOUCH"
@@ -13293,14 +13185,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "SHARPEN",
-          "strengthAnchor": "SQUAT + BENCH TOUCH",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 6,
-            "fridayRPE": 7,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 7,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -13665,16 +13558,16 @@
         "wod": null,
         "structure": {
           "coreSix": [
-            "push",
-            "pull",
             "legs",
+            "pull",
+            "push",
             "interval",
-            "wod",
-            "easy"
+            "station_main",
+            "easy_long"
           ],
-          "fiveDayRule": "保留Interval/WOD/Long Easy，Push/Pull/Legs每週輪流選2堂；Petra Strength/Skill如已完成相關有效訓練，優先替換同主題課，不把它當第7堂。",
-          "sixDayRule": "六個核心模組：Push/Pull/Legs、Interval、WOD、Long Easy。Petra Strength/Skill只能替換一堂或技術區塊，而非自動第七天。",
-          "recover": "持續小腿／膝蓋症狀時套低衝擊替代課或休息；別強求WOD。"
+          "fiveDayRule": "Preserve three PPL topics when possible, Thursday Petra running and one of Sat Station / Sun Easy depending on recovery; don't force missed workout makeups.",
+          "sixDayRule": "Mon Legs Tue Pull Fri Push + Thu Running + Sat conditional Main Station + Sun movable Easy/Long. Optional Petra Strength/Skill Sun/Mon/Tue substitutes matched work, Wed Petra WOD substitutes Sat.",
+          "recover": "If calf/knee symptoms or persistent DOMS, lower volume, take Easy/Rest and do not stack hard sessions."
         },
         "periodization": {
           "weekNo": 16,
@@ -14038,11 +13931,10 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
-            "WorldGym PPL Mon Legs Tue Pull Fri Push; Fri WFH high attendance",
-            "Petra Strength/Skill optional one Sun/Mon/Tue, substitute similar volume not extra",
-            "Wed Petra WOD if hard -> Thu scaled and Sat no hard Station",
-            "Station true main 4–5 rounds Sat; 0–2 round PPL finisher is easy technique only",
-            "Sun Long Easy flexible and running Garmin-only"
+            "Mon World Gym LEGS, Tue World Gym PULL, Fri WFH World Gym PUSH main strength. W14 Fri 8-station simulation exception.",
+            "0–2 rounds after Legs/Push are easy technique finishers only. True Sat Station Main typically 4–5 rounds when no Wed hard Petra WOD.",
+            "Optional Petra Strength/Skill Sun/Mon/Tue max one, replaces matching volume. Wed WOD optional; Thu fixed Petra Running no World Gym.",
+            "If Wed hard WOD, Thu easy/technique and Sat main cancelled; pain or fatigue triggers rest."
           ],
           "wodRunKm": 0,
           "strengthHinge": "TAPER / NO DEADLIFT"
@@ -14064,14 +13956,15 @@
           "wodType": "ERG_STATION",
           "wodRunKm": 0,
           "strengthPhase": "TAPER",
-          "strengthAnchor": "TAPER / NO DEADLIFT",
+          "strengthAnchor": "PPL MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
-            "tuesdayRPE": 3,
-            "fridayRPE": 4,
+            "tuesdayRPE": 0,
+            "fridayRPE": 0,
+            "saturdayRPE": 3,
             "lowIntensitySunday": true,
             "strengthFinishersRPE": 5
           },
-          "note": "WorldGym WOD無跑步機需求；每週跑步在獨立Running track，週二Station技巧可降強度/跳過以保留高強度預算。"
+          "note": "WorldGym Fri PUSH WFH main strength; 0–2 easy finisher rounds are not Station Main; Sat Main Station 4–5 rounds if Wed hard Petra WOD not attended and Thu recovered. Petra Strength/Skill Sun/Mon/Tue optional max one and substitutes."
         },
         "scheduleType": "RECOVERY_DELOAD_PPL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -14482,10 +14375,11 @@
         "noDoubleCount": "When Wed hard Petra WOD attended, Thu running easy/technique, Sat World Gym Station main cancelled. Optional Strength/Skill Sun/Mon/Tue replaces matched workout, not stacked. Fri Push after Thu run prioritizes upper strength.",
         "loadRules": "目前Strength Log沒有確認工作kg；各主項明確給組數/次數/休息，以暖身和RIR定kg，事後由Garmin或用戶回報補上。6kg Wall Ball和Men/Mixed賽事2×24kg Farmer等是賽事參考而非個人起始重量。",
         "calf": "11/12後小腿痛時走路/提踵先檢查，有症狀不做爆發跑跳、重雪橇或高量WB；無痛時可低強度Erg，持續惡化求醫。",
-        "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
+        "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。",
+        "weeklyTemplate": "Sun Long Easy or optional Petra Strength/Skill; Mon Legs; Tue Pull; Wed optional Petra WOD; Thu Petra Interval only (no WG); Fri Push at WG while WFH; Sat Station Main 4–5 rounds if no Wed hard WOD and recovered."
       },
-      "programModel": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
-      "weeklyTemplate": "週日Long Easy（可選晚間簡單Ski/core）、週一增肌+同主題功能、週二Petra選修、週三Interval、週四增肌+同主題功能、週五休息、週六HYROX WOD。W14例外為週五縮量模擬、週六Day2 Easy。W17為週五混雙週六男單。"
+      "programModel": "Two connected tracks: WorldGym PPL on Mon Legs/Tue Pull/Fri Push, with 4–5 round Saturday station Main conditional; independent Thu Petra interval + Sun Long Easy. Petra Strength/Skill max one Sun/Mon/Tue substitutes matched work, Wed optional Petra WOD substitutes Station.",
+      "weeklyTemplate": "Sun Long Easy or optional Petra Strength/Skill; Mon Legs; Tue Pull; Wed optional Petra WOD; Thu Petra Interval only (no WG); Fri Push at WG while WFH; Sat Station Main 4–5 rounds if no Wed hard WOD and recovered."
     },
     "science": [
       {
@@ -14625,12 +14519,12 @@
     "hardDays": "Wed Petra hard WOD replaces Sat main; Thu run must downscale. Without Wed hard WOD, Thu quality and Sat station may be the two hard sessions when recovered.",
     "setTargets": "PPL main work 2–3 sets on key moves, accessory 1–3, optional easy 0–2 round station technique finisher vs main station Sat 4–5 rounds",
     "progression": "Mesocycle progression: W1 recovery gate; W2–3 build; W4 deload; W5–7 hypertrophy capacity; W8 deload; W9–11 compromised HYROX; W12 deload; W13 pacing; W14 sub-maximal consecutive-day rehearsal; W15 sharpening; W16 taper; W17 two-day race. WOD only one weekly slot.",
-    "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。 W01家用改恢復技術，W16家用改賽前低量啟動；W17無WOD。",
+    "family": "Sun Long Easy or Petra S/S optional; Mon Legs; Tue Pull; Wed Petra WOD optional; Thu Petra run fixed; Fri Push WFH; Sat Station Main conditional",
     "safety": "小腿/膝蓋疼痛、腫脹、步態不穩時改恢復替代方案，必要時尋求專業評估；不依賴單一Garmin心率判斷傷情。",
     "wodStyle": "Main Sat SkiErg emphasized 4–5 rounds, 22–40min, Sled/Row/Carry/WB varied; Deload 2–3 easy rounds only technique, W14 Fri 8 station abbreviated simulation, W16 taper.",
-    "defaultView": "17週重點 + 星期日至星期六每日訓練",
-    "strengthHinge": "Fundamental strength patterns (Squat, Bench, Hinge/Deadlift, upper push/pull) have different roles across blocks, not mandatory every session or arbitrary weekly rotation. W05-W07 repeated Trap-bar and Bench as measurable build anchors; deload W04/W08/W12/W16; maintenance during HYROX-specific build.",
-    "strengthModel": "Fundamental squat/bench/hinge/pull movement families are periodized by stage; continuous anchors and weekly RIR-based progression with four deloads; benchmark strength block W05-W07; HYROX-specific maintenance W09-W15.",
+    "defaultView": "17-week daily calendar plus independent running and complete Station main work details",
+    "strengthHinge": "Heavy squat/hinge belongs to Monday Legs; Tuesday Pull no heavy deadlift; Friday Push bench primary; W14 Fri 8-station simulation replaces heavy Push.",
+    "strengthModel": "3 separate PPL foundational strength days with phase-appropriate 2–3 main work sets, 1–3 accessory sets, actual kg/reps/RIR; low intensity 0–2 round station techniques are supplementary, NOT main.",
     "intensityDesign": "Max 2 hard cardio sessions (recovery <=1), Wed hard WOD replaces Sat, Thu scaled. Finisher 2 easy rounds not Station main.",
     "weeklyTemplate": "SUN Long Easy or Petra Strength/Skill; MON WG LEGS; TUE WG PULL; WED Petra WOD optional; THU Petra Interval no World Gym; FRI WG PUSH (WFH); SAT Station MAIN conditional"
   },
@@ -14731,7 +14625,7 @@
       "note": "11/14 Saturday standalone Push kick-off; first full Sunday–Saturday Week W01 begins 11/15. W01 Wednesday Pull instead of Push to avoid duplicate pushing; Thursday Push accessory optional, not extra mandatory. Keep future periodization W01–W17 through races.",
       "wodDesign": {
         "version": "2026-11-14-PPL-station-main-v1.3",
-        "rationale": "Ski priority, Row/Sled/Carry/Wall Ball rotation. Main Station early 4 rounds, build/transfer 5, sharpening 4, deload 2–3 easy technique not main. W14 Friday abbreviated 8-station simulation replaces Push.",
+        "rationale": "Main Station Sat 4–5 rounds when Wed hard Petra WOD not attended, 22–40min, Ski focus. Strength finishers 0–2 easy rounds are not meaningful Main Station. W14 Fri special 8-station flow.",
         "officialRaceOrder": [
           "SkiErg",
           "Sled Push",
@@ -14756,7 +14650,7 @@
           "SHARPEN",
           "TAPER"
         ],
-        "runningAccounting": "Default World Gym WOD programmed run = 0km. No treadmill required. Only actual verified running counts toward weekly run km; race-specific running stays on the Running track and occasional outdoor transition session.",
+        "runningAccounting": "Only actual Garmin running miles/kms count. World Gym WOD uses Ski/Row not treadmill. Petra Thursday is running; actual races have 8×1km with stations.",
         "equipment": "World Gym SkiErg/RowErg/Sled/Wall Ball/Kettlebells/turf/Carry verified; sandbag unverified so use KB lunge. Avoid scheduling far-apart erg transitions if impractical.",
         "provenance": [
           {
@@ -14775,7 +14669,8 @@
             "title": "HWPO HYROX training plan",
             "url": "https://www.hwpotraining.com/programs/hwpo-hyrox"
           }
-        ]
+        ],
+        "specific": "W09–W13 station repeated efforts 4–5 rounds, SkiErg priority, Row/Sled/Carry/WallBall, while Thu Petra runs handle quality speed. W14 Friday abbreviated eight-station flow excludes 8×1km running; cannot be considered full race simulation. W15 sharpen 4 rounds."
       },
       "hingeDesign": {
         "version": "2026-11-14-block-periodized-strength-v2",
@@ -15015,130 +14910,162 @@
           {
             "week": "W01",
             "tueRPE": 0,
-            "tueMinutes": 21,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 3,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "TECHNIQUE_ONLY"
           },
           {
             "week": "W02",
             "tueRPE": 0,
-            "tueMinutes": 27,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "conditional"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 4,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W03",
             "tueRPE": 0,
-            "tueMinutes": 27,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 4,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W04",
             "tueRPE": 0,
-            "tueMinutes": 16,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 4,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "TECHNIQUE_ONLY"
           },
           {
             "week": "W05",
             "tueRPE": 0,
-            "tueMinutes": 29,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W06",
             "tueRPE": 0,
-            "tueMinutes": 28,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "conditional"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W07",
             "tueRPE": 0,
-            "tueMinutes": 32,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W08",
             "tueRPE": 0,
-            "tueMinutes": 17,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 4,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "TECHNIQUE_ONLY"
           },
           {
             "week": "W09",
             "tueRPE": 0,
-            "tueMinutes": 29,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W10",
             "tueRPE": 0,
-            "tueMinutes": 30,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "conditional"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W11",
             "tueRPE": 0,
-            "tueMinutes": 28,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 8,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W12",
             "tueRPE": 0,
-            "tueMinutes": 16,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 4,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "TECHNIQUE_ONLY"
           },
           {
             "week": "W13",
             "tueRPE": 0,
-            "tueMinutes": 32,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 5,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W14",
             "tueRPE": 0,
-            "tueMinutes": 22,
             "fridayRPE": 7,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "SPECIAL_SIMULATION"
           },
           {
             "week": "W15",
             "tueRPE": 0,
-            "tueMinutes": 23,
             "fridayRPE": 0,
-            "role": "controlled",
-            "thursdayPetraRun": "quality"
+            "saturdayStationRPE": 7,
+            "saturdayMainRounds": 4,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "MAIN"
           },
           {
             "week": "W16",
             "tueRPE": 0,
-            "tueMinutes": 12,
             "fridayRPE": 0,
-            "role": "technique",
-            "thursdayPetraRun": "easy"
+            "saturdayStationRPE": 3,
+            "saturdayMainRounds": 0,
+            "wednesdayPetraWod": "optional-only",
+            "thursdayPetraRun": "fixed, scale if Wed hard",
+            "role": "TECHNIQUE_ONLY"
           }
         ],
         "priority": "Keep weekly total load manageable across Garmin runs, World Gym/Petra strength, Ski/Row and mixed WOD; prioritize form and repeated splits over exhaustion."
