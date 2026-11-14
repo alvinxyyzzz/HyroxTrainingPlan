@@ -5,6 +5,16 @@
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
 
+## 2026-11-14 · UI v31: concise workout menu, standalone running guide
+
+At the athlete's request, the **力量／Station** page shows **only Mon/Tue/Wed/Fri/Sat strength and station cards**; Sunday Long Easy and Thursday Petra running belong on the separate **跑步** page. Each card presents a short list of actual movements with sets/reps/RIR and, at most, one useful scheduling note. No duplicate warnings, coaching essays, intake form or status questionnaire. Never invent absolute kg without verified athlete load records.
+
+The **跑步** page now provides (a) this week's Thu Petra quality run + Sun Long Easy + optional Tue short Easy, (b) six race preparation stages over W01–17, and (c) low-impact substitution options: steady SkiErg / RowErg / swimming 25–35min at RPE3–4, or Ski 5min + Row 5min ×3 at easy pace. For W01, where the athlete recently reported calf fatigue and strength+sled stations, the option shown is easy Ski 10–12min + Row 15–20min, or easy Row alone. Do NOT make an easy day a maximal AMRAP/EMOM. An erg interval substitute such as 4×3min RPE7 / 2min easy is for recovered weeks only when it replaces—not stacks on—the Thu quality run or Wed hard WOD. Erg miles and metres never count as actual running mileage, and long-term running economy still requires running.
+
+The days in the athlete's verbal example are **hypothetical, not confirmed attendance**. If they later confirm Wed hard Petra WOD, the coach can switch Mon Legs to Pull and defer Legs so there is adequate time to recover. Do not hardcode WOD attendance from a whiteboard photo. Chat-reported feedback should influence future plan revisions; no user-facing training intake controls.
+
+This UI-only release retains existing `data/report.json` v1.4.1 (17-week plan, coach-side recovery model), Google Sheets, Garmin/Petra sync cadence. Cache now `hyrox-v1-4-1-simple-run-20261114-v31`, launch `./?app=v141-run`.
+
 ## 2026-11-14 v1.4.1 update — Easy aerobic, Wall Ball, calf-aware recovery
 
 - **Private manual-workout handling:** An untracked, user-reported training session is recorded only in the private Google Sheet (`Athlete_Notes` / `Strength_Log`). Do not publish private session loads, subjective symptoms, or other detailed athlete notes in this public repository; do not fabricate Garmin activities or measured heart rates.
