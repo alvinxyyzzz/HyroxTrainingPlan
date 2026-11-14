@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,10 +599,10 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Station Cardio Calendar v8",
+    "version": "2026-11-14 Two Tracks v9",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
-    "principle": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
+    "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
     "priorities": [
       "增加胸／背／腿的可恢復有效工作組數",
       "HYROX跑步與Station綜合耐力",
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-sunday-station-cardio-v8",
+    "version": "2026-11-14-two-tracks-v9",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1857,7 +1857,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -1915,7 +1915,7 @@
                 "format": "EMOM4 × 4，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -1980,7 +1980,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -2002,7 +2002,7 @@
                 "format": "4 Rounds · 每輪休75秒"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -2051,6 +2051,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            12,
+            16
+          ],
+          "goal": "基礎恢復、保持輕鬆跑感",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "20–30 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "40 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "20–30分鐘輕鬆跑（不安排硬間歇）",
+              "details": [
+                "以舒適跑姿和輕鬆呼吸恢復跑感",
+                "單純痠痛不是弱點判定；若疼痛改變步態，停止衝擊訓練"
+              ]
+            }
+          ],
+          "optional": "不強制",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "動作基線＋完整 WOD"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "動作基線＋完整 WOD",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -2590,7 +2659,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -2647,7 +2716,7 @@
                 "format": "5 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -2712,7 +2781,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -2732,7 +2801,7 @@
                 "format": "4 rounds / rest 75–90 sec / RPE6"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -2781,6 +2850,74 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            13,
+            17
+          ],
+          "goal": "穩定三種跑步刺激",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "25–35 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "45 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "6×400m controlled",
+              "details": [
+                "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "技巧基線與配速分配"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "技巧基線與配速分配",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -3321,7 +3458,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -3376,10 +3513,10 @@
                   "M3 Farmer Carry 30m",
                   "M4 休息"
                 ],
-                "format": "EMOM4 × 6，RPE6–7"
+                "format": "EMOM4 × 6，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -3444,7 +3581,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -3465,7 +3602,7 @@
                 "format": "4 rounds / rest 60–90 sec / RPE7"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -3515,6 +3652,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            15,
+            19
+          ],
+          "goal": "增肌容量期維持可恢復跑量",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "25–35 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "50 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "4×600m steady",
+              "details": [
+                "暖身10分鐘 → 4×600m，間隔慢跑2–3分鐘",
+                "以均勻配速完成；總跑量需含暖身及收操"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "增肌容量第一階"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "增肌容量第一階",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -4054,7 +4260,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -4111,7 +4317,7 @@
                 "format": "E5MOM × 3，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -4176,7 +4382,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -4196,7 +4402,7 @@
                 "format": "EMOM4 ×3–4 / RPE4"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -4245,6 +4451,74 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            12,
+            15
+          ],
+          "goal": "減量：減少品質跑與總公里",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "20–30 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "40 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "Deload · 4×200m smooth",
+              "details": [
+                "疲勞高時全程Easy，不做工作段"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "恢復與技術整理"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "恢復與技術整理",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -4784,7 +5058,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -4837,10 +5111,10 @@
                   "SkiErg 200m → Sled Pull 10m",
                   "輪間休至第4分鐘"
                 ],
-                "format": "E4MOM × 6，RPE6–7"
+                "format": "E4MOM × 6，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -4905,7 +5179,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -4925,7 +5199,7 @@
                 "format": "AMRAP22 / RPE7"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -4975,6 +5249,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            15,
+            20
+          ],
+          "goal": "開始增加有氧總時間",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "30–40 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "50 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "3×5分鐘 tempo",
+              "details": [
+                "暖身10分鐘 → 3×5分鐘Tempo，間隔3分鐘Easy",
+                "避免與本週WOD相連兩天"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "背部／腿部增肌週"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "背部／腿部增肌週",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -5514,7 +5857,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -5568,10 +5911,10 @@
                   "Farmer Carry 30m",
                   "每輪休60–75秒"
                 ],
-                "format": "5 rounds，RPE7"
+                "format": "5 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -5636,7 +5979,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -5656,7 +5999,7 @@
                 "format": "EMOM4 ×6 / RPE7"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -5706,6 +6049,74 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            17,
+            21
+          ],
+          "goal": "穩定每次跑步輸出",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "30–40 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "55 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "5×600m controlled",
+              "details": [
+                "暖身10分鐘 → 5×600m，間隔2分鐘Easy"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "單腿控制與肌耐力"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "單腿控制與肌耐力",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -6245,7 +6656,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -6299,10 +6710,10 @@
                   "Sled Pull 10m（控制重量）",
                   "輪間休75秒"
                 ],
-                "format": "6 rounds，RPE7"
+                "format": "6 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -6367,7 +6778,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -6387,7 +6798,7 @@
                 "format": "5 rounds / rest 60 sec / RPE7–8"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -6437,6 +6848,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            18,
+            23
+          ],
+          "goal": "建立60分鐘Long Run基礎",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "35–45 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "60 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "3×1km threshold",
+              "details": [
+                "暖身12分鐘 → 3×1km，間隔3分鐘Jog",
+                "最後一趟仍能保持穩定"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "機械張力與Erg輸出"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "機械張力與Erg輸出",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -6976,7 +7456,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -7033,7 +7513,7 @@
                 "format": "EMOM4 × 4–5，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -7098,7 +7578,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -7118,7 +7598,7 @@
                 "format": "E5MOM×3 / RPE4"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -7168,6 +7648,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            14,
+            18
+          ],
+          "goal": "減量：Easy為主",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "25–35 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "45 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "Deload · 25–35min easy + strides",
+              "details": [
+                "Easy 25–35分鐘，可選4×10秒Strides",
+                "不做第三堂硬課"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "中期降載／吸收"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "中期降載／吸收",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -7707,7 +8256,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -7761,10 +8310,10 @@
                   "M3 Sled Pull 10m；M4 Carry 30m",
                   "M5 休息"
                 ],
-                "format": "EMOM5 × 6，RPE7"
+                "format": "EMOM5 × 6，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -7829,7 +8378,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -7849,7 +8398,7 @@
                 "format": "4 rounds / rest 75 sec / RPE7–8"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -7899,6 +8448,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            19,
+            23
+          ],
+          "goal": "提高HYROX長時間配速控制",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "35–45 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "55 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "5×800m controlled",
+              "details": [
+                "暖身10–12分鐘 → 5×800m，間隔2分鐘Easy",
+                "WOD已有400m跑段，下次間歇不追加速度"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "跑後進站與恢復跑速"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "跑後進站與恢復跑速",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -8438,7 +9056,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -8492,10 +9110,10 @@
                   "Farmer Carry 30m → RowErg 160m",
                   "輪間休60秒"
                 ],
-                "format": "5 rounds，RPE7"
+                "format": "5 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -8560,7 +9178,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -8580,7 +9198,7 @@
                 "format": "5 rounds / rest 60–90 sec / RPE7–8"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -8630,6 +9248,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            20,
+            25
+          ],
+          "goal": "中等跑量下穩定門檻強度",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "35–45 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "60 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "4×1km threshold",
+              "details": [
+                "暖身12分鐘 → 4×1km，間隔2–3分鐘Easy",
+                "調整雪橇WOD同週腿部疲勞"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "雪橇推拉與單側穩定"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "雪橇推拉與單側穩定",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -9169,7 +9856,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -9223,10 +9910,10 @@
                   "Sled Pull 10m → Carry 40m",
                   "輪間休75秒"
                 ],
-                "format": "4 rounds，RPE7"
+                "format": "4 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -9291,7 +9978,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -9311,7 +9998,7 @@
                 "format": "4 rounds / rest 60–75 sec / RPE8"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -9361,6 +10048,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            21,
+            26
+          ],
+          "goal": "提高站後起跑能力",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "40–50 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "65 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "6×600m even splits",
+              "details": [
+                "暖身10分鐘 → 6×600m，間隔90–120秒Easy",
+                "WOD Wall Ball高量時不要跑到極速"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "Wall Ball後程耐力"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "Wall Ball後程耐力",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -9900,7 +10656,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -9956,7 +10712,7 @@
                 "format": "E4MOM × 4，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -10021,7 +10777,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -10041,7 +10797,7 @@
                 "format": "EMOM4 ×4 / RPE4–5"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -10091,6 +10847,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            16,
+            20
+          ],
+          "goal": "減量：長跑與間歇一起縮短",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "25–35 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "45 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "Deload · 20–30min easy",
+              "details": [
+                "Easy 20–30分鐘（恢復好才做3次10秒舒適加速）",
+                "減量不追長距離"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "站點減量／姿勢修正"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "站點減量／姿勢修正",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -10630,7 +11455,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -10683,10 +11508,10 @@
                   "SkiErg 250m → RowErg 200m",
                   "Carry 35m，輪間休60秒"
                 ],
-                "format": "5 rounds，RPE7"
+                "format": "5 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -10751,7 +11576,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -10771,7 +11596,7 @@
                 "format": "4 rounds / RPE7–8"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -10821,6 +11646,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            21,
+            26
+          ],
+          "goal": "1km跑段與Station配速連結",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "35–45 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "60 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "4×1km sustainable",
+              "details": [
+                "暖身12分鐘 → 4×1km按預期HYROX跑步節奏，間隔2分鐘Easy",
+                "不是純跑步400m PR的強度"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "賽事順序與可持續配速"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "賽事順序與可持續配速",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -11360,7 +12254,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -11414,10 +12308,10 @@
                   "RowErg 4×2分鐘",
                   "穿插Easy恢復"
                 ],
-                "format": "Easy intervals，RPE4–5"
+                "format": "Easy intervals，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -11482,7 +12376,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -11502,7 +12396,7 @@
                 "format": "縮量模擬 / RPE7–8（非全速）"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -11551,6 +12445,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            18,
+            23
+          ],
+          "goal": "縮量賽事模擬週，品質跑改Easy",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "25–35 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "45 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "20–25分鐘Easy + 3×10秒舒適加速",
+              "details": [
+                "本週HYROX縮量模擬本身就是品質課",
+                "不再新增一堂高強度跑步間歇"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "本週已安排縮量HYROX模擬，Quality Run改成Easy，不疊加間歇",
+          "weeklyFocus": "縮量雙日測試"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "縮量雙日測試",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -12090,7 +13053,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -12146,7 +13109,7 @@
                 "format": "5 rounds，RPE6"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -12211,7 +13174,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -12231,7 +13194,7 @@
                 "format": "4 rounds / RPE6–7"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -12281,6 +13244,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            18,
+            22
+          ],
+          "goal": "保持速度感、避免累積疲勞",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "30–40 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "50 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "品質",
+              "title": "Interval / Threshold",
+              "dose": "2×8min controlled tempo",
+              "details": [
+                "暖身10分鐘 → 2×8分鐘穩態Tempo，間隔3分鐘Easy",
+                "訓練節奏感，避免最後兩週疲勞增加"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "節奏精煉與疲勞回落"
+        },
+        "trainingIntegration": {
+          "runHard": 1,
+          "stationHard": 1,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "節奏精煉與疲勞回落",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -12805,7 +13837,7 @@
                 "format": "穩定心肺、不衝刺"
               }
             ],
-            "subtitle": "Station 心肺主導"
+            "subtitle": "低強度Ski/Row有氧；可與晨跑Long Easy分早晚進行"
           },
           {
             "day": "mon",
@@ -12858,10 +13890,10 @@
                   "SkiErg 100m → RowErg 120m",
                   "M3簡單Carry 15m，M4休息"
                 ],
-                "format": "EMOM4 × 3，RPE3–4"
+                "format": "EMOM4 × 3，RPE4"
               }
             ],
-            "subtitle": "Station 心肺主導 · Ski 優先"
+            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
           },
           {
             "day": "wed",
@@ -12924,7 +13956,7 @@
                 "format": "8–10分鐘"
               }
             ],
-            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
+            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
           },
           {
             "day": "fri",
@@ -12944,7 +13976,7 @@
                 "format": "3 easy rounds / RPE3–4"
               }
             ],
-            "subtitle": "本週獨立 WOD · 站點組合"
+            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
           },
           {
             "day": "sat",
@@ -12993,6 +14025,75 @@
               ]
             }
           ]
+        },
+        "runningTrack": {
+          "mode": "Flexible / morning-friendly",
+          "targetKm": [
+            10,
+            15
+          ],
+          "goal": "Taper：減少訓練量",
+          "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
+          "schedule": "不固定星期，早上有空就跑；公里數是參考範圍、不是每週KPI",
+          "sessions": [
+            {
+              "id": "easy",
+              "priority": "基礎",
+              "title": "Easy Run",
+              "dose": "20–30 分 · RPE3–4",
+              "details": [
+                "自然能說話的配速（Garmin先前Easy約6:22–6:25/km、HR139–143作參考而非必達值）",
+                "別把每次晨跑都變成Tempo；時間不夠跑15–20分鐘也有價值"
+              ]
+            },
+            {
+              "id": "long",
+              "priority": "重點",
+              "title": "Long Easy",
+              "dose": "30 分 · RPE3–4",
+              "details": [
+                "持續低強度、維持步頻及呼吸穩定",
+                "可以與Easy Station同一天早晚各練一段，間隔約6小時且Station保持低強度"
+              ]
+            },
+            {
+              "id": "quality",
+              "priority": "減量／技術",
+              "title": "Interval / Threshold",
+              "dose": "20分鐘Easy + 3×10秒舒適加速",
+              "details": [
+                "全程輕鬆，短加速不是衝刺",
+                "不做新的400m/1000m PB測試"
+              ]
+            }
+          ],
+          "optional": "有空可再多一次20–30分鐘Easy",
+          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
+          "weeklyFocus": "賽前降載"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
+            "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "賽前降載",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       },
       {
@@ -13302,6 +14403,41 @@
         "runningPlan": {
           "note": "比賽週不安排額外訓練跑；週二只保留非常輕鬆的短跑啟動。",
           "sessions": []
+        },
+        "runningTrack": {
+          "mode": "Race week",
+          "targetKm": null,
+          "goal": "正式雙日比賽，不追加跑步課",
+          "baseline": "Garmin資料截至2026-11-13",
+          "schedule": "完全自由；03/12與03/13兩場比賽已包含跑步",
+          "sessions": [],
+          "priorities": [
+            "比賽前休息與活動度",
+            "兩場正式HYROX的跑步累積已足夠"
+          ],
+          "integration": "比賽週不可再加Long Run、跑步間歇或Station WOD"
+        },
+        "trainingIntegration": {
+          "runHard": 0,
+          "stationHard": 0,
+          "notes": [
+            "賽週維持輕量啟動，03/12 Mixed＋03/13 Men Open本身是兩次高強度"
+          ]
+        },
+        "gymTrack": {
+          "title": "World Gym × Petra",
+          "days": [
+            "sun",
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat"
+          ],
+          "focus": "台北雙日比賽",
+          "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
         }
       }
     ],
@@ -13336,7 +14472,7 @@
         "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。",
         "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
       },
-      "programModel": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
+      "programModel": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
       "weeklyTemplate": "週日Long Easy（可選晚間簡單Ski/core）、週一增肌+同主題功能、週二Petra選修、週三Interval、週四增肌+同主題功能、週五休息、週六HYROX WOD。W14例外為週五縮量模擬、週六Day2 Easy。W17為週五混雙週六男單。"
     },
     "science": [
@@ -13436,5 +14572,60 @@
     "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD.",
     "defaultView": "17週重點 + 星期日至星期六每日訓練"
   },
-  "weeklyScheduleNotes": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom."
+  "weeklyScheduleNotes": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
+  "trainingTracks": {
+    "version": "2026-11-14-two-tracks-v1",
+    "updated": "2026-11-14",
+    "running": {
+      "name": "RUNNING",
+      "source": "Garmin Personal API via Google Sheets",
+      "observedThrough": "2026-11-13",
+      "freeSchedule": true,
+      "baseline": {
+        "regularWeekKm": "12–16km",
+        "outlierWeekKm": 25.84,
+        "easyRef": {
+          "date": "2026-11-07",
+          "distanceKm": 5.93,
+          "avgHr": 143
+        },
+        "latest": {
+          "date": "2026-11-13",
+          "distanceKm": 5.86,
+          "avgHr": 150
+        }
+      },
+      "principle": "Easy + Long + Quality with free morning placement and weekly mileage range as reference, not forced completion"
+    },
+    "gym": {
+      "name": "WORLD GYM × PETRA",
+      "source": "Petra_Whiteboard / Petra_Photo_Registry / Garmin HIIT + World Gym strength and equipment log",
+      "observedThrough": "2026-11-13",
+      "observed": [
+        {
+          "date": "2026-11-10",
+          "type": "Petra partner AMRAP23",
+          "evidence": "Garmin HIIT 23:11 HR avg169, max192, team shared 17R+15; not individual 17 rounds"
+        },
+        {
+          "date": "2026-11-12",
+          "type": "Petra mixed interval + air squats",
+          "evidence": "Garmin corroborates 5×~400m + 4×~600m; 100 Air Squats are user-reported and not Wall Ball repetitions"
+        },
+        {
+          "date": "2026-11-07",
+          "type": "World Gym strength",
+          "evidence": "Back Squat, Trap-bar Deadlift, Lunge, Wall Ball, Ski 1000m user-report; weights/reps not logged"
+        }
+      ],
+      "principle": "Strength-first hypertrophy then targeted functional circuits, Ski/Row aerobic engine, weekly one standalone WOD; Petra strength/skill/WOD is counted if verified, no user selector"
+    },
+    "coordination": [
+      "Two main high days across tracks: running intervals + one WOD (when included); Tuesday station moderate if quality run is done.",
+      "Long Easy can be paired with easy Ski/Row on same day with hours between sessions; the app leaves running time flexible.",
+      "Do not infer attendance from Petra photo alone; wait for activity or verified notes to confirm individual WOD performance.",
+      "Plan for progressive strength volume/skill and schedule deloads W04,W08,W12,W16; do not treat ordinary post-workout soreness as weakness, but do not train through persistent pain."
+    ],
+    "privacy": "Public report contains aggregated data only, no raw FIT, GPS coordinates or private photos"
+  }
 }
