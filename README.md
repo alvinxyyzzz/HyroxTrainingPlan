@@ -33,7 +33,7 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Two Connected Tracks v2.6 · 2026-11-14 Push kickoff
+## Two Connected Tracks v2.7 · 2026-11-14 Multi-station WOD
 
 The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Petra (strength + station main line)**, **Running (separate flexible line)**, and **Data**. Weekly selection is shared. DO NOT reintroduce user-input controls for Petra type, soreness, weakness, 5/6 days or extra replacement configuration. No complicated substitution text on workout cards.
 
@@ -44,6 +44,16 @@ The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Pe
 - `weeks[].trainingIntegration` = how combined hard sessions are managed. Running Quality + WOD generally supply two hard stimuli. Tuesday Station intervals are controlled moderate intensity, not a third all-out HIIT session when running Quality is included.
 - `weeks[].gymTrack` = metadata for the main gym/station track. `dailyPlan` remains the displayed class details.
 
+
+
+### Friday WOD update: 16 distinct station workouts, not DB-only (2026-11-14)
+- `data/report.json > seasonPlan.weeks[0..15].sessions[id=wod].classPlan.blocks[0]` and corresponding `dailyPlan[day=fri].sections` MUST remain in sync; daily cards are the public UI. W17 is actual 2027-03-12 Mixed and 03-13 Men Open and has no additional WOD.
+- Examples: W01 3× Run 200m→Ski 150m→Farmer 25m→Row 150m; W02 4× Run 250m→Sled Push 10m→Sled Pull 10m→Row 150m; W03 4× Run 300m→Ski 200m→Carry 30m→Wall Ball 8; W05 Row+BBJ; W06 Sled+Lunge; W09 run-Ski-BBJ-Carry; W10 5×Run/Sled Push/Sled Pull/Row; W11 Lunge+Wall Ball; W13 partial race-order run bricks; W14 all 8 station mini simulation with 8×400m run and ~25–50% station doses; W15 reduced sharpener. W04/W08/W12/W16 deload/taper have short easy Station work, not hard WOD.
+- Each non-race week has `dailyPlan[day=fri].wodRunKm`, `periodization.wodRunKm`, and `runningTrack.wodRunKm`. Total weekly running reference `runningTrack.targetKm` **includes Friday WOD planned run distance**; the independent morning running reference is `runningTrack.independentRunKmRange = total range minus WOD planned run km`. Count actual Garmin runs and actual Petra run segments, not both planned circuits and completed replacements. These are intended doses, never claims of completed sessions.
+- WOD templates deliberately sample ALL eight HYROX stations plus running: SkiErg, Sled Push, Sled Pull, BBJ, RowErg, Farmer Carry, lunge, Wall Ball; they use the gym's confirmed sleds, Ski/Row, turf, wall ball and kettlebells. Sandbag availability is unverified, so use front-rack KB lunges; sled load must be scaled to local friction and actual technique rather than blindly prescribing race weight.
+- HYROX official order is Race Run→Ski→Run→Sled Push→Run→Sled Pull→Run→BBJ→Run→Row→Run→Farmer→Run→Lunge→Run→Wall Ball. Mini circuits are training drills **not full race simulations**. The W14 eight-station rehearsal is a scaled run/volume session, followed by easy day-2 recovery checks; the user's separate quality-run session is easy that week.
+- Evidence: official HYROX station standards <https://hyroxevents.zendesk.com/hc/en-gb/articles/38624619510941-Which-exercises-are-in-HYROX>; Centr HYROX Hybrid Strength 2026 plan <https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide>; Centr HYROX station split examples <https://try.centr.com/programs/43149>; HWPO HYROX progressive programming <https://www.hwpotraining.com/programs/hwpo-hyrox>. Workouts are customized original prescriptions, not claimed to be copied from those coaches.
+- The UI should keep two simple tracks (running/strength+station), seven Sunday→Saturday gym cards, no Petra question forms, no soreness questions. The 11/14 Push kickoff remains unchanged; W01 Wednesday is Pull. Weekly automation must not regenerate DB-only WODs, lose independent run accounting, or mix estimated/actual session completion.
 
 ### Saturday Nov 14 kickoff and week continuity
 - **Kickoff class is on 2026-11-14 (Saturday)** and is explicitly visible in the roadmap and at the top of gym Week W01. It is a standalone full **Push hypertrophy + functional + Wall Ball/Sled Push technique** day (Bench 3×6–8, Incline DB 3×8–10, Shoulder 2×8–10, accessories + functional, then controlled station circuit).
