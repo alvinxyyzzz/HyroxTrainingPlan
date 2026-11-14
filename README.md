@@ -33,7 +33,7 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Two Connected Tracks v2.7 · 2026-11-14 Multi-station WOD
+## Two Connected Tracks v2.9.1 · 2026-11-14 Foundational Strength + Multi-station WOD
 
 The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Petra (strength + station main line)**, **Running (separate flexible line)**, and **Data**. Weekly selection is shared. DO NOT reintroduce user-input controls for Petra type, soreness, weakness, 5/6 days or extra replacement configuration. No complicated substitution text on workout cards.
 
@@ -62,13 +62,20 @@ The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Pe
 - Running track remains separate and begins with W01 Nov 15, with flexible morning placement, not a Saturday-start week. A 2026-11-14 lifting kickoff does **not** count as an extra running workout.
 - Public UI source is `seasonPlan.kickoff` for kickoff and `seasonPlan.weeks[0].dailyPlan` for W01; the kickoff must not be counted twice or be misreported as a completed workout. This is the scheduled workout; actual weights, reps and attendance require later confirmation.
 
-### Deadlift integration · conventional + hex/trap bar (2026-11-14)
-- Current visible source: `seasonPlan.weeks[].dailyPlan`. **W02/W06/W10/W13 Monday Legs** use Trap-bar Deadlift as the PRIMARY hinge, with lighter squats/single-leg work; no separate heavy Romanian Deadlift on those days. W02 2×5–6 @RIR3–4; W06 3×5–6 @RIR2–3; W10 2×4–5 @RIR3; W13 2×4–5 @RIR3–4.
-- **W03/W05/W09 Wednesday Pull** include conventional barbell Deadlift as posterior-chain strength FIRST, followed by Lat Pulldown/Chin-up, Chest-supported Row and smaller rear-delt/biceps work. On these weeks Monday Legs removes Romanian Deadlift in favor of moderate Hip Thrust 2×8–10. W03 2×5 @RIR3; W05 3×4–6 @RIR2–3; W09 2×4–5 @RIR3.
-- All other pre-race weeks use prescribed Squat + RDL (with W04/W08/W12 as deloads, W16 taper). No multiple heavy deadlift variants or 1RM testing in a week.
-- In weeks with heavy hinge, immediately following station finisher is reduced to light Ski/Row or Step-up/Row, avoiding additional hard Sled Pull/Push. Friday WOD is separate and retains station diversity; reduce overall weekly workload if Petra has already delivered a heavy lower-body class.
-- `weeks[].sessions[legs|pull].classPlan` and `weeks[].dailyPlan[mon|wed].sections` MUST remain synchronized. Loads are deliberately RIR-based: `Strength_Log` has no verified working kilograms for heavy Squat/Deadlift. The aim is reproducible strength progression supporting HYROX, not a Powerlifting peak. Conventional barbell deadlift is not a substitute for direct lat work.
-- `trainingTracks.gym.hingeDesign` contains the authoritative rotation and rationale. Preserve these prescriptions through automated weekly Garmin/Petra report refreshes.
+### Foundation-lift periodization v2.9.1 — 2026-11-14
+
+Keep squat, bench press, hinge/deadlift and vertical/horizontal pull as foundational movement families, not a mandatory checklist every workout.
+
+- W01–03 foundation: squat and bench practice, row/pull volume; W03 conventional barbell deadlift technique 2×5 RIR4 on Wednesday and no Monday RDL. W04 deload.
+- W05–07 strength build: repeat trap-bar deadlift as the SAME Monday anchor for three consecutive weeks (W05 3×6 RIR3, W06 3×5–6 RIR2–3, W07 3×4–5 RIR2). Squat secondary 2 sets; bench main or technique 2–3 sets weekly. Pull-ups/pulldowns and chest-supported rows continue. W08 deload.
+- W09–11 HYROX transfer: reduce lifting volume to roughly 2 quality sets, W09 conventional deadlift 2×4–5 RIR3 as maintenance after W03 technique, Monday without RDL. W10–11 squat/bench with modest RDL to retain strength while Run-Station and WOD take priority. W12 deload.
+- W13–15 specific: W13 trap-bar 2×4 RIR3–4 for maintenance. W14 no heavy deadlift during 8-station shortened simulation. W15 squat+bench 2 sets, no PR attempt.
+- W16–17 taper/races: W16 bench/squat 1×5 RIR5 and no heavy hinge; W17 Fri mixed/Sat men's race without extra WOD.
+- In each block the principal lifts come first with full rest (typically 2–3 minutes). Progress by adding a repetition OR small weight step only when proper form and planned RIR can be maintained, not both at once. Do not fabricate kg or 1RM; Strength_Log has no reliable actual loads.
+- Never stack heavy trap bar, conventional barbell deadlift and heavy RDL in one week; back work also includes direct pulldown/rowing.
+- Source of truth: `seasonPlan.weeks[].dailyPlan` (rendered), `sessions[].classPlan.blocks[0].steps` (mirrored), `periodization.strengthPhase/strengthAnchor`, and `trainingTracks.gym.strengthProgression`. Do not regenerate old rigid alternating trap vs conventional prescriptions in scheduled weekly reviews.
+- Preserve Sunday–Saturday, 11/14 Push kickoff, two independent but jointly managed Running and Gym/Petra tracks, multi-station WOD, four deload weeks and W17 race week.
+- Evidence: 2026 ACSM stand https://pubmed.ncbi.nlm.nih.gov/41843416/ and concurrent training review https://pubmed.ncbi.nlm.nih.gov/41762427/ . Block choices are coaching design, not claims that periodization is always superior when volume is matched.
 
 ### Gym Track: fixed Sunday→Saturday recommendation
 Sunday low-intensity Ski/Row aerobic base; Monday Legs hypertrophy + unilateral stability and sled technique; Tuesday Ski/Row/Sled/Carry engine at controlled intensity; Wednesday Push or Pull hypertrophy + function; Thursday OPTIONAL complementary upper hypertrophy or Petra Strength/Skill; Friday ONE WOD (World Gym fallback or Petra WOD if actually attended); Saturday rest. W14 is shortened simulation plus light recovery day; W16 taper and W17 Friday/Saturday races. Strength classes start with mechanical tension then short relevant station circuits.
