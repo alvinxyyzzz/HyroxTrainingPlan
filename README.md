@@ -23,9 +23,9 @@
 
 ## Why v1.4
 
-v1.3 corrected the weekday schedule and separated Legs/Pull/Push, but it still trained too few race-specific stations (especially Burpee Broad Jump, Sandbag Lunge and Wall Ball) and treated running and stations as mostly disconnected. v1.4 delivers a race-specific, periodized 17-week plan with explicit cumulative station exposure, conditional 400–800m run→station→run sessions, a third short easy run when recovered, and a **user-adjustable week readiness view**.
+v1.3 corrected the weekday schedule and separated Legs/Pull/Push, but it still trained too few race-specific stations (especially Burpee Broad Jump, Sandbag Lunge and Wall Ball) and treated running and stations as mostly disconnected. v1.4 delivers a race-specific, periodized 17-week plan with explicit cumulative station exposure, conditional 400–800m run→station→run sessions, a third short easy run when recovered, and an **uncluttered weekly workout view with coach-side readiness rules**.
 
-**Critical distinction:** Training prescriptions are **planned**, not completed sessions. A local UI selection does not update Garmin or Google Sheets or verify that Alvin actually attended Petra.
+**Critical distinction:** Training prescriptions are **planned**, not completed sessions. Coach-side readiness decisions use actual user reports and available authenticated training logs, not guessed attendance or self-reported browser toggles.
 
 ## Fixed user constraints
 
@@ -66,15 +66,11 @@ Each W01–16 stores `weakStationSkill` and `stationCoverage`, clearly distingui
 
 Friday may include an **8–12 minute low-intensity technique microdose for only one station category**, but it is NOT compulsory and must be counted toward (not added on top of) the weekly Station/Wed Petra amount. Traditional 0–2 easy rounds after strength are only technique finishers, not a main station session.
 
-## Adaptation to recovery: the v1.4 interactive UI
+## Recovery and training adjustments (coach-side; clean App)
 
-Open **力量／Station** weekly tab in the live App. Three **week-local** selectors are saved via browser local storage on that device:
+On 2026-11-14 the App UI was simplified at the athlete's request: **remove the three large weekly status / weak-station / aerobic-WallBall dashboard cards** and the user-operated dropdown controls. Training/weak-point/progression/readiness prescriptions remain in the structured private training plan and source JSON for the AI coach to use when the athlete reports actual session completion, fatigue and symptoms.
 
-1. **Actual Wednesday Petra WOD:** not confirmed / not attended / easy technique / hard WOD. A confirmed hard WOD dynamically changes Thu to scaled Easy/Technique, Sat to Recovery or removes W14 Friday rehearsal and adds Friday Push reduction suggestions.
-2. **Optional Petra Strength/Skill:** not set / none / SUN / MON / TUE (at most one). Selected day's existing WorldGym/Long Easy is labeled as fallback, and the App explains to substitute after knowing actual muscle work rather than stacking full days.
-3. **Readiness:** unknown / green / yellow (fatigue, reduced workload) / red (injury warning, replaces all provocative workout prescriptions with rest/assessment).
-
-**These are decision-support display settings ONLY:** do not sync to Garmin, Sheets or the weekly background automation. They do not authenticate attendance, and do not declare historical workouts completed.
+The **力量／Station** screen now prioritizes **weekly selector → seven daily workout cards**. Each daily card shows the most relevant exercises, sets/reps and main goals; an optional `查看完整課表與注意事項` section keeps expanded details hidden by default, without deleting the coaching prescription. Recovery logic is still applied by future coach reviews after verified data or direct feedback, not as a required survey in the App. Do not assume a Petra whiteboard means attendance.
 
 Progression gate per week:
 - **Progress one variable** only after ≥90% technically valid planned main work, stable erg splits (initial monitoring target ≤5–8% variation) and no next-day worsening.
@@ -105,8 +101,8 @@ Google Sheets: **`Mixed_Doubles_v1_4`** is a companion training reference. All s
 ## Data and sync architecture
 
 - App primary `data/report.json`: `version: 1.4.0`, `planRelease.label: v1.4`, 17 weeks with `runStationTransition`, `weakStationSkill`, `stationCoverage`, `progressionGates`, `readinessRules`, `weeklyQualityBudget` and `runningTrack.thirdEasyRun`.
-- App dynamic `index.html`: week-local selectors and guarded display changes; accessible under **力量／Station**. Still has independent running/analysis tabs. Static site must not claim live training sync.
-- `sw.js` cache key **hyrox-v1-4-20261114-v28**, `manifest.webmanifest` launch `./?app=v14`.
+- App UI `index.html`: simplified **weekly selector + daily workout cards**, with optional native expanded details; no user status form or standalone weak-station/aerobic info cards. The coach continues to use `readinessRules` and reported feelings internally. Running/analysis tabs remain; static site must not claim live training sync.
+- `sw.js` cache key **hyrox-v1-4-1-lite-20261114-v30**, `manifest.webmanifest` launch `./?app=v141-lite`.
 - Google Sheets: `Training_Plan_v1_4_CURRENT` active, `Run_Track_v1_4`, `Run_Station_v1_4`, `WeakStations_v1_4`, `Readiness_Rules_v1_4`, `Coaching_Rules_v1_4`. Older versions retained in separate tabs.
 - `Weekly_Review` appended T:AB columns for actual BBJ metres, lunge metres/load, valid 6kg Wall Ball reps, actual compromised running kilometres and post-station pace notes, sled loading, confirmed Petra attendance, and readiness.
 - **No new Garmin API call**: latest confirmed imported data still through **2026-11-13**. The private `hyrox-garmin-sync` repo and existing Sunday automation were NOT modified, so do not claim the automation already consumes v1.4. Future weekly review should explicitly reference `Coaching_Rules_v1_4` and latest actual logs when that automation is updated.
