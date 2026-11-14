@@ -1,5 +1,5 @@
 {
-  "version": "2.9.1",
+  "version": "1.0.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,7 +599,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Foundational Lifts Periodized v13.1",
+    "version": "FINAL-v1.0-2026-11-14",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
     "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-foundational-lifts-periodized-v13.1",
+    "version": "FINAL-v1.0-2026-11-14",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1520,7 +1520,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "8–12分鐘",
-                  "format": "2 rounds / RPE5–6",
+                  "format": "2 rounds / RPE6",
                   "steps": [
                     "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                     "Farmer Carry 25–30m → RowErg 150m",
@@ -1596,7 +1596,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "8–12分鐘",
-                  "format": "2 rounds / RPE5–6",
+                  "format": "2 rounds / RPE6",
                   "steps": [
                     "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                     "Easy RowErg 120–150m → 休90秒",
@@ -1641,14 +1641,14 @@
               "kind": "single-weekly-wod",
               "subtitle": "本週 WOD · RUN–SKI–CARRY BASELINE",
               "duration": "約18分鐘（另加暖身／收操）",
-              "rpe": "RPE6",
+              "rpe": "RPE7",
               "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
                   "title": "RUN–SKI–CARRY BASELINE",
                   "minutes": "18分鐘（主課約）",
-                  "format": "3 ROUNDS · 每輪休90秒 · RPE6",
+                  "format": "3 ROUNDS · 每輪休90秒 · RPE7",
                   "steps": [
                     "Run 200m → SkiErg 150m",
                     "Farmer Carry 25m → RowErg 150m",
@@ -1668,7 +1668,7 @@
                   "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "跑步後保持SkiErg節奏，再練握力與Row切換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
+              "notes": "跑步後保持SkiErg節奏，再練握力與Row切換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。；維持姿勢，最後一輪不力竭。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -1840,7 +1840,7 @@
           "primaryFocus": "11/14 Push起步，W01 Pull平衡＋Station基礎",
           "strengthWorkSets": 2,
           "strengthRIR": 4,
-          "wodTargetRPE": 6,
+          "wodTargetRPE": 7,
           "wodTargetMinutes": 18,
           "longRunMinutes": 40,
           "functionalRounds": 2,
@@ -1859,7 +1859,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR3",
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "SQUAT + RDL",
-          "strengthRule": "基礎動作品質；避免硬舉或雪橇衝刺"
+          "strengthRule": "基礎動作品質；避免硬舉或雪橇衝刺",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "Wall Ball下蹲與呼吸；SkiErg髖部發力",
         "dailyPlan": [
@@ -1915,7 +1923,7 @@
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                   "Easy RowErg 120–150m → 休90秒"
                 ],
-                "format": "2 rounds / RPE5–6"
+                "format": "2 rounds / RPE6"
               }
             ],
             "subtitle": "基礎動作品質；避免硬舉或雪橇衝刺"
@@ -1925,21 +1933,22 @@
             "dayZh": "週二",
             "date": "2026-11-17",
             "kind": "station",
-            "title": "Ski → Row 技巧 16",
-            "time": "16分鐘",
+            "title": "STATION INTERVAL · SKI/ROW/CARRY",
+            "time": "約21 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "4 ROUNDS · RPE6–7 · 休60秒",
                 "lines": [
-                  "M1 SkiErg 100m",
-                  "M2 RowErg 140m",
-                  "M3 Farmer Carry 20m（輕）",
-                  "M4 休息"
-                ],
-                "format": "EMOM4 × 4，RPE4"
+                  "SkiErg 200m → RowErg 200m",
+                  "Farmer Carry 30m（維持挺直）",
+                  "每輪休60秒；穩定四輪輸出"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -1974,7 +1983,7 @@
                   "Farmer Carry 25–30m → RowErg 150m",
                   "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
                 ],
-                "format": "2 rounds / RPE5–6"
+                "format": "2 rounds / RPE6"
               }
             ],
             "subtitle": "基礎動作品質；避免硬舉或雪橇衝刺"
@@ -2013,11 +2022,11 @@
             "date": "2026-11-20",
             "kind": "mixed",
             "title": "HYROX WOD｜RUN–SKI–CARRY BASELINE",
-            "time": "約18分鐘 · RPE6",
+            "time": "約18分鐘 · RPE7",
             "sections": [
               {
                 "name": "多站點 WOD",
-                "format": "3 ROUNDS · 每輪休90秒 · RPE6",
+                "format": "3 ROUNDS · 每輪休90秒 · RPE7",
                 "lines": [
                   "Run 200m → SkiErg 150m",
                   "Farmer Carry 25m → RowErg 150m",
@@ -2115,24 +2124,26 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "20–30分鐘輕鬆跑（不安排硬間歇）",
               "details": [
                 "以舒適跑姿和輕鬆呼吸恢復跑感",
-                "單純痠痛不是弱點判定；若疼痛改變步態，停止衝擊訓練"
+                "單純痠痛不是弱點判定；若疼痛改變步態，停止衝擊訓練",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "不強制",
-          "integration": "WOD內有0.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約0.6km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "動作基線＋完整 WOD",
           "wodRunKm": 0.6,
           "independentRunKmRange": [
             11.4,
             15.4
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2165,7 +2176,13 @@
           "wodType": "BASELINE",
           "wodRunKm": 0.6,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "SQUAT + RDL"
+          "strengthAnchor": "SQUAT + RDL",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -2435,7 +2452,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側 → Easy RowErg 150m",
                     "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
@@ -2479,14 +2496,14 @@
               "kind": "single-weekly-wod",
               "subtitle": "本週 WOD · RUN–SLED PUSH/PULL BUILDER",
               "duration": "約25分鐘（另加暖身／收操）",
-              "rpe": "RPE6",
+              "rpe": "RPE7",
               "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
                   "title": "RUN–SLED PUSH/PULL BUILDER",
                   "minutes": "25分鐘（主課約）",
-                  "format": "4 ROUNDS · 每輪休90秒 · RPE6",
+                  "format": "4 ROUNDS · 每輪休90秒 · RPE7",
                   "steps": [
                     "Run 250m → Sled Push 10m",
                     "Sled Pull 10m → RowErg 150m",
@@ -2506,7 +2523,7 @@
                   "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "雪橇推拉的步幅、繩索與跑站轉換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
+              "notes": "雪橇推拉的步幅、繩索與跑站轉換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。；維持姿勢，最後一輪不力竭。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -2678,7 +2695,7 @@
           "primaryFocus": "技巧基線與配速分配",
           "strengthWorkSets": 2,
           "strengthRIR": 3,
-          "wodTargetRPE": 6,
+          "wodTargetRPE": 7,
           "wodTargetMinutes": 25,
           "longRunMinutes": 45,
           "functionalRounds": 2,
@@ -2697,7 +2714,15 @@
           "hingeDay": "MON",
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "SQUAT + BENCH",
-          "strengthRule": "增加深蹲與臥推有效組數"
+          "strengthRule": "增加深蹲與臥推有效組數",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "肩部穩定與單腿控制",
         "dailyPlan": [
@@ -2753,7 +2778,7 @@
                   "Step-up 6/側 → Easy RowErg 150m",
                   "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "增加深蹲與臥推有效組數"
@@ -2763,20 +2788,22 @@
             "dayZh": "週二",
             "date": "2026-11-24",
             "kind": "station",
-            "title": "Ski 間歇 5 組",
-            "time": "22–25分鐘",
+            "title": "SKI–SLED PULL ENGINE",
+            "time": "約27 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7 · 休75秒",
                 "lines": [
-                  "SkiErg 200m → RowErg 200m",
-                  "Farmer Carry 25m",
-                  "輪間休75秒"
-                ],
-                "format": "5 rounds，RPE6"
+                  "SkiErg 225m → Sled Pull 10m（中等負重）",
+                  "RowErg 150m",
+                  "每輪休75秒；每輪時間落差控制在10%內"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -2849,11 +2876,11 @@
             "date": "2026-11-27",
             "kind": "mixed",
             "title": "HYROX WOD｜RUN–SLED PUSH/PULL BUILDER",
-            "time": "約25分鐘 · RPE6",
+            "time": "約25分鐘 · RPE7",
             "sections": [
               {
                 "name": "多站點 WOD",
-                "format": "4 ROUNDS · 每輪休90秒 · RPE6",
+                "format": "4 ROUNDS · 每輪休90秒 · RPE7",
                 "lines": [
                   "Run 250m → Sled Push 10m",
                   "Sled Pull 10m → RowErg 150m",
@@ -2951,23 +2978,25 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "6×400m controlled",
               "details": [
-                "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘"
+                "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.0km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "技巧基線與配速分配",
           "wodRunKm": 1,
           "independentRunKmRange": [
             12,
             16
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -2998,7 +3027,13 @@
           "wodType": "SLED",
           "wodRunKm": 1,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "SQUAT + BENCH"
+          "strengthAnchor": "SQUAT + BENCH",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -3192,7 +3227,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "SkiErg 150m → RowErg 150m（保持輕鬆節奏）",
                     "每輪休90秒，不疊加重Sled Pull"
@@ -3530,7 +3565,15 @@
           "hingeDay": "WED",
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "CONVENTIONAL TECHNIQUE + SQUAT",
-          "strengthRule": "傳統槓鈴硬舉技術2×5 @RIR4；不追PR，週一Squat加Hip Thrust替代RDL"
+          "strengthRule": "傳統槓鈴硬舉技術2×5 @RIR4；不追PR，週一Squat加Hip Thrust替代RDL",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "背部拉力與SkiErg的後段輸出",
         "dailyPlan": [
@@ -3596,21 +3639,22 @@
             "dayZh": "週二",
             "date": "2026-12-01",
             "kind": "station",
-            "title": "Station EMOM 24",
-            "time": "24分鐘",
+            "title": "ERG DENSITY 5×",
+            "time": "約27 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7 · 休60秒",
                 "lines": [
-                  "M1 SkiErg 150m",
-                  "M2 RowErg 180m",
-                  "M3 Farmer Carry 30m",
-                  "M4 休息"
-                ],
-                "format": "EMOM4 × 6，RPE6"
+                  "SkiErg 250m → RowErg 200m",
+                  "Farmer Carry 30m",
+                  "每輪休60秒；保持划頻一致"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -3639,7 +3683,7 @@
               },
               {
                 "name": "C｜技巧型Station",
-                "format": "2輪 · RPE4–5",
+                "format": "2輪 · RPE6",
                 "lines": [
                   "SkiErg 150m → RowErg 150m（保持輕鬆節奏）",
                   "每輪休90秒，不疊加重Sled Pull"
@@ -3785,24 +3829,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "4×600m steady",
               "details": [
                 "暖身10分鐘 → 4×600m，間隔慢跑2–3分鐘",
-                "以均勻配速完成；總跑量需含暖身及收操"
+                "以均勻配速完成；總跑量需含暖身及收操",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.2km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "增肌容量第一階",
           "wodRunKm": 1.2,
           "independentRunKmRange": [
             13.8,
             17.8
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -3833,7 +3879,13 @@
           "wodType": "SKI",
           "wodRunKm": 1.2,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "CONVENTIONAL TECHNIQUE + SQUAT"
+          "strengthAnchor": "CONVENTIONAL TECHNIQUE + SQUAT",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -3952,7 +4004,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "8–10分鐘",
-                  "format": "2 rounds / rest 60–90秒 / RPE4–5",
+                  "format": "2 rounds / rest 60–90秒 / RPE4",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -4102,7 +4154,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest90秒 / RPE4–5",
+                  "format": "2 rounds / rest90秒 / RPE4",
                   "steps": [
                     "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                     "Easy RowErg 120–150m → 休90秒",
@@ -4364,7 +4416,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR4",
           "strengthPhase": "DELOAD",
           "strengthAnchor": "DELOAD",
-          "strengthRule": "降載：總組數降約40%，不測PR"
+          "strengthRule": "降載：總組數降約40%，不測PR",
+          "stationTuesdayRPE": 4,
+          "stationFridayRPE": 4,
+          "highIntensityDistribution": {
+            "tuesdayStation": "easy",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "本週減量或模擬，週二不練高強度"
+          }
         },
         "weaknessFocus": "核心與單側動作控制",
         "dailyPlan": [
@@ -4420,7 +4480,7 @@
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                   "Easy RowErg 120–150m → 休90秒"
                 ],
-                "format": "2 rounds / rest90秒 / RPE4–5"
+                "format": "2 rounds / rest90秒 / RPE4"
               }
             ],
             "subtitle": "降載：總組數降約40%，不測PR"
@@ -4430,20 +4490,22 @@
             "dayZh": "週二",
             "date": "2026-12-08",
             "kind": "station",
-            "title": "技巧調整 EMOM",
-            "time": "15分鐘",
+            "title": "STATION RESET",
+            "time": "約16 分鐘 · RPE4",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "3 EASY ROUNDS · RPE4",
                 "lines": [
                   "SkiErg 150m → RowErg 150m",
-                  "輕 Farmer Carry 20m",
-                  "剩餘時間休息"
-                ],
-                "format": "E5MOM × 3，RPE4"
+                  "Farmer Carry 20m（輕）",
+                  "每輪休90秒；身體恢復優先"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station技巧／降量，為WOD與比賽保留狀態",
+            "stationTargetRPE": 4,
+            "stationRole": "technique"
           },
           {
             "day": "wed",
@@ -4478,7 +4540,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "2 rounds / rest 60–90秒 / RPE4–5"
+                "format": "2 rounds / rest 60–90秒 / RPE4"
               }
             ],
             "subtitle": "降載：總組數降約40%，不測PR"
@@ -4616,23 +4678,25 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "恢復／技術",
               "title": "Interval / Threshold",
               "dose": "Deload · 4×200m smooth",
               "details": [
-                "疲勞高時全程Easy，不做工作段"
+                "疲勞高時全程Easy，不做工作段",
+                "本週降載：不再加一堂全力跑"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有0km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：本週減量或模擬，週二不練高強度；WOD內跑步約0.0km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "恢復與技術整理",
           "wodRunKm": 0,
           "independentRunKmRange": [
             12,
             15
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週跑步品質課改低強度／短啟動，不與模擬或減量週衝突"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -4663,7 +4727,13 @@
           "wodType": "DELOAD",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD"
+          "strengthAnchor": "DELOAD",
+          "stationIntensity": {
+            "tuesdayRPE": 4,
+            "fridayRPE": 4,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 4
+          }
         }
       },
       {
@@ -4857,7 +4927,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "SkiErg 150m → RowErg 150m（技巧配速）",
                     "每輪休90秒；硬舉日不再做重Sled Pull"
@@ -4932,7 +5002,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側（輕）→ Easy RowErg 150m",
                     "2輪，輪間休90秒；重Sled留給WOD"
@@ -5194,7 +5264,15 @@
           "hingeDay": "WED",
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "TRAP BUILD",
-          "strengthRule": "力量累積第1週：固定六角槓主項，不換動作"
+          "strengthRule": "力量累積第1週：固定六角槓主項，不換動作",
+          "stationTuesdayRPE": 8,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "背部／股四頭肌有效增肌",
         "dailyPlan": [
@@ -5250,7 +5328,7 @@
                   "Step-up 6/側（輕）→ Easy RowErg 150m",
                   "2輪，輪間休90秒；重Sled留給WOD"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "力量累積第1週：固定六角槓主項，不換動作"
@@ -5260,19 +5338,22 @@
             "dayZh": "週二",
             "date": "2026-12-15",
             "kind": "station",
-            "title": "Ski / Sled Pull 24",
-            "time": "24分鐘",
+            "title": "THRESHOLD ENGINE",
+            "time": "約29 分鐘 · RPE8",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7–8 · 休75秒",
                 "lines": [
-                  "SkiErg 200m → Sled Pull 10m",
-                  "輪間休至第4分鐘"
-                ],
-                "format": "E4MOM × 6，RPE6"
+                  "SkiErg 250m → RowErg 250m",
+                  "Farmer Carry 30m",
+                  "每輪休75秒，前四輪穩定、第五輪不衝刺"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 8,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -5305,7 +5386,7 @@
                   "SkiErg 150m → RowErg 150m（技巧配速）",
                   "每輪休90秒；硬舉日不再做重Sled Pull"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "力量累積第1週：固定六角槓主項，不換動作"
@@ -5447,24 +5528,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "3×5分鐘 tempo",
               "details": [
                 "暖身10分鐘 → 3×5分鐘Tempo，間隔3分鐘Easy",
-                "避免與本週WOD相連兩天"
+                "避免與本週WOD相連兩天",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.2km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "背部／腿部增肌週",
           "wodRunKm": 1.2,
           "independentRunKmRange": [
             13.8,
             18.8
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -5495,7 +5578,13 @@
           "wodType": "ROW",
           "wodRunKm": 1.2,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP BUILD"
+          "strengthAnchor": "TRAP BUILD",
+          "stationIntensity": {
+            "tuesdayRPE": 8,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -5614,7 +5703,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "12–15分鐘",
-                  "format": "3 rounds / rest 60–90秒 / RPE7",
+                  "format": "3 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -5765,7 +5854,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側（輕）→ Easy RowErg 150m",
                     "2輪，輪間休90秒；重Sled留給WOD"
@@ -6027,7 +6116,15 @@
           "hingeDay": "MON",
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "TRAP + BENCH",
-          "strengthRule": "力量累積第2週：維持主項，先把次數做穩"
+          "strengthRule": "力量累積第2週：維持主項，先把次數做穩",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "左右腿動作對稱",
         "dailyPlan": [
@@ -6083,7 +6180,7 @@
                   "Step-up 6/側（輕）→ Easy RowErg 150m",
                   "2輪，輪間休90秒；重Sled留給WOD"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "力量累積第2週：維持主項，先把次數做穩"
@@ -6093,20 +6190,22 @@
             "dayZh": "週二",
             "date": "2026-12-22",
             "kind": "station",
-            "title": "Station Combo 25",
-            "time": "25分鐘",
+            "title": "SLED PULL REPEATS",
+            "time": "約28 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7 · 休90秒",
                 "lines": [
-                  "RowErg 200m → SkiErg 200m",
-                  "Farmer Carry 30m",
-                  "每輪休60–75秒"
-                ],
-                "format": "5 rounds，RPE6"
+                  "SkiErg 200m → Sled Pull 12.5m（中等負重）",
+                  "Farmer Carry 25m",
+                  "每輪休90秒；星期五還有Lunge WOD，不追雪橇最大重量"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -6141,7 +6240,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "3 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "力量累積第2週：維持主項，先把次數做穩"
@@ -6282,23 +6381,25 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "5×600m controlled",
               "details": [
-                "暖身10分鐘 → 5×600m，間隔2分鐘Easy"
+                "暖身10分鐘 → 5×600m，間隔2分鐘Easy",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.0km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "單腿控制與肌耐力",
           "wodRunKm": 1,
           "independentRunKmRange": [
             16,
             20
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -6329,7 +6430,13 @@
           "wodType": "LEGS",
           "wodRunKm": 1,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP + BENCH"
+          "strengthAnchor": "TRAP + BENCH",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -6448,7 +6555,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "12–15分鐘",
-                  "format": "3 rounds / rest 60–90秒 / RPE7",
+                  "format": "3 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 10次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -6599,7 +6706,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側（輕）→ Easy RowErg 150m",
                     "2輪，輪間休90秒；重Sled留給WOD"
@@ -6861,7 +6968,15 @@
           "hingePrescription": "Romanian Deadlift 3×8 @RIR2",
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "TRAP + BENCH HEAVIER",
-          "strengthRule": "力量累積第3週：適度提高重量、減少重複次數，不做1RM"
+          "strengthRule": "力量累積第3週：適度提高重量、減少重複次數，不做1RM",
+          "stationTuesdayRPE": 8,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "上背耐力與SkiErg續航",
         "dailyPlan": [
@@ -6917,7 +7032,7 @@
                   "Step-up 6/側（輕）→ Easy RowErg 150m",
                   "2輪，輪間休90秒；重Sled留給WOD"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "力量累積第3週：適度提高重量、減少重複次數，不做1RM"
@@ -6927,20 +7042,22 @@
             "dayZh": "週二",
             "date": "2026-12-29",
             "kind": "station",
-            "title": "Ski / Row 30",
-            "time": "30分鐘",
+            "title": "SKI/ROW PROGRESSIVE 5×",
+            "time": "約32 分鐘 · RPE8",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE8 · 休75秒",
                 "lines": [
-                  "SkiErg 200m → RowErg 200m",
-                  "Sled Pull 10m（控制重量）",
-                  "輪間休75秒"
-                ],
-                "format": "6 rounds，RPE6"
+                  "SkiErg 300m → RowErg 250m",
+                  "Farmer Carry 40m",
+                  "每輪休75秒；最後一輪維持技術而非力竭"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 8,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -6975,7 +7092,7 @@
                   "Wall Ball 10次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "3 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "力量累積第3週：適度提高重量、減少重複次數，不做1RM"
@@ -7116,24 +7233,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "3×1km threshold",
               "details": [
                 "暖身12分鐘 → 3×1km，間隔3分鐘Jog",
-                "最後一趟仍能保持穩定"
+                "最後一趟仍能保持穩定",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.75km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.8km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "機械張力與Erg輸出",
           "wodRunKm": 1.75,
           "independentRunKmRange": [
             16.3,
             21.3
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -7164,7 +7283,13 @@
           "wodType": "SKI",
           "wodRunKm": 1.75,
           "strengthPhase": "STRENGTH BUILD",
-          "strengthAnchor": "TRAP + BENCH HEAVIER"
+          "strengthAnchor": "TRAP + BENCH HEAVIER",
+          "stationIntensity": {
+            "tuesdayRPE": 8,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -7357,7 +7482,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest75–90秒 / RPE4–5",
+                  "format": "2 rounds / rest75–90秒 / RPE4",
                   "steps": [
                     "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                     "Farmer Carry 25–30m → RowErg 150m",
@@ -7433,7 +7558,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest90秒 / RPE4–5",
+                  "format": "2 rounds / rest90秒 / RPE4",
                   "steps": [
                     "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                     "Easy RowErg 120–150m → 休90秒",
@@ -7695,7 +7820,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR4",
           "strengthPhase": "DELOAD",
           "strengthAnchor": "DELOAD",
-          "strengthRule": "降載：恢復重型髖伸與上肢負荷"
+          "strengthRule": "降載：恢復重型髖伸與上肢負荷",
+          "stationTuesdayRPE": 4,
+          "stationFridayRPE": 4,
+          "highIntensityDistribution": {
+            "tuesdayStation": "easy",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "本週減量或模擬，週二不練高強度"
+          }
         },
         "weaknessFocus": "技術精準與疲勞回落",
         "dailyPlan": [
@@ -7751,7 +7884,7 @@
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                   "Easy RowErg 120–150m → 休90秒"
                 ],
-                "format": "2 rounds / rest90秒 / RPE4–5"
+                "format": "2 rounds / rest90秒 / RPE4"
               }
             ],
             "subtitle": "降載：恢復重型髖伸與上肢負荷"
@@ -7761,20 +7894,22 @@
             "dayZh": "週二",
             "date": "2027-01-05",
             "kind": "station",
-            "title": "Easy Station EMOM",
-            "time": "16–20分鐘",
+            "title": "EASY ERG FLOW",
+            "time": "約17 分鐘 · RPE4",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "3 EASY ROUNDS · RPE4",
                 "lines": [
-                  "SkiErg 120m → RowErg 140m",
-                  "Farmer Carry 20m",
-                  "保留完整休息"
-                ],
-                "format": "EMOM4 × 4–5，RPE4"
+                  "SkiErg 200m → RowErg 150m",
+                  "Farmer Carry 20m（輕）",
+                  "各輪休90秒，維持流暢動作"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station技巧／降量，為WOD與比賽保留狀態",
+            "stationTargetRPE": 4,
+            "stationRole": "technique"
           },
           {
             "day": "wed",
@@ -7808,7 +7943,7 @@
                   "Farmer Carry 25–30m → RowErg 150m",
                   "休息75–90秒"
                 ],
-                "format": "2 rounds / rest75–90秒 / RPE4–5"
+                "format": "2 rounds / rest75–90秒 / RPE4"
               }
             ],
             "subtitle": "降載：恢復重型髖伸與上肢負荷"
@@ -7948,24 +8083,26 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "恢復／技術",
               "title": "Interval / Threshold",
               "dose": "Deload · 25–35min easy + strides",
               "details": [
                 "Easy 25–35分鐘，可選4×10秒Strides",
-                "不做第三堂硬課"
+                "不做第三堂硬課",
+                "本週降載：不再加一堂全力跑"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有0km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：本週減量或模擬，週二不練高強度；WOD內跑步約0.0km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "中期降載／吸收",
           "wodRunKm": 0,
           "independentRunKmRange": [
             14,
             18
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週跑步品質課改低強度／短啟動，不與模擬或減量週衝突"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -7996,7 +8133,13 @@
           "wodType": "DELOAD",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD"
+          "strengthAnchor": "DELOAD",
+          "stationIntensity": {
+            "tuesdayRPE": 4,
+            "fridayRPE": 4,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 4
+          }
         }
       },
       {
@@ -8190,7 +8333,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "SkiErg 150m → RowErg 150m（低強度）",
                     "2輪，輪間休90秒"
@@ -8528,7 +8671,15 @@
           "hingeDay": "WED",
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "CONVENTIONAL MAINTENANCE",
-          "strengthRule": "轉換第1週：硬舉維持，不追重；WOD練跑後Ski/BBJ"
+          "strengthRule": "轉換第1週：硬舉維持，不追重；WOD練跑後Ski/BBJ",
+          "stationTuesdayRPE": 8,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "站點後重新起跑",
         "dailyPlan": [
@@ -8594,20 +8745,22 @@
             "dayZh": "週二",
             "date": "2027-01-12",
             "kind": "station",
-            "title": "Station EMOM 30",
-            "time": "30分鐘",
+            "title": "SKI/ROW RACE ENGINE",
+            "time": "約29 分鐘 · RPE8",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7–8 · 休60–75秒",
                 "lines": [
-                  "M1 SkiErg 150m；M2 RowErg 180m",
-                  "M3 Sled Pull 10m；M4 Carry 30m",
-                  "M5 休息"
-                ],
-                "format": "EMOM5 × 6，RPE6"
+                  "SkiErg 250m → RowErg 250m",
+                  "Farmer Carry 35m",
+                  "輪間休60–75秒；控制呼吸與划頻"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 8,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -8640,7 +8793,7 @@
                   "SkiErg 150m → RowErg 150m（低強度）",
                   "2輪，輪間休90秒"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "轉換第1週：硬舉維持，不追重；WOD練跑後Ski/BBJ"
@@ -8782,24 +8935,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "5×800m controlled",
               "details": [
                 "暖身10–12分鐘 → 5×800m，間隔2分鐘Easy",
-                "WOD已有400m跑段，下次間歇不追加速度"
+                "WOD已有400m跑段，下次間歇不追加速度",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.6km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "跑後進站與恢復跑速",
           "wodRunKm": 1.6,
           "independentRunKmRange": [
             17.4,
             21.4
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -8830,7 +8985,13 @@
           "wodType": "COMPROMISED",
           "wodRunKm": 1.6,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "CONVENTIONAL MAINTENANCE"
+          "strengthAnchor": "CONVENTIONAL MAINTENANCE",
+          "stationIntensity": {
+            "tuesdayRPE": 8,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -8949,7 +9110,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "12–15分鐘",
-                  "format": "3 rounds / rest 60–90秒 / RPE7",
+                  "format": "3 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -9100,7 +9261,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側 → Easy RowErg 150m",
                     "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
@@ -9362,7 +9523,15 @@
           "hingeDay": "MON",
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "SQUAT + BENCH MAINTAIN",
-          "strengthRule": "轉換第2週：重訓減量，讓雪橇WOD成為重點"
+          "strengthRule": "轉換第2週：重訓減量，讓雪橇WOD成為重點",
+          "stationTuesdayRPE": 8,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "Sled Push／Pull動作效率",
         "dailyPlan": [
@@ -9418,7 +9587,7 @@
                   "Step-up 6/側 → Easy RowErg 150m",
                   "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "轉換第2週：重訓減量，讓雪橇WOD成為重點"
@@ -9428,20 +9597,22 @@
             "dayZh": "週二",
             "date": "2027-01-19",
             "kind": "station",
-            "title": "Sled / Ski / Carry 30",
-            "time": "30分鐘",
+            "title": "ERG / CARRY DENSITY",
+            "time": "約30 分鐘 · RPE8",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7–8 · 休75秒",
                 "lines": [
-                  "Sled Push 10m → SkiErg 180m",
-                  "Farmer Carry 30m → RowErg 160m",
-                  "輪間休60秒"
-                ],
-                "format": "5 rounds，RPE6"
+                  "SkiErg 300m → RowErg 200m",
+                  "Farmer Carry 40m（穩定）",
+                  "每輪休75秒；週五雪橇WOD，今天不再加Sled Push/Pull"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 8,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -9476,7 +9647,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "3 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "轉換第2週：重訓減量，讓雪橇WOD成為重點"
@@ -9617,24 +9788,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "4×1km threshold",
               "details": [
                 "暖身12分鐘 → 4×1km，間隔2–3分鐘Easy",
-                "調整雪橇WOD同週腿部疲勞"
+                "調整雪橇WOD同週腿部疲勞",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.5km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.5km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "雪橇推拉與單側穩定",
           "wodRunKm": 1.5,
           "independentRunKmRange": [
             18.5,
             23.5
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -9665,7 +9838,13 @@
           "wodType": "SLED",
           "wodRunKm": 1.5,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "SQUAT + BENCH MAINTAIN"
+          "strengthAnchor": "SQUAT + BENCH MAINTAIN",
+          "stationIntensity": {
+            "tuesdayRPE": 8,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -9784,7 +9963,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "12–15分鐘",
-                  "format": "3 rounds / rest 60–90秒 / RPE7",
+                  "format": "3 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -10197,7 +10376,15 @@
           "hingePrescription": "Romanian Deadlift 2×8 @RIR2",
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "SQUAT + BENCH MAINTAIN",
-          "strengthRule": "轉換第3週：力量維持，Wall Ball 後程效率優先"
+          "strengthRule": "轉換第3週：力量維持，Wall Ball 後程效率優先",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "Wall Ball後半段腿肩耐力",
         "dailyPlan": [
@@ -10263,20 +10450,22 @@
             "dayZh": "週二",
             "date": "2027-01-26",
             "kind": "station",
-            "title": "Station Density 32",
-            "time": "32分鐘",
+            "title": "STATION ENGINE 4×",
+            "time": "約28 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "4 ROUNDS · RPE7 · 休60秒",
                 "lines": [
-                  "SkiErg 250m → RowErg 250m",
-                  "Sled Pull 10m → Carry 40m",
-                  "輪間休75秒"
-                ],
-                "format": "4 rounds，RPE6"
+                  "SkiErg 300m → RowErg 250m",
+                  "Farmer Carry 40m",
+                  "每輪休60秒；週五有Lunge/Wall Ball，今天不堆腿部次數"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -10311,7 +10500,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "3 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "轉換第3週：力量維持，Wall Ball 後程效率優先"
@@ -10451,24 +10640,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "6×600m even splits",
               "details": [
                 "暖身10分鐘 → 6×600m，間隔90–120秒Easy",
-                "WOD Wall Ball高量時不要跑到極速"
+                "WOD Wall Ball高量時不要跑到極速",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有1.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約1.6km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "Wall Ball後程耐力",
           "wodRunKm": 1.6,
           "independentRunKmRange": [
             19.4,
             24.4
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -10499,7 +10690,13 @@
           "wodType": "WALLBALL",
           "wodRunKm": 1.6,
           "strengthPhase": "HYROX TRANSFER",
-          "strengthAnchor": "SQUAT + BENCH MAINTAIN"
+          "strengthAnchor": "SQUAT + BENCH MAINTAIN",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -10692,7 +10889,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest75–90秒 / RPE4–5",
+                  "format": "2 rounds / rest75–90秒 / RPE4",
                   "steps": [
                     "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                     "Farmer Carry 25–30m → RowErg 150m",
@@ -10768,7 +10965,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest90秒 / RPE4–5",
+                  "format": "2 rounds / rest90秒 / RPE4",
                   "steps": [
                     "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                     "Easy RowErg 120–150m → 休90秒",
@@ -11031,7 +11228,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR4",
           "strengthPhase": "DELOAD",
           "strengthAnchor": "DELOAD",
-          "strengthRule": "降載：站點與力量同步減量"
+          "strengthRule": "降載：站點與力量同步減量",
+          "stationTuesdayRPE": 4,
+          "stationFridayRPE": 5,
+          "highIntensityDistribution": {
+            "tuesdayStation": "easy",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "本週減量或模擬，週二不練高強度"
+          }
         },
         "weaknessFocus": "站點動作質量與配速恢復",
         "dailyPlan": [
@@ -11087,7 +11292,7 @@
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
                   "Easy RowErg 120–150m → 休90秒"
                 ],
-                "format": "2 rounds / rest90秒 / RPE4–5"
+                "format": "2 rounds / rest90秒 / RPE4"
               }
             ],
             "subtitle": "降載：站點與力量同步減量"
@@ -11097,19 +11302,22 @@
             "dayZh": "週二",
             "date": "2027-02-02",
             "kind": "station",
-            "title": "Technical Reset",
-            "time": "16分鐘",
+            "title": "QUALITY RESET",
+            "time": "約16 分鐘 · RPE4",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "3 EASY ROUNDS · RPE4",
                 "lines": [
-                  "SkiErg 120m → RowErg 140m",
-                  "輕 Farmer Carry 20m"
-                ],
-                "format": "E4MOM × 4，RPE4"
+                  "SkiErg 150m → RowErg 150m",
+                  "Farmer Carry 20m（輕）",
+                  "每輪休90秒，不衝刺"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station技巧／降量，為WOD與比賽保留狀態",
+            "stationTargetRPE": 4,
+            "stationRole": "technique"
           },
           {
             "day": "wed",
@@ -11143,7 +11351,7 @@
                   "Farmer Carry 25–30m → RowErg 150m",
                   "休息75–90秒"
                 ],
-                "format": "2 rounds / rest75–90秒 / RPE4–5"
+                "format": "2 rounds / rest75–90秒 / RPE4"
               }
             ],
             "subtitle": "降載：站點與力量同步減量"
@@ -11284,24 +11492,26 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "恢復／技術",
               "title": "Interval / Threshold",
               "dose": "Deload · 20–30min easy",
               "details": [
                 "Easy 20–30分鐘（恢復好才做3次10秒舒適加速）",
-                "減量不追長距離"
+                "減量不追長距離",
+                "本週降載：不再加一堂全力跑"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有0.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：本週減量或模擬，週二不練高強度；WOD內跑步約0.6km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "站點減量／姿勢修正",
           "wodRunKm": 0.6,
           "independentRunKmRange": [
             15.4,
             19.4
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週跑步品質課改低強度／短啟動，不與模擬或減量週衝突"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -11332,7 +11542,13 @@
           "wodType": "DELOAD",
           "wodRunKm": 0.6,
           "strengthPhase": "DELOAD",
-          "strengthAnchor": "DELOAD"
+          "strengthAnchor": "DELOAD",
+          "stationIntensity": {
+            "tuesdayRPE": 4,
+            "fridayRPE": 5,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 4
+          }
         }
       },
       {
@@ -11451,7 +11667,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "8–10分鐘",
-                  "format": "2 rounds / rest 60–90秒 / RPE7",
+                  "format": "2 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -11601,7 +11817,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE6",
                   "steps": [
                     "Step-up 6/側 → Easy RowErg 150m",
                     "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
@@ -11866,7 +12082,15 @@
           "hingeDay": "MON",
           "strengthPhase": "RACE SPECIFIC",
           "strengthAnchor": "TRAP MAINTENANCE",
-          "strengthRule": "賽事專項：少量主要力量，保留神經動作感"
+          "strengthRule": "賽事專項：少量主要力量，保留神經動作感",
+          "stationTuesdayRPE": 8,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "賽事配速與跑站轉換",
         "dailyPlan": [
@@ -11922,7 +12146,7 @@
                   "Step-up 6/側 → Easy RowErg 150m",
                   "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE6"
               }
             ],
             "subtitle": "賽事專項：少量主要力量，保留神經動作感"
@@ -11932,19 +12156,22 @@
             "dayZh": "週二",
             "date": "2027-02-09",
             "kind": "station",
-            "title": "Race-pace Erg 30",
-            "time": "30分鐘",
+            "title": "RACE-PACE SKI/ROW",
+            "time": "約32 分鐘 · RPE8",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "5 ROUNDS · RPE7–8 · 休75秒",
                 "lines": [
-                  "SkiErg 250m → RowErg 200m",
-                  "Carry 35m，輪間休60秒"
-                ],
-                "format": "5 rounds，RPE6"
+                  "SkiErg 300m → RowErg 250m",
+                  "Farmer Carry 40m",
+                  "輪間休75秒，練接近比賽的划頻與呼吸"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 8,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -11979,7 +12206,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "2 rounds / rest 60–90秒 / RPE7"
+                "format": "2 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "賽事專項：少量主要力量，保留神經動作感"
@@ -12122,24 +12349,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "4×1km sustainable",
               "details": [
                 "暖身12分鐘 → 4×1km按預期HYROX跑步節奏，間隔2分鐘Easy",
-                "不是純跑步400m PR的強度"
+                "不是純跑步400m PR的強度",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約2.0km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "賽事順序與可持續配速",
           "wodRunKm": 2,
           "independentRunKmRange": [
             19,
             24
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -12170,7 +12399,13 @@
           "wodType": "RACEORDER",
           "wodRunKm": 2,
           "strengthPhase": "RACE SPECIFIC",
-          "strengthAnchor": "TRAP MAINTENANCE"
+          "strengthAnchor": "TRAP MAINTENANCE",
+          "stationIntensity": {
+            "tuesdayRPE": 8,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -12363,7 +12598,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "10–12分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE4",
                   "steps": [
                     "SkiErg 150m → RowErg 150m（低強度）",
                     "2輪，輪間休90秒"
@@ -12438,7 +12673,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE4",
                   "steps": [
                     "Step-up 6/側（輕）→ Easy RowErg 150m",
                     "2輪，輪間休90秒；重Sled留給WOD"
@@ -12710,7 +12945,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR3",
           "strengthPhase": "RACE SPECIFIC",
           "strengthAnchor": "NO HEAVY HINGE",
-          "strengthRule": "本週8站縮量模擬，不排任何重硬舉"
+          "strengthRule": "本週8站縮量模擬，不排任何重硬舉",
+          "stationTuesdayRPE": 5,
+          "stationFridayRPE": 8,
+          "highIntensityDistribution": {
+            "tuesdayStation": "easy",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "本週減量或模擬，週二不練高強度"
+          }
         },
         "weaknessFocus": "縮量模擬與隔天恢復能力",
         "dailyPlan": [
@@ -12766,7 +13009,7 @@
                   "Step-up 6/側（輕）→ Easy RowErg 150m",
                   "2輪，輪間休90秒；重Sled留給WOD"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE4"
               }
             ],
             "subtitle": "本週8站縮量模擬，不排任何重硬舉"
@@ -12776,20 +13019,22 @@
             "dayZh": "週二",
             "date": "2027-02-16",
             "kind": "station",
-            "title": "Pre-simulation Ski / Row",
-            "time": "20分鐘",
+            "title": "PRE-SIM TECHNIQUE",
+            "time": "約22 分鐘 · RPE5",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "4 EASY ROUNDS · RPE5",
                 "lines": [
-                  "SkiErg 4×2分鐘",
-                  "RowErg 4×2分鐘",
-                  "穿插Easy恢復"
-                ],
-                "format": "Easy intervals，RPE4"
+                  "SkiErg 200m → RowErg 150m",
+                  "Farmer Carry 20m（輕）",
+                  "每輪休90秒；週五8站縮量模擬，本堂不做高強度"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station技巧／降量，為WOD與比賽保留狀態",
+            "stationTargetRPE": 5,
+            "stationRole": "technique"
           },
           {
             "day": "wed",
@@ -12822,7 +13067,7 @@
                   "SkiErg 150m → RowErg 150m（低強度）",
                   "2輪，輪間休90秒"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE4"
               }
             ],
             "subtitle": "本週8站縮量模擬，不排任何重硬舉"
@@ -12972,24 +13217,26 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "恢復／技術",
               "title": "Interval / Threshold",
               "dose": "20–25分鐘Easy + 3×10秒舒適加速",
               "details": [
                 "本週HYROX縮量模擬本身就是品質課",
-                "不再新增一堂高強度跑步間歇"
+                "不再新增一堂高強度跑步間歇",
+                "本週降載：不再加一堂全力跑"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有3.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：本週減量或模擬，週二不練高強度；WOD內跑步約3.2km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "縮量雙日測試",
           "wodRunKm": 3.2,
           "independentRunKmRange": [
             14.8,
             19.8
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週跑步品質課改低強度／短啟動，不與模擬或減量週衝突"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -13020,7 +13267,13 @@
           "wodType": "SIM",
           "wodRunKm": 3.2,
           "strengthPhase": "RACE SPECIFIC",
-          "strengthAnchor": "NO HEAVY HINGE"
+          "strengthAnchor": "NO HEAVY HINGE",
+          "stationIntensity": {
+            "tuesdayRPE": 5,
+            "fridayRPE": 8,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 4
+          }
         }
       },
       {
@@ -13139,7 +13392,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "DB Push + Wall Ball Combo",
                   "minutes": "8–10分鐘",
-                  "format": "2 rounds / rest 60–90秒 / RPE7",
+                  "format": "2 rounds / rest 60–90秒 / RPE6",
                   "steps": [
                     "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                     "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
@@ -13553,7 +13806,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR3",
           "strengthPhase": "SHARPEN",
           "strengthAnchor": "SQUAT + BENCH TOUCH",
-          "strengthRule": "賽前收斂：保留負重感但不追PR"
+          "strengthRule": "賽前收斂：保留負重感但不追PR",
+          "stationTuesdayRPE": 7,
+          "stationFridayRPE": 7,
+          "highIntensityDistribution": {
+            "tuesdayStation": "moderately-hard",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配"
+          }
         },
         "weaknessFocus": "Station換站效率與節奏",
         "dailyPlan": [
@@ -13619,19 +13880,22 @@
             "dayZh": "週二",
             "date": "2027-02-23",
             "kind": "station",
-            "title": "Ski Pace 25",
-            "time": "25分鐘",
+            "title": "SHARP STATION RHYTHM",
+            "time": "約23 分鐘 · RPE7",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "4 ROUNDS · RPE7 · 休90秒",
                 "lines": [
-                  "SkiErg 200m → RowErg 200m",
-                  "各輪間休75秒"
-                ],
-                "format": "5 rounds，RPE6"
+                  "SkiErg 250m → RowErg 200m",
+                  "Farmer Carry 30m",
+                  "每輪休90秒；量減少、節奏保留"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station品質主課：Ski/Row/Carry連續輸出與輪間恢復",
+            "stationTargetRPE": 7,
+            "stationRole": "quality"
           },
           {
             "day": "wed",
@@ -13666,7 +13930,7 @@
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
-                "format": "2 rounds / rest 60–90秒 / RPE7"
+                "format": "2 rounds / rest 60–90秒 / RPE6"
               }
             ],
             "subtitle": "賽前收斂：保留負重感但不追PR"
@@ -13807,24 +14071,26 @@
             },
             {
               "id": "quality",
-              "priority": "品質",
+              "priority": "選配 · 跑步品質",
               "title": "Interval / Threshold",
               "dose": "2×8min controlled tempo",
               "details": [
                 "暖身10分鐘 → 2×8分鐘穩態Tempo，間隔3分鐘Easy",
-                "訓練節奏感，避免最後兩週疲勞增加"
+                "訓練節奏感，避免最後兩週疲勞增加",
+                "當週如果做足Station品質課與HYROX WOD，這堂可以改為Easy Run；總強度比單看跑量更重要"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有0.9km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：週二Station品質課＋週五HYROX WOD是兩個主要強度日；晨跑以Easy為主，品質跑視恢復選配；WOD內跑步約0.9km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "節奏精煉與疲勞回落",
           "wodRunKm": 0.9,
           "independentRunKmRange": [
             17.1,
             21.1
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週已有星期二Station與星期五WOD兩堂品質課；跑步間歇可選做，不是第三堂必做高強度。優先Easy與Long Easy。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -13855,7 +14121,13 @@
           "wodType": "SHARPEN",
           "wodRunKm": 0.9,
           "strengthPhase": "SHARPEN",
-          "strengthAnchor": "SQUAT + BENCH TOUCH"
+          "strengthAnchor": "SQUAT + BENCH TOUCH",
+          "stationIntensity": {
+            "tuesdayRPE": 7,
+            "fridayRPE": 7,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 6
+          }
         }
       },
       {
@@ -13974,7 +14246,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Push skill & soft landing",
                   "minutes": "6–8分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE4",
                   "steps": [
                     "SkiErg 150m → RowErg 150m（低強度）",
                     "2輪，輪間休90秒"
@@ -14122,7 +14394,7 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Low-impact station technical",
                   "minutes": "6–8分鐘",
-                  "format": "2輪 · RPE4–5",
+                  "format": "2輪 · RPE4",
                   "steps": [
                     "Easy RowErg 2×120m（舒適划頻）",
                     "每輪休息90秒，不做重Sled"
@@ -14372,7 +14644,15 @@
           "hingePrescription": "Romanian Deadlift 1×8 @RIR5",
           "strengthPhase": "TAPER",
           "strengthAnchor": "TAPER / NO DEADLIFT",
-          "strengthRule": "賽前降載：取消重硬舉與高量增肌"
+          "strengthRule": "賽前降載：取消重硬舉與高量增肌",
+          "stationTuesdayRPE": 4,
+          "stationFridayRPE": 4,
+          "highIntensityDistribution": {
+            "tuesdayStation": "easy",
+            "fridayWod": "quality",
+            "independentRunQuality": "optional",
+            "summary": "本週減量或模擬，週二不練高強度"
+          }
         },
         "weaknessFocus": "短距離速度感與精力恢復",
         "dailyPlan": [
@@ -14428,7 +14708,7 @@
                   "Easy RowErg 2×120m（舒適划頻）",
                   "每輪休息90秒，不做重Sled"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE4"
               }
             ],
             "subtitle": "賽前降載：取消重硬舉與高量增肌"
@@ -14438,19 +14718,22 @@
             "dayZh": "週二",
             "date": "2027-03-02",
             "kind": "station",
-            "title": "Short Station Touch",
-            "time": "12分鐘",
+            "title": "TAPER STATION TOUCH",
+            "time": "約12 分鐘 · RPE4",
             "sections": [
               {
-                "name": "Station 有氧／節奏",
+                "name": "Station Conditioning",
+                "format": "2 EASY ROUNDS · RPE3–4",
                 "lines": [
-                  "SkiErg 100m → RowErg 120m",
-                  "M3簡單Carry 15m，M4休息"
-                ],
-                "format": "EMOM4 × 3，RPE4"
+                  "SkiErg 150m → RowErg 150m",
+                  "Farmer Carry 15m（輕）",
+                  "每輪休90秒，保持輕鬆"
+                ]
               }
             ],
-            "subtitle": "Station Engine｜Ski/Row 為主，配合每週跑步品質課的中強度設計"
+            "subtitle": "Station技巧／降量，為WOD與比賽保留狀態",
+            "stationTargetRPE": 4,
+            "stationRole": "technique"
           },
           {
             "day": "wed",
@@ -14484,7 +14767,7 @@
                   "SkiErg 150m → RowErg 150m（低強度）",
                   "2輪，輪間休90秒"
                 ],
-                "format": "2輪 · RPE4–5"
+                "format": "2輪 · RPE4"
               }
             ],
             "subtitle": "賽前降載：取消重硬舉與高量增肌"
@@ -14616,24 +14899,26 @@
             },
             {
               "id": "quality",
-              "priority": "減量／技術",
+              "priority": "恢復／技術",
               "title": "Interval / Threshold",
               "dose": "20分鐘Easy + 3×10秒舒適加速",
               "details": [
                 "全程輕鬆，短加速不是衝刺",
-                "不做新的400m/1000m PB測試"
+                "不做新的400m/1000m PB測試",
+                "本週降載：不再加一堂全力跑"
               ]
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "WOD內有0.4km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "integration": "強度分配：本週減量或模擬，週二不練高強度；WOD內跑步約0.4km計入參考跑量；Petra課依已確認的實際負荷計入，不重複計算。",
           "weeklyFocus": "賽前降載",
           "wodRunKm": 0.4,
           "independentRunKmRange": [
             9.6,
             14.6
           ],
-          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。",
+          "qualityPolicy": "本週跑步品質課改低強度／短啟動，不與模擬或減量週衝突"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -14664,7 +14949,13 @@
           "wodType": "TAPER",
           "wodRunKm": 0.4,
           "strengthPhase": "TAPER",
-          "strengthAnchor": "TAPER / NO DEADLIFT"
+          "strengthAnchor": "TAPER / NO DEADLIFT",
+          "stationIntensity": {
+            "tuesdayRPE": 4,
+            "fridayRPE": 4,
+            "lowIntensitySunday": true,
+            "strengthFinishersRPE": 4
+          }
         }
       },
       {
@@ -15189,11 +15480,12 @@
     "wodStyle": "World Gym WOD alternates 12+ original diverse race-related Run+Station, Erg, Carry, Sled, Wall Ball, Lunges, BBJ bricks with every fourth week deload, W14 eight-station shortened rehearsal, W16 taper, W17 racing. Avoid DB-only WOD monotony.",
     "defaultView": "17週重點 + 星期日至星期六每日訓練",
     "strengthHinge": "Fundamental strength patterns (Squat, Bench, Hinge/Deadlift, upper push/pull) have different roles across blocks, not mandatory every session or arbitrary weekly rotation. W05-W07 repeated Trap-bar and Bench as measurable build anchors; deload W04/W08/W12/W16; maintenance during HYROX-specific build.",
-    "strengthModel": "Fundamental squat/bench/hinge/pull movement families are periodized by stage; continuous anchors and weekly RIR-based progression with four deloads; benchmark strength block W05-W07; HYROX-specific maintenance W09-W15."
+    "strengthModel": "Fundamental squat/bench/hinge/pull movement families are periodized by stage; continuous anchors and weekly RIR-based progression with four deloads; benchmark strength block W05-W07; HYROX-specific maintenance W09-W15.",
+    "intensityDesign": "Final v1.0: two weekly station-oriented hard classes (Tue high-quality Ski/Row/Carry conditioning RPE7–8 + Fri varied Run/Station hybrid WOD RPE7–8), Sunday easy aerobic, Mon/Wed strength + moderate finisher. Run interval is optional under combined load, Petra WOD replaces a high day, do not automatically stack."
   },
-  "weeklyScheduleNotes": "Saturday Nov14 Push kickoff; Sunday-first 17 weeks; World Gym Friday WOD now alternates varied Run-Ski/Row/Sled/Farmer/WallBall/BBJ/Lunge work. WOD running counts towards independent Running track mileage totals; Petra verified WOD replaces Friday WOD.",
+  "weeklyScheduleNotes": "Final v1.0 Sunday-start 17 weeks. Tuesday Station Conditioning RPE7–8 on training weeks, Friday mixed WOD RPE7–8, Sunday Easy, strength-day short moderate station circuits. Petra hard WOD replaces the week's hard WOD; independent run Quality is optional to avoid 3–4 compulsory hard days. No Petra UI questionnaire.",
   "trainingTracks": {
-    "version": "2026-11-14-two-tracks-foundational-lifts-v4",
+    "version": "FINAL-v1.0-2026-11-14",
     "updated": "2026-11-14",
     "running": {
       "name": "RUNNING",
@@ -15214,7 +15506,7 @@
           "avgHr": 150
         }
       },
-      "principle": "Easy + Long + Quality with free morning placement and weekly mileage range as reference, not forced completion",
+      "principle": "Easy / Long independent flexible runs; run interval/threshold is optional when Tuesday Station Conditioning and Friday hybrid WOD both supply high intensity. WOD running segments counted only if completed. Keep running source snapshot as of 2026-11-13.",
       "startDate": "2026-11-15"
     },
     "gym": {
@@ -15498,6 +15790,126 @@
         ],
         "loadProgression": "When all work sets complete with correct form and target RIR (2-4), add 1 rep per set or a small load increment the following same-lift session, not both at once. Do not increase heavy hinge and demanding sled volume simultaneously.",
         "recovery": "Heavy lower-body sessions adjusted for Friday WOD and separate quality running sessions; no additional high-intensity finisher on maximal strength focus days."
+      },
+      "intensityModel": {
+        "version": "FINAL-v1.0",
+        "principle": "Ski/Row/Carry-based Tuesday station conditioning is a true quality session (usually RPE7–8) with progressive volume and explicit rests. Friday varied HYROX mixed Run/Station WOD RPE7–8 is a second quality session. Sunday easy RPE3–5. Monday/Wednesday post-strength station work RPE5–6, not extra all-out sessions. Deload W04/08/12, W14 pre-simulation Tue easy, W16 taper.",
+        "limitation": "The run quality session is optional when Tuesday and Friday quality workouts are both done; do not inadvertently turn the weekly program into 3–4 mandatory high-intensity days. Petra session, if actually performed, counts toward quality work rather than stacking extra.",
+        "plannedByWeek": [
+          {
+            "week": "W01",
+            "tueRPE": 7,
+            "tueMinutes": 21,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W02",
+            "tueRPE": 7,
+            "tueMinutes": 27,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W03",
+            "tueRPE": 7,
+            "tueMinutes": 27,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W04",
+            "tueRPE": 4,
+            "tueMinutes": 16,
+            "fridayRPE": 4,
+            "role": "technique"
+          },
+          {
+            "week": "W05",
+            "tueRPE": 8,
+            "tueMinutes": 29,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W06",
+            "tueRPE": 7,
+            "tueMinutes": 28,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W07",
+            "tueRPE": 8,
+            "tueMinutes": 32,
+            "fridayRPE": 8,
+            "role": "quality"
+          },
+          {
+            "week": "W08",
+            "tueRPE": 4,
+            "tueMinutes": 17,
+            "fridayRPE": 4,
+            "role": "technique"
+          },
+          {
+            "week": "W09",
+            "tueRPE": 8,
+            "tueMinutes": 29,
+            "fridayRPE": 8,
+            "role": "quality"
+          },
+          {
+            "week": "W10",
+            "tueRPE": 8,
+            "tueMinutes": 30,
+            "fridayRPE": 8,
+            "role": "quality"
+          },
+          {
+            "week": "W11",
+            "tueRPE": 7,
+            "tueMinutes": 28,
+            "fridayRPE": 8,
+            "role": "quality"
+          },
+          {
+            "week": "W12",
+            "tueRPE": 4,
+            "tueMinutes": 16,
+            "fridayRPE": 5,
+            "role": "technique"
+          },
+          {
+            "week": "W13",
+            "tueRPE": 8,
+            "tueMinutes": 32,
+            "fridayRPE": 8,
+            "role": "quality"
+          },
+          {
+            "week": "W14",
+            "tueRPE": 5,
+            "tueMinutes": 22,
+            "fridayRPE": 8,
+            "role": "technique"
+          },
+          {
+            "week": "W15",
+            "tueRPE": 7,
+            "tueMinutes": 23,
+            "fridayRPE": 7,
+            "role": "quality"
+          },
+          {
+            "week": "W16",
+            "tueRPE": 4,
+            "tueMinutes": 12,
+            "fridayRPE": 4,
+            "role": "technique"
+          }
+        ],
+        "priority": "Keep weekly total load manageable across Garmin runs, World Gym/Petra strength, Ski/Row and mixed WOD; prioritize form and repeated splits over exhaustion."
       }
     },
     "coordination": [
@@ -15507,5 +15919,13 @@
       "Plan for progressive strength volume/skill and schedule deloads W04,W08,W12,W16; do not treat ordinary post-workout soreness as weakness, but do not train through persistent pain."
     ],
     "privacy": "Public report contains aggregated data only, no raw FIT, GPS coordinates or private photos"
+  },
+  "planRelease": {
+    "name": "HYROX TWO-TRACK FINAL",
+    "label": "v1.0",
+    "releasedOn": "2026-11-14",
+    "status": "BASELINE FINAL",
+    "dataVerifiedThrough": "2026-11-13",
+    "notes": "Stable first release, not claim of completed workouts. Weekly Garmin/Petra evidence updates can refine prescriptions without changing the two-track architecture."
   }
 }
