@@ -33,39 +33,16 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Studio Mesocycle v6 · 2026-11-14 (authoritative plan)
+## Simple Sun–Sat Calendar v2.3 · 2026-11-14
 
-### Why and where
+The user-facing view is deliberately simple. Only select the week (W01–W17) or use previous/next. No Petra questionnaire, recovery/soreness selector, WOD-location selector, 5/6-day toggle, or lengthy replacement instructions in course cards.
 
-The current planning source of truth is `data/report.json > seasonPlan.weeks[].periodization` together with `sessions[].classPlan`. Public evidence is `metrics`, `petra`, `weeklyKm`, etc. Historic `prescriptionEngine.strength` is **legacy**, not the current generator. Do NOT replace current plan with old `lifts`, `flexiblePlan.modules` or `sessionDetail.strength + station` structures on weekly refresh.
+**Date convention:** All 17 weeks are Sunday to Saturday. W01: 2026-11-15–2026-11-21. W17: 2027-03-07–2027-03-13. Align firstWeek, weekStart, week dates, phase ranges, and every dailyPlan date.
 
-### Periodization: 17 weeks (2026-11-16 to race 2027-03-13)
+**Primary UI source:** data/report.json > seasonPlan.weeks[].dailyPlan supplies visible daily classes; weeks[].focus and weeks[].weaknessFocus supply the weekly summary. Always retain seven ordered entries per week, starting Sunday.
 
-- **W01–04 (foundation):** symptom gate/baseline, controlled first WOD, volume growth, W04 deload.
-- **W05–08 (hypertrophy):** 3 → 4 quality working sets for main compound exercise when recovered, meaningful shoulder/back/leg accessory work; W08 deload.
-- **W09–12 (HYROX transfer):** preserve hypertrophy and strength, progress run-to-station circuits and repeatable running after Ski/Sled/Wall Ball; W12 deload.
-- **W13–15 (race specificity):** sustainable race order, W14 60–70% shortened mixed-race-style circuit plus low-intensity next-day test rather than two max-effort days; W15 sharpen with volume reduced.
-- **W16–17 (taper/race):** W16 lighter stations and 1-set primary strength with plenty of reserve; W17 actual Fri mixed/Sat men's solo events (NO additional gym WOD).
+**Weekly pattern:** Sunday Long Easy (+ optional light evening Ski/Core); Monday first Push/Pull/Legs hypertrophy and focused functional circuit; Tuesday Petra Strength/Skill optional or rest; Wednesday interval; Thursday second strength and functional class; Friday rest; Saturday standalone WOD. Five core sessions + optional Tuesday. W14 has a Friday 60–70% reduced HYROX simulation and Saturday Day-2 easy aerobic check. W17 has Friday Mixed Doubles and Saturday Men Open.
 
-### Class construction
+**Coaching goal:** systematically improve weak links with planned hypertrophy, single-leg stability, SkiErg hip hinge/pace, back/grip work, and 6kg Wall Ball leg/shoulder endurance. Ordinary soreness is not a reason to auto-switch workouts. Significant pain, swelling or injury still warrants assessment. Respect deloads W04, W08, W12, W16.
 
-- **Push:** 25–40 min bench/incline/shoulder/lateral/triceps near RIR2–3 (as week permits) → 8 min shoulder/core stability → **2–3 round** Push Press + Wall Ball + Push-up sequence, at controlled fatigue. Adjust if Petra high-volume pressing or legs.
-- **Pull:** pulldown/rows/rear-delt/curl → carry, anti-rotation and grip → repeated SkiErg/Sled Pull/Carry/Row combinations. Erg output is not counted as hypertrophy sets.
-- **Legs:** squat/RDL/reverse lunge/leg curl → step-down/single-leg balance → controlled Sled Push/Step-up/Easy Row mini-circuit. Hard Sled loading belongs in separate WOD if appropriate, not two days back-to-back.
-- **Standalone WOD:** one slot per week, World Gym / Petra WOD / home alternative. Formats include 4-round DB Thruster/Hang Clean/Reverse Lunge/Push-up/Sit-up, EMOM, AMRAP, run-station bricks, and a single W14 controlled shortened rehearsal. Each week sets its own time and RPE. A Petra hard AMRAP counts as the WOD regardless of its nominal class name.
-- **Running:** interval quality (Petra class can replace), long easy by time, optional later easy Ski/Row/upper/core (non-required), controlling total fatigue.
-
-### UI and update contract
-
-- Users choose Petra `none/strength/skill/wod`, focus `general/push/pull/legs`, WOD location `world/home` and calf/knee `normal/pain`. They are manual localStorage values, NOT confirmed attendance. If Petra WOD is selected, World/Home WOD is replaced and PPL class C circuits are hidden. Petra Strength can replace a corresponding strength class *only if real working sets match*; Petra Skill can replace matching class C.
-- **5 training days:** interval + standalone WOD + long easy + the week's `periodization.priorityMuscles` (two PPL classes); priority rotates with weekly focus. **6 days:** all PPL + interval + WOD + long easy. Petra replaces work, not a seventh day.
-- Every week's `periodization` fields must be kept in sync with class block sets, WOD duration/RPE, and long-easy target. Deload weeks are W04/W08/W12/W16 (not inconsistent historic W03/W07/W11). Main set counts are per *primary lift*, not total direct muscle-group weekly sets.
-- Keep all private Garmin FIT, GPS and Drive photos out of GitHub Pages. Only publish aggregated evidence. Never invent kilograms or attendance.
-- Do not automatically lift caps or override symptom gates based on a single activity. Ask for additional confirmed recovery information before upgrading major intensity.
-
-### External programming evidence
-
-- [Centr HYROX Hybrid Strength, 2026 four-phase program](https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide)
-- [HYROX / HWPO partner programming](https://hyrox.com/training-partner/hwpo-training/)
-- [2026 ACSM resistance training position stand](https://pubmed.ncbi.nlm.nih.gov/41843416/)
-- [2026 concurrent training umbrella review](https://pubmed.ncbi.nlm.nih.gov/41762427/)
+**Automation contract:** Update complete dailyPlan together with class prescriptions. Never reinstate Petra class-type questions or default soreness switches. Keep Sunday-first dates consistent, and distinguish verified Garmin data date from plan update date. Do not publish private Garmin FIT/GPS or Petra photos.
