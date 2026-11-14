@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,7 +599,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Two Tracks Push Kickoff v10",
+    "version": "2026-11-14 Multi-Station WOD v11",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
     "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
@@ -751,9 +751,9 @@
     },
     "secondaryAerobic": "Long Easy與可選20–25min Easy Ski/Row是主要低強度補量；不把力量課後功能技巧段衝成第三堂WOD。",
     "wodStrategy": {
-      "now": "WOD獨立課，進行3–5輪DB綜合動作或World Gym Station Circuit；每週只一堂（Petra / World / Home三選一）。",
-      "specific": "W9–14 WOD逐步增加跑後站點與多站轉換；W14縮量模擬，當週Interval調Easy，次日Long Easy只做恢復評估。",
-      "race": "W15降低總工作量，W16減量、W17兩場比賽，沒有額外WOD。"
+      "now": "Standalone HYROX WOD uses professional-format variation: 3–5 round Run+Ski/Row/Sled/Farmer/Wall Ball circuits. Petite WOD replaces planned Friday World Gym WOD.",
+      "specific": "W09–W13 compromised running and longer Sled/Erg/Carry transitions; W14 8-station 40–50% simulation includes 3.2km run and scaled station distances; W15 sharpening.",
+      "race": "W16 gentle short activation; W17 two official races without extra WOD."
     },
     "doseTargets": [
       {
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-two-tracks-push-kickoff-v10",
+    "version": "2026-11-14-multi-station-wod-v11",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1342,7 +1342,7 @@
         "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
         "target": {
           "aerobic": "Long Easy 40分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 12分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約18分 RPE6；WOD內跑步0.6km 已計入跑量",
           "strength": "PPL增肌主項1組基準 @RIR 4（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "0–1堂（小腿無症狀才加）"
         },
@@ -1634,33 +1634,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · DB HYBRID · 4 ROUNDS",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "12分鐘主課＋暖身/收操",
-            "details": "本週主WOD：EMOM4 ×3–4 / RPE3–4；不是三肌群課後附加的finisher。",
+            "name": "WOD · RUN–SKI–CARRY BASELINE",
+            "purpose": "跑步後保持SkiErg節奏，再練握力與Row切換",
+            "dose": "約18分鐘（另加暖身／收操）",
+            "details": "3 ROUNDS · 每輪休90秒 · RPE6",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "DB HYBRID · 4 ROUNDS",
-              "duration": "18–24分鐘",
+              "subtitle": "本週 WOD · RUN–SKI–CARRY BASELINE",
+              "duration": "約18分鐘（另加暖身／收操）",
               "rpe": "RPE6",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "DB HYBRID · 4 ROUNDS",
-                  "minutes": "18–24分鐘",
-                  "format": "4 Rounds · 每輪休75秒",
+                  "title": "RUN–SKI–CARRY BASELINE",
+                  "minutes": "18分鐘（主課約）",
+                  "format": "3 ROUNDS · 每輪休90秒 · RPE6",
                   "steps": [
-                    "8 DB Hang Cleans",
-                    "8 DB Reverse Lunges（左右各4）",
-                    "8 DB Push Press",
-                    "8 Push-ups + 12 Sit-ups",
-                    "每輪休75秒；保持相近完成時間"
+                    "Run 200m → SkiErg 150m",
+                    "Farmer Carry 25m → RowErg 150m",
+                    "每輪休90秒，三輪用相近時間完成"
                   ],
-                  "note": "穩定速度與動作"
+                  "note": "跑步後保持SkiErg節奏，再練握力與Row切換；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
+                },
+                {
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
+                  "steps": [
+                    "本堂WOD跑步合計 0.6 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
+                  ],
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "跑步後保持SkiErg節奏，再練握力與Row切換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -1727,7 +1736,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0.6,
+            "wodType": "BASELINE",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "RowErg"
+            ]
           },
           {
             "id": "easy",
@@ -1835,7 +1852,9 @@
           "weeklyRule": "11/14做Push增肌與推站點；11/15先Easy Station，週一Legs、週三Pull，週四可選Push輕量或Petra技巧，週五再做WOD。",
           "benchmark": "記錄今日Bench/Incline/Shoulder的重量與RIR，以及3輪Wall Ball/Sled Push的品質；下一週比較Pull和Station配速。",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "BASELINE",
+          "wodRunKm": 0.6
         },
         "weaknessFocus": "Wall Ball下蹲與呼吸；SkiErg髖部發力",
         "dailyPlan": [
@@ -1987,22 +2006,28 @@
             "dayZh": "週五",
             "date": "2026-11-20",
             "kind": "mixed",
-            "title": "HYROX WOD｜DB HYBRID · 4 ROUNDS",
-            "time": "18–24分鐘",
+            "title": "HYROX WOD｜RUN–SKI–CARRY BASELINE",
+            "time": "約18分鐘 · RPE6",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "3 ROUNDS · 每輪休90秒 · RPE6",
                 "lines": [
-                  "8 DB Hang Cleans",
-                  "8 DB Reverse Lunges（左右各4）",
-                  "8 DB Push Press",
-                  "8 Push-ups + 12 Sit-ups",
-                  "每輪休75秒；保持相近完成時間"
-                ],
-                "format": "4 Rounds · 每輪休75秒"
+                  "Run 200m → SkiErg 150m",
+                  "Farmer Carry 25m → RowErg 150m",
+                  "每輪休90秒，三輪用相近時間完成"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "跑步後保持SkiErg節奏，再練握力與Row切換",
+            "wodRunKm": 0.6,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "RowErg"
+            ],
+            "workoutFormat": "3 ROUNDS · 每輪休90秒 · RPE6"
           },
           {
             "day": "sat",
@@ -2094,8 +2119,14 @@
             }
           ],
           "optional": "不強制",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "動作基線＋完整 WOD"
+          "integration": "WOD內有0.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "動作基線＋完整 WOD",
+          "wodRunKm": 0.6,
+          "independentRunKmRange": [
+            11.4,
+            15.4
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2105,7 +2136,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0.6
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -2121,7 +2153,9 @@
           "focus": "Push kick-off (Nov14) + Pull balance (W01)",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
           "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
-          "note": "Do not prescribe W01 Wed Push as main lift after Saturday kickoff; use Pull. Optional Thursday Push accessories only."
+          "note": "Do not prescribe W01 Wed Push as main lift after Saturday kickoff; use Pull. Optional Thursday Push accessories only.",
+          "wodType": "BASELINE",
+          "wodRunKm": 0.6
         }
       },
       {
@@ -2137,7 +2171,7 @@
         "priority": "逐步增加Easy而非追間歇速度",
         "target": {
           "aerobic": "Long Easy 45分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 18分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約25分 RPE6；WOD內跑步1km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 3（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -2429,42 +2463,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · DB HYBRID 4 ROUNDS",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "18分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / rest 75–90 sec / RPE6；不是三肌群課後附加的finisher。",
+            "name": "WOD · RUN–SLED PUSH/PULL BUILDER",
+            "purpose": "雪橇推拉的步幅、繩索與跑站轉換",
+            "dose": "約25分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休90秒 · RPE6",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · DB HYBRID 4 ROUNDS",
-              "duration": "18分鐘主課＋暖身/收操",
-              "rpe": "RPE 6",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · RUN–SLED PUSH/PULL BUILDER",
+              "duration": "約25分鐘（另加暖身／收操）",
+              "rpe": "RPE6",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "DB HYBRID 4 ROUNDS",
-                  "minutes": "約18–22分鐘",
-                  "format": "4 rounds / rest 75–90 sec / RPE6",
+                  "title": "RUN–SLED PUSH/PULL BUILDER",
+                  "minutes": "25分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休90秒 · RPE6",
                   "steps": [
-                    "8 DB Hang Cleans（兩手總數8）",
-                    "8 DB Push Press + 8 DB Reverse Lunges（左右各4）",
-                    "SkiErg 120m + rest 75–90秒"
+                    "Run 250m → Sled Push 10m",
+                    "Sled Pull 10m → RowErg 150m",
+                    "每輪休90秒；雪橇按World Gym地面阻力選技術負重"
                   ],
-                  "note": "首次WOD追求平順輪次和技術，不搶速度"
+                  "note": "雪橇推拉的步幅、繩索與跑站轉換；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "雪橇推拉的步幅、繩索與跑站轉換。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -2531,7 +2565,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1,
+            "wodType": "SLED",
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg"
+            ]
           },
           {
             "id": "easy",
@@ -2629,7 +2671,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 6,
-          "wodTargetMinutes": 18,
+          "wodTargetMinutes": 25,
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -2639,7 +2681,9 @@
           "weeklyRule": "找到Bench、Squat、Row可恢復工作重量",
           "benchmark": "記錄每組RIR與WOD各輪耗時",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SLED",
+          "wodRunKm": 1
         },
         "weaknessFocus": "肩部穩定與單腿控制",
         "dailyPlan": [
@@ -2790,20 +2834,28 @@
             "dayZh": "週五",
             "date": "2026-11-27",
             "kind": "mixed",
-            "title": "HYROX WOD｜DB HYBRID 4 ROUNDS",
-            "time": "約18–22分鐘",
+            "title": "HYROX WOD｜RUN–SLED PUSH/PULL BUILDER",
+            "time": "約25分鐘 · RPE6",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休90秒 · RPE6",
                 "lines": [
-                  "8 DB Hang Cleans（兩手總數8）",
-                  "8 DB Push Press + 8 DB Reverse Lunges（左右各4）",
-                  "SkiErg 120m + rest 75–90秒"
-                ],
-                "format": "4 rounds / rest 75–90 sec / RPE6"
+                  "Run 250m → Sled Push 10m",
+                  "Sled Pull 10m → RowErg 150m",
+                  "每輪休90秒；雪橇按World Gym地面阻力選技術負重"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "雪橇推拉的步幅、繩索與跑站轉換",
+            "wodRunKm": 1,
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休90秒 · RPE6"
           },
           {
             "day": "sat",
@@ -2894,8 +2946,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "技巧基線與配速分配"
+          "integration": "WOD內有1km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "技巧基線與配速分配",
+          "wodRunKm": 1,
+          "independentRunKmRange": [
+            12,
+            16
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -2904,7 +2962,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -2919,7 +2978,9 @@
           ],
           "focus": "技巧基線與配速分配",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SLED",
+          "wodRunKm": 1
         }
       },
       {
@@ -2935,7 +2996,7 @@
         "priority": "消化前兩週負荷，避免小腿反彈",
         "target": {
           "aerobic": "Long Easy 50分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 24分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約28分 RPE7；WOD內跑步1.2km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -3227,43 +3288,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · DUMBBELL WOD · 4 ROUNDS",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "24分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / rest 60–90 sec / RPE7；不是三肌群課後附加的finisher。",
+            "name": "WOD · SKI–FARMER–WALL BALL DENSITY",
+            "purpose": "優先練SkiErg節奏、握力與6kg Wall Ball分組",
+            "dose": "約28分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休75秒 · RPE7",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · DUMBBELL WOD · 4 ROUNDS",
-              "duration": "24分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · SKI–FARMER–WALL BALL DENSITY",
+              "duration": "約28分鐘（另加暖身／收操）",
+              "rpe": "RPE7",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "DUMBBELL WOD · 4 ROUNDS",
-                  "minutes": "約22–26分鐘",
-                  "format": "4 rounds / rest 60–90 sec / RPE7",
+                  "title": "SKI–FARMER–WALL BALL DENSITY",
+                  "minutes": "28分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休75秒 · RPE7",
                   "steps": [
-                    "10 DB Thrusters（輕重量、標準動作）",
-                    "10 DB Hang Cleans",
-                    "10 DB Reverse Lunges（共10次、每腿5）",
-                    "10 Push-ups + 20 Sit-ups，休60–90秒"
+                    "Run 300m → SkiErg 200m",
+                    "Farmer Carry 30m → Wall Ball 6kg ×8",
+                    "每輪休75秒；Wall Ball命中品質不下降"
                   ],
-                  "note": "參照你提供的WOD風格；四輪穩定一致比第一輪爆快更重要"
+                  "note": "優先練SkiErg節奏、握力與6kg Wall Ball分組；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.2 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "優先練SkiErg節奏、握力與6kg Wall Ball分組。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -3330,7 +3390,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.2,
+            "wodType": "SKI",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -3428,7 +3496,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 24,
+          "wodTargetMinutes": 28,
           "longRunMinutes": 50,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -3438,7 +3506,9 @@
           "weeklyRule": "按動作穩定度增加1組或少量重量，不兩者同加",
           "benchmark": "比較W02同類動作的RIR／輪次穩定度",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SKI",
+          "wodRunKm": 1.2
         },
         "weaknessFocus": "背部拉力與SkiErg的後段輸出",
         "dailyPlan": [
@@ -3590,21 +3660,28 @@
             "dayZh": "週五",
             "date": "2026-12-04",
             "kind": "mixed",
-            "title": "HYROX WOD｜DUMBBELL WOD · 4 ROUNDS",
-            "time": "約22–26分鐘",
+            "title": "HYROX WOD｜SKI–FARMER–WALL BALL DENSITY",
+            "time": "約28分鐘 · RPE7",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休75秒 · RPE7",
                 "lines": [
-                  "10 DB Thrusters（輕重量、標準動作）",
-                  "10 DB Hang Cleans",
-                  "10 DB Reverse Lunges（共10次、每腿5）",
-                  "10 Push-ups + 20 Sit-ups，休60–90秒"
-                ],
-                "format": "4 rounds / rest 60–90 sec / RPE7"
+                  "Run 300m → SkiErg 200m",
+                  "Farmer Carry 30m → Wall Ball 6kg ×8",
+                  "每輪休75秒；Wall Ball命中品質不下降"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "優先練SkiErg節奏、握力與6kg Wall Ball分組",
+            "wodRunKm": 1.2,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休75秒 · RPE7"
           },
           {
             "day": "sat",
@@ -3697,8 +3774,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "增肌容量第一階"
+          "integration": "WOD內有1.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "增肌容量第一階",
+          "wodRunKm": 1.2,
+          "independentRunKmRange": [
+            13.8,
+            17.8
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -3707,7 +3790,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.2
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -3722,7 +3806,9 @@
           ],
           "focus": "增肌容量第一階",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SKI",
+          "wodRunKm": 1.2
         }
       },
       {
@@ -3738,7 +3824,7 @@
         "priority": "適應轉換動作，不把它當第3堂硬課",
         "target": {
           "aerobic": "Long Easy 40分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 14分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約16分 RPE4；WOD內跑步0km 已計入跑量",
           "strength": "PPL增肌主項1組基準 @RIR 4（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "0–1堂短刺激／主要降量"
         },
@@ -4030,42 +4116,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · RESET EMOM 12",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "14分鐘主課＋暖身/收操",
-            "details": "本週主WOD：EMOM4 ×3–4 / RPE4；不是三肌群課後附加的finisher。",
+            "name": "WOD · RECOVERY ERG FLOW",
+            "purpose": "降載週練划頻、呼吸與Carry姿勢，不額外堆積乳酸",
+            "dose": "約16分鐘（另加暖身／收操）",
+            "details": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · RESET EMOM 12",
-              "duration": "14分鐘主課＋暖身/收操",
-              "rpe": "RPE 4",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · RECOVERY ERG FLOW",
+              "duration": "約16分鐘（另加暖身／收操）",
+              "rpe": "RPE4",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "RESET EMOM 12",
-                  "minutes": "12–16分鐘",
-                  "format": "EMOM4 ×3–4 / RPE4",
+                  "title": "RECOVERY ERG FLOW",
+                  "minutes": "16分鐘（主課約）",
+                  "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
                   "steps": [
-                    "M1 SkiErg 110m；M2 RowErg 130m",
-                    "M3 DB RDL 8次（很輕）+ Pallof 8／側",
-                    "M4 Rest；維持技術、心率不追高"
+                    "SkiErg 200m → RowErg 150m",
+                    "Farmer Carry 20m（輕）→ 休90秒",
+                    "各站舒適、保留呼吸餘裕"
                   ],
-                  "note": "這週總量減40–50%，不是高強度挑戰"
+                  "note": "降載週練划頻、呼吸與Carry姿勢，不額外堆積乳酸；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 0 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "降載週練划頻、呼吸與Carry姿勢，不額外堆積乳酸。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -4132,7 +4218,14 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0,
+            "wodType": "DELOAD",
+            "stationTags": [
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry"
+            ]
           },
           {
             "id": "easy",
@@ -4230,7 +4323,7 @@
           "strengthWorkSets": 1,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 14,
+          "wodTargetMinutes": 16,
           "longRunMinutes": 40,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -4240,7 +4333,9 @@
           "weeklyRule": "工作組減約40–50%，站點RPE≤5",
           "benchmark": "確認疲勞下降、腿部恢復，不追PR",
           "deload": true,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "DELOAD",
+          "wodRunKm": 0
         },
         "weaknessFocus": "核心與單側動作控制",
         "dailyPlan": [
@@ -4391,20 +4486,27 @@
             "dayZh": "週五",
             "date": "2026-12-11",
             "kind": "mixed",
-            "title": "HYROX WOD｜RESET EMOM 12",
-            "time": "12–16分鐘",
+            "title": "HYROX WOD｜RECOVERY ERG FLOW",
+            "time": "約16分鐘 · RPE4",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
                 "lines": [
-                  "M1 SkiErg 110m；M2 RowErg 130m",
-                  "M3 DB RDL 8次（很輕）+ Pallof 8／側",
-                  "M4 Rest；維持技術、心率不追高"
-                ],
-                "format": "EMOM4 ×3–4 / RPE4"
+                  "SkiErg 200m → RowErg 150m",
+                  "Farmer Carry 20m（輕）→ 休90秒",
+                  "各站舒適、保留呼吸餘裕"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "降載週練划頻、呼吸與Carry姿勢，不額外堆積乳酸",
+            "wodRunKm": 0,
+            "stationTags": [
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry"
+            ],
+            "workoutFormat": "3 EASY ROUNDS · 每輪休90秒 · RPE4"
           },
           {
             "day": "sat",
@@ -4495,8 +4597,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "恢復與技術整理"
+          "integration": "WOD內有0km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "恢復與技術整理",
+          "wodRunKm": 0,
+          "independentRunKmRange": [
+            12,
+            15
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -4505,7 +4613,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -4520,7 +4629,9 @@
           ],
           "focus": "恢復與技術整理",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "DELOAD",
+          "wodRunKm": 0
         }
       },
       {
@@ -4536,7 +4647,7 @@
         "priority": "增加有效訓練量，但保留有氧底盤",
         "target": {
           "aerobic": "Long Easy 50分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 22分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約30分 RPE7；WOD內跑步1.2km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -4828,42 +4939,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · UPPER ENGINE AMRAP 22",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "22分鐘主課＋暖身/收操",
-            "details": "本週主WOD：AMRAP22 / RPE7；不是三肌群課後附加的finisher。",
+            "name": "WOD · ROW–BURPEE–CARRY ENGINE",
+            "purpose": "跑後Row輸出與Burpee Broad Jump動作經濟性",
+            "dose": "約30分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休75秒 · RPE7",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · UPPER ENGINE AMRAP 22",
-              "duration": "22分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · ROW–BURPEE–CARRY ENGINE",
+              "duration": "約30分鐘（另加暖身／收操）",
+              "rpe": "RPE7",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "UPPER ENGINE AMRAP 22",
-                  "minutes": "22分鐘",
-                  "format": "AMRAP22 / RPE7",
+                  "title": "ROW–BURPEE–CARRY ENGINE",
+                  "minutes": "30分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休75秒 · RPE7",
                   "steps": [
-                    "SkiErg 200m → 8 DB Hang Cleans",
-                    "10 Push-ups → Farmer Carry 30m",
-                    "必要時每輪換站休30–45秒；保持前後輪節奏"
+                    "Run 300m → RowErg 250m",
+                    "Burpee Broad Jump 10m → Farmer Carry 30m",
+                    "每輪休75秒；最後一輪跑姿和第一輪相近"
                   ],
-                  "note": "拉力與肩穩定，避免腿部額外爆量"
+                  "note": "跑後Row輸出與Burpee Broad Jump動作經濟性；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.2 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "跑後Row輸出與Burpee Broad Jump動作經濟性。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -4930,7 +5041,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.2,
+            "wodType": "ROW",
+            "stationTags": [
+              "Run",
+              "RowErg",
+              "Burpee Broad Jump",
+              "Farmer Carry"
+            ]
           },
           {
             "id": "easy",
@@ -5028,7 +5147,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 22,
+          "wodTargetMinutes": 30,
           "longRunMinutes": 50,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -5038,7 +5157,9 @@
           "weeklyRule": "背與股四頭有品質組數，別把滑雪機算增肌組",
           "benchmark": "有效工作組重量／次數／RIR",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "ROW",
+          "wodRunKm": 1.2
         },
         "weaknessFocus": "背部／股四頭肌有效增肌",
         "dailyPlan": [
@@ -5188,20 +5309,28 @@
             "dayZh": "週五",
             "date": "2026-12-18",
             "kind": "mixed",
-            "title": "HYROX WOD｜UPPER ENGINE AMRAP 22",
-            "time": "22分鐘",
+            "title": "HYROX WOD｜ROW–BURPEE–CARRY ENGINE",
+            "time": "約30分鐘 · RPE7",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休75秒 · RPE7",
                 "lines": [
-                  "SkiErg 200m → 8 DB Hang Cleans",
-                  "10 Push-ups → Farmer Carry 30m",
-                  "必要時每輪換站休30–45秒；保持前後輪節奏"
-                ],
-                "format": "AMRAP22 / RPE7"
+                  "Run 300m → RowErg 250m",
+                  "Burpee Broad Jump 10m → Farmer Carry 30m",
+                  "每輪休75秒；最後一輪跑姿和第一輪相近"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "跑後Row輸出與Burpee Broad Jump動作經濟性",
+            "wodRunKm": 1.2,
+            "stationTags": [
+              "Run",
+              "RowErg",
+              "Burpee Broad Jump",
+              "Farmer Carry"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休75秒 · RPE7"
           },
           {
             "day": "sat",
@@ -5294,8 +5423,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "背部／腿部增肌週"
+          "integration": "WOD內有1.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "背部／腿部增肌週",
+          "wodRunKm": 1.2,
+          "independentRunKmRange": [
+            13.8,
+            18.8
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -5304,7 +5439,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.2
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -5319,7 +5455,9 @@
           ],
           "focus": "背部／腿部增肌週",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "ROW",
+          "wodRunKm": 1.2
         }
       },
       {
@@ -5335,7 +5473,7 @@
         "priority": "擴充Lunge與髖部控制，減少關節代償",
         "target": {
           "aerobic": "Long Easy 55分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 24分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約32分 RPE7；WOD內跑步1km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -5627,42 +5765,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · UNILATERAL EMOM 24",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "24分鐘主課＋暖身/收操",
-            "details": "本週主WOD：EMOM4 ×6 / RPE7；不是三肌群課後附加的finisher。",
+            "name": "WOD · SLED PUSH–LUNGE TRANSFER",
+            "purpose": "單腿穩定與雪橇技術轉換，避免腿站點全程衝刺",
+            "dose": "約32分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休90秒 · RPE7",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · UNILATERAL EMOM 24",
-              "duration": "24分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · SLED PUSH–LUNGE TRANSFER",
+              "duration": "約32分鐘（另加暖身／收操）",
+              "rpe": "RPE7",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "UNILATERAL EMOM 24",
-                  "minutes": "24分鐘",
-                  "format": "EMOM4 ×6 / RPE7",
+                  "title": "SLED PUSH–LUNGE TRANSFER",
+                  "minutes": "32分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休90秒 · RPE7",
                   "steps": [
-                    "M1 RowErg 150m；M2 DB Reverse Lunge 8次（左右各4）",
-                    "M3 SkiErg 140m；M4 10 DB Push-ups（或地板Push-up）",
-                    "每分鐘工作最好45–50秒內完成，剩餘時間休息"
+                    "Run 250m → Sled Push 12.5m",
+                    "KB Front-rack Lunge 10步（左右各5）→ SkiErg 200m",
+                    "每輪休90秒；場館沙袋未確認，以壺鈴代替"
                   ],
-                  "note": "單腿控制與站點密度比堆重量重要"
+                  "note": "單腿穩定與雪橇技術轉換，避免腿站點全程衝刺；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "單腿穩定與雪橇技術轉換，避免腿站點全程衝刺。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -5729,7 +5867,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1,
+            "wodType": "LEGS",
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Lunge",
+              "SkiErg"
+            ]
           },
           {
             "id": "easy",
@@ -5827,7 +5973,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 24,
+          "wodTargetMinutes": 32,
           "longRunMinutes": 55,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -5837,7 +5983,9 @@
           "weeklyRule": "增加單腿穩定與抗旋轉控制",
           "benchmark": "各側動作質量、Sled轉換不掉速",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "LEGS",
+          "wodRunKm": 1
         },
         "weaknessFocus": "左右腿動作對稱",
         "dailyPlan": [
@@ -5988,20 +6136,28 @@
             "dayZh": "週五",
             "date": "2026-12-25",
             "kind": "mixed",
-            "title": "HYROX WOD｜UNILATERAL EMOM 24",
-            "time": "24分鐘",
+            "title": "HYROX WOD｜SLED PUSH–LUNGE TRANSFER",
+            "time": "約32分鐘 · RPE7",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休90秒 · RPE7",
                 "lines": [
-                  "M1 RowErg 150m；M2 DB Reverse Lunge 8次（左右各4）",
-                  "M3 SkiErg 140m；M4 10 DB Push-ups（或地板Push-up）",
-                  "每分鐘工作最好45–50秒內完成，剩餘時間休息"
-                ],
-                "format": "EMOM4 ×6 / RPE7"
+                  "Run 250m → Sled Push 12.5m",
+                  "KB Front-rack Lunge 10步（左右各5）→ SkiErg 200m",
+                  "每輪休90秒；場館沙袋未確認，以壺鈴代替"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "單腿穩定與雪橇技術轉換，避免腿站點全程衝刺",
+            "wodRunKm": 1,
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Lunge",
+              "SkiErg"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休90秒 · RPE7"
           },
           {
             "day": "sat",
@@ -6093,8 +6249,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "單腿控制與肌耐力"
+          "integration": "WOD內有1km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "單腿控制與肌耐力",
+          "wodRunKm": 1,
+          "independentRunKmRange": [
+            16,
+            20
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -6103,7 +6265,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -6118,7 +6281,9 @@
           ],
           "focus": "單腿控制與肌耐力",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "LEGS",
+          "wodRunKm": 1
         }
       },
       {
@@ -6134,7 +6299,7 @@
         "priority": "低中次數大項與可控Erg",
         "target": {
           "aerobic": "Long Easy 60分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 28分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約36分 RPE8；WOD內跑步1.75km 已計入跑量",
           "strength": "PPL增肌主項4組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -6426,42 +6591,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · RUN / SKI 5 ROUNDS",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "28分鐘主課＋暖身/收操",
-            "details": "本週主WOD：5 rounds / rest 60 sec / RPE7–8；不是三肌群課後附加的finisher。",
+            "name": "WOD · LONGER SKI–CARRY BRICK",
+            "purpose": "延長Ski輸出，練Farmer Carry與Wall Ball下的呼吸恢復",
+            "dose": "約36分鐘（另加暖身／收操）",
+            "details": "5 ROUNDS · 每輪休75秒 · RPE7–8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · RUN / SKI 5 ROUNDS",
-              "duration": "28分鐘主課＋暖身/收操",
-              "rpe": "RPE 8",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · LONGER SKI–CARRY BRICK",
+              "duration": "約36分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "RUN / SKI 5 ROUNDS",
-                  "minutes": "25–30分鐘",
-                  "format": "5 rounds / rest 60 sec / RPE7–8",
+                  "title": "LONGER SKI–CARRY BRICK",
+                  "minutes": "36分鐘（主課約）",
+                  "format": "5 ROUNDS · 每輪休75秒 · RPE7–8",
                   "steps": [
-                    "Run 300m → SkiErg 200m",
-                    "Wall Ball 10次 → Farmer Carry 30m",
-                    "每輪休60秒；全程姿勢標準、最後一輪能維持"
+                    "Run 350m → SkiErg 250m",
+                    "Farmer Carry 40m → Wall Ball 6kg ×10",
+                    "每輪休75秒；將5輪配速控制在接近水準"
                   ],
-                  "note": "5輪穩定，比第一輪拼速度有意義"
+                  "note": "延長Ski輸出，練Farmer Carry與Wall Ball下的呼吸恢復；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.75 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "延長Ski輸出，練Farmer Carry與Wall Ball下的呼吸恢復。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -6528,7 +6693,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.75,
+            "wodType": "SKI",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -6626,7 +6799,7 @@
           "strengthWorkSets": 4,
           "strengthRIR": 2,
           "wodTargetRPE": 8,
-          "wodTargetMinutes": 28,
+          "wodTargetMinutes": 36,
           "longRunMinutes": 60,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -6636,7 +6809,9 @@
           "weeklyRule": "重量小幅提升或每組多1次，不同時加總跑量",
           "benchmark": "主項表現、SkiErg後半配速",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SKI",
+          "wodRunKm": 1.75
         },
         "weaknessFocus": "上背耐力與SkiErg續航",
         "dailyPlan": [
@@ -6787,20 +6962,28 @@
             "dayZh": "週五",
             "date": "2027-01-01",
             "kind": "mixed",
-            "title": "HYROX WOD｜RUN / SKI 5 ROUNDS",
-            "time": "25–30分鐘",
+            "title": "HYROX WOD｜LONGER SKI–CARRY BRICK",
+            "time": "約36分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "5 ROUNDS · 每輪休75秒 · RPE7–8",
                 "lines": [
-                  "Run 300m → SkiErg 200m",
-                  "Wall Ball 10次 → Farmer Carry 30m",
-                  "每輪休60秒；全程姿勢標準、最後一輪能維持"
-                ],
-                "format": "5 rounds / rest 60 sec / RPE7–8"
+                  "Run 350m → SkiErg 250m",
+                  "Farmer Carry 40m → Wall Ball 6kg ×10",
+                  "每輪休75秒；將5輪配速控制在接近水準"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "延長Ski輸出，練Farmer Carry與Wall Ball下的呼吸恢復",
+            "wodRunKm": 1.75,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ],
+            "workoutFormat": "5 ROUNDS · 每輪休75秒 · RPE7–8"
           },
           {
             "day": "sat",
@@ -6893,8 +7076,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "機械張力與Erg輸出"
+          "integration": "WOD內有1.75km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "機械張力與Erg輸出",
+          "wodRunKm": 1.75,
+          "independentRunKmRange": [
+            16.3,
+            21.3
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -6903,7 +7092,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.75
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -6918,7 +7108,9 @@
           ],
           "focus": "機械張力與Erg輸出",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SKI",
+          "wodRunKm": 1.75
         }
       },
       {
@@ -6934,7 +7126,7 @@
         "priority": "把有氧與肌肉疲勞降下來",
         "target": {
           "aerobic": "Long Easy 45分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 15分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約18分 RPE4；WOD內跑步0km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 4（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "0–1堂短刺激／主要降量"
         },
@@ -7226,42 +7418,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · RECOVERY FLOW 15",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "15分鐘主課＋暖身/收操",
-            "details": "本週主WOD：E5MOM×3 / RPE4；不是三肌群課後附加的finisher。",
+            "name": "WOD · EASY SKI–ROW RESET",
+            "purpose": "減量週保留Ski／Row／Carry的連貫動作",
+            "dose": "約18分鐘（另加暖身／收操）",
+            "details": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · RECOVERY FLOW 15",
-              "duration": "15分鐘主課＋暖身/收操",
-              "rpe": "RPE 4",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · EASY SKI–ROW RESET",
+              "duration": "約18分鐘（另加暖身／收操）",
+              "rpe": "RPE4",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "RECOVERY FLOW 15",
-                  "minutes": "15分鐘",
-                  "format": "E5MOM×3 / RPE4",
+                  "title": "EASY SKI–ROW RESET",
+                  "minutes": "18分鐘（主課約）",
+                  "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
                   "steps": [
-                    "Easy Ski 150m → Easy Row 150m",
-                    "Suitcase Carry 20m／側（輕）",
-                    "剩餘時間慢走、充分恢復"
+                    "SkiErg 200m → RowErg 200m",
+                    "Farmer Carry 25m（輕）",
+                    "每輪充分休息，絕不全力計時"
                   ],
-                  "note": "減量週，縮短循環，不做全力站點"
+                  "note": "減量週保留Ski／Row／Carry的連貫動作；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 0 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "減量週保留Ski／Row／Carry的連貫動作。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -7328,7 +7520,14 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0,
+            "wodType": "DELOAD",
+            "stationTags": [
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry"
+            ]
           },
           {
             "id": "easy",
@@ -7426,7 +7625,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": 18,
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -7436,7 +7635,9 @@
           "weeklyRule": "力量組數下降約40%，不做全力比賽模擬",
           "benchmark": "睡眠、腿部反應和跑步心率回穩",
           "deload": true,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "DELOAD",
+          "wodRunKm": 0
         },
         "weaknessFocus": "技術精準與疲勞回落",
         "dailyPlan": [
@@ -7587,20 +7788,27 @@
             "dayZh": "週五",
             "date": "2027-01-08",
             "kind": "mixed",
-            "title": "HYROX WOD｜RECOVERY FLOW 15",
-            "time": "15分鐘",
+            "title": "HYROX WOD｜EASY SKI–ROW RESET",
+            "time": "約18分鐘 · RPE4",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4",
                 "lines": [
-                  "Easy Ski 150m → Easy Row 150m",
-                  "Suitcase Carry 20m／側（輕）",
-                  "剩餘時間慢走、充分恢復"
-                ],
-                "format": "E5MOM×3 / RPE4"
+                  "SkiErg 200m → RowErg 200m",
+                  "Farmer Carry 25m（輕）",
+                  "每輪充分休息，絕不全力計時"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "減量週保留Ski／Row／Carry的連貫動作",
+            "wodRunKm": 0,
+            "stationTags": [
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry"
+            ],
+            "workoutFormat": "3 EASY ROUNDS · 每輪休90秒 · RPE4"
           },
           {
             "day": "sat",
@@ -7693,8 +7901,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "中期降載／吸收"
+          "integration": "WOD內有0km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "中期降載／吸收",
+          "wodRunKm": 0,
+          "independentRunKmRange": [
+            14,
+            18
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -7703,7 +7917,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -7718,7 +7933,9 @@
           ],
           "focus": "中期降載／吸收",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "DELOAD",
+          "wodRunKm": 0
         }
       },
       {
@@ -7734,7 +7951,7 @@
         "priority": "練跑後上Ski與站點後前200m穩定節奏",
         "target": {
           "aerobic": "Long Easy 55分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 25分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約35分 RPE8；WOD內跑步1.6km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -8026,42 +8243,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · COMPROMISED RUN 4×",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "25分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / rest 75 sec / RPE7–8；不是三肌群課後附加的finisher。",
+            "name": "WOD · COMPROMISED RUN + SKI/BBJ",
+            "purpose": "跑步轉Ski、Burpee後再次起跑的呼吸與步態",
+            "dose": "約35分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休75秒 · RPE7–8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · COMPROMISED RUN 4×",
-              "duration": "25分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · COMPROMISED RUN + SKI/BBJ",
+              "duration": "約35分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "COMPROMISED RUN 4×",
-                  "minutes": "25–30分鐘",
-                  "format": "4 rounds / rest 75 sec / RPE7–8",
+                  "title": "COMPROMISED RUN + SKI/BBJ",
+                  "minutes": "35分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休75秒 · RPE7–8",
                   "steps": [
-                    "Run 400m → SkiErg 200–250m",
-                    "Burpee Broad Jump 6次（不適改原地Step-back Burpee）",
-                    "Farmer Carry 30–40m；每輪休75秒"
+                    "Run 400m → SkiErg 250m",
+                    "Burpee Broad Jump 10m → Farmer Carry 40m",
+                    "每輪休75秒；記錄每輪跑段是否明顯掉速"
                   ],
-                  "note": "重點是站後再跑的能力，不是單一Ski最速"
+                  "note": "跑步轉Ski、Burpee後再次起跑的呼吸與步態；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.6 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "跑步轉Ski、Burpee後再次起跑的呼吸與步態。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -8128,7 +8345,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.6,
+            "wodType": "COMPROMISED",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Burpee Broad Jump",
+              "Farmer Carry"
+            ]
           },
           {
             "id": "easy",
@@ -8225,8 +8450,8 @@
           "primaryFocus": "跑後進站與恢復跑速",
           "strengthWorkSets": 3,
           "strengthRIR": 2,
-          "wodTargetRPE": 7,
-          "wodTargetMinutes": 25,
+          "wodTargetRPE": 8,
+          "wodTargetMinutes": 35,
           "longRunMinutes": 55,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -8236,7 +8461,9 @@
           "weeklyRule": "結合Run→Ski→Carry，練站後呼吸",
           "benchmark": "記錄站點後前200m跑速與喘感",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "COMPROMISED",
+          "wodRunKm": 1.6
         },
         "weaknessFocus": "站點後重新起跑",
         "dailyPlan": [
@@ -8387,20 +8614,28 @@
             "dayZh": "週五",
             "date": "2027-01-15",
             "kind": "mixed",
-            "title": "HYROX WOD｜COMPROMISED RUN 4×",
-            "time": "25–30分鐘",
+            "title": "HYROX WOD｜COMPROMISED RUN + SKI/BBJ",
+            "time": "約35分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休75秒 · RPE7–8",
                 "lines": [
-                  "Run 400m → SkiErg 200–250m",
-                  "Burpee Broad Jump 6次（不適改原地Step-back Burpee）",
-                  "Farmer Carry 30–40m；每輪休75秒"
-                ],
-                "format": "4 rounds / rest 75 sec / RPE7–8"
+                  "Run 400m → SkiErg 250m",
+                  "Burpee Broad Jump 10m → Farmer Carry 40m",
+                  "每輪休75秒；記錄每輪跑段是否明顯掉速"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "跑步轉Ski、Burpee後再次起跑的呼吸與步態",
+            "wodRunKm": 1.6,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Burpee Broad Jump",
+              "Farmer Carry"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休75秒 · RPE7–8"
           },
           {
             "day": "sat",
@@ -8493,8 +8728,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "跑後進站與恢復跑速"
+          "integration": "WOD內有1.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "跑後進站與恢復跑速",
+          "wodRunKm": 1.6,
+          "independentRunKmRange": [
+            17.4,
+            21.4
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -8503,7 +8744,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.6
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -8518,7 +8760,9 @@
           ],
           "focus": "跑後進站與恢復跑速",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "COMPROMISED",
+          "wodRunKm": 1.6
         }
       },
       {
@@ -8534,7 +8778,7 @@
         "priority": "雪橇技巧、穩定推蹬和握力",
         "target": {
           "aerobic": "Long Easy 60分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 28分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約40分 RPE8；WOD內跑步1.5km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -8826,42 +9070,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · SLED COMBO 5×",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "28分鐘主課＋暖身/收操",
-            "details": "本週主WOD：5 rounds / rest 60–90 sec / RPE7–8；不是三肌群課後附加的finisher。",
+            "name": "WOD · SLED–RUN–ROW POWER",
+            "purpose": "Sled Push/Pull後維持跑站切換，練雪橇效率",
+            "dose": "約40分鐘（另加暖身／收操）",
+            "details": "5 ROUNDS · 每輪休90秒 · RPE8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · SLED COMBO 5×",
-              "duration": "28分鐘主課＋暖身/收操",
-              "rpe": "RPE 8",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · SLED–RUN–ROW POWER",
+              "duration": "約40分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "SLED COMBO 5×",
-                  "minutes": "26–30分鐘",
-                  "format": "5 rounds / rest 60–90 sec / RPE7–8",
+                  "title": "SLED–RUN–ROW POWER",
+                  "minutes": "40分鐘（主課約）",
+                  "format": "5 ROUNDS · 每輪休90秒 · RPE8",
                   "steps": [
-                    "Run 300m → Sled Push 10m",
-                    "Sled Pull 10m → RowErg 200m",
-                    "每輪休60–90秒，地板摩擦不同不要照抄比賽公斤"
+                    "Run 300m → Sled Push 12.5m",
+                    "Sled Pull 12.5m → RowErg 200m",
+                    "每輪休90秒；雪橇摩擦力不明，不硬套比賽公斤"
                   ],
-                  "note": "雪橇推拉同一輪，守住姿勢與節奏"
+                  "note": "Sled Push/Pull後維持跑站切換，練雪橇效率；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.5 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "Sled Push/Pull後維持跑站切換，練雪橇效率。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -8928,7 +9172,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.5,
+            "wodType": "SLED",
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg"
+            ]
           },
           {
             "id": "easy",
@@ -9026,7 +9278,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 8,
-          "wodTargetMinutes": 28,
+          "wodTargetMinutes": 40,
           "longRunMinutes": 60,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -9036,7 +9288,9 @@
           "weeklyRule": "保留力量，增加Sled轉換密度",
           "benchmark": "每輪Sled耗時與步幅穩定",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SLED",
+          "wodRunKm": 1.5
         },
         "weaknessFocus": "Sled Push／Pull動作效率",
         "dailyPlan": [
@@ -9187,20 +9441,28 @@
             "dayZh": "週五",
             "date": "2027-01-22",
             "kind": "mixed",
-            "title": "HYROX WOD｜SLED COMBO 5×",
-            "time": "26–30分鐘",
+            "title": "HYROX WOD｜SLED–RUN–ROW POWER",
+            "time": "約40分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "5 ROUNDS · 每輪休90秒 · RPE8",
                 "lines": [
-                  "Run 300m → Sled Push 10m",
-                  "Sled Pull 10m → RowErg 200m",
-                  "每輪休60–90秒，地板摩擦不同不要照抄比賽公斤"
-                ],
-                "format": "5 rounds / rest 60–90 sec / RPE7–8"
+                  "Run 300m → Sled Push 12.5m",
+                  "Sled Pull 12.5m → RowErg 200m",
+                  "每輪休90秒；雪橇摩擦力不明，不硬套比賽公斤"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "Sled Push/Pull後維持跑站切換，練雪橇效率",
+            "wodRunKm": 1.5,
+            "stationTags": [
+              "Run",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg"
+            ],
+            "workoutFormat": "5 ROUNDS · 每輪休90秒 · RPE8"
           },
           {
             "day": "sat",
@@ -9293,8 +9555,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "雪橇推拉與單側穩定"
+          "integration": "WOD內有1.5km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "雪橇推拉與單側穩定",
+          "wodRunKm": 1.5,
+          "independentRunKmRange": [
+            18.5,
+            23.5
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -9303,7 +9571,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.5
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -9318,7 +9587,9 @@
           ],
           "focus": "雪橇推拉與單側穩定",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SLED",
+          "wodRunKm": 1.5
         }
       },
       {
@@ -9334,7 +9605,7 @@
         "priority": "在腿部疲勞後保持動作質量",
         "target": {
           "aerobic": "Long Easy 65分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 30分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約36分 RPE8；WOD內跑步1.6km 已計入跑量",
           "strength": "PPL增肌主項3組基準 @RIR 2（其他輔助動作依堂課）；功能性3輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -9626,42 +9897,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · WALL BALL RESILIENCE",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "30分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / rest 60–75 sec / RPE8；不是三肌群課後附加的finisher。",
+            "name": "WOD · LUNGE–WALL BALL ENDURANCE",
+            "purpose": "腿部站點後仍能完成有效Wall Ball，練短組耐力",
+            "dose": "約36分鐘（另加暖身／收操）",
+            "details": "4 ROUNDS · 每輪休90秒 · RPE8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · WALL BALL RESILIENCE",
-              "duration": "30分鐘主課＋暖身/收操",
-              "rpe": "RPE 8",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · LUNGE–WALL BALL ENDURANCE",
+              "duration": "約36分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "WALL BALL RESILIENCE",
-                  "minutes": "28–32分鐘",
-                  "format": "4 rounds / rest 60–75 sec / RPE8",
+                  "title": "LUNGE–WALL BALL ENDURANCE",
+                  "minutes": "36分鐘（主課約）",
+                  "format": "4 ROUNDS · 每輪休90秒 · RPE8",
                   "steps": [
-                    "Run 400m → Wall Ball 12–15次（可分組）",
-                    "DB Reverse Lunge 10次（左右各5）→ SkiErg 200m",
-                    "每輪休60–75秒；動作no-rep多時先縮量"
+                    "Run 400m → SkiErg 200m",
+                    "KB Front-rack Lunge 10步 → Wall Ball 6kg ×12",
+                    "每輪休90秒；Wall Ball可拆成6＋6，不追無效動作"
                   ],
-                  "note": "腿部與心肺累積疲勞下維持命中率"
+                  "note": "腿部站點後仍能完成有效Wall Ball，練短組耐力；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 1.6 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "腿部站點後仍能完成有效Wall Ball，練短組耐力。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -9728,7 +9999,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 1.6,
+            "wodType": "WALLBALL",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Lunge",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -9826,7 +10105,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 8,
-          "wodTargetMinutes": 30,
+          "wodTargetMinutes": 36,
           "longRunMinutes": 65,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -9836,7 +10115,9 @@
           "weeklyRule": "Wall Ball改短組且可重複，跑姿不能崩",
           "benchmark": "WOD各輪Wall Ball是否出現無效動作",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "WALLBALL",
+          "wodRunKm": 1.6
         },
         "weaknessFocus": "Wall Ball後半段腿肩耐力",
         "dailyPlan": [
@@ -9987,20 +10268,28 @@
             "dayZh": "週五",
             "date": "2027-01-29",
             "kind": "mixed",
-            "title": "HYROX WOD｜WALL BALL RESILIENCE",
-            "time": "28–32分鐘",
+            "title": "HYROX WOD｜LUNGE–WALL BALL ENDURANCE",
+            "time": "約36分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 ROUNDS · 每輪休90秒 · RPE8",
                 "lines": [
-                  "Run 400m → Wall Ball 12–15次（可分組）",
-                  "DB Reverse Lunge 10次（左右各5）→ SkiErg 200m",
-                  "每輪休60–75秒；動作no-rep多時先縮量"
-                ],
-                "format": "4 rounds / rest 60–75 sec / RPE8"
+                  "Run 400m → SkiErg 200m",
+                  "KB Front-rack Lunge 10步 → Wall Ball 6kg ×12",
+                  "每輪休90秒；Wall Ball可拆成6＋6，不追無效動作"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "腿部站點後仍能完成有效Wall Ball，練短組耐力",
+            "wodRunKm": 1.6,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Lunge",
+              "Wall Ball"
+            ],
+            "workoutFormat": "4 ROUNDS · 每輪休90秒 · RPE8"
           },
           {
             "day": "sat",
@@ -10093,8 +10382,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "Wall Ball後程耐力"
+          "integration": "WOD內有1.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "Wall Ball後程耐力",
+          "wodRunKm": 1.6,
+          "independentRunKmRange": [
+            19.4,
+            24.4
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -10103,7 +10398,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 1.6
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -10118,7 +10414,9 @@
           ],
           "focus": "Wall Ball後程耐力",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "WALLBALL",
+          "wodRunKm": 1.6
         }
       },
       {
@@ -10134,7 +10432,7 @@
         "priority": "降低腿部累積疲勞，保持站點技巧",
         "target": {
           "aerobic": "Long Easy 45分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 16分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約20分 RPE5；WOD內跑步0.6km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 4（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "0–1堂短刺激／主要降量"
         },
@@ -10426,42 +10724,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · QUALITY RESET",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "16分鐘主課＋暖身/收操",
-            "details": "本週主WOD：EMOM4 ×4 / RPE4–5；不是三肌群課後附加的finisher。",
+            "name": "WOD · DELOAD RUN–ERG TECHNIQUE",
+            "purpose": "降載時保留跑→站點協調而非硬強度",
+            "dose": "約20分鐘（另加暖身／收操）",
+            "details": "3 EASY ROUNDS · 每輪休90秒 · RPE4–5",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · QUALITY RESET",
-              "duration": "16分鐘主課＋暖身/收操",
-              "rpe": "RPE 4",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · DELOAD RUN–ERG TECHNIQUE",
+              "duration": "約20分鐘（另加暖身／收操）",
+              "rpe": "RPE5",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "QUALITY RESET",
-                  "minutes": "16分鐘",
-                  "format": "EMOM4 ×4 / RPE4–5",
+                  "title": "DELOAD RUN–ERG TECHNIQUE",
+                  "minutes": "20分鐘（主課約）",
+                  "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4–5",
                   "steps": [
-                    "M1 SkiErg 120m；M2 RowErg 140m",
-                    "M3 Wall Ball 6次（姿勢優先）",
-                    "M4 休息；下肢有症狀取消Wall Ball"
+                    "Easy Run 200m → SkiErg 150m",
+                    "RowErg 150m → Wall Ball 6kg ×6",
+                    "每輪休90秒；不拼速度"
                   ],
-                  "note": "減量週，身體吸收訓練"
+                  "note": "降載時保留跑→站點協調而非硬強度；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 0.6 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "降載時保留跑→站點協調而非硬強度。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -10528,7 +10826,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0.6,
+            "wodType": "DELOAD",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -10625,8 +10931,8 @@
           "primaryFocus": "站點減量／姿勢修正",
           "strengthWorkSets": 2,
           "strengthRIR": 4,
-          "wodTargetRPE": 4,
-          "wodTargetMinutes": 16,
+          "wodTargetRPE": 5,
+          "wodTargetMinutes": 20,
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -10636,7 +10942,9 @@
           "weeklyRule": "移除高疲勞Station，跑維持低強度",
           "benchmark": "主觀疲勞與固定輕鬆配速心率",
           "deload": true,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "DELOAD",
+          "wodRunKm": 0.6
         },
         "weaknessFocus": "站點動作質量與配速恢復",
         "dailyPlan": [
@@ -10786,20 +11094,28 @@
             "dayZh": "週五",
             "date": "2027-02-05",
             "kind": "mixed",
-            "title": "HYROX WOD｜QUALITY RESET",
-            "time": "16分鐘",
+            "title": "HYROX WOD｜DELOAD RUN–ERG TECHNIQUE",
+            "time": "約20分鐘 · RPE5",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "3 EASY ROUNDS · 每輪休90秒 · RPE4–5",
                 "lines": [
-                  "M1 SkiErg 120m；M2 RowErg 140m",
-                  "M3 Wall Ball 6次（姿勢優先）",
-                  "M4 休息；下肢有症狀取消Wall Ball"
-                ],
-                "format": "EMOM4 ×4 / RPE4–5"
+                  "Easy Run 200m → SkiErg 150m",
+                  "RowErg 150m → Wall Ball 6kg ×6",
+                  "每輪休90秒；不拼速度"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "降載時保留跑→站點協調而非硬強度",
+            "wodRunKm": 0.6,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Wall Ball"
+            ],
+            "workoutFormat": "3 EASY ROUNDS · 每輪休90秒 · RPE4–5"
           },
           {
             "day": "sat",
@@ -10892,8 +11208,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "站點減量／姿勢修正"
+          "integration": "WOD內有0.6km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "站點減量／姿勢修正",
+          "wodRunKm": 0.6,
+          "independentRunKmRange": [
+            15.4,
+            19.4
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -10902,7 +11224,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0.6
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -10917,7 +11240,9 @@
           ],
           "focus": "站點減量／姿勢修正",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "DELOAD",
+          "wodRunKm": 0.6
         }
       },
       {
@@ -10933,7 +11258,7 @@
         "priority": "將RPE6–7的跑步銜接到器械，控制累積時間",
         "target": {
           "aerobic": "Long Easy 60分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 30分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約45分 RPE8；WOD內跑步2km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 3（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -11225,42 +11550,43 @@
           },
           {
             "id": "wod",
-            "name": "WOD · RACE ORDER BRICK",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "30分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / RPE7–8；不是三肌群課後附加的finisher。",
+            "name": "WOD · RACE-ORDER FOUR-BRICK",
+            "purpose": "依比賽相對順序練Run→Ski→Sled Push→Sled Pull→Row",
+            "dose": "約45分鐘（另加暖身／收操）",
+            "details": "4 BRICKS · 各段後60–90秒整理 · RPE7–8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · RACE ORDER BRICK",
-              "duration": "30分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · RACE-ORDER FOUR-BRICK",
+              "duration": "約45分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "RACE ORDER BRICK",
-                  "minutes": "28–32分鐘",
-                  "format": "4 rounds / RPE7–8",
+                  "title": "RACE-ORDER FOUR-BRICK",
+                  "minutes": "45分鐘（主課約）",
+                  "format": "4 BRICKS · 各段後60–90秒整理 · RPE7–8",
                   "steps": [
-                    "Run 500m → SkiErg 200m（奇數輪）／RowErg 200m（偶數輪）",
-                    "Farmer Carry 30m → Wall Ball 8次",
-                    "每輪休60秒，練過站後跑速與換站"
+                    "① Run 500m → SkiErg 400m",
+                    "② Run 500m → Sled Push 25m",
+                    "③ Run 500m → Sled Pull 25m",
+                    "④ Run 500m → RowErg 400m → Farmer Carry 60m"
                   ],
-                  "note": "不是完整8站模擬，循序接近比賽"
+                  "note": "依比賽相對順序練Run→Ski→Sled Push→Sled Pull→Row；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 2 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "依比賽相對順序練Run→Ski→Sled Push→Sled Pull→Row。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -11327,7 +11653,17 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 2,
+            "wodType": "RACEORDER",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg",
+              "Farmer Carry"
+            ]
           },
           {
             "id": "easy",
@@ -11424,8 +11760,8 @@
           "primaryFocus": "賽事順序與可持續配速",
           "strengthWorkSets": 2,
           "strengthRIR": 3,
-          "wodTargetRPE": 7,
-          "wodTargetMinutes": 30,
+          "wodTargetRPE": 8,
+          "wodTargetMinutes": 45,
           "longRunMinutes": 60,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -11435,7 +11771,9 @@
           "weeklyRule": "練跑後站點與站點後跑，力量改維持",
           "benchmark": "站點後跑速差不超過可控範圍",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "RACEORDER",
+          "wodRunKm": 2
         },
         "weaknessFocus": "賽事配速與跑站轉換",
         "dailyPlan": [
@@ -11585,20 +11923,31 @@
             "dayZh": "週五",
             "date": "2027-02-12",
             "kind": "mixed",
-            "title": "HYROX WOD｜RACE ORDER BRICK",
-            "time": "28–32分鐘",
+            "title": "HYROX WOD｜RACE-ORDER FOUR-BRICK",
+            "time": "約45分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "4 BRICKS · 各段後60–90秒整理 · RPE7–8",
                 "lines": [
-                  "Run 500m → SkiErg 200m（奇數輪）／RowErg 200m（偶數輪）",
-                  "Farmer Carry 30m → Wall Ball 8次",
-                  "每輪休60秒，練過站後跑速與換站"
-                ],
-                "format": "4 rounds / RPE7–8"
+                  "① Run 500m → SkiErg 400m",
+                  "② Run 500m → Sled Push 25m",
+                  "③ Run 500m → Sled Pull 25m",
+                  "④ Run 500m → RowErg 400m → Farmer Carry 60m"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "依比賽相對順序練Run→Ski→Sled Push→Sled Pull→Row",
+            "wodRunKm": 2,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Sled Push",
+              "Sled Pull",
+              "RowErg",
+              "Farmer Carry"
+            ],
+            "workoutFormat": "4 BRICKS · 各段後60–90秒整理 · RPE7–8"
           },
           {
             "day": "sat",
@@ -11691,8 +12040,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "賽事順序與可持續配速"
+          "integration": "WOD內有2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "賽事順序與可持續配速",
+          "wodRunKm": 2,
+          "independentRunKmRange": [
+            19,
+            24
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -11701,7 +12056,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 2
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -11716,7 +12072,9 @@
           ],
           "focus": "賽事順序與可持續配速",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "RACEORDER",
+          "wodRunKm": 2
         }
       },
       {
@@ -11732,7 +12090,7 @@
         "priority": "不是全程比賽；練跑→站點轉換與補給",
         "target": {
           "aerobic": "Long Easy 45分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 45分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約65分 RPE8；WOD內跑步3.2km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 3（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -12024,42 +12382,47 @@
           },
           {
             "id": "wod",
-            "name": "WOD · CONTROLLED HYROX SIM · 60–70%",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "45分鐘主課＋暖身/收操",
-            "details": "本週主WOD：縮量模擬 / RPE7–8（非全速）；不是三肌群課後附加的finisher。",
+            "name": "WOD · 8-STATION MINI HYROX SIM",
+            "purpose": "用縮量8站順序練轉換與隔天恢復，非正式完賽模擬",
+            "dose": "約65分鐘（另加暖身／收操）",
+            "details": "8 BRICKS · 40–50%跑量/站點縮量 · RPE7–8",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · CONTROLLED HYROX SIM · 60–70%",
-              "duration": "45分鐘主課＋暖身/收操",
-              "rpe": "RPE 8",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · 8-STATION MINI HYROX SIM",
+              "duration": "約65分鐘（另加暖身／收操）",
+              "rpe": "RPE8",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "CONTROLLED HYROX SIM · 60–70%",
-                  "minutes": "45–60分鐘",
-                  "format": "縮量模擬 / RPE7–8（非全速）",
+                  "title": "8-STATION MINI HYROX SIM",
+                  "minutes": "65分鐘（主課約）",
+                  "format": "8 BRICKS · 40–50%跑量/站點縮量 · RPE7–8",
                   "steps": [
-                    "依場館動線完成4×600–800m Run，間隔輪替Ski 500m／Sled Push 25m／Sled Pull 25m／Row 500m",
-                    "另以獨立短段體驗Farmer Carry 80m、Lunge 30–40m、Wall Ball 30次、Burpee Broad Jump 20m（可分組）",
-                    "遵守賽事站點動作標準但非全量；每站或每跑段依動線調整，不當正式完賽模擬"
+                    "① Run 400m → SkiErg 500m",
+                    "② Run 400m → Sled Push 25m",
+                    "③ Run 400m → Sled Pull 25m",
+                    "④ Run 400m → Burpee Broad Jump 20m",
+                    "⑤ Run 400m → RowErg 500m",
+                    "⑥ Run 400m → Farmer Carry 100m",
+                    "⑦ Run 400m → KB Front-rack Lunge 40m",
+                    "⑧ Run 400m → Wall Ball 6kg ×30"
                   ],
-                  "note": "隔天Long Easy改短低強度檢查（不是第二堂高強度），觀察雙日恢復"
+                  "note": "用縮量8站順序練轉換與隔天恢復，非正式完賽模擬；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 3.2 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "用縮量8站順序練轉換與隔天恢復，非正式完賽模擬。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -12126,7 +12489,20 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 3.2,
+            "wodType": "SIM",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Sled Push",
+              "Sled Pull",
+              "Burpee Broad Jump",
+              "RowErg",
+              "Farmer Carry",
+              "Lunge",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -12224,7 +12600,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 8,
-          "wodTargetMinutes": 45,
+          "wodTargetMinutes": 65,
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -12234,7 +12610,9 @@
           "weeklyRule": "隔天再動得起來，比單日PR更重要",
           "benchmark": "雙日模擬：第二天動作品質與恢復",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SIM",
+          "wodRunKm": 3.2
         },
         "weaknessFocus": "縮量模擬與隔天恢復能力",
         "dailyPlan": [
@@ -12385,20 +12763,38 @@
             "dayZh": "週五",
             "date": "2027-02-19",
             "kind": "mixed",
-            "title": "HYROX WOD｜CONTROLLED HYROX SIM · 60–70%",
-            "time": "45–60分鐘",
+            "title": "HYROX WOD｜8-STATION MINI HYROX SIM",
+            "time": "約65分鐘 · RPE8",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "8 BRICKS · 40–50%跑量/站點縮量 · RPE7–8",
                 "lines": [
-                  "依場館動線完成4×600–800m Run，間隔輪替Ski 500m／Sled Push 25m／Sled Pull 25m／Row 500m",
-                  "另以獨立短段體驗Farmer Carry 80m、Lunge 30–40m、Wall Ball 30次、Burpee Broad Jump 20m（可分組）",
-                  "遵守賽事站點動作標準但非全量；每站或每跑段依動線調整，不當正式完賽模擬"
-                ],
-                "format": "縮量模擬 / RPE7–8（非全速）"
+                  "① Run 400m → SkiErg 500m",
+                  "② Run 400m → Sled Push 25m",
+                  "③ Run 400m → Sled Pull 25m",
+                  "④ Run 400m → Burpee Broad Jump 20m",
+                  "⑤ Run 400m → RowErg 500m",
+                  "⑥ Run 400m → Farmer Carry 100m",
+                  "⑦ Run 400m → KB Front-rack Lunge 40m",
+                  "⑧ Run 400m → Wall Ball 6kg ×30"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "用縮量8站順序練轉換與隔天恢復，非正式完賽模擬",
+            "wodRunKm": 3.2,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "Sled Push",
+              "Sled Pull",
+              "Burpee Broad Jump",
+              "RowErg",
+              "Farmer Carry",
+              "Lunge",
+              "Wall Ball"
+            ],
+            "workoutFormat": "8 BRICKS · 40–50%跑量/站點縮量 · RPE7–8"
           },
           {
             "day": "sat",
@@ -12490,8 +12886,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "本週已安排縮量HYROX模擬，Quality Run改成Easy，不疊加間歇",
-          "weeklyFocus": "縮量雙日測試"
+          "integration": "WOD內有3.2km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "縮量雙日測試",
+          "wodRunKm": 3.2,
+          "independentRunKmRange": [
+            14.8,
+            19.8
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -12500,7 +12902,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 3.2
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -12515,7 +12918,9 @@
           ],
           "focus": "縮量雙日測試",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SIM",
+          "wodRunKm": 3.2
         }
       },
       {
@@ -12531,7 +12936,7 @@
         "priority": "練前一天負荷控制、隔天恢復與穩速",
         "target": {
           "aerobic": "Long Easy 50分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 22分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約25分 RPE7；WOD內跑步0.9km 已計入跑量",
           "strength": "PPL增肌主項2組基準 @RIR 3（其他輔助動作依堂課）；功能性2輪",
           "weeklyHard": "最多約2堂（Interval＋WOD，按恢復調整）"
         },
@@ -12823,42 +13228,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · SHARP 4× RUN/STATION",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "22分鐘主課＋暖身/收操",
-            "details": "本週主WOD：4 rounds / RPE6–7；不是三肌群課後附加的finisher。",
+            "name": "WOD · SHARPEN RUN–ERG–CARRY",
+            "purpose": "減少容量但保留跑站節奏與Wall Ball觸感",
+            "dose": "約25分鐘（另加暖身／收操）",
+            "details": "3 ROUNDS · 每輪休90秒 · RPE6–7",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · SHARP 4× RUN/STATION",
-              "duration": "22分鐘主課＋暖身/收操",
-              "rpe": "RPE 7",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · SHARPEN RUN–ERG–CARRY",
+              "duration": "約25分鐘（另加暖身／收操）",
+              "rpe": "RPE7",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "SHARP 4× RUN/STATION",
-                  "minutes": "20–24分鐘",
-                  "format": "4 rounds / RPE6–7",
+                  "title": "SHARPEN RUN–ERG–CARRY",
+                  "minutes": "25分鐘（主課約）",
+                  "format": "3 ROUNDS · 每輪休90秒 · RPE6–7",
                   "steps": [
-                    "Run 300m → Ski 150m（1、3輪）或 Row 150m（2、4輪）",
-                    "Wall Ball 8次 → Farmer Carry 20m",
-                    "輪間休60–90秒；減量但留動作節奏"
+                    "Run 300m → SkiErg 200m → RowErg 200m",
+                    "Farmer Carry 40m → Wall Ball 6kg ×8",
+                    "每輪休90秒，不追個人紀錄"
                   ],
-                  "note": "停止追新PR，準備恢復"
+                  "note": "減少容量但保留跑站節奏與Wall Ball觸感；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 0.9 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "減少容量但保留跑站節奏與Wall Ball觸感。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "DUMBBELL HOME WOD · 4 ROUNDS",
@@ -12925,7 +13330,16 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0.9,
+            "wodType": "SHARPEN",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -13023,7 +13437,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 22,
+          "wodTargetMinutes": 25,
           "longRunMinutes": 50,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -13033,7 +13447,9 @@
           "weeklyRule": "降低總量約20–30%，保留短品質刺激",
           "benchmark": "確認睡眠／腿部輕快感與分站策略",
           "deload": false,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "SHARPEN",
+          "wodRunKm": 0.9
         },
         "weaknessFocus": "Station換站效率與節奏",
         "dailyPlan": [
@@ -13183,20 +13599,29 @@
             "dayZh": "週五",
             "date": "2027-02-26",
             "kind": "mixed",
-            "title": "HYROX WOD｜SHARP 4× RUN/STATION",
-            "time": "20–24分鐘",
+            "title": "HYROX WOD｜SHARPEN RUN–ERG–CARRY",
+            "time": "約25分鐘 · RPE7",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "多站點 WOD",
+                "format": "3 ROUNDS · 每輪休90秒 · RPE6–7",
                 "lines": [
-                  "Run 300m → Ski 150m（1、3輪）或 Row 150m（2、4輪）",
-                  "Wall Ball 8次 → Farmer Carry 20m",
-                  "輪間休60–90秒；減量但留動作節奏"
-                ],
-                "format": "4 rounds / RPE6–7"
+                  "Run 300m → SkiErg 200m → RowErg 200m",
+                  "Farmer Carry 40m → Wall Ball 6kg ×8",
+                  "每輪休90秒，不追個人紀錄"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "減少容量但保留跑站節奏與Wall Ball觸感",
+            "wodRunKm": 0.9,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Farmer Carry",
+              "Wall Ball"
+            ],
+            "workoutFormat": "3 ROUNDS · 每輪休90秒 · RPE6–7"
           },
           {
             "day": "sat",
@@ -13289,8 +13714,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "節奏精煉與疲勞回落"
+          "integration": "WOD內有0.9km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "節奏精煉與疲勞回落",
+          "wodRunKm": 0.9,
+          "independentRunKmRange": [
+            17.1,
+            21.1
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -13299,7 +13730,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0.9
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -13314,7 +13746,9 @@
           ],
           "focus": "節奏精煉與疲勞回落",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "SHARPEN",
+          "wodRunKm": 0.9
         }
       },
       {
@@ -13330,7 +13764,7 @@
         "priority": "總量較峰值下降約30–40%，保留短刺激",
         "target": {
           "aerobic": "Long Easy 30分鐘（能交談；按Garmin恢復調整）",
-          "quality": "Interval 1堂＋WOD 12分鐘（按Petra與症狀替換）",
+          "quality": "跑步品質課1堂（另見Running）＋多站WOD約15分 RPE4；WOD內跑步0.4km 已計入跑量",
           "strength": "PPL增肌主項1組基準 @RIR 5（其他輔助動作依堂課）；功能性1輪",
           "weeklyHard": "0–1堂短刺激／主要降量"
         },
@@ -13619,42 +14053,42 @@
           },
           {
             "id": "wod",
-            "name": "WOD · TAPER TOUCH",
-            "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
-            "dose": "12分鐘主課＋暖身/收操",
-            "details": "本週主WOD：3 easy rounds / RPE3–4；不是三肌群課後附加的finisher。",
+            "name": "WOD · TAPER RUN–ERG ACTIVATION",
+            "purpose": "保留短跑與Ski/Row動作感，避免賽前疲勞",
+            "dose": "約15分鐘（另加暖身／收操）",
+            "details": "2 EASY ROUNDS · 每輪休90秒 · RPE3–4",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · TAPER TOUCH",
-              "duration": "12分鐘主課＋暖身/收操",
-              "rpe": "RPE 4",
-              "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+              "subtitle": "本週 WOD · TAPER RUN–ERG ACTIVATION",
+              "duration": "約15分鐘（另加暖身／收操）",
+              "rpe": "RPE4",
+              "warmup": "Easy Ski／Row或慢跑5–8分鐘＋關節動態活動＋首輪減量熟悉場地",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "TAPER TOUCH",
-                  "minutes": "10–12分鐘",
-                  "format": "3 easy rounds / RPE3–4",
+                  "title": "TAPER RUN–ERG ACTIVATION",
+                  "minutes": "15分鐘（主課約）",
+                  "format": "2 EASY ROUNDS · 每輪休90秒 · RPE3–4",
                   "steps": [
-                    "Ski 120m → Row 120m",
-                    "Wall Ball 5–6次（無痛且精準）→ 休60–90秒",
-                    "不做乳酸堆積、雪橇衝刺與大組Lunge"
+                    "Easy Run 200m → SkiErg 150m",
+                    "RowErg 150m → Wall Ball 6kg ×6",
+                    "休90秒，總強度輕鬆；不是第3次全力訓練"
                   ],
-                  "note": "比賽前恢復是優先事項"
+                  "note": "保留短跑與Ski/Row動作感，避免賽前疲勞；World Gym有跑步機或安全跑道時完成跑段，若需換站，記下固定轉換時間。"
                 },
                 {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
+                  "tag": "LOG",
+                  "title": "記錄跑站表現",
+                  "minutes": "2–3分鐘",
+                  "format": "結束後簡記",
                   "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
+                    "本堂WOD跑步合計 0.4 km（若實際做Petra WOD則依Garmin取代）",
+                    "記錄每輪跑段／站點時間、RPE，避免把Petra和World Gym兩堂都算完成"
                   ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "以相近的各輪時間和動作品質衡量進步，不只看總輪數。"
                 }
               ],
-              "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
+              "notes": "保留短跑與Ski/Row動作感，避免賽前疲勞。若本週已完成Petra WOD，World Gym這堂不再做；WOD跑步列入總跑量。",
               "homeSwap": {
                 "kind": "home-standalone",
                 "subtitle": "居家低衝擊恢復／技巧",
@@ -13721,7 +14155,15 @@
                 ],
                 "notes": "這不是要求你忍痛完成課表；嚴重或持續症狀以休息／就醫優先。"
               }
-            }
+            },
+            "wodRunKm": 0.4,
+            "wodType": "TAPER",
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Wall Ball"
+            ]
           },
           {
             "id": "easy",
@@ -13807,7 +14249,7 @@
           "strengthWorkSets": 1,
           "strengthRIR": 5,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 12,
+          "wodTargetMinutes": 15,
           "longRunMinutes": 30,
           "functionalRounds": 1,
           "priorityMuscles": [
@@ -13817,7 +14259,9 @@
           "weeklyRule": "力量及總Station減量，沒有硬WOD",
           "benchmark": "膝腿無額外痠痛、補給與裝備準備",
           "deload": true,
-          "softTissueGate": false
+          "softTissueGate": false,
+          "wodType": "TAPER",
+          "wodRunKm": 0.4
         },
         "weaknessFocus": "短距離速度感與精力恢復",
         "dailyPlan": [
@@ -13965,20 +14409,28 @@
             "dayZh": "週五",
             "date": "2027-03-05",
             "kind": "mixed",
-            "title": "HYROX WOD｜TAPER TOUCH",
-            "time": "10–12分鐘",
+            "title": "HYROX WOD｜TAPER RUN–ERG ACTIVATION",
+            "time": "約15分鐘 · RPE4",
             "sections": [
               {
-                "name": "WOD 組合",
+                "name": "賽前短啟動",
+                "format": "2 EASY ROUNDS · 每輪休90秒 · RPE3–4",
                 "lines": [
-                  "Ski 120m → Row 120m",
-                  "Wall Ball 5–6次（無痛且精準）→ 休60–90秒",
-                  "不做乳酸堆積、雪橇衝刺與大組Lunge"
-                ],
-                "format": "3 easy rounds / RPE3–4"
+                  "Easy Run 200m → SkiErg 150m",
+                  "RowErg 150m → Wall Ball 6kg ×6",
+                  "休90秒，總強度輕鬆；不是第3次全力訓練"
+                ]
               }
             ],
-            "subtitle": "World Gym正式Station WOD；若本週已做Petra硬WOD，這堂不重複"
+            "subtitle": "保留短跑與Ski/Row動作感，避免賽前疲勞",
+            "wodRunKm": 0.4,
+            "stationTags": [
+              "Run",
+              "SkiErg",
+              "RowErg",
+              "Wall Ball"
+            ],
+            "workoutFormat": "2 EASY ROUNDS · 每輪休90秒 · RPE3–4"
           },
           {
             "day": "sat",
@@ -14070,8 +14522,14 @@
             }
           ],
           "optional": "有空可再多一次20–30分鐘Easy",
-          "integration": "品質跑＋HYROX WOD是本週兩個主要高強度來源；World Gym週二Station維持RPE5–6，優先穩定技巧與心肺，不做第三堂全力訓練",
-          "weeklyFocus": "賽前降載"
+          "integration": "WOD內有0.4km短跑（用於Run→Station轉換），已計入本週總跑量參考，不再與晨跑重複加總。品質跑＋正式WOD是主要強度；週二Station維持中等強度。若本週參加Petra硬WOD，改採實際訓練跑量。",
+          "weeklyFocus": "賽前降載",
+          "wodRunKm": 0.4,
+          "independentRunKmRange": [
+            9.6,
+            14.6
+          ],
+          "runAccounting": "參考週跑量含WOD內跑步；World Gym WOD未完成或由Petra取代時，依實際Garmin記錄調整，不預設全部完成。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -14080,7 +14538,8 @@
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
-          ]
+          ],
+          "wodRunKm": 0.4
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -14095,7 +14554,9 @@
           ],
           "focus": "賽前降載",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "wodType": "TAPER",
+          "wodRunKm": 0.4
         }
       },
       {
@@ -14521,6 +14982,10 @@
       {
         "title": "Centr HYROX Hybrid Strength: 10-week 4-phase plan (2026)",
         "url": "https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide"
+      },
+      {
+        "title": "Centr HYROX for Women sample Stations A/B",
+        "url": "https://try.centr.com/programs/43149"
       }
     ],
     "weekStart": "SUNDAY",
@@ -14569,7 +15034,7 @@
     }
   },
   "programArchitecture": {
-    "version": "2026-11-14-two-tracks-push-kickoff-v10",
+    "version": "2026-11-14-varied-station-wod-v11",
     "rationale": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
     "evidence": [
       {
@@ -14613,12 +15078,12 @@
     "progression": "Mesocycle progression: W1 recovery gate; W2–3 build; W4 deload; W5–7 hypertrophy capacity; W8 deload; W9–11 compromised HYROX; W12 deload; W13 pacing; W14 sub-maximal consecutive-day rehearsal; W15 sharpening; W16 taper; W17 two-day race. WOD only one weekly slot.",
     "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。 W01家用改恢復技術，W16家用改賽前低量啟動；W17無WOD。",
     "safety": "小腿/膝蓋疼痛、腫脹、步態不穩時改恢復替代方案，必要時尋求專業評估；不依賴單一Garmin心率判斷傷情。",
-    "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD.",
+    "wodStyle": "World Gym WOD alternates 12+ original diverse race-related Run+Station, Erg, Carry, Sled, Wall Ball, Lunges, BBJ bricks with every fourth week deload, W14 eight-station shortened rehearsal, W16 taper, W17 racing. Avoid DB-only WOD monotony.",
     "defaultView": "17週重點 + 星期日至星期六每日訓練"
   },
-  "weeklyScheduleNotes": "Start today Saturday Nov14 Push kickoff, followed by W01 Sunday Nov15–Saturday Nov21, with Wednesday Pull / Thursday optional Push accessory. Sunday-start convention preserved. Running is separately scheduled.",
+  "weeklyScheduleNotes": "Saturday Nov14 Push kickoff; Sunday-first 17 weeks; World Gym Friday WOD now alternates varied Run-Ski/Row/Sled/Farmer/WallBall/BBJ/Lunge work. WOD running counts towards independent Running track mileage totals; Petra verified WOD replaces Friday WOD.",
   "trainingTracks": {
-    "version": "2026-11-14-two-track-push-kickoff-v2",
+    "version": "2026-11-14-two-tracks-multi-station-v3",
     "updated": "2026-11-14",
     "running": {
       "name": "RUNNING",
@@ -14707,7 +15172,55 @@
         "evidence": "Strength_Log未記錄有效kg、sets、reps、RIR，故不預設重量；重訓以RIR漸進。"
       },
       "startDate": "2026-11-14",
-      "note": "11/14 Saturday standalone Push kick-off; first full Sunday–Saturday Week W01 begins 11/15. W01 Wednesday Pull instead of Push to avoid duplicate pushing; Thursday Push accessory optional, not extra mandatory. Keep future periodization W01–W17 through races."
+      "note": "11/14 Saturday standalone Push kick-off; first full Sunday–Saturday Week W01 begins 11/15. W01 Wednesday Pull instead of Push to avoid duplicate pushing; Thursday Push accessory optional, not extra mandatory. Keep future periodization W01–W17 through races.",
+      "wodDesign": {
+        "version": "2026-11-14-multi-station-v3",
+        "rationale": "Original varied professional-format 16-week WOD series: run→station compromise, Ski/Row engine, Sled push/pull, Carry grip, BBJ, unilateral lunges, Wall Ball repeatability, 8 station low-volume simulation, taper. DB-only WODs retired.",
+        "officialRaceOrder": [
+          "SkiErg",
+          "Sled Push",
+          "Sled Pull",
+          "Burpee Broad Jump",
+          "RowErg",
+          "Farmer Carry",
+          "Lunge",
+          "Wall Ball"
+        ],
+        "categories": [
+          "BASELINE",
+          "SLED",
+          "SKI",
+          "DELOAD",
+          "ROW",
+          "LEGS",
+          "COMPROMISED",
+          "WALLBALL",
+          "RACEORDER",
+          "SIM",
+          "SHARPEN",
+          "TAPER"
+        ],
+        "runningAccounting": "WOD planned run distance = 0–3.2km per session, included within weekly total range in Running track; count only completed run segments verified by Garmin; Petra WOD replaces World Gym WOD.",
+        "equipment": "World Gym reports SkiErg/RowErg/Sled/Wall Ball/Kettlebells/turf/Carry; sandbag not confirmed, use KB front-rack lunge. Use safe gym treadmill/running lane; changing stations may extend session time.",
+        "provenance": [
+          {
+            "title": "HYROX official race stations",
+            "url": "https://hyroxevents.zendesk.com/hc/en-gb/articles/38624619510941-Which-exercises-are-in-HYROX"
+          },
+          {
+            "title": "Centr 2026 HYROX Hybrid Strength 10-week plan",
+            "url": "https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide"
+          },
+          {
+            "title": "Centr HYROX for Women sample Stations A/B",
+            "url": "https://try.centr.com/programs/43149"
+          },
+          {
+            "title": "HWPO HYROX training plan",
+            "url": "https://www.hwpotraining.com/programs/hwpo-hyrox"
+          }
+        ]
+      }
     },
     "coordination": [
       "Two main high days across tracks: running intervals + one WOD (when included); Tuesday station moderate if quality run is done.",
