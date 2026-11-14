@@ -33,18 +33,28 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Simple Sun–Sat Station Calendar v2.4 · 2026-11-14
+## Two Connected Tracks v2.5 · 2026-11-14
 
-**User-facing rule:** only a 17-week roadmap, a week selector, seven daily cards (Sunday through Saturday), and a **separate running add-on panel**. No Petra questionnaires, soreness/recovery questions, 5/6-day toggle, or lengthy substitution prose.
+The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Petra (strength + station main line)**, **Running (separate flexible line)**, and **Data**. Weekly selection is shared. DO NOT reintroduce user-input controls for Petra type, soreness, weakness, 5/6 days or extra replacement configuration. No complicated substitution text on workout cards.
 
-**Visible source:** `data/report.json > seasonPlan.weeks[].dailyPlan`, each day shaped `{day, dayZh, date, kind, title, time, sections:[{name,lines,format}],subtitle}`. The independent running prescriptions are `weeks[].runningPlan.sessions`. The front-end must not read obsolete `dailyPlan.groups`, `shortTitle`, `weekday`, or `category` fields.
+### Single source of truth
+- `data/report.json > trainingTracks`: two-track principles and provenance, authoritative as of 2026-11-13 Garmin/Sheets. Latest plan date 2026-11-14 may be newer than verified training data.
+- `seasonPlan.weeks[].dailyPlan` = World Gym/Petra seven-day cards, Sunday→Saturday; each `{day,dayZh,date,kind,title,time,sections:[{name,lines,format}]}`. W01 Sun 2026-11-15, W17 Saturday 2027-03-13.
+- `seasonPlan.weeks[].runningTrack` = independent reference weekly mileage range and THREE flexible run options: Easy Run, Long Easy, Interval/Threshold (except race week). Run entries are **not fixed to weekdays**; morning opportunities are welcome, distance ranges are guidelines rather than required quotas. Old `runningPlan` is a historical legacy field and not displayed.
+- `weeks[].trainingIntegration` = how combined hard sessions are managed. Running Quality + WOD generally supply two hard stimuli. Tuesday Station intervals are controlled moderate intensity, not a third all-out HIIT session when running Quality is included.
+- `weeks[].gymTrack` = metadata for the main gym/station track. `dailyPlan` remains the displayed class details.
 
-**Sunday-to-Saturday dates:** W01 2026-11-15–11-21; W17 2027-03-07–03-13. Confirm exact date-to-weekday mapping on every update.
+### Gym Track: fixed Sunday→Saturday recommendation
+Sunday low-intensity Ski/Row aerobic base; Monday Legs hypertrophy + unilateral stability and sled technique; Tuesday Ski/Row/Sled/Carry engine at controlled intensity; Wednesday Push or Pull hypertrophy + function; Thursday OPTIONAL complementary upper hypertrophy or Petra Strength/Skill; Friday ONE WOD (World Gym fallback or Petra WOD if actually attended); Saturday rest. W14 is shortened simulation plus light recovery day; W16 taper and W17 Friday/Saturday races. Strength classes start with mechanical tension then short relevant station circuits.
 
-**Weekly balance (W01–W16):** Sunday station aerobic base (Ski/Row, progressing 18–40min), Monday Legs hypertrophy with single-leg/stability and low/moderate station practice, Tuesday **station-based cardio intervals** (Ski/Row/Sled/Carry), Wednesday rotating Push/Pull hypertrophy with relevant station combo, Thursday optional opposite upper-body strength or Petra Strength/Skill, Friday one standalone WOD (including Petra WOD when attended), Saturday rest. W14 Friday is a controlled partial HYROX rehearsal, Saturday an easy recovery-check session. W17 Friday Mixed Doubles and Saturday Men Open; no extra WOD.
+### Running Track: free scheduling and progression
+Grounded in Garmin data through November 13 (64 logged activities, typical recent 12–16 km/week, one 25.84 km week; 2026-11-07 Easy 5.93km, HR143; 2026-11-13 run 5.86km, HR150). Program weekly volume guidance starts 12–16km, rises gradually as tolerated toward 20–26km across later blocks, includes deloads W04/W08/W12/W16, race-week no extra runs. Focus on sustainable Easy and Long sessions, one controlled quality session when recovery and station load permit. Do not infer precise training zones from single HR readings or treat one 25.84km week as baseline.
 
-**Running is independent:** `runningPlan` supplies weekly Easy/Long Run and Quality/Interval suggestions. They have NO fixed weekdays and must never replace the user's station cardio sessions. Running is important to the HYROX event but can be scheduled around work/family and the main strength/station workload; manage total hard intensity accordingly.
+### Garmin and Petra verified context
+Google Sheet `ALVIN HYROX | Central Training Database`, ID `1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0`, has Garmin_API_Activities, Garmin_API_Syncs, Petra_Whiteboard, Petra_Photo_Registry, Athlete_Notes, Strength_Log, Equipment_Inventory. 2026-11-10 Petra team AMRAP23, 17R+15 is TEAM score, Garmin HIIT 23:11 avg HR169/max192. 2026-11-12 intervals 5×~400m +4×~600m FIT-confirmed; 100 air squats are athlete-reported (not 100 Wall Balls). 2026-11-07 World Gym squat/trap-bar/lunge/Wall Ball/Ski are user-reported but verified kilograms, reps, RIR not yet available. Petra whiteboard photo by itself is NOT evidence of Alvin attendance; do not count shared team reps as individual score.
 
-**Progression:** W01–03 baseline/build, W04 deload; W05–07 hypertrophy build, W08 deload; W09–11 station transfer, W12 deload; W13–15 specificity/sharpen, W16 taper, W17 race. Station cardio is not a daily race: Sun easy, Tue controlled, Fri WOD harder. Actual weakness work includes SkiErg, Wall Ball, unilateral leg work, grip/back and stable run-after-station output, not auto-lightening the plan for ordinary soreness.
-
-**Preserve the update contract:** weekly Garmin/Petra data refreshes should modify evidence and actual training context without reverting the display to old weekly schedules or the Petra-question UI. Never publish raw FIT, GPS routes, private Petra photos or credentials. The public app only displays aggregated training information.
+### Update safety
+- When a new verified Garmin/Petra week arrives, update aggregated evidence and fine-tune both track prescriptions and shared hard-day load. Don't regenerate single-line station+running schedules, force the running track to fixed dates, or add back Petra questionnaires.
+- Keep W04/W08/W12/W16 deloads, W14 shortened simulation, and W17 race-specific taper.
+- Avoid raw FIT, GPS, precise route, private Google Drive photos, credentials or athlete-sensitive private notes in public repo; public aggregated information only.
+- GitHub Pages deployment status must be checked independently of a successful GitHub commit. PWA cache must be bumped when UI changes.
