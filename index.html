@@ -384,7 +384,8 @@ function adaptV14Week(w,wedStatus,petraDay,readiness){
  if(petraDay&&petraDay!=="unknown"&&petraDay!=="none"){
   const z=by(petraDay);
   if(z){z.title="PETRA Strength／Skill｜預計"+({"sun":"週日","mon":"週一","tue":"週二"}[petraDay]||"")+"（替代/減組）";
-   add(petraDay,"Petra 強度與肌群待實際確認",["本週只在週日／週一／週二擇這一天選配Petra Strength或Skill；不是必須參加","這一天的World Gym/Long Easy為備案。課後按實際刺激到的肌群替代/減少同週相關PPL組數，不要額外再做完整相同肌群重訓","如果只是技巧低強度，不得宣稱整堂重訓的工作組已完成；真實出席需要在週復盤確認"]); }
+   z.sections=(z.sections||[]).map(section=>({...section,name:"備案（已選Petra當日可略過）｜"+section.name}));
+   add(petraDay,"Petra 強度與肌群待實際確認",["本週只在週日／週一／週二擇這一天選配Petra Strength或Skill；不是必須參加","這一天原World Gym/Long Easy內容只是備案，不能連續把兩堂全量都做完。課後按實際肌群取代/減組","如果只是技巧低強度，不得宣稱已完成全部重訓；真實出席需要在週復盤確認"]); }
   if(petraDay==="tue")add("tue","短Easy跑取消條件","當日若去了Petra Strength/Skill，不再額外強制Tue AM短Easy；如還有精力也不需要補跑");
   notes.push("已選Petra "+petraDay.toUpperCase()+"：當日和相同肌群的WorldGym課互相替代，不疊加");
  }
@@ -403,12 +404,17 @@ function adaptV14Week(w,wedStatus,petraDay,readiness){
   add("sun","週日Long Easy可縮短/移動","如Sat還有DOMS或疲勞，週日Easy 20–30min或休息，不強迫跑總公里");
   notes.push("恢復偏弱：Fri Push減量、Sat優先降低負荷");tone="warn";
  } else if(readiness==="red"){
-  for(const k of ["mon","tue","thu","fri","sat","sun"]){const z=by(k);if(!z)continue;
-    if(k==="thu"){z.title="RECOVERY／評估｜週四不做高速Interval";z.kind="rest";}
-    else if(k==="sat"){z.title="RECOVERY／評估｜週末跳過Station主課";z.kind="rest";}
-    add(k,"關節/小腿警訊：不要硬練",["疼痛影響步態、膝腫脹或小腿疼痛持續/惡化時：避免跑步衝刺、BBJ、重雪橇、Sandbag Lunge或高量Wall Ball","選擇無痛低衝擊活動或休息；症狀持續或嚴重請尋求專業評估，勿用本App代替診斷"]);
+  for(const k of ["mon","tue","thu","fri","sat","sun","wed"]){const z=by(k);if(!z)continue;
+    z.title="RECOVERY／症狀評估｜"+({"sun":"週日","mon":"週一","tue":"週二","wed":"週三","thu":"週四","fri":"週五","sat":"週六"}[k]||"");
+    z.kind="rest";z.time="休息優先 · 若無痛可Easy活動";
+    z.sections=[{name:"疼痛警訊：原高負荷課表暫停",format:"此為保守調整，非醫療診斷",lines:[
+      "疼痛影響步態、膝腫脹，或小腿疼痛持續/惡化時：停止跑步衝刺、BBJ、重雪橇、Sandbag Lunge和高量Wall Ball",
+      "不照原本Station/重腿/品質Interval處方執行；改休息、輕度活動度或確定無痛的低衝擊有氧",
+      "症狀持續、嚴重或出現新的腫脹/不適，請尋求醫療／復健專業評估",
+      "當週沒有完成的課不可被本App當作完成紀錄，也不需要補硬課"
+    ]}];
   }
-  notes.push("疼痛警訊：暫停高衝擊與高負荷，必要時就醫");tone="alert";
+  notes.push("疼痛警訊：本週各日已切換恢復／評估模式，原強度課不顯示；必要時就醫");tone="alert";
  }else if(readiness==="green")notes.push("恢復自評良好；仍要看Thu課後與Sat當天狀況，不是自動獲准硬練");
  else notes.push("恢復狀況未設定：請依實際睡眠、疼痛、RPE做課");
  return {days,summary:notes.join("；"),tone};
