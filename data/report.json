@@ -1,5 +1,5 @@
 {
-  "version": "2.5.0",
+  "version": "2.6.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,7 +599,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Two Tracks v9",
+    "version": "2026-11-14 Two Tracks Push Kickoff v10",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
     "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-two-tracks-v9",
+    "version": "2026-11-14-two-tracks-push-kickoff-v10",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1336,8 +1336,8 @@
         "end": "2026-11-21",
         "blockId": "foundation",
         "tag": "BASELINE",
-        "focus": "動作基線＋完整 WOD",
-        "why": "建立力量工作重量與HYROX技術，保持可以進步的訓練強度。",
+        "focus": "Push 起步後：拉力平衡與基礎建立",
+        "why": "11/14（週六）已安排Push啟動課；11/15正式進入W01。這週以Pull作上肢主課、Legs穩定與Ski/Row心肺為主，避免連續重複推主課。",
         "load": "recover",
         "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
         "target": {
@@ -1485,7 +1485,7 @@
             "name": "World Gym · PULL HYPERTROPHY + SKILL",
             "purpose": "背部與握力增肌，之後功能性Carry與Ski/Row/Sled Pull技術",
             "dose": "45–65分鐘",
-            "details": "前半段增肌，後半段完整多動作功能循環；症狀解除前不做跳躍、重雪橇和高心率WOD",
+            "details": "W01上肢主課為Pull（週三），Push起始課於11/14獨立顯示。",
             "classPlan": {
               "kind": "pull-hybrid-periodized",
               "subtitle": "PULL · 增肌主課 → 功能穩定 → 同主題多站循環",
@@ -1793,7 +1793,7 @@
             }
           }
         ],
-        "check": "先記錄步行、提踵與膝蓋反應；有症狀改低衝擊",
+        "check": "11/14 Push主項重量／RIR＋Push Station技巧；W01 Pull、Legs與Ski/Row基線",
         "notes": [
           "不要同週同時增加跑量、力量重量和站點次數",
           "依當週 Garmin＋Petra 更新已完成刺激後再微調",
@@ -1821,7 +1821,7 @@
         "periodization": {
           "weekNo": 1,
           "period": "BASELINE",
-          "primaryFocus": "動作基線＋完整 WOD",
+          "primaryFocus": "11/14 Push起步，W01 Pull平衡＋Station基礎",
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 6,
@@ -1829,11 +1829,11 @@
           "longRunMinutes": 40,
           "functionalRounds": 2,
           "priorityMuscles": [
-            "push",
-            "pull"
+            "pull",
+            "legs"
           ],
-          "weeklyRule": "建立主項工作重量與Wall Ball／Ski動作基線",
-          "benchmark": "紀錄主項重量、WOD輪次是否穩定",
+          "weeklyRule": "11/14做Push增肌與推站點；11/15先Easy Station，週一Legs、週三Pull，週四可選Push輕量或Petra技巧，週五再做WOD。",
+          "benchmark": "記錄今日Bench/Incline/Shoulder的重量與RIR，以及3輪Wall Ball/Sled Push的品質；下一週比較Pull和Station配速。",
           "deload": false,
           "softTissueGate": false
         },
@@ -1922,65 +1922,65 @@
             "dayZh": "週三",
             "date": "2026-11-18",
             "kind": "strength",
-            "title": "PUSH｜胸肩增肌＋推站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "55–70分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
-                  "Incline DB Press 2×8–12 @RIR3",
-                  "DB Shoulder Press 1×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
+                  "Chest-supported Row 2×8–12 @RIR 3–4",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                 ],
-                "format": "2 sets（主項）/ 75–150s rest"
+                "format": "2 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "B｜穩定補強",
+                "name": "B｜功能穩定",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側（輕）",
-                  "Pallof Press 2×10/側（停頓1秒）"
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次（如本週Petra Pull Skill做過就略過）"
                 ],
-                "format": "2 sets / controlled"
+                "format": "2 sets"
               },
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
                 ],
                 "format": "2 rounds / RPE5–6"
               }
             ],
-            "subtitle": "力量主導 · 上肢重點"
+            "subtitle": "11/14已練Push：本週改練Pull，維持肌群恢復與SkiErg技巧"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-19",
             "kind": "optional",
-            "title": "PULL｜背部補強（選配）",
-            "time": "40–55分鐘（選配）",
+            "title": "PUSH｜輕量補強或 Petra（選配）",
+            "time": "30–45分鐘（選配）",
             "sections": [
               {
-                "name": "力量增肌",
+                "name": "胸肩增肌補量",
+                "format": "2–3組 · RIR3–4",
                 "lines": [
-                  "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
-                  "Chest-supported Row 2×8–12 @RIR 3–4",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
-                ],
-                "format": "前半段 25–35分鐘"
+                  "Incline DB Press 2×10–12",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–12"
+                ]
               },
               {
-                "name": "功能技巧",
+                "name": "Wall Ball技巧",
+                "format": "2輪 · RPE4–5",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）"
-                ],
-                "format": "8–10分鐘"
+                  "Wall Ball 6kg 2×8（動作標準與呼吸節奏）",
+                  "Pallof Press 2×10／側"
+                ]
               }
             ],
-            "subtitle": "Petra Strength／Skill 或缺口補強；選配，非新增必練日"
+            "subtitle": "非必練；若Petra這週有Strength／Skill可直接以實際課程取代"
           },
           {
             "day": "fri",
@@ -2101,6 +2101,7 @@
           "runHard": 0,
           "stationHard": 0,
           "notes": [
+            "11/14 Push力量主課已排定，週三改為Pull；W01不再追加第二堂高重量Push",
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
             "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
@@ -2117,9 +2118,10 @@
             "fri",
             "sat"
           ],
-          "focus": "動作基線＋完整 WOD",
+          "focus": "Push kick-off (Nov14) + Pull balance (W01)",
           "structure": "週日Station Easy、週一Legs、週二Station Engine、週三Push/Pull、週四Petra/上肢選配、週五WOD、週六Rest",
-          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。"
+          "petraRule": "不要求輸入Petra類型；用已核實的Garmin／白板估計負荷。實際上過Petra WOD的週，World Gym WOD只保留作備用模板。",
+          "note": "Do not prescribe W01 Wed Push as main lift after Saturday kickoff; use Pull. Optional Thursday Push accessories only."
         }
       },
       {
@@ -14522,10 +14524,52 @@
       }
     ],
     "weekStart": "SUNDAY",
-    "weekEnd": "SATURDAY"
+    "weekEnd": "SATURDAY",
+    "kickoff": {
+      "date": "2026-11-14",
+      "weekday": "週六",
+      "title": "PUSH · 增肌＋推站點",
+      "label": "START · 11/14",
+      "focus": "胸肩三頭的增肌與推力、Wall Ball動作效率",
+      "duration": "60–75分鐘（含暖身）",
+      "warmup": "Bike／Row 5–8分鐘＋肩胛活動＋臥推逐級暖身組",
+      "trainingType": "strength-dominant",
+      "rpe": "A段RIR2–3，C段RPE5–6",
+      "sections": [
+        {
+          "name": "A｜Push 增肌",
+          "format": "35–40分鐘 · RIR2–3 · 主項休90–150秒",
+          "lines": [
+            "Bench Press 3×6–8（暖身後選能保留2–3次餘力的重量）",
+            "Incline DB Press 3×8–10",
+            "Seated DB Shoulder Press 2×8–10",
+            "DB Lateral Raise 2×12–15 + Triceps Pushdown 2×10–12"
+          ]
+        },
+        {
+          "name": "B｜肩胛＋核心穩定",
+          "format": "8–10分鐘 · 2輪",
+          "lines": [
+            "Half-kneeling Landmine Press 8／側（穩定、重量中低）",
+            "Pallof Press 10／側（停頓1秒）"
+          ]
+        },
+        {
+          "name": "C｜Push Station 組合",
+          "format": "約10–12分鐘 · 3輪 · RPE5–6",
+          "lines": [
+            "Wall Ball 6kg × 8次（乾淨動作、不要追累積次數）",
+            "Sled Push 10m（技術負重、控制步幅）",
+            "Incline Push-up 8次 → 休息90秒，進入下一輪"
+          ]
+        }
+      ],
+      "coachCue": "重訓先做出足夠張力，才接低中強度的推站點組合；不要把今天變成額外全力WOD。若腿/小腿持續疼痛或膝蓋腫脹，暫停Wall Ball與Sled等會加重症狀的動作。",
+      "evidence": "Strength_Log未記錄有效kg、sets、reps、RIR，故不預設重量；重訓以RIR漸進。"
+    }
   },
   "programArchitecture": {
-    "version": "2026-11-14-sunday-station-cardio-v8",
+    "version": "2026-11-14-two-tracks-push-kickoff-v10",
     "rationale": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
     "evidence": [
       {
@@ -14572,9 +14616,9 @@
     "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD.",
     "defaultView": "17週重點 + 星期日至星期六每日訓練"
   },
-  "weeklyScheduleNotes": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
+  "weeklyScheduleNotes": "Start today Saturday Nov14 Push kickoff, followed by W01 Sunday Nov15–Saturday Nov21, with Wednesday Pull / Thursday optional Push accessory. Sunday-start convention preserved. Running is separately scheduled.",
   "trainingTracks": {
-    "version": "2026-11-14-two-tracks-v1",
+    "version": "2026-11-14-two-track-push-kickoff-v2",
     "updated": "2026-11-14",
     "running": {
       "name": "RUNNING",
@@ -14595,7 +14639,8 @@
           "avgHr": 150
         }
       },
-      "principle": "Easy + Long + Quality with free morning placement and weekly mileage range as reference, not forced completion"
+      "principle": "Easy + Long + Quality with free morning placement and weekly mileage range as reference, not forced completion",
+      "startDate": "2026-11-15"
     },
     "gym": {
       "name": "WORLD GYM × PETRA",
@@ -14618,7 +14663,51 @@
           "evidence": "Back Squat, Trap-bar Deadlift, Lunge, Wall Ball, Ski 1000m user-report; weights/reps not logged"
         }
       ],
-      "principle": "Strength-first hypertrophy then targeted functional circuits, Ski/Row aerobic engine, weekly one standalone WOD; Petra strength/skill/WOD is counted if verified, no user selector"
+      "principle": "Strength-first hypertrophy then targeted functional circuits, Ski/Row aerobic engine, weekly one standalone WOD; Petra strength/skill/WOD is counted if verified, no user selector",
+      "kickoff": {
+        "date": "2026-11-14",
+        "weekday": "週六",
+        "title": "PUSH · 增肌＋推站點",
+        "label": "START · 11/14",
+        "focus": "胸肩三頭的增肌與推力、Wall Ball動作效率",
+        "duration": "60–75分鐘（含暖身）",
+        "warmup": "Bike／Row 5–8分鐘＋肩胛活動＋臥推逐級暖身組",
+        "trainingType": "strength-dominant",
+        "rpe": "A段RIR2–3，C段RPE5–6",
+        "sections": [
+          {
+            "name": "A｜Push 增肌",
+            "format": "35–40分鐘 · RIR2–3 · 主項休90–150秒",
+            "lines": [
+              "Bench Press 3×6–8（暖身後選能保留2–3次餘力的重量）",
+              "Incline DB Press 3×8–10",
+              "Seated DB Shoulder Press 2×8–10",
+              "DB Lateral Raise 2×12–15 + Triceps Pushdown 2×10–12"
+            ]
+          },
+          {
+            "name": "B｜肩胛＋核心穩定",
+            "format": "8–10分鐘 · 2輪",
+            "lines": [
+              "Half-kneeling Landmine Press 8／側（穩定、重量中低）",
+              "Pallof Press 10／側（停頓1秒）"
+            ]
+          },
+          {
+            "name": "C｜Push Station 組合",
+            "format": "約10–12分鐘 · 3輪 · RPE5–6",
+            "lines": [
+              "Wall Ball 6kg × 8次（乾淨動作、不要追累積次數）",
+              "Sled Push 10m（技術負重、控制步幅）",
+              "Incline Push-up 8次 → 休息90秒，進入下一輪"
+            ]
+          }
+        ],
+        "coachCue": "重訓先做出足夠張力，才接低中強度的推站點組合；不要把今天變成額外全力WOD。若腿/小腿持續疼痛或膝蓋腫脹，暫停Wall Ball與Sled等會加重症狀的動作。",
+        "evidence": "Strength_Log未記錄有效kg、sets、reps、RIR，故不預設重量；重訓以RIR漸進。"
+      },
+      "startDate": "2026-11-14",
+      "note": "11/14 Saturday standalone Push kick-off; first full Sunday–Saturday Week W01 begins 11/15. W01 Wednesday Pull instead of Push to avoid duplicate pushing; Thursday Push accessory optional, not extra mandatory. Keep future periodization W01–W17 through races."
     },
     "coordination": [
       "Two main high days across tracks: running intervals + one WOD (when included); Tuesday station moderate if quality run is done.",
