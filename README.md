@@ -5,6 +5,18 @@
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
 
+## UI correction · 2026-11-15 · Full seven days + flexible running (v32)
+
+At the athlete's request, the **力量／Station** screen once again shows **all seven day cards (Sunday–Saturday)**. Do NOT filter out Sunday or Thursday merely because there is also a separate running page. **Station sessions, such as SkiErg, RowErg, Sled Push/Pull, Farmer Carry, Wall Ball, BBJ, Sandbag Lunges and Run→Station, must have their actual rounds/distances/reps visible here**; the running page is not a replacement for Station prescriptions. W07/W09/W11/W13 Run→Station and W14 shortened rehearsal are rendered from their structured `stationPrescription` / `runStationTransition` instead of hiding as generic fallback text.
+
+- **Sunday** is a flexible slot with `Long Easy Run (can move days)` OR easy `SkiErg + RowErg` OR standalone RowErg/swimming OR the optional Petra Strength/Skill (max one SUN/MON/TUE). The athlete does NOT have to run specifically on Sundays, and Sunday easy stations are not a second full-intensity Station main.
+- **Thursday** can show the existing Petra running class inside the seven-day overview. The independent **跑步** page prescribes *weekly amounts*: one quality run (usually Thu Petra), one Long Easy on any feasible day and an optional third short easy on any suitable day. Neither Long Easy nor short Easy is obligatorily scheduled on Sunday/Tuesday.
+- **Station prescription stays on 力量／Station:** standard 4–5-round main stations remain visible with work/rest and actual station list; controlled Run→Station weeks include actual run distance, number of rounds and specific stations; never display only `依當週主課安排` when structured station data exists.
+- The user prefers compact whiteboard-style exercise menus. One short rationale only if meaningful; omit long injury/recovery explanations in the UI while preserving coach-side rules. If a Wednesday hard Petra WOD is confirmed, it substitutes the Saturday hard station and affected strength days can be swapped after user feedback.
+- This UI version makes **no new Garmin sync** and does **not** alter private Sheet data or the 17-week prescribed training plan.
+
+Asset keys: `hyrox-v1-4-1-week-full-20261115-v32` and `./?app=v141-week`.
+
 ## 2026-11-14 · UI v31: concise workout menu, standalone running guide
 
 At the athlete's request, the **力量／Station** page shows **only Mon/Tue/Wed/Fri/Sat strength and station cards**; Sunday Long Easy and Thursday Petra running belong on the separate **跑步** page. Each card presents a short list of actual movements with sets/reps/RIR and, at most, one useful scheduling note. No duplicate warnings, coaching essays, intake form or status questionnaire. Never invent absolute kg without verified athlete load records.
