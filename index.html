@@ -416,7 +416,6 @@ function sessionReason(z,w){
  if(z.day==="mon"&&w.dailyPlan?.some(x=>x.day==="wed"&&/PETRA WOD/.test(x.title||"")))return "週三若確定要上硬 WOD，這堂可與 PULL 換日。";
  if(z.day==="wed"&&/WOD/.test(z.title||""))return "Petra 選配；上了硬 WOD，週六不再加硬 Station。";
  if(z.day==="sat"&&/STATION|RUN→STATION/.test(z.title||""))return "週三沒做硬 WOD，才進行這堂 Station 主課。";
- if(z.day==="sun")return "週日是其中一個可用時段；Long Easy 可安排在其他天。";
  return "";
 }
 function cleanWorkoutText(x){
@@ -442,7 +441,7 @@ function stationItems(z,w){
  }
  if(sp.day===z.day&&sp.kind==="STATION_MAIN"){
   const first=cleanWorkoutText(sp.steps?.[0]);
-  return first?[first,sp.rounds?String(sp.rounds)+" 輪 · RPE "+(sp.rpe||7):""].filter(Boolean):exerciseItems(z);
+  return first?[first]:exerciseItems(z);
  }
  if(sp.day===z.day&&sp.kind==="TECHNIQUE_ONLY"){
   const e=exerciseItems(z);
