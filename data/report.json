@@ -11638,9 +11638,9 @@
             "date": "2027-02-19",
             "sessionId": "wod",
             "category": "wod",
-            "shortTitle": "HYROX WOD",
-            "duration": "45分鐘主課＋暖身/收操",
-            "level": "RPE 8",
+            "shortTitle": "HYROX 縮量模擬",
+            "duration": "45–60分鐘",
+            "level": "RPE7–8",
             "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
             "groups": [
               {
@@ -11676,7 +11676,7 @@
                 ]
               }
             ],
-            "note": "模擬第二天的恢復能力"
+            "note": "低強度第二天，驗證體力和跑姿可維持"
           }
         ]
       },
@@ -13460,7 +13460,8 @@
         "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。",
         "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
       },
-      "programModel": "Sunday–Saturday 17-week plan. DailyPlan has all seven days, five core training days, optional Petra Strength/Skill Tuesday, Friday rest. No questions, no symptom-triggered UI. Weaknesses strengthened inside each class."
+      "programModel": "Sunday–Saturday 17-week plan. DailyPlan has all seven days, five core training days, optional Petra Strength/Skill Tuesday, Friday rest. No questions, no symptom-triggered UI. Weaknesses strengthened inside each class.",
+      "weeklyTemplate": "週日Long Easy（可選晚間簡單Ski/core）、週一增肌+同主題功能、週二Petra選修、週三Interval、週四增肌+同主題功能、週五休息、週六HYROX WOD。W14例外為週五縮量模擬、週六Day2 Easy。W17為週五混雙週六男單。"
     },
     "science": [
       {
