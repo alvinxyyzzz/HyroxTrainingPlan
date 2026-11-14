@@ -333,6 +333,11 @@ footer{max-width:1080px;margin:auto;padding:20px 32px 95px;color:#86958d;font-si
 
 
 .simpl-more{margin:12px 0;border-top:1px solid #dfe8e0;padding-top:10px}.simpl-more summary{cursor:pointer;font-size:12px;color:#507263;font-weight:700}.simpl-more .simpl-session-group{margin-top:10px}
+
+.workout-one-line{margin:6px 0 10px;font-size:12px;line-height:1.55;color:#496956}
+.workout-short-list{margin:8px 0 0;padding:0 0 0 17px}
+.workout-short-list li{padding:2px 0;line-height:1.55;font-size:13px;font-weight:550;color:#253e33}
+@media(max-width:620px){.workout-short-list li{font-size:13px}}
 </style>
 </head>
 <body>
@@ -372,17 +377,41 @@ function cleanExercise(s){
 }
 
 const LABELS={station:"STATION CARDIO",strength:"STRENGTH",mixed:"HYROX WOD",optional:"OPTIONAL",rest:"REST",race:"RACE",run:"RUN"};
-function renderDay(z,i){
- const category=z.kind||"rest",groups=(z.sections||[]).filter(g=>Array.isArray(g.lines)&&g.lines.some(x=>String(x||"").trim()));
- const n=category==="strength"?2:1, primary=groups.slice(0,n);
- const section=(g,num)=>'<section class="simpl-session-group"><div class="simpl-group-head"><strong>'+esc(g.name||"訓練內容")+'</strong><span class="simpl-group-meta">'+esc(g.format||"")+'</span></div><ul>'+g.lines.filter(x=>String(x||"").trim()).slice(0,num).map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul></section>';
- const display=primary.map(g=>section(g,category==="strength"?2:3)).join("");
- const hasMore=groups.length>n||primary.some(g=>g.lines.filter(x=>String(x||"").trim()).length>(category==="strength"?2:3));
- const extra=hasMore?'<details class="simpl-more"><summary>查看完整課表與注意事項</summary>'+groups.map(g=>section(g,99)).join("")+'</details>':"";
- const wodRun=category==="mixed"&&Number(z.wodRunKm)>0?" · 跑步 "+Number(z.wodRunKm).toFixed(1)+"km":"";
+const EXERCISE_MATCH=/Back Squat|Front Squat|Goblet Squat|Romanian Deadlift|RDL\b|Deadlift|Trap.bar|Bench Press|Incline DB Press|Chest Press|Lat Pulldown|Pull.up|Chest.supported Row|One.arm DB Row|DB Row|Cable Row|Face Pull|Biceps Curl|DB Curl|Shoulder Press|Lateral Raise|Triceps Pressdown|Leg Curl|Leg Extension|Step.up|Split Squat|Reverse Lunge|Low Step.down|Pallof Press|Calf Raise|SkiErg|RowErg|Sled Push|Sled Pull|Farmer Carry|Farmers Carry|Wall Ball|Burpee Broad Jump|Sandbag Lunge|Air Squat/i;
+function exerciseItems(z){
+ const items=[];
+ for(const g of z.sections||[]){
+  for(const raw of g.lines||[]){
+   for(let segment of String(raw).split(/[；;]/)){
+    segment=segment.trim().replace(/^(?:選配|主課|可選|動作)\s*[:：]\s*/,"");
+    const pos=segment.search(EXERCISE_MATCH);
+    if(pos<0||pos>17)continue;
+    if(/^(?:如果|若|請|記錄|週三|週四|週六|當週|這堂|每週|小腿|膝|疼痛|替代|保留|不需要)/.test(segment))continue;
+    segment=segment.split(/，(?:如果|若|小腿|膝|疼痛|視|記錄|休息|週三|週四|本週|有|不要|不能|注意)/)[0];
+    segment=segment.replace(/（[^）]*(?:疼痛|症狀|膝|小腿|Petra|取消|負荷)[^）]*）/g,"").trim();
+    if(segment.length>130)segment=segment.slice(0,128)+"…";
+    if(segment&&!items.includes(segment))items.push(segment);
+   }
+  }
+ }
+ return items.slice(0,z.kind==="mixed"?5:8);
+}
+function sessionReason(z,w){
+ if(z.day==="mon"&&w.dailyPlan?.some(x=>x.day==="wed"&&/PETRA WOD/.test(x.title||"")))return "週三若安排硬 WOD，週一可先練背、腿日往後移；確認出席後再調整。";
+ if(z.day==="wed"&&/WOD/.test(z.title||""))return "Petra 選配；如果上了硬 WOD，這週不再加做硬 Station。";
+ if(z.day==="sat"&&/STATION|RUN→STATION/.test(z.title||""))return "週三沒有硬 WOD 才做這堂主課。";
+ return "";
+}
+function renderDay(z,i,w){
+ const category=z.kind||"rest",items=exerciseItems(z),reason=sessionReason(z,w);
+ const movement=items.length?items:/PETRA WOD/.test(z.title||"")?["依 Petra 當日 WOD 課程"]:category==="rest"?["休息／輕鬆活動"]:category==="race"?["正式 HYROX 比賽"]:["依當週主課安排"];
+ const name=String(z.title||"").replace(/｜.*$/,"").trim();
+ const workout=movement.map(x=>'<li>'+esc(x)+'</li>').join("");
+ const run=category==="mixed"&&Number(z.wodRunKm)>0?" · 跑步 "+Number(z.wodRunKm).toFixed(1)+"km":"";
  return '<article class="simpl-day '+(category==="rest"?"simpl-rest":category==="optional"?"simpl-optional":"")+'">'+
- '<div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"")+'</span><small>'+esc(dshort(z.date||""))+'</small></div><div class="simpl-day-name"><strong>'+esc(z.title||"")+'</strong><span>'+esc(z.time||"")+esc(wodRun)+'</span></div><span class="simpl-kind kind-'+esc(category)+'">'+esc(LABELS[category]||"CLASS")+'</span></div>'+
- display+extra+'</article>';
+ '<div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"")+'</span><small>'+esc(dshort(z.date||""))+'</small></div>'+
+ '<div class="simpl-day-name"><strong>'+esc(name)+'</strong><span>'+esc(z.time||"")+esc(run)+'</span></div><span class="simpl-kind kind-'+esc(category)+'">'+esc(LABELS[category]||"CLASS")+'</span></div>'+
+ (reason?'<p class="workout-one-line">'+esc(reason)+'</p>':"")+'<ul class="workout-short-list">'+workout+'</ul></article>';
 }
 
 function runningPage(){
@@ -425,16 +454,15 @@ function kickoffCard(k){
 function weekPage(){
  const s=state.data.seasonPlan,w=s.weeks[state.week],block=s.blocks.find(b=>b.id===w.blockId);
  const controls='<div class="week-controls"><button data-prev="'+state.week+'" '+(state.week===0?"disabled":"")+' aria-label="前一週">‹</button><select id="week-select" aria-label="選擇週次">'+s.weeks.map((z,i)=>'<option value="'+i+'"'+(state.week===i?' selected':'')+'>'+esc(z.id)+' · '+esc(dshort(z.start))+'–'+esc(dshort(z.end))+'</option>').join("")+'</select><button data-next="'+state.week+'" '+(state.week===16?"disabled":"")+' aria-label="下一週">›</button></div>';
- const days=(w.dailyPlan||[]).map(renderDay).join('');
+ const days=(w.dailyPlan||[]).filter(z=>!['sun','thu'].includes(z.day)).map((z,i)=>renderDay(z,i,w)).join('');
  const isRace=w.id==="W17",p=w.periodization||{},balance=w.weeklyBalance||{};
  const sentence=isRace?"週五混雙、週六男單，其他日以短啟動與休息為主。":
- "週一LEGS、週二PULL＋可選短Easy、週五WFH PUSH；Petra Strength／Skill只在週日～二最多選一天。週三硬WOD要取代週末主課；週四固定Petra跑Interval。週六Station或安全戶外Run→Station二選一，跑站轉換不使用跑步機。";
+ "只列動作、組數與次數；依你回報的上課日調換 Pull／Legs，跑步及 Ski／Row 替代另外看「跑步」頁。";
  return '<section class="screen active simpl-week"><div class="simpl-week-top"><div><span class="mini">'+esc(block?.name||"")+'</span></div>'+controls+'</div>'+
  '<div class="simpl-week-hero"><span class="mini">'+esc(state.data.planRelease?.label||"v1.4.1")+' · '+esc(w.id)+' · '+esc(dshort(w.start))+' – '+esc(dshort(w.end))+' · SUN–SAT</span><h1>'+esc(w.focus)+'</h1>'+
  '<p>'+esc(sentence)+'</p></div>'+
- ((state.week===0)?kickoffCard(s.kickoff):'')+
- '<div class="simpl-days-title"><h2>World Gym × Petra</h2><span>星期日 → 星期六</span></div><div class="simpl-days">'+days+'</div>'+
- '<p class="simpl-bottom-note">依照實際出席與恢復狀況調整：週三若完成高強度Petra WOD，週六不加做硬Station。</p></section>';
+ '<div class="simpl-days-title"><h2>力量與 Station</h2><span>週日／週四跑步另見「跑步」</span></div><div class="simpl-days">'+days+'</div>'+
+ '<p class="simpl-bottom-note">上過硬 Petra WOD 的那週，不再加做週六硬 Station。</p></section>';
 }
 
 function analysis(){
