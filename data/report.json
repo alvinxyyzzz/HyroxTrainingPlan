@@ -1,5 +1,5 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -1269,8 +1269,8 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-mesocycle-v6",
-    "firstWeek": "2026-11-16",
+    "version": "2026-11-14-simple-sunday-calendar-v7",
+    "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
       "2027-03-13"
@@ -1280,7 +1280,7 @@
       {
         "id": "foundation",
         "name": "技術重建與恢復",
-        "dates": "11/16–12/13",
+        "dates": "11/15–12/12",
         "start": 1,
         "end": 4,
         "theme": "以恢復、動作與增肌基線為主；前3週建立，W4降量",
@@ -1290,7 +1290,7 @@
       {
         "id": "build",
         "name": "增肌容量＋有氧擴充",
-        "dates": "12/14–01/10",
+        "dates": "12/13–01/09",
         "start": 5,
         "end": 8,
         "theme": "W5–7用PPL高品質工作組漸進＋WOD站點密度；W8降量",
@@ -1300,7 +1300,7 @@
       {
         "id": "transfer",
         "name": "肌耐力與跑站銜接",
-        "dates": "01/11–02/07",
+        "dates": "01/10–02/06",
         "start": 9,
         "end": 12,
         "theme": "W9–11保留力量、增加Run→Station組合；W12降量",
@@ -1310,7 +1310,7 @@
       {
         "id": "specific",
         "name": "HYROX專項與雙日策略",
-        "dates": "02/08–02/28",
+        "dates": "02/07–02/27",
         "start": 13,
         "end": 15,
         "theme": "W13精練配速、W14縮量雙日模擬、W15降低總量",
@@ -1320,7 +1320,7 @@
       {
         "id": "taper",
         "name": "TAPER與比賽",
-        "dates": "03/01–03/13",
+        "dates": "02/28–03/13",
         "start": 16,
         "end": 17,
         "theme": "W16總量下降、W17週五混雙週六男單",
@@ -1332,12 +1332,12 @@
       {
         "id": "W01",
         "index": 1,
-        "start": "2026-11-16",
-        "end": "2026-11-22",
+        "start": "2026-11-15",
+        "end": "2026-11-21",
         "blockId": "foundation",
-        "tag": "RECOVER",
-        "focus": "回歸與恢復閘門",
-        "why": "本週主題：回歸與恢復閘門。症狀解除前不做跳躍、重雪橇和高心率WOD；不是每堂都拼極限。",
+        "tag": "BASELINE",
+        "focus": "動作基線＋完整 WOD",
+        "why": "建立力量工作重量與HYROX技術，保持可以進步的訓練強度。",
         "load": "recover",
         "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
         "target": {
@@ -1413,20 +1413,20 @@
             "classPlan": {
               "kind": "push-hybrid-periodized",
               "subtitle": "PUSH · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "45–65分鐘",
-              "rpe": "增肌組RIR 4–5；功能RPE4",
+              "duration": "55–70分鐘",
+              "rpe": "增肌RIR3；功能RPE5–6",
               "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
                   "title": "胸肩三頭 · Mechanical tension",
                   "minutes": "23–30分鐘",
-                  "format": "1 sets（主項）/ 75–150s rest",
+                  "format": "2 sets（主項）/ 75–150s rest",
                   "steps": [
-                    "Bench Press 1×6–8 @RIR 4–5（保留完整休息；工作重量依當天熱身）",
-                    "Incline DB Press 2×8–12 @RIR4",
+                    "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
+                    "Incline DB Press 2×8–12 @RIR3",
                     "DB Shoulder Press 1×8–10（Petra Push Press多可取消）",
-                    "Lateral Raise 1×12–15 + Triceps Pressdown 1×10–15"
+                    "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
                   ],
                   "note": "在足夠肌肉張力與穩定動作下練到有餘力；不把重臥推做EMOM"
                 },
@@ -1443,14 +1443,15 @@
                 },
                 {
                   "tag": "C · HYROX CIRCUIT",
-                  "title": "Push skill & soft landing",
-                  "minutes": "6–8分鐘",
-                  "format": "2 rounds / RPE3–4",
+                  "title": "DB Push + Wall Ball Combo",
+                  "minutes": "8–12分鐘",
+                  "format": "2 rounds / RPE5–6",
                   "steps": [
-                    "Push-up 6–8次 → Wall Ball 5–6次（小腿無痛才做）",
-                    "呼吸慢慢恢復60–90秒；小腿或膝蓋有反應就略過Wall Ball"
+                    "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                    "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                    "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                   ],
-                  "note": "恢復與動作品質第一"
+                  "note": "每個動作屬於推動鏈，但不讓這段變成額外第3堂HIIT"
                 }
               ],
               "focus": "回歸與恢復閘門",
@@ -1488,20 +1489,20 @@
             "classPlan": {
               "kind": "pull-hybrid-periodized",
               "subtitle": "PULL · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "45–65分鐘",
-              "rpe": "增肌組RIR 4–5；功能RPE4",
+              "duration": "55–70分鐘",
+              "rpe": "增肌RIR3；功能RPE5–6",
               "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
                   "title": "背闊／上背／二頭 · Volume",
                   "minutes": "23–30分鐘",
-                  "format": "1 sets（主項）/ 75–120s rest",
+                  "format": "2 sets（主項）/ 75–120s rest",
                   "steps": [
-                    "Pull-up／Lat Pulldown 1×6–10 @RIR 4–5",
-                    "Chest-supported Row 1×8–12 @RIR 4–5",
+                    "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
+                    "Chest-supported Row 2×8–12 @RIR 3–4",
                     "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                    "Rear Delt Fly 1×12–15 + Hammer Curl 1×10–12"
+                    "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                   ],
                   "note": "背部需要品質組數；RowErg距離不等同增肌有效組"
                 },
@@ -1518,14 +1519,15 @@
                 },
                 {
                   "tag": "C · HYROX CIRCUIT",
-                  "title": "Pull skill flow",
-                  "minutes": "6–8分鐘",
-                  "format": "2 easy rounds / RPE3–4",
+                  "title": "Ski → Pull → Carry → Row",
+                  "minutes": "8–12分鐘",
+                  "format": "2 rounds / RPE5–6",
                   "steps": [
-                    "SkiErg 100–120m → RowErg 120–140m",
-                    "走動或休息60–90秒，姿勢保持一致"
+                    "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                    "Farmer Carry 25–30m → RowErg 150m",
+                    "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
                   ],
-                  "note": "恢復/減量優先"
+                  "note": "多個相關站點連續輸出，比只做5分鐘SkiErg更完整"
                 }
               ],
               "focus": "回歸與恢復閘門",
@@ -1563,20 +1565,20 @@
             "classPlan": {
               "kind": "legs-hybrid-periodized",
               "subtitle": "LEGS · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "45–65分鐘",
-              "rpe": "增肌組RIR 4–5；功能RPE4",
+              "duration": "55–70分鐘",
+              "rpe": "增肌RIR3；功能RPE5–6",
               "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
                   "title": "Squat / Hinge / Unilateral",
                   "minutes": "23–30分鐘",
-                  "format": "1 sets（主項）/ 90–180s rest",
+                  "format": "2 sets（主項）/ 90–180s rest",
                   "steps": [
-                    "Back Squat 1×6–8 @RIR 4–5",
-                    "Romanian Deadlift 1×8 @RIR4（不另疊Trap-bar重硬拉）",
+                    "Back Squat 2×6–8 @RIR 3–4",
+                    "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
                     "Reverse Lunge／Split Squat 1×8/側",
-                    "Leg Curl 1×10–12"
+                    "Leg Curl 2×10–12"
                   ],
                   "note": "WOD與跑間歇已刺激腿部；下肢總疲勞比表面上的工作組更多"
                 },
@@ -1593,14 +1595,15 @@
                 },
                 {
                   "tag": "C · HYROX CIRCUIT",
-                  "title": "Low-impact station technical",
-                  "minutes": "6–8分鐘",
-                  "format": "2 easy rounds / RPE3–4",
+                  "title": "Sled → Step → Erg",
+                  "minutes": "8–12分鐘",
+                  "format": "2 rounds / RPE5–6",
                   "steps": [
-                    "Bike 2分鐘 → 8次無痛Sit-to-Stand",
-                    "長休息；若小腿/膝蓋不適直接省略"
+                    "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                    "Easy RowErg 120–150m → 休90秒",
+                    "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
                   ],
-                  "note": "有症狀不做雪橇"
+                  "note": "單腿控制＋低量站點轉換；主課已夠重，這段不追速度"
                 }
               ],
               "focus": "回歸與恢復閘門",
@@ -1631,39 +1634,30 @@
           },
           {
             "id": "wod",
-            "name": "WOD · RECOVERY 12 · 4 Easy Stations",
+            "name": "WOD · DB HYBRID · 4 ROUNDS",
             "purpose": "正式20–35分鐘HYROX站點循環，依Petra出席情況擇一完成",
             "dose": "12分鐘主課＋暖身/收操",
             "details": "本週主WOD：EMOM4 ×3–4 / RPE3–4；不是三肌群課後附加的finisher。",
             "classPlan": {
               "kind": "single-weekly-wod",
-              "subtitle": "本週唯一 WOD · RECOVERY 12 · 4 Easy Stations",
-              "duration": "12分鐘主課＋暖身/收操",
-              "rpe": "RPE 4",
+              "subtitle": "DB HYBRID · 4 ROUNDS",
+              "duration": "18–24分鐘",
+              "rpe": "RPE6",
               "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
               "blocks": [
                 {
                   "tag": "WOD · MAIN",
-                  "title": "RECOVERY 12 · 4 Easy Stations",
-                  "minutes": "12–16分鐘",
-                  "format": "EMOM4 ×3–4 / RPE3–4",
+                  "title": "DB HYBRID · 4 ROUNDS",
+                  "minutes": "18–24分鐘",
+                  "format": "4 Rounds · 每輪休75秒",
                   "steps": [
-                    "M1 SkiErg 100m（舒適）；M2 RowErg 120m（舒適）",
-                    "M3 坐姿DB shoulder press 8次／或靠牆Push-up 8次",
-                    "M4 Rest；小腿或膝蓋不適直接改Bike／休息"
+                    "8 DB Hang Cleans",
+                    "8 DB Reverse Lunges（左右各4）",
+                    "8 DB Push Press",
+                    "8 Push-ups + 12 Sit-ups",
+                    "每輪休75秒；保持相近完成時間"
                   ],
-                  "note": "恢復閘門優先，不做高強度"
-                },
-                {
-                  "tag": "LOG · COACH",
-                  "title": "Quality score & recovery check",
-                  "minutes": "2–4分鐘",
-                  "format": "簡短記錄，不追加強度",
-                  "steps": [
-                    "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                    "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                  ],
-                  "note": "每週以可重複輸出進步，不只是多做幾輪"
+                  "note": "穩定速度與動作"
                 }
               ],
               "notes": "Petra WOD / World Gym WOD / Home WOD三選一；Petra Strength如果其實是高強度AMRAP，需在App改選Petra WOD。WOD總量與Garmin跑量不要重複累加。",
@@ -1826,29 +1820,254 @@
         },
         "periodization": {
           "weekNo": 1,
-          "period": "RECOVER",
-          "primaryFocus": "回歸與恢復閘門",
-          "strengthWorkSets": 1,
-          "strengthRIR": 4,
-          "wodTargetRPE": 4,
-          "wodTargetMinutes": 12,
+          "period": "BASELINE",
+          "primaryFocus": "動作基線＋完整 WOD",
+          "strengthWorkSets": 2,
+          "strengthRIR": 3,
+          "wodTargetRPE": 6,
+          "wodTargetMinutes": 18,
           "longRunMinutes": 40,
           "functionalRounds": 2,
           "priorityMuscles": [
             "push",
             "pull"
           ],
-          "weeklyRule": "症狀解除前不做跳躍、重雪橇和高心率WOD",
-          "benchmark": "先記錄步行、提踵與膝蓋反應；有症狀改低衝擊",
+          "weeklyRule": "建立主項工作重量與Wall Ball／Ski動作基線",
+          "benchmark": "紀錄主項重量、WOD輪次是否穩定",
           "deload": false,
-          "softTissueGate": true
-        }
+          "softTissueGate": false
+        },
+        "weaknessFocus": "Wall Ball下蹲與呼吸；SkiErg髖部發力",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-11-15",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 40分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "40分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續40分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-11-16",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "55–70分鐘",
+            "level": "增肌RIR3；功能RPE5–6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR3",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "8–12分鐘",
+                "format": "2 rounds / RPE5–6",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-11-17",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-11-18",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE3–4",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "恢復週：Easy Bike/Row 30–40分鐘（症狀未解除不做間歇）",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "步行、樓梯與提踵舒適後，才重新引入短時間輕鬆跑",
+                  "不可為追配速硬跑"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-11-19",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "55–70分鐘",
+            "level": "增肌RIR3；功能RPE5–6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
+                  "Chest-supported Row 2×8–12 @RIR 3–4",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "8–12分鐘",
+                "format": "2 rounds / RPE5–6",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-11-20",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-11-21",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "18–24分鐘",
+            "level": "RPE6",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "DB HYBRID · 4 ROUNDS",
+                "minutes": "18–24分鐘",
+                "format": "4 Rounds · 每輪休75秒",
+                "exercises": [
+                  "8 DB Hang Cleans",
+                  "8 DB Reverse Lunges（左右各4）",
+                  "8 DB Push Press",
+                  "8 Push-ups + 12 Sit-ups",
+                  "每輪休75秒；保持相近完成時間"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W02",
         "index": 2,
-        "start": "2026-11-23",
-        "end": "2026-11-29",
+        "start": "2026-11-22",
+        "end": "2026-11-28",
         "blockId": "foundation",
         "tag": "BASE",
         "focus": "技巧基線與配速分配",
@@ -2360,13 +2579,236 @@
           "benchmark": "記錄每組RIR與WOD各輪耗時",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "肩部穩定與單腿控制",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-11-22",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 45分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "45分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續45分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-11-23",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR3",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "8–10分鐘",
+                "format": "2 rounds / rest 60–90秒 / RPE6",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-11-24",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-11-25",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "6×400m controlled",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘",
+                  "每趟速度盡量一致"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-11-26",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 2×6–8 @RIR 3–4",
+                  "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-11-27",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-11-28",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "18分鐘主課＋暖身/收操",
+            "level": "RPE 6",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "DB HYBRID 4 ROUNDS",
+                "minutes": "約18–22分鐘",
+                "format": "4 rounds / rest 75–90 sec / RPE6",
+                "exercises": [
+                  "8 DB Hang Cleans（兩手總數8）",
+                  "8 DB Push Press + 8 DB Reverse Lunges（左右各4）",
+                  "SkiErg 120m + rest 75–90秒"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W03",
         "index": 3,
-        "start": "2026-11-30",
-        "end": "2026-12-06",
+        "start": "2026-11-29",
+        "end": "2026-12-05",
         "blockId": "foundation",
         "tag": "BASE+",
         "focus": "增肌容量第一階",
@@ -2879,13 +3321,237 @@
           "benchmark": "比較W02同類動作的RIR／輪次穩定度",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "背部拉力與SkiErg的後段輸出",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-11-29",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 50分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "50分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續50分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-11-30",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
+                  "Chest-supported Row 3×8–12 @RIR 2–3",
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-12-01",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-12-02",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "4×600m steady",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10分鐘 → 4×600m，間隔慢跑2–3分鐘",
+                  "以均勻配速完成；總跑量需含暖身及收操"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-12-03",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "32–40分鐘",
+                "format": "3 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 3×6–8 @RIR 2–3",
+                  "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 2×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-12-04",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-12-05",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "24分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "DUMBBELL WOD · 4 ROUNDS",
+                "minutes": "約22–26分鐘",
+                "format": "4 rounds / rest 60–90 sec / RPE7",
+                "exercises": [
+                  "10 DB Thrusters（輕重量、標準動作）",
+                  "10 DB Hang Cleans",
+                  "10 DB Reverse Lunges（共10次、每腿5）",
+                  "10 Push-ups + 20 Sit-ups，休60–90秒"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W04",
         "index": 4,
-        "start": "2026-12-07",
-        "end": "2026-12-13",
+        "start": "2026-12-06",
+        "end": "2026-12-12",
         "blockId": "foundation",
         "tag": "DELOAD",
         "focus": "恢復與技術整理",
@@ -3397,13 +4063,236 @@
           "benchmark": "確認疲勞下降、腿部恢復，不追PR",
           "deload": true,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "核心與單側動作控制",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-12-06",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 40分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "40分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續40分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-12-07",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "23–30分鐘",
+                "format": "1 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 1×6–8 @RIR 4–5（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR4",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 1×12–15 + Triceps Pressdown 1×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "8–10分鐘",
+                "format": "2 rounds / rest 60–90秒 / RPE4–5",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-12-08",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-12-09",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE5–6",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Deload · 4×200m smooth",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "Easy Run 20–30分鐘＋4×200m舒適加速（無痛才做）",
+                  "疲勞高時全程Easy，不做工作段"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-12-10",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "1 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 1×6–10 @RIR 4–5",
+                  "Chest-supported Row 1×8–12 @RIR 4–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 1×12–15 + Hammer Curl 1×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest75–90秒 / RPE4–5",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-12-11",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-12-12",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "14分鐘主課＋暖身/收操",
+            "level": "RPE 4",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "RESET EMOM 12",
+                "minutes": "12–16分鐘",
+                "format": "EMOM4 ×3–4 / RPE4",
+                "exercises": [
+                  "M1 SkiErg 110m；M2 RowErg 130m",
+                  "M3 DB RDL 8次（很輕）+ Pallof 8／側",
+                  "M4 Rest；維持技術、心率不追高"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W05",
         "index": 5,
-        "start": "2026-12-14",
-        "end": "2026-12-20",
+        "start": "2026-12-13",
+        "end": "2026-12-19",
         "blockId": "build",
         "tag": "BUILD A",
         "focus": "背部／腿部增肌週",
@@ -3915,13 +4804,236 @@
           "benchmark": "有效工作組重量／次數／RIR",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "背部／股四頭肌有效增肌",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-12-13",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 50分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "50分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續50分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-12-14",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
+                  "Chest-supported Row 3×8–12 @RIR 2–3",
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-12-15",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-12-16",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "3×5分鐘 tempo",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10分鐘 → 3×5分鐘Tempo，間隔3分鐘Easy",
+                  "避免與本週WOD相連兩天"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-12-17",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "32–40分鐘",
+                "format": "3 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 3×6–8 @RIR 2–3",
+                  "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 2×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-12-18",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-12-19",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "22分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "UPPER ENGINE AMRAP 22",
+                "minutes": "22分鐘",
+                "format": "AMRAP22 / RPE7",
+                "exercises": [
+                  "SkiErg 200m → 8 DB Hang Cleans",
+                  "10 Push-ups → Farmer Carry 30m",
+                  "必要時每輪換站休30–45秒；保持前後輪節奏"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W06",
         "index": 6,
-        "start": "2026-12-21",
-        "end": "2026-12-27",
+        "start": "2026-12-20",
+        "end": "2026-12-26",
         "blockId": "build",
         "tag": "BUILD B",
         "focus": "單腿控制與肌耐力",
@@ -4433,13 +5545,236 @@
           "benchmark": "各側動作質量、Sled轉換不掉速",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "左右腿動作對稱",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-12-20",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 55分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "55分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續55分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-12-21",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 3×8–12 @RIR2",
+                  "DB Shoulder Press 2×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "12–15分鐘",
+                "format": "3 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-12-22",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-12-23",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "5×600m controlled",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10分鐘 → 5×600m，間隔2分鐘Easy",
+                  "重腿後不追快節奏"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-12-24",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "32–40分鐘",
+                "format": "3 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 3×6–8 @RIR 2–3",
+                  "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 2×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2026-12-25",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2026-12-26",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "24分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "UNILATERAL EMOM 24",
+                "minutes": "24分鐘",
+                "format": "EMOM4 ×6 / RPE7",
+                "exercises": [
+                  "M1 RowErg 150m；M2 DB Reverse Lunge 8次（左右各4）",
+                  "M3 SkiErg 140m；M4 10 DB Push-ups（或地板Push-up）",
+                  "每分鐘工作最好45–50秒內完成，剩餘時間休息"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W07",
         "index": 7,
-        "start": "2026-12-28",
-        "end": "2027-01-03",
+        "start": "2026-12-27",
+        "end": "2027-01-02",
         "blockId": "build",
         "tag": "BUILD C",
         "focus": "機械張力與Erg輸出",
@@ -4951,13 +6286,236 @@
           "benchmark": "主項表現、SkiErg後半配速",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "上背耐力與SkiErg續航",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2026-12-27",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 60分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "60分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續60分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2026-12-28",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "30–38分鐘",
+                "format": "4 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 4×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 3×8–12 @RIR2",
+                  "DB Shoulder Press 2×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "12–15分鐘",
+                "format": "3 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 10次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2026-12-29",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2026-12-30",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "3×1km threshold",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身12分鐘 → 3×1km，間隔3分鐘Jog",
+                  "最後一趟仍能保持穩定"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2026-12-31",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "30–38分鐘",
+                "format": "4 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 4×6–10 @RIR 2–3",
+                  "Chest-supported Row 4×8–12 @RIR 2–3",
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 220m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-01-01",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-01-02",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "28分鐘主課＋暖身/收操",
+            "level": "RPE 8",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "RUN / SKI 5 ROUNDS",
+                "minutes": "25–30分鐘",
+                "format": "5 rounds / rest 60 sec / RPE7–8",
+                "exercises": [
+                  "Run 300m → SkiErg 200m",
+                  "Wall Ball 10次 → Farmer Carry 30m",
+                  "每輪休60秒；全程姿勢標準、最後一輪能維持"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W08",
         "index": 8,
-        "start": "2027-01-04",
-        "end": "2027-01-10",
+        "start": "2027-01-03",
+        "end": "2027-01-09",
         "blockId": "build",
         "tag": "DELOAD",
         "focus": "中期降載／吸收",
@@ -5469,13 +7027,236 @@
           "benchmark": "睡眠、腿部反應和跑步心率回穩",
           "deload": true,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "技術精準與疲勞回落",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-01-03",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 45分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "45分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續45分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-01-04",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 4–5",
+                  "Chest-supported Row 2×8–12 @RIR 4–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest75–90秒 / RPE4–5",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-01-05",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-01-06",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE3–5",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Deload · 25–35min easy + strides",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "Easy 25–35分鐘，可選4×10秒Strides",
+                  "不做第三堂硬課"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-01-07",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 2×6–8 @RIR 4–5",
+                  "Romanian Deadlift 1×8 @RIR4（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest90秒 / RPE4–5",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-01-08",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-01-09",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "15分鐘主課＋暖身/收操",
+            "level": "RPE 4",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "RECOVERY FLOW 15",
+                "minutes": "15分鐘",
+                "format": "E5MOM×3 / RPE4",
+                "exercises": [
+                  "Easy Ski 150m → Easy Row 150m",
+                  "Suitcase Carry 20m／側（輕）",
+                  "剩餘時間慢走、充分恢復"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W09",
         "index": 9,
-        "start": "2027-01-11",
-        "end": "2027-01-17",
+        "start": "2027-01-10",
+        "end": "2027-01-16",
         "blockId": "transfer",
         "tag": "TRANSFER A",
         "focus": "跑後進站與恢復跑速",
@@ -5987,13 +7768,236 @@
           "benchmark": "記錄站點後前200m跑速與喘感",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "站點後重新起跑",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-01-10",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 55分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "55分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續55分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-01-11",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
+                  "Chest-supported Row 3×8–12 @RIR 2–3",
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-01-12",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-01-13",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "5×800m controlled",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10–12分鐘 → 5×800m，間隔2分鐘Easy",
+                  "WOD已有400m跑段，下次間歇不追加速度"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-01-14",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "32–40分鐘",
+                "format": "3 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 3×6–8 @RIR 2–3",
+                  "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 2×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-01-15",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-01-16",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "25分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "COMPROMISED RUN 4×",
+                "minutes": "25–30分鐘",
+                "format": "4 rounds / rest 75 sec / RPE7–8",
+                "exercises": [
+                  "Run 400m → SkiErg 200–250m",
+                  "Burpee Broad Jump 6次",
+                  "Farmer Carry 30–40m；每輪休75秒"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W10",
         "index": 10,
-        "start": "2027-01-18",
-        "end": "2027-01-24",
+        "start": "2027-01-17",
+        "end": "2027-01-23",
         "blockId": "transfer",
         "tag": "TRANSFER B",
         "focus": "雪橇推拉與單側穩定",
@@ -6505,13 +8509,236 @@
           "benchmark": "每輪Sled耗時與步幅穩定",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "Sled Push／Pull動作效率",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-01-17",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 60分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "60分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續60分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-01-18",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 3×8–12 @RIR2",
+                  "DB Shoulder Press 2×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "12–15分鐘",
+                "format": "3 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-01-19",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-01-20",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "4×1km threshold",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身12分鐘 → 4×1km，間隔2–3分鐘Easy",
+                  "調整雪橇WOD同週腿部疲勞"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-01-21",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "32–40分鐘",
+                "format": "3 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 3×6–8 @RIR 2–3",
+                  "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 2×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-01-22",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-01-23",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "28分鐘主課＋暖身/收操",
+            "level": "RPE 8",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "SLED COMBO 5×",
+                "minutes": "26–30分鐘",
+                "format": "5 rounds / rest 60–90 sec / RPE7–8",
+                "exercises": [
+                  "Run 300m → Sled Push 10m",
+                  "Sled Pull 10m → RowErg 200m",
+                  "每輪休60–90秒，地板摩擦不同不要照抄比賽公斤"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W11",
         "index": 11,
-        "start": "2027-01-25",
-        "end": "2027-01-31",
+        "start": "2027-01-24",
+        "end": "2027-01-30",
         "blockId": "transfer",
         "tag": "TRANSFER C",
         "focus": "Wall Ball後程耐力",
@@ -7023,13 +9250,236 @@
           "benchmark": "WOD各輪Wall Ball是否出現無效動作",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "Wall Ball後半段腿肩耐力",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-01-24",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 65分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "65分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續65分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-01-25",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 3×8–12 @RIR2",
+                  "DB Shoulder Press 2×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "12–15分鐘",
+                "format": "3 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-01-26",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-01-27",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7–8",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "6×600m even splits",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10分鐘 → 6×600m，間隔90–120秒Easy",
+                  "WOD Wall Ball高量時不要跑到極速"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-01-28",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "65–80分鐘",
+            "level": "增肌組RIR 2–3；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "30–38分鐘",
+                "format": "3 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
+                  "Chest-supported Row 3×8–12 @RIR 2–3",
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "15–18分鐘",
+                "format": "3 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-01-29",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-01-30",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "30分鐘主課＋暖身/收操",
+            "level": "RPE 8",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "WALL BALL RESILIENCE",
+                "minutes": "28–32分鐘",
+                "format": "4 rounds / rest 60–75 sec / RPE8",
+                "exercises": [
+                  "Run 400m → Wall Ball 12–15次（可分組）",
+                  "DB Reverse Lunge 10次（左右各5）→ SkiErg 200m",
+                  "每輪休60–75秒；動作no-rep多時先縮量"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W12",
         "index": 12,
-        "start": "2027-02-01",
-        "end": "2027-02-07",
+        "start": "2027-01-31",
+        "end": "2027-02-06",
         "blockId": "transfer",
         "tag": "DELOAD",
         "focus": "站點減量／姿勢修正",
@@ -7541,13 +9991,236 @@
           "benchmark": "主觀疲勞與固定輕鬆配速心率",
           "deload": true,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "站點動作質量與配速恢復",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-01-31",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 45分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "45分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續45分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-02-01",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 4–5",
+                  "Chest-supported Row 2×8–12 @RIR 4–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest75–90秒 / RPE4–5",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-02-02",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-02-03",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE3–4",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Deload · 20–30min easy",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "Easy 20–30分鐘（恢復好才做3次10秒舒適加速）",
+                  "減量不追長距離"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-02-04",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 4–5；功能RPE4",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 2×6–8 @RIR 4–5",
+                  "Romanian Deadlift 1×8 @RIR4（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest90秒 / RPE4–5",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-02-05",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-02-06",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "16分鐘主課＋暖身/收操",
+            "level": "RPE 4",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "QUALITY RESET",
+                "minutes": "16分鐘",
+                "format": "EMOM4 ×4 / RPE4–5",
+                "exercises": [
+                  "M1 SkiErg 120m；M2 RowErg 140m",
+                  "M3 Wall Ball 6次（姿勢優先）",
+                  "M4 休息；下肢有症狀取消Wall Ball"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W13",
         "index": 13,
-        "start": "2027-02-08",
-        "end": "2027-02-14",
+        "start": "2027-02-07",
+        "end": "2027-02-13",
         "blockId": "specific",
         "tag": "SPECIFIC A",
         "focus": "賽事順序與可持續配速",
@@ -8059,13 +10732,236 @@
           "benchmark": "站點後跑速差不超過可控範圍",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "賽事配速與跑站轉換",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-02-07",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 60分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "60分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續60分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-02-08",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR3",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "8–10分鐘",
+                "format": "2 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-02-09",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-02-10",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE7",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "4×1km sustainable",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身12分鐘 → 4×1km按預期HYROX跑步節奏，間隔2分鐘Easy",
+                  "不是純跑步400m PR的強度"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-02-11",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
+                  "Chest-supported Row 2×8–12 @RIR 3–4",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-02-12",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-02-13",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "30分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "RACE ORDER BRICK",
+                "minutes": "28–32分鐘",
+                "format": "4 rounds / RPE7–8",
+                "exercises": [
+                  "Run 500m → SkiErg 200m（奇數輪）／RowErg 200m（偶數輪）",
+                  "Farmer Carry 30m → Wall Ball 8次",
+                  "每輪休60秒，練過站後跑速與換站"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W14",
         "index": 14,
-        "start": "2027-02-15",
-        "end": "2027-02-21",
+        "start": "2027-02-14",
+        "end": "2027-02-20",
         "blockId": "specific",
         "tag": "SIMULATION",
         "focus": "縮量雙日測試",
@@ -8577,13 +11473,218 @@
           "benchmark": "雙日模擬：第二天動作品質與恢復",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "縮量模擬與隔天恢復能力",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-02-14",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy（縮量）",
+            "duration": "35–45分鐘",
+            "level": "RPE3–4",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "Zone 2",
+                "exercises": [
+                  "Easy Run 35–45分鐘，可完整對話"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-02-15",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
+                  "Chest-supported Row 2×8–12 @RIR 3–4",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Ski → Pull → Carry → Row",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest75–90秒 / RPE7",
+                "exercises": [
+                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
+                  "Farmer Carry 25–30m → RowErg 150m",
+                  "休息75–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／握力"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-02-16",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-02-17",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Easy Run",
+            "duration": "20–25分鐘",
+            "level": "RPE3–4",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "低強度跑",
+                "exercises": [
+                  "Easy 20–25分鐘",
+                  "3×10秒舒適加速"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-02-18",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 2×6–8 @RIR 3–4",
+                  "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-02-19",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "45分鐘主課＋暖身/收操",
+            "level": "RPE 8",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "CONTROLLED HYROX SIM · 60–70%",
+                "minutes": "45–60分鐘",
+                "format": "縮量模擬 / RPE7–8（非全速）",
+                "exercises": [
+                  "依場館動線完成4×600–800m Run，間隔輪替Ski 500m／Sled Push 25m／Sled Pull 25m／Row 500m",
+                  "另以獨立短段體驗Farmer Carry 80m、Lunge 30–40m、Wall Ball 30次、Burpee Broad Jump 20m（可分組）",
+                  "遵守賽事站點動作標準但非全量；每站或每跑段依動線調整，不當正式完賽模擬"
+                ]
+              }
+            ],
+            "note": "HYROX 60–70%縮量模擬"
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-02-20",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Day 2 · 恢復有氧",
+            "duration": "35–45分鐘",
+            "level": "RPE3–4",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "雙日訓練",
+                "exercises": [
+                  "Easy Run／Bike 35–45分鐘",
+                  "維持均勻呼吸與動作品質"
+                ]
+              }
+            ],
+            "note": "模擬第二天的恢復能力"
+          }
+        ]
       },
       {
         "id": "W15",
         "index": 15,
-        "start": "2027-02-22",
-        "end": "2027-02-28",
+        "start": "2027-02-21",
+        "end": "2027-02-27",
         "blockId": "specific",
         "tag": "SHARPEN",
         "focus": "節奏精煉與疲勞回落",
@@ -9095,13 +12196,236 @@
           "benchmark": "確認睡眠／腿部輕快感與分站策略",
           "deload": false,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "Station換站效率與節奏",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-02-21",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 50分鐘 / PM可選15–25分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "50分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續50分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              },
+              {
+                "title": "Low-fatigue technique / Upper core",
+                "subtitle": "Low-fatigue technique / Upper core",
+                "minutes": "15–25分鐘",
+                "format": "至少間隔6小時；RPE3–5",
+                "exercises": [
+                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
+                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
+                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-02-22",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR3",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "DB Push + Wall Ball Combo",
+                "minutes": "8–10分鐘",
+                "format": "2 rounds / rest 60–90秒 / RPE7",
+                "exercises": [
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
+                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
+                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-02-23",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-02-24",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE6–7",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "2×8min controlled tempo",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "暖身10分鐘 → 2×8分鐘穩態Tempo，間隔3分鐘Easy",
+                  "訓練節奏感，避免最後兩週疲勞增加"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-02-25",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Legs｜腿臀穩定",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 3–4；功能RPE6",
+            "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Squat / Hinge / Unilateral",
+                "minutes": "23–30分鐘",
+                "format": "2 sets（主項）/ 90–180s rest",
+                "exercises": [
+                  "Back Squat 2×6–8 @RIR 3–4",
+                  "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
+                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Leg Curl 2×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Single-leg stability / knee control",
+                "minutes": "8–10分鐘",
+                "format": "2 sets / slow",
+                "exercises": [
+                  "Low Step-down 2×8/側（緩慢離心）",
+                  "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Sled → Step → Erg",
+                "minutes": "10–12分鐘",
+                "format": "2 rounds / rest90秒 / RPE6",
+                "exercises": [
+                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
+                  "Easy RowErg 120–150m → 休90秒",
+                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                ]
+              }
+            ],
+            "note": "重點補強：腿臀穩定／Sled"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-02-26",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-02-27",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "22分鐘主課＋暖身/收操",
+            "level": "RPE 7",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "SHARP 4× RUN/STATION",
+                "minutes": "20–24分鐘",
+                "format": "4 rounds / RPE6–7",
+                "exercises": [
+                  "Run 300m → Ski 150m（1、3輪）或 Row 150m（2、4輪）",
+                  "Wall Ball 8次 → Farmer Carry 20m",
+                  "輪間休60–90秒；減量但留動作節奏"
+                ]
+              }
+            ],
+            "note": "本週一堂主WOD"
+          }
+        ]
       },
       {
         "id": "W16",
         "index": 16,
-        "start": "2027-03-01",
-        "end": "2027-03-07",
+        "start": "2027-02-28",
+        "end": "2027-03-06",
         "blockId": "taper",
         "tag": "TAPER",
         "focus": "賽前降載",
@@ -9598,16 +12922,226 @@
           "benchmark": "膝腿無額外痠痛、補給與裝備準備",
           "deload": true,
           "softTissueGate": false
-        }
+        },
+        "weaknessFocus": "短距離速度感與精力恢復",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-02-28",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "Long Easy",
+            "duration": "AM 30分鐘",
+            "level": "AM RPE3–4 / PM RPE3–5",
+            "warmup": "Easy步行5分鐘，髖踝活動，觀察小腿和膝蓋",
+            "groups": [
+              {
+                "title": "Long Easy",
+                "subtitle": "Long Easy",
+                "minutes": "30分鐘",
+                "format": "能聊天 / easy aerobic",
+                "exercises": [
+                  "連續30分鐘可對話Easy Run",
+                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
+                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                ]
+              }
+            ],
+            "note": "Long Easy；晚間可選Easy Ski／核心 15–20分鐘"
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-03-01",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Push｜胸肩三頭",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 5–5；功能RPE4",
+            "warmup": "5–8分鐘Bike＋肩胛推舉暖身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "胸肩三頭 · Mechanical tension",
+                "minutes": "15–20分鐘",
+                "format": "1 sets（主項）/ 75–150s rest",
+                "exercises": [
+                  "Bench Press 1×6–8 @RIR 5–5（保留完整休息；工作重量依當天熱身）",
+                  "Incline DB Press 2×8–12 @RIR5",
+                  "DB Shoulder Press 1×8–10",
+                  "Lateral Raise 1×12–15 + Triceps Pressdown 1×10–15"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "肩胛穩定與核心抗旋轉",
+                "minutes": "8分鐘",
+                "format": "2 sets / controlled",
+                "exercises": [
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
+                  "Pallof Press 2×10/側（停頓1秒）"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Push skill & soft landing",
+                "minutes": "6–8分鐘",
+                "format": "2 rounds / RPE4–5",
+                "exercises": [
+                  "Push-up 6–8次 → Wall Ball 5–6次",
+                  "呼吸慢慢恢復60–90秒"
+                ]
+              }
+            ],
+            "note": "重點補強：Wall Ball推舉"
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-03-02",
+            "sessionId": "optional",
+            "category": "optional",
+            "shortTitle": "Petra Strength／Skill（選修）",
+            "duration": "45–60分鐘",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "館內課",
+                "exercises": [
+                  "依當天教練Strength／Skill課表",
+                  "當天若是高強度WOD，週六不再做第二堂WOD"
+                ]
+              }
+            ],
+            "note": "選修，沒上課就休息"
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-03-03",
+            "sessionId": "run",
+            "category": "run",
+            "shortTitle": "跑步間歇",
+            "duration": "35–60分鐘（含暖身與收操）",
+            "level": "RPE3–4",
+            "warmup": "跑前10分鐘Easy＋跑姿活動；跑後8–10分鐘Easy",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "Taper · 20min easy + 3 strides",
+                "minutes": "主工作段",
+                "format": "依Petra當週實際課表優先",
+                "exercises": [
+                  "Easy 20分鐘，3×10秒放鬆加速（若無痛）",
+                  "W16以休息和腿部輕快感為核心"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-03-04",
+            "sessionId": "strength",
+            "category": "strength",
+            "shortTitle": "Pull｜背部握力",
+            "duration": "45–65分鐘",
+            "level": "增肌組RIR 5–5；功能RPE4",
+            "warmup": "5–8分鐘Easy Ski＋肩胛熱身",
+            "groups": [
+              {
+                "title": "主課／增肌",
+                "subtitle": "背闊／上背／二頭 · Volume",
+                "minutes": "15–20分鐘",
+                "format": "1 sets（主項）/ 75–120s rest",
+                "exercises": [
+                  "Pull-up／Lat Pulldown 1×6–10 @RIR 5–5",
+                  "Chest-supported Row 1×8–12 @RIR 5–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
+                  "Rear Delt Fly 1×12–15 + Hammer Curl 1×10–12"
+                ]
+              },
+              {
+                "title": "功能強化",
+                "subtitle": "Unilateral carry / Anti-rotation",
+                "minutes": "8–10分鐘",
+                "format": "2 sets",
+                "exercises": [
+                  "Suitcase Carry 25m/側（中等握持負重）",
+                  "Dead Bug 8/側＋Face Pull 12次"
+                ]
+              },
+              {
+                "title": "Station Circuit",
+                "subtitle": "Pull skill flow",
+                "minutes": "6–8分鐘",
+                "format": "2 easy rounds / RPE4–5",
+                "exercises": [
+                  "SkiErg 100–120m → RowErg 120–140m",
+                  "走動或休息60–90秒，姿勢保持一致"
+                ]
+              }
+            ],
+            "note": "重點補強：Ski／Carry"
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-03-05",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／活動度",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "休息",
+                "exercises": [
+                  "輕鬆散步或活動度 10–20分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-03-06",
+            "sessionId": "wod",
+            "category": "wod",
+            "shortTitle": "HYROX WOD",
+            "duration": "12分鐘主課＋暖身/收操",
+            "level": "RPE 4",
+            "warmup": "Easy Row／Ski 5–8分鐘＋髖肩活動、第一輪先做低量試練",
+            "groups": [
+              {
+                "title": "WOD",
+                "subtitle": "TAPER TOUCH",
+                "minutes": "10–12分鐘",
+                "format": "3 easy rounds / RPE3–4",
+                "exercises": [
+                  "Ski 120m → Row 120m",
+                  "Wall Ball 5–6次（無痛且精準）→ 休60–90秒",
+                  "不做乳酸堆積、雪橇衝刺與大組Lunge"
+                ]
+              }
+            ],
+            "note": "Taper輕量啟動，非高強度WOD"
+          }
+        ]
       },
       {
         "id": "W17",
         "index": 17,
-        "start": "2027-03-08",
-        "end": "2027-03-14",
+        "start": "2027-03-07",
+        "end": "2027-03-13",
         "blockId": "taper",
         "tag": "Race Week",
-        "focus": "台北比賽週",
+        "focus": "台北雙日比賽",
         "why": "減少疲勞，週五混雙保留力量，週六男單穩穩完賽",
         "load": "race",
         "priority": "減少疲勞，週五混雙保留力量，週六男單穩穩完賽",
@@ -9727,7 +13261,7 @@
         "periodization": {
           "weekNo": 17,
           "period": "RACE",
-          "primaryFocus": "03/12 Mixed + 03/13 Men Open",
+          "primaryFocus": "台北雙日比賽",
           "strengthWorkSets": 0,
           "strengthRIR": 5,
           "wodTargetRPE": 0,
@@ -9739,7 +13273,160 @@
           "benchmark": "兩天比賽動作有效率與恢復執行",
           "deload": true,
           "softTissueGate": true
-        }
+        },
+        "weaknessFocus": "混雙分工與雙日補給",
+        "dailyPlan": [
+          {
+            "weekday": "日",
+            "weekdayIndex": 0,
+            "date": "2027-03-07",
+            "sessionId": "training",
+            "category": "training",
+            "shortTitle": "輕鬆活動",
+            "duration": "20–30分鐘",
+            "level": "RPE2–3",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "Easy",
+                "exercises": [
+                  "輕鬆步行20分鐘",
+                  "Mobility 10分鐘"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "一",
+            "weekdayIndex": 1,
+            "date": "2027-03-08",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "準備",
+                "exercises": [
+                  "睡眠與補給",
+                  "檢查賽事裝備"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "二",
+            "weekdayIndex": 2,
+            "date": "2027-03-09",
+            "sessionId": "training",
+            "category": "training",
+            "shortTitle": "Easy Run + Strides",
+            "duration": "20–30分鐘",
+            "level": "RPE3–4",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "跑步",
+                "exercises": [
+                  "Easy Run 20–25分鐘",
+                  "3×10秒放鬆加速，充分休息"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "三",
+            "weekdayIndex": 3,
+            "date": "2027-03-10",
+            "sessionId": "training",
+            "category": "training",
+            "shortTitle": "上肢啟動",
+            "duration": "20–30分鐘",
+            "level": "RPE3–4",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "力量",
+                "exercises": [
+                  "Bench Press 1–2×5 @RIR≥5",
+                  "Chest-supported Row 2×8",
+                  "Pallof Press 2×8／側"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "四",
+            "weekdayIndex": 4,
+            "date": "2027-03-11",
+            "sessionId": "rest",
+            "category": "rest",
+            "shortTitle": "休息／賽前準備",
+            "duration": "休息",
+            "level": "",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "準備",
+                "exercises": [
+                  "輕鬆活動度",
+                  "補充水分與碳水"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "五",
+            "weekdayIndex": 5,
+            "date": "2027-03-12",
+            "sessionId": "race",
+            "category": "race",
+            "shortTitle": "HYROX 混雙",
+            "duration": "比賽",
+            "level": "Race",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "週五比賽",
+                "exercises": [
+                  "依官方出發時間暖身",
+                  "Ski先開始、Farmer較長距離、Wall Ball多分擔",
+                  "賽後補給、為隔天恢復"
+                ]
+              }
+            ],
+            "note": ""
+          },
+          {
+            "weekday": "六",
+            "weekdayIndex": 6,
+            "date": "2027-03-13",
+            "sessionId": "race",
+            "category": "race",
+            "shortTitle": "HYROX 男單",
+            "duration": "比賽",
+            "level": "Race",
+            "warmup": "",
+            "groups": [
+              {
+                "title": "週六比賽",
+                "exercises": [
+                  "8×1km跑步＋8個Stations",
+                  "控制前半配速，Station維持均勻輸出",
+                  "Wall Ball短組穩定完成，減少No-rep"
+                ]
+              }
+            ],
+            "note": ""
+          }
+        ]
       }
     ],
     "design": {
@@ -9773,7 +13460,7 @@
         "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。",
         "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
       },
-      "programModel": "Mesocycle progression: W1 recovery gate; W2–3 build; W4 deload; W5–7 hypertrophy capacity; W8 deload; W9–11 compromised HYROX; W12 deload; W13 pacing; W14 sub-maximal consecutive-day rehearsal; W15 sharpening; W16 taper; W17 two-day race. WOD only one weekly slot."
+      "programModel": "Sunday–Saturday 17-week plan. DailyPlan has all seven days, five core training days, optional Petra Strength/Skill Tuesday, Friday rest. No questions, no symptom-triggered UI. Weaknesses strengthened inside each class."
     },
     "science": [
       {
@@ -9820,10 +13507,12 @@
         "title": "Centr HYROX Hybrid Strength: 10-week 4-phase plan (2026)",
         "url": "https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide"
       }
-    ]
+    ],
+    "weekStart": "SUNDAY",
+    "weekEnd": "SATURDAY"
   },
   "programArchitecture": {
-    "version": "2026-11-14-mesocycle-v6",
+    "version": "2026-11-14-simple-sunday-calendar-v7",
     "rationale": "Hypertrophy-first focused P/P/L + related functional training. WOD is standalone weekly session, fulfilled by Petra, World Gym or at home, never extra. Petra Strength/Skill is dynamic substitution, not automatic seventh session.",
     "evidence": [
       {
@@ -9867,6 +13556,7 @@
     "progression": "Mesocycle progression: W1 recovery gate; W2–3 build; W4 deload; W5–7 hypertrophy capacity; W8 deload; W9–11 compromised HYROX; W12 deload; W13 pacing; W14 sub-maximal consecutive-day rehearsal; W15 sharpening; W16 taper; W17 two-day race. WOD only one weekly slot.",
     "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。 W01家用改恢復技術，W16家用改賽前低量啟動；W17無WOD。",
     "safety": "小腿/膝蓋疼痛、腫脹、步態不穩時改恢復替代方案，必要時尋求專業評估；不依賴單一Garmin心率判斷傷情。",
-    "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD."
+    "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD.",
+    "defaultView": "17週重點 + 星期日至星期六每日訓練"
   }
 }
