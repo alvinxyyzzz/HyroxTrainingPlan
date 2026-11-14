@@ -6346,6 +6346,22 @@
                   ],
                   "minutes": "以實際完成紀錄為準",
                   "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                },
+                {
+                  "tag": "DOUBLES · OPTIONAL",
+                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                  "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                  "steps": [
+                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  ],
+                  "minutes": "取代當週原Station的一部分",
+                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
                 }
               ],
               "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
@@ -6740,6 +6756,19 @@
                   "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
                   "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
                 ]
+              },
+              {
+                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                "lines": [
+                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                ]
               }
             ],
             "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
@@ -6860,7 +6889,8 @@
             "本週弱項：BBJ 4×7.5m（累積30m，症狀穩定才做）；Lunge Sandbag 10–15kg × 3×12.5m；WB 6kg × 5×10–12 = 50–60次；為整週參考上限，不是每日都做",
             "Thu品質跑＋Sat主課為一般兩個hard session；如Wed WOD則替換Sat、Thu降量。Tue短Easy/ Sun Long依恢復調整。",
             "Sat hard之後Sun易跑可縮短或移期，Mon Legs需看腿的隔日反應。",
-            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。"
+            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。",
+            "Stacy可一起練時，W06/W10/W14/W15用同一堂Station部分工作量替換成Mixed Doubles換手，不能另加完整雙人WOD；不在場就獨自完成Men Open主訓練"
           ],
           "wodRunKm": 0,
           "strengthHinge": "TRAP + BENCH"
@@ -7003,7 +7033,29 @@
           "recoverySunMon": "After Sat hard Station, Sun Long Easy may shorten/shift; Mon Legs light if DOMS, avoid 4 consecutive locally exhausting workouts",
           "noForceCompletion": true
         },
-        "version": "v1.4"
+        "version": "v1.4",
+        "doublesPractice": {
+          "planned": true,
+          "partner": "Stacy",
+          "optional": true,
+          "day": "sat",
+          "role": "SUBSTITUTE_WITHIN_EXISTING_STATION_MAIN",
+          "steps": [
+            "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+            "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+            "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+            "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+            "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+            "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+            "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+          ],
+          "runTogether": true,
+          "stationOneWorksAtATime": true,
+          "partnerAvailableRequired": true,
+          "notForSoloPR": true,
+          "weekDaysToRace": "Friday Mixed → Saturday Men Open",
+          "note": "Partner handoffs per prior strategy; aim to avoid early leg acid and protect next-day solo performance."
+        }
       },
       {
         "id": "W07",
@@ -10327,6 +10379,22 @@
                   ],
                   "minutes": "以實際完成紀錄為準",
                   "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                },
+                {
+                  "tag": "DOUBLES · OPTIONAL",
+                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                  "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                  "steps": [
+                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  ],
+                  "minutes": "取代當週原Station的一部分",
+                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
                 }
               ],
               "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
@@ -10719,6 +10787,19 @@
                   "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
                   "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
                 ]
+              },
+              {
+                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                "lines": [
+                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                ]
               }
             ],
             "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
@@ -10839,7 +10920,8 @@
             "本週弱項：BBJ 3×12.5m（累積37.5m），不追單次極限；Lunge Sandbag 15kg × 3×15m；WB 6kg × 6×12 = 72次；為整週參考上限，不是每日都做",
             "Thu品質跑＋Sat主課為一般兩個hard session；如Wed WOD則替換Sat、Thu降量。Tue短Easy/ Sun Long依恢復調整。",
             "Sat hard之後Sun易跑可縮短或移期，Mon Legs需看腿的隔日反應。",
-            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。"
+            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。",
+            "Stacy可一起練時，W06/W10/W14/W15用同一堂Station部分工作量替換成Mixed Doubles換手，不能另加完整雙人WOD；不在場就獨自完成Men Open主訓練"
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH MAINTAIN"
@@ -10982,7 +11064,29 @@
           "recoverySunMon": "After Sat hard Station, Sun Long Easy may shorten/shift; Mon Legs light if DOMS, avoid 4 consecutive locally exhausting workouts",
           "noForceCompletion": true
         },
-        "version": "v1.4"
+        "version": "v1.4",
+        "doublesPractice": {
+          "planned": true,
+          "partner": "Stacy",
+          "optional": true,
+          "day": "sat",
+          "role": "SUBSTITUTE_WITHIN_EXISTING_STATION_MAIN",
+          "steps": [
+            "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+            "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+            "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+            "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+            "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+            "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+            "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+          ],
+          "runTogether": true,
+          "stationOneWorksAtATime": true,
+          "partnerAvailableRequired": true,
+          "notForSoloPR": true,
+          "weekDaysToRace": "Friday Mixed → Saturday Men Open",
+          "note": "Partner handoffs per prior strategy; aim to avoid early leg acid and protect next-day solo performance."
+        }
       },
       {
         "id": "W11",
@@ -14291,6 +14395,22 @@
                   ],
                   "minutes": "以實際完成紀錄為準",
                   "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                },
+                {
+                  "tag": "DOUBLES · OPTIONAL",
+                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                  "format": "W14 主模擬內替代一部分站點",
+                  "steps": [
+                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  ],
+                  "minutes": "取代當週原Station的一部分",
+                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
                 }
               ],
               "notes": "W14只做一次縮量模擬：有安全連通動線才做Run→Station；否則室內縮量8站，不把分開跑的課視為連續轉換"
@@ -14631,6 +14751,19 @@
                   "週五Push重訓本週以模擬替代；週四Petra跑課Easy；週六保留15–25分鐘Easy Ski/Row恢復",
                   "記錄站前/站後跑姿、分段時間和翌日腿部反應；如果腰/膝/小腿不適改低衝擊"
                 ]
+              },
+              {
+                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                "format": "W14 主模擬內替代一部分站點",
+                "lines": [
+                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                ]
               }
             ],
             "subtitle": "W14只做一次縮量模擬：有安全連通動線才做Run→Station；否則室內縮量8站，不把分開跑的課視為連續轉換",
@@ -14780,7 +14913,8 @@
             "本週弱項：BBJ 縮量模擬20–30m（分段）；Lunge Sandbag 15–20kg × 40–60m（分段）；WB 6kg × 60–80次分組，保留隔天恢復；為整週參考上限，不是每日都做",
             "Thu品質跑＋Sat主課為一般兩個hard session；如Wed WOD則替換Sat、Thu降量。Tue短Easy/ Sun Long依恢復調整。",
             "Sat hard之後Sun易跑可縮短或移期，Mon Legs需看腿的隔日反應。",
-            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。"
+            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。",
+            "Stacy可一起練時，W06/W10/W14/W15用同一堂Station部分工作量替換成Mixed Doubles換手，不能另加完整雙人WOD；不在場就獨自完成Men Open主訓練"
           ],
           "wodRunKm": 0,
           "strengthHinge": "NO HEAVY HINGE"
@@ -14950,7 +15084,29 @@
           "recoverySunMon": "After Sat hard Station, Sun Long Easy may shorten/shift; Mon Legs light if DOMS, avoid 4 consecutive locally exhausting workouts",
           "noForceCompletion": true
         },
-        "version": "v1.4"
+        "version": "v1.4",
+        "doublesPractice": {
+          "planned": true,
+          "partner": "Stacy",
+          "optional": true,
+          "day": "fri",
+          "role": "SUBSTITUTE_WITHIN_EXISTING_STATION_MAIN",
+          "steps": [
+            "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+            "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+            "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+            "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+            "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+            "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+            "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+          ],
+          "runTogether": true,
+          "stationOneWorksAtATime": true,
+          "partnerAvailableRequired": true,
+          "notForSoloPR": true,
+          "weekDaysToRace": "Friday Mixed → Saturday Men Open",
+          "note": "Partner handoffs per prior strategy; aim to avoid early leg acid and protect next-day solo performance."
+        }
       },
       {
         "id": "W15",
@@ -15273,6 +15429,22 @@
                   ],
                   "minutes": "以實際完成紀錄為準",
                   "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                },
+                {
+                  "tag": "DOUBLES · OPTIONAL",
+                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                  "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                  "steps": [
+                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  ],
+                  "minutes": "取代當週原Station的一部分",
+                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
                 }
               ],
               "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
@@ -15665,6 +15837,19 @@
                   "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
                   "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
                 ]
+              },
+              {
+                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
+                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
+                "lines": [
+                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                ]
               }
             ],
             "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
@@ -15784,7 +15969,8 @@
             "本週弱項：BBJ 2×10m乾淨動作即可；Lunge Sandbag 15–20kg × 2×15m；WB 6kg × 4×10–12 = 40–48次；為整週參考上限，不是每日都做",
             "Thu品質跑＋Sat主課為一般兩個hard session；如Wed WOD則替換Sat、Thu降量。Tue短Easy/ Sun Long依恢復調整。",
             "Sat hard之後Sun易跑可縮短或移期，Mon Legs需看腿的隔日反應。",
-            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。"
+            "W14如無戶外與站點安全相連動線，就做室內Station-only縮量模擬，不冒稱完整HYROX跑站練習。",
+            "Stacy可一起練時，W06/W10/W14/W15用同一堂Station部分工作量替換成Mixed Doubles換手，不能另加完整雙人WOD；不在場就獨自完成Men Open主訓練"
           ],
           "wodRunKm": 0,
           "strengthHinge": "SQUAT + BENCH TOUCH"
@@ -15927,7 +16113,29 @@
           "recoverySunMon": "After Sat hard Station, Sun Long Easy may shorten/shift; Mon Legs light if DOMS, avoid 4 consecutive locally exhausting workouts",
           "noForceCompletion": true
         },
-        "version": "v1.4"
+        "version": "v1.4",
+        "doublesPractice": {
+          "planned": true,
+          "partner": "Stacy",
+          "optional": true,
+          "day": "sat",
+          "role": "SUBSTITUTE_WITHIN_EXISTING_STATION_MAIN",
+          "steps": [
+            "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
+            "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
+            "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
+            "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
+            "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
+            "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
+            "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+          ],
+          "runTogether": true,
+          "stationOneWorksAtATime": true,
+          "partnerAvailableRequired": true,
+          "notForSoloPR": true,
+          "weekDaysToRace": "Friday Mixed → Saturday Men Open",
+          "note": "Partner handoffs per prior strategy; aim to avoid early leg acid and protect next-day solo performance."
+        }
       },
       {
         "id": "W16",
@@ -18001,5 +18209,23 @@
     "provisionalSchedule": "Fri Mar12 afternoon Mixed Doubles / Sat Mar13 morning-afternoon Men Open; race wave start times not yet confirmed",
     "officialUrl": "https://hyrox.com/event/hyrox-taipei/",
     "raceAssumption": "User intends Friday mixed + Saturday men open, confirm personal registration and start waves; event runs until Sunday Mar14"
+  },
+  "mixedDoublesPractice": {
+    "version": "v1.4",
+    "goal": "Mixed Doubles Friday with Stacy followed by Men's Open Saturday; optional handover skill embedded within existing station main (not extra WOD)",
+    "partnerAvailability": "Optional: only when Stacy can train together, otherwise continue solo Men Open station plan",
+    "officialRules": "Both partners run together and enter/exit stations together; one partner works at a time on stations; freely choose work split. Check 2026/27 rulebook before race.",
+    "source": "https://hyroxevents.zendesk.com/hc/en-gb/articles/40274430499229-How-are-the-workout-reps-split-between-Doubles-partners",
+    "priorAgreedStrategy": {
+      "ski": "Alvin starts first, divide into controlled portions; no need to over-switch",
+      "sledPush": "Stacy stronger; practice controlled 12.5m legs and equal quality, do not push to maximum weights",
+      "sledPull": "Alvin starts; divide near balance without Stacy doing excessively more",
+      "burpeeBroadJump": "short turn 4–7 jumps per person, keep subacid and track distance/landing quality",
+      "row": "2 exchanges = 3 turns; use 200m Alvin, 200m Stacy, 100m Alvin for a 500m practice",
+      "farmerCarry": "3 exchanges; Alvin slightly more total (e.g. 25m Alvin + 20m Stacy + 20m Alvin + 15m Stacy on 80m short drill)",
+      "sandbagLunge": "alternating 10–15m segments, no repeated maximal lunges when next-day solo race",
+      "wallBall": "6kg valid reps; Alvin slightly more reps when fit, short splits (e.g. 12/8 on 20 reps)"
+    },
+    "safety": "Each practice exchanges within planned station total: replace a portion of the existing Sat / W14 session, not add rounds; race day following solo needs energy conservation."
   }
 }
