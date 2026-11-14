@@ -32,32 +32,40 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 ## Repository privacy
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
-## Hypertrophy-first HYROX coach v5 (2026-11-13)
 
-The **source of truth** for the weekly plan is `data/report.json > seasonPlan.weeks[].sessions[].classPlan`. HYROX conditioning is not a body-part finisher and strength is not a random full-body circuit.
+## Studio Mesocycle v6 · 2026-11-14 (authoritative plan)
 
-### Weekly programming
+### Why and where
 
-- **World Gym Push:** ~28–36 min hypertrophy (bench, incline DB press, shoulders, triceps) → ~8–10 min shoulder/core stability → ~8–12 min low/moderate Wall Ball / Sled Push skill.
-- **World Gym Pull:** ~28–36 min hypertrophy (pulldowns, rows, rear delt, biceps) → grip/carry/core → ~10–14 min technique-oriented SkiErg / RowErg / Sled Pull. No heavy hinge on this day.
-- **World Gym Legs:** squat, RDL, single-leg work and leg curls with complete rests → step-down / single-leg balance → low/moderate Sled or Lunge technique. Do not duplicate max Sled fatigue with WOD.
-- **WOD: one formal weekly slot** (20–35 min, except recovery/deload/taper): `World Gym` circuit, `Home` low-equipment substitute, or `Petra WOD`. Petra WOD **replaces**, never adds to, World/Home WOD. If attending Petra Strength turns out to be a hard AMRAP, change the Petra selector to WOD rather than stack a second WOD.
-- **Petra Strength or Skill** is variable week to week: when Strength targets Push/Pull/Legs, it replaces the corresponding World Gym module (subject to verified sets/intensity); when Skill targets one group, its station/skill block is omitted from the matching World Gym session, leaving hypertrophy work intact. Non-attendance must never be assumed to count.
-- **Running:** one quality interval session and Long Easy every week as appropriate. An optional second session after Long Easy can be low-intensity upper/core or Ski/Row technique, not an additional hard workout.
-- **5-day mode:** 2 of Push/Pull/Legs rotate week to week + Interval + one WOD + Long Easy. This means hypertrophy exposure is **reduced compared with 6 days**, never hidden or misreported. **6-day mode:** Push + Pull + Legs + Interval + one WOD + Long Easy. Petra replaces related work, it does not create an automatic seventh session.
-- Preserve recovery gates. For calf/knee issues, use `recoverySwap` or rest. Week 1 Home WOD is low-stress reentry and Week 16 Home WOD is taper-only. Week 17 is the actual Fri Mixed / Sat Men Open race week, with no additional WOD.
+The current planning source of truth is `data/report.json > seasonPlan.weeks[].periodization` together with `sessions[].classPlan`. Public evidence is `metrics`, `petra`, `weeklyKm`, etc. Historic `prescriptionEngine.strength` is **legacy**, not the current generator. Do NOT replace current plan with old `lifts`, `flexiblePlan.modules` or `sessionDetail.strength + station` structures on weekly refresh.
 
-### Data and frontend contract
+### Periodization: 17 weeks (2026-11-16 to race 2027-03-13)
 
-- `classPlan.blocks` has `tag`, `title`, `minutes`, `format`, `steps` and `note`. Keep hypertrophy-first blocks in the defined order and ensure any PETRA/WOD substitutions share the same weekly slot.
-- `classPlan.homeSwap`, `classPlan.petraSwap`, and `classPlan.recoverySwap` are optional mutually exclusive alternatives for that session.
-- Frontend `index.html` stores per-week selectors in localStorage (`hyrox_petra_type_<Wxx>`, `hyrox_petra_focus_<Wxx>`, `hyrox_wod_place_<Wxx>`, `hyrox_recovery_<Wxx>`) and must not claim those selectors verify actual attendance or completion.
-- Weekly coaching automations **must retain this schema**. Do not recreate the deprecated `sessionDetail.strength + station`, `wod` alternative add-on, or the old Force & Transfer / Engine paired-deadlift-and-bench classes. When updating Garmin/Petra evidence, only modify performance-dependent doses, recovery conditions and relevant class blocks; do not wipe this structure.
-- Public `data/report.json` must remain aggregate and omit GPS, raw FIT, photos and credentials.
+- **W01–04 (foundation):** symptom gate/baseline, controlled first WOD, volume growth, W04 deload.
+- **W05–08 (hypertrophy):** 3 → 4 quality working sets for main compound exercise when recovered, meaningful shoulder/back/leg accessory work; W08 deload.
+- **W09–12 (HYROX transfer):** preserve hypertrophy and strength, progress run-to-station circuits and repeatable running after Ski/Sled/Wall Ball; W12 deload.
+- **W13–15 (race specificity):** sustainable race order, W14 60–70% shortened mixed-race-style circuit plus low-intensity next-day test rather than two max-effort days; W15 sharpen with volume reduced.
+- **W16–17 (taper/race):** W16 lighter stations and 1-set primary strength with plenty of reserve; W17 actual Fri mixed/Sat men's solo events (NO additional gym WOD).
 
-### Reference design principles
+### Class construction
 
-- [HWPO HYROX](https://www.hwpotraining.com/programs/hwpo-hyrox)
-- [Centr HYROX Hybrid Strength](https://centr.com/blogs/thewarmup/hyrox-hybrid-strength-program-guide)
-- [ACSM 2026 resistance training Position Stand](https://pubmed.ncbi.nlm.nih.gov/41843416/)
-- [Concurrent training 2026 umbrella review](https://pubmed.ncbi.nlm.nih.gov/41762427/)
+- **Push:** 25–40 min bench/incline/shoulder/lateral/triceps near RIR2–3 (as week permits) → 8 min shoulder/core stability → **2–3 round** Push Press + Wall Ball + Push-up sequence, at controlled fatigue. Adjust if Petra high-volume pressing or legs.
+- **Pull:** pulldown/rows/rear-delt/curl → carry, anti-rotation and grip → repeated SkiErg/Sled Pull/Carry/Row combinations. Erg output is not counted as hypertrophy sets.
+- **Legs:** squat/RDL/reverse lunge/leg curl → step-down/single-leg balance → controlled Sled Push/Step-up/Easy Row mini-circuit. Hard Sled loading belongs in separate WOD if appropriate, not two days back-to-back.
+- **Standalone WOD:** one slot per week, World Gym / Petra WOD / home alternative. Formats include 4-round DB Thruster/Hang Clean/Reverse Lunge/Push-up/Sit-up, EMOM, AMRAP, run-station bricks, and a single W14 controlled shortened rehearsal. Each week sets its own time and RPE. A Petra hard AMRAP counts as the WOD regardless of its nominal class name.
+- **Running:** interval quality (Petra class can replace), long easy by time, optional later easy Ski/Row/upper/core (non-required), controlling total fatigue.
+
+### UI and update contract
+
+- Users choose Petra `none/strength/skill/wod`, focus `general/push/pull/legs`, WOD location `world/home` and calf/knee `normal/pain`. They are manual localStorage values, NOT confirmed attendance. If Petra WOD is selected, World/Home WOD is replaced and PPL class C circuits are hidden. Petra Strength can replace a corresponding strength class *only if real working sets match*; Petra Skill can replace matching class C.
+- **5 training days:** interval + standalone WOD + long easy + the week's `periodization.priorityMuscles` (two PPL classes); priority rotates with weekly focus. **6 days:** all PPL + interval + WOD + long easy. Petra replaces work, not a seventh day.
+- Every week's `periodization` fields must be kept in sync with class block sets, WOD duration/RPE, and long-easy target. Deload weeks are W04/W08/W12/W16 (not inconsistent historic W03/W07/W11). Main set counts are per *primary lift*, not total direct muscle-group weekly sets.
+- Keep all private Garmin FIT, GPS and Drive photos out of GitHub Pages. Only publish aggregated evidence. Never invent kilograms or attendance.
+- Do not automatically lift caps or override symptom gates based on a single activity. Ask for additional confirmed recovery information before upgrading major intensity.
+
+### External programming evidence
+
+- [Centr HYROX Hybrid Strength, 2026 four-phase program](https://centr.com/blogs/features/hyrox-hybrid-strength-program-guide)
+- [HYROX / HWPO partner programming](https://hyrox.com/training-partner/hwpo-training/)
+- [2026 ACSM resistance training position stand](https://pubmed.ncbi.nlm.nih.gov/41843416/)
+- [2026 concurrent training umbrella review](https://pubmed.ncbi.nlm.nih.gov/41762427/)
