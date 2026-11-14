@@ -73,6 +73,19 @@ Progression gate per week:
 - Race W17 **Mar 7–13, 2027**: Friday Mar12 intended **Mixed Doubles** and Saturday Mar13 intended **Men Open**, subject to individual confirmed registration/wave times. Official **HYROX Taipei event runs Mar12–14**, with provisional Friday afternoon Mixed and Saturday Men Open windows; final specific start times are not yet published. Thu Mar11 Petra intense Interval is SKIPPED.
 - No full eight 1km runs plus all eight stations training simulation has been prescribed; prioritize safer partial race adaptation and two-day recovery.
 
+## Mixed Doubles with Stacy (optional, NOT extra training volume)
+
+The user plans **Friday Mixed Doubles together with Stacy + Saturday Men's Open solo**. A solo-only plan is incomplete without short, controlled partner switching drills, but a separate extra full WOD would be an overload. **W06/W10/W14/W15** therefore contain an optional in-session substitution: when Stacy is available, replace some existing Station main work with a partner relay rehearsal. Otherwise complete the solo Men Open main session as written.
+
+- Official principle: **both partners run together**, enter and leave stations together; stations are **You-Go/I-Go**, with only one actively working at a time and no mandatory 50/50 split. [HYROX official Doubles FAQ](https://hyroxevents.zendesk.com/hc/en-gb/articles/40274430499229-How-are-the-workout-reps-split-between-Doubles-partners).
+- **SkiErg** Alvin starts. **Sled Pull** Alvin starts; keep workload near balanced without forcing Stacy to do much more. **Sled Push** Stacy is the stronger partner, so can take somewhat more of short sections when appropriate. Do not force maximal loading.
+- **Row** practice **two switches** over a shortened 500m drill: Alvin 200m → Stacy 200m → Alvin 100m. In race day division, adapt to the full 1000m and fatigue.
+- **Farmer Carry** practice **three switches** across 80m: Alvin25 → Stacy20 → Alvin20 → Stacy15, giving Alvin slightly more carry distance. For race, adapt to complete 200m.
+- **BBJ** train short bursts **4–7 jumps per turn** to protect leg fatigue, subject to landing/nerve/knee recovery. **Wall Ball 6kg** short splits like Alvin12 and Stacy8 if technique is valid; Alvin may do somewhat more. Lunge use shorter balanced 10–15m turns.
+- Friday doubles followed immediately by Saturday solo means **do not exhaust legs on the practice day**. W14 rehearses a shortened session, Saturday easy recovery, and W15 sharpening rather than maximal double day training.
+
+Google Sheets: **`Mixed_Doubles_v1_4`** is a companion training reference. All sessions are optional and rely on Stacy attending; **never infer partner attendance or create fake completed activity records**. Rules/weights must be re-checked against the 2026/27 competition documents.
+
 ## Data and sync architecture
 
 - App primary `data/report.json`: `version: 1.4.0`, `planRelease.label: v1.4`, 17 weeks with `runStationTransition`, `weakStationSkill`, `stationCoverage`, `progressionGates`, `readinessRules`, `weeklyQualityBudget` and `runningTrack.thirdEasyRun`.
