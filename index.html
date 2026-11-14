@@ -379,7 +379,7 @@ function adaptV14Week(w,wedStatus,petraDay,readiness){
  const add=(day,title,content)=>{const z=by(day);if(z)z.sections.unshift({name:title,format:"本機條件建議 · 不代表實際完成",lines:Array.isArray(content)?content:[content]});};
  const main=w.stationPrescription?.kind==="STATION_MAIN"||w.stationPrescription?.kind==="RUN_STATION";
  const isRace=w.id==="W17",sim=w.id==="W14";
- if(isRace)return{days,summary:"比賽週例外：週四不安排Petra強Interval，週五混雙、週六男單（請以正式報名資料為準）。",tone:"warn"};
+ if(isRace){if(readiness==="red"){for(const k of ["thu","fri","sat"]){const z=by(k);if(z)z.sections.unshift({name:"身體警訊：比賽是否參加須專業評估",format:"優先安全",lines:["如發生影響步態的疼痛、腫脹或急性異常症狀，請由醫療專業人員評估能否安全參賽；本App不代表賽事出席確認"]});}return{days,summary:"比賽週出現疼痛警訊：先做專業評估，不應因報名而硬比賽。",tone:"alert"};}return{days,summary:"比賽週例外：週四不安排Petra強Interval，週五混雙、週六男單（請以正式報名資料為準）。",tone:"warn"};}
  let notes=[],tone="";
  if(petraDay&&petraDay!=="unknown"&&petraDay!=="none"){
   const z=by(petraDay);
@@ -393,13 +393,13 @@ function adaptV14Week(w,wedStatus,petraDay,readiness){
   add("thu","已上週三硬Petra WOD：週四必須降量",["週四Petra跑課以Easy／技巧RPE4–5為主，先跟教練協調縮量；若未能調整且未上課前，就應優先選擇跳過週三硬WOD","不要同時做Wed全力WOD + Thu全力Interval"]);
   if(sim){const z=by("fri");if(z){z.title="RECOVERY｜本週週三已硬WOD，取消週五縮量模擬";z.kind="rest";z.sections=[{name:"週五恢復",format:"Wed硬WOD已替代主課",lines:["週五只做Easy／活動度，或低量上肢非疲勞練習","不強迫完成本週縮量模擬，避免三個相鄰硬訓練日"]}];}}
   else if(main){const z=by("sat");if(z){z.title="RECOVERY｜週六硬Station取消（Wed Petra已替代）";z.kind="rest";z.time="休息或Easy Ski/Row 15–25分鐘";z.sections=[{name:"為下一週恢復",format:"RPE2–3",lines:["Wed Petra硬WOD已是本週混合耐力主課，不再額外完成Sat的Station或Run→Station","如果Thu也跑了不少，這週末以休息、睡眠、輕活動為主","原本Sat處方保留在資料庫，但本機選擇Wed hard後不顯示為必練主課"]}];}}
-  add("fri","Wed硬WOD後週五PUSH減量","以Bench主要2組RIR3–4為優先，其餘上肢補強少量／可跳過；不要加高量Wall Ball");
+  if(!sim)add("fri","Wed硬WOD後週五PUSH減量","以Bench主要2組RIR3–4為優先，其餘上肢補強少量／可跳過；不要加高量Wall Ball");
   notes.push("Wed硬WOD已替代主課：Thu降為Easy，Sat取消硬Station");tone="warn";
  } else if(wedStatus==="missed"){notes.push("週三未做硬WOD：Thu可依恢復正常Interval，Sat主課仍需經過恢復檢查");}
  else if(wedStatus==="easy"){notes.push("Wed只是技巧或Easy：Thu按恢復做品質跑，Sat視疲勞選擇主課");}
  else notes.push("週三實際出席尚未設定，顯示條件式原課表，不代表你沒有上WOD");
  if(readiness==="yellow"){
-  add("fri","今天疲勞／睡眠欠佳：Push減量",["Push保留主要Bench 2工作組@RIR4；其餘配件減量/取消，弱項技巧Finisher不做","疲勞未恢復前不要把週五和週六都練成硬課"]);
+  if(!sim)add("fri","今天疲勞／睡眠欠佳：Push減量",["Push保留主要Bench 2工作組@RIR4；其餘配件減量/取消，弱項技巧Finisher不做","疲勞未恢復前不要把週五和週六都練成硬課"]);
   add("sat","週末恢復未達標：主課縮量或改Easy","本週Station/Run→Station至多做原工作量50–70% RPE≤5–6；若不舒服直接改Easy/Rest");
   add("sun","週日Long Easy可縮短/移動","如Sat還有DOMS或疲勞，週日Easy 20–30min或休息，不強迫跑總公里");
   notes.push("恢復偏弱：Fri Push減量、Sat優先降低負荷");tone="warn";
