@@ -62,6 +62,14 @@ The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Pe
 - Running track remains separate and begins with W01 Nov 15, with flexible morning placement, not a Saturday-start week. A 2026-11-14 lifting kickoff does **not** count as an extra running workout.
 - Public UI source is `seasonPlan.kickoff` for kickoff and `seasonPlan.weeks[0].dailyPlan` for W01; the kickoff must not be counted twice or be misreported as a completed workout. This is the scheduled workout; actual weights, reps and attendance require later confirmation.
 
+### Deadlift integration · conventional + hex/trap bar (2026-11-14)
+- Current visible source: `seasonPlan.weeks[].dailyPlan`. **W02/W06/W10/W13 Monday Legs** use Trap-bar Deadlift as the PRIMARY hinge, with lighter squats/single-leg work; no separate heavy Romanian Deadlift on those days. W02 2×5–6 @RIR3–4; W06 3×5–6 @RIR2–3; W10 2×4–5 @RIR3; W13 2×4–5 @RIR3–4.
+- **W03/W05/W09 Wednesday Pull** include conventional barbell Deadlift as posterior-chain strength FIRST, followed by Lat Pulldown/Chin-up, Chest-supported Row and smaller rear-delt/biceps work. On these weeks Monday Legs removes Romanian Deadlift in favor of moderate Hip Thrust 2×8–10. W03 2×5 @RIR3; W05 3×4–6 @RIR2–3; W09 2×4–5 @RIR3.
+- All other pre-race weeks use prescribed Squat + RDL (with W04/W08/W12 as deloads, W16 taper). No multiple heavy deadlift variants or 1RM testing in a week.
+- In weeks with heavy hinge, immediately following station finisher is reduced to light Ski/Row or Step-up/Row, avoiding additional hard Sled Pull/Push. Friday WOD is separate and retains station diversity; reduce overall weekly workload if Petra has already delivered a heavy lower-body class.
+- `weeks[].sessions[legs|pull].classPlan` and `weeks[].dailyPlan[mon|wed].sections` MUST remain synchronized. Loads are deliberately RIR-based: `Strength_Log` has no verified working kilograms for heavy Squat/Deadlift. The aim is reproducible strength progression supporting HYROX, not a Powerlifting peak. Conventional barbell deadlift is not a substitute for direct lat work.
+- `trainingTracks.gym.hingeDesign` contains the authoritative rotation and rationale. Preserve these prescriptions through automated weekly Garmin/Petra report refreshes.
+
 ### Gym Track: fixed Sunday→Saturday recommendation
 Sunday low-intensity Ski/Row aerobic base; Monday Legs hypertrophy + unilateral stability and sled technique; Tuesday Ski/Row/Sled/Carry engine at controlled intensity; Wednesday Push or Pull hypertrophy + function; Thursday OPTIONAL complementary upper hypertrophy or Petra Strength/Skill; Friday ONE WOD (World Gym fallback or Petra WOD if actually attended); Saturday rest. W14 is shortened simulation plus light recovery day; W16 taper and W17 Friday/Saturday races. Strength classes start with mechanical tension then short relevant station circuits.
 
