@@ -395,12 +395,14 @@ const EXERCISE_MATCH=/Back Squat|Front Squat|Goblet Squat|Romanian Deadlift|RDL\
 function exerciseItems(z){
  const items=[];
  for(const g of z.sections||[]){
+  if(/(?:恢復|調整|閘門|弱項技術|肌耐力進階|替代條件|注意事項|與週三|與週六|喘息|記錄)/.test(g.name||""))continue;
   for(const raw of g.lines||[]){
    for(let segment of String(raw).split(/[；;]/)){
     segment=segment.trim().replace(/^(?:選配|主課|可選|動作)\s*[:：]\s*/,"");
     const pos=segment.search(EXERCISE_MATCH);
-    if(pos<0||pos>17)continue;
-    if(/^(?:如果|若|請|記錄|週三|週四|週六|當週|這堂|每週|小腿|膝|疼痛|替代|保留|不需要)/.test(segment))continue;
+    if(pos<0||pos>12)continue;
+    if(!/\d+\s*(?:×|x\s*\d|m\b|km\b|次|分鐘|秒|ROUNDS?\b)|\d+\s*kg/i.test(segment))continue;
+    if(/^(?:如果|若|請|記錄|週三|週四|週六|當週|這堂|每週|小腿|膝|疼痛|替代|保留|不需要|將|本週|目標|先|已|練後)/.test(segment))continue;
     segment=segment.split(/，(?:如果|若|小腿|膝|疼痛|視|記錄|休息|週三|週四|本週|有|不要|不能|注意)/)[0];
     segment=segment.replace(/（[^）]*(?:疼痛|症狀|膝|小腿|Petra|取消|負荷)[^）]*）/g,"").trim();
     if(segment.length>130)segment=segment.slice(0,128)+"…";
