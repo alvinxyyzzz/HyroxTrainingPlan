@@ -1,9 +1,25 @@
-# HYROX PERFORMANCE LAB · v1.4
+# HYROX PERFORMANCE LAB · v1.4.1
 
 **Release:** 2026-11-14. **Training-data snapshot verified through:** 2026-11-13 (NOT refreshed for this programming release).
 
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+
+## 2026-11-14 v1.4.1 update — Easy aerobic, Wall Ball, calf-aware recovery
+
+- User **self-reported** a 2026-11-14 post-strength single session with **four paired sets of Wall Ball and Sled Push**; Garmin watch was NOT running for this block. Reported Sled Push load **102kg**, but **total sled+plates vs plates only is unknown**, as are Wall Ball reps and ball load, distance, rest duration and measured HR bpm. This information is recorded **ONLY in private Google Sheets** (`Athlete_Notes` / `Strength_Log`), not published as detailed private workout/health data in the public GitHub report. Do not fabricate Garmin activity or heart-rate readings.
+- PPL remains **Mon LEGS / Tue PULL / Fri WFH PUSH**, Thu Petra Interval, Wed optional Petra WOD, Sat Station or safe RunStation, Sun flexible Easy. The addition is **aerobic talk-test work** (easy, able to speak full sentences), **controlled Wall Ball sets with deliberate exhale on the throw and small rest breaks before technique fails**, and **Step-up / controlled Split Squat + Leg Curl** replacing existing Mon LEGS accessories, not an extra high-intensity session.
+- Until calf soreness settles, do **not** schedule high-volume Wall Balls, heavy sled pushes, BBJ or hard running if walking, single-leg calf raises, gait or swelling indicate a problem. Use pain-free low-impact easy work/rest, and seek professional evaluation for persistent or abnormal symptoms. Do not diagnose an elevated subjective heart rate as low VO2max or cardiac illness; follow exercise red flags.
+- Record valid Wall Ball repetitions and per-set effort, plus time to comfortably speak a complete sentence again; if a watch was actually recording, add measured HR and HR change one minute post-set for comparable training, recognizing wrist-based exercise artifacts. **Unknown measured HR remains unknown.**
+- New current Google Sheets tabs: `Training_Plan_v1_4_1_CURRENT`, `Cardio_WallBall_v1_4_1`, `Sync_Cadence_v1_4_1`; v1.4 tabs preserved as historical references.
+
+### Actual data processing cadence
+
+- **Nov 15–30, 2026:** private Garmin Actions sync **daily about 09:15 Asia/Taipei**, subject to GitHub Actions schedule drift. A separate AI task checks Garmin+Petra Drive photo deltas **daily about 20:00** and updates analysis/app when authenticated access and genuinely new data permit.
+- **From Dec 2026:** Garmin private workflow syncs **Sunday about 09:15**, and the existing weekly HYROX AI coaching task runs **Sunday about 20:00** (first Dec 6).
+- Private workflow `.github/workflows/garmin-sync.yml` uses date-gated Nov daily and Dec Sunday scheduled triggers; manual `workflow_dispatch` and restricted `sync-now.request` trigger remain intact.
+- Each AI run reads only metadata for Petra photos first, processing ID/modifiedTime deltas not re-OCR-ing historical analyzed images. Verify the actual Garmin run, Sheets new rows, photo Registry, public report commit and GitHub Pages success independently. Schedule configured ≠ successfully synced/processed/deployed. **At the time of update, future runs had not yet taken place.**
+- Existing Sunday automation was moved to Dec 6 and amended. A separate daily-Nov automation ends Nov 30 automatically. The public app only shows a static published snapshot and device-local options; scheduling does not create a browser-resident service.
 
 ## Why v1.4
 
