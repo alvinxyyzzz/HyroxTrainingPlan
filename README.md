@@ -1,37 +1,52 @@
-# HYROX PERFORMANCE LAB · v1.1
-**Release:** 2026-11-14. **Data verified through:** 2026-11-13 (64 Garmin activities + 37 Petra photos). Version upgrade does not imply fresh Garmin Connect sync.
+# HYROX PERFORMANCE LAB · v1.2
 
-**Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
-**Repository:** https://github.com/alvinxyyzzz/HyroxTrainingPlan  
-**Authoritative structured log:** [ALVIN HYROX Central Training Database](https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit)
+**Published:** 2026-11-14. **Training data verified through 2026-11-13.** This release changes programming, not the Garmin sync timestamp.
 
-## v1.1 changes (supersedes v1.0 coaching prescriptions)
+**App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
+**Central database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
 
-- **Petra WOD optional about once every two weeks.** Only actual attendance counts; a photo or planned class is not an automatically completed workout. If Petra WOD is high intensity, it **replaces** the weekly World Gym WOD or other quality session. Never stack two WODs as default.
-- **One World Gym WOD weekly when no Petra WOD**, with **no mandatory treadmill**. Use SkiErg / RowErg / Farmer Carry / Sled / Wall Ball / KB Lunges. A = Ski+Carry+Wall Ball, B = Row+Sled+KB Lunge, C = easy Ski/Row EMOM; W14 is a deliberately shortened eight-station rehearsal that has *no running* and cannot be claimed to simulate the full race.
-- **Running remains a separate track**, ideally about 2–3 sessions/week (Easy, Long Easy; interval conditional). Ski/Row heart-rate work can substitute for treadmill portions in a gym WOD but **not** for 8 × 1 km running in a real HYROX race. Do not convert Ski/Row meters into running kilometers.
-- **Two World Gym strength sessions** are program anchors; protect main squat/bench/hinge/pull quality. Tuesday station conditioning is *optional* or controlled and may be downgraded to skill/easy when a run interval or Petra hard class is completed. Thursday Petra Strength/Skill or upper accessory remains optional.
-- **Joint load budget:** During 11/12 post-interval calf recovery, prioritize comfortable walking/heel raises and low-impact aerobic, no mandatory hard session. On recovered weeks generally at most two hard engine sessions total, with at least ~48 hours between as practical; no hard WOD plus hard run plus hard Tuesday by default.
-- **Feedback loop:** Google Sheets `Weekly_Review` adds hard-session count, average RPE, calf/knee pain, Ski/Row volume, station technique, next-week modification, and data completeness. Keep unreported values blank, never fabricate strength loads.
+## New fixed constraints
 
-## Calendar / source of truth
-The web app retains its original **Sunday–Saturday 17-week calendar**:
-- W01: 2026-11-15 to 2026-11-21, with separate 2026-11-14 Push kickoff.
-- W17: 2027-03-07 to 2027-03-13; tentative races Friday 2027-03-12 Mixed Doubles, Saturday 2027-03-13 Men Open (verify actual registration).
-- Periodization remains: foundation W01–03, deload W04; strength build W05–07, deload W08; HYROX transfer W09–11, deload W12; race specific W13–15 including W14 shortened station rehearsal; taper W16, race W17.
-- The Google Sheet `Training_Plan_v1_1_CURRENT`, `WOD_Library_v1_1`, `Coaching_Rules_v1_1` are the coaching reference. Old `Training_Plan_v16_CURRENT` and prior numeric plan tabs are preserved for history. The app snapshot does **not** live-query Google Sheets.
+- **Petra WOD is ONLY on Wednesday**, optional, expected roughly once every two weeks. Actual attendance requires confirmation; a whiteboard photograph alone does not mean Alvin attended.
+- **Petra Interval Running is on Thursday every week** (except race-week/taper adjustments). **NO World Gym on Thursday.**
+- **Wednesday hard WOD + Thursday hard running interval must not both be full intensity**. If Wed WOD is hard, still attend Thursday class if appropriate but ask the coach to adapt to Easy / Technique at ~RPE4–5 or reduce the work to ~30–50% as tolerated. If Thu class cannot be adjusted, prioritize Thu quality running and skip Wed hard WOD.
+- World Gym foundational **strength A on Monday and strength B on Tuesday**, with Tuesday primarily upper body and a flexible/light hinge if Wednesday hard WOD is possible. Friday is recovery / mobility. Saturday World Gym Ski/Row WOD is **optional only if no hard Petra WOD Wed and adequately recovered from Thursday**.
+- Running remains a separate track: Thursday Petra class + 1–2 flexible Easy/Long Easy runs, with deload/symptoms controlling volume. Ski/Row may replace treadmill in World Gym WOD but do not count erg distance as run distance. Do not impose fixed 3 hard cardio days.
 
-## Data architecture and safe interpretation
-- App frontend: `index.html`. App JSON: `data/report.json`, top-level `version: 1.1.0`, `planRelease.label: v1.1`. Daily World Gym cards: `seasonPlan.weeks[].dailyPlan`; independent running: `seasonPlan.weeks[].runningTrack`. WOD details in `seasonPlan.weeks[].sessions[id=wod].classPlan.blocks` and `sessions[id=wod].wod.classPlan.blocks` stay consistent with Friday cards.
-- Garmin private API: separate **private** repository `alvinxyyzzz/hyrox-garmin-sync` → Google Sheets activities/laps/syncs. **Do not** put credentials, raw FIT, GPS paths, or medical/private notes in public GitHub Pages.
-- Petra source folder in Google Drive `Hyrox Training data/Alvin/Petra_Photos`, 37 photos; compare file IDs/modified times to `Petra_Photo_Registry`, analyze only changed/unreviewed uploads. Partner scores never become individual performance.
-- v1.1 publication updates coach prescriptions and cache version, not the private Garmin sync code or scheduled automation. Data through 2026-11-13, no claim of newer sync. Week dashboard is a **plan**, not proof of sessions completed.
+### Two-week flexible template
 
-## Web app deployment
-GitHub Pages serves the `main` branch. Commits and Sheets updates do not alone prove a live deployment. `sw.js` cache changes to `hyrox-v1-1-20261114-v25`; `index.html` registers the updated service worker. On iOS, reload once online; if stale, close/reopen the PWA and refresh.
+| Day | A: no Wednesday WOD | B: Wednesday Petra WOD |
+| --- | --- | --- |
+| Sun | Easy/Long run or easy Erg, flexible | Easy/Long run or easy Erg, recovery permitting |
+| Mon | World Gym Strength A (legs/back) | World Gym Strength A |
+| Tue | World Gym Strength B (upper/hinge) | World Gym Strength B, lighter legs |
+| Wed | Rest or easy Ski/Row | Optional Petra WOD (Wednesday only) |
+| Thu | Petra Running Interval (quality) **no World Gym** | Petra running class EASY/Technique after Wed hard WOD; full quality only if Wed was skipped |
+| Fri | Recovery | Recovery |
+| Sat | Optional World Gym Ski/Row WOD only if recovered | No second hard World Gym WOD after hard Petra Wednesday |
 
-## Scientific context
-Concurrent training and resistance training support: https://pmc.ncbi.nlm.nih.gov/articles/PMC11688070 and https://pmc.ncbi.nlm.nih.gov/articles/PMC8891239 . Individualized volume, RPE and HYROX station prescriptions are coaching judgments, not universally validated clinical protocols.
+These are readiness-dependent templates, not a requirement to attend Wednesday WOD in particular numbered weeks. If user attends on a different Wednesday, classify according to actual attendance.
 
-## Historical v1.0 baseline
-v1.0 FINAL was committed 2026-11-14 with two training tracks and the same Sunday–Saturday 17-week calendar. Its strength anchors, historic Garmin/Petra provenance and standalone Saturday Push kickoff are retained. Prior WODs that required alternating treadmill runs during World Gym have been replaced by treadmill-free station variants in v1.1.
+## Exceptions / periodization
+
+- W01 post-11/12 calf recovery: Thu class can be adapted or skipped if symptomatic; no forced intervals.
+- W04/W08/W12 deload weeks: no mandatory hard WOD, Thursday reduced to Easy/Technique.
+- W14 special rehearsal: Wednesday preferably no hard WOD; **Thursday Petra Easy**, **Friday shortened 8-station simulation**, **Saturday Day-2 recovery test**. If Wed hard WOD occurs, Friday simulation must be removed or downgraded.
+- W16 taper: Thursday easy or skip, no hard station WOD.
+- W17 March 7–13 race week: **skip Thursday running interval**, Friday March 12 Mixed Doubles, Saturday March 13 Men Open (race entries/timing subject to official confirmation).
+
+## Files and implementation
+
+- Primary data: `data/report.json`, top-level `version: 1.2.0`, `planRelease.label: v1.2`, `scheduleRevision` fixed weekdays.
+- Daily App cards: `seasonPlan.weeks[].dailyPlan`. Fixed Thursday card is marked `PETRA`/running and will not contain a World Gym prescription; Wednesday is optional Petra WOD or rest; Tuesday moved to WorldGym Strength B.
+- Running track: `seasonPlan.weeks[].runningTrack` includes fixed Petra Thursday and conditional quality intensity; race week exception is clearly displayed. `sessions[id=interval]` is Thursday Petra running, `sessions[id=pull]` maps to Tuesday strength, `sessions[id=wod]` is conditional World Gym Saturday except W14 Friday simulation.
+- Google Sheet tabs: `Training_Plan_v1_2_CURRENT` is the new active schedule, `Schedule_2Week_v1_2` contains A/B rules and exceptions, `Coaching_Rules_v1_2` contains decision policies. Previous v1.1 tabs remain for history; `WOD_Library_v1_1` is still valid exercise library since only WOD scheduling changed.
+- Feedback: `Weekly_Review` has hard session count, Session RPE, calf/knee pain, Ski/Row volume, station quality and next-week adjustment. Future coaching review must use **v1.2** rather than deprecated v1.1.
+
+## Privacy and freshness
+
+The app is a **public GitHub Pages training program**, not a live Garmin or Google Sheets viewer. Never put private Garmin credentials, raw FIT/GPS, individual private whiteboard photos or sensitive personal notes into public repository. Garmin private sync code lives in `alvinxyyzzz/hyrox-garmin-sync`; v1.2 did not modify its schedule. A successful GitHub commit must be followed by Pages deployment verification. PWA cache bumped to `hyrox-v1-2-20261114-v26`.
+
+## Prior release preservation
+
+The v1.0/v1.1 17-week Sunday–Saturday calendar, strength phase emphasis, Garmin/Petra evidence and pre-race foundations are preserved where compatible. This update changes the **weekday placement and conditional intensity**, not the baseline measurements or verified workout history.
