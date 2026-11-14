@@ -1616,7 +1616,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": "10–20分鐘 Easy",
           "longRunMinutes": 40,
           "functionalRounds": 0,
           "priorityMuscles": [
@@ -1627,7 +1627,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -1902,7 +1902,8 @@
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練"
+            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -2003,7 +2004,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2035,7 +2038,7 @@
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -2569,7 +2572,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 45,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -2580,7 +2583,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR3",
@@ -2876,7 +2879,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -2978,7 +2982,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -3009,7 +3015,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -3544,7 +3550,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 50,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -3555,7 +3561,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "CONVENTIONAL",
           "hingePrescription": "Conventional Deadlift 技巧 2×5 @RIR4",
@@ -3850,7 +3856,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -3952,7 +3959,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -3983,7 +3992,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -4492,7 +4501,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": "10–20分鐘 Easy",
           "longRunMinutes": 40,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -4503,7 +4512,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": true,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -4779,7 +4788,8 @@
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練"
+            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -4880,7 +4890,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -4911,7 +4923,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -5445,7 +5457,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 50,
           "functionalRounds": 5,
           "priorityMuscles": [
@@ -5456,7 +5468,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "TRAP_BAR",
           "hingePrescription": "Trap-bar Deadlift 3×6 @RIR3",
@@ -5750,7 +5762,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -5852,7 +5865,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -5883,7 +5898,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -6419,7 +6434,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 55,
           "functionalRounds": 5,
           "priorityMuscles": [
@@ -6430,7 +6445,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "TRAP_BAR",
           "hingePrescription": "Trap-bar Deadlift 3×5–6 @RIR2–3",
@@ -6727,7 +6742,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -6830,7 +6846,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -6861,7 +6879,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -7328,7 +7346,7 @@
               ],
               "notes": "本週以真正Run→Station→Run（有安全動線才做）替代純Erg Station，不加額外一堂硬課"
             },
-            "wodRunKm": 0,
+            "wodRunKm": 1.2,
             "wodType": "RUN_STATION",
             "stationTags": [
               "SkiErg",
@@ -7411,7 +7429,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 6,
-          "wodTargetMinutes": "場地/轉換時間依實作",
+          "wodTargetMinutes": "3 rounds / venue-dependent",
           "longRunMinutes": 60,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -7422,8 +7440,8 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 1.2,
           "hingeFocus": "TRAP_BAR",
           "hingeDay": "MON_LEGS",
           "hingePrescription": "Trap-bar Deadlift 3×4–5 @RIR2–3",
@@ -7811,7 +7829,7 @@
           "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "機械張力與Erg輸出",
-          "wodRunKm": 0,
+          "wodRunKm": 1.2,
           "independentRunKmRange": [
             18,
             23
@@ -7832,7 +7850,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 1.2,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -7863,8 +7883,8 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 1.2,
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
@@ -8401,7 +8421,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": "10–20分鐘 Easy",
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -8412,7 +8432,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": true,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -8688,7 +8708,8 @@
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練"
+            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -8790,7 +8811,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -8821,7 +8844,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -9288,7 +9311,7 @@
               ],
               "notes": "本週以真正Run→Station→Run（有安全動線才做）替代純Erg Station，不加額外一堂硬課"
             },
-            "wodRunKm": 0,
+            "wodRunKm": 1.8,
             "wodType": "RUN_STATION",
             "stationTags": [
               "RowErg",
@@ -9372,7 +9395,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 6.5,
-          "wodTargetMinutes": "場地/轉換時間依實作",
+          "wodTargetMinutes": "3 rounds / venue-dependent",
           "longRunMinutes": 55,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -9383,8 +9406,8 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 1.8,
           "hingeFocus": "RDL",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR2",
           "hingeDay": "MON_LEGS",
@@ -9773,7 +9796,7 @@
           "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "跑後進站與恢復跑速",
-          "wodRunKm": 0,
+          "wodRunKm": 1.8,
           "independentRunKmRange": [
             19,
             23
@@ -9794,7 +9817,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 1.8,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -9825,8 +9850,8 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 1.8,
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
@@ -10389,7 +10414,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 60,
           "functionalRounds": 5,
           "priorityMuscles": [
@@ -10400,7 +10425,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR2",
@@ -10696,7 +10721,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -10799,7 +10825,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -10830,7 +10858,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -11297,7 +11325,7 @@
               ],
               "notes": "本週以真正Run→Station→Run（有安全動線才做）替代純Erg Station，不加額外一堂硬課"
             },
-            "wodRunKm": 0,
+            "wodRunKm": 2.4,
             "wodType": "RUN_STATION",
             "stationTags": [
               "RowErg",
@@ -11381,7 +11409,7 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": "場地/轉換時間依實作",
+          "wodTargetMinutes": "4 rounds / venue-dependent",
           "longRunMinutes": 65,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -11392,8 +11420,8 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 2.4,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR2",
@@ -11782,7 +11810,7 @@
           "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "Wall Ball後程耐力",
-          "wodRunKm": 0,
+          "wodRunKm": 2.4,
           "independentRunKmRange": [
             21,
             26
@@ -11803,7 +11831,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 2.4,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -11834,8 +11864,8 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 2.4,
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
@@ -12372,7 +12402,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": "10–20分鐘 Easy",
           "longRunMinutes": 45,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -12383,7 +12413,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": true,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -12659,7 +12689,8 @@
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練"
+            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -12761,7 +12792,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -12792,7 +12825,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "DELOAD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -13259,7 +13292,7 @@
               ],
               "notes": "本週以真正Run→Station→Run（有安全動線才做）替代純Erg Station，不加額外一堂硬課"
             },
-            "wodRunKm": 0,
+            "wodRunKm": 3.2,
             "wodType": "RUN_STATION",
             "stationTags": [
               "SkiErg",
@@ -13342,7 +13375,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": "場地/轉換時間依實作",
+          "wodTargetMinutes": "4 rounds / venue-dependent",
           "longRunMinutes": 60,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -13353,8 +13386,8 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 3.2,
           "hingeFocus": "TRAP_BAR",
           "hingePrescription": "Trap-bar Deadlift 2×4 @RIR3–4",
           "hingeDay": "MON_LEGS",
@@ -13742,7 +13775,7 @@
           "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "賽事順序與可持續配速",
-          "wodRunKm": 0,
+          "wodRunKm": 3.2,
           "independentRunKmRange": [
             21,
             26
@@ -13763,7 +13796,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 3.2,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -13794,8 +13829,8 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "RUN_STATION",
+          "wodRunKm": 3.2,
           "strengthPhase": "RACE SPECIFIC",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
           "stationIntensity": {
@@ -14260,7 +14295,7 @@
               ],
               "notes": "W14只做一次縮量模擬：有安全連通動線才做Run→Station；否則室內縮量8站，不把分開跑的課視為連續轉換"
             },
-            "wodRunKm": 0,
+            "wodRunKm": 2.4,
             "wodType": "REHEARSAL",
             "stationTags": [
               "SkiErg",
@@ -14348,7 +14383,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 50,
+          "wodTargetMinutes": "40–60分鐘",
           "longRunMinutes": 45,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -14359,8 +14394,8 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "REHEARSAL",
+          "wodRunKm": 2.4,
           "hingeFocus": "HIP_THRUST",
           "hingeDay": "MON_LEGS",
           "hingePrescription": "Hip Thrust 1×8 @RIR4（模擬/減量週不做重硬舉）",
@@ -14710,7 +14745,7 @@
           "optional": "Deload/特殊週不必強求第三次Easy",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "縮量雙日測試",
-          "wodRunKm": 0,
+          "wodRunKm": 2.4,
           "independentRunKmRange": [
             18,
             23
@@ -14731,7 +14766,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 2.4,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -14762,8 +14799,8 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
-          "wodRunKm": 0,
+          "wodType": "REHEARSAL",
+          "wodRunKm": 2.4,
           "strengthPhase": "RACE SPECIFIC",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI REHEARSAL REPLACES PUSH",
           "stationIntensity": {
@@ -15324,7 +15361,7 @@
           "strengthWorkSets": 2,
           "strengthRIR": 3,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": 32,
+          "wodTargetMinutes": "20–40分鐘",
           "longRunMinutes": 50,
           "functionalRounds": 4,
           "priorityMuscles": [
@@ -15335,7 +15372,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -15630,7 +15667,8 @@
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -15732,7 +15770,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -15763,7 +15803,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "SHARPEN",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -16272,7 +16312,7 @@
           "strengthWorkSets": 1,
           "strengthRIR": 4,
           "wodTargetRPE": 4,
-          "wodTargetMinutes": 15,
+          "wodTargetMinutes": "10–20分鐘 Easy",
           "longRunMinutes": 30,
           "functionalRounds": 2,
           "priorityMuscles": [
@@ -16283,7 +16323,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": true,
           "softTissueGate": false,
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "hingeFocus": "HIP_THRUST",
           "hingeDay": "MON_LEGS",
@@ -16559,7 +16599,8 @@
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練"
+            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "wodRunKm": 0
           }
         ],
         "weeklyBalance": {
@@ -16660,7 +16701,9 @@
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
-          }
+          },
+          "plannedRunStationKm": 0,
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -16691,7 +16734,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "ERG_STATION",
+          "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "TAPER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -17176,6 +17219,15 @@
           "raceSchedule": "2027-03-12 mixed doubles + 2027-03-13 men's open subject to official entries",
           "trainingFocus": "rest/mobility/short activation only",
           "gate": "no high-load stations"
+        },
+        "raceOfficialContext": {
+          "event": "HYROX Taipei 2027",
+          "dates": "2027-03-12 to 2027-03-14",
+          "publishedProgramProvisional": true,
+          "fridayDoublesMixed": "Friday afternoon provisional",
+          "saturdayMenOpen": "Saturday morning-afternoon provisional",
+          "individualWaveTimesConfirmed": false,
+          "officialUrl": "https://hyrox.com/event/hyrox-taipei/"
         }
       }
     ],
@@ -17941,5 +17993,13 @@
     "priorityShortEasyRun": "Tue AM 15–35min based on phase/recovery if Mon legs fine and no Petra Tue/Wed hard WOD",
     "weakpointCoverage": "BBJ + Sandbag Lunge + Wall Ball 6kg progress with capped cumulative exposure, count Wed Petra actual loads",
     "readiness": "Green/Yellow/Red + Wed Hard WOD dynamic branching, fatigue and next-day pain gates"
+  },
+  "officialRaceContext": {
+    "event": "HYROX Taipei",
+    "dateStart": "2027-03-12",
+    "dateEnd": "2027-03-14",
+    "provisionalSchedule": "Fri Mar12 afternoon Mixed Doubles / Sat Mar13 morning-afternoon Men Open; race wave start times not yet confirmed",
+    "officialUrl": "https://hyrox.com/event/hyrox-taipei/",
+    "raceAssumption": "User intends Friday mixed + Saturday men open, confirm personal registration and start waves; event runs until Sunday Mar14"
   }
 }
