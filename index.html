@@ -483,9 +483,9 @@ function renderDay(z,i,w){
 function runningPage(){
  const s=state.data.seasonPlan,w=s.weeks[state.week],r=w.runningTrack||{},n=Number(w.id.slice(1));
  const phases=[
-  {from:1,to:4,label:"底盤與恢復",plan:"1 次 Petra 跑課（W01/W04降量）＋1 次 Long Easy；短 Easy 選配"},
-  {from:5,to:8,label:"建立有氧",plan:"1 次 Interval＋1 次 Long Easy＋1 次短 Easy（恢復許可）"},
-  {from:9,to:12,label:"跑站銜接",plan:"Interval＋Long Easy；W09/W11 跑站主課取代 Station"},
+  {from:1,to:4,label:"底盤與恢復",plan:"1 次品質跑（W01/W04降量）＋1 次 Long Easy；短 Easy 選配"},
+  {from:5,to:8,label:"建立有氧",plan:"1 次 Interval＋1 次 Long Easy＋0–1 次短 Easy"},
+  {from:9,to:12,label:"跑站銜接",plan:"1 次 Interval＋1 次 Long Easy；W09/W11 Station包含跑站銜接"},
   {from:13,to:15,label:"比賽專項",plan:"W13 跑站、W14 縮量模擬、W15 銳化；不額外加硬課"},
   {from:16,to:16,label:"減量週",plan:"減跑量、保留短暫速度感；恢復優先"},
   {from:17,to:17,label:"比賽週",plan:"週五混雙、週六男單；不再額外排 Long Run 或硬 Interval"}
@@ -503,13 +503,13 @@ function runningPage(){
  const long=sessions.find(x=>x.id==="long");
  const today=race?
   ["週五 Mixed Doubles","週六 Men Open","其餘休息／短啟動"]:
-  ["週四 Petra "+(deload?"Easy／技巧（視恢復）":"Interval（本週品質跑）"),
-   "週日 Long Easy："+cleanDose(long?.dose||"依本週階段安排"),
-   "週二短 Easy（選配）："+short+" · RPE3–4"].concat(r.plannedRunStationKm>0?["本週跑站專項："+r.plannedRunStationKm+"km（取代原 Station 主課）"]:[]);
+  ["品質跑 ×1："+(deload?"Easy／技巧（恢復週）":"Interval（通常週四 Petra）"),
+   "Long Easy ×1："+cleanDose(long?.dose||"依本週階段安排")+"（本週擇日）",
+   "短 Easy ×0–1（選配）："+short+" · RPE3–4 · 本週擇日"].concat(r.plannedRunStationKm>0?["跑站主課跑量："+r.plannedRunStationKm+"km（Station 動作見「力量／Station」）"]:[]);
  const focus='<p class="run-week-focus"><b>本週｜'+esc(active.label)+'</b> · 距離 W17 約 '+Math.max(0,17-n)+' 週 · 參考跑量 '+esc(km)+'（不硬湊）</p>'+
  '<ul class="run-short-list">'+today.map(x=>'<li>'+esc(x)+'</li>').join("")+'</ul>';
  const advice=race?"比賽週不補跑、不做高強度 Erg。":n===1?
-  "這週日若不跑：SkiErg 10–12 分鐘＋RowErg 15–20 分鐘，RPE3–4；或單做 RowErg 25–30 分鐘。小腿仍不舒服就先休息。":
+  "本週若選擇不跑：SkiErg 10–12 分鐘＋RowErg 15–20 分鐘，RPE3–4；或單做 RowErg 25–30 分鐘。":
   "Easy / Long Easy 沒空跑，當週可改同強度 Ski／Row，依分鐘而非跑量公里數安排。";
  const alternatives=race?"":'<section class="run-alternatives"><h3>不跑步時，可以怎麼練？</h3>'+
  '<p><b>Easy／Long Easy：</b>'+esc(advice)+'</p>'+
@@ -521,7 +521,7 @@ function runningPage(){
  sessions.slice(0,4).map(x=>'<p class="run-week-focus"><b>'+esc(x.title||"")+'</b> · '+esc(cleanDose(x.dose))+'</p>').join("")+'</details>':"";
  return '<section class="screen active track-running-page">'+
  '<div class="simpl-week-top"><span class="mini">RUNNING / AEROBIC</span>'+selector+'</div>'+
- '<div class="track-running-hero"><div><span class="mini">'+esc(w.id)+' · '+esc(dshort(w.start))+'–'+esc(dshort(w.end))+'</span><h1>跑步與有氧</h1><p>跑步是主線；SkiErg／RowErg 是補充與低衝擊替代。</p></div></div>'+
+ '<div class="track-running-hero"><div><span class="mini">'+esc(w.id)+' · '+esc(dshort(w.start))+'–'+esc(dshort(w.end))+'</span><h1>跑步與有氧</h1><p>按週規劃跑步，不必固定星期；SkiErg／RowErg 可替代部分有氧時數。</p></div></div>'+
  focus+alternatives+'<section class="run-timeline"><h2 class="run-timeline-title">賽前 17 週跑步規劃</h2>'+rows+'</section>'+extra+'</section>';
 }
 
