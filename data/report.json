@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,10 +599,10 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Simple Sunday Calendar v7",
+    "version": "2026-11-14 Station Cardio Calendar v8",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
-    "principle": "17 consecutive Sunday-to-Saturday calendar weeks. 5 core sessions: Sun Long Easy (aerobic), Mon Legs strength+skill, Tue upper Push/Pull strength, Wed Interval (aerobic), Fri 1 WOD (mixed); Thu optional other upper/Petra Strength or Skill, Sat recovery. W14 day-2 easy recovery test Sat. W17 is Sunday March7 to Saturday March13 with Fri/Sat races.",
+    "principle": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
     "priorities": [
       "增加胸／背／腿的可恢復有效工作組數",
       "HYROX跑步與Station綜合耐力",
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-sunday-week-simple-v7",
+    "version": "2026-11-14-sunday-station-cardio-v8",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1843,45 +1843,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-11-15",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "40 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Ski / Row 基礎耐力",
+            "time": "24 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 40分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續40分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "24 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "每輪換站後直接銜接，能完整說話"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-11-16",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "55–70分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 3–4",
                   "Romanian Deadlift 1×8 @RIR3",
@@ -1891,7 +1878,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -1899,32 +1886,49 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 8–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / RPE5–6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-11-17",
+            "kind": "station",
+            "title": "Ski → Row 技巧 16",
+            "time": "16分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "M1 SkiErg 100m",
+                  "M2 RowErg 140m",
+                  "M3 Farmer Carry 20m（輕）",
+                  "M4 休息"
+                ],
+                "format": "EMOM4 × 4，RPE4"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-11-18",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "55–70分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4",
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR3",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -1932,101 +1936,62 @@
                 "format": "2 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 8–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "2 rounds / RPE5–6"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-11-18",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜恢復週：Easy Bike/Row 30–40分鐘（症狀未解除不做間歇）",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "步行、樓梯與提踵舒適後，才重新引入短時間輕鬆跑",
-                  "不可為追配速硬跑；Petra高強度跑課可自行降量"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-19",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "55–70分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
                   "Chest-supported Row 2×8–12 @RIR 3–4",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
                 ],
-                "format": "2 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 8–12分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "2 rounds / RPE5–6"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-20",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜DB HYBRID · 4 ROUNDS",
             "time": "18–24分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 18–24分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "8 DB Hang Cleans",
                   "8 DB Reverse Lunges（左右各4）",
@@ -2037,41 +2002,56 @@
                 "format": "4 Rounds · 每輪休75秒"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 6",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-11-21",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "40分鐘 · RPE3–4",
+              "steps": [
+                "40分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "恢復週：Easy Bike/Row 30–40分鐘（症狀未解除不做間歇）",
+              "steps": [
+                "步行、樓梯與提踵舒適後，才重新引入短時間輕鬆跑"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W02",
@@ -2596,45 +2576,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-11-22",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "45 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Ski 長時間節奏",
+            "time": "28 分 · RPE4",
             "sections": [
               {
-                "name": "力量／增肌 · 45分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續45分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "28 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "每輪換站後直接銜接，能完整說話"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-11-23",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 3–4",
                   "Romanian Deadlift 1×8 @RIR3",
@@ -2644,7 +2611,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -2652,32 +2619,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-11-24",
+            "kind": "station",
+            "title": "Ski 間歇 5 組",
+            "time": "22–25分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 200m → RowErg 200m",
+                  "Farmer Carry 25m",
+                  "輪間休75秒"
+                ],
+                "format": "5 rounds，RPE6"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-11-25",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4",
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR3",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -2685,152 +2668,120 @@
                 "format": "2 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 8–10分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "2 rounds / rest 60–90秒 / RPE6"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-11-25",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜6×400m controlled",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘",
-                  "每趟速度盡量一致；如果小腿不舒服改Easy"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-26",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
                   "Chest-supported Row 2×8–12 @RIR 3–4",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
                 ],
-                "format": "2 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 10–12分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "2 rounds / rest75–90秒 / RPE6"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-27",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜DB HYBRID 4 ROUNDS",
-            "time": "18分鐘主課＋暖身/收操",
+            "time": "約18–22分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 約18–22分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "8 DB Hang Cleans（兩手總數8）",
                   "8 DB Push Press + 8 DB Reverse Lunges（左右各4）",
                   "SkiErg 120m + rest 75–90秒"
                 ],
                 "format": "4 rounds / rest 75–90 sec / RPE6"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 6",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-11-28",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "45分鐘 · RPE3–4",
+              "steps": [
+                "45分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "6×400m controlled",
+              "steps": [
+                "暖身10–12分鐘 → 6×400m，趟間Easy jog/走2分鐘"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W03",
@@ -3356,45 +3307,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-11-29",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "50 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Ski + Row + Carry",
+            "time": "30 分 · RPE4",
             "sections": [
               {
-                "name": "力量／增肌 · 50分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續50分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "30 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "每輪換站後直接銜接，能完整說話"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-11-30",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -3404,7 +3342,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -3412,30 +3350,47 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-12-01",
+            "kind": "station",
+            "title": "Station EMOM 24",
+            "time": "24分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "M1 SkiErg 150m",
+                  "M2 RowErg 180m",
+                  "M3 Farmer Carry 30m",
+                  "M4 休息"
+                ],
+                "format": "EMOM4 × 6，RPE6–7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-12-02",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
@@ -3445,153 +3400,122 @@
                 "format": "3 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "3 rounds / rest75–90秒 / RPE7"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-12-02",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜4×600m steady",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10分鐘 → 4×600m，間隔慢跑2–3分鐘",
-                  "以均勻配速完成；總跑量需含暖身及收操"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-03",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
-                  "DB Shoulder Press 2×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 2×8–10"
                 ],
-                "format": "3 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 12–15分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-12-04",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜DUMBBELL WOD · 4 ROUNDS",
-            "time": "24分鐘主課＋暖身/收操",
+            "time": "約22–26分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 約22–26分鐘",
+                "name": "WOD 組合",
                 "lines": [
-                  "10 DB Thrusters",
+                  "10 DB Thrusters（輕重量、標準動作）",
                   "10 DB Hang Cleans",
                   "10 DB Reverse Lunges（共10次、每腿5）",
                   "10 Push-ups + 20 Sit-ups，休60–90秒"
                 ],
                 "format": "4 rounds / rest 60–90 sec / RPE7"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-12-05",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "50分鐘 · RPE3–4",
+              "steps": [
+                "50分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "4×600m steady",
+              "steps": [
+                "暖身10分鐘 → 4×600m，間隔慢跑2–3分鐘",
+                "以均勻配速完成；總跑量需含暖身及收操"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W04",
@@ -4116,45 +4040,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-12-06",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "40 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Easy 技術回復",
+            "time": "20 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 40分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續40分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "20 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "每輪換站後直接銜接，能完整說話"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-12-07",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 1×6–8 @RIR 4–5",
                   "Romanian Deadlift 1×8 @RIR4",
@@ -4164,7 +4075,7 @@
                 "format": "1 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -4172,95 +4083,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE4–5"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-12-08",
-            "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
-            "time": "45–65分鐘",
+            "kind": "station",
+            "title": "技巧調整 EMOM",
+            "time": "15分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "Station 有氧／節奏",
                 "lines": [
-                  "Pull-up／Lat Pulldown 1×6–10 @RIR 4–5",
-                  "Chest-supported Row 1×8–12 @RIR 4–5",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 1×12–15 + Hammer Curl 1×10–12"
+                  "SkiErg 150m → RowErg 150m",
+                  "輕 Farmer Carry 20m",
+                  "剩餘時間休息"
                 ],
-                "format": "1 sets（主項）/ 75–120s rest"
-              },
-              {
-                "name": "功能穩定 · 8–10分鐘",
-                "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
-                ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 10–12分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "2 rounds / rest75–90秒 / RPE4–5"
+                "format": "E5MOM × 3，RPE4"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
+            "subtitle": "Station 心肺主導 · Ski 優先"
           },
           {
             "day": "wed",
             "dayZh": "週三",
             "date": "2026-12-09",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜Deload · 4×200m smooth",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "Easy Run 20–30分鐘＋4×200m舒適加速（無痛才做）",
-                  "疲勞高時全程Easy，不做工作段"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
-          },
-          {
-            "day": "thu",
-            "dayZh": "週四",
-            "date": "2026-12-10",
-            "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
+            "kind": "strength",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 1×6–8 @RIR 4–5",
+                  "Bench Press 1×6–8 @RIR 4–5（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR4",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 1×12–15 + Triceps Pressdown 1×10–15"
@@ -4268,89 +4132,120 @@
                 "format": "1 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 8–10分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "2 rounds / rest 60–90秒 / RPE4–5"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "力量主導 · 上肢重點"
+          },
+          {
+            "day": "thu",
+            "dayZh": "週四",
+            "date": "2026-12-10",
+            "kind": "optional",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
+            "sections": [
+              {
+                "name": "力量增肌",
+                "lines": [
+                  "Pull-up／Lat Pulldown 1×6–10 @RIR 4–5",
+                  "Chest-supported Row 1×8–12 @RIR 4–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
+                ],
+                "format": "前半段 25–35分鐘"
+              },
+              {
+                "name": "功能技巧",
+                "lines": [
+                  "Suitcase Carry 25m/側（中等握持負重）"
+                ],
+                "format": "8–10分鐘"
+              }
+            ],
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-12-11",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜RESET EMOM 12",
-            "time": "14分鐘主課＋暖身/收操",
+            "time": "12–16分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 12–16分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "M1 SkiErg 110m；M2 RowErg 130m",
                   "M3 DB RDL 8次（很輕）+ Pallof 8／側",
                   "M4 Rest；維持技術、心率不追高"
                 ],
                 "format": "EMOM4 ×3–4 / RPE4"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 4",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-12-12",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "40分鐘 · RPE3–4",
+              "steps": [
+                "40分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "Deload · 4×200m smooth",
+              "steps": [
+                "疲勞高時全程Easy，不做工作段"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W05",
@@ -4875,45 +4770,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-12-13",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "50 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Aerobic Ladder",
+            "time": "32 分 · RPE4",
             "sections": [
               {
-                "name": "力量／增肌 · 50分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續50分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "32 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-12-14",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -4923,7 +4805,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -4931,30 +4813,45 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-12-15",
+            "kind": "station",
+            "title": "Ski / Sled Pull 24",
+            "time": "24分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 200m → Sled Pull 10m",
+                  "輪間休至第4分鐘"
+                ],
+                "format": "E4MOM × 6，RPE6–7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-12-16",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
@@ -4964,152 +4861,121 @@
                 "format": "3 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "3 rounds / rest75–90秒 / RPE7"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-12-16",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜3×5分鐘 tempo",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10分鐘 → 3×5分鐘Tempo，間隔3分鐘Easy",
-                  "避免與本週WOD相連兩天"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-17",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
-                  "DB Shoulder Press 2×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 2×8–10"
                 ],
-                "format": "3 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 12–15分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-12-18",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜UPPER ENGINE AMRAP 22",
-            "time": "22分鐘主課＋暖身/收操",
+            "time": "22分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 22分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "SkiErg 200m → 8 DB Hang Cleans",
                   "10 Push-ups → Farmer Carry 30m",
                   "必要時每輪換站休30–45秒；保持前後輪節奏"
                 ],
                 "format": "AMRAP22 / RPE7"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-12-19",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "50分鐘 · RPE3–4",
+              "steps": [
+                "50分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "3×5分鐘 tempo",
+              "steps": [
+                "暖身10分鐘 → 3×5分鐘Tempo，間隔3分鐘Easy",
+                "避免與本週WOD相連兩天"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W06",
@@ -5634,45 +5500,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-12-20",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "55 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Ski 主導長段",
+            "time": "35 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 55分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續55分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "35 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-12-21",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -5682,7 +5535,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -5690,32 +5543,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-12-22",
+            "kind": "station",
+            "title": "Station Combo 25",
+            "time": "25分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "RowErg 200m → SkiErg 200m",
+                  "Farmer Carry 30m",
+                  "每輪休60–75秒"
+                ],
+                "format": "5 rounds，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-12-23",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
                   "DB Shoulder Press 2×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -5723,152 +5592,121 @@
                 "format": "3 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 12–15分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "3 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-12-23",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜5×600m controlled",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10分鐘 → 5×600m，間隔2分鐘Easy",
-                  "重腿後不追快節奏"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-24",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 15–18分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-12-25",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜UNILATERAL EMOM 24",
-            "time": "24分鐘主課＋暖身/收操",
+            "time": "24分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 24分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "M1 RowErg 150m；M2 DB Reverse Lunge 8次（左右各4）",
                   "M3 SkiErg 140m；M4 10 DB Push-ups（或地板Push-up）",
                   "每分鐘工作最好45–50秒內完成，剩餘時間休息"
                 ],
                 "format": "EMOM4 ×6 / RPE7"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-12-26",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "55分鐘 · RPE3–4",
+              "steps": [
+                "55分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "5×600m controlled",
+              "steps": [
+                "暖身10分鐘 → 5×600m，間隔2分鐘Easy",
+                "重腿後不追快節奏"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W07",
@@ -6393,45 +6231,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-12-27",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "60 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Erg Density",
+            "time": "36 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 60分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續60分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "36 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-12-28",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 4×6–8 @RIR 2–3",
                   "Romanian Deadlift 3×8 @RIR2",
@@ -6441,7 +6266,7 @@
                 "format": "4 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -6449,32 +6274,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-12-29",
+            "kind": "station",
+            "title": "Ski / Row 30",
+            "time": "30分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 200m → RowErg 200m",
+                  "Sled Pull 10m（控制重量）",
+                  "輪間休75秒"
+                ],
+                "format": "6 rounds，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2026-12-30",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 4×6–8 @RIR 2–3",
+                  "Bench Press 4×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
                   "DB Shoulder Press 2×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -6482,152 +6323,121 @@
                 "format": "4 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 12–15分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 10次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "3 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2026-12-30",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜3×1km threshold",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身12分鐘 → 3×1km，間隔3分鐘Jog",
-                  "最後一趟仍能保持穩定"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-31",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 4×6–10 @RIR 2–3",
                   "Chest-supported Row 4×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）"
                 ],
-                "format": "4 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 15–18分鐘",
-                "lines": [
-                  "SkiErg 220m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-01-01",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜RUN / SKI 5 ROUNDS",
-            "time": "28分鐘主課＋暖身/收操",
+            "time": "25–30分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 25–30分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 300m → SkiErg 200m",
                   "Wall Ball 10次 → Farmer Carry 30m",
                   "每輪休60秒；全程姿勢標準、最後一輪能維持"
                 ],
                 "format": "5 rounds / rest 60 sec / RPE7–8"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 8",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-01-02",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "60分鐘 · RPE3–4",
+              "steps": [
+                "60分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "3×1km threshold",
+              "steps": [
+                "暖身12分鐘 → 3×1km，間隔3分鐘Jog",
+                "最後一趟仍能保持穩定"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W08",
@@ -7152,45 +6962,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-01-03",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "45 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Easy 技術回復",
+            "time": "22 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 45分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續45分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "22 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-01-04",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 4–5",
                   "Romanian Deadlift 1×8 @RIR4",
@@ -7200,7 +6997,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -7208,30 +7005,46 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE4–5"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-01-05",
+            "kind": "station",
+            "title": "Easy Station EMOM",
+            "time": "16–20分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 120m → RowErg 140m",
+                  "Farmer Carry 20m",
+                  "保留完整休息"
+                ],
+                "format": "EMOM4 × 4–5，RPE4"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-01-06",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 4–5",
                   "Chest-supported Row 2×8–12 @RIR 4–5",
@@ -7241,152 +7054,121 @@
                 "format": "2 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "2 rounds / rest75–90秒 / RPE4–5"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-01-06",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜Deload · 25–35min easy + strides",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "Easy 25–35分鐘，可選4×10秒Strides",
-                  "不做第三堂硬課"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-07",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 4–5",
+                  "Bench Press 2×6–8 @RIR 4–5（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR4",
-                  "DB Shoulder Press 1×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 1×8–10"
                 ],
-                "format": "2 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 8–10分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "2 rounds / rest 60–90秒 / RPE4–5"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-01-08",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜RECOVERY FLOW 15",
-            "time": "15分鐘主課＋暖身/收操",
+            "time": "15分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 15分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Easy Ski 150m → Easy Row 150m",
-                  "Suitcase Carry 20m／側",
+                  "Suitcase Carry 20m／側（輕）",
                   "剩餘時間慢走、充分恢復"
                 ],
                 "format": "E5MOM×3 / RPE4"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 4",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-01-09",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "45分鐘 · RPE3–4",
+              "steps": [
+                "45分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "Deload · 25–35min easy + strides",
+              "steps": [
+                "Easy 25–35分鐘，可選4×10秒Strides",
+                "不做第三堂硬課"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W09",
@@ -7911,45 +7693,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-01-10",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "55 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Station Endurance",
+            "time": "35 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 55分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續55分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "35 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-01-11",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -7959,7 +7728,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -7967,30 +7736,46 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-01-12",
+            "kind": "station",
+            "title": "Station EMOM 30",
+            "time": "30分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "M1 SkiErg 150m；M2 RowErg 180m",
+                  "M3 Sled Pull 10m；M4 Carry 30m",
+                  "M5 休息"
+                ],
+                "format": "EMOM5 × 6，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-01-13",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
@@ -8000,152 +7785,121 @@
                 "format": "3 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "3 rounds / rest75–90秒 / RPE7"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-01-13",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜5×800m controlled",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10–12分鐘 → 5×800m，間隔2分鐘Easy",
-                  "WOD已有400m跑段，下次間歇不追加速度"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-14",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
-                  "DB Shoulder Press 2×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 2×8–10"
                 ],
-                "format": "3 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 12–15分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "3 rounds / rest 60–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-01-15",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜COMPROMISED RUN 4×",
-            "time": "25分鐘主課＋暖身/收操",
+            "time": "25–30分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 25–30分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 400m → SkiErg 200–250m",
                   "Burpee Broad Jump 6次（不適改原地Step-back Burpee）",
                   "Farmer Carry 30–40m；每輪休75秒"
                 ],
                 "format": "4 rounds / rest 75 sec / RPE7–8"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-01-16",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "55分鐘 · RPE3–4",
+              "steps": [
+                "55分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "5×800m controlled",
+              "steps": [
+                "暖身10–12分鐘 → 5×800m，間隔2分鐘Easy",
+                "WOD已有400m跑段，下次間歇不追加速度"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W10",
@@ -8670,45 +8424,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-01-17",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "60 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Long Erg Intervals",
+            "time": "38 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 60分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續60分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "38 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-01-18",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -8718,7 +8459,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -8726,32 +8467,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-01-19",
+            "kind": "station",
+            "title": "Sled / Ski / Carry 30",
+            "time": "30分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "Sled Push 10m → SkiErg 180m",
+                  "Farmer Carry 30m → RowErg 160m",
+                  "輪間休60秒"
+                ],
+                "format": "5 rounds，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-01-20",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
                   "DB Shoulder Press 2×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -8759,152 +8516,121 @@
                 "format": "3 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 12–15分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "3 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-01-20",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜4×1km threshold",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身12分鐘 → 4×1km，間隔2–3分鐘Easy",
-                  "調整雪橇WOD同週腿部疲勞"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-21",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 15–18分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-01-22",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜SLED COMBO 5×",
-            "time": "28分鐘主課＋暖身/收操",
+            "time": "26–30分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 26–30分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 300m → Sled Push 10m",
                   "Sled Pull 10m → RowErg 200m",
                   "每輪休60–90秒，地板摩擦不同不要照抄比賽公斤"
                 ],
                 "format": "5 rounds / rest 60–90 sec / RPE7–8"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 8",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-01-23",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "60分鐘 · RPE3–4",
+              "steps": [
+                "60分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "4×1km threshold",
+              "steps": [
+                "暖身12分鐘 → 4×1km，間隔2–3分鐘Easy",
+                "調整雪橇WOD同週腿部疲勞"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W11",
@@ -9429,45 +9155,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-01-24",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "65 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Engine Aerobic 40",
+            "time": "40 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 65分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續65分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "40 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-01-25",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 32–40分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
                   "Romanian Deadlift 2×8 @RIR2",
@@ -9477,7 +9190,7 @@
                 "format": "3 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -9485,32 +9198,48 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 15–18分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-01-26",
+            "kind": "station",
+            "title": "Station Density 32",
+            "time": "32分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 250m → RowErg 250m",
+                  "Sled Pull 10m → Carry 40m",
+                  "輪間休75秒"
+                ],
+                "format": "4 rounds，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-01-27",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "65–80分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 3×6–8 @RIR 2–3",
+                  "Bench Press 3×6–8 @RIR 2–3（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 3×8–12 @RIR2",
                   "DB Shoulder Press 2×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -9518,152 +9247,121 @@
                 "format": "3 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 12–15分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "3 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-01-27",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜6×600m even splits",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10分鐘 → 6×600m，間隔90–120秒Easy",
-                  "WOD Wall Ball高量時不要跑到極速"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-28",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "65–80分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 30–38分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
                   "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 2×10/側（控制身體旋轉）"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 15–18分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-01-29",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜WALL BALL RESILIENCE",
-            "time": "30分鐘主課＋暖身/收操",
+            "time": "28–32分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 28–32分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 400m → Wall Ball 12–15次（可分組）",
                   "DB Reverse Lunge 10次（左右各5）→ SkiErg 200m",
                   "每輪休60–75秒；動作no-rep多時先縮量"
                 ],
                 "format": "4 rounds / rest 60–75 sec / RPE8"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 8",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-01-30",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "65分鐘 · RPE3–4",
+              "steps": [
+                "65分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "6×600m even splits",
+              "steps": [
+                "暖身10分鐘 → 6×600m，間隔90–120秒Easy",
+                "WOD Wall Ball高量時不要跑到極速"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W12",
@@ -10188,45 +9886,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-01-31",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "45 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Low-stress Erg",
+            "time": "24 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 45分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續45分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "24 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-02-01",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 4–5",
                   "Romanian Deadlift 1×8 @RIR4",
@@ -10236,7 +9921,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -10244,30 +9929,45 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE4–5"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-02-02",
+            "kind": "station",
+            "title": "Technical Reset",
+            "time": "16分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 120m → RowErg 140m",
+                  "輕 Farmer Carry 20m"
+                ],
+                "format": "E4MOM × 4，RPE4"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-02-03",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 4–5",
                   "Chest-supported Row 2×8–12 @RIR 4–5",
@@ -10277,152 +9977,121 @@
                 "format": "2 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "2 rounds / rest75–90秒 / RPE4–5"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-02-03",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜Deload · 20–30min easy",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "Easy 20–30分鐘（恢復好才做3次10秒舒適加速）",
-                  "減量不追長距離"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-04",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 4–5",
+                  "Bench Press 2×6–8 @RIR 4–5（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR4",
-                  "DB Shoulder Press 1×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 1×8–10"
                 ],
-                "format": "2 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 8–10分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "2 rounds / rest 60–90秒 / RPE4–5"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-02-05",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜QUALITY RESET",
-            "time": "16分鐘主課＋暖身/收操",
+            "time": "16分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 16分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "M1 SkiErg 120m；M2 RowErg 140m",
-                  "M3 Wall Ball 6次",
+                  "M3 Wall Ball 6次（姿勢優先）",
                   "M4 休息；下肢有症狀取消Wall Ball"
                 ],
                 "format": "EMOM4 ×4 / RPE4–5"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 4",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-02-06",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "45分鐘 · RPE3–4",
+              "steps": [
+                "45分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "Deload · 20–30min easy",
+              "steps": [
+                "Easy 20–30分鐘（恢復好才做3次10秒舒適加速）",
+                "減量不追長距離"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W13",
@@ -10947,45 +10616,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-02-07",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "60 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Station Aerobic 35",
+            "time": "35 分 · RPE5",
             "sections": [
               {
-                "name": "力量／增肌 · 60分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續60分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "35 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-02-08",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 3–4",
                   "Romanian Deadlift 1×8 @RIR3",
@@ -10995,7 +10651,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -11003,32 +10659,47 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-02-09",
+            "kind": "station",
+            "title": "Race-pace Erg 30",
+            "time": "30分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 250m → RowErg 200m",
+                  "Carry 35m，輪間休60秒"
+                ],
+                "format": "5 rounds，RPE7"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-02-10",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4",
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR3",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -11036,152 +10707,121 @@
                 "format": "2 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 8–10分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "2 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-02-10",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜4×1km sustainable",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身12分鐘 → 4×1km按預期HYROX跑步節奏，間隔2分鐘Easy",
-                  "不是純跑步400m PR的強度"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-11",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
                   "Chest-supported Row 2×8–12 @RIR 3–4",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
                 ],
-                "format": "2 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 10–12分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "2 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-02-12",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜RACE ORDER BRICK",
-            "time": "30分鐘主課＋暖身/收操",
+            "time": "28–32分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 28–32分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 500m → SkiErg 200m（奇數輪）／RowErg 200m（偶數輪）",
                   "Farmer Carry 30m → Wall Ball 8次",
                   "每輪休60秒，練過站後跑速與換站"
                 ],
                 "format": "4 rounds / RPE7–8"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-02-13",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "60分鐘 · RPE3–4",
+              "steps": [
+                "60分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "4×1km sustainable",
+              "steps": [
+                "暖身12分鐘 → 4×1km按預期HYROX跑步節奏，間隔2分鐘Easy",
+                "不是純跑步400m PR的強度"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W14",
@@ -11706,45 +11346,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-02-14",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "45 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Pre-Simulation Aerobic",
+            "time": "25 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 45分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "前一天縮量模擬後，做35–45分鐘Easy（跑或Bike）；不可追配速",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "25 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 10–15分鐘",
-                "lines": [
-                  "僅做活動度／很輕鬆Ski 5分鐘，觀察第二天恢復",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-02-15",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 3–4",
                   "Romanian Deadlift 1×8 @RIR3",
@@ -11754,7 +11381,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -11762,30 +11389,46 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-02-16",
+            "kind": "station",
+            "title": "Pre-simulation Ski / Row",
+            "time": "20分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 4×2分鐘",
+                  "RowErg 4×2分鐘",
+                  "穿插Easy恢復"
+                ],
+                "format": "Easy intervals，RPE4–5"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-02-17",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
+            "title": "PULL｜背部增肌＋拉站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
                   "Chest-supported Row 2×8–12 @RIR 3–4",
@@ -11795,152 +11438,120 @@
                 "format": "2 sets（主項）/ 75–120s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
                 "format": "2 sets"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "SkiErg 180m → Sled Pull 10m（中低技術重量）",
                   "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                  "休息75–90秒"
                 ],
                 "format": "2 rounds / rest75–90秒 / RPE7"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-02-17",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜Simulation week · 25min easy",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "本週WOD做縮量模擬，Petra跑課改Easy 25分鐘＋少量技術加速",
-                  "保留週末模擬品質，不另加高強度間歇"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-18",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PUSH｜胸肩補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4",
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR3",
-                  "DB Shoulder Press 1×8–10",
-                  "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
+                  "DB Shoulder Press 1×8–10"
                 ],
-                "format": "2 sets（主項）/ 75–150s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
-                "format": "2 sets / controlled"
-              },
-              {
-                "name": "Station 組合 · 8–10分鐘",
-                "lines": [
-                  "8 DB Push Press",
-                  "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
-                  "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
-                ],
-                "format": "2 rounds / rest 60–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-02-19",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜CONTROLLED HYROX SIM · 60–70%",
-            "time": "45分鐘主課＋暖身/收操",
+            "time": "45–60分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 45–60分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "依場館動線完成4×600–800m Run，間隔輪替Ski 500m／Sled Push 25m／Sled Pull 25m／Row 500m",
                   "另以獨立短段體驗Farmer Carry 80m、Lunge 30–40m、Wall Ball 30次、Burpee Broad Jump 20m（可分組）",
                   "遵守賽事站點動作標準但非全量；每站或每跑段依動線調整，不當正式完賽模擬"
                 ],
                 "format": "縮量模擬 / RPE7–8（非全速）"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 8",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-02-20",
-            "kind": "aerobic",
-            "kindLabel": "低強度恢復",
-            "title": "模擬後第2天｜Easy恢復測試",
-            "time": "20–30 分 · RPE3",
+            "kind": "station",
+            "title": "模擬後｜輕鬆Station恢復",
+            "time": "15–20分鐘 · RPE3",
             "sections": [
               {
-                "name": "Easy Aerobic",
+                "name": "恢復性有氧",
                 "lines": [
-                  "20–30分鐘 Easy Bike／慢跑，能完整說話",
-                  "不做第二堂全速WOD；觀察前一天站點後的腿部協調"
-                ]
+                  "SkiErg 5分鐘 → RowErg 5分鐘",
+                  "剩餘時間輕鬆活動，保持低強度"
+                ],
+                "format": "隔日恢復測試"
               }
             ],
-            "source": "rest",
-            "summary": "W14 雙日演練：第2天只檢驗恢復和動作",
-            "optional": false
+            "subtitle": "W14模擬後，檢查第二天是否能輕鬆活動"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 0,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 0
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "45分鐘 · RPE3–4",
+              "steps": [
+                "45分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "Simulation week · 25min easy",
+              "steps": [
+                "保留週末模擬品質，不另加高強度間歇"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W15",
@@ -12465,45 +12076,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-02-21",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "50 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Erg Pace Reset",
+            "time": "30 分 · RPE4",
             "sections": [
               {
-                "name": "力量／增肌 · 50分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續50分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "30 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
-              },
-              {
-                "name": "功能穩定 · 15–25分鐘",
-                "lines": [
-                  "SkiErg 4×2分鐘Easy（中間1分鐘恢復）",
-                  "Face Pull 2×12＋Pallof Press 2×10/側（可省略）",
-                  "不硬排第2個HIIT；家庭時間不足直接取消PM"
-                ],
-                "format": "至少間隔6小時；RPE3–5"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-02-22",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 2×6–8 @RIR 3–4",
                   "Romanian Deadlift 1×8 @RIR3",
@@ -12513,7 +12111,7 @@
                 "format": "2 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -12521,32 +12119,47 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 10–12分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒",
-                  "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                  "Easy RowErg 120–150m → 休90秒"
                 ],
                 "format": "2 rounds / rest90秒 / RPE6"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-02-23",
+            "kind": "station",
+            "title": "Ski Pace 25",
+            "time": "25分鐘",
+            "sections": [
+              {
+                "name": "Station 有氧／節奏",
+                "lines": [
+                  "SkiErg 200m → RowErg 200m",
+                  "各輪間休75秒"
+                ],
+                "format": "5 rounds，RPE6"
+              }
+            ],
+            "subtitle": "Station 心肺主導 · Ski 優先"
+          },
+          {
+            "day": "wed",
+            "dayZh": "週三",
+            "date": "2027-02-24",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Push｜胸肩增肌＋推站點",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 2×6–8 @RIR 3–4",
+                  "Bench Press 2×6–8 @RIR 3–4（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR3",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 2×12–15 + Triceps Pressdown 2×10–15"
@@ -12554,152 +12167,121 @@
                 "format": "2 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 8–10分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "8 DB Push Press",
+                  "8 DB Push Press（輕重量；肩膀疲勞大時改6次）",
                   "Wall Ball 8次（6kg，若動作品質足夠）→ Push-up 8次",
                   "每輪休60–90秒；腿日與WOD含大量Wall Ball時改Easy Bike 6分鐘"
                 ],
                 "format": "2 rounds / rest 60–90秒 / RPE7"
               }
             ],
-            "source": "push",
-            "summary": "本週重點上肢：PUSH；先增肌，後練同主題 Station",
-            "optional": false
-          },
-          {
-            "day": "wed",
-            "dayZh": "週三",
-            "date": "2027-02-24",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜2×8min controlled tempo",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "暖身10分鐘 → 2×8分鐘穩態Tempo，間隔3分鐘Easy",
-                  "訓練節奏感，避免最後兩週疲勞增加"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
+            "subtitle": "力量主導 · 上肢重點"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-25",
             "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PULL 增肌＋技巧",
-            "time": "45–65分鐘",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
             "sections": [
               {
-                "name": "力量／增肌 · 23–30分鐘",
+                "name": "力量增肌",
                 "lines": [
                   "Pull-up／Lat Pulldown 2×6–10 @RIR 3–4",
                   "Chest-supported Row 2×8–12 @RIR 3–4",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
                 ],
-                "format": "2 sets（主項）/ 75–120s rest"
+                "format": "前半段 25–35分鐘"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "功能技巧",
                 "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
+                  "Suitcase Carry 25m/側（中等握持負重）"
                 ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 10–12分鐘",
-                "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
-                ],
-                "format": "2 rounds / rest75–90秒 / RPE7"
+                "format": "8–10分鐘"
               }
             ],
-            "source": "pull",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-02-26",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜SHARP 4× RUN/STATION",
-            "time": "22分鐘主課＋暖身/收操",
+            "time": "20–24分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 20–24分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Run 300m → Ski 150m（1、3輪）或 Row 150m（2、4輪）",
                   "Wall Ball 8次 → Farmer Carry 20m",
                   "輪間休60–90秒；減量但留動作節奏"
                 ],
                 "format": "4 rounds / RPE6–7"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 7",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-02-27",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "50分鐘 · RPE3–4",
+              "steps": [
+                "50分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "2×8min controlled tempo",
+              "steps": [
+                "暖身10分鐘 → 2×8分鐘穩態Tempo，間隔3分鐘Easy",
+                "訓練節奏感，避免最後兩週疲勞增加"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W16",
@@ -13209,36 +12791,32 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2027-02-28",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "Long Easy｜有氧耐力",
-            "time": "30 分 · RPE 3–4",
+            "kind": "station",
+            "title": "Taper Aerobic",
+            "time": "18 分 · RPE3",
             "sections": [
               {
-                "name": "力量／增肌 · 30分鐘",
+                "name": "Ski / Row 有氧",
                 "lines": [
-                  "連續30分鐘可對話Easy Run；若膝蓋、小腿不舒服改Bike/Row",
-                  "Garmin只記實際跑步公里；其他Erg分鐘不算跑量",
-                  "若跑姿異常、疼痛或腫脹增加，停止並觀察／尋求醫療評估"
+                  "18 分鐘連續低至中強度，呼吸均勻",
+                  "SkiErg 3–5分鐘 → RowErg 3–5分鐘，交替進行",
+                  "中間可插入輕 Farmer Carry 20–30m，保持節奏"
                 ],
-                "format": "能聊天 / easy aerobic"
+                "format": "穩定心肺、不衝刺"
               }
             ],
-            "source": "easy",
-            "summary": "低強度、能完整說話；晚上有空可選低強度 Ski／核心",
-            "optional": false
+            "subtitle": "Station 心肺主導"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2027-03-01",
             "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Legs｜增肌＋單腿穩定",
+            "title": "LEGS｜腿臀增肌＋穩定",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 15–20分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 1×6–8 @RIR 5–5",
                   "Romanian Deadlift 1×8 @RIR5",
@@ -13248,7 +12826,7 @@
                 "format": "1 sets（主項）/ 90–180s rest"
               },
               {
-                "name": "功能穩定 · 8–10分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
                   "Low Step-down 2×8/側（緩慢離心）",
                   "Single-leg RDL Reach 2×8/側；無症狀可加Standing/Bent-knee Calf Raise 1–2組"
@@ -13256,93 +12834,47 @@
                 "format": "2 sets / slow"
               },
               {
-                "name": "Station 組合 · 6–8分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
                   "Bike 2分鐘 → 8次無痛Sit-to-Stand",
-                  "長休息；若小腿/膝蓋不適直接省略"
+                  "長休息"
                 ],
                 "format": "2 easy rounds / RPE4–5"
               }
             ],
-            "source": "legs",
-            "summary": "深蹲／RDL為主，後段單腿穩定與 Sled",
-            "optional": false
+            "subtitle": "力量主導 · 單腿補強"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-03-02",
-            "kind": "strength",
-            "kindLabel": "力量主導",
-            "title": "Pull｜背部增肌＋拉站點",
-            "time": "45–65分鐘",
+            "kind": "station",
+            "title": "Short Station Touch",
+            "time": "12分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 15–20分鐘",
+                "name": "Station 有氧／節奏",
                 "lines": [
-                  "Pull-up／Lat Pulldown 1×6–10 @RIR 5–5",
-                  "Chest-supported Row 1×8–12 @RIR 5–5",
-                  "Single-arm Cable Row 1×10/側（控制身體旋轉）",
-                  "Rear Delt Fly 1×12–15 + Hammer Curl 1×10–12"
+                  "SkiErg 100m → RowErg 120m",
+                  "M3簡單Carry 15m，M4休息"
                 ],
-                "format": "1 sets（主項）/ 75–120s rest"
-              },
-              {
-                "name": "功能穩定 · 8–10分鐘",
-                "lines": [
-                  "Suitcase Carry 25m/側（中等握持負重）",
-                  "Dead Bug 8/側＋Face Pull 12次"
-                ],
-                "format": "2 sets"
-              },
-              {
-                "name": "Station 組合 · 6–8分鐘",
-                "lines": [
-                  "SkiErg 100–120m → RowErg 120–140m",
-                  "走動或休息60–90秒，姿勢保持一致"
-                ],
-                "format": "2 easy rounds / RPE4–5"
+                "format": "EMOM4 × 3，RPE3–4"
               }
             ],
-            "source": "pull",
-            "summary": "本週重點上肢：PULL；先增肌，後練同主題 Station",
-            "optional": false
+            "subtitle": "Station 心肺主導 · Ski 優先"
           },
           {
             "day": "wed",
             "dayZh": "週三",
             "date": "2027-03-03",
-            "kind": "aerobic",
-            "kindLabel": "心肺主導",
-            "title": "跑步間歇｜Taper · 20min easy + 3 strides",
-            "time": "35–60分鐘（含暖身與收操）",
-            "sections": [
-              {
-                "name": "力量／增肌 · 主工作段",
-                "lines": [
-                  "Easy 20分鐘，3×10秒放鬆加速",
-                  "W16以休息和腿部輕快感為核心"
-                ],
-                "format": "依Petra當週實際課表優先"
-              }
-            ],
-            "source": "interval",
-            "summary": "以跑步品質為主，當天不加重腿或額外WOD",
-            "optional": false
-          },
-          {
-            "day": "thu",
-            "dayZh": "週四",
-            "date": "2027-03-04",
-            "kind": "optional",
-            "kindLabel": "選配力量",
-            "title": "選配｜PUSH 增肌＋技巧",
+            "kind": "strength",
+            "title": "PUSH｜胸肩增肌＋推站點",
             "time": "45–65分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 15–20分鐘",
+                "name": "A｜增肌力量",
                 "lines": [
-                  "Bench Press 1×6–8 @RIR 5–5",
+                  "Bench Press 1×6–8 @RIR 5–5（保留完整休息；工作重量依當天熱身）",
                   "Incline DB Press 2×8–12 @RIR5",
                   "DB Shoulder Press 1×8–10",
                   "Lateral Raise 1×12–15 + Triceps Pressdown 1×10–15"
@@ -13350,88 +12882,118 @@
                 "format": "1 sets（主項）/ 75–150s rest"
               },
               {
-                "name": "功能穩定 · 8分鐘",
+                "name": "B｜穩定補強",
                 "lines": [
-                  "Half-kneeling Landmine Press 2×8/側",
+                  "Half-kneeling Landmine Press 2×8/側（輕）",
                   "Pallof Press 2×10/側（停頓1秒）"
                 ],
                 "format": "2 sets / controlled"
               },
               {
-                "name": "Station 組合 · 6–8分鐘",
+                "name": "C｜Station 組合",
                 "lines": [
-                  "Push-up 6–8次 → Wall Ball 5–6次（小腿無痛才做）",
-                  "呼吸慢慢恢復60–90秒；小腿或膝蓋有反應就略過Wall Ball"
+                  "Push-up 6–8次 → Wall Ball 5–6次"
                 ],
                 "format": "2 rounds / RPE4–5"
               }
             ],
-            "source": "push",
-            "summary": "第六堂選配，時間有限就休息；Petra Strength／Skill可安排在這天",
-            "optional": true
+            "subtitle": "力量主導 · 上肢重點"
+          },
+          {
+            "day": "thu",
+            "dayZh": "週四",
+            "date": "2027-03-04",
+            "kind": "optional",
+            "title": "PULL｜背部補強（選配）",
+            "time": "40–55分鐘（選配）",
+            "sections": [
+              {
+                "name": "力量增肌",
+                "lines": [
+                  "Pull-up／Lat Pulldown 1×6–10 @RIR 5–5",
+                  "Chest-supported Row 1×8–12 @RIR 5–5",
+                  "Single-arm Cable Row 1×10/側（控制身體旋轉）"
+                ],
+                "format": "前半段 25–35分鐘"
+              },
+              {
+                "name": "功能技巧",
+                "lines": [
+                  "Suitcase Carry 25m/側（中等握持負重）"
+                ],
+                "format": "8–10分鐘"
+              }
+            ],
+            "subtitle": "有時間再練，也可以安排 Petra 力量／技巧"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-03-05",
             "kind": "mixed",
-            "kindLabel": "混合訓練",
             "title": "HYROX WOD｜TAPER TOUCH",
-            "time": "12分鐘主課＋暖身/收操",
+            "time": "10–12分鐘",
             "sections": [
               {
-                "name": "力量／增肌 · 10–12分鐘",
+                "name": "WOD 組合",
                 "lines": [
                   "Ski 120m → Row 120m",
                   "Wall Ball 5–6次（無痛且精準）→ 休60–90秒",
                   "不做乳酸堆積、雪橇衝刺與大組Lunge"
                 ],
                 "format": "3 easy rounds / RPE3–4"
-              },
-              {
-                "name": "功能穩定 · 2–4分鐘",
-                "lines": [
-                  "記錄每輪時間、配速變化、實際使用重量與當下RPE",
-                  "隔天小腿、膝蓋與疲勞反應；若高強度Petra已做，本WOD由Petra替代"
-                ],
-                "format": "簡短記錄，不追加強度"
               }
             ],
-            "source": "wod",
-            "summary": "本週唯一正式 WOD · 目標 RPE 4",
-            "optional": false
+            "subtitle": "本週獨立 WOD · 站點組合"
           },
           {
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-03-06",
             "kind": "rest",
-            "kindLabel": "休息",
             "title": "休息／活動度",
-            "time": "20–30 分（選配）",
+            "time": "自由安排",
             "sections": [
               {
-                "name": "休息日",
+                "name": "恢復",
                 "lines": [
-                  "散步、輕鬆活動度或完全休息",
-                  "不安排正式力量或高強度心肺訓練"
-                ]
+                  "休息、散步或輕鬆活動度",
+                  "不安排高強度Station課"
+                ],
+                "format": ""
               }
             ],
-            "source": "rest",
-            "summary": "保留恢復，為下一週Long Easy做準備",
-            "optional": false
+            "subtitle": "保留恢復時間"
           }
         ],
         "weeklyBalance": {
           "strengthDays": 2,
-          "aerobicDays": 2,
-          "mixedDays": 1,
-          "optionalDays": 1,
-          "restDays": 1,
-          "note": "2天力量主導＋2天心肺主導＋1天WOD；週四可選上肢增肌"
+          "stationCardioDays": 2,
+          "wodDays": 1,
+          "optionalStrengthDays": 1,
+          "restDays": 1
         },
-        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。"
+        "programmingNote": "先保留力量課的機械張力與完整休息，再做短功能站點；跑步間歇和WOD各一堂，避免每日都練到高心率。",
+        "runningPlan": {
+          "note": "跑步單獨安排，不佔星期日到星期六的 Station／力量主課；建議把品質跑與WOD或重腿錯開。",
+          "sessions": [
+            {
+              "name": "Easy / Long Run",
+              "dose": "30分鐘 · RPE3–4",
+              "steps": [
+                "30分鐘可完整說話的輕鬆跑",
+                "依最近實際跑量與恢復調整，不用固定跑速"
+              ]
+            },
+            {
+              "name": "Quality / Interval",
+              "dose": "Taper · 20min easy + 3 strides",
+              "steps": [
+                "W16以休息和腿部輕快感為核心"
+              ]
+            }
+          ]
+        }
       },
       {
         "id": "W17",
@@ -13621,7 +13183,7 @@
             "day": "tue",
             "dayZh": "週二",
             "date": "2027-03-09",
-            "kind": "aerobic",
+            "kind": "run",
             "kindLabel": "心肺主導",
             "title": "Easy Run＋短加速",
             "time": "20–25 分",
@@ -13685,7 +13247,7 @@
             "day": "fri",
             "dayZh": "週五",
             "date": "2027-03-12",
-            "kind": "mixed",
+            "kind": "race",
             "kindLabel": "混合訓練",
             "title": "HYROX MIXED DOUBLES｜和 Stacy",
             "time": "正式比賽",
@@ -13708,7 +13270,7 @@
             "day": "sat",
             "dayZh": "週六",
             "date": "2027-03-13",
-            "kind": "mixed",
+            "kind": "race",
             "kindLabel": "混合訓練",
             "title": "HYROX MEN OPEN｜男單",
             "time": "正式比賽",
@@ -13730,13 +13292,17 @@
         ],
         "weeklyBalance": {
           "strengthDays": 1,
-          "aerobicDays": 1,
-          "mixedDays": 2,
-          "optionalDays": 0,
-          "restDays": 3,
-          "note": "雙日比賽週"
+          "stationCardioDays": 0,
+          "wodDays": 0,
+          "raceDays": 2,
+          "optionalStrengthDays": 0,
+          "restDays": 3
         },
-        "programmingNote": "賽事週：依週日到週六顯示，不加正式WOD。"
+        "programmingNote": "賽事週：依週日到週六顯示，不加正式WOD。",
+        "runningPlan": {
+          "note": "比賽週不安排額外訓練跑；週二只保留非常輕鬆的短跑啟動。",
+          "sessions": []
+        }
       }
     ],
     "design": {
@@ -13751,7 +13317,7 @@
       "strengthLoad": "未有可靠1RM或實際工作重量，主項以RIR2–3選工作重量，恢復週RIR4+。必要時不做重腿而保留上肢和Easy。",
       "calfGate": "若小腿仍明顯痛、步態異常或提踵不舒適，先停止快速跑、爆發雪橇和Wall Ball大組；恢復後依翌日反應漸進，若症狀持續需臨床評估。",
       "worldGym": {
-        "philosophy": "Strength-focused days = hypertrophy first then related functional station combos; aerobic-focused days = Long Easy / intervals, no extra heavy lifts; mixed WOD = separate hybrid station day. Optional upper day is not required and no question UI.",
+        "philosophy": "Strength+Station cardio distribution: two primary strength days, two station-based cardio days (Ski/Row/Sled/Carry; Sun Easy, Tue progressive), one mixed station WOD, optional upper day, one rest day. Running is extra flexible separate section.",
         "equipment": [
           "Back/Front Squat",
           "Bench",
@@ -13770,7 +13336,7 @@
         "calf": "2026-11-12後小腿嚴重痠痛，恢復前不做Burpee Broad Jump、跳躍雪橇、高量Wall Ball或快跑。站姿/屈膝提踵須症狀穩定後漸進。",
         "equipmentStatus": "壺鈴、草地與已確認Erg/Sled/WB可用；Sandbag尚未證實，課表已設壺鈴替代方案。"
       },
-      "programModel": "17 consecutive Sunday-to-Saturday calendar weeks. 5 core sessions: Sun Long Easy (aerobic), Mon Legs strength+skill, Tue upper Push/Pull strength, Wed Interval (aerobic), Fri 1 WOD (mixed); Thu optional other upper/Petra Strength or Skill, Sat recovery. W14 day-2 easy recovery test Sat. W17 is Sunday March7 to Saturday March13 with Fri/Sat races.",
+      "programModel": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
       "weeklyTemplate": "週日Long Easy（可選晚間簡單Ski/core）、週一增肌+同主題功能、週二Petra選修、週三Interval、週四增肌+同主題功能、週五休息、週六HYROX WOD。W14例外為週五縮量模擬、週六Day2 Easy。W17為週五混雙週六男單。"
     },
     "science": [
@@ -13823,8 +13389,8 @@
     "weekEnd": "SATURDAY"
   },
   "programArchitecture": {
-    "version": "2026-11-14-sunday-week-simple-v7",
-    "rationale": "17 consecutive Sunday-to-Saturday calendar weeks. 5 core sessions: Sun Long Easy (aerobic), Mon Legs strength+skill, Tue upper Push/Pull strength, Wed Interval (aerobic), Fri 1 WOD (mixed); Thu optional other upper/Petra Strength or Skill, Sat recovery. W14 day-2 easy recovery test Sat. W17 is Sunday March7 to Saturday March13 with Fri/Sat races.",
+    "version": "2026-11-14-sunday-station-cardio-v8",
+    "rationale": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
     "evidence": [
       {
         "title": "HWPO HYROX official programming",
@@ -13870,5 +13436,5 @@
     "wodStyle": "Screenshot-inspired 4-round DB WOD + periodized EMOM/AMRAP/Sled-Run bricks, never WOD on top of Petra WOD.",
     "defaultView": "17週重點 + 星期日至星期六每日訓練"
   },
-  "weeklyScheduleNotes": "Sunday–Saturday 5-core-day fixed weekly schedule; Thursday optional; no manual Petra/recovery questions. Planned weak-point strengthening remains embedded in Legs/Pull/Push classes and WOD."
+  "weeklyScheduleNotes": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom."
 }
