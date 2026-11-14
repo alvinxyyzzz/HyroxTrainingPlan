@@ -33,7 +33,7 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Two Connected Tracks v2.5 · 2026-11-14
+## Two Connected Tracks v2.6 · 2026-11-14 Push kickoff
 
 The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Petra (strength + station main line)**, **Running (separate flexible line)**, and **Data**. Weekly selection is shared. DO NOT reintroduce user-input controls for Petra type, soreness, weakness, 5/6 days or extra replacement configuration. No complicated substitution text on workout cards.
 
@@ -43,6 +43,14 @@ The public Web App has FOUR navigation tabs: **17-week roadmap**, **World Gym/Pe
 - `seasonPlan.weeks[].runningTrack` = independent reference weekly mileage range and THREE flexible run options: Easy Run, Long Easy, Interval/Threshold (except race week). Run entries are **not fixed to weekdays**; morning opportunities are welcome, distance ranges are guidelines rather than required quotas. Old `runningPlan` is a historical legacy field and not displayed.
 - `weeks[].trainingIntegration` = how combined hard sessions are managed. Running Quality + WOD generally supply two hard stimuli. Tuesday Station intervals are controlled moderate intensity, not a third all-out HIIT session when running Quality is included.
 - `weeks[].gymTrack` = metadata for the main gym/station track. `dailyPlan` remains the displayed class details.
+
+
+### Saturday Nov 14 kickoff and week continuity
+- **Kickoff class is on 2026-11-14 (Saturday)** and is explicitly visible in the roadmap and at the top of gym Week W01. It is a standalone full **Push hypertrophy + functional + Wall Ball/Sled Push technique** day (Bench 3×6–8, Incline DB 3×8–10, Shoulder 2×8–10, accessories + functional, then controlled station circuit).
+- **W01 remains Sunday Nov 15 → Saturday Nov 21**. Do not shift the weekly Sunday-first convention or lose 17 full weeks up to the Mar 13 race.
+- To avoid duplicate pressing immediately after kickoff, W01 Wednesday is **Pull hypertrophy + Pull Station**, Thursday is only an optional lighter Push accessory/Petra skill session. W02 Wednesday is Push, W03 Wednesday Pull as planned by progression.
+- Running track remains separate and begins with W01 Nov 15, with flexible morning placement, not a Saturday-start week. A 2026-11-14 lifting kickoff does **not** count as an extra running workout.
+- Public UI source is `seasonPlan.kickoff` for kickoff and `seasonPlan.weeks[0].dailyPlan` for W01; the kickoff must not be counted twice or be misreported as a completed workout. This is the scheduled workout; actual weights, reps and attendance require later confirmation.
 
 ### Gym Track: fixed Sunday→Saturday recommendation
 Sunday low-intensity Ski/Row aerobic base; Monday Legs hypertrophy + unilateral stability and sled technique; Tuesday Ski/Row/Sled/Carry engine at controlled intensity; Wednesday Push or Pull hypertrophy + function; Thursday OPTIONAL complementary upper hypertrophy or Petra Strength/Skill; Friday ONE WOD (World Gym fallback or Petra WOD if actually attended); Saturday rest. W14 is shortened simulation plus light recovery day; W16 taper and W17 Friday/Saturday races. Strength classes start with mechanical tension then short relevant station circuits.
