@@ -1,54 +1,93 @@
-# HYROX PERFORMANCE LAB · v1.3
+# HYROX PERFORMANCE LAB · v1.4
 
-**Release date:** 2026-11-14. **Training evidence verified through:** 2026-11-13 (prior Garmin/Petra snapshot). This is a programming revision, **not** a fresh private Garmin API sync.
+**Release:** 2026-11-14. **Training-data snapshot verified through:** 2026-11-13 (NOT refreshed for this programming release).
 
-**Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
-**Master Google Sheet:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+**Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
+**Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
 
-## Why v1.3 was necessary
+## Why v1.4
 
-The previous v1.2 combined upper push/pull work on Tuesday, put recovery on Friday despite Alvin normally working from home and likely going to World Gym, and showed multiple 2-round station segments after strength as though they were a complete station workout. This release audits and rewrites **all 17 weeks' visible daily plan cards** and session classPlan aliases to distinguish independent strength, station main, technique finishers, and genuine recovery.
+v1.3 corrected the weekday schedule and separated Legs/Pull/Push, but it still trained too few race-specific stations (especially Burpee Broad Jump, Sandbag Lunge and Wall Ball) and treated running and stations as mostly disconnected. v1.4 delivers a race-specific, periodized 17-week plan with explicit cumulative station exposure, conditional 400–800m run→station→run sessions, a third short easy run when recovered, and a **user-adjustable week readiness view**.
 
-## PPL: three main World Gym strength days
+**Critical distinction:** Training prescriptions are **planned**, not completed sessions. A local UI selection does not update Garmin or Google Sheets or verify that Alvin actually attended Petra.
 
-- **MON · LEGS:** Main Squat + Hinge/Trap-bar variation, followed by unilateral leg, hamstring and knee control; primary lifts generally 2–3 work sets by phase with RIR / real kg logged. **0–2 easy rounds** of Sled Push + Row are optional technique, **NOT Station main**.
-- **TUE · PULL:** Lat Pulldown / assisted pull-up, Chest-supported Row, optional 1-arm Row, Face Pull and biceps. Optional Easy SkiErg **6–12 minutes RPE3–4** for technique; not a second high-intensity station main. No heavy squat/hinge in the pull day.
-- **FRI · PUSH:** Normally World Gym while WFH, and considered a high-likelihood training anchor, not a recovery day. Bench, Incline Dumbbell Press, Shoulder Press, Lateral Raise, Triceps. Wall Ball **0–2 easy skill rounds**, not main Station. **W14 is exception**: Friday abbreviated eight-station simulation replaces full Push day; W17 is race week.
-- Main sets 2–3, assistance 1–3 depending on training phase and fatigue. Progressive resistance work requires logging actual kg/reps/RIR rather than fictitious one-rep-max values. Some cross-muscle accessory is reasonable but the *main intent* is deliberately separated Legs / Pull / Push. ACSM 2026 evidence: https://pubmed.ncbi.nlm.nih.gov/41843416/
+## Fixed user constraints
 
-## Petra exact availability and substitutions
+- **World Gym PPL:** **MON LEGS** (Squat + Hinge), **TUE PULL** (Pulldown + Row), **FRI PUSH** (Bench/Incline/Shoulder). Friday is typically WFH and World Gym is **high-probability**. Push exercise loads can be downscaled when fatigue is high.
+- **Petra Strength/Skill:** ONLY SUN or MON or TUE, **at most one class among those days per week**, entirely OPTIONAL. Its confirmed actual work replaces corresponding WorldGym muscle work, not an extra required workout. Low-intensity Skill is not automatically equivalent to heavy Strength. If Sun Petra, Long Easy may shift or shorten. Tue Petra removes the suggested Tue AM third easy run.
+- **Petra WOD:** WEDNESDAY ONLY, approximately alternate weeks if attended; never infer attendance from class whiteboard photos. If Wed Petra WOD was hard, Thu Petra running scales to Easy/Technique and **SAT main Station / RunStation is cancelled**; if Thu class cannot scale, prefer skipping Wed hard WOD beforehand.
+- **Petra Running Interval:** Every THURSDAY, **NO World Gym Thursday**; Thu is the primary running quality class if not preceded by hard Wed Petra WOD. W16 taper reduces it and W17 race week skips it entirely.
+- **Running:** Sun movable Long Easy, Thu Petra Interval, **Tue AM short Easy 15–35 min preferred if recovered** (optional, skip when Mon Legs DOMS, Petra Tue, planned Wed hard WOD, injury warning, lack of recovery). Garmin counts only actual running. Do not force target kilometers from prescribed weekly ranges.
+- **One main HYROX station session:** Typically Saturday (unless W14 special Friday rehearsal). **Choose one** of a 4–5-round indoor Ski/Row/Sled/Carry/WB station main OR an outdoor safe, actually connected Run→Station workout. Do not stack both. If Wed hard WOD attended, it substitutes for the main station.
 
-- **Petra Strength or Skill:** only **SUN, MON, or TUE**, up to **one of those three days per week**, **entirely optional**. If attended, classify actual exercise / muscle group / session RPE and **replace matching World Gym work**, not add a compulsory fourth hard strength day. A low-intensity Skill class is not automatically equivalent to all heavy work sets. Sunday Petra class can substitute for or displace scheduled Long Easy. Do not force makeup sessions.
-- **Petra WOD:** **WED ONLY**, optional approximately every other week. Actual attendance must be confirmed with the athlete; a Petra whiteboard photo alone does not prove attendance. A hard Wed Petra WOD replaces the Saturday hard station main. If Wednesday WOD was hard, Thursday running must be scaled or Wednesday WOD skipped.
-- **Petra Running Interval:** **THU EVERY WEEK** (unless deload symptoms or race week adjustment); **no World Gym Thursday**. When Wed was not a hard WOD, Thursday is the main quality running class RPE7–8, actual workout from Petra coach. If Wed was hard, attend only easy/technique or coach-downscaled class RPE4–5; if scaling is not possible, prioritize Thu run and skip Wed hard WOD.
+## Race-specific training, safe venue requirement
 
-## Main Station versus strength finisher
+Official HYROX format: **8×1km runs**, with stations in fixed order SkiErg 1000m, Sled Push 50m, Sled Pull 50m, Burpee Broad Jump 80m, Row 1000m, Farmers Carry 200m, Sandbag Lunges 100m, Wall Balls 100. Mixed Doubles and Men Open division equipment goals must follow the official **current** race rulebook and actual local surface friction: for the 2025/26 Men/Mixed rules, **Carry 2×24kg, Lunge 20kg, WB 6kg, Sled Push total incl. sled 152kg and Pull total incl. sled 103kg**. Do not assume that displayed local gym plates are equivalent to including-sled competition loads.
 
-- **Real Station main** is typically **Saturday 4–5 ROUNDS and ~22–40 minutes** with deliberate 60–90 s rest between rounds, **only when no hard Wed Petra WOD** and recovery after Thu running is sufficient.
-  - Early foundation: 4 rounds (example: Ski 350m → Farmer Carry 35m → Wall Ball 8–10; rest 75–90s).
-  - Build / transfer: 5 rounds (e.g., Ski 400–450m → Carry 40m → Wall Ball 10–12; or Row 300–350m → Sled Push 12.5–15m → Sled Pull 12.5–15m).
-  - Race-specific W13: 5 rounds SkiErg 500m + Carry + Wall Ball if recovered.
-  - W15: 4 rounds sharpen, avoiding last-minute huge cumulative load.
-- **A technique Finisher is separate**: 0–2 easy rounds after Mon Legs or Fri Push, RPE≤5, and never counted as Station main. W01 recovery and W04/W08/W12 deload and W16 taper legitimately show only 0–3 easy rounds with role **TECHNIQUE_ONLY**, not a misleading under-dosed main workout.
-- **W14 simulation:** Fri WFH World Gym **abbreviated eight-station flow once**, Saturday easy Day2 recovery. It **does not** reproduce the official HYROX 8×1km run and is explicitly labeled as an abbreviated station rehearsal.
-- SkiErg takes priority for station engine development, but RowErg, Sled push/pull, Carry, Lunges and Wall Balls are included. World Gym station main can avoid treadmill entirely; user still trains independent running (Thu Petra, Sun or other-day Long Easy). Erg meters are **not** running kilometers.
+**Special transition weeks** (training prescriptions, not guaranteed feasible at every facility):
 
-## 17 weeks and data consistency
+| Week | Main work (outdoor only with safe contiguous venue) | Running volume if actually performed |
+|---|---|---:|
+| W07 | 3 × (400m run → one short BBJ/Lunge/Carry station) | 1.2km |
+| W09 | 3 × (600m run → short station, then next run) | 1.8km |
+| W11 | 4 × (600m run → station) | 2.4km |
+| W13 | 4 × (800m run → controlled station) | 3.2km |
+| W14 | **FRI** 4 × (600m run → abbreviated stations), Thu Petra Easy, Sat Day2 recovery | 2.4km |
 
-- Unchanged Sunday–Saturday calendar W01 2026-11-15–11-21 through W17 2027-03-07–03-13.
-- Phases: foundation W01–03, deload W04; build W05–07, deload W08; transition W09–11, deload W12; specific W13–15 with W14 abbreviated simulation; taper W16; race W17 (tentative Fri Mar12 Mixed Doubles, Sat Mar13 Men Open; verify confirmed registration).
-- **JSON:** `data/report.json`, top-level `version: 1.3.0`, `planRelease.label: v1.3`, each `seasonPlan.weeks[].dailyPlan`, `stationPrescription`, `weeklyStrengthSplit`, and `petraStrengthSkillDays`. Former `trainingTracks.gym.strengthProgression.weekly` is updated to match Mon Legs / Tue Pull / Fri Push. `sessions[id=legs|pull|push|wod|interval|easy].classPlan.blocks` are synchronized.
-- **Google Sheet:** `Training_Plan_v1_3_CURRENT` is the active plan; `PPL_Strength_v1_3`, `Station_Progression_v1_3`, `Petra_FlexRules_v1_3`, `Coaching_Rules_v1_3` provide granular workout plans and flexible session classification. All prior v1.2/v1.1/numeric versions are preserved as history.
-- **Weekly feedback:** existing `Weekly_Review` fields K:S include hard session count, session RPE, calf pain, knee pain, Ski/Row volume, Station quality, next-week modification. Real strength kg/reps/RIR belong in `Strength_Log` and Petra actual attendance must be confirmed; no fabricated workout completions.
-- **Privacy:** GitHub Pages stores only aggregated training data and coaching prescriptions. Garmin private access credentials, raw FIT, GPS traces, and personal private Petra photo content remain outside the public GitHub repo. Daily private Garmin sync and existing weekly coaching automation are **not modified** by v1.3. Last verified data remain through 2026-11-13.
+All transition work is a **replacement for** the regular station main, NOT a third hard metabolic session. The trainee must have a safe connected outdoor loop with legal access to nearby station equipment. **Never move World Gym equipment outdoors, cross active roads, or present separate gym work and outdoor runs as seamless transition.** If safe connected transition is unavailable, the Web App clearly offers a safer alternative: low-impact indoor stations and/or independent safe outdoor easy run with bodyweight technique only. No treadmill needed inside World Gym.
 
-## Publishing
+**W14 station-only fallback:** shortened eight-station flow (including BBJ/Lunge/WB) without 8×1km run. **This is not a full HYROX simulation** and cannot directly predict finish time.
 
-`index.html` presents the v1.3 label and revised week guidance, `sw.js` cache key `hyrox-v1-3-20261114-v27`, and `manifest.webmanifest` app query `v13`. GitHub Pages deploy must be verified separately. If an older iPhone Home Screen PWA view persists, reopen while online and refresh.
+## Progressive eight-station coverage
 
-## Scientific context
-- Official HYROX race requires 8×1km running plus eight functional stations, unlike an abbreviated station-only workout: https://hyrox.com/the-fitness-race/
-- ACSM 2026 resistance training position stand: https://pubmed.ncbi.nlm.nih.gov/41843416/
-- Concurrent strength + endurance sequence review: https://pubmed.ncbi.nlm.nih.gov/41669271/
+Each W01–16 stores `weakStationSkill` and `stationCoverage`, clearly distinguishing weekly **reference upper limits** from training actually done:
 
-Prior releases v1.0 / v1.1 / v1.2 remain in Git history. Historic Garmin/Petra evidence and personal goals were not rewritten.
+- **Burpee Broad Jump:** recover → short technique 3–5m → accumulate 20–30m → 40–60m in controlled weeks if landing quality/pain gate passes. Track **actual total metres**.
+- **Sandbag Lunge:** unweighted controlled reps → 10kg technique → 15kg → 20kg only when competent and pain-free, progressive **actual metres × load**. Men/Mixed published race load 20kg; not a mandatory immediate gym load.
+- **Wall Ball (6kg):** current continuous capacity approximately 10–15 reps. Practice short clean sets, build **valid weekly total** 32 → 40 → 50–60 → ~70–80; **W13 partitioned 100-rep rehearsal only if readiness and movement quality support it** (e.g., 10×10; otherwise stay 80). Never demand 100 unbroken or every week.
+- **SkiErg:** repeated 350–500m controlled splits with priority over Row for skill/efficiency; optional longer 1000m sustained test only after recovery.
+- **Row, Sled, Carry:** periodized technical workloads with timing, friction/load accuracy and carry grip. Track actual pace, load/surface and valid movement standard.
+
+Friday may include an **8–12 minute low-intensity technique microdose for only one station category**, but it is NOT compulsory and must be counted toward (not added on top of) the weekly Station/Wed Petra amount. Traditional 0–2 easy rounds after strength are only technique finishers, not a main station session.
+
+## Adaptation to recovery: the v1.4 interactive UI
+
+Open **力量／Station** weekly tab in the live App. Three **week-local** selectors are saved via browser local storage on that device:
+
+1. **Actual Wednesday Petra WOD:** not confirmed / not attended / easy technique / hard WOD. A confirmed hard WOD dynamically changes Thu to scaled Easy/Technique, Sat to Recovery or removes W14 Friday rehearsal and adds Friday Push reduction suggestions.
+2. **Optional Petra Strength/Skill:** not set / none / SUN / MON / TUE (at most one). Selected day's existing WorldGym/Long Easy is labeled as fallback, and the App explains to substitute after knowing actual muscle work rather than stacking full days.
+3. **Readiness:** unknown / green / yellow (fatigue, reduced workload) / red (injury warning, replaces all provocative workout prescriptions with rest/assessment).
+
+**These are decision-support display settings ONLY:** do not sync to Garmin, Sheets or the weekly background automation. They do not authenticate attendance, and do not declare historical workouts completed.
+
+Progression gate per week:
+- **Progress one variable** only after ≥90% technically valid planned main work, stable erg splits (initial monitoring target ≤5–8% variation) and no next-day worsening.
+- **Hold** if recovery is inadequate or Wed/Thu/Sat hard overload.
+- **Reduce/stop provocative work** if pain increases, affects gait, causes swelling, or recovery deteriorates. Pain numeric thresholds are planning cues, not medical diagnosis.
+
+## Periodization and race week
+
+- Foundation W01–03; recovery/deload W04; build W05–07 with first safe run-station W07; recovery/deload W08.
+- Transfer W09–11 with safe transitions W09 and W11; recovery/deload W12.
+- Specific W13 (safe 4×800m), W14 (Friday limited rehearsal + Saturday recovery), W15 sharpening Station; W16 taper.
+- Race W17 **Mar 7–13, 2027**: Friday Mar12 intended **Mixed Doubles** and Saturday Mar13 intended **Men Open**, subject to individual confirmed registration/wave times. Official **HYROX Taipei event runs Mar12–14**, with provisional Friday afternoon Mixed and Saturday Men Open windows; final specific start times are not yet published. Thu Mar11 Petra intense Interval is SKIPPED.
+- No full eight 1km runs plus all eight stations training simulation has been prescribed; prioritize safer partial race adaptation and two-day recovery.
+
+## Data and sync architecture
+
+- App primary `data/report.json`: `version: 1.4.0`, `planRelease.label: v1.4`, 17 weeks with `runStationTransition`, `weakStationSkill`, `stationCoverage`, `progressionGates`, `readinessRules`, `weeklyQualityBudget` and `runningTrack.thirdEasyRun`.
+- App dynamic `index.html`: week-local selectors and guarded display changes; accessible under **力量／Station**. Still has independent running/analysis tabs. Static site must not claim live training sync.
+- `sw.js` cache key **hyrox-v1-4-20261114-v28**, `manifest.webmanifest` launch `./?app=v14`.
+- Google Sheets: `Training_Plan_v1_4_CURRENT` active, `Run_Track_v1_4`, `Run_Station_v1_4`, `WeakStations_v1_4`, `Readiness_Rules_v1_4`, `Coaching_Rules_v1_4`. Older versions retained in separate tabs.
+- `Weekly_Review` appended T:AB columns for actual BBJ metres, lunge metres/load, valid 6kg Wall Ball reps, actual compromised running kilometres and post-station pace notes, sled loading, confirmed Petra attendance, and readiness.
+- **No new Garmin API call**: latest confirmed imported data still through **2026-11-13**. The private `hyrox-garmin-sync` repo and existing Sunday automation were NOT modified, so do not claim the automation already consumes v1.4. Future weekly review should explicitly reference `Coaching_Rules_v1_4` and latest actual logs when that automation is updated.
+
+## Sources
+
+- [HYROX official format & stations (Aug 2026)](https://hyroxevents.zendesk.com/hc/en-gb/articles/38624619510941-Which-exercises-are-in-HYROX)
+- [Official HYROX 2025/26 division rulebook (Men and Mixed)](https://hyrox.com/wp-content/uploads/2025/06/25-26-Doubles-Rulebook_en-R1.pdf)
+- [Official HYROX Taipei 2027 event & provisional schedule](https://hyrox.com/event/hyrox-taipei/)
+- [ACSM 2026 resistance training position stand](https://pubmed.ncbi.nlm.nih.gov/41843416/)
+- [2026 concurrent resistance + endurance training umbrella review](https://pubmed.ncbi.nlm.nih.gov/41762427/)
+
+**Privacy:** GitHub Pages is a public read-only snapshot. Keep private Garmin credentials, raw GPS and FIT data, private coaching notes and personal Petra photos out of the public repo. Local UI settings are private to the device/browser unless someone uses the same device.
