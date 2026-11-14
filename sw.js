@@ -1,4 +1,4 @@
-const CACHE='hyrox-hypertrophy-v13-20261113';
+const CACHE='hyrox-periodized-v14-20261114';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192-v9.png','./icon-512-v9.png','./apple-touch-icon.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(async c=>{await Promise.allSettled(SHELL.map(async u=>{const r=await fetch(u,{cache:'reload'});if(r.ok)await c.put(u,r);}));await self.skipWaiting()})));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
