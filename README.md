@@ -33,16 +33,18 @@ A scheduled task being enabled is not evidence of a successful weekly revision. 
 **Public GitHub Pages is public.** Anyone with the URL can view the aggregate performance figures in `data/report.json`. For private analytics, change the hosting approach rather than putting sensitive data into the public repository.
 
 
-## Simple Sun–Sat Calendar v2.3 · 2026-11-14
+## Simple Sun–Sat Station Calendar v2.4 · 2026-11-14
 
-The user-facing view is deliberately simple. Only select the week (W01–W17) or use previous/next. No Petra questionnaire, recovery/soreness selector, WOD-location selector, 5/6-day toggle, or lengthy replacement instructions in course cards.
+**User-facing rule:** only a 17-week roadmap, a week selector, seven daily cards (Sunday through Saturday), and a **separate running add-on panel**. No Petra questionnaires, soreness/recovery questions, 5/6-day toggle, or lengthy substitution prose.
 
-**Date convention:** All 17 weeks are Sunday to Saturday. W01: 2026-11-15–2026-11-21. W17: 2027-03-07–2027-03-13. Align firstWeek, weekStart, week dates, phase ranges, and every dailyPlan date.
+**Visible source:** `data/report.json > seasonPlan.weeks[].dailyPlan`, each day shaped `{day, dayZh, date, kind, title, time, sections:[{name,lines,format}],subtitle}`. The independent running prescriptions are `weeks[].runningPlan.sessions`. The front-end must not read obsolete `dailyPlan.groups`, `shortTitle`, `weekday`, or `category` fields.
 
-**Primary UI source:** data/report.json > seasonPlan.weeks[].dailyPlan supplies visible daily classes; weeks[].focus and weeks[].weaknessFocus supply the weekly summary. Always retain seven ordered entries per week, starting Sunday.
+**Sunday-to-Saturday dates:** W01 2026-11-15–11-21; W17 2027-03-07–03-13. Confirm exact date-to-weekday mapping on every update.
 
-**Weekly pattern:** Sunday Long Easy (+ optional light evening Ski/Core); Monday first Push/Pull/Legs hypertrophy and focused functional circuit; Tuesday Petra Strength/Skill optional or rest; Wednesday interval; Thursday second strength and functional class; Friday rest; Saturday standalone WOD. Five core sessions + optional Tuesday. W14 has a Friday 60–70% reduced HYROX simulation and Saturday Day-2 easy aerobic check. W17 has Friday Mixed Doubles and Saturday Men Open.
+**Weekly balance (W01–W16):** Sunday station aerobic base (Ski/Row, progressing 18–40min), Monday Legs hypertrophy with single-leg/stability and low/moderate station practice, Tuesday **station-based cardio intervals** (Ski/Row/Sled/Carry), Wednesday rotating Push/Pull hypertrophy with relevant station combo, Thursday optional opposite upper-body strength or Petra Strength/Skill, Friday one standalone WOD (including Petra WOD when attended), Saturday rest. W14 Friday is a controlled partial HYROX rehearsal, Saturday an easy recovery-check session. W17 Friday Mixed Doubles and Saturday Men Open; no extra WOD.
 
-**Coaching goal:** systematically improve weak links with planned hypertrophy, single-leg stability, SkiErg hip hinge/pace, back/grip work, and 6kg Wall Ball leg/shoulder endurance. Ordinary soreness is not a reason to auto-switch workouts. Significant pain, swelling or injury still warrants assessment. Respect deloads W04, W08, W12, W16.
+**Running is independent:** `runningPlan` supplies weekly Easy/Long Run and Quality/Interval suggestions. They have NO fixed weekdays and must never replace the user's station cardio sessions. Running is important to the HYROX event but can be scheduled around work/family and the main strength/station workload; manage total hard intensity accordingly.
 
-**Automation contract:** Update complete dailyPlan together with class prescriptions. Never reinstate Petra class-type questions or default soreness switches. Keep Sunday-first dates consistent, and distinguish verified Garmin data date from plan update date. Do not publish private Garmin FIT/GPS or Petra photos.
+**Progression:** W01–03 baseline/build, W04 deload; W05–07 hypertrophy build, W08 deload; W09–11 station transfer, W12 deload; W13–15 specificity/sharpen, W16 taper, W17 race. Station cardio is not a daily race: Sun easy, Tue controlled, Fri WOD harder. Actual weakness work includes SkiErg, Wall Ball, unilateral leg work, grip/back and stable run-after-station output, not auto-lightening the plan for ordinary soreness.
+
+**Preserve the update contract:** weekly Garmin/Petra data refreshes should modify evidence and actual training context without reverting the display to old weekly schedules or the Petra-question UI. Never publish raw FIT, GPS routes, private Petra photos or credentials. The public app only displays aggregated training information.
