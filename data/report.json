@@ -1,5 +1,5 @@
 {
-  "version": "2.7.0",
+  "version": "2.8.0",
   "updated": "2026-11-14",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -599,7 +599,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "2026-11-14 Multi-Station WOD v11",
+    "version": "2026-11-14 Multi Station + Heavy Hinge v12",
     "modeDefault": 5,
     "title": "HYROX HYPERTROPHY × HYBRID | 5/6 days + PETRA swaps",
     "principle": "Two connected training tracks. Running free schedule (Easy, Long, Quality), WorldGym/Petra weekly Sunday-Saturday daily station+strength track; control joint high-intensity count.",
@@ -1269,7 +1269,7 @@
     ]
   },
   "seasonPlan": {
-    "version": "2026-11-14-multi-station-wod-v11",
+    "version": "2026-11-14-multi-station-hinge-v12",
     "firstWeek": "2026-11-15",
     "raceDays": [
       "2027-03-12",
@@ -1854,7 +1854,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "BASELINE",
-          "wodRunKm": 0.6
+          "wodRunKm": 0.6,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR3"
         },
         "weaknessFocus": "Wall Ball下蹲與呼吸；SkiErg髖部發力",
         "dailyPlan": [
@@ -2135,9 +2138,11 @@
             "11/14 Push力量主課已排定，週三改為Pull；W01不再追加第二堂高重量Push",
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0.6
+          "wodRunKm": 0.6,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -2387,26 +2392,26 @@
           },
           {
             "id": "legs",
-            "name": "World Gym · LEGS + SINGLE-LEG STABILITY",
+            "name": "Legs · Trap-bar heavy hinge",
             "purpose": "腿臀增肌，單腿穩定與Sled/Lunge技術",
             "dose": "45–65分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；找到Bench、Squat、Row可恢復工作重量",
             "classPlan": {
               "kind": "legs-hybrid-periodized",
               "subtitle": "LEGS · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "45–65分鐘",
+              "duration": "60–75分鐘",
               "rpe": "增肌組RIR 3–4；功能RPE6",
               "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "Squat / Hinge / Unilateral",
+                  "title": "Trap-bar Deadlift + Squat + Unilateral",
                   "minutes": "23–30分鐘",
-                  "format": "2 sets（主項）/ 90–180s rest",
+                  "format": "主項休2–3分鐘 · 2工作組",
                   "steps": [
-                    "Back Squat 2×6–8 @RIR 3–4",
-                    "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
-                    "Reverse Lunge／Split Squat 1×8/側",
+                    "Trap-bar Deadlift（六角槓硬舉） 2×5–6 @RIR3–4",
+                    "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
+                    "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
                   "note": "WOD與跑間歇已刺激腿部；下肢總疲勞比表面上的工作組更多"
@@ -2426,17 +2431,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest90秒 / RPE6",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                    "Easy RowErg 120–150m → 休90秒",
-                    "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                    "Step-up 6/側 → Easy RowErg 150m",
+                    "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                   ],
                   "note": "單腿控制＋低量站點轉換；主課已夠重，這段不追速度"
                 }
               ],
               "focus": "技巧基線與配速分配",
-              "notes": "技巧基線與配速分配。本週訓練量級BASE；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Trap-bar 2×5–6 @RIR3–4為本週唯一重型硬舉；不再疊加Romanian或Conventional Deadlift，重腿與WOD各有目的。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -2683,7 +2687,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SLED",
-          "wodRunKm": 1
+          "wodRunKm": 1,
+          "hingeFocus": "TRAP_BAR",
+          "hingePrescription": "Trap-bar Deadlift（六角槓硬舉） 2×5–6 @RIR3–4",
+          "hingeDay": "MON"
         },
         "weaknessFocus": "肩部穩定與單腿控制",
         "dailyPlan": [
@@ -2712,18 +2719,18 @@
             "dayZh": "週一",
             "date": "2026-11-23",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
-            "time": "45–65分鐘",
+            "title": "LEGS｜六角槓力量＋腿部增肌",
+            "time": "60–75分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Back Squat 2×6–8 @RIR 3–4",
-                  "Romanian Deadlift 1×8 @RIR3",
-                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Trap-bar Deadlift（六角槓硬舉） 2×5–6 @RIR3–4",
+                  "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
+                  "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
-                "format": "2 sets（主項）/ 90–180s rest"
+                "format": "主項休2–3分鐘 · 2工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -2736,13 +2743,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒"
+                  "Step-up 6/側 → Easy RowErg 150m",
+                  "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "2 rounds / rest90秒 / RPE6"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "本週重點髖伸展與全身力量；取消重RDL，雪橇負荷留給WOD"
           },
           {
             "day": "tue",
@@ -2961,9 +2968,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1
+          "wodRunKm": 1,
+          "strengthHinge": "TRAP_BAR"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -3136,7 +3145,7 @@
           },
           {
             "id": "pull",
-            "name": "World Gym · PULL HYPERTROPHY + SKILL",
+            "name": "Pull · Conventional Deadlift / Back",
             "purpose": "背部與握力增肌，之後功能性Carry與Ski/Row/Sled Pull技術",
             "dose": "65–80分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；按動作穩定度增加1組或少量重量，不兩者同加",
@@ -3149,13 +3158,13 @@
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "背闊／上背／二頭 · Volume",
+                  "title": "Posterior Chain Deadlift + Back Hypertrophy",
                   "minutes": "30–38分鐘",
-                  "format": "3 sets（主項）/ 75–120s rest",
+                  "format": "主項休2–3分鐘 · 2工作組",
                   "steps": [
-                    "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                    "Chest-supported Row 3×8–12 @RIR 2–3",
-                    "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                    "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×5 @RIR3",
+                    "Pull-up／Lat Pulldown 2×6–10 @RIR3",
+                    "Chest-supported Row 2×8–12 @RIR3",
                     "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                   ],
                   "note": "背部需要品質組數；RowErg距離不等同增肌有效組"
@@ -3175,17 +3184,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "3 rounds / rest75–90秒 / RPE7",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                    "Farmer Carry 25–30m → RowErg 150m",
-                    "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                    "SkiErg 150m → RowErg 150m（技巧配速）",
+                    "每輪休90秒；硬舉日不再做重Sled Pull"
                   ],
                   "note": "多個相關站點連續輸出，比只做5分鐘SkiErg更完整"
                 }
               ],
               "focus": "增肌容量第一階",
-              "notes": "增肌容量第一階。本週訓練量級BASE+；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Deadlift重點在臀／腿後鏈與軀幹張力，並非直接的背闊肌孤立訓練。單週只做一次重型硬舉；腿日不再做重RDL。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -3230,7 +3238,7 @@
                   "format": "3 sets（主項）/ 90–180s rest",
                   "steps": [
                     "Back Squat 3×6–8 @RIR 2–3",
-                    "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                    "Hip Thrust 2×8–10 @RIR3（中等重量）",
                     "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
@@ -3261,7 +3269,7 @@
                 }
               ],
               "focus": "增肌容量第一階",
-              "notes": "增肌容量第一階。本週訓練量級BASE+；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "本週週三Pull已有傳統槓鈴硬舉；週一Legs保留Squat＋單腿，取消Romanian Deadlift以保留後鏈恢復。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -3508,7 +3516,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SKI",
-          "wodRunKm": 1.2
+          "wodRunKm": 1.2,
+          "hingeFocus": "CONVENTIONAL",
+          "hingePrescription": "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×5 @RIR3",
+          "hingeDay": "WED"
         },
         "weaknessFocus": "背部拉力與SkiErg的後段輸出",
         "dailyPlan": [
@@ -3537,14 +3548,14 @@
             "dayZh": "週一",
             "date": "2026-11-30",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
+            "title": "LEGS｜深蹲增肌＋單腿穩定",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
-                  "Romanian Deadlift 2×8 @RIR2",
+                  "Hip Thrust 2×8–10 @RIR3（中等重量）",
                   "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
@@ -3567,7 +3578,7 @@
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "週三有Conventional Deadlift，本堂不疊加重RDL"
           },
           {
             "day": "tue",
@@ -3595,18 +3606,18 @@
             "dayZh": "週三",
             "date": "2026-12-02",
             "kind": "strength",
-            "title": "PULL｜背部增肌＋拉站點",
+            "title": "PULL｜槓鈴硬舉＋背部增肌",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                  "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×5 @RIR3",
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR3",
+                  "Chest-supported Row 2×8–12 @RIR3",
                   "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "主項休2–3分鐘 · 2工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -3618,14 +3629,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒"
+                  "SkiErg 150m → RowErg 150m（技巧配速）",
+                  "每輪休90秒；硬舉日不再做重Sled Pull"
                 ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 上肢重點"
+            "subtitle": "以重型後鏈為主，但保留背部垂直/水平拉；Station只維持技巧"
           },
           {
             "day": "thu",
@@ -3789,9 +3799,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.2
+          "wodRunKm": 1.2,
+          "strengthHinge": "CONVENTIONAL"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -4335,7 +4347,10 @@
           "deload": true,
           "softTissueGate": false,
           "wodType": "DELOAD",
-          "wodRunKm": 0
+          "wodRunKm": 0,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR4"
         },
         "weaknessFocus": "核心與單側動作控制",
         "dailyPlan": [
@@ -4612,9 +4627,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0
+          "wodRunKm": 0,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -4787,7 +4804,7 @@
           },
           {
             "id": "pull",
-            "name": "World Gym · PULL HYPERTROPHY + SKILL",
+            "name": "Pull · Conventional Deadlift / Back",
             "purpose": "背部與握力增肌，之後功能性Carry與Ski/Row/Sled Pull技術",
             "dose": "65–80分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；背與股四頭有品質組數，別把滑雪機算增肌組",
@@ -4800,13 +4817,13 @@
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "背闊／上背／二頭 · Volume",
+                  "title": "Posterior Chain Deadlift + Back Hypertrophy",
                   "minutes": "30–38分鐘",
-                  "format": "3 sets（主項）/ 75–120s rest",
+                  "format": "主項休2–3分鐘 · 3工作組",
                   "steps": [
-                    "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                    "Chest-supported Row 3×8–12 @RIR 2–3",
-                    "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                    "Conventional Barbell Deadlift（傳統槓鈴硬舉） 3×4–6 @RIR2–3",
+                    "Pull-up／Lat Pulldown 2×6–10 @RIR2–3",
+                    "Chest-supported Row 2×8–12 @RIR3",
                     "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                   ],
                   "note": "背部需要品質組數；RowErg距離不等同增肌有效組"
@@ -4826,17 +4843,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "3 rounds / rest75–90秒 / RPE7",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                    "Farmer Carry 25–30m → RowErg 150m",
-                    "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                    "SkiErg 150m → RowErg 150m（技巧配速）",
+                    "每輪休90秒；硬舉日不再做重Sled Pull"
                   ],
                   "note": "多個相關站點連續輸出，比只做5分鐘SkiErg更完整"
                 }
               ],
               "focus": "背部／腿部增肌週",
-              "notes": "背部／腿部增肌週。本週訓練量級BUILD A；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Deadlift重點在臀／腿後鏈與軀幹張力，並非直接的背闊肌孤立訓練。單週只做一次重型硬舉；腿日不再做重RDL。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -4881,7 +4897,7 @@
                   "format": "3 sets（主項）/ 90–180s rest",
                   "steps": [
                     "Back Squat 3×6–8 @RIR 2–3",
-                    "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                    "Hip Thrust 2×8–10 @RIR3（中等重量）",
                     "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
@@ -4912,7 +4928,7 @@
                 }
               ],
               "focus": "背部／腿部增肌週",
-              "notes": "背部／腿部增肌週。本週訓練量級BUILD A；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "本週週三Pull已有傳統槓鈴硬舉；週一Legs保留Squat＋單腿，取消Romanian Deadlift以保留後鏈恢復。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -5159,7 +5175,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "ROW",
-          "wodRunKm": 1.2
+          "wodRunKm": 1.2,
+          "hingeFocus": "CONVENTIONAL",
+          "hingePrescription": "Conventional Barbell Deadlift（傳統槓鈴硬舉） 3×4–6 @RIR2–3",
+          "hingeDay": "WED"
         },
         "weaknessFocus": "背部／股四頭肌有效增肌",
         "dailyPlan": [
@@ -5188,14 +5207,14 @@
             "dayZh": "週一",
             "date": "2026-12-14",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
+            "title": "LEGS｜深蹲增肌＋單腿穩定",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
-                  "Romanian Deadlift 2×8 @RIR2",
+                  "Hip Thrust 2×8–10 @RIR3（中等重量）",
                   "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
@@ -5218,7 +5237,7 @@
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "週三有Conventional Deadlift，本堂不疊加重RDL"
           },
           {
             "day": "tue",
@@ -5244,18 +5263,18 @@
             "dayZh": "週三",
             "date": "2026-12-16",
             "kind": "strength",
-            "title": "PULL｜背部增肌＋拉站點",
+            "title": "PULL｜槓鈴硬舉＋背部增肌",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                  "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Conventional Barbell Deadlift（傳統槓鈴硬舉） 3×4–6 @RIR2–3",
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR2–3",
+                  "Chest-supported Row 2×8–12 @RIR3",
                   "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "主項休2–3分鐘 · 3工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -5267,14 +5286,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒"
+                  "SkiErg 150m → RowErg 150m（技巧配速）",
+                  "每輪休90秒；硬舉日不再做重Sled Pull"
                 ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 上肢重點"
+            "subtitle": "以重型後鏈為主，但保留背部垂直/水平拉；Station只維持技巧"
           },
           {
             "day": "thu",
@@ -5438,9 +5456,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.2
+          "wodRunKm": 1.2,
+          "strengthHinge": "CONVENTIONAL"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -5689,25 +5709,25 @@
           },
           {
             "id": "legs",
-            "name": "World Gym · LEGS + SINGLE-LEG STABILITY",
+            "name": "Legs · Trap-bar heavy hinge",
             "purpose": "腿臀增肌，單腿穩定與Sled/Lunge技術",
             "dose": "65–80分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；增加單腿穩定與抗旋轉控制",
             "classPlan": {
               "kind": "legs-hybrid-periodized",
               "subtitle": "LEGS · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "65–80分鐘",
+              "duration": "60–75分鐘",
               "rpe": "增肌組RIR 2–3；功能RPE6",
               "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "Squat / Hinge / Unilateral",
+                  "title": "Trap-bar Deadlift + Squat + Unilateral",
                   "minutes": "32–40分鐘",
-                  "format": "3 sets（主項）/ 90–180s rest",
+                  "format": "主項休2–3分鐘 · 3工作組",
                   "steps": [
-                    "Back Squat 3×6–8 @RIR 2–3",
-                    "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                    "Trap-bar Deadlift（六角槓硬舉） 3×5–6 @RIR2–3",
+                    "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
                     "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
@@ -5728,17 +5748,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "3 rounds / rest90秒 / RPE6",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                    "Easy RowErg 120–150m → 休90秒",
-                    "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                    "Step-up 6/側 → Easy RowErg 150m",
+                    "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                   ],
                   "note": "單腿控制＋低量站點轉換；主課已夠重，這段不追速度"
                 }
               ],
               "focus": "單腿控制與肌耐力",
-              "notes": "單腿控制與肌耐力。本週訓練量級BUILD B；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Trap-bar 3×5–6 @RIR2–3為本週唯一重型硬舉；不再疊加Romanian或Conventional Deadlift，重腿與WOD各有目的。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -5985,7 +6004,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "LEGS",
-          "wodRunKm": 1
+          "wodRunKm": 1,
+          "hingeFocus": "TRAP_BAR",
+          "hingePrescription": "Trap-bar Deadlift（六角槓硬舉） 3×5–6 @RIR2–3",
+          "hingeDay": "MON"
         },
         "weaknessFocus": "左右腿動作對稱",
         "dailyPlan": [
@@ -6014,18 +6036,18 @@
             "dayZh": "週一",
             "date": "2026-12-21",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
-            "time": "65–80分鐘",
+            "title": "LEGS｜六角槓力量＋腿部增肌",
+            "time": "60–75分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Back Squat 3×6–8 @RIR 2–3",
-                  "Romanian Deadlift 2×8 @RIR2",
+                  "Trap-bar Deadlift（六角槓硬舉） 3×5–6 @RIR2–3",
+                  "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
                   "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
-                "format": "3 sets（主項）/ 90–180s rest"
+                "format": "主項休2–3分鐘 · 3工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -6038,13 +6060,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒"
+                  "Step-up 6/側 → Easy RowErg 150m",
+                  "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "3 rounds / rest90秒 / RPE6"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "本週重點髖伸展與全身力量；取消重RDL，雪橇負荷留給WOD"
           },
           {
             "day": "tue",
@@ -6264,9 +6286,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1
+          "wodRunKm": 1,
+          "strengthHinge": "TRAP_BAR"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -6811,7 +6835,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SKI",
-          "wodRunKm": 1.75
+          "wodRunKm": 1.75,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 3×8 @RIR2"
         },
         "weaknessFocus": "上背耐力與SkiErg續航",
         "dailyPlan": [
@@ -7091,9 +7118,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.75
+          "wodRunKm": 1.75,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -7637,7 +7666,10 @@
           "deload": true,
           "softTissueGate": false,
           "wodType": "DELOAD",
-          "wodRunKm": 0
+          "wodRunKm": 0,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR4"
         },
         "weaknessFocus": "技術精準與疲勞回落",
         "dailyPlan": [
@@ -7916,9 +7948,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0
+          "wodRunKm": 0,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -8091,7 +8125,7 @@
           },
           {
             "id": "pull",
-            "name": "World Gym · PULL HYPERTROPHY + SKILL",
+            "name": "Pull · Conventional Deadlift / Back",
             "purpose": "背部與握力增肌，之後功能性Carry與Ski/Row/Sled Pull技術",
             "dose": "65–80分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；結合Run→Ski→Carry，練站後呼吸",
@@ -8104,13 +8138,13 @@
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "背闊／上背／二頭 · Volume",
+                  "title": "Posterior Chain Deadlift + Back Hypertrophy",
                   "minutes": "30–38分鐘",
-                  "format": "3 sets（主項）/ 75–120s rest",
+                  "format": "主項休2–3分鐘 · 2工作組",
                   "steps": [
-                    "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                    "Chest-supported Row 3×8–12 @RIR 2–3",
-                    "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                    "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×4–5 @RIR3",
+                    "Pull-up／Lat Pulldown 2×6–10 @RIR3",
+                    "Chest-supported Row 2×8–12 @RIR3",
                     "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                   ],
                   "note": "背部需要品質組數；RowErg距離不等同增肌有效組"
@@ -8130,17 +8164,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Ski → Pull → Carry → Row",
                   "minutes": "15–18分鐘",
-                  "format": "3 rounds / rest75–90秒 / RPE7",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                    "Farmer Carry 25–30m → RowErg 150m",
-                    "休息75–90秒；若場館排隊就Sled Pull改Cable Row 10次、保留循環結構"
+                    "SkiErg 150m → RowErg 150m（技巧配速）",
+                    "每輪休90秒；硬舉日不再做重Sled Pull"
                   ],
                   "note": "多個相關站點連續輸出，比只做5分鐘SkiErg更完整"
                 }
               ],
               "focus": "跑後進站與恢復跑速",
-              "notes": "跑後進站與恢復跑速。本週訓練量級TRANSFER A；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Deadlift重點在臀／腿後鏈與軀幹張力，並非直接的背闊肌孤立訓練。單週只做一次重型硬舉；腿日不再做重RDL。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -8185,7 +8218,7 @@
                   "format": "3 sets（主項）/ 90–180s rest",
                   "steps": [
                     "Back Squat 3×6–8 @RIR 2–3",
-                    "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                    "Hip Thrust 2×8–10 @RIR3（中等重量）",
                     "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
@@ -8216,7 +8249,7 @@
                 }
               ],
               "focus": "跑後進站與恢復跑速",
-              "notes": "跑後進站與恢復跑速。本週訓練量級TRANSFER A；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "本週週三Pull已有傳統槓鈴硬舉；週一Legs保留Squat＋單腿，取消Romanian Deadlift以保留後鏈恢復。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -8463,7 +8496,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "COMPROMISED",
-          "wodRunKm": 1.6
+          "wodRunKm": 1.6,
+          "hingeFocus": "CONVENTIONAL",
+          "hingePrescription": "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×4–5 @RIR3",
+          "hingeDay": "WED"
         },
         "weaknessFocus": "站點後重新起跑",
         "dailyPlan": [
@@ -8492,14 +8528,14 @@
             "dayZh": "週一",
             "date": "2027-01-11",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
+            "title": "LEGS｜深蹲增肌＋單腿穩定",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
                   "Back Squat 3×6–8 @RIR 2–3",
-                  "Romanian Deadlift 2×8 @RIR2",
+                  "Hip Thrust 2×8–10 @RIR3（中等重量）",
                   "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
@@ -8522,7 +8558,7 @@
                 "format": "3 rounds / rest90秒 / RPE6"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "週三有Conventional Deadlift，本堂不疊加重RDL"
           },
           {
             "day": "tue",
@@ -8549,18 +8585,18 @@
             "dayZh": "週三",
             "date": "2027-01-13",
             "kind": "strength",
-            "title": "PULL｜背部增肌＋拉站點",
+            "title": "PULL｜槓鈴硬舉＋背部增肌",
             "time": "65–80分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Pull-up／Lat Pulldown 3×6–10 @RIR 2–3",
-                  "Chest-supported Row 3×8–12 @RIR 2–3",
-                  "Single-arm Cable Row 2×10/側（控制身體旋轉）",
+                  "Conventional Barbell Deadlift（傳統槓鈴硬舉） 2×4–5 @RIR3",
+                  "Pull-up／Lat Pulldown 2×6–10 @RIR3",
+                  "Chest-supported Row 2×8–12 @RIR3",
                   "Rear Delt Fly 2×12–15 + Hammer Curl 2×10–12"
                 ],
-                "format": "3 sets（主項）/ 75–120s rest"
+                "format": "主項休2–3分鐘 · 2工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -8572,14 +8608,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "SkiErg 180m → Sled Pull 10m（中低技術重量）",
-                  "Farmer Carry 25–30m → RowErg 150m",
-                  "休息75–90秒"
+                  "SkiErg 150m → RowErg 150m（技巧配速）",
+                  "每輪休90秒；硬舉日不再做重Sled Pull"
                 ],
-                "format": "3 rounds / rest75–90秒 / RPE7"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 上肢重點"
+            "subtitle": "以重型後鏈為主，但保留背部垂直/水平拉；Station只維持技巧"
           },
           {
             "day": "thu",
@@ -8743,9 +8778,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.6
+          "wodRunKm": 1.6,
+          "strengthHinge": "CONVENTIONAL"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -8994,25 +9031,25 @@
           },
           {
             "id": "legs",
-            "name": "World Gym · LEGS + SINGLE-LEG STABILITY",
+            "name": "Legs · Trap-bar heavy hinge",
             "purpose": "腿臀增肌，單腿穩定與Sled/Lunge技術",
             "dose": "65–80分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；保留力量，增加Sled轉換密度",
             "classPlan": {
               "kind": "legs-hybrid-periodized",
               "subtitle": "LEGS · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "65–80分鐘",
+              "duration": "60–75分鐘",
               "rpe": "增肌組RIR 2–3；功能RPE6",
               "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "Squat / Hinge / Unilateral",
+                  "title": "Trap-bar Deadlift + Squat + Unilateral",
                   "minutes": "32–40分鐘",
-                  "format": "3 sets（主項）/ 90–180s rest",
+                  "format": "主項休2–3分鐘 · 2工作組",
                   "steps": [
-                    "Back Squat 3×6–8 @RIR 2–3",
-                    "Romanian Deadlift 2×8 @RIR2（不另疊Trap-bar重硬拉）",
+                    "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3",
+                    "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
                     "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
@@ -9033,17 +9070,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "15–18分鐘",
-                  "format": "3 rounds / rest90秒 / RPE6",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                    "Easy RowErg 120–150m → 休90秒",
-                    "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                    "Step-up 6/側 → Easy RowErg 150m",
+                    "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                   ],
                   "note": "單腿控制＋低量站點轉換；主課已夠重，這段不追速度"
                 }
               ],
               "focus": "雪橇推拉與單側穩定",
-              "notes": "雪橇推拉與單側穩定。本週訓練量級TRANSFER B；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Trap-bar 2×4–5 @RIR3為本週唯一重型硬舉；不再疊加Romanian或Conventional Deadlift，重腿與WOD各有目的。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -9290,7 +9326,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SLED",
-          "wodRunKm": 1.5
+          "wodRunKm": 1.5,
+          "hingeFocus": "TRAP_BAR",
+          "hingePrescription": "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3",
+          "hingeDay": "MON"
         },
         "weaknessFocus": "Sled Push／Pull動作效率",
         "dailyPlan": [
@@ -9319,18 +9358,18 @@
             "dayZh": "週一",
             "date": "2027-01-18",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
-            "time": "65–80分鐘",
+            "title": "LEGS｜六角槓力量＋腿部增肌",
+            "time": "60–75分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Back Squat 3×6–8 @RIR 2–3",
-                  "Romanian Deadlift 2×8 @RIR2",
+                  "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3",
+                  "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
                   "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
-                "format": "3 sets（主項）/ 90–180s rest"
+                "format": "主項休2–3分鐘 · 2工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -9343,13 +9382,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒"
+                  "Step-up 6/側 → Easy RowErg 150m",
+                  "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "3 rounds / rest90秒 / RPE6"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "本週重點髖伸展與全身力量；取消重RDL，雪橇負荷留給WOD"
           },
           {
             "day": "tue",
@@ -9570,9 +9609,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.5
+          "wodRunKm": 1.5,
+          "strengthHinge": "TRAP_BAR"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -10117,7 +10158,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "WALLBALL",
-          "wodRunKm": 1.6
+          "wodRunKm": 1.6,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 2×8 @RIR2"
         },
         "weaknessFocus": "Wall Ball後半段腿肩耐力",
         "dailyPlan": [
@@ -10397,9 +10441,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 1.6
+          "wodRunKm": 1.6,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -10944,7 +10990,10 @@
           "deload": true,
           "softTissueGate": false,
           "wodType": "DELOAD",
-          "wodRunKm": 0.6
+          "wodRunKm": 0.6,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR4"
         },
         "weaknessFocus": "站點動作質量與配速恢復",
         "dailyPlan": [
@@ -11223,9 +11272,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0.6
+          "wodRunKm": 0.6,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -11474,26 +11525,26 @@
           },
           {
             "id": "legs",
-            "name": "World Gym · LEGS + SINGLE-LEG STABILITY",
+            "name": "Legs · Trap-bar heavy hinge",
             "purpose": "腿臀增肌，單腿穩定與Sled/Lunge技術",
             "dose": "45–65分鐘",
             "details": "前半段增肌，後半段完整多動作功能循環；練跑後站點與站點後跑，力量改維持",
             "classPlan": {
               "kind": "legs-hybrid-periodized",
               "subtitle": "LEGS · 增肌主課 → 功能穩定 → 同主題多站循環",
-              "duration": "45–65分鐘",
+              "duration": "60–75分鐘",
               "rpe": "增肌組RIR 3–4；功能RPE6",
               "warmup": "8分鐘Bike＋踝髖動態＋暖身深蹲",
               "blocks": [
                 {
                   "tag": "A · HYPERTROPHY",
-                  "title": "Squat / Hinge / Unilateral",
+                  "title": "Trap-bar Deadlift + Squat + Unilateral",
                   "minutes": "23–30分鐘",
-                  "format": "2 sets（主項）/ 90–180s rest",
+                  "format": "主項休2–3分鐘 · 2工作組",
                   "steps": [
-                    "Back Squat 2×6–8 @RIR 3–4",
-                    "Romanian Deadlift 1×8 @RIR3（不另疊Trap-bar重硬拉）",
-                    "Reverse Lunge／Split Squat 1×8/側",
+                    "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3–4",
+                    "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
+                    "Reverse Lunge／Split Squat 2×8/側",
                     "Leg Curl 2×10–12"
                   ],
                   "note": "WOD與跑間歇已刺激腿部；下肢總疲勞比表面上的工作組更多"
@@ -11513,17 +11564,16 @@
                   "tag": "C · HYROX CIRCUIT",
                   "title": "Sled → Step → Erg",
                   "minutes": "10–12分鐘",
-                  "format": "2 rounds / rest90秒 / RPE6",
+                  "format": "2輪 · RPE4–5",
                   "steps": [
-                    "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                    "Easy RowErg 120–150m → 休90秒",
-                    "若本週WOD有重雪橇／Lunge，取消本段改10分鐘Mobility"
+                    "Step-up 6/側 → Easy RowErg 150m",
+                    "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                   ],
                   "note": "單腿控制＋低量站點轉換；主課已夠重，這段不追速度"
                 }
               ],
               "focus": "賽事順序與可持續配速",
-              "notes": "賽事順序與可持續配速。本週訓練量級SPECIFIC A；記錄主項重量/次數/RIR。若Petra Strength提供相同高品質工作組，可替代本堂，不需要硬補。",
+              "notes": "Trap-bar 2×4–5 @RIR3–4為本週唯一重型硬舉；不再疊加Romanian或Conventional Deadlift，重腿與WOD各有目的。",
               "recoverySwap": {
                 "kind": "recovery",
                 "subtitle": "不適日｜上肢／低衝擊替代",
@@ -11773,7 +11823,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "RACEORDER",
-          "wodRunKm": 2
+          "wodRunKm": 2,
+          "hingeFocus": "TRAP_BAR",
+          "hingePrescription": "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3–4",
+          "hingeDay": "MON"
         },
         "weaknessFocus": "賽事配速與跑站轉換",
         "dailyPlan": [
@@ -11802,18 +11855,18 @@
             "dayZh": "週一",
             "date": "2027-02-08",
             "kind": "strength",
-            "title": "LEGS｜腿臀增肌＋穩定",
-            "time": "45–65分鐘",
+            "title": "LEGS｜六角槓力量＋腿部增肌",
+            "time": "60–75分鐘",
             "sections": [
               {
                 "name": "A｜增肌力量",
                 "lines": [
-                  "Back Squat 2×6–8 @RIR 3–4",
-                  "Romanian Deadlift 1×8 @RIR3",
-                  "Reverse Lunge／Split Squat 1×8/側",
+                  "Trap-bar Deadlift（六角槓硬舉） 2×4–5 @RIR3–4",
+                  "Back Squat 2×6–8 @RIR3–4（次要動作，不追PR）",
+                  "Reverse Lunge／Split Squat 2×8/側",
                   "Leg Curl 2×10–12"
                 ],
-                "format": "2 sets（主項）/ 90–180s rest"
+                "format": "主項休2–3分鐘 · 2工作組"
               },
               {
                 "name": "B｜穩定補強",
@@ -11826,13 +11879,13 @@
               {
                 "name": "C｜Station 組合",
                 "lines": [
-                  "Sled Push 10–12.5m（技術負重）→ Step-up 6/側（或短距離Reverse Lunge）",
-                  "Easy RowErg 120–150m → 休90秒"
+                  "Step-up 6/側 → Easy RowErg 150m",
+                  "每輪休90秒；本週雪橇站點留給WOD，腿日不重複硬推"
                 ],
-                "format": "2 rounds / rest90秒 / RPE6"
+                "format": "2輪 · RPE4–5"
               }
             ],
-            "subtitle": "力量主導 · 單腿補強"
+            "subtitle": "本週重點髖伸展與全身力量；取消重RDL，雪橇負荷留給WOD"
           },
           {
             "day": "tue",
@@ -12055,9 +12108,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 2
+          "wodRunKm": 2,
+          "strengthHinge": "TRAP_BAR"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -12612,7 +12667,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SIM",
-          "wodRunKm": 3.2
+          "wodRunKm": 3.2,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR3"
         },
         "weaknessFocus": "縮量模擬與隔天恢復能力",
         "dailyPlan": [
@@ -12901,9 +12959,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 3.2
+          "wodRunKm": 3.2,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -13449,7 +13509,10 @@
           "deload": false,
           "softTissueGate": false,
           "wodType": "SHARPEN",
-          "wodRunKm": 0.9
+          "wodRunKm": 0.9,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR3"
         },
         "weaknessFocus": "Station換站效率與節奏",
         "dailyPlan": [
@@ -13729,9 +13792,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0.9
+          "wodRunKm": 0.9,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -14261,7 +14326,10 @@
           "deload": true,
           "softTissueGate": false,
           "wodType": "TAPER",
-          "wodRunKm": 0.4
+          "wodRunKm": 0.4,
+          "hingeFocus": "RDL_MAINTENANCE",
+          "hingeDay": "MON",
+          "hingePrescription": "Romanian Deadlift 1×8 @RIR5"
         },
         "weaknessFocus": "短距離速度感與精力恢復",
         "dailyPlan": [
@@ -14537,9 +14605,11 @@
           "notes": [
             "跑步品質課和World Gym WOD是主要高強度來源；週二Station採中等強度",
             "早上跑步與晚上力量可雙訓：若有硬跑，晚間選上肢力量，避免重腿／Sled衝刺",
-            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複"
+            "Petra Strength/Skill 可替換相似主課；若當週實際上過Petra硬WOD，World Gym WOD不重複",
+            "每週只安排一個主要重型髖伸／硬舉主項；Trap-bar／傳統硬舉／RDL擇一，避免與重腿、雪橇WOD疊加"
           ],
-          "wodRunKm": 0.4
+          "wodRunKm": 0.4,
+          "strengthHinge": "RDL_MAINTENANCE"
         },
         "gymTrack": {
           "title": "World Gym × Petra",
@@ -15034,7 +15104,7 @@
     }
   },
   "programArchitecture": {
-    "version": "2026-11-14-varied-station-wod-v11",
+    "version": "2026-11-14-multi-station-hinge-v12",
     "rationale": "Sunday-Saturday daily schedule: Sun Ski/Row station aerobic Z2; Mon Legs hypertrophy+functional; Tue station conditioning intervals; Wed upper Push/Pull hypertrophy+related multi-station; Thu optional opposite upper/Petra skill; Fri standalone HYROX WOD; Sat rest. Running separate flexible 2-session plan each week, never mistakenly classified as station cardio. Race week custom.",
     "evidence": [
       {
@@ -15079,7 +15149,8 @@
     "family": "不能去Petra或World Gym時，可選Home WOD；若需在家照顧小孩且無法安全訓練，直接取消不補課。 W01家用改恢復技術，W16家用改賽前低量啟動；W17無WOD。",
     "safety": "小腿/膝蓋疼痛、腫脹、步態不穩時改恢復替代方案，必要時尋求專業評估；不依賴單一Garmin心率判斷傷情。",
     "wodStyle": "World Gym WOD alternates 12+ original diverse race-related Run+Station, Erg, Carry, Sled, Wall Ball, Lunges, BBJ bricks with every fourth week deload, W14 eight-station shortened rehearsal, W16 taper, W17 racing. Avoid DB-only WOD monotony.",
-    "defaultView": "17週重點 + 星期日至星期六每日訓練"
+    "defaultView": "17週重點 + 星期日至星期六每日訓練",
+    "strengthHinge": "Heavy hinge is programmed once per week, with variants rotated across the HYROX mesocycle. Trap bar on Legs Mon; conventional deadlift on Pull Wed only when Monday RDL is removed; all other weeks RDL/Squat as planned. Do not prescribe heavy squat+heavy trap bar+heavy RDL together."
   },
   "weeklyScheduleNotes": "Saturday Nov14 Push kickoff; Sunday-first 17 weeks; World Gym Friday WOD now alternates varied Run-Ski/Row/Sled/Farmer/WallBall/BBJ/Lunge work. WOD running counts towards independent Running track mileage totals; Petra verified WOD replaces Friday WOD.",
   "trainingTracks": {
@@ -15220,6 +15291,42 @@
             "url": "https://www.hwpotraining.com/programs/hwpo-hyrox"
           }
         ]
+      },
+      "hingeDesign": {
+        "version": "2026-11-14-hinge-rotation-v1",
+        "concept": "Heavy hinge is programmed once per week, with variants rotated across the HYROX mesocycle. Trap bar on Legs Mon; conventional deadlift on Pull Wed only when Monday RDL is removed; all other weeks RDL/Squat as planned. Do not prescribe heavy squat+heavy trap bar+heavy RDL together.",
+        "trapBarWeeks": [
+          "W02",
+          "W06",
+          "W10",
+          "W13"
+        ],
+        "conventionalWeeks": [
+          "W03",
+          "W05",
+          "W09"
+        ],
+        "otherWeeks": [
+          "W01",
+          "W02",
+          "W03",
+          "W04",
+          "W05",
+          "W06",
+          "W07",
+          "W08",
+          "W09",
+          "W10",
+          "W11",
+          "W12",
+          "W13",
+          "W14",
+          "W15",
+          "W16"
+        ],
+        "primaryEvidence": "World Gym trap-bar available, user has performed squat and trap-bar deadlift but logged kg/reps unknown. Use RIR not fabricated load.",
+        "notes": "Conventional deadlift strengthens hip extensors and back extensors; back lat hypertrophy still requires pull-down and rows. On heavy deadlift Wednesday, station finisher is easy Ski/Row only. On trap-bar Monday, sled push is deferred to WOD.",
+        "progression": "W02 Trap Bar introduction 2×5–6 RIR3–4; W03 Conventional 2×5 RIR3; W05 3×4–6 RIR2–3; W06 Trap 3×5–6; W09 Conventional technique maintenance; W10 and W13 Trap technique maintenance; W04/08/12 deload, W16 taper no heavy deadlift."
       }
     },
     "coordination": [
