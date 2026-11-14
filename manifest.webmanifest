@@ -3,7 +3,7 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=v10",
+  "start_url": "./?app=v11",
   "scope": "./",
   "display": "standalone",
   "description": "17週HYROX Taipei週期化訓練路線、每週詳細課表與Garmin/Petra科學判讀",
