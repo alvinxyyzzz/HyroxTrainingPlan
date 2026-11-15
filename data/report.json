@@ -6480,8 +6480,10 @@
             "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
             "coolDown": "Easy 5min on whichever machine is comfortable",
             "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "equipmentVerified": false,
+            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -6506,7 +6508,8 @@
             "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
             "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值",
             "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -6653,8 +6656,10 @@
           "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
           "coolDown": "Easy 5min on whichever machine is comfortable",
           "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "equipmentVerified": false,
+          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -12118,8 +12123,10 @@
             "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
             "coolDown": "Easy 5min on whichever machine is comfortable",
             "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "equipmentVerified": false,
+            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
@@ -12144,7 +12151,8 @@
             "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
             "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
             "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -12313,8 +12321,10 @@
           "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
           "coolDown": "Easy 5min on whichever machine is comfortable",
           "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "equipmentVerified": false,
+          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -17739,8 +17749,10 @@
             "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
             "coolDown": "Easy 5min on whichever machine is comfortable",
             "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "equipmentVerified": false,
+            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -17765,7 +17777,8 @@
             "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
             "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
             "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -17934,8 +17947,10 @@
           "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
           "coolDown": "Easy 5min on whichever machine is comfortable",
           "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "equipmentVerified": false,
+          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -20116,7 +20131,7 @@
     "releasedOn": "2026-11-15",
     "status": "PUBLISHED v1.5",
     "dataVerifiedThrough": "2026-11-13",
-    "notes": "10K 50:00 /5:00 goal under actual-performance gates; separate running roadmap; one high intensity AirBike5min+Ski repeats replaces Station main W05/W10, light W15 sharpen. Not the advanced 3–4×2km Ski straight away. Preserve W03/W06 Row/Sled and W07/09/11/13 RunStation. No Garmin sync in this plan update."
+    "notes": "10K 50:00 /5:00 goal under actual-performance gates; separate running roadmap; one high intensity AirBike5min+Ski repeats replaces Station main W05/W10, light W15 sharpen. Not the advanced 3–4×2km Ski straight away. Preserve W03/W06 Row/Sled and W07/09/11/13 RunStation. No Garmin sync in this plan update. AirBike/Fan Bike World Gym availability not confirmed, RowErg 5min as fallback."
   },
   "scheduleRevision": {
     "version": "v1.4",
