@@ -443,6 +443,7 @@ function stationItems(z,w){
   if(w.rowSkiWorkout){
    const x=w.rowSkiWorkout;
    return [x.rounds+" ROUNDS · RowErg "+x.rowMinutesPerRound+"min → SkiErg "+x.skiMetersPerRound+"m",
+    "有 AirBike：同分鐘數替代 RowErg（擇一）",
     "每輪休息 "+Math.round(x.betweenRoundRestSeconds/60*10)/10+"min · "+x.workIntensity];
   }
   const first=cleanWorkoutText(sp.steps?.[0]);
@@ -458,7 +459,7 @@ function renderDay(z,i,w){
  const category=z.kind||"rest",sun=z.day==="sun",thu=z.day==="thu",race=w.id==="W17";
  const reason=sessionReason(z,w);
  let items,heading=String(z.title||"").replace(/｜.*$/,"").trim(),duration=z.time||"";
- if(w.rowSkiWorkout&&w.stationPrescription?.day===z.day)heading="ROWERG × SKIERG";
+ if(w.rowSkiWorkout&&w.stationPrescription?.day===z.day)heading="ROW / AIRBIKE × SKI";
  if(sun&&!race){
   const time=(z.time||"").match(/\d+\s*[–-]\s*\d+\s*分鐘/);
   heading="EASY 有氧／Petra 選配";
