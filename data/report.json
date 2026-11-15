@@ -6284,7 +6284,7 @@
                 ]
               }
             ],
-            "subtitle": "RowErg／AirBike 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
+            "subtitle": "RowErg 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
             "wodRunKm": 0
           }
         ],
@@ -6468,10 +6468,10 @@
             "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
             "coolDown": "Easy RowErg or SkiErg 5min",
             "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-            "machine": "RowErg + SkiErg, both available at World Gym",
+            "machine": "World Gym RowErg + SkiErg (both confirmed available)",
             "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
-            "equipmentVerified": false,
-            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "equipmentVerified": true,
+            "primary": "RowErg + SkiErg"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -6488,7 +6488,7 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "ROWERG／AIRBIKE × SKIERG｜高強度交替引擎",
+          "name": "ROWERG × SKIERG｜高強度交替引擎",
           "rounds": 3,
           "rpe": 7.5,
           "duration": "35–45分鐘主課＋暖身",
@@ -6496,8 +6496,7 @@
             "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
             "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
             "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
-            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復",
-            "AirBike有設備時可替代RowErg，同為5分鐘，絕不加做第二段；目前器材仍未確認。"
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -6644,18 +6643,10 @@
           "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
           "coolDown": "Easy RowErg or SkiErg 5min",
           "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-          "machine": "Default RowErg + SkiErg, confirmed in World Gym inventory. AirBike/Fan Bike option ONLY if verified available at session.",
+          "machine": "World Gym RowErg + SkiErg (both confirmed available)",
           "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": true,
-          "fallback": "如現場確認有AirBike／風扇車，可以AirBike同分鐘數取代RowErg；目前器材未確認，預設使用已確認可用的RowErg。",
-          "airBikeVerified": false,
-          "primary": "RowErg verified at World Gym; RowErg + SkiErg is the guaranteed equipment choice",
-          "airBikeAlternative": {
-            "enabledWhen": "fan bike / AirBike / Assault Bike physically available",
-            "minutesPerRound": 5,
-            "intensity": "RPE6–7; use same round count, SkiErg meters and rest",
-            "note": "AirBike is an optional swap for RowErg, not an additional block. Never count both within each round."
-          }
+          "primary": "RowErg + SkiErg"
         }
       },
       {
@@ -11917,7 +11908,7 @@
                 ]
               }
             ],
-            "subtitle": "RowErg／AirBike 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
+            "subtitle": "RowErg 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
             "wodRunKm": 0
           }
         ],
@@ -12103,10 +12094,10 @@
             "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
             "coolDown": "Easy RowErg or SkiErg 5min",
             "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-            "machine": "RowErg + SkiErg, both available at World Gym",
+            "machine": "World Gym RowErg + SkiErg (both confirmed available)",
             "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
-            "equipmentVerified": false,
-            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "equipmentVerified": true,
+            "primary": "RowErg + SkiErg"
           }
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
@@ -12123,7 +12114,7 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "ROWERG／AIRBIKE × SKIERG｜高強度交替引擎",
+          "name": "ROWERG × SKIERG｜高強度交替引擎",
           "rounds": 3,
           "rpe": 8,
           "duration": "45–60分鐘主課＋暖身",
@@ -12131,8 +12122,7 @@
             "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1500m RPE8",
             "休息 3分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
             "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
-            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復",
-            "AirBike有設備時可替代RowErg，同為5分鐘，絕不加做第二段；目前器材仍未確認。"
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -12301,18 +12291,10 @@
           "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
           "coolDown": "Easy RowErg or SkiErg 5min",
           "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-          "machine": "Default RowErg + SkiErg, confirmed in World Gym inventory. AirBike/Fan Bike option ONLY if verified available at session.",
+          "machine": "World Gym RowErg + SkiErg (both confirmed available)",
           "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": true,
-          "fallback": "如現場確認有AirBike／風扇車，可以AirBike同分鐘數取代RowErg；目前器材未確認，預設使用已確認可用的RowErg。",
-          "airBikeVerified": false,
-          "primary": "RowErg verified at World Gym; RowErg + SkiErg is the guaranteed equipment choice",
-          "airBikeAlternative": {
-            "enabledWhen": "fan bike / AirBike / Assault Bike physically available",
-            "minutesPerRound": 5,
-            "intensity": "RPE6–7; use same round count, SkiErg meters and rest",
-            "note": "AirBike is an optional swap for RowErg, not an additional block. Never count both within each round."
-          }
+          "primary": "RowErg + SkiErg"
         }
       },
       {
@@ -17536,7 +17518,7 @@
                 ]
               }
             ],
-            "subtitle": "RowErg／AirBike 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
+            "subtitle": "RowErg 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
             "wodRunKm": 0
           }
         ],
@@ -17721,10 +17703,10 @@
             "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
             "coolDown": "Easy RowErg or SkiErg 5min",
             "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-            "machine": "RowErg + SkiErg, both available at World Gym",
+            "machine": "World Gym RowErg + SkiErg (both confirmed available)",
             "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
-            "equipmentVerified": false,
-            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "equipmentVerified": true,
+            "primary": "RowErg + SkiErg"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -17741,7 +17723,7 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "ROWERG／AIRBIKE × SKIERG｜高強度交替引擎",
+          "name": "ROWERG × SKIERG｜高強度交替引擎",
           "rounds": 2,
           "rpe": 7,
           "duration": "20–30分鐘主課＋暖身",
@@ -17749,8 +17731,7 @@
             "2 ROUNDS：RowErg 4分鐘 RPE6–7 → SkiErg 800m RPE7",
             "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
             "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
-            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復",
-            "AirBike有設備時可替代RowErg，同為4分鐘，絕不加做第二段；目前器材仍未確認。"
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -17919,18 +17900,10 @@
           "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
           "coolDown": "Easy RowErg or SkiErg 5min",
           "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
-          "machine": "Default RowErg + SkiErg, confirmed in World Gym inventory. AirBike/Fan Bike option ONLY if verified available at session.",
+          "machine": "World Gym RowErg + SkiErg (both confirmed available)",
           "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": true,
-          "fallback": "如現場確認有AirBike／風扇車，可以AirBike同分鐘數取代RowErg；目前器材未確認，預設使用已確認可用的RowErg。",
-          "airBikeVerified": false,
-          "primary": "RowErg verified at World Gym; RowErg + SkiErg is the guaranteed equipment choice",
-          "airBikeAlternative": {
-            "enabledWhen": "fan bike / AirBike / Assault Bike physically available",
-            "minutesPerRound": 4,
-            "intensity": "RPE6–7; use same round count, SkiErg meters and rest",
-            "note": "AirBike is an optional swap for RowErg, not an additional block. Never count both within each round."
-          }
+          "primary": "RowErg + SkiErg"
         }
       },
       {
@@ -19551,7 +19524,7 @@
     "defaultView": "17-week daily calendar plus independent running and complete Station main work details",
     "strengthHinge": "Heavy squat/hinge belongs to Monday Legs; Tuesday Pull no heavy deadlift; Friday Push bench primary; W14 Fri 8-station simulation replaces heavy Push.",
     "strengthModel": "3 separate PPL foundational strength days with phase-appropriate 2–3 main work sets, 1–3 accessory sets, actual kg/reps/RIR; low intensity 0–2 round station techniques are supplementary, NOT main.",
-    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day. RowErg+Ski high engine is Sat main replacement W05/W10/W15, NOT an extra session, and Wed hard Petra WOD substitutes; do not add maximal Thu and Sat if recovery is poor. W05/W10/W15 RowErg default 5/5/4min; if AirBike verified available, substitute same duration only. Both variants are one hard main session.",
+    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day. RowErg+Ski high engine is Sat main replacement W05/W10/W15, NOT an extra session, and Wed hard Petra WOD substitutes; do not add maximal Thu and Sat if recovery is poor. W05/W10/W15 RowErg default 5/5/4min; if RowErg verified available, substitute same duration only. Both variants are one hard main session.",
     "weeklyTemplate": "Sun Long Easy/Petra S/S optional (one max from Sun/Mon/Tue); Mon WorldGym Legs; Tue optional AM short Easy + Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WorldGym Push WFH; Sat one station main OR controlled run-station (not both), W14 Fri rehearsal."
   },
   "weeklyScheduleNotes": [
@@ -20111,7 +20084,7 @@
     "releasedOn": "2026-11-15",
     "status": "PUBLISHED v1.5.1",
     "dataVerifiedThrough": "2026-11-13",
-    "notes": "World Gym verified RowErg and SkiErg; high-intensity W05/W10/W15 alternate Row+Ski and replace Station main, with fatigue gates. Continuous 10K 50min goal remains separate. Do not falsely claim Garmin sync. v1.5.1 confirmed RowErg+SkiErg default; unverified AirBike same-duration optional replacement, never add both."
+    "notes": "RowErg + SkiErg high engine W05/W10/W15 based on confirmed equipment, no cycling required. Preserve 10K sub-50 run target and recovery limits."
   },
   "scheduleRevision": {
     "version": "v1.5.1",
