@@ -443,7 +443,8 @@ function stationItems(z,w){
   if(w.airBikeSkiWorkout){
    const x=w.airBikeSkiWorkout;
    return [x.rounds+" ROUNDS · AirBike "+x.bikeMinutesPerRound+"min → SkiErg "+x.skiMetersPerRound+"m",
-    "休息 "+Math.round(x.betweenRoundRestSeconds/60*10)/10+"min · "+x.workIntensity];
+    "休息 "+Math.round(x.betweenRoundRestSeconds/60*10)/10+"min · "+x.workIntensity,
+    "無AirBike → RowErg "+x.bikeMinutesPerRound+"min替代"];
   }
   const first=cleanWorkoutText(sp.steps?.[0]);
   return first?[first]:exerciseItems(z);
