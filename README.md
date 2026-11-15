@@ -1,24 +1,36 @@
-# HYROX PERFORMANCE LAB · v1.5
+# HYROX PERFORMANCE LAB · v1.5.1
 
 **Release:** 2026-11-14. **Training-data snapshot verified through:** 2026-11-13 (NOT refreshed for this programming release).
 
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
 
-## 2026-11-15 · v1.5 | 10K 50:00 + AirBike × SkiErg
+## 2026-11-15 · v1.5.1: World Gym available equipment
+
+**High intensity Station = RowErg + SkiErg**. The athlete's cycling-machine example was illustrative, not equipment available in World Gym.
+
+- **W05**: 3 × (RowErg **5 min RPE6–7** → SkiErg **1,000 m RPE7.5**); rest **2:30** each round.
+- **W10**: 3 × (RowErg **5 min RPE6–7** → SkiErg **1,500 m RPE8**); rest **3:00** each round.
+- **W15**: 2 × (RowErg **4 min RPE6–7** → SkiErg **800 m RPE7**); rest **2:30**; taper/sharpen.
+- Longer Ski 2 km × 3–4 is a later optional advanced benchmark; not a current compulsory workout.
+- One hard engine session **replaces** a regular Station main, never stacks atop Wed hard Petra WOD or Thu hard run when recovery is insufficient. The 10K 50:00 / 5:00km independent running goal is unchanged.
+- App still shows short actionable menu in Strength/Station and flexible running milestones under Running; device-level loading updated to v34.
+
+
+## 2026-11-15 · v1.5 | 10K 50:00 + RowErg × SkiErg
 
 **Standalone running goal:** 10 km in **50:00 (5:00/km)**, aspirational rather than guaranteed; HYROX doubles and single remain separate race goals. Train using real Garmin running, not a blanket 5:00/km pace for Easy runs. Keep one run quality stimulus (usually Petra Thu), one movable Long Easy, and an optional short Easy. W01–04: easy base; W05–08: 6–8km comfortable / selective 800m repeats only at current fitness; W09–12: work toward 8–10km Easy + controlled 1km intervals; W13–15: optional longer repeats at ~5:05–5:15/km if ready; W16–17 taper and HYROX racing. Verify the full 10K 50:00 ability independently after recovery if needed. Erg metres are not running kilometres.
 
 **High-intensity Station main replacements — NOT extra workouts:**
-- **W05** 3 × (AirBike **5min** → SkiErg **1000m**), ~RPE7, 150 sec between rounds
-- **W10** 3 × (AirBike **5min** → SkiErg **1500m**), ~RPE7–8, 180 sec between rounds
-- **W15** 2 × (AirBike **5min** → SkiErg **1000m**), ~RPE6–7, 180 sec between rounds, sharpening not maximal
+- **W05** 3 × (RowErg **5min** → SkiErg **1000m**), ~RPE7, 150 sec between rounds
+- **W10** 3 × (RowErg **5min** → SkiErg **1500m**), ~RPE7–8, 180 sec between rounds
+- **W15** 2 × (RowErg **5min** → SkiErg **1000m**), ~RPE6–7, 180 sec between rounds, sharpening not maximal
 
 The original advanced workout of **3–4 × (5min Fan Bike + SkiErg 2000m)** is a **future benchmark**, not imposed immediately. This keeps the original Row/Sled/Carry/Lunge/BBJ and run-station work in other weeks. If Wed hard Petra WOD was actually attended it substitutes for Sat main, and Petra Thu running must be scaled. If calf/knee symptoms persist, defer high-intensity work.
 
-**Equipment check:** the World Gym fan bike/AirBike presence is **NOT VERIFIED**. The App prescribes a simple alternative when unavailable: **RowErg 5min → SkiErg** (same round count and RPE), and the private equipment inventory is marked unverified.
+**Equipment check:** the World Gym fan bike/RowErg presence is **NOT VERIFIED**. The App prescribes a simple alternative when unavailable: **RowErg 5min → SkiErg** (same round count and RPE), and the private equipment inventory is marked unverified.
 
-**Data:** current source is `data/report.json` v1.5.0, with `tenKPerformanceGoal`, 17 individual `runningTrack.tenK50` entries, and `airBikeSkiWorkout` in W05/W10/W15. Native Sheet tabs: `Training_Plan_v1_5_CURRENT`, `Running_10K_v1_5`, `AirBike_Ski_v1_5`. Old tabs kept for history. Plan updates do not constitute new Garmin/photo sync.
+**Data:** current source is `data/report.json` v1.5.0, with `tenKPerformanceGoal`, 17 individual `runningTrack.tenK50` entries, and `rowSkiSkiWorkout` in W05/W10/W15. Native Sheet tabs: `Training_Plan_v1_5_CURRENT`, `Running_10K_v1_5`, `RowErg_Ski_v1_5`. Old tabs kept for history. Plan updates do not constitute new Garmin/photo sync.
 
 ## UI correction · 2026-11-15 · Full seven days + flexible running (v32)
 
