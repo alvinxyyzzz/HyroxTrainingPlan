@@ -1,6 +1,6 @@
 {
-  "version": "1.4.1",
-  "updated": "2026-11-14",
+  "version": "1.5.0",
+  "updated": "2026-11-15",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
   "nextReview": "每週日晚上（台灣時間）",
@@ -159,6 +159,10 @@
     "headline": "下一個突破點不是更快的400m，而是恢復良好後讓8公里跑＋8個站點更穩。",
     "summary": "11/12 Petra間歇實際含5×~400m＋4×~600m，結束後另做100 Air Squat與兩圈緩跑；Alvin回報小腿明顯痠痛。這次不應直接診斷小腿肌耐力不足：可能是高跑速/推蹬、近期跑量和後續下肢訓練堆疊所致。第一優先是評估步行、上樓與提踵的反應，恢復之前暫緩快速跑、爆發跳躍與高量Wall Ball。原有Petra＋World Gym 5–6天彈性模組維持，但訓練強度依恢復改動；長期目標仍是有氧底盤、站點後可跑及三大項漸進。",
     "findings": [
+      {
+        "title": "10K 5:00/km＋AirBike/Ski高強度主課",
+        "body": "新增獨立10km 50:00目標，跑步按基礎、8–10km長跑、分段5:10–5:20/km、接近5:00/km等里程碑漸進，不是每次跑步都跑5分速。W05/W10選定Sat Station主課改AirBike5min→SkiErg 1km/1.5km×3；W15 2輪輕銳化。原版3–4×2km為未來高階課，不強迫照搬。"
+      },
       {
         "title": "v1.4.1 控制 Wall Ball 呼吸、腿部肌耐力與心肺恢復",
         "body": "增加Talk-Test Easy aerobic、Wall Ball短組6–10次主動休息/呼吸節奏，以及Mon Legs配件Step-up/Split Squat/Leg Curl肌耐力替代；週三硬Petra WOD照舊替代週六主課。小腿仍痠時優先恢復，不加重雪橇/跳躍/高次WallBall。手錶未錄之訓練數據保留在私人Sheet，不推定HR值。"
@@ -515,7 +519,7 @@
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
-  "lastReview": "2026-11-14",
+  "lastReview": "2026-11-15",
   "reviewStatus": {
     "verified": true,
     "garminAsOf": "2026-11-13",
@@ -607,7 +611,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "v1.4.1-2026-11-14",
+    "version": "v1.5-2026-11-15",
     "modeDefault": 6,
     "title": "HYROX PPL + SKI/ROW STATION MAIN",
     "principle": "Mon Legs Tue Pull Fri Push WFH with Wed optional Petra WOD, Thu Petra interval, Sat single Station or safe outdoor RunStation and Sun Long Easy; Tue AM short Easy prioritized only if recovered; one optional Petra Strength/Skill Sun/Mon/Tue replaces matching work. Readiness and confirmed attendance govern weekly progression. Future emphasis: progressive submax Wall Ball with breathe-and-reset patterns, pain-gated Step-up/Split Squat muscular endurance inside Legs accessories, and low-intensity aerobic minutes for more stable respiratory response, not forced low HR.",
@@ -690,9 +694,9 @@
     "fiveDayRule": "Do not invent six completed sessions. If only five days, choose PPL three days, Thu Petra running, and either Saturday Station main or Sunday Easy/Long depending on recovery and whether Wed Petra WOD covered Station; missed slot not force-made-up.",
     "sixDayRule": "PPL Mon/Tue/Fri plus Thu Interval, Sat Station when no Wed hard Petra WOD, Sun Easy/Long; if Wed hard Petra WOD it replaces Sat Station and Thu scaled. This is a maximum template, not a rigid attendance demand.",
     "petraPolicy": "Petra Strength or Skill can ONLY be attended on one day among Sunday, Monday, Tuesday per week; may be zero. Wed Petra WOD separate optional. Actual attendance must be confirmed, not inferred from photo.",
-    "mainStationPolicy": "4-5 rounds Ski/Row/Sled main or selected safe Run→Station 3-4 rounds 400-800m with low-volume BBJ/Lunge/Carry/WB; NOT both; Wed hard WOD replaces Sat and scales Thu. W14 Fri abbreviated rehearsal.",
+    "mainStationPolicy": "4-5 rounds Ski/Row/Sled main or selected safe Run→Station 3-4 rounds 400-800m with low-volume BBJ/Lunge/Carry/WB; NOT both; Wed hard WOD replaces Sat and scales Thu. W14 Fri abbreviated rehearsal. Designated W05/W10/Sat high engine AirBike5min+Ski 1000/1500m (3 rounds), W15 reduced 2 rounds taperish sharpen; no extra Station and Wed hard WOD substitutes.",
     "finisherPolicy": "0–2 easy rounds RPE≤5 after Legs/Push do NOT count as main station training. Do not extrapolate 2 rounds to adequate work capacity stimulus.",
-    "runningPolicy": "Thu Petra class fixed, Sun long easy movable, priority if recovered Tue AM 15–35min short easy; no treadmill required; no Ski/Row metres equated to run distance. Wednesday Petra WOD hard means Thu scaled, Sat main cancelled.",
+    "runningPolicy": "Thu Petra class fixed, Sun long easy movable, priority if recovered Tue AM 15–35min short easy; no treadmill required; no Ski/Row metres equated to run distance. Wednesday Petra WOD hard means Thu scaled, Sat main cancelled. Standalone 10K 50:00 at 5:00/km performance goal; weekly 1 quality run + 1 long Easy + optional third easy movable, progression based on recent split/RPE/5k checks.",
     "ordering": [
       "Fixed Thu Petra Interval first, Wed hard WOD only if it can coexist by scaling Thu; no automatic stacked Wed+Thu full intensity",
       "Keep Fri WFH Push as an anchor, Mon Legs and Tue Pull as other two strength topics",
@@ -748,7 +752,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-14",
+  "planUpdated": "2026-11-15",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -1686,7 +1690,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 0
+          "stationMainRounds": 0,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
         "weaknessFocus": "Wall Ball下蹲與呼吸；SkiErg髖部發力",
         "dailyPlan": [
@@ -2013,7 +2019,7 @@
             12,
             16
           ],
-          "goal": "基礎恢復、保持輕鬆跑感",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量12–16km為條件目標，不是要強行達標。",
           "sessions": [
@@ -2051,7 +2057,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "動作基線＋完整 WOD",
           "wodRunKm": 0,
@@ -2060,7 +2066,7 @@
             16
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -2077,7 +2083,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W01",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BASE",
+            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
+            "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
+            "actualRunTargetKm": [
+              12,
+              16
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2742,7 +2763,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 4,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
         "weaknessFocus": "肩部穩定與單腿控制",
         "dailyPlan": [
@@ -3090,7 +3113,7 @@
             13,
             17
           ],
-          "goal": "穩定三種跑步刺激",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配15–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量13–17km為條件目標，不是要強行達標。",
           "sessions": [
@@ -3129,7 +3152,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "技巧基線與配速分配",
           "wodRunKm": 0,
@@ -3138,7 +3161,7 @@
             17
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -3155,7 +3178,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W02",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BASE",
+            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
+            "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
+            "actualRunTargetKm": [
+              13,
+              17
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -3820,7 +3858,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 4,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
         "weaknessFocus": "背部拉力與SkiErg的後段輸出",
         "dailyPlan": [
@@ -4168,7 +4208,7 @@
             15,
             19
           ],
-          "goal": "增肌容量期維持可恢復跑量",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配15–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–19km為條件目標，不是要強行達標。",
           "sessions": [
@@ -4206,7 +4246,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "增肌容量第一階",
           "wodRunKm": 0,
@@ -4215,7 +4255,7 @@
             19
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -4232,7 +4272,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W03",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BASE",
+            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
+            "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
+            "actualRunTargetKm": [
+              15,
+              19
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -4871,7 +4926,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 0
+          "stationMainRounds": 0,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
         "weaknessFocus": "核心與單側動作控制",
         "dailyPlan": [
@@ -5199,7 +5256,7 @@
             12,
             15
           ],
-          "goal": "減量：減少品質跑與總公里",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量12–15km為條件目標，不是要強行達標。",
           "sessions": [
@@ -5237,7 +5294,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "恢復與技術整理",
           "wodRunKm": 0,
@@ -5246,7 +5303,7 @@
             15
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -5263,7 +5320,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W04",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BASE",
+            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
+            "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
+            "actualRunTargetKm": [
+              12,
+              15
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -5764,63 +5836,56 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜SkiErg + Carry + Wall Ball",
+            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "5 ROUNDS · RPE6–7",
-            "details": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "dose": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
+            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "classPlan": {
-              "kind": "STATION_MAIN",
-              "subtitle": "STATION MAIN｜SkiErg + Carry + Wall Ball",
-              "duration": "5 ROUNDS · RPE6–7",
-              "rpe": "5 ROUNDS · 75–90s rest · RPE7",
-              "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
+              "kind": "AIRBIKE_SKI_MAIN",
+              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+              "duration": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
+              "rpe": "RPE7",
+              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "STATION_MAIN · 1",
-                  "title": "Station 主課｜本週主題",
-                  "format": "5 ROUNDS · 75–90s rest · RPE7",
+                  "tag": "ENGINE 1",
+                  "title": "AirBike × Ski 主課",
+                  "format": "3 ROUNDS · Rest 150s · RPE7",
                   "steps": [
-                    "5 ROUNDS：SkiErg 400m → Farmer Carry 30m → Wall Ball 6kg ×8",
-                    "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-                    "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+                    "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
+                    "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 2",
-                  "title": "專項弱項進度｜本週擇一微劑量",
-                  "format": "不是全部額外加碼",
+                  "tag": "ENGINE 2",
+                  "title": "Warm Up / Cool Down",
+                  "format": "先熱身，主課一次完成",
                   "steps": [
-                    "BBJ：4×5m 技術、步頻一致",
-                    "Sandbag Lunge：Sandbag 10kg × 2×12.5m，動作標準優先",
-                    "Wall Ball：6kg × 5×10 = 50次",
-                    "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                    "Easy 5min on whichever machine is comfortable"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 3",
-                  "title": "有 Petra WOD 的替代條件",
-                  "format": "Wed硬WOD→Sat Easy 或 Rest",
+                  "tag": "ENGINE 3",
+                  "title": "替代規則",
+                  "format": "取代站點主課，不額外堆積",
                   "steps": [
-                    "若週三實際做硬Petra WOD則取消Sat Station主課",
-                    "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                    "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 }
               ],
-              "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
             },
             "wodRunKm": 0,
-            "wodType": "STATION_MAIN",
+            "wodType": "AIRBIKE_SKI_MAIN",
             "stationTags": [
+              "AirBike",
               "SkiErg",
-              "Farmer Carry",
-              "Wall Ball"
+              "aerobic endurance"
             ]
           },
           {
@@ -5899,9 +5964,9 @@
           "strengthWorkSets": 3,
           "strengthRIR": 2,
           "wodTargetRPE": 7,
-          "wodTargetMinutes": "20–40分鐘",
+          "wodTargetMinutes": "30–40分鐘主課＋暖身",
           "longRunMinutes": 50,
-          "functionalRounds": 5,
+          "functionalRounds": 3,
           "priorityMuscles": [
             "pull",
             "legs"
@@ -5910,7 +5975,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "TRAP_BAR",
           "hingePrescription": "Trap-bar Deadlift 3×6 @RIR3",
@@ -5927,7 +5992,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 5
+          "stationMainRounds": 3,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
         "weaknessFocus": "背部／股四頭肌有效增肌",
         "dailyPlan": [
@@ -6201,39 +6268,35 @@
             "dayZh": "週六",
             "date": "2026-12-19",
             "kind": "mixed",
-            "title": "STATION MAIN｜SkiErg + Carry + Wall Ball",
-            "time": "5 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "time": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "5 ROUNDS · 75–90s rest · RPE7",
+                "name": "AirBike × Ski 主課",
+                "format": "3 ROUNDS · Rest 150s · RPE7",
                 "lines": [
-                  "5 ROUNDS：SkiErg 400m → Farmer Carry 30m → Wall Ball 6kg ×8",
-                  "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-                  "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+                  "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
+                  "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值"
                 ]
               },
               {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
+                "name": "Warm Up / Cool Down",
+                "format": "先熱身，主課一次完成",
                 "lines": [
-                  "BBJ：4×5m 技術、步頻一致",
-                  "Sandbag Lunge：Sandbag 10kg × 2×12.5m，動作標準優先",
-                  "Wall Ball：6kg × 5×10 = 50次",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                  "Easy 5min on whichever machine is comfortable"
                 ]
               },
               {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
+                "name": "替代規則",
+                "format": "取代站點主課，不額外堆積",
                 "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "wodRunKm": 0
           }
         ],
@@ -6274,7 +6337,7 @@
             15,
             20
           ],
-          "goal": "開始增加有氧總時間",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–20km為條件目標，不是要強行達標。",
           "sessions": [
@@ -6312,7 +6375,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "背部／腿部增肌週",
           "wodRunKm": 0,
@@ -6321,7 +6384,7 @@
             20
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -6338,7 +6401,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W05",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BUILD",
+            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
+            "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
+            "actualRunTargetKm": [
+              15,
+              20
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -6371,7 +6449,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -6383,7 +6461,28 @@
             "strengthFinishersRPE": 5
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
-          "stationMainRole": "STATION_MAIN"
+          "stationMainRole": "STATION_MAIN",
+          "airBikeSkiPlan": {
+            "week": "W05",
+            "daysFlexible": true,
+            "proposedDay": "sat",
+            "sessionRole": "REPLACES_SAT_STATION_MAIN",
+            "kind": "HARD_ENGINE",
+            "purpose": "建立高強度交替耐力",
+            "rounds": 3,
+            "bikeMinutesPerRound": 5,
+            "skiMetersPerRound": 1000,
+            "totalBikeMinutes": 15,
+            "totalSkiMeters": 3000,
+            "workIntensity": "AirBike RPE6–7, SkiErg RPE7",
+            "betweenRoundRestSeconds": 150,
+            "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+            "coolDown": "Easy 5min on whichever machine is comfortable",
+            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          }
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -6399,14 +6498,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "SkiErg + Carry + Wall Ball",
-          "rounds": 5,
+          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "rounds": 3,
           "rpe": 7,
-          "duration": "20–40分鐘",
+          "duration": "30–40分鐘主課＋暖身",
           "steps": [
-            "5 ROUNDS：SkiErg 400m → Farmer Carry 30m → Wall Ball 6kg ×8",
-            "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-            "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+            "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
+            "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值",
+            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -6415,8 +6515,16 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "One Sat hard engine session replaces previous Station main; skip if Wed hard Petra WOD attended; no replacement for running km",
+          "freshness": "prescribed, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "SkiErg + Carry + Wall Ball",
+            "rounds": 5,
+            "steps": [
+              "5 ROUNDS：SkiErg 400m → Farmer Carry 30m → Wall Ball 6kg ×8",
+              "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "BUILD",
@@ -6481,13 +6589,13 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "Ski technique/controlled repeats",
-          "SledPushPull": "low-frequency skill if Wed WOD or site allows",
+          "SkiErg": "AirBike+Ski main 3×1000m",
+          "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "4×5m 技術、步頻一致",
           "RowErg": "separate easy technique if recovered",
           "FarmerCarry": "main work",
           "SandbagLunge": "Sandbag 10kg × 2×12.5m，動作標準優先",
-          "WallBall": "6kg × 5×10 = 50次"
+          "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
         },
         "weeklyQualityBudget": {
           "normal": "Thu Petra hard running + Sat station main OR Wed hard Petra WOD (Thu downscaled and Sat off)",
@@ -6526,6 +6634,27 @@
           },
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
+        },
+        "airBikeSkiWorkout": {
+          "week": "W05",
+          "daysFlexible": true,
+          "proposedDay": "sat",
+          "sessionRole": "REPLACES_SAT_STATION_MAIN",
+          "kind": "HARD_ENGINE",
+          "purpose": "建立高強度交替耐力",
+          "rounds": 3,
+          "bikeMinutesPerRound": 5,
+          "skiMetersPerRound": 1000,
+          "totalBikeMinutes": 15,
+          "totalSkiMeters": 3000,
+          "workIntensity": "AirBike RPE6–7, SkiErg RPE7",
+          "betweenRoundRestSeconds": 150,
+          "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+          "coolDown": "Easy 5min on whichever machine is comfortable",
+          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
         }
       },
       {
@@ -7020,7 +7149,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 5
+          "stationMainRounds": 5,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
         "weaknessFocus": "左右腿動作對稱",
         "dailyPlan": [
@@ -7383,7 +7514,7 @@
             17,
             21
           ],
-          "goal": "穩定每次跑步輸出",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量17–21km為條件目標，不是要強行達標。",
           "sessions": [
@@ -7422,7 +7553,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "單腿控制與肌耐力",
           "wodRunKm": 0,
@@ -7431,7 +7562,7 @@
             21
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -7448,7 +7579,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W06",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BUILD",
+            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
+            "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
+            "actualRunTargetKm": [
+              17,
+              21
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -8151,7 +8297,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 3
+          "stationMainRounds": 3,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
         "weaknessFocus": "上背耐力與SkiErg續航",
         "dailyPlan": [
@@ -8511,7 +8659,7 @@
             18,
             23
           ],
-          "goal": "建立60分鐘Long Run基礎",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–23km為條件目標，不是要強行達標。",
           "sessions": [
@@ -8549,7 +8697,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 20–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "機械張力與Erg輸出",
           "wodRunKm": 1.2,
@@ -8558,7 +8706,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -8575,7 +8723,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 1.2,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W07",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BUILD",
+            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
+            "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
+            "actualRunTargetKm": [
+              18,
+              23
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -9243,7 +9406,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 0
+          "stationMainRounds": 0,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
         "weaknessFocus": "技術精準與疲勞回落",
         "dailyPlan": [
@@ -9572,7 +9737,7 @@
             14,
             18
           ],
-          "goal": "減量：Easy為主",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量14–18km為條件目標，不是要強行達標。",
           "sessions": [
@@ -9610,7 +9775,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "中期降載／吸收",
           "wodRunKm": 0,
@@ -9619,7 +9784,7 @@
             18
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -9636,7 +9801,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W08",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "BUILD",
+            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
+            "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
+            "actualRunTargetKm": [
+              14,
+              18
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -10317,7 +10497,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 3
+          "stationMainRounds": 3,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
         },
         "weaknessFocus": "站點後重新起跑",
         "dailyPlan": [
@@ -10678,7 +10860,7 @@
             19,
             23
           ],
-          "goal": "提高HYROX長時間配速控制",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量19–23km為條件目標，不是要強行達標。",
           "sessions": [
@@ -10716,7 +10898,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "跑後進站與恢復跑速",
           "wodRunKm": 1.8,
@@ -10725,7 +10907,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -10742,7 +10924,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 1.8,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W09",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "TRANSFER",
+            "longRun": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+            "qualityRunAlternative": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
+            "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加",
+            "actualRunTargetKm": [
+              19,
+              23
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -11273,79 +11470,56 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜RowErg + Sled Push / Pull",
+            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "5 ROUNDS · RPE6–7",
-            "details": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "dose": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
+            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "classPlan": {
-              "kind": "STATION_MAIN",
-              "subtitle": "STATION MAIN｜RowErg + Sled Push / Pull",
-              "duration": "5 ROUNDS · RPE6–7",
-              "rpe": "5 ROUNDS · 90–120s rest · RPE7",
-              "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
+              "kind": "AIRBIKE_SKI_MAIN",
+              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+              "duration": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
+              "rpe": "RPE7.5",
+              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "STATION_MAIN · 1",
-                  "title": "Station 主課｜本週主題",
-                  "format": "5 ROUNDS · 90–120s rest · RPE7",
+                  "tag": "ENGINE 1",
+                  "title": "AirBike × Ski 主課",
+                  "format": "3 ROUNDS · Rest 180s · RPE7.5",
                   "steps": [
-                    "5 ROUNDS：RowErg 350m → Sled Push 12.5m → Sled Pull 12.5m",
-                    "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-                    "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+                    "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
+                    "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 2",
-                  "title": "專項弱項進度｜本週擇一微劑量",
-                  "format": "不是全部額外加碼",
+                  "tag": "ENGINE 2",
+                  "title": "Warm Up / Cool Down",
+                  "format": "先熱身，主課一次完成",
                   "steps": [
-                    "BBJ：3×12.5m（累積37.5m），不追單次極限",
-                    "Sandbag Lunge：Sandbag 15kg × 3×15m",
-                    "Wall Ball：6kg × 6×12 = 72次",
-                    "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                    "Easy 5min on whichever machine is comfortable"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 3",
-                  "title": "有 Petra WOD 的替代條件",
-                  "format": "Wed硬WOD→Sat Easy 或 Rest",
+                  "tag": "ENGINE 3",
+                  "title": "替代規則",
+                  "format": "取代站點主課，不額外堆積",
                   "steps": [
-                    "若週三實際做硬Petra WOD則取消Sat Station主課",
-                    "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                    "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
-                },
-                {
-                  "tag": "DOUBLES · OPTIONAL",
-                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
-                  "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
-                  "steps": [
-                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
-                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
-                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
-                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
-                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
-                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
-                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
-                  ],
-                  "minutes": "取代當週原Station的一部分",
-                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
+                  "minutes": "Depends on actual splits"
                 }
               ],
-              "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
             },
             "wodRunKm": 0,
-            "wodType": "STATION_MAIN",
+            "wodType": "AIRBIKE_SKI_MAIN",
             "stationTags": [
+              "AirBike",
               "SkiErg",
-              "Farmer Carry",
-              "Wall Ball"
+              "aerobic endurance"
             ]
           },
           {
@@ -11423,10 +11597,10 @@
           "primaryFocus": "雪橇推拉與單側穩定",
           "strengthWorkSets": 3,
           "strengthRIR": 2,
-          "wodTargetRPE": 7,
-          "wodTargetMinutes": "20–40分鐘",
+          "wodTargetRPE": 7.5,
+          "wodTargetMinutes": "40–55分鐘主課＋暖身",
           "longRunMinutes": 60,
-          "functionalRounds": 5,
+          "functionalRounds": 3,
           "priorityMuscles": [
             "push",
             "legs"
@@ -11435,7 +11609,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR2",
@@ -11452,7 +11626,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 5
+          "stationMainRounds": 3,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
         },
         "weaknessFocus": "Sled Push／Pull動作效率",
         "dailyPlan": [
@@ -11728,52 +11904,35 @@
             "dayZh": "週六",
             "date": "2027-01-23",
             "kind": "mixed",
-            "title": "STATION MAIN｜RowErg + Sled Push / Pull",
-            "time": "5 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "time": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "5 ROUNDS · 90–120s rest · RPE7",
+                "name": "AirBike × Ski 主課",
+                "format": "3 ROUNDS · Rest 180s · RPE7.5",
                 "lines": [
-                  "5 ROUNDS：RowErg 350m → Sled Push 12.5m → Sled Pull 12.5m",
-                  "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-                  "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+                  "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
+                  "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
                 ]
               },
               {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
+                "name": "Warm Up / Cool Down",
+                "format": "先熱身，主課一次完成",
                 "lines": [
-                  "BBJ：3×12.5m（累積37.5m），不追單次極限",
-                  "Sandbag Lunge：Sandbag 15kg × 3×15m",
-                  "Wall Ball：6kg × 6×12 = 72次",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                  "Easy 5min on whichever machine is comfortable"
                 ]
               },
               {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
+                "name": "替代規則",
+                "format": "取代站點主課，不額外堆積",
                 "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
-                ]
-              },
-              {
-                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
-                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
-                "lines": [
-                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
-                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
-                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
-                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
-                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
-                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
-                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "wodRunKm": 0
           }
         ],
@@ -11814,7 +11973,7 @@
             20,
             25
           ],
-          "goal": "中等跑量下穩定門檻強度",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量20–25km為條件目標，不是要強行達標。",
           "sessions": [
@@ -11853,7 +12012,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "雪橇推拉與單側穩定",
           "wodRunKm": 0,
@@ -11862,7 +12021,7 @@
             25
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -11879,7 +12038,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W10",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "TRANSFER",
+            "longRun": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+            "qualityRunAlternative": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
+            "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加",
+            "actualRunTargetKm": [
+              20,
+              25
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -11913,7 +12087,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -11925,7 +12099,28 @@
             "strengthFinishersRPE": 5
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
-          "stationMainRole": "STATION_MAIN"
+          "stationMainRole": "STATION_MAIN",
+          "airBikeSkiPlan": {
+            "week": "W10",
+            "daysFlexible": true,
+            "proposedDay": "sat",
+            "sessionRole": "REPLACES_SAT_STATION_MAIN",
+            "kind": "HARD_ENGINE",
+            "purpose": "SkiErg耐力與高心率恢復",
+            "rounds": 3,
+            "bikeMinutesPerRound": 5,
+            "skiMetersPerRound": 1500,
+            "totalBikeMinutes": 15,
+            "totalSkiMeters": 4500,
+            "workIntensity": "AirBike RPE6–7, SkiErg RPE7.5",
+            "betweenRoundRestSeconds": 180,
+            "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+            "coolDown": "Easy 5min on whichever machine is comfortable",
+            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          }
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
         "petraWednesdayStatus": "WED_ONLY_OPTIONAL",
@@ -11941,14 +12136,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "RowErg + Sled Push / Pull",
-          "rounds": 5,
-          "rpe": 7,
-          "duration": "20–40分鐘",
+          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "rounds": 3,
+          "rpe": 7.5,
+          "duration": "40–55分鐘主課＋暖身",
           "steps": [
-            "5 ROUNDS：RowErg 350m → Sled Push 12.5m → Sled Pull 12.5m",
-            "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-            "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+            "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
+            "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
+            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -11957,8 +12153,16 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "One Sat hard engine session replaces previous Station main; skip if Wed hard Petra WOD attended; no replacement for running km",
+          "freshness": "prescribed, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "RowErg + Sled Push / Pull",
+            "rounds": 5,
+            "steps": [
+              "5 ROUNDS：RowErg 350m → Sled Push 12.5m → Sled Pull 12.5m",
+              "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "TRANSFER",
@@ -12023,13 +12227,13 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "longer repeated splits 400–500m + optional paced 1000m assessment when recovered",
-          "SledPushPull": "main station incl push/pull",
+          "SkiErg": "AirBike+Ski main 3×1500m",
+          "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "3×12.5m（累積37.5m），不追單次極限",
           "RowErg": "main Row repeats",
           "FarmerCarry": "grip and technique microdoses",
           "SandbagLunge": "Sandbag 15kg × 3×15m",
-          "WallBall": "6kg × 6×12 = 72次"
+          "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
         },
         "weeklyQualityBudget": {
           "normal": "Thu Petra hard running + Sat station main OR Wed hard Petra WOD (Thu downscaled and Sat off)",
@@ -12090,6 +12294,27 @@
           },
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
+        },
+        "airBikeSkiWorkout": {
+          "week": "W10",
+          "daysFlexible": true,
+          "proposedDay": "sat",
+          "sessionRole": "REPLACES_SAT_STATION_MAIN",
+          "kind": "HARD_ENGINE",
+          "purpose": "SkiErg耐力與高心率恢復",
+          "rounds": 3,
+          "bikeMinutesPerRound": 5,
+          "skiMetersPerRound": 1500,
+          "totalBikeMinutes": 15,
+          "totalSkiMeters": 4500,
+          "workIntensity": "AirBike RPE6–7, SkiErg RPE7.5",
+          "betweenRoundRestSeconds": 180,
+          "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+          "coolDown": "Easy 5min on whichever machine is comfortable",
+          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
         }
       },
       {
@@ -12583,7 +12808,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 4,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
         },
         "weaknessFocus": "Wall Ball後半段腿肩耐力",
         "dailyPlan": [
@@ -12944,7 +13171,7 @@
             21,
             26
           ],
-          "goal": "提高站後起跑能力",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。",
           "sessions": [
@@ -12982,7 +13209,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "Wall Ball後程耐力",
           "wodRunKm": 2.4,
@@ -12991,7 +13218,7 @@
             26
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -13008,7 +13235,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 2.4,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W11",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "TRANSFER",
+            "longRun": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+            "qualityRunAlternative": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
+            "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加",
+            "actualRunTargetKm": [
+              21,
+              26
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -13676,7 +13918,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 0
+          "stationMainRounds": 0,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
         },
         "weaknessFocus": "站點動作質量與配速恢復",
         "dailyPlan": [
@@ -14005,7 +14249,7 @@
             16,
             20
           ],
-          "goal": "減量：長跑與間歇一起縮短",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量16–20km為條件目標，不是要強行達標。",
           "sessions": [
@@ -14043,7 +14287,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "站點減量／姿勢修正",
           "wodRunKm": 0,
@@ -14052,7 +14296,7 @@
             20
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -14069,7 +14313,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W12",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "TRANSFER",
+            "longRun": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+            "qualityRunAlternative": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
+            "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加",
+            "actualRunTargetKm": [
+              16,
+              20
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -14749,7 +15008,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 4,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證"
         },
         "weaknessFocus": "賽事配速與跑站轉換",
         "dailyPlan": [
@@ -15109,7 +15370,7 @@
             21,
             26
           ],
-          "goal": "1km跑段與Station配速連結",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。",
           "sessions": [
@@ -15147,7 +15408,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "賽事順序與可持續配速",
           "wodRunKm": 3.2,
@@ -15156,7 +15417,7 @@
             26
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -15173,7 +15434,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 3.2,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W13",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "SPECIFIC",
+            "longRun": "60–75分鐘Easy，若持續進步可做8–11km；比賽前不強制刷10K PR",
+            "qualityRunAlternative": "恢復、5km成績良好且無同週額外硬WOD，才在品質跑選2×2000m @5:05–5:15/km；不能穩住就維持較慢配速",
+            "milestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證",
+            "actualRunTargetKm": [
+              21,
+              26
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -15860,7 +16136,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 4,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證"
         },
         "weaknessFocus": "縮量模擬與隔天恢復能力",
         "dailyPlan": [
@@ -16185,7 +16463,7 @@
             18,
             23
           ],
-          "goal": "縮量賽事模擬週，品質跑改Easy",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量18–23km為條件目標，不是要強行達標。",
           "sessions": [
@@ -16223,7 +16501,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "縮量雙日測試",
           "wodRunKm": 2.4,
@@ -16232,7 +16510,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -16249,7 +16527,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 2.4,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W14",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "SPECIFIC",
+            "longRun": "60–75分鐘Easy，若持續進步可做8–11km；比賽前不強制刷10K PR",
+            "qualityRunAlternative": "恢復、5km成績良好且無同週額外硬WOD，才在品質跑選2×2000m @5:05–5:15/km；不能穩住就維持較慢配速",
+            "milestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證",
+            "actualRunTargetKm": [
+              18,
+              23
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -16800,80 +17093,56 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜SkiErg + Carry + Wall Ball",
+            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "4 ROUNDS · RPE6–7",
-            "details": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "dose": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
+            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "classPlan": {
-              "kind": "STATION_MAIN",
-              "subtitle": "STATION MAIN｜SkiErg + Carry + Wall Ball",
-              "duration": "4 ROUNDS · RPE6–7",
-              "rpe": "4 ROUNDS · 75–90s rest · RPE7",
-              "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
+              "kind": "AIRBIKE_SKI_MAIN",
+              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+              "duration": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
+              "rpe": "RPE6.5",
+              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "STATION_MAIN · 1",
-                  "title": "Station 主課｜本週主題",
-                  "format": "4 ROUNDS · 75–90s rest · RPE7",
+                  "tag": "ENGINE 1",
+                  "title": "AirBike × Ski 主課",
+                  "format": "2 ROUNDS · Rest 180s · RPE6.5",
                   "steps": [
-                    "4 ROUNDS：SkiErg 450m → Farmer Carry 40m → Wall Ball 6kg ×10",
-                    "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-                    "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+                    "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
+                    "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 2",
-                  "title": "專項弱項進度｜本週擇一微劑量",
-                  "format": "不是全部額外加碼",
+                  "tag": "ENGINE 2",
+                  "title": "Warm Up / Cool Down",
+                  "format": "先熱身，主課一次完成",
                   "steps": [
-                    "BBJ：2×10m乾淨動作即可",
-                    "Sandbag Lunge：Sandbag 15–20kg × 2×15m",
-                    "Wall Ball：6kg × 4×10–12 = 40–48次",
-                    "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                    "Easy 5min on whichever machine is comfortable"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
+                  "minutes": "Depends on actual splits"
                 },
                 {
-                  "tag": "STATION_MAIN · 3",
-                  "title": "有 Petra WOD 的替代條件",
-                  "format": "Wed硬WOD→Sat Easy 或 Rest",
+                  "tag": "ENGINE 3",
+                  "title": "替代規則",
+                  "format": "取代站點主課，不額外堆積",
                   "steps": [
-                    "若週三實際做硬Petra WOD則取消Sat Station主課",
-                    "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                    "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                   ],
-                  "minutes": "以實際完成紀錄為準",
-                  "note": "課表為處方不是完成紀錄；實際Petra出席需要確認"
-                },
-                {
-                  "tag": "DOUBLES · OPTIONAL",
-                  "title": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
-                  "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
-                  "steps": [
-                    "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
-                    "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
-                    "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
-                    "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
-                    "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
-                    "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
-                    "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
-                  ],
-                  "minutes": "取代當週原Station的一部分",
-                  "note": "僅同伴可出席時，仍視週三Petra硬WOD是否已替代主課；不加總工作量"
+                  "minutes": "Depends on actual splits"
                 }
               ],
-              "notes": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機"
+              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
             },
             "wodRunKm": 0,
-            "wodType": "STATION_MAIN",
+            "wodType": "AIRBIKE_SKI_MAIN",
             "stationTags": [
-              "RowErg",
-              "Sled Push",
-              "Sled Pull",
-              "KB Lunge"
+              "AirBike",
+              "SkiErg",
+              "aerobic endurance"
             ]
           },
           {
@@ -16951,10 +17220,10 @@
           "primaryFocus": "節奏精煉與疲勞回落",
           "strengthWorkSets": 2,
           "strengthRIR": 3,
-          "wodTargetRPE": 7,
-          "wodTargetMinutes": "20–40分鐘",
+          "wodTargetRPE": 6.5,
+          "wodTargetMinutes": "20–30分鐘主課＋暖身",
           "longRunMinutes": 50,
-          "functionalRounds": 4,
+          "functionalRounds": 2,
           "priorityMuscles": [
             "push",
             "legs"
@@ -16963,7 +17232,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -16980,7 +17249,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 4
+          "stationMainRounds": 2,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證"
         },
         "weaknessFocus": "Station換站效率與節奏",
         "dailyPlan": [
@@ -17255,52 +17526,35 @@
             "dayZh": "週六",
             "date": "2027-02-27",
             "kind": "mixed",
-            "title": "STATION MAIN｜SkiErg + Carry + Wall Ball",
-            "time": "4 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "time": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "4 ROUNDS · 75–90s rest · RPE7",
+                "name": "AirBike × Ski 主課",
+                "format": "2 ROUNDS · Rest 180s · RPE6.5",
                 "lines": [
-                  "4 ROUNDS：SkiErg 450m → Farmer Carry 40m → Wall Ball 6kg ×10",
-                  "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-                  "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+                  "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
+                  "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
                 ]
               },
               {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
+                "name": "Warm Up / Cool Down",
+                "format": "先熱身，主課一次完成",
                 "lines": [
-                  "BBJ：2×10m乾淨動作即可",
-                  "Sandbag Lunge：Sandbag 15–20kg × 2×15m",
-                  "Wall Ball：6kg × 4×10–12 = 40–48次",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
+                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+                  "Easy 5min on whichever machine is comfortable"
                 ]
               },
               {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
+                "name": "替代規則",
+                "format": "取代站點主課，不額外堆積",
                 "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
-                ]
-              },
-              {
-                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
-                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
-                "lines": [
-                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
-                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
-                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
-                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
-                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
-                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
-                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
+                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
             "wodRunKm": 0
           }
         ],
@@ -17341,7 +17595,7 @@
             18,
             22
           ],
-          "goal": "保持速度感、避免累積疲勞",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–22km為條件目標，不是要強行達標。",
           "sessions": [
@@ -17379,7 +17633,7 @@
               ]
             }
           ],
-          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里",
+          "optional": "優先選配 Tue AM 25–35min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "節奏精煉與疲勞回落",
           "wodRunKm": 0,
@@ -17388,7 +17642,7 @@
             22
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -17405,7 +17659,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W15",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "SPECIFIC",
+            "longRun": "60–75分鐘Easy，若持續進步可做8–11km；比賽前不強制刷10K PR",
+            "qualityRunAlternative": "恢復、5km成績良好且無同週額外硬WOD，才在品質跑選2×2000m @5:05–5:15/km；不能穩住就維持較慢配速",
+            "milestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證",
+            "actualRunTargetKm": [
+              18,
+              22
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 1,
@@ -17439,7 +17708,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "STATION_MAIN",
+          "wodType": "AIRBIKE_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "SHARPEN",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -17451,7 +17720,28 @@
             "strengthFinishersRPE": 5
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
-          "stationMainRole": "STATION_MAIN"
+          "stationMainRole": "STATION_MAIN",
+          "airBikeSkiPlan": {
+            "week": "W15",
+            "daysFlexible": true,
+            "proposedDay": "sat",
+            "sessionRole": "REPLACES_SAT_STATION_MAIN",
+            "kind": "HARD_ENGINE",
+            "purpose": "賽前銳化，不練到力竭",
+            "rounds": 2,
+            "bikeMinutesPerRound": 5,
+            "skiMetersPerRound": 1000,
+            "totalBikeMinutes": 10,
+            "totalSkiMeters": 2000,
+            "workIntensity": "AirBike RPE6–7, SkiErg RPE6.5",
+            "betweenRoundRestSeconds": 180,
+            "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+            "coolDown": "Easy 5min on whichever machine is comfortable",
+            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+            "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
+          }
         },
         "scheduleType": "A_STATION_MAIN",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -17467,14 +17757,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "SkiErg + Carry + Wall Ball",
-          "rounds": 4,
-          "rpe": 7,
-          "duration": "20–40分鐘",
+          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "rounds": 2,
+          "rpe": 6.5,
+          "duration": "20–30分鐘主課＋暖身",
           "steps": [
-            "4 ROUNDS：SkiErg 450m → Farmer Carry 40m → Wall Ball 6kg ×10",
-            "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-            "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+            "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
+            "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
+            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
+            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -17483,8 +17774,16 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "One Sat hard engine session replaces previous Station main; skip if Wed hard Petra WOD attended; no replacement for running km",
+          "freshness": "prescribed, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "SkiErg + Carry + Wall Ball",
+            "rounds": 4,
+            "steps": [
+              "4 ROUNDS：SkiErg 450m → Farmer Carry 40m → Wall Ball 6kg ×10",
+              "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "SHARPEN",
@@ -17549,13 +17848,13 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "longer repeated splits 400–500m + optional paced 1000m assessment when recovered",
-          "SledPushPull": "low-frequency skill if Wed WOD or site allows",
+          "SkiErg": "AirBike+Ski main 2×1000m",
+          "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "2×10m乾淨動作即可",
           "RowErg": "separate easy technique if recovered",
           "FarmerCarry": "main work",
           "SandbagLunge": "Sandbag 15–20kg × 2×15m",
-          "WallBall": "6kg × 4×10–12 = 40–48次"
+          "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
         },
         "weeklyQualityBudget": {
           "normal": "Thu Petra hard running + Sat station main OR Wed hard Petra WOD (Thu downscaled and Sat off)",
@@ -17616,6 +17915,27 @@
           },
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
+        },
+        "airBikeSkiWorkout": {
+          "week": "W15",
+          "daysFlexible": true,
+          "proposedDay": "sat",
+          "sessionRole": "REPLACES_SAT_STATION_MAIN",
+          "kind": "HARD_ENGINE",
+          "purpose": "賽前銳化，不練到力竭",
+          "rounds": 2,
+          "bikeMinutesPerRound": 5,
+          "skiMetersPerRound": 1000,
+          "totalBikeMinutes": 10,
+          "totalSkiMeters": 2000,
+          "workIntensity": "AirBike RPE6–7, SkiErg RPE6.5",
+          "betweenRoundRestSeconds": 180,
+          "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
+          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+          "coolDown": "Easy 5min on whichever machine is comfortable",
+          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
+          "machine": "AirBike/AirDyne/Assault Bike (not spin bike); substitute easy RowErg if absent but use adjusted RPE",
+          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR."
         }
       },
       {
@@ -18067,7 +18387,9 @@
             "petraStrengthSkill": "Optional one of Sun/Mon/Tue and substitute",
             "summary": "Hard cardiometabolic sessions generally <=2/week, recovery <=1. Wed hard WOD displaces Sat and scales Thu. Mon/Tue/Fri PPL anchors and optional Sun/Mon/Tue Petra strength replace matched work."
           },
-          "stationMainRounds": 0
+          "stationMainRounds": 0,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "恢復HYROX比賽狀態"
         },
         "weaknessFocus": "短距離速度感與精力恢復",
         "dailyPlan": [
@@ -18395,7 +18717,7 @@
             10,
             15
           ],
-          "goal": "Taper：減少訓練量",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
           "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量10–15km為條件目標，不是要強行達標。",
           "sessions": [
@@ -18433,7 +18755,7 @@
               ]
             }
           ],
-          "optional": "Deload/特殊週不必強求第三次Easy",
+          "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
           "weeklyFocus": "賽前降載",
           "wodRunKm": 0,
@@ -18442,7 +18764,7 @@
             15
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。",
+          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -18459,7 +18781,22 @@
             "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
           },
           "plannedRunStationKm": 0,
-          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate."
+          "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
+          "tenK50": {
+            "week": "W16",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "TAPER",
+            "longRun": "20–40分鐘Easy，減量為主",
+            "qualityRunAlternative": "短節奏確認，取消長/硬測驗",
+            "milestone": "恢復HYROX比賽狀態",
+            "actualRunTargetKm": [
+              10,
+              15
+            ],
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          }
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -18787,7 +19124,9 @@
           "weeklyRule": "賽事直接取代WOD/Long Run；週五後重點睡眠補給，週六按體力配速",
           "benchmark": "兩天比賽動作有效率與恢復執行",
           "deload": true,
-          "softTissueGate": true
+          "softTissueGate": true,
+          "tenKGoal": "50:00 (5:00/km) standalone 10km",
+          "runningMilestone": "賽後恢復1–3週再視狀態測一次獨立10K，50分列為能力目標而非保證"
         },
         "weaknessFocus": "混雙分工與雙日補給",
         "dailyPlan": [
@@ -18962,7 +19301,7 @@
         "runningTrack": {
           "mode": "Race week",
           "targetKm": null,
-          "goal": "正式雙日比賽，不追加跑步課",
+          "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "Garmin資料截至2026-11-13",
           "schedule": "完全自由；03/12與03/13兩場比賽已包含跑步",
           "sessions": [],
@@ -18970,7 +19309,21 @@
             "比賽前休息與活動度",
             "兩場正式HYROX的跑步累積已足夠"
           ],
-          "integration": "比賽週不可再加Long Run、跑步間歇或Station WOD"
+          "integration": "比賽週不可再加Long Run、跑步間歇或Station WOD",
+          "tenK50": {
+            "week": "W17",
+            "targetPaceMinKm": "5:00",
+            "goalDuration": "50:00",
+            "phase": "RACE",
+            "longRun": "比賽週無另排Long Easy",
+            "qualityRunAlternative": "週五混雙+週六男單，停止額外閾值課",
+            "milestone": "賽後恢復1–3週再視狀態測一次獨立10K，50分列為能力目標而非保證",
+            "actualRunTargetKm": null,
+            "flexibleDays": true,
+            "estimatedAchievement": "conditional; not confirmed"
+          },
+          "optional": "；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
+          "qualityPolicy": "；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。"
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -19155,8 +19508,8 @@
     }
   },
   "programArchitecture": {
-    "version": "2026-11-14-v1.4-verified",
-    "rationale": "Athlete-centered periodization with PPL strength, actual HYROX station coverage, controlled intermittent run→station→run, fixed Petra Thu, alternate Petra Wed WOD, Sunday class Flex, recovery/autoregulation; default no 3 consecutive hard cardio sessions. v1.4.1 adds easy aerobic base, wall ball local endurance and safer HR response trend monitoring; avoid equating rapid HR rise with cardiac weakness.",
+    "version": "2026-11-15-v1.5",
+    "rationale": "Maintain HYROX 8-station and concurrent strength. Add an occasional high-intensity AirBike (5min)→SkiErg interval station main with W05 3×1km W10 3×1.5km W15 reduced 2×1km; choose only one station workout and keep running quality. Standalone 10km 50min goal is phased, unverified; quality run Petra or alternate, long easy, optional easy.",
     "evidence": [
       {
         "title": "HWPO HYROX official programming",
@@ -19203,7 +19556,7 @@
     "defaultView": "17-week daily calendar plus independent running and complete Station main work details",
     "strengthHinge": "Heavy squat/hinge belongs to Monday Legs; Tuesday Pull no heavy deadlift; Friday Push bench primary; W14 Fri 8-station simulation replaces heavy Push.",
     "strengthModel": "3 separate PPL foundational strength days with phase-appropriate 2–3 main work sets, 1–3 accessory sets, actual kg/reps/RIR; low intensity 0–2 round station techniques are supplementary, NOT main.",
-    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day.",
+    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day. AirBike+Ski high engine is Sat main replacement W05/W10/W15, NOT an extra session, and Wed hard Petra WOD substitutes; do not add maximal Thu and Sat if recovery is poor.",
     "weeklyTemplate": "Sun Long Easy/Petra S/S optional (one max from Sun/Mon/Tue); Mon WorldGym Legs; Tue optional AM short Easy + Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WorldGym Push WFH; Sat one station main OR controlled run-station (not both), W14 Fri rehearsal."
   },
   "weeklyScheduleNotes": [
@@ -19232,7 +19585,7 @@
           "avgHr": 150
         }
       },
-      "principle": "Fixed Thu Petra Interval. Sun Long Easy flexible + conditional priority Tue AM short Easy 15–35min (skip for recovery/Petra Tue/Wed WOD). Selected W07/W09/W11/W13/W14 Run→Station adds actual safe outdoor running recorded by Garmin, replaces station not an extra hard session. No treadmill, no conversion from Ski/Row to run km. v1.4.1: Build ability to hold sustainable Easy talk-test pace, check same-effort RPE/respiratory response; no fixed HR bpm target without data.",
+      "principle": "Fixed Thu Petra Interval. Sun Long Easy flexible + conditional priority Tue AM short Easy 15–35min (skip for recovery/Petra Tue/Wed WOD). Selected W07/W09/W11/W13/W14 Run→Station adds actual safe outdoor running recorded by Garmin, replaces station not an extra hard session. No treadmill, no conversion from Ski/Row to run km. v1.4.1: Build ability to hold sustainable Easy talk-test pace, check same-effort RPE/respiratory response; no fixed HR bpm target without data. New 10K target 50:00 (5:00/km), attainable only with verified milestones; retain actual easy/long run, quality intervals and occasional goal-pace repeats according to 10k readiness, not force all runs at goal pace; Ski/Row/Bike counts as cross-training, not km.",
       "startDate": "2026-11-15"
     },
     "gym": {
@@ -19256,7 +19609,7 @@
           "evidence": "Back Squat, Trap-bar Deadlift, Lunge, Wall Ball, Ski 1000m user-report; weights/reps not logged"
         }
       ],
-      "principle": "PPL Mon Legs Tue Pull Fri Push WFH. Petra Strength/Skill only once SUN/MON/TUE optional and substituting matching load. Wed hard Petra WOD replaces Sat main + scales Thu. Sat HYROX station main 4–5 rounds or safe Run→Station; BBJ/Lunge/Wall Ball progressive weekly skill exposure with pain gates; W14 Fri rehearsal replaces Push. v1.4.1: WallBall short valid sets/controlled breathing and recovery rather than HR all-out; leg muscular endurance replaces existing Mon accessories; no extra high-intensity cardio while calf soreness persists.",
+      "principle": "PPL Mon Legs Tue Pull Fri Push WFH. Petra Strength/Skill only once SUN/MON/TUE optional and substituting matching load. Wed hard Petra WOD replaces Sat main + scales Thu. Sat HYROX station main 4–5 rounds or safe Run→Station; BBJ/Lunge/Wall Ball progressive weekly skill exposure with pain gates; W14 Fri rehearsal replaces Push. v1.4.1: WallBall short valid sets/controlled breathing and recovery rather than HR all-out; leg muscular endurance replaces existing Mon accessories; no extra high-intensity cardio while calf soreness persists. W05/W10 selected AirBike+Ski intensity Station MAIN, W15 reduced sharpen, completely substitutes old main, preserves other weeks' 8-station preparation.",
       "kickoff": {
         "date": "2026-11-14",
         "weekday": "週六",
@@ -19758,12 +20111,12 @@
     "privacy": "Public report contains aggregated data only, no raw FIT, GPS coordinates or private photos"
   },
   "planRelease": {
-    "name": "HYROX LAB · AEROBIC + WALL BALL EFFICIENCY",
-    "label": "v1.4.1",
-    "releasedOn": "2026-11-14",
-    "status": "PUBLISHED v1.4.1",
+    "name": "HYROX · AIRBIKE/SKI ENGINE + 10K 50",
+    "label": "v1.5",
+    "releasedOn": "2026-11-15",
+    "status": "PUBLISHED v1.5",
     "dataVerifiedThrough": "2026-11-13",
-    "notes": "Build on v1.4: optional easy aerobic at talk-test pace, controlled Wall Ball microdoses + breathing, leg endurance substitution, cardio recovery and symptom gates. The user's 2026-11-14 unrecorded 4-set session remains recorded ONLY in private Google Sheet, not in public report, and no Garmin HR values are invented."
+    "notes": "10K 50:00 /5:00 goal under actual-performance gates; separate running roadmap; one high intensity AirBike5min+Ski repeats replaces Station main W05/W10, light W15 sharpen. Not the advanced 3–4×2km Ski straight away. Preserve W03/W06 Row/Sled and W07/09/11/13 RunStation. No Garmin sync in this plan update."
   },
   "scheduleRevision": {
     "version": "v1.4",
@@ -19819,5 +20172,76 @@
     "legMuscularEndurance": "Step-up/Split Squat, Leg Curl controlled 2–3 sets inside Monday Legs accessory to replace rather than add; monitor knee/calf",
     "cardiorespiratoryStability": "Track HR response only when watch actually recorded; also use RPE and time until can speak in full sentences after efforts. No instant HR judgment.",
     "injurySafety": "Persistent calf soreness with pain on walking/heel raise, swelling, altered gait, one-sided significant tenderness => no hard run/sled/BBJ/WB volume and clinical evaluation if symptoms persist."
+  },
+  "tenKPerformanceGoal": {
+    "title": "10K 50:00 · 5:00/km",
+    "distanceKm": 10,
+    "goalMinutes": 50,
+    "targetPaceMinKm": "5:00",
+    "objective": "Stand-alone continuous 10K in <=50min, independent of compromised HYROX racing pace",
+    "isGuaranteed": false,
+    "scheduling": "Usually 1 quality run (Petra Thu when attending), 1 long Easy, 0–1 short Easy; days movable except actual Petra class; never add full-intensity run intervals on top of hard Petra WOD or AirBike/Ski main",
+    "reality": "A 5:00/km 10km is an aspirational goal; train from actual Garmin splits, current RPE and 5km checkpoint rather than prescribing goal pace to every session. Reassess before the taper; if not ready, test post race.",
+    "progressMarkers": [
+      "Can run 6–8km easy with stable effort",
+      "Can run 8–10km conversationally",
+      "3×1km near 5:10–5:20/km with controlled recovery if conditioning allows",
+      "2×2km near 5:05–5:15/km and 5km benchmark to indicate whether 10K at 5:00 is plausible"
+    ],
+    "notes": [
+      "SkiErg/RowErg/AirBike can replace aerobic time but do not replace race-specific running/impact tolerance",
+      "5K around 24–25 min is a useful indicator (not a guarantee) of a potential 50min 10K; do not force a test while fatigue/injury signs remain",
+      "Never exceed two hard cardiorespiratory sessions per week as a default when balancing HYROX"
+    ],
+    "phases": [
+      {
+        "from": 1,
+        "to": 4,
+        "name": "BASE",
+        "long": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+        "quality": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
+        "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
+      },
+      {
+        "from": 5,
+        "to": 8,
+        "name": "BUILD",
+        "long": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+        "quality": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
+        "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
+      },
+      {
+        "from": 9,
+        "to": 12,
+        "name": "TRANSFER",
+        "long": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+        "quality": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
+        "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
+      },
+      {
+        "from": 13,
+        "to": 15,
+        "name": "SPECIFIC",
+        "long": "60–75分鐘Easy，若持續進步可做8–11km；比賽前不強制刷10K PR",
+        "quality": "恢復、5km成績良好且無同週額外硬WOD，才在品質跑選2×2000m @5:05–5:15/km；不能穩住就維持較慢配速",
+        "milestone": "能做2×2km接近5:00/km只代表分段能力；完整10K 50:00需再驗證"
+      },
+      {
+        "from": 16,
+        "to": 16,
+        "name": "TAPER",
+        "long": "20–40分鐘Easy，減量為主",
+        "quality": "短節奏確認，取消長/硬測驗",
+        "milestone": "恢復HYROX比賽狀態"
+      },
+      {
+        "from": 17,
+        "to": 17,
+        "name": "RACE",
+        "long": "比賽週無另排Long Easy",
+        "quality": "週五混雙+週六男單，停止額外閾值課",
+        "milestone": "賽後恢復1–3週再視狀態測一次獨立10K，50分列為能力目標而非保證"
+      }
+    ]
   }
 }
