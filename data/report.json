@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "updated": "2026-11-15",
   "dataThrough": "2026-11-13",
   "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
@@ -160,8 +160,12 @@
     "summary": "11/12 Petra間歇實際含5×~400m＋4×~600m，結束後另做100 Air Squat與兩圈緩跑；Alvin回報小腿明顯痠痛。這次不應直接診斷小腿肌耐力不足：可能是高跑速/推蹬、近期跑量和後續下肢訓練堆疊所致。第一優先是評估步行、上樓與提踵的反應，恢復之前暫緩快速跑、爆發跳躍與高量Wall Ball。原有Petra＋World Gym 5–6天彈性模組維持，但訓練強度依恢復改動；長期目標仍是有氧底盤、站點後可跑及三大項漸進。",
     "findings": [
       {
-        "title": "10K 5:00/km＋AirBike/Ski高強度主課",
-        "body": "新增獨立10km 50:00目標，跑步按基礎、8–10km長跑、分段5:10–5:20/km、接近5:00/km等里程碑漸進，不是每次跑步都跑5分速。W05/W10選定Sat Station主課改AirBike5min→SkiErg 1km/1.5km×3；W15 2輪輕銳化。原版3–4×2km為未來高階課，不強迫照搬。"
+        "title": "W05／W10／W15 RowErg＋SkiErg 漸進強度",
+        "body": "World Gym 有 RowErg、SkiErg，主課 W05 3×(Row5min+Ski1km)、W10 3×(Row5min+Ski1.5km)、W15 2×(Row4min+Ski800m)。都是原有Station主課的替代，不能與週三硬Petra WOD疊加。10K連續5分速目標獨立存在。"
+      },
+      {
+        "title": "10K 5:00/km＋RowErg/Ski高強度主課",
+        "body": "新增獨立10km 50:00目標，跑步按基礎、8–10km長跑、分段5:10–5:20/km、接近5:00/km等里程碑漸進，不是每次跑步都跑5分速。W05/W10選定Sat Station主課改RowErg5min→SkiErg 1km/1.5km×3；W15 2輪輕銳化。原版3–4×2km為未來高階課，不強迫照搬。"
       },
       {
         "title": "v1.4.1 控制 Wall Ball 呼吸、腿部肌耐力與心肺恢復",
@@ -611,7 +615,7 @@
     "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
   },
   "flexiblePlan": {
-    "version": "v1.5-2026-11-15",
+    "version": "v1.5.1",
     "modeDefault": 6,
     "title": "HYROX PPL + SKI/ROW STATION MAIN",
     "principle": "Mon Legs Tue Pull Fri Push WFH with Wed optional Petra WOD, Thu Petra interval, Sat single Station or safe outdoor RunStation and Sun Long Easy; Tue AM short Easy prioritized only if recovered; one optional Petra Strength/Skill Sun/Mon/Tue replaces matching work. Readiness and confirmed attendance govern weekly progression. Future emphasis: progressive submax Wall Ball with breathe-and-reset patterns, pain-gated Step-up/Split Squat muscular endurance inside Legs accessories, and low-intensity aerobic minutes for more stable respiratory response, not forced low HR.",
@@ -694,7 +698,7 @@
     "fiveDayRule": "Do not invent six completed sessions. If only five days, choose PPL three days, Thu Petra running, and either Saturday Station main or Sunday Easy/Long depending on recovery and whether Wed Petra WOD covered Station; missed slot not force-made-up.",
     "sixDayRule": "PPL Mon/Tue/Fri plus Thu Interval, Sat Station when no Wed hard Petra WOD, Sun Easy/Long; if Wed hard Petra WOD it replaces Sat Station and Thu scaled. This is a maximum template, not a rigid attendance demand.",
     "petraPolicy": "Petra Strength or Skill can ONLY be attended on one day among Sunday, Monday, Tuesday per week; may be zero. Wed Petra WOD separate optional. Actual attendance must be confirmed, not inferred from photo.",
-    "mainStationPolicy": "4-5 rounds Ski/Row/Sled main or selected safe Run→Station 3-4 rounds 400-800m with low-volume BBJ/Lunge/Carry/WB; NOT both; Wed hard WOD replaces Sat and scales Thu. W14 Fri abbreviated rehearsal. Designated W05/W10/Sat high engine AirBike5min+Ski 1000/1500m (3 rounds), W15 reduced 2 rounds taperish sharpen; no extra Station and Wed hard WOD substitutes.",
+    "mainStationPolicy": "4-5 rounds Ski/Row/Sled main or selected safe Run→Station 3-4 rounds 400-800m with low-volume BBJ/Lunge/Carry/WB; NOT both; Wed hard WOD replaces Sat and scales Thu. W14 Fri abbreviated rehearsal. Designated W05/W10/Sat high engine RowErg5min+Ski 1000/1500m (3 rounds), W15 reduced 2 rounds taperish sharpen; no extra Station and Wed hard WOD substitutes.",
     "finisherPolicy": "0–2 easy rounds RPE≤5 after Legs/Push do NOT count as main station training. Do not extrapolate 2 rounds to adequate work capacity stimulus.",
     "runningPolicy": "Thu Petra class fixed, Sun long easy movable, priority if recovered Tue AM 15–35min short easy; no treadmill required; no Ski/Row metres equated to run distance. Wednesday Petra WOD hard means Thu scaled, Sat main cancelled. Standalone 10K 50:00 at 5:00/km performance goal; weekly 1 quality run + 1 long Easy + optional third easy movable, progression based on recent split/RPE/5k checks.",
     "ordering": [
@@ -957,7 +961,7 @@
         "week": "W01",
         "dates": "11/16–11/22",
         "aim": "小腿恢復與安全回到連續跑；先恢復，再建立三大項RIR基準和有氧底盤",
-        "running": "若小腿仍明顯痠/行走或提踵痛：Petra Interval改30–40分Easy Bike/Row，Long Easy改20–40分舒適交叉訓練；完全恢復後才做可控Interval並減20–30%工作量，Long Easy先從40–45分開始，翌日症狀穩定再加。",
+        "running": "若小腿仍明顯痠/行走或提踵痛：Petra Interval改30–40分Easy RowErg/Row，Long Easy改20–40分舒適交叉訓練；完全恢復後才做可控Interval並減20–30%工作量，Long Easy先從40–45分開始，翌日症狀穩定再加。",
         "volume": "不強制追16–20km；將症狀和次日反應當作本週第一KPI。Squat/Bench 2–3×5 RIR3；Trap-bar最多2×4且僅在小腿舒適時做。",
         "progression": "記錄疼痛/僵硬、能否正常步行與單腳提踵、實際負重kg/RIR。先穩住疼痛反應，不急著加重量、跑量或Wall Ball。",
         "wod": {
@@ -1110,7 +1114,7 @@
       "重蹲與Trap-bar儘量相隔約48小時，高強度跑前避免24小時內重腿；不足則RIR提高、減組或改上肢。",
       "每週最多1–2個主要高強度刺激，EMOM/AMRAP的RPE和休息都可調，不鼓勵每次限時把自己練爆。",
       "膝蓋疼痛腫脹等症狀優先停重腿、Wall Ball/跳躍動作，不強迫完成設計。",
-      "11/12後的小腿痠痛需主動影響處方：走路痛或提踵明顯疼痛就取消跑步Interval、Sled高強度、爆發跳與Wall Ball大組，改Easy Bike/Row或上肢；先恢復再逐步加量。",
+      "11/12後的小腿痠痛需主動影響處方：走路痛或提踵明顯疼痛就取消跑步Interval、Sled高強度、爆發跳與Wall Ball大組，改Easy RowErg/Row或上肢；先恢復再逐步加量。",
       "每次World Gym力量後若安排站點，跑步/Wall Ball/Sled應視前48小時Petra白板與Garmin實績削減，不能同一週重複堆多堂高強度。"
     ],
     "calfStrengthPrescription": {
@@ -2005,7 +2009,7 @@
             },
             {
               "name": "Quality / Interval",
-              "dose": "恢復週：Easy Bike/Row 30–40分鐘（症狀未解除不做間歇）",
+              "dose": "恢復週：Easy RowErg/Row 30–40分鐘（症狀未解除不做間歇）",
               "steps": [
                 "步行、樓梯與提踵舒適後，才重新引入短時間輕鬆跑"
               ]
@@ -5836,54 +5840,46 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "name": "STATION MAIN｜ROWERG × SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
-            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "dose": "3 ROUNDS · Row 5min + Ski 1000m · RPE7.5",
+            "details": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "classPlan": {
-              "kind": "AIRBIKE_SKI_MAIN",
-              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-              "duration": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
+              "kind": "ROW_SKI_MAIN",
+              "subtitle": "STATION MAIN｜ROWERG × SKIERG",
+              "duration": "3 ROUNDS · Row 5min + Ski 1000m · RPE7.5",
               "rpe": "RPE7",
-              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+              "warmup": "Easy RowErg 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "ENGINE 1",
-                  "title": "AirBike × Ski 主課",
-                  "format": "3 ROUNDS · Rest 150s · RPE7",
+                  "tag": "ROW-SKI 1",
+                  "title": "主課",
+                  "format": "3 ROUNDS · Rest 150s",
                   "steps": [
-                    "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
-                    "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                    "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
+                    "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                   ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 },
                 {
-                  "tag": "ENGINE 2",
-                  "title": "Warm Up / Cool Down",
-                  "format": "先熱身，主課一次完成",
+                  "tag": "ROW-SKI 2",
+                  "title": "熱身／收操",
+                  "format": "Easy 5–8min",
                   "steps": [
-                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                    "Easy 5min on whichever machine is comfortable"
+                    "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                    "Easy RowErg or SkiErg 5min"
                   ],
-                  "minutes": "Depends on actual splits"
-                },
-                {
-                  "tag": "ENGINE 3",
-                  "title": "替代規則",
-                  "format": "取代站點主課，不額外堆積",
-                  "steps": [
-                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
-                  ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 }
               ],
-              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
+              "notes": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課"
             },
             "wodRunKm": 0,
-            "wodType": "AIRBIKE_SKI_MAIN",
+            "wodType": "ROW_SKI_MAIN",
             "stationTags": [
-              "AirBike",
+              "RowErg",
               "SkiErg",
               "aerobic endurance"
             ]
@@ -5963,8 +5959,8 @@
           "primaryFocus": "背部／腿部增肌週",
           "strengthWorkSets": 3,
           "strengthRIR": 2,
-          "wodTargetRPE": 7,
-          "wodTargetMinutes": "30–40分鐘主課＋暖身",
+          "wodTargetRPE": 7.5,
+          "wodTargetMinutes": "35–45分鐘主課＋暖身",
           "longRunMinutes": 50,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -5975,7 +5971,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "TRAP_BAR",
           "hingePrescription": "Trap-bar Deadlift 3×6 @RIR3",
@@ -6268,35 +6264,27 @@
             "dayZh": "週六",
             "date": "2026-12-19",
             "kind": "mixed",
-            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-            "time": "3 ROUNDS · AirBike 5min + Ski 1000m · RPE7",
+            "title": "STATION MAIN｜ROWERG × SKIERG",
+            "time": "3 ROUNDS · Row 5min + Ski 1000m · RPE7.5",
             "sections": [
               {
-                "name": "AirBike × Ski 主課",
-                "format": "3 ROUNDS · Rest 150s · RPE7",
+                "name": "主課",
+                "format": "3 ROUNDS · Rest 150s",
                 "lines": [
-                  "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
-                  "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                  "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
+                  "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                 ]
               },
               {
-                "name": "Warm Up / Cool Down",
-                "format": "先熱身，主課一次完成",
+                "name": "熱身／收操",
+                "format": "Easy 5–8min",
                 "lines": [
-                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                  "Easy 5min on whichever machine is comfortable"
-                ]
-              },
-              {
-                "name": "替代規則",
-                "format": "取代站點主課，不額外堆積",
-                "lines": [
-                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
+                  "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                  "Easy RowErg or SkiErg 5min"
                 ]
               }
             ],
-            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "subtitle": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "wodRunKm": 0
           }
         ],
@@ -6449,7 +6437,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "STRENGTH BUILD",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -6462,7 +6450,7 @@
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
           "stationMainRole": "STATION_MAIN",
-          "airBikeSkiPlan": {
+          "rowSkiPlan": {
             "week": "W05",
             "daysFlexible": true,
             "proposedDay": "sat",
@@ -6470,20 +6458,20 @@
             "kind": "HARD_ENGINE",
             "purpose": "建立高強度交替耐力",
             "rounds": 3,
-            "bikeMinutesPerRound": 5,
+            "rowMinutesPerRound": 5,
             "skiMetersPerRound": 1000,
-            "totalBikeMinutes": 15,
+            "totalRowMinutes": 15,
             "totalSkiMeters": 3000,
-            "workIntensity": "AirBike RPE6–7, SkiErg RPE7",
+            "workIntensity": "RowErg RPE6–7; SkiErg RPE7.5",
             "betweenRoundRestSeconds": 150,
             "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-            "coolDown": "Easy 5min on whichever machine is comfortable",
-            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+            "coolDown": "Easy RowErg or SkiErg 5min",
+            "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+            "machine": "RowErg + SkiErg, both available at World Gym",
+            "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
             "equipmentVerified": false,
-            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -6500,16 +6488,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "name": "ROWERG × SKIERG｜高強度引擎",
           "rounds": 3,
-          "rpe": 7,
-          "duration": "30–40分鐘主課＋暖身",
+          "rpe": 7.5,
+          "duration": "35–45分鐘主課＋暖身",
           "steps": [
-            "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE7)",
-            "每輪後休息 2.5分鐘；每輪Ski配速穩定，不追求每輪最大值",
-            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
+            "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
+            "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
+            "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -6592,10 +6579,10 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "AirBike+Ski main 3×1000m",
+          "SkiErg": "3 × Ski 1000m after Row 5min",
           "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "4×5m 技術、步頻一致",
-          "RowErg": "separate easy technique if recovered",
+          "RowErg": "3 × 5min",
           "FarmerCarry": "main work",
           "SandbagLunge": "Sandbag 10kg × 2×12.5m，動作標準優先",
           "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
@@ -6638,7 +6625,7 @@
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
         },
-        "airBikeSkiWorkout": {
+        "rowSkiWorkout": {
           "week": "W05",
           "daysFlexible": true,
           "proposedDay": "sat",
@@ -6646,20 +6633,20 @@
           "kind": "HARD_ENGINE",
           "purpose": "建立高強度交替耐力",
           "rounds": 3,
-          "bikeMinutesPerRound": 5,
+          "rowMinutesPerRound": 5,
           "skiMetersPerRound": 1000,
-          "totalBikeMinutes": 15,
+          "totalRowMinutes": 15,
           "totalSkiMeters": 3000,
-          "workIntensity": "AirBike RPE6–7, SkiErg RPE7",
+          "workIntensity": "RowErg RPE6–7; SkiErg RPE7.5",
           "betweenRoundRestSeconds": 150,
           "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-          "coolDown": "Easy 5min on whichever machine is comfortable",
-          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+          "coolDown": "Easy RowErg or SkiErg 5min",
+          "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+          "machine": "RowErg + SkiErg, both available at World Gym",
+          "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": false,
-          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+          "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -11475,54 +11462,46 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "name": "STATION MAIN｜ROWERG × SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
-            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "dose": "3 ROUNDS · Row 5min + Ski 1500m · RPE8",
+            "details": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "classPlan": {
-              "kind": "AIRBIKE_SKI_MAIN",
-              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-              "duration": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
+              "kind": "ROW_SKI_MAIN",
+              "subtitle": "STATION MAIN｜ROWERG × SKIERG",
+              "duration": "3 ROUNDS · Row 5min + Ski 1500m · RPE8",
               "rpe": "RPE7.5",
-              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+              "warmup": "Easy RowErg 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "ENGINE 1",
-                  "title": "AirBike × Ski 主課",
-                  "format": "3 ROUNDS · Rest 180s · RPE7.5",
+                  "tag": "ROW-SKI 1",
+                  "title": "主課",
+                  "format": "3 ROUNDS · Rest 180s",
                   "steps": [
-                    "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
-                    "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                    "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1500m RPE8",
+                    "休息 3分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                   ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 },
                 {
-                  "tag": "ENGINE 2",
-                  "title": "Warm Up / Cool Down",
-                  "format": "先熱身，主課一次完成",
+                  "tag": "ROW-SKI 2",
+                  "title": "熱身／收操",
+                  "format": "Easy 5–8min",
                   "steps": [
-                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                    "Easy 5min on whichever machine is comfortable"
+                    "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                    "Easy RowErg or SkiErg 5min"
                   ],
-                  "minutes": "Depends on actual splits"
-                },
-                {
-                  "tag": "ENGINE 3",
-                  "title": "替代規則",
-                  "format": "取代站點主課，不額外堆積",
-                  "steps": [
-                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
-                  ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 }
               ],
-              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
+              "notes": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課"
             },
             "wodRunKm": 0,
-            "wodType": "AIRBIKE_SKI_MAIN",
+            "wodType": "ROW_SKI_MAIN",
             "stationTags": [
-              "AirBike",
+              "RowErg",
               "SkiErg",
               "aerobic endurance"
             ]
@@ -11602,8 +11581,8 @@
           "primaryFocus": "雪橇推拉與單側穩定",
           "strengthWorkSets": 3,
           "strengthRIR": 2,
-          "wodTargetRPE": 7.5,
-          "wodTargetMinutes": "40–55分鐘主課＋暖身",
+          "wodTargetRPE": 8,
+          "wodTargetMinutes": "45–60分鐘主課＋暖身",
           "longRunMinutes": 60,
           "functionalRounds": 3,
           "priorityMuscles": [
@@ -11614,7 +11593,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingePrescription": "Romanian Deadlift 2×6–8 @RIR2",
@@ -11909,35 +11888,27 @@
             "dayZh": "週六",
             "date": "2027-01-23",
             "kind": "mixed",
-            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-            "time": "3 ROUNDS · AirBike 5min + Ski 1500m · RPE7.5",
+            "title": "STATION MAIN｜ROWERG × SKIERG",
+            "time": "3 ROUNDS · Row 5min + Ski 1500m · RPE8",
             "sections": [
               {
-                "name": "AirBike × Ski 主課",
-                "format": "3 ROUNDS · Rest 180s · RPE7.5",
+                "name": "主課",
+                "format": "3 ROUNDS · Rest 180s",
                 "lines": [
-                  "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
-                  "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                  "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1500m RPE8",
+                  "休息 3分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                 ]
               },
               {
-                "name": "Warm Up / Cool Down",
-                "format": "先熱身，主課一次完成",
+                "name": "熱身／收操",
+                "format": "Easy 5–8min",
                 "lines": [
-                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                  "Easy 5min on whichever machine is comfortable"
-                ]
-              },
-              {
-                "name": "替代規則",
-                "format": "取代站點主課，不額外堆積",
-                "lines": [
-                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
+                  "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                  "Easy RowErg or SkiErg 5min"
                 ]
               }
             ],
-            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "subtitle": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "wodRunKm": 0
           }
         ],
@@ -12092,7 +12063,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "HYROX TRANSFER",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -12105,7 +12076,7 @@
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
           "stationMainRole": "STATION_MAIN",
-          "airBikeSkiPlan": {
+          "rowSkiPlan": {
             "week": "W10",
             "daysFlexible": true,
             "proposedDay": "sat",
@@ -12113,20 +12084,20 @@
             "kind": "HARD_ENGINE",
             "purpose": "SkiErg耐力與高心率恢復",
             "rounds": 3,
-            "bikeMinutesPerRound": 5,
+            "rowMinutesPerRound": 5,
             "skiMetersPerRound": 1500,
-            "totalBikeMinutes": 15,
+            "totalRowMinutes": 15,
             "totalSkiMeters": 4500,
-            "workIntensity": "AirBike RPE6–7, SkiErg RPE7.5",
+            "workIntensity": "RowErg RPE6–7; SkiErg RPE8",
             "betweenRoundRestSeconds": 180,
             "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-            "coolDown": "Easy 5min on whichever machine is comfortable",
-            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+            "coolDown": "Easy RowErg or SkiErg 5min",
+            "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+            "machine": "RowErg + SkiErg, both available at World Gym",
+            "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
             "equipmentVerified": false,
-            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "B_WED_WOD_OPTIONAL",
@@ -12143,16 +12114,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "name": "ROWERG × SKIERG｜高強度引擎",
           "rounds": 3,
-          "rpe": 7.5,
-          "duration": "40–55分鐘主課＋暖身",
+          "rpe": 8,
+          "duration": "45–60分鐘主課＋暖身",
           "steps": [
-            "3 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1500m (RPE7.5)",
-            "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
-            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
+            "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1500m RPE8",
+            "休息 3分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
+            "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -12235,10 +12205,10 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "AirBike+Ski main 3×1500m",
+          "SkiErg": "3 × Ski 1500m after Row 5min",
           "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "3×12.5m（累積37.5m），不追單次極限",
-          "RowErg": "main Row repeats",
+          "RowErg": "3 × 5min",
           "FarmerCarry": "grip and technique microdoses",
           "SandbagLunge": "Sandbag 15kg × 3×15m",
           "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
@@ -12303,7 +12273,7 @@
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
         },
-        "airBikeSkiWorkout": {
+        "rowSkiWorkout": {
           "week": "W10",
           "daysFlexible": true,
           "proposedDay": "sat",
@@ -12311,20 +12281,20 @@
           "kind": "HARD_ENGINE",
           "purpose": "SkiErg耐力與高心率恢復",
           "rounds": 3,
-          "bikeMinutesPerRound": 5,
+          "rowMinutesPerRound": 5,
           "skiMetersPerRound": 1500,
-          "totalBikeMinutes": 15,
+          "totalRowMinutes": 15,
           "totalSkiMeters": 4500,
-          "workIntensity": "AirBike RPE6–7, SkiErg RPE7.5",
+          "workIntensity": "RowErg RPE6–7; SkiErg RPE8",
           "betweenRoundRestSeconds": 180,
           "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-          "coolDown": "Easy 5min on whichever machine is comfortable",
-          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+          "coolDown": "Easy RowErg or SkiErg 5min",
+          "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+          "machine": "RowErg + SkiErg, both available at World Gym",
+          "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": false,
-          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+          "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -17103,54 +17073,46 @@
           },
           {
             "id": "wod",
-            "name": "STATION MAIN｜AIRBIKE 5min + SKIERG",
+            "name": "STATION MAIN｜ROWERG × SKIERG",
             "purpose": "4–5 round main station with RPE/structured rests",
-            "dose": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
-            "details": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "dose": "2 ROUNDS · Row 4min + Ski 800m · RPE7",
+            "details": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "classPlan": {
-              "kind": "AIRBIKE_SKI_MAIN",
-              "subtitle": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-              "duration": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
+              "kind": "ROW_SKI_MAIN",
+              "subtitle": "STATION MAIN｜ROWERG × SKIERG",
+              "duration": "2 ROUNDS · Row 4min + Ski 800m · RPE7",
               "rpe": "RPE6.5",
-              "warmup": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
+              "warmup": "Easy RowErg 5min + Easy Ski 250–400m; progressive controlled ramp",
               "blocks": [
                 {
-                  "tag": "ENGINE 1",
-                  "title": "AirBike × Ski 主課",
-                  "format": "2 ROUNDS · Rest 180s · RPE6.5",
+                  "tag": "ROW-SKI 1",
+                  "title": "主課",
+                  "format": "2 ROUNDS · Rest 150s",
                   "steps": [
-                    "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
-                    "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                    "2 ROUNDS：RowErg 4分鐘 RPE6–7 → SkiErg 800m RPE7",
+                    "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                   ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 },
                 {
-                  "tag": "ENGINE 2",
-                  "title": "Warm Up / Cool Down",
-                  "format": "先熱身，主課一次完成",
+                  "tag": "ROW-SKI 2",
+                  "title": "熱身／收操",
+                  "format": "Easy 5–8min",
                   "steps": [
-                    "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                    "Easy 5min on whichever machine is comfortable"
+                    "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                    "Easy RowErg or SkiErg 5min"
                   ],
-                  "minutes": "Depends on actual splits"
-                },
-                {
-                  "tag": "ENGINE 3",
-                  "title": "替代規則",
-                  "format": "取代站點主課，不額外堆積",
-                  "steps": [
-                    "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                    "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
-                  ],
-                  "minutes": "Depends on actual splits"
+                  "minutes": "按實際完成",
+                  "note": "Planned, not completed"
                 }
               ],
-              "notes": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則"
+              "notes": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課"
             },
             "wodRunKm": 0,
-            "wodType": "AIRBIKE_SKI_MAIN",
+            "wodType": "ROW_SKI_MAIN",
             "stationTags": [
-              "AirBike",
+              "RowErg",
               "SkiErg",
               "aerobic endurance"
             ]
@@ -17230,7 +17192,7 @@
           "primaryFocus": "節奏精煉與疲勞回落",
           "strengthWorkSets": 2,
           "strengthRIR": 3,
-          "wodTargetRPE": 6.5,
+          "wodTargetRPE": 7,
           "wodTargetMinutes": "20–30分鐘主課＋暖身",
           "longRunMinutes": 50,
           "functionalRounds": 2,
@@ -17242,7 +17204,7 @@
           "benchmark": "實際完成率、站點有效次數與轉換後跑姿/配速、主觀RPE、隔日疼痛反應；不以虛構PR或固定用時判斷進步",
           "deload": false,
           "softTissueGate": false,
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "hingeFocus": "RDL",
           "hingeDay": "MON_LEGS",
@@ -17536,35 +17498,27 @@
             "dayZh": "週六",
             "date": "2027-02-27",
             "kind": "mixed",
-            "title": "STATION MAIN｜AIRBIKE 5min + SKIERG",
-            "time": "2 ROUNDS · AirBike 5min + Ski 1000m · RPE6.5",
+            "title": "STATION MAIN｜ROWERG × SKIERG",
+            "time": "2 ROUNDS · Row 4min + Ski 800m · RPE7",
             "sections": [
               {
-                "name": "AirBike × Ski 主課",
-                "format": "2 ROUNDS · Rest 180s · RPE6.5",
+                "name": "主課",
+                "format": "2 ROUNDS · Rest 150s",
                 "lines": [
-                  "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
-                  "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值"
+                  "2 ROUNDS：RowErg 4分鐘 RPE6–7 → SkiErg 800m RPE7",
+                  "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
                 ]
               },
               {
-                "name": "Warm Up / Cool Down",
-                "format": "先熱身，主課一次完成",
+                "name": "熱身／收操",
+                "format": "Easy 5–8min",
                 "lines": [
-                  "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-                  "Easy 5min on whichever machine is comfortable"
-                ]
-              },
-              {
-                "name": "替代規則",
-                "format": "取代站點主課，不額外堆積",
-                "lines": [
-                  "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-                  "小腿/膝仍不舒服時只做低強度20–30min，待恢復再進階；暫時不要求原版3–4輪×2km"
+                  "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+                  "Easy RowErg or SkiErg 5min"
                 ]
               }
             ],
-            "subtitle": "AirBike→SkiErg 高強度循環：RPE7–8；保留週三硬WOD替代與恢復規則",
+            "subtitle": "高強度Row/Ski交替主課，兼顧恢復，不做成第三堂硬課",
             "wodRunKm": 0
           }
         ],
@@ -17718,7 +17672,7 @@
           "focus": "True PPL main strength + meaningful periodized Station",
           "structure": "Sun Long Easy or Petra Strength/Skill; Mon WG Legs; Tue WG Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WG Push (WFH); Sat 4–5 round Station main conditional",
           "petraRule": "Strength/Skill only Sun/Mon/Tue maximum one optional class, matched volume substitutes. WOD only Wed optional. Thu fixed running no WG. Fri WFH Push main.",
-          "wodType": "AIRBIKE_SKI_MAIN",
+          "wodType": "ROW_SKI_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "SHARPEN",
           "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
@@ -17731,7 +17685,7 @@
           },
           "note": "W14 only Fri simulation. Mon LEGS Tue PULL Fri PUSH (unless W14) and Thu Petra running; Sun/Mon/Tue optional one Petra Strength/Skill replaces equivalent. Sat main is either interval-free Ski/Row/Sled OR safe outdoor Run→Station (not both).",
           "stationMainRole": "STATION_MAIN",
-          "airBikeSkiPlan": {
+          "rowSkiPlan": {
             "week": "W15",
             "daysFlexible": true,
             "proposedDay": "sat",
@@ -17739,20 +17693,20 @@
             "kind": "HARD_ENGINE",
             "purpose": "賽前銳化，不練到力竭",
             "rounds": 2,
-            "bikeMinutesPerRound": 5,
-            "skiMetersPerRound": 1000,
-            "totalBikeMinutes": 10,
-            "totalSkiMeters": 2000,
-            "workIntensity": "AirBike RPE6–7, SkiErg RPE6.5",
-            "betweenRoundRestSeconds": 180,
+            "rowMinutesPerRound": 4,
+            "skiMetersPerRound": 800,
+            "totalRowMinutes": 8,
+            "totalSkiMeters": 1600,
+            "workIntensity": "RowErg RPE6–7; SkiErg RPE7",
+            "betweenRoundRestSeconds": 150,
             "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-            "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-            "coolDown": "Easy 5min on whichever machine is comfortable",
-            "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-            "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-            "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+            "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+            "coolDown": "Easy RowErg or SkiErg 5min",
+            "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+            "machine": "RowErg + SkiErg, both available at World Gym",
+            "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
             "equipmentVerified": false,
-            "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+            "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
           }
         },
         "scheduleType": "A_STATION_MAIN",
@@ -17769,16 +17723,15 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "AIRBIKE × SKIERG｜高強度引擎",
+          "name": "ROWERG × SKIERG｜高強度引擎",
           "rounds": 2,
-          "rpe": 6.5,
+          "rpe": 7,
           "duration": "20–30分鐘主課＋暖身",
           "steps": [
-            "2 ROUNDS：AirBike 5分鐘 (RPE6–7) → SkiErg 1000m (RPE6.5)",
-            "每輪後休息 3分鐘；每輪Ski配速穩定，不追求每輪最大值",
-            "AirBike與SkiErg為同一堂；這週不額外再做原本的Sled/WallBall主課",
-            "若週三已做硬Petra WOD：取消本堂高強度Station，週四跑課降強度；本堂替代而非疊加原Ski/Row/Sled主課。",
-            "World Gym的AirBike尚未確認有設備；如沒有，改RowErg 5min＋SkiErg當週距離，強度/休息相同。"
+            "2 ROUNDS：RowErg 4分鐘 RPE6–7 → SkiErg 800m RPE7",
+            "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
+            "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
+            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -17861,10 +17814,10 @@
         },
         "runStationTransition": null,
         "stationCoverage": {
-          "SkiErg": "AirBike+Ski main 2×1000m",
+          "SkiErg": "2 × Ski 800m after Row 4min",
           "SledPushPull": "Not the main station this week; technical exposure only if recovered/low fatigue",
           "BurpeeBroadJump": "2×10m乾淨動作即可",
-          "RowErg": "separate easy technique if recovered",
+          "RowErg": "2 × 4min",
           "FarmerCarry": "main work",
           "SandbagLunge": "Sandbag 15–20kg × 2×15m",
           "WallBall": "Skip optional high-volume Wall Ball on this engine week; preserve other week-specific WB exposure"
@@ -17929,7 +17882,7 @@
           "safetyGate": "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。",
           "progression": "先連續至少2次動作品質、隔天無新症狀後，再在一週只增加Wall Ball有效reps、組數、負重或總有氧分鐘中的一個因素；若恢復差則持平/減量"
         },
-        "airBikeSkiWorkout": {
+        "rowSkiWorkout": {
           "week": "W15",
           "daysFlexible": true,
           "proposedDay": "sat",
@@ -17937,20 +17890,20 @@
           "kind": "HARD_ENGINE",
           "purpose": "賽前銳化，不練到力竭",
           "rounds": 2,
-          "bikeMinutesPerRound": 5,
-          "skiMetersPerRound": 1000,
-          "totalBikeMinutes": 10,
-          "totalSkiMeters": 2000,
-          "workIntensity": "AirBike RPE6–7, SkiErg RPE6.5",
-          "betweenRoundRestSeconds": 180,
+          "rowMinutesPerRound": 4,
+          "skiMetersPerRound": 800,
+          "totalRowMinutes": 8,
+          "totalSkiMeters": 1600,
+          "workIntensity": "RowErg RPE6–7; SkiErg RPE7",
+          "betweenRoundRestSeconds": 150,
           "completeWhen": "after recent calf/knee discomfort resolved, easy warmup normal, no hard Wed Petra WOD, avoid stacking with full-tilt Thu interval if not recovered",
-          "warmUp": "Easy Bike 5min + Easy Ski 250–400m; progressive controlled ramp",
-          "coolDown": "Easy 5min on whichever machine is comfortable",
-          "benchmark": "The original athlete-heard version 3–4×(5min AirBike+SkiErg 2000m) is an advanced future benchmark, not a mandated current dose. Build 1.0→1.5→2.0km per round gradually; 4×2km only after several fully recovered 3×2km sessions and if season/racing load permits.",
-          "machine": "World Gym AirBike/Fan Bike NOT VERIFIED as available; must confirm before session. RowErg is verified available.",
-          "note": "Track Bike RPM/cals/HR if recorded and Ski 500m split; compare in like-for-like sessions. No fabricated watts/HR. 未確認World Gym是否有AirBike；替代可用RowErg 5min。",
+          "warmUp": "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
+          "coolDown": "Easy RowErg or SkiErg 5min",
+          "benchmark": "3×(Row 5min+Ski 1km) → 3×(Row 5min+Ski 1.5km); Ski 2km×3–4 is an advanced benchmark only if appropriate",
+          "machine": "RowErg + SkiErg, both available at World Gym",
+          "note": "Record Row/Ski splits and actual RPE or HR when measured, never invent pace/heart rate",
           "equipmentVerified": false,
-          "fallback": "若World Gym沒有AirBike，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
+          "fallback": "若World Gym沒有RowErg，同樣的5分鐘改RowErg，RPE6–7；SkiErg保持當週距離、輪數與組間休息。"
         }
       },
       {
@@ -19523,8 +19476,8 @@
     }
   },
   "programArchitecture": {
-    "version": "2026-11-15-v1.5",
-    "rationale": "Maintain HYROX 8-station and concurrent strength. Add an occasional high-intensity AirBike (5min)→SkiErg interval station main with W05 3×1km W10 3×1.5km W15 reduced 2×1km; choose only one station workout and keep running quality. Standalone 10km 50min goal is phased, unverified; quality run Petra or alternate, long easy, optional easy.",
+    "version": "v1.5.1",
+    "rationale": "Maintain HYROX 8-station and concurrent strength. Add an occasional high-intensity RowErg (5min)→SkiErg interval station main with W05 3×1km W10 3×1.5km W15 reduced 2×1km; choose only one station workout and keep running quality. Standalone 10km 50min goal is phased, unverified; quality run Petra or alternate, long easy, optional easy.",
     "evidence": [
       {
         "title": "HWPO HYROX official programming",
@@ -19567,11 +19520,11 @@
     "progression": "Before adding reps/rounds/weight/distance, use >=90% valid completion, sustainable splits and no next-day worsening. Hold if >=80% but symptoms/fatigue; reduce if pain >=3 worsening or gait change. Only one variable change per week; repeat exposures until validated. Wall Ball valid reps tracked per week, RPE/recovery after sets; preserve 1-variable progression, not added compulsory station workout.",
     "family": "Sun Long Easy or Petra S/S optional; Mon Legs; Tue Pull; Wed Petra WOD optional; Thu Petra run fixed; Fri Push WFH; Sat Station Main conditional",
     "safety": "Compromised run requires truly safe, adjacent, authorized outdoor loop; no moving World Gym equipment or crossing traffic. Alternative outdoor bodyweight run station + separate indoor erg, explicitly NOT contiguous transition. No exercise despite gait-changing calf/knee pain or swelling; appropriate clinical eval if ongoing.",
-    "wodStyle": "Saturday main either 4–5-round timed Ski/Row/Sled/Carry/Wall Ball or safe 3–4 × (400–800m run+short BBJ/Lunge/Carry/WB) substitute. W14 Fri abbreviated rehearsal W16 taper. 8 full competition stations + 8×1km is official race only.",
+    "wodStyle": "W05/W10/W15 progressive RowErg+SkiErg high engine, other weeks structured Station or RunStation; no unverified equipment.",
     "defaultView": "17-week daily calendar plus independent running and complete Station main work details",
     "strengthHinge": "Heavy squat/hinge belongs to Monday Legs; Tuesday Pull no heavy deadlift; Friday Push bench primary; W14 Fri 8-station simulation replaces heavy Push.",
     "strengthModel": "3 separate PPL foundational strength days with phase-appropriate 2–3 main work sets, 1–3 accessory sets, actual kg/reps/RIR; low intensity 0–2 round station techniques are supplementary, NOT main.",
-    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day. AirBike+Ski high engine is Sat main replacement W05/W10/W15, NOT an extra session, and Wed hard Petra WOD substitutes; do not add maximal Thu and Sat if recovery is poor.",
+    "intensityDesign": "Hard cardiorespiratory priority Thu Petra running + Sat main if not recovered from Wed hard. Green/Yellow/Red readiness, next-day calf/knee 0–10, no hard if red. Petra Strength/Skill Sun/Mon/Tue max one; 1-2 effective upper accessory sets as needed but never stack heavy extra day. RowErg+Ski high engine is Sat main replacement W05/W10/W15, NOT an extra session, and Wed hard Petra WOD substitutes; do not add maximal Thu and Sat if recovery is poor.",
     "weeklyTemplate": "Sun Long Easy/Petra S/S optional (one max from Sun/Mon/Tue); Mon WorldGym Legs; Tue optional AM short Easy + Pull; Wed optional Petra WOD; Thu Petra Interval only; Fri WorldGym Push WFH; Sat one station main OR controlled run-station (not both), W14 Fri rehearsal."
   },
   "weeklyScheduleNotes": [
@@ -19624,7 +19577,7 @@
           "evidence": "Back Squat, Trap-bar Deadlift, Lunge, Wall Ball, Ski 1000m user-report; weights/reps not logged"
         }
       ],
-      "principle": "PPL Mon Legs Tue Pull Fri Push WFH. Petra Strength/Skill only once SUN/MON/TUE optional and substituting matching load. Wed hard Petra WOD replaces Sat main + scales Thu. Sat HYROX station main 4–5 rounds or safe Run→Station; BBJ/Lunge/Wall Ball progressive weekly skill exposure with pain gates; W14 Fri rehearsal replaces Push. v1.4.1: WallBall short valid sets/controlled breathing and recovery rather than HR all-out; leg muscular endurance replaces existing Mon accessories; no extra high-intensity cardio while calf soreness persists. W05/W10 selected AirBike+Ski intensity Station MAIN, W15 reduced sharpen, completely substitutes old main, preserves other weeks' 8-station preparation.",
+      "principle": "PPL Mon Legs Tue Pull Fri Push WFH. Petra Strength/Skill only once SUN/MON/TUE optional and substituting matching load. Wed hard Petra WOD replaces Sat main + scales Thu. Sat HYROX station main 4–5 rounds or safe Run→Station; BBJ/Lunge/Wall Ball progressive weekly skill exposure with pain gates; W14 Fri rehearsal replaces Push. v1.4.1: WallBall short valid sets/controlled breathing and recovery rather than HR all-out; leg muscular endurance replaces existing Mon accessories; no extra high-intensity cardio while calf soreness persists. W05/W10 selected RowErg+Ski intensity Station MAIN, W15 reduced sharpen, completely substitutes old main, preserves other weeks' 8-station preparation.",
       "kickoff": {
         "date": "2026-11-14",
         "weekday": "週六",
@@ -20126,15 +20079,15 @@
     "privacy": "Public report contains aggregated data only, no raw FIT, GPS coordinates or private photos"
   },
   "planRelease": {
-    "name": "HYROX · AIRBIKE/SKI ENGINE + 10K 50",
-    "label": "v1.5",
+    "name": "ROWERG + SKIERG HIGH-ENGINE & 10K SUB-50",
+    "label": "v1.5.1",
     "releasedOn": "2026-11-15",
-    "status": "PUBLISHED v1.5",
+    "status": "PUBLISHED v1.5.1",
     "dataVerifiedThrough": "2026-11-13",
-    "notes": "10K 50:00 /5:00 goal under actual-performance gates; separate running roadmap; one high intensity AirBike5min+Ski repeats replaces Station main W05/W10, light W15 sharpen. Not the advanced 3–4×2km Ski straight away. Preserve W03/W06 Row/Sled and W07/09/11/13 RunStation. No Garmin sync in this plan update. AirBike/Fan Bike World Gym availability not confirmed, RowErg 5min as fallback."
+    "notes": "World Gym verified RowErg and SkiErg; high-intensity W05/W10/W15 alternate Row+Ski and replace Station main, with fatigue gates. Continuous 10K 50min goal remains separate. Do not falsely claim Garmin sync."
   },
   "scheduleRevision": {
-    "version": "v1.4",
+    "version": "v1.5.1",
     "strengthSplit": "LEGS Mon, PULL Tue, PUSH Fri WFH",
     "petraStrengthSkillAllowed": [
       "SUN",
@@ -20195,7 +20148,7 @@
     "targetPaceMinKm": "5:00",
     "objective": "Stand-alone continuous 10K in <=50min, independent of compromised HYROX racing pace",
     "isGuaranteed": false,
-    "scheduling": "Usually 1 quality run (Petra Thu when attending), 1 long Easy, 0–1 short Easy; days movable except actual Petra class; never add full-intensity run intervals on top of hard Petra WOD or AirBike/Ski main",
+    "scheduling": "One weekly quality run, one movable Long Easy, optional short Easy; hard RowErg+SkiErg replaces Sat main, never stacks with Wed hard Petra WOD.",
     "reality": "A 5:00/km 10km is an aspirational goal; train from actual Garmin splits, current RPE and 5km checkpoint rather than prescribing goal pace to every session. Reassess before the taper; if not ready, test post race.",
     "progressMarkers": [
       "Can run 6–8km easy with stable effort",
@@ -20204,7 +20157,7 @@
       "2×2km near 5:05–5:15/km and 5km benchmark to indicate whether 10K at 5:00 is plausible"
     ],
     "notes": [
-      "SkiErg/RowErg/AirBike can replace aerobic time but do not replace race-specific running/impact tolerance",
+      "SkiErg/RowErg can replace aerobic time but do not replace race-specific running/impact tolerance",
       "5K around 24–25 min is a useful indicator (not a guarantee) of a potential 50min 10K; do not force a test while fatigue/injury signs remain",
       "Never exceed two hard cardiorespiratory sessions per week as a default when balancing HYROX"
     ],
