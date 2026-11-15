@@ -1,8 +1,8 @@
 {
   "version": "1.5.1",
   "updated": "2026-11-15",
-  "dataThrough": "2026-11-13",
-  "lastSync": "2026-11-13 15:59 Asia/Taipei · Garmin Personal API",
+  "dataThrough": "2026-11-15",
+  "lastSync": "2026-11-15 15:50 Asia/Taipei · Garmin Personal API (private Actions verified)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,7 +13,7 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 64,
+    "activities": 67,
     "runs": 32,
     "totalKm": 127.58,
     "recentWeekKm": 14.05,
@@ -36,10 +36,10 @@
     "intervalOlderAvgSeconds": 120,
     "latestWeekStart": "2026-11-09",
     "latestWeekPartial": true,
-    "lastRunDate": "2026-11-13",
-    "lastRunDistance": 5.86,
-    "lastRunPace": "6:00",
-    "lastRunHr": 150,
+    "lastRunDate": "2026-11-14",
+    "lastRunDistance": 5.9064,
+    "lastRunPace": "5:59/km elapsed (5.9064km / 35:18; moving pace differs)",
+    "lastRunHr": 149,
     "interval600AvgSeconds": 166.5,
     "interval400AvgHR": 168,
     "interval600AvgHR": 174
@@ -156,47 +156,16 @@
     }
   ],
   "coach": {
-    "headline": "下一個突破點不是更快的400m，而是恢復良好後讓8公里跑＋8個站點更穩。",
-    "summary": "11/12 Petra間歇實際含5×~400m＋4×~600m，結束後另做100 Air Squat與兩圈緩跑；Alvin回報小腿明顯痠痛。這次不應直接診斷小腿肌耐力不足：可能是高跑速/推蹬、近期跑量和後續下肢訓練堆疊所致。第一優先是評估步行、上樓與提踵的反應，恢復之前暫緩快速跑、爆發跳躍與高量Wall Ball。原有Petra＋World Gym 5–6天彈性模組維持，但訓練強度依恢復改動；長期目標仍是有氧底盤、站點後可跑及三大項漸進。",
+    "headline": "11/15 已核對 RowErg＋SkiErg：一堂有氧，不重複計算",
+    "summary": "Garmin private sync success; +2 unique activities, +0 laps: 11/14 Strength and 11/15 combined Row+Ski HIIT. 11/15 machine Row 3,016m/14:52 and Ski 2,011m/11:04 are two segments of the same Garmin HIIT session (whole-session avg HR 153, max 175). Petra photo registry 37 unchanged. Four-week plan remains recovery-first, preserving standalone 10K sub-50 progression and one Sat station main maximum.",
     "findings": [
-      {
-        "title": "W05／W10／W15 RowErg＋SkiErg 漸進強度",
-        "body": "World Gym 有 RowErg、SkiErg，主課 W05 3×(Row5min+Ski1km)、W10 3×(Row5min+Ski1.5km)、W15 2×(Row4min+Ski800m)。都是原有Station主課的替代，不能與週三硬Petra WOD疊加。10K連續5分速目標獨立存在。"
-      },
-      {
-        "title": "10K 5:00/km＋RowErg/Ski高強度主課",
-        "body": "新增獨立10km 50:00目標，跑步按基礎、8–10km長跑、分段5:10–5:20/km、接近5:00/km等里程碑漸進，不是每次跑步都跑5分速。W05/W10選定Sat Station主課改RowErg5min→SkiErg 1km/1.5km×3；W15 2輪輕銳化。原版3–4×2km為未來高階課，不強迫照搬。"
-      },
-      {
-        "title": "v1.4.1 控制 Wall Ball 呼吸、腿部肌耐力與心肺恢復",
-        "body": "增加Talk-Test Easy aerobic、Wall Ball短組6–10次主動休息/呼吸節奏，以及Mon Legs配件Step-up/Split Squat/Leg Curl肌耐力替代；週三硬Petra WOD照舊替代週六主課。小腿仍痠時優先恢復，不加重雪橇/跳躍/高次WallBall。手錶未錄之訓練數據保留在私人Sheet，不推定HR值。"
-      },
-      {
-        "title": "v1.4 Race transfer + 8 stations 全覆蓋",
-        "body": "保留Mon Legs、Tue Pull、Fri Push和Thu Petra Interval固定。新增加Tue早上短Easy（狀況允許才做），W07/W09/W11/W13/14安全場地Run→Station主課作為Sat Station替代，不加第三堂硬課。BBJ、Sandbag Lunge、6kg WB累積劑量週進度與Green/Yellow/Red恢復判斷；Wed硬Petra WOD則Thu降量、Sat整堂硬主課取消。"
-      },
-      {
-        "type": "caution",
-        "title": "小腿痠痛是暫時調課訊號，不是弱項診斷",
-        "body": "這次高強度間歇後再做100 Air Squat＋兩圈緩跑；疼痛/僵硬若影響步行、單腳提踵或隔天更重，就取消衝刺和高量站點，先用低強度Row/Bike取代。單側腫脹、急性劇痛需評估。"
-      },
-      {
-        "type": "priority",
-        "title": "有氧底盤比多一堂全力WOD更有價值",
-        "body": "11/02完整週跑量25.84km高於先前12–16km常態，下一階段優先穩定Long Easy 45–60分鐘和低強度Erg，而不是繼續推400m極速。"
-      },
-      {
-        "type": "evidence",
-        "title": "Petra WOD就是混合耐力課，不要重複計量",
-        "body": "11/10雙人AMRAP23團隊17R+15（非個人），Garmin均心169；11/12為一堂包含400m及600m間歇、100 Air Squat和緩跑的課，不能分拆當作三堂。"
-      },
-      {
-        "type": "program",
-        "title": "增肌優先 + 功能性整合，WOD是獨立一堂",
-        "body": "World Gym改Push/Pull/Legs：前半段高品質增肌工作組，後半段相關HYROX技巧與穩定。另有正式World Gym/Home WOD；若Petra WOD有去直接替換。Petra Strength/Skill課可替代相同肌群課，不當第7堂強制加課。"
-      }
+      "11/15 RowErg 3016m/14:52 + SkiErg 2011m/11:04 = 25:56 machine time; one matched Garmin HIIT, not two new sessions. Garmin whole-session elapsed 29:09, avg HR153/max175; no per-segment heart rate.",
+      "11/14 Garmin Strength is a separate activity; untracked Wall Ball+Sled Push 4 paired sets remain user-reported without measured HR, weight-definition or Wall Ball reps.",
+      "Latest confirmed running 11/14 5.91km, avg HR149. Do not infer 10K race readiness from a single run or force 5:00/km on Easy runs.",
+      "W01 deload and symptom check, W02 Ski/Carry/WB controlled if recovered, W03 Row/Sled only if knee/calf normal, W04 deload. Wed hard Petra WOD replaces Sat hard Station; Thu Petra easy/technique in that case.",
+      "W05/W10/W15 RowErg+SkiErg high engine replaces normal Sat station, not extra WOD. 2km Ski ×3–4 is only a future benchmark."
     ],
-    "limitation": "Garmin 64 activities and FIT 204 segments updated Nov13. 11/12 100 Air Squats + two cooldown laps and postexercise calf soreness are user-reported, not independently timed/quantified by FIT. Calf symptoms cannot establish injury or weak muscular endurance alone. Strength log missing verified Squat/Bench/Trap-bar loads; no fabricated kg or percentage 1RM. Team shared 11/10 17R+15 not individual score."
+    "limitation": "Only 11/15 activity-level Garmin HR is measured; no HR from 11/14 unrecorded stations or individual machine segment. Petra board photos cannot establish attendance. Knee/calf symptom resolution unconfirmed."
   },
   "weeks": [
     {
@@ -526,19 +495,19 @@
   "lastReview": "2026-11-15",
   "reviewStatus": {
     "verified": true,
-    "garminAsOf": "2026-11-13",
-    "petraPhotoAsOf": "2026-11-13",
-    "garminActivities": 64,
-    "fitLaps": 204,
+    "garminAsOf": "2026-11-15",
+    "petraPhotoAsOf": "2026-11-15",
+    "garminActivities": 67,
+    "fitLaps": 210,
     "garminSyncStatus": "ok",
-    "manualReview": "2026-11-13",
+    "manualReview": "2026-11-15",
     "nextWeekStart": "2026-11-09",
     "method": "Garmin activity_id de-dup; multi-part interval workout one session, photo file id+modifiedTime registry; team score never individual score",
-    "garminLastSyncUtc": "2026-11-13T07:59:31+00:00",
-    "garminNewActivities": 6,
+    "garminLastSyncUtc": "2026-11-15T07:50:51+00:00",
+    "garminNewActivities": 2,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "11/08 07:43 Strength 1427s avgHR98; 11/07 evening mobility synced; no running after 11/07",
+    "latestActivityCrossCheck": "11/15 combined Row+Ski HIIT Garmin ID 25081561315 matches machine-photo manual log as ONE session; 11/14 Strength ID 25073657838 distinct from unrecorded Wall Ball+Sled station sets",
     "petraRegistryIndexed": 37,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
@@ -547,14 +516,16 @@
     "garminObservedAt": "2026-11-11 15:46 Asia/Taipei",
     "detailReanalysis": "Detailed Garmin activity import was rate limited during review; prior verified performance metrics remain based on 2026-11-08 snapshot. Do not interpret as freshly recomputed.",
     "rawGarminActivityCountAsOf": "2026-11-11",
-    "detailedPerformanceSnapshotAsOf": "2026-11-08",
+    "detailedPerformanceSnapshotAsOf": "2026-11-15 (activity-level Garmin; running-lap performance not reanalyzed)",
     "performanceNote": "Strength_Log has no verified kg for squat, bench, trap-bar; absolute working loads assigned from warm-up/RIR rather than fictional 1RM.",
-    "lastIntervalAnalysis": "11/12 5×~400m + 4×~600m; source FIT; no duplicate aerobic sessions",
-    "workoutSubjectiveUpdate": "2026-11-13",
-    "recoveryDataStatus": "subjective; severity/side/duration unknown",
+    "lastIntervalAnalysis": "11/12 interval remains last verified high-intensity running session; 11/15 combined Row+Ski tracked as one Garmin HIIT, not two activities",
+    "workoutSubjectiveUpdate": "2026-11-15",
+    "recoveryDataStatus": "11/14 calf/knee symptoms self-reported; 11/15 symptom resolution not reported; no diagnosis",
     "calfSymptomsRecorded": true,
-    "garminLastConfirmedActivities": 64,
-    "petraIndexed": 37
+    "garminLastConfirmedActivities": 67,
+    "petraIndexed": 37,
+    "garminNewLaps": 0,
+    "petraNewOrModified": 0
   },
   "recentWorkout": {
     "date": "2026-11-07",
@@ -609,10 +580,10 @@
     "indexed": 37,
     "pending": 0,
     "source": "Petra_Photo_Audit_v5 + Petra_Photo_Registry",
-    "asOf": "2026-11-13",
-    "newAnalyzed": 1,
+    "asOf": "2026-11-15",
+    "newAnalyzed": 0,
     "latest": "IMG_1702.HEIC",
-    "latestStatus": "TEAM_SCORE_NOT_INDIVIDUAL; Alvin+Leon 17R+15; matched timing with Garmin HIIT"
+    "latestStatus": "37 registry photos matched Drive ID+modifiedTime; 0 new or changed; old analyzed photos not reread"
   },
   "flexiblePlan": {
     "version": "v1.5.1",
@@ -20083,8 +20054,8 @@
     "label": "v1.5.1",
     "releasedOn": "2026-11-15",
     "status": "PUBLISHED v1.5.1",
-    "dataVerifiedThrough": "2026-11-13",
-    "notes": "RowErg + SkiErg high engine W05/W10/W15 based on confirmed equipment, no cycling required. Preserve 10K sub-50 run target and recovery limits."
+    "dataVerifiedThrough": "2026-11-15",
+    "notes": "v1.5.1 plan preserved; 11/15 private Garmin +2 activities/0 laps, photo 0 changes, Row/Ski manual crossmatched to one Garmin session."
   },
   "scheduleRevision": {
     "version": "v1.5.1",
