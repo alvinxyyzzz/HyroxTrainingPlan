@@ -1,8 +1,8 @@
 {
-  "version": "1.5.3",
+  "version": "1.5.4",
   "updated": "2026-11-17",
   "dataThrough": "2026-11-16",
-  "lastSync": "2026-11-17 05:20 Asia/Taipei · Garmin Personal API private GitHub Actions success (70 checked, +0 new)",
+  "lastSync": "2026-11-17 05:20 Asia/Taipei · Garmin Personal API private GitHub Actions success (70 checked, +0 new) · 11/17 machine monitor photo crosschecked (no new Garmin activity)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -42,7 +42,32 @@
     "lastRunHr": 141,
     "interval600AvgSeconds": 166.5,
     "interval400AvgHR": 168,
-    "interval600AvgHR": 174
+    "interval600AvgHR": 174,
+    "latestSki2k": {
+      "distanceM": 2004,
+      "durationSeconds": 639,
+      "duration": "10:39",
+      "average500M": "2:39.4",
+      "displayed500M": "2:44",
+      "averageWatt": 94,
+      "strokes": 384,
+      "averageSpm": 36.1,
+      "drag": 62,
+      "sourcePhoto": "IMG_1736.jpeg",
+      "dateStatus": "probable 2026-11-16; photo undated",
+      "probableGarminId": "25093330515",
+      "comparePrevious": {
+        "date": "2026-11-15",
+        "distanceM": 2011,
+        "durationSeconds": 664,
+        "average500M": "2:45.1",
+        "averageWatt": 92,
+        "strokes": 345,
+        "averageSpm": 31.2,
+        "drag": 60,
+        "normalized2kImprovementSeconds": 22.6
+      }
+    }
   },
   "weeklyKm": [
     {
@@ -156,27 +181,27 @@
     }
   ],
   "coach": {
-    "headline": "11/17 更新：Garmin 已達70筆，11/16 為跑步＋力量＋Ski；本週保留品質、減少重疊刺激",
-    "summary": "11/17 05:20手動重新執行Garmin Actions成功：70筆活動、34筆實際跑步、139.34km、218 FIT laps，當次+0，前次App快照之後補入11/16力量與Ski兩筆。Petra白板37張索引、0張新增或異動，歷史13筆pending已與既有審核結果對齊。11/16跑5.85km/HR141，午後Strength 36:04/HR102與XC Ski 10:44/HR165；這天已有足夠運動刺激，週二額外短Easy／Ski技術先省略。",
+    "headline": "最新 SkiErg 2km 10:39；相較11/15標準化進步約23秒，注意划頻上升",
+    "summary": "11/17收到 CENTR SkiErg 照片：2004m/10:39/94W/384 strokes/drag62，計算2:39.4/500m；螢幕2:44/500m不是依全程距離時間算出的平均配速。相較11/15 2011m/11:04/92W/345 strokes/drag60，等距2km大約快23秒，划頻由約31.2升至36.1 spm。照片未標日期，時間上與11/16 Garmin XC Ski 10:44相近，暫以同堂可能對應，不新增Garmin活動或重複計數。維持W01恢復優先，之後以穩定功率/划頻與技巧優先。",
     "findings": [
       {
-        "title": "Garmin 資料已追平",
-        "body": "11/17 05:20 即時重跑同步成功（+0），累積70筆不同Garmin活動、34筆跑步、139.34km、218個FIT laps。上一版App漏的是11/16中午力量與XC Ski兩筆，非新增跑步里程。"
+        "title": "SkiErg 最新 2km 表現",
+        "body": "CENTR photo IMG_1736：2004m / 10:39，計算全程配速2:39.4/500m、平均94W、384 strokes、Drag62。機器畫面顯示2:44/500m，與計算平均分開記錄。"
       },
       {
-        "title": "11/16 一天三段紀錄",
-        "body": "晨跑5.85km/39:02，均心141；中午Strength 36:04，均心102；接續XC Ski Indoor 10:44，均心165、最高178。Ski沒有記錄實際公尺數或功率，不估算配速；兩段中午紀錄也不能當成兩次獨立到場訓練。"
+        "title": "對比上次 11/15 Ski",
+        "body": "11/15為2011m / 11:04 / 92W / 345 strokes / Drag60。等距2km約快23秒，384/639秒≈36.1 spm（前次345/664秒≈31.2spm）。進步主要伴隨划頻提升，未能證明單次划動效率進步；可練穩定節奏與每次動作輸出。"
       },
       {
-        "title": "Petra 37張、沒有新照片",
-        "body": "Google Drive最新照片是11/10課表、11/13上傳的IMG_1702.HEIC，37張均已索引且無待新增。舊Petra_Whiteboard 13列pending現依核驗表改成已審核，雙人分數絕不當個人成績。"
+        "title": "Garmin 與照片去重",
+        "body": "照片無日期，但10:39與11/16 Garmin XC Ski Indoor 10:44.1、均心165/最高178相近；視為可能同一堂，不新增第71筆活動。累積仍70個Garmin activity、218 FIT laps。"
       },
       {
-        "title": "W01 只微調恢復分配",
-        "body": "已完成11/16 Long Easy；11/17 Pull可輕做RIR4或休息，取消原本可選的短Easy和Ski技術；週三恢復，週四Petra依身體反應做Easy/Technique，不再額外補硬Station。W02起6.5–7km長跑進階與17週計畫保留。"
+        "title": "當週訓練安排不增加硬課",
+        "body": "11/16已有晨跑5.85km、力量及心率較高的Ski；週二不要補Ski間歇，保留上肢或休息。以次日恢復決定週四Petra品質跑強度。"
       }
     ],
-    "limitation": "未取得Garmin個人化HR zone門檻、SkiErg距離/功率、Strength實際動作與負重、11/16最新關節症狀、自覺強度及Petra11/16以後的課堂出席確認。依原始Garmin type判別資料，非由手錶有活動就推論World Gym或Petra到場。"
+    "limitation": "CENTR照片未顯示日期、Garmin+機器數據僅依持續時間推定同堂，未獲使用者明示確認；Garmin跑步心率區間尚未核實，無Ski每段分段功率、技術動作影像或主觀RPE。等距配速改善不等於因果性的心肺或技術效率進步。"
   },
   "weeks": [
     {
@@ -518,17 +543,17 @@
     "garminNewActivities": 0,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "11/16 08:00 Run ID25092581863 5.8532km/HR141; 12:27 Strength ID25093285157 36:04/HR102; 13:04 XC Ski Indoor ID25093330515 10:44/HR165 max178. Garmin ski distance=0, no meters inferred.",
+    "latestActivityCrossCheck": "Nov 16 Garmin XC Ski Indoor 10:44.1/HR165 max178 ID25093330515 likely matches undated CENTR photo 2004m/10:39/94W/384strokes/drag62. Photo date unverified; no duplicate activity added.",
     "petraRegistryIndexed": 37,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
     "petraIncrementalMode": true,
     "garminActivitiesObserved": 70,
     "garminObservedAt": "2026-11-17 05:21 Asia/Taipei",
-    "detailReanalysis": "11/16 midday Strength+XC Ski Indoor added after earlier 5.85km Easy Run, one training day; Petra Drive latest IMG_1702.HEIC still 11/10 class (uploaded 11/13), 37 photos unchanged; historical Petra_Whiteboard 13 pending entries reconciled against audited records.",
+    "detailReanalysis": "CENTR photo IMG_1736.jpeg SkiErg 2004m/10:39, 2:39.4/500m calculated, 2:44/500m screen pace displayed, 94 W, 384 strokes, Drag62; likely Garmin Nov16 Ski 10:44 ID25093330515, but photo has no date. Compared 11/15 Ski 2011m/11:04/92W/345strokes/drag60, normalized 2km improvement ~23s, stroke-rate rose 31.2→36.1/min. Existing 70 Garmin activities unchanged.",
     "rawGarminActivityCountAsOf": "2026-11-17",
     "detailedPerformanceSnapshotAsOf": "2026-11-17 verified 70 Garmin activities and 218 FIT laps (activity timestamps through 2026-11-16)",
-    "performanceNote": "11/16 XC Ski Indoor HR165/178 reflects measured HR, not independently measured pace/watts or qualified lactate zone; no meter data. No new symptom check-in.",
+    "performanceNote": "CENTR photo is independent machine evidence for Ski distance and watts; Garmin ski distance was 0 and must not be read as measured meters. Both are tentatively linked to the same 11/16 session, not separate workouts.",
     "lastIntervalAnalysis": "11/12 remains last verified high-intensity running intervals; 11/16 has one Ski cardio activity with elevated measured heart rate, not a separate interval run.",
     "workoutSubjectiveUpdate": "2026-11-15",
     "recoveryDataStatus": "Previous calf/knee symptom resolution unconfirmed; do not infer ongoing pain or full recovery.",
@@ -562,9 +587,20 @@
       "skiSeconds": 644.125,
       "skiAvgHr": 165,
       "skiMaxHr": 178,
-      "skiMeasuredDistanceM": null
+      "skiMeasuredDistanceM": null,
+      "skiMachineEvidence": {
+        "distanceM": 2004,
+        "seconds": 639,
+        "calculatedPace500": "2:39.4",
+        "displayedPace500": "2:44",
+        "avgWatt": 94,
+        "strokes": 384,
+        "drag": 62,
+        "source": "user-supplied CENTR IMG_1736.jpeg",
+        "match": "PROBABLE SAME SESSION, date not shown"
+      }
     },
-    "note": "Do not count 2 midday activity records as 2 verified World Gym visits, do not convert 0 Garmin Ski distance to meters. Morning run already counted once as W01 Long Easy.",
+    "note": "Undated photo IMG_1736.jpeg likely corresponds to 11/16 Garmin XC Ski 10:44; machine 2004m/10:39, 94W, 384 strokes, drag62. Do not double count or invent a separate session. Photo 2:44/500 differs from calculated full average 2:39.4/500.",
     "interpretation": "A day with distinct easy-run, resistance and higher HR ski/cardio exposure; no new athlete recovery RPE or symptom update, so next sessions conditional.",
     "nextSteps": "Tue Nov17 optional Easy/Ski omitted, easy Pull RIR4 or rest; Wed mobility/recovery; Thu Petra technique/easy conditional. Do not stack additional hard stations."
   },
@@ -735,7 +771,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-17 · v1.5.3 training data sync + W01 recovery scheduling (base strength/station periodization v1.5.1)",
+  "planUpdated": "2026-11-17 · v1.5.4 evidence-based SkiErg photo update; W01 recovery schedule unchanged",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
