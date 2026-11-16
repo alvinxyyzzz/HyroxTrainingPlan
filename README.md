@@ -1,9 +1,17 @@
-# HYROX PERFORMANCE LAB · v1.5.1
+# HYROX PERFORMANCE LAB · v1.5.3 (training plan base v1.5.1)
 
-**App data updated:** 2026-11-16 (Garmin sync + running coaching v1.5.2); **strength/station programming:** v1.5.1. Garmin FIT lap summaries verified through 2026-11-16.
+**App data updated:** 2026-11-17 (Garmin and Petra reconciliation + W01 training-review v1.5.3); **strength/station programming:** base v1.5.1. 70 Garmin activities / 218 FIT laps, activity timestamps through 2026-11-16.
 
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+
+## 2026-11-17 · v1.5.3 all-data refresh and Petra audit reconciliation
+
+- Manually triggered existing private Garmin sync via `sync-now.request` at 05:17 Taipei; GitHub Actions success, final sync `2026-11-16T21:20:55Z` (05:20 Asia/Taipei). The retry checked 70 activities and added 0 new; compared with prior App snapshot, 2 extra Garmin activities / 2 FIT laps on 2026-11-16 are now represented.
+- Verified totals: **70 unique Garmin activities**, **34 running activities**, **139.34 km** genuine running and **218 FIT laps**. Newest two records are Nov 16 Strength 12:27 (36:04 elapsed, HR avg102/max147) and XC Ski Indoor 13:04 (10:44 elapsed, HR avg165/max178); Ski distance/watts were unavailable and are not invented. Nov 16 morning Easy Run 5.8532km / avgHR141 remains counted once.
+- Petra photo folder unchanged: **37 audited/registered photos**, most recent IMG_1702.HEIC from Nov 10 session, uploaded Nov 13. No newly modified photo as of Nov 17. **13 stale historical `Petra_Whiteboard` pending rows** were aligned to `Petra_Photo_Audit_v5`; preserve score caveats, team-only scores and uncertain individual attendance.
+- Updated public `data/report.json` to v1.5.3, including accurate dashboard totals, coaching analysis cards in the `{title,body}` shape expected by `index.html`, and W01 Tue Nov 17 optional Easy Run/Ski being skipped after Nov 16 combined training. Wed is recovery; Thu Petra run is scaled to physical readiness. **No structural changes to the 17-week periodization or future Long Easy progression.**
+- Private `Athlete_Notes!A6:I6` records source IDs and unknown fields; do not infer World Gym/Petra attendance, Ski distance or symptom resolution from the Garmin activity name or HR. The public app holds summary only, no raw Garmin FIT tracks or private Petra images.
 
 ## 2026-11-16 · v1.5.2 Garmin Easy running review
 
