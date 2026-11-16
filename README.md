@@ -1,9 +1,17 @@
 # HYROX PERFORMANCE LAB · v1.5.1
 
-**Release:** 2026-11-14. **Training-data snapshot verified through:** 2026-11-13 (NOT refreshed for this programming release).
+**App data updated:** 2026-11-16 (Garmin sync + running coaching v1.5.2); **strength/station programming:** v1.5.1. Garmin FIT lap summaries verified through 2026-11-16.
 
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+
+## 2026-11-16 · v1.5.2 Garmin Easy running review
+
+- Private Garmin sync succeeded: new running activity 25092581863 / 5.8532km / 39:02 / avg HR141 / max HR157 / aerobic TE2.6, +6 FIT laps.
+- Overall through 11/16: 68 unique Garmin activities, 34 running activities, 139.34km actual run distance, 216 FIT laps; 11/09 week revised to 19.95km, 11/16 partial 5.85km.
+- HR zones based on %Max HR, %HRR or %LTHR are **not yet verified** for this athlete. **135–145bpm is only a preliminary Easy observation band**, not an established Z2 border. Flat Easy pace starts around 6:40–7:20/km, slower/run-walk as needed; prioritize conversational RPE2–4.
+- W01 Nov 16 easy 5.85km is already this week's Long Easy. Conditional long-run progression W02 6.5–7km, W03 7–7.5, W04 6–6.5 deload, W05 7.5–8, W06 8–8.5, W07 8.5–9, W08 7–7.5 deload, W09 9–10km if recovered. Flex scheduling, keep 1 Petra quality run and optional short Easy.
+- Public App `data/report.json` updated with today's 6 laps (summaries only) and a compact running-tab coaching guide. `Running_10K_v1_5_1` central Sheet Long_Easy_1x rows W01–W09 updated. No changes to strength/station workouts.
 
 ## 2026-11-15 · v1.5.1: World Gym available equipment
 
