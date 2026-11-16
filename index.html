@@ -524,6 +524,17 @@ function runningPage(){
  '<p><b>交替訓練：</b>Ski 5 分鐘＋Row 5 分鐘 ×3，維持 Easy 強度。Easy 日不做拚輪數 AMRAP。</p>'+
  '<p><b>想替代 Interval：</b>恢復良好、當週沒有硬 Petra WOD 時，可做 Ski／Row 4×3 分鐘 RPE7，組間 Easy 2 分鐘；這是取代跑課，不是加練。</p>'+
  '<p class="run-small-note">Ski／Row 能練有氧，但不完全等於跑步：跑姿、落地耐受與 HYROX 跑站仍需練跑。Erg 公尺不能算成跑步公里。</p></section>';
+ const upcoming=(goal.nextLongRuns||[]).filter(x=>x.weekNumber>=n && x.weekNumber<=n+4);
+ const guide=goal.easyGuide||{},latest=goal.latestRunReview||{};
+ const coachGuide=!race&&n<=9&&goal.easyGuide?
+  '<section class="run-alternatives"><h3>Garmin 11/16｜有氧配速＆長跑進度</h3>'+
+  '<p><b>最近6km：</b>'+esc(latest.distanceKm?Number(latest.distanceKm).toFixed(2)+'km / '+latest.duration+' / 平均心率'+latest.avgHr+' bpm':'約5.85km / 平均心率141 bpm')+'</p>'+
+  '<p><b>Easy 心率：</b>'+esc(guide.hrGuide)+'</p>'+
+  '<p><b>Easy 配速：</b>'+esc(guide.paceGuide)+'</p>'+
+  '<p class="run-small-note">重點是能講完整句子、呼吸穩定；HR區間未驗證前別強制把每秒都壓進Zone2。</p>'+
+  '<h3 style="margin-top:13px">接下來的Long Easy（任意方便日）</h3>'+
+  '<ul class="run-short-list">'+upcoming.map(x=>'<li><b>'+esc(x.week)+'</b> · '+esc(x.distance)+' · '+esc(x.duration)+'</li>').join('')+'</ul>'+
+  '</section>':"";
  const extra=sessions.length&&!race?'<details class="simpl-more"><summary>本週跑步參考處方</summary>'+
  (ten.qualityRunAlternative?'<p class="run-week-focus"><b>品質跑替代：</b>'+esc(ten.qualityRunAlternative)+'</p>':"")+
  (ten.longRun?'<p class="run-week-focus"><b>Long Easy：</b>'+esc(ten.longRun)+'</p>':"")+
@@ -531,7 +542,7 @@ function runningPage(){
  return '<section class="screen active track-running-page">'+
  '<div class="simpl-week-top"><span class="mini">RUNNING / AEROBIC</span>'+selector+'</div>'+
  '<div class="track-running-hero"><div><span class="mini">'+esc(w.id)+' · '+esc(dshort(w.start))+'–'+esc(dshort(w.end))+'</span><h1>10K · 50:00</h1><p>目標均速 5:00/km · 一週品質跑1次、Long Easy1次，日期彈性；Ski／Row 是補充。</p></div></div>'+
- focus+alternatives+'<section class="run-timeline"><h2 class="run-timeline-title">賽前 17 週跑步規劃</h2>'+rows+'</section>'+extra+'</section>';
+ focus+coachGuide+alternatives+'<section class="run-timeline"><h2 class="run-timeline-title">賽前 17 週跑步規劃</h2>'+rows+'</section>'+extra+'</section>';
 }
 
 function kickoffCard(k){
