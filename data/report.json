@@ -1,8 +1,8 @@
 {
-  "version": "1.5.2",
-  "updated": "2026-11-16",
+  "version": "1.5.3",
+  "updated": "2026-11-17",
   "dataThrough": "2026-11-16",
-  "lastSync": "2026-11-16 11:14 Asia/Taipei · Garmin Personal API private GitHub Actions (success)",
+  "lastSync": "2026-11-17 05:20 Asia/Taipei · Garmin Personal API private GitHub Actions success (70 checked, +0 new)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,12 +13,12 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 68,
+    "activities": 70,
     "runs": 34,
     "totalKm": 139.34,
     "recentWeekKm": 5.85,
     "petraPhotos": 37,
-    "petraIndividualNote": "36 張白板含團隊與無個人成績紀錄，不能當作 36 堂出席或 36 個 PR。",
+    "petraIndividualNote": "37張已索引Petra白板照片，含團隊、無個人成績與歷史重複照片；照片數不等於Alvin實際出席次數。",
     "row1500": "6:20.5",
     "row1500Photo": "6:18",
     "rowAvgHr": 175,
@@ -156,17 +156,27 @@
     }
   ],
   "coach": {
-    "headline": "11/16 Easy 5.85km，均心141：先拉長有氧時間、不要硬壓Garmin Z2",
-    "summary": "11/16 GitHub Actions重新同步Garmin→私有Google Sheet成功，+1跑步活動/+6 FIT laps；共68筆活動、216個FIT分段。今天5.85km/39:02/HR141/最高157；第2–4公里移動配速約6:38–6:39，分段HR139→144→147。Easy/Long優先談話測試與持續性，Z2上限須先驗證手錶的心率區間設定。",
+    "headline": "11/17 更新：Garmin 已達70筆，11/16 為跑步＋力量＋Ski；本週保留品質、減少重疊刺激",
+    "summary": "11/17 05:20手動重新執行Garmin Actions成功：70筆活動、34筆實際跑步、139.34km、218 FIT laps，當次+0，前次App快照之後補入11/16力量與Ski兩筆。Petra白板37張索引、0張新增或異動，歷史13筆pending已與既有審核結果對齊。11/16跑5.85km/HR141，午後Strength 36:04/HR102與XC Ski 10:44/HR165；這天已有足夠運動刺激，週二額外短Easy／Ski技術先省略。",
     "findings": [
-      "11/16 Garmin活動25092581863：5.8532km/39:02、均心141、最高157、有氧TE2.6；每公里1–4分段均心127/139/144/147，反映暖身及可能的心率上漂，但不能在缺少連續心率、海拔和天氣時精確判定心率漂移。",
-      "11/16第5公里Lap包含較長停頓，均心降到139，最後0.853km均心150；停頓使分段心率的直線趨勢不能直接視為完整不間斷有氧。",
-      "11/13與11/14平路晨跑接近6:00/km、均心150/149；11/16把整體配速降到6:40/km後均心141；10/31以6:22/km跑出均心139。不同天疲勞/地形/氣溫等未知，不能用單次推斷心肺進退。",
-      "過去多數週真實跑量約12–20km，11/02單週25.84km較高，不以它作為新增長跑的必達基準；11/09一週補全後19.95km，本週11/16起已跑5.85km。",
-      "先穩定每週1堂可移動Long Easy＋1堂Petra跑課，恢復良好才加入第3堂短Easy；11/16的5.85km已視為W01長跑，避免再額外重複。W02起按週次由6.5–7km緩增到W09條件式9–10km。",
-      "11/15 RowErg+SkiErg是同一堂Garmin HIIT，沒有因兩台機器重複計算；膝蓋/小腿恢復尚未獲得最新確認，症狀出現時要減量或暫停衝擊訓練。"
+      {
+        "title": "Garmin 資料已追平",
+        "body": "11/17 05:20 即時重跑同步成功（+0），累積70筆不同Garmin活動、34筆跑步、139.34km、218個FIT laps。上一版App漏的是11/16中午力量與XC Ski兩筆，非新增跑步里程。"
+      },
+      {
+        "title": "11/16 一天三段紀錄",
+        "body": "晨跑5.85km/39:02，均心141；中午Strength 36:04，均心102；接續XC Ski Indoor 10:44，均心165、最高178。Ski沒有記錄實際公尺數或功率，不估算配速；兩段中午紀錄也不能當成兩次獨立到場訓練。"
+      },
+      {
+        "title": "Petra 37張、沒有新照片",
+        "body": "Google Drive最新照片是11/10課表、11/13上傳的IMG_1702.HEIC，37張均已索引且無待新增。舊Petra_Whiteboard 13列pending現依核驗表改成已審核，雙人分數絕不當個人成績。"
+      },
+      {
+        "title": "W01 只微調恢復分配",
+        "body": "已完成11/16 Long Easy；11/17 Pull可輕做RIR4或休息，取消原本可選的短Easy和Ski技術；週三恢復，週四Petra依身體反應做Easy/Technique，不再額外補硬Station。W02起6.5–7km長跑進階與17週計畫保留。"
+      }
     ],
-    "limitation": "Garmin跑步個人心率區間設定（%HRmax、%HRR、%LTHR）、實際乳酸閾值、HRmax、跑步路線坡度、天氣、完整秒級FIT心率均未確認。135–145 bpm只是基於近期Easy資料的暫時觀察帶，不是個人正式Zone 2邊界。"
+    "limitation": "未取得Garmin個人化HR zone門檻、SkiErg距離/功率、Strength實際動作與負重、11/16最新關節症狀、自覺強度及Petra11/16以後的課堂出席確認。依原始Garmin type判別資料，非由手錶有活動就推論World Gym或Petra到場。"
   },
   "weeks": [
     {
@@ -493,73 +503,70 @@
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
-  "lastReview": "2026-11-16",
+  "lastReview": "2026-11-17",
   "reviewStatus": {
     "verified": true,
     "garminAsOf": "2026-11-16",
-    "petraPhotoAsOf": "2026-11-15",
-    "garminActivities": 68,
-    "fitLaps": 216,
+    "petraPhotoAsOf": "2026-11-13 (last uploaded, Nov 10 session)",
+    "garminActivities": 70,
+    "fitLaps": 218,
     "garminSyncStatus": "ok",
-    "manualReview": "2026-11-16",
+    "manualReview": "2026-11-17",
     "nextWeekStart": "2026-11-09",
     "method": "Garmin activity_id de-dup; multi-part interval workout one session, photo file id+modifiedTime registry; team score never individual score",
-    "garminLastSyncUtc": "2026-11-16T03:14:52+00:00",
-    "garminNewActivities": 1,
+    "garminLastSyncUtc": "2026-11-16T21:20:55+00:00",
+    "garminNewActivities": 0,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "11/16 08:00 Garmin Running ID 25092581863 / 5.8532km / 39:02 / HR141, FIT6 laps; 11/15 Row+Ski retained as ONE combined Garmin HIIT",
+    "latestActivityCrossCheck": "11/16 08:00 Run ID25092581863 5.8532km/HR141; 12:27 Strength ID25093285157 36:04/HR102; 13:04 XC Ski Indoor ID25093330515 10:44/HR165 max178. Garmin ski distance=0, no meters inferred.",
     "petraRegistryIndexed": 37,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
     "petraIncrementalMode": true,
-    "garminActivitiesObserved": 58,
-    "garminObservedAt": "2026-11-11 15:46 Asia/Taipei",
-    "detailReanalysis": "11/16 新跑步分段與近十次5.8–6km跑的配速/心率已核對；無秒級心率/坡度資訊，無法提供嚴格Z2比例或完整心率漂移分數。",
-    "rawGarminActivityCountAsOf": "2026-11-11",
-    "detailedPerformanceSnapshotAsOf": "2026-11-16 (Garmin activity summary + 6 FIT lap summaries)",
-    "performanceNote": "Running 11/16 analyses use exact Garmin API activity and FIT lap data; 135–145 is provisional Easy coaching guide, not verified Garmin Z2.",
-    "lastIntervalAnalysis": "11/12 interval remains last verified high-intensity running session; 11/15 combined Row+Ski tracked as one Garmin HIIT, not two activities",
+    "garminActivitiesObserved": 70,
+    "garminObservedAt": "2026-11-17 05:21 Asia/Taipei",
+    "detailReanalysis": "11/16 midday Strength+XC Ski Indoor added after earlier 5.85km Easy Run, one training day; Petra Drive latest IMG_1702.HEIC still 11/10 class (uploaded 11/13), 37 photos unchanged; historical Petra_Whiteboard 13 pending entries reconciled against audited records.",
+    "rawGarminActivityCountAsOf": "2026-11-17",
+    "detailedPerformanceSnapshotAsOf": "2026-11-17 verified 70 Garmin activities and 218 FIT laps (activity timestamps through 2026-11-16)",
+    "performanceNote": "11/16 XC Ski Indoor HR165/178 reflects measured HR, not independently measured pace/watts or qualified lactate zone; no meter data. No new symptom check-in.",
+    "lastIntervalAnalysis": "11/12 remains last verified high-intensity running intervals; 11/16 has one Ski cardio activity with elevated measured heart rate, not a separate interval run.",
     "workoutSubjectiveUpdate": "2026-11-15",
-    "recoveryDataStatus": "11/14 calf/knee symptoms self-reported; 11/15 symptom resolution not reported; no diagnosis",
+    "recoveryDataStatus": "Previous calf/knee symptom resolution unconfirmed; do not infer ongoing pain or full recovery.",
     "calfSymptomsRecorded": true,
-    "garminLastConfirmedActivities": 68,
+    "garminLastConfirmedActivities": 70,
     "petraIndexed": 37,
-    "garminNewLaps": 6,
-    "petraNewOrModified": 0
+    "garminNewLaps": 0,
+    "petraNewOrModified": 0,
+    "garminNewSincePreviousAppSnapshot": 2,
+    "fitLapsNewSincePreviousAppSnapshot": 2
   },
   "recentWorkout": {
-    "date": "2026-11-07",
-    "venue": "World Gym",
-    "session": "下肢力量＋HYROX Station",
-    "source": "Alvin 自述＋Garmin API",
-    "status": "部分交叉驗證",
+    "date": "2026-11-16",
+    "venue": "Garmin tracked; location and specific gym attendance unverified",
+    "session": "Morning Easy Running + Midday Strength/XC Ski Indoor",
+    "source": "Garmin Personal API sync, 2026-11-17 verified",
+    "status": "3 GARMIN ACTIVITY RECORDS, 1 CALENDAR DAY; 2 MIDDAY SEGMENTS; NO PETRA ATTRIBUTION",
     "movements": [
-      "深蹲",
-      "六角槓硬拉",
-      "Single-leg Lunge",
-      "Wall Ball",
-      "SkiErg 1000m（約 5:00；自行回報）"
+      "Outdoor easy run 5.8532km",
+      "Strength Training 36:04 elapsed (actual exercises unknown)",
+      "Indoor Cross Country Skiing 10:44 elapsed (SkiErg distance unknown)"
     ],
     "garmin": {
-      "strengthSegments": 2,
-      "strengthSegmentSeconds": [
-        556.903,
-        322.148
-      ],
-      "strengthAvgHr": [
-        127,
-        131
-      ],
-      "wallBallSeconds": 315.482,
-      "wallBallAvgHr": 170,
-      "wallBallMaxHr": 183,
-      "wallBallAnaerobicEffect": 2.4,
-      "separateSkiErgVerified": false
+      "runId": "25092581863",
+      "runKm": 5.8532,
+      "runAvgHr": 141,
+      "strengthId": "25093285157",
+      "strengthSeconds": 2164.585,
+      "strengthAvgHr": 102,
+      "skiId": "25093330515",
+      "skiSeconds": 644.125,
+      "skiAvgHr": 165,
+      "skiMaxHr": 178,
+      "skiMeasuredDistanceM": null
     },
-    "note": "這是同一堂 World Gym 訓練，不按 Garmin 分段數灌水增加世界健身房出席堂數。未記錄重量、組次與 RIR，不建立虛假的最大力量趨勢。",
-    "interpretation": "深蹲與六角槓重疊下肢負荷，加入單腿弓步和 Wall Ball 後疲勞較集中；本次 Wall Ball 最高 HR183，建議接下來 24–48 小時以恢復和低強度活動為主。",
-    "nextSteps": "11/09 Petra技巧或恢復；11/10深蹲減至2組或取消；Petra硬WOD後週四只Easy。"
+    "note": "Do not count 2 midday activity records as 2 verified World Gym visits, do not convert 0 Garmin Ski distance to meters. Morning run already counted once as W01 Long Easy.",
+    "interpretation": "A day with distinct easy-run, resistance and higher HR ski/cardio exposure; no new athlete recovery RPE or symptom update, so next sessions conditional.",
+    "nextSteps": "Tue Nov17 optional Easy/Ski omitted, easy Pull RIR4 or rest; Wed mobility/recovery; Thu Petra technique/easy conditional. Do not stack additional hard stations."
   },
   "equipmentWorldGym": {
     "confirmedAt": "2026-11-07",
@@ -581,10 +588,10 @@
     "indexed": 37,
     "pending": 0,
     "source": "Petra_Photo_Audit_v5 + Petra_Photo_Registry",
-    "asOf": "2026-11-15",
+    "asOf": "2026-11-17 05:21 Asia/Taipei",
     "newAnalyzed": 0,
-    "latest": "IMG_1702.HEIC",
-    "latestStatus": "37 registry photos matched Drive ID+modifiedTime; 0 new or changed; old analyzed photos not reread"
+    "latest": "IMG_1702.HEIC (Petra class 2026-11-10; uploaded 2026-11-13)",
+    "latestStatus": "Drive folder 37 photos matched registry 37; no new or modified photo since 11/13; 13 stale historical Petra_Whiteboard pending rows reconciled from audited records, no re-analysis/no duplicate attendance."
   },
   "flexiblePlan": {
     "version": "v1.5.1",
@@ -728,7 +735,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-16",
+  "planUpdated": "2026-11-17 · v1.5.3 training data sync + W01 recovery scheduling (base strength/station periodization v1.5.1)",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -1614,7 +1621,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "2026-11-17資料更新：週一Garmin跑步＋力量＋Ski三筆，週二短Easy與額外Ski先暫停，既有17週期化和Long Easy progression不更改。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -1798,8 +1806,8 @@
                 "name": "PULL · C Easy Ski Technique",
                 "format": "6–12分鐘 · RPE3–4 · 非主Station",
                 "lines": [
-                  "SkiErg輕鬆做6–12分鐘，保持手臂／軀幹動作一致",
-                  "若隔天可能上Petra WOD或上肢已累，直接省略"
+                  "11/16 已有約11分鐘XC Ski有氧，今天不重複安排Ski技巧；可選徒手Mobility 10–15分鐘或直接省略",
+                  "如決定練Pull，只做主肌群RIR4，不追額外心肺強度"
                 ]
               },
               {
@@ -1814,22 +1822,22 @@
                 "name": "可選 Tue AM 短Easy跑",
                 "format": "RUN PRIORITY · 獨立跑步，不是Pull課加班",
                 "lines": [
-                  "恢復／賽前週不強制增加跑量",
-                  "若本週週二上Petra Strength/Skill、週一腿部明顯痠痛、週三要做硬WOD，直接不加短Easy",
-                  "週二早上跑量要計入Garmin實際跑步km；不把SkiErg或RowErg米數換算成跑公里"
+                  "11/16早上Long Easy 5.85km＋中午力量和Ski均有記錄，11/17不額外安排第三短Easy",
+                  "若本週晚些時候有完整恢復，可選15–20分鐘Easy；無需為了跑量或打卡硬補",
+                  "週三有硬WOD、關節不舒服或疲勞時直接取消，Garmin僅記真實跑步公里"
                 ]
               },
               {
                 "name": "穩定心肺底盤｜Easy有氧替代",
                 "format": "與Tue AM Easy Run擇一或省略",
                 "lines": [
-                  "若恢復足夠，Tue AM短Easy跑或20–30分鐘（恢復才做）的Easy Ski/Row/Bike擇一，RPE3–4，能說完整句子",
-                  "這是低強度有氧，不是Interval或WOD，避免和週四Petra跑課構成第三堂硬訓練",
-                  "小腿仍酸就選無痛方式；若日常走路/提踵也痛，先休息，必要時專業評估"
+                  "本週11/17先休息或Pull RIR4，暫不另加Row/Ski有氧；週一已有有氧與Ski",
+                  "之後恢復良好才選一堂20–30分鐘Easy，RPE2–4、可完整對話",
+                  "低衝擊替代是用來取代跑步，不是另外疊加第三堂高強度"
                 ]
               }
             ],
-            "subtitle": "Tue獨立Pull力量日，不再摻Bench或重腿。Petra Skill/Strength週二可取代",
+            "subtitle": "11/16已有長Easy＋力量＋Ski；週二以低疲勞Pull或休息為主，不補額外跑步或Ski",
             "stationTargetRPE": 4,
             "stationRole": "technique"
           },
@@ -2003,8 +2011,9 @@
               "id": "easy",
               "priority": "LOW PRIORITY DELoad",
               "title": "TUE AM · 第三次短 Easy Run（恢復許可才做）",
-              "dose": "可選Easy 15分鐘",
+              "dose": "11/17暫不補；若本週後段恢復良好，可另選15–20分鐘Easy",
               "details": [
+                "11/16已完成晨跑＋中午力量＋Ski，因此11/17先省略額外Easy和Ski技巧，優先恢復",
                 "與當天World Gym Pull主課可分早晚，無法分離也不需硬塞",
                 "週一Legs DOMS、週二Petra Strength/Skill、週三硬WOD或關節不適→直接取消",
                 "穩定頻率後依最近3–4週實跑量調整，不強求固定加量"
@@ -2035,7 +2044,7 @@
           ],
           "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "動作基線＋完整 WOD",
+          "weeklyFocus": "W01完成5.85km Long Easy；11/16多項訓練後採恢復優先，Thu Petra Easy/Technique可視恢復決定",
           "wodRunKm": 0,
           "independentRunKmRange": [
             12,
@@ -2051,12 +2060,13 @@
             "minutesMax": 30,
             "rpe": "3–4",
             "conditions": [
+              "11/16已有三筆Garmin運動紀錄，11/17不追加短Easy；如恢復正常才於本週後段彈性安排",
               "週一Legs無明顯DOMS／膝小腿症狀",
               "週二沒有參加Petra Strength/Skill",
               "週三若計畫參加硬WOD，當週取消額外easy並依恢復調整",
               "跑量以最近4週實際完成值為起點，先穩定頻率，再增加時間，不追每週固定增幅"
             ],
-            "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class"
+            "skipIf": "pain, altered gait, insufficient recovery or time, Petra Tuesday class; 2026-11-16 same-day run+strength+ski exertion"
           },
           "plannedRunStationKm": 0,
           "wodRunKmLabel": "Planned outdoors running during selected RunStation or W14. Do not count as actual until Garmin confirms completed running; erg metres remain separate.",
@@ -19505,7 +19515,7 @@
   ],
   "trainingTracks": {
     "version": "FINAL-v1.4-2026-11-14",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "running": {
       "name": "RUNNING",
       "source": "Garmin Personal API via Google Sheets",
