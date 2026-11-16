@@ -1,8 +1,8 @@
 {
-  "version": "1.5.1",
-  "updated": "2026-11-15",
-  "dataThrough": "2026-11-15",
-  "lastSync": "2026-11-15 15:50 Asia/Taipei · Garmin Personal API (private Actions verified)",
+  "version": "1.5.2",
+  "updated": "2026-11-16",
+  "dataThrough": "2026-11-16",
+  "lastSync": "2026-11-16 11:14 Asia/Taipei · Garmin Personal API private GitHub Actions (success)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,42 +13,38 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 67,
-    "runs": 32,
-    "totalKm": 127.58,
-    "recentWeekKm": 14.05,
+    "activities": 68,
+    "runs": 34,
+    "totalKm": 139.34,
+    "recentWeekKm": 5.85,
     "petraPhotos": 37,
     "petraIndividualNote": "36 張白板含團隊與無個人成績紀錄，不能當作 36 堂出席或 36 個 PR。",
     "row1500": "6:20.5",
     "row1500Photo": "6:18",
     "rowAvgHr": 175,
-    "lastEasyDistance": 5.93,
-    "lastEasyHr": 143,
-    "lastEasyPace": "6:25",
+    "lastEasyDistance": 5.85,
+    "lastEasyHr": 141,
+    "lastEasyPace": "6:40",
     "easyPrior": {
-      "date": "10/31",
-      "distance": 5.89,
-      "pace": "6:22",
-      "hr": 139
+      "date": "11/07",
+      "distance": 5.93,
+      "pace": "6:25",
+      "hr": 143
     },
     "intervalLatest": "5×400m + 4×600m",
     "intervalAvgSeconds": 92.2,
     "intervalOlderAvgSeconds": 120,
-    "latestWeekStart": "2026-11-09",
+    "latestWeekStart": "2026-11-16",
     "latestWeekPartial": true,
-    "lastRunDate": "2026-11-14",
-    "lastRunDistance": 5.9064,
-    "lastRunPace": "5:59/km elapsed (5.9064km / 35:18; moving pace differs)",
-    "lastRunHr": 149,
+    "lastRunDate": "2026-11-16",
+    "lastRunDistance": 5.8532,
+    "lastRunPace": "6:40/km Garmin duration (39:02/5.85km); 6:29/km moving",
+    "lastRunHr": 141,
     "interval600AvgSeconds": 166.5,
     "interval400AvgHR": 168,
     "interval600AvgHR": 174
   },
   "weeklyKm": [
-    {
-      "w": "9/21",
-      "km": 14.04
-    },
     {
       "w": "9/28",
       "km": 16.1
@@ -75,7 +71,11 @@
     },
     {
       "w": "11/09",
-      "km": 14.05,
+      "km": 19.95
+    },
+    {
+      "w": "11/16",
+      "km": 5.85,
       "partial": true
     }
   ],
@@ -156,16 +156,17 @@
     }
   ],
   "coach": {
-    "headline": "11/15 已核對 RowErg＋SkiErg：一堂有氧，不重複計算",
-    "summary": "Garmin private sync success; +2 unique activities, +0 laps: 11/14 Strength and 11/15 combined Row+Ski HIIT. 11/15 machine Row 3,016m/14:52 and Ski 2,011m/11:04 are two segments of the same Garmin HIIT session (whole-session avg HR 153, max 175). Petra photo registry 37 unchanged. Four-week plan remains recovery-first, preserving standalone 10K sub-50 progression and one Sat station main maximum.",
+    "headline": "11/16 Easy 5.85km，均心141：先拉長有氧時間、不要硬壓Garmin Z2",
+    "summary": "11/16 GitHub Actions重新同步Garmin→私有Google Sheet成功，+1跑步活動/+6 FIT laps；共68筆活動、216個FIT分段。今天5.85km/39:02/HR141/最高157；第2–4公里移動配速約6:38–6:39，分段HR139→144→147。Easy/Long優先談話測試與持續性，Z2上限須先驗證手錶的心率區間設定。",
     "findings": [
-      "11/15 RowErg 3016m/14:52 + SkiErg 2011m/11:04 = 25:56 machine time; one matched Garmin HIIT, not two new sessions. Garmin whole-session elapsed 29:09, avg HR153/max175; no per-segment heart rate.",
-      "11/14 Garmin Strength is a separate activity; untracked Wall Ball+Sled Push 4 paired sets remain user-reported without measured HR, weight-definition or Wall Ball reps.",
-      "Latest confirmed running 11/14 5.91km, avg HR149. Do not infer 10K race readiness from a single run or force 5:00/km on Easy runs.",
-      "W01 deload and symptom check, W02 Ski/Carry/WB controlled if recovered, W03 Row/Sled only if knee/calf normal, W04 deload. Wed hard Petra WOD replaces Sat hard Station; Thu Petra easy/technique in that case.",
-      "W05/W10/W15 RowErg+SkiErg high engine replaces normal Sat station, not extra WOD. 2km Ski ×3–4 is only a future benchmark."
+      "11/16 Garmin活動25092581863：5.8532km/39:02、均心141、最高157、有氧TE2.6；每公里1–4分段均心127/139/144/147，反映暖身及可能的心率上漂，但不能在缺少連續心率、海拔和天氣時精確判定心率漂移。",
+      "11/16第5公里Lap包含較長停頓，均心降到139，最後0.853km均心150；停頓使分段心率的直線趨勢不能直接視為完整不間斷有氧。",
+      "11/13與11/14平路晨跑接近6:00/km、均心150/149；11/16把整體配速降到6:40/km後均心141；10/31以6:22/km跑出均心139。不同天疲勞/地形/氣溫等未知，不能用單次推斷心肺進退。",
+      "過去多數週真實跑量約12–20km，11/02單週25.84km較高，不以它作為新增長跑的必達基準；11/09一週補全後19.95km，本週11/16起已跑5.85km。",
+      "先穩定每週1堂可移動Long Easy＋1堂Petra跑課，恢復良好才加入第3堂短Easy；11/16的5.85km已視為W01長跑，避免再額外重複。W02起按週次由6.5–7km緩增到W09條件式9–10km。",
+      "11/15 RowErg+SkiErg是同一堂Garmin HIIT，沒有因兩台機器重複計算；膝蓋/小腿恢復尚未獲得最新確認，症狀出現時要減量或暫停衝擊訓練。"
     ],
-    "limitation": "Only 11/15 activity-level Garmin HR is measured; no HR from 11/14 unrecorded stations or individual machine segment. Petra board photos cannot establish attendance. Knee/calf symptom resolution unconfirmed."
+    "limitation": "Garmin跑步個人心率區間設定（%HRmax、%HRR、%LTHR）、實際乳酸閾值、HRmax、跑步路線坡度、天氣、完整秒級FIT心率均未確認。135–145 bpm只是基於近期Easy資料的暫時觀察帶，不是個人正式Zone 2邊界。"
   },
   "weeks": [
     {
@@ -492,39 +493,39 @@
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
-  "lastReview": "2026-11-15",
+  "lastReview": "2026-11-16",
   "reviewStatus": {
     "verified": true,
-    "garminAsOf": "2026-11-15",
+    "garminAsOf": "2026-11-16",
     "petraPhotoAsOf": "2026-11-15",
-    "garminActivities": 67,
-    "fitLaps": 210,
+    "garminActivities": 68,
+    "fitLaps": 216,
     "garminSyncStatus": "ok",
-    "manualReview": "2026-11-15",
+    "manualReview": "2026-11-16",
     "nextWeekStart": "2026-11-09",
     "method": "Garmin activity_id de-dup; multi-part interval workout one session, photo file id+modifiedTime registry; team score never individual score",
-    "garminLastSyncUtc": "2026-11-15T07:50:51+00:00",
-    "garminNewActivities": 2,
+    "garminLastSyncUtc": "2026-11-16T03:14:52+00:00",
+    "garminNewActivities": 1,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "11/15 combined Row+Ski HIIT Garmin ID 25081561315 matches machine-photo manual log as ONE session; 11/14 Strength ID 25073657838 distinct from unrecorded Wall Ball+Sled station sets",
+    "latestActivityCrossCheck": "11/16 08:00 Garmin Running ID 25092581863 / 5.8532km / 39:02 / HR141, FIT6 laps; 11/15 Row+Ski retained as ONE combined Garmin HIIT",
     "petraRegistryIndexed": 37,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
     "petraIncrementalMode": true,
     "garminActivitiesObserved": 58,
     "garminObservedAt": "2026-11-11 15:46 Asia/Taipei",
-    "detailReanalysis": "Detailed Garmin activity import was rate limited during review; prior verified performance metrics remain based on 2026-11-08 snapshot. Do not interpret as freshly recomputed.",
+    "detailReanalysis": "11/16 新跑步分段與近十次5.8–6km跑的配速/心率已核對；無秒級心率/坡度資訊，無法提供嚴格Z2比例或完整心率漂移分數。",
     "rawGarminActivityCountAsOf": "2026-11-11",
-    "detailedPerformanceSnapshotAsOf": "2026-11-15 (activity-level Garmin; running-lap performance not reanalyzed)",
-    "performanceNote": "Strength_Log has no verified kg for squat, bench, trap-bar; absolute working loads assigned from warm-up/RIR rather than fictional 1RM.",
+    "detailedPerformanceSnapshotAsOf": "2026-11-16 (Garmin activity summary + 6 FIT lap summaries)",
+    "performanceNote": "Running 11/16 analyses use exact Garmin API activity and FIT lap data; 135–145 is provisional Easy coaching guide, not verified Garmin Z2.",
     "lastIntervalAnalysis": "11/12 interval remains last verified high-intensity running session; 11/15 combined Row+Ski tracked as one Garmin HIIT, not two activities",
     "workoutSubjectiveUpdate": "2026-11-15",
     "recoveryDataStatus": "11/14 calf/knee symptoms self-reported; 11/15 symptom resolution not reported; no diagnosis",
     "calfSymptomsRecorded": true,
-    "garminLastConfirmedActivities": 67,
+    "garminLastConfirmedActivities": 68,
     "petraIndexed": 37,
-    "garminNewLaps": 0,
+    "garminNewLaps": 6,
     "petraNewOrModified": 0
   },
   "recentWorkout": {
@@ -727,7 +728,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-15",
+  "planUpdated": "2026-11-16",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -2013,9 +2014,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "30–40分鐘 Easy",
+              "dose": "5.85km 已完成 · 39分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 30–40分鐘，能講完整句子",
+                "11/16 Garmin已完成5.85km / 39:02 / 均心141，算本週Long Easy；恢復正常前不補第二次長跑",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -2064,9 +2065,9 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BASE",
-            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "longRun": "5.85km 已完成 · 39分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；11/16 已完成本週 Long Easy；不需再補第二次長跑",
             "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
-            "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
+            "milestone": "11/16已完成5.85km Easy/HR141；本週其他跑步以恢復與Petra技術跑為主，無需再補第二次Long Easy",
             "actualRunTargetKm": [
               12,
               16
@@ -3107,9 +3108,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "40–50分鐘 Easy",
+              "dose": "6.5–7km · 43–52分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 40–50分鐘，能講完整句子",
+                "本週擇日6.5–7km、約43–52分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -3159,7 +3160,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BASE",
-            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "longRun": "6.5–7km · 43–52分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；全程輕鬆說話；若疲勞就維持6km",
             "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
             "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
             "actualRunTargetKm": [
@@ -4202,9 +4203,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "40–50分鐘 Easy",
+              "dose": "7–7.5km · 47–56分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 40–50分鐘，能講完整句子",
+                "本週擇日7–7.5km、約47–56分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -4253,7 +4254,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BASE",
-            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "longRun": "7–7.5km · 47–56分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；優先延長時間，不提高速度",
             "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
             "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
             "actualRunTargetKm": [
@@ -5250,9 +5251,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "30–40分鐘 Easy",
+              "dose": "6–6.5km · 40–49分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 30–40分鐘，能講完整句子",
+                "本週擇日6–6.5km、約40–49分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -5301,7 +5302,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BASE",
-            "longRun": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+            "longRun": "6–6.5km · 40–49分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；降載週，不追跑量",
             "qualityRunAlternative": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
             "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
             "actualRunTargetKm": [
@@ -6315,9 +6316,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "45–55分鐘 Easy",
+              "dose": "7.5–8km · 50–60分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 45–55分鐘，能講完整句子",
+                "本週擇日7.5–8km、約50–60分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -6366,7 +6367,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BUILD",
-            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "longRun": "7.5–8km · 50–60分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；若上週恢復正常再增加",
             "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
             "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
             "actualRunTargetKm": [
@@ -7496,9 +7497,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "45–55分鐘 Easy",
+              "dose": "8–8.5km · 54–64分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 45–55分鐘，能講完整句子",
+                "本週擇日8–8.5km、約54–64分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -7548,7 +7549,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BUILD",
-            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "longRun": "8–8.5km · 54–64分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；保持可對話強度",
             "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
             "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
             "actualRunTargetKm": [
@@ -8641,9 +8642,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "45–55分鐘 Easy",
+              "dose": "8.5–9km · 57–68分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 45–55分鐘，能講完整句子",
+                "本週擇日8.5–9km、約57–68分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -8692,7 +8693,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BUILD",
-            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "longRun": "8.5–9km · 57–68分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；身體適應良好才進階",
             "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
             "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
             "actualRunTargetKm": [
@@ -9719,9 +9720,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "30–40分鐘 Easy",
+              "dose": "7–7.5km · 47–57分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 30–40分鐘，能講完整句子",
+                "本週擇日7–7.5km、約47–57分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -9770,7 +9771,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "BUILD",
-            "longRun": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+            "longRun": "7–7.5km · 47–57分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；降載週",
             "qualityRunAlternative": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
             "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速",
             "actualRunTargetKm": [
@@ -10842,9 +10843,9 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "50–60分鐘 Easy",
+              "dose": "9–10km · 60–75分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
               "details": [
-                "戶外Easy Run 50–60分鐘，能講完整句子",
+                "本週擇日9–10km、約60–75分鐘；RPE2–4／可對話，先參考HR135–145、配速約6:40–7:20/km (不適用就更慢或跑走)",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
                 "週六若做了Station主課且隔日疲勞偏高：週日Long Easy縮成20–30分鐘輕鬆／移期，或改無痛低衝擊",
                 "若週日去了Petra Strength/Skill，Long Easy是可取捨的選項，不要強制雙訓"
@@ -10893,7 +10894,7 @@
             "targetPaceMinKm": "5:00",
             "goalDuration": "50:00",
             "phase": "TRANSFER",
-            "longRun": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+            "longRun": "9–10km · 60–75分鐘；HR135–145作Easy觀察帶（非已驗證的Garmin Zone2）／平路先試6:40–7:20/km，可講完整句子；只有在8–9km可舒服完成且關節無症狀才進階",
             "qualityRunAlternative": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
             "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加",
             "actualRunTargetKm": [
@@ -19504,27 +19505,28 @@
   ],
   "trainingTracks": {
     "version": "FINAL-v1.4-2026-11-14",
-    "updated": "2026-11-14",
+    "updated": "2026-11-16",
     "running": {
       "name": "RUNNING",
       "source": "Garmin Personal API via Google Sheets",
-      "observedThrough": "2026-11-13",
+      "observedThrough": "2026-11-16",
       "freeSchedule": true,
       "baseline": {
-        "regularWeekKm": "12–16km",
+        "regularWeekKm": "12–20km",
         "outlierWeekKm": 25.84,
         "easyRef": {
-          "date": "2026-11-07",
-          "distanceKm": 5.93,
-          "avgHr": 143
+          "date": "2026-11-16",
+          "distanceKm": 5.85,
+          "avgHr": 141,
+          "elapsedPace": "6:40/km"
         },
         "latest": {
-          "date": "2026-11-13",
-          "distanceKm": 5.86,
-          "avgHr": 150
+          "date": "2026-11-16",
+          "distanceKm": 5.85,
+          "avgHr": 141
         }
       },
-      "principle": "Fixed Thu Petra Interval. Sun Long Easy flexible + conditional priority Tue AM short Easy 15–35min (skip for recovery/Petra Tue/Wed WOD). Selected W07/W09/W11/W13/W14 Run→Station adds actual safe outdoor running recorded by Garmin, replaces station not an extra hard session. No treadmill, no conversion from Ski/Row to run km. v1.4.1: Build ability to hold sustainable Easy talk-test pace, check same-effort RPE/respiratory response; no fixed HR bpm target without data. New 10K target 50:00 (5:00/km), attainable only with verified milestones; retain actual easy/long run, quality intervals and occasional goal-pace repeats according to 10k readiness, not force all runs at goal pace; Ski/Row/Bike counts as cross-training, not km.",
+      "principle": "Fixed Thu Petra Interval. Sun Long Easy flexible + conditional priority Tue AM short Easy 15–35min (skip for recovery/Petra Tue/Wed WOD). Selected W07/W09/W11/W13/W14 Run→Station adds actual safe outdoor running recorded by Garmin, replaces station not an extra hard session. No treadmill, no conversion from Ski/Row to run km. v1.4.1: Build ability to hold sustainable Easy talk-test pace, check same-effort RPE/respiratory response; no fixed HR bpm target without data. New 10K target 50:00 (5:00/km), attainable only with verified milestones; retain actual easy/long run, quality intervals and occasional goal-pace repeats according to 10k readiness, not force all runs at goal pace; Ski/Row/Bike counts as cross-training, not km. 2026-11-16: Easy觀察帶135–145bpm並非Garmin正式Zone2，跑走可接受，11/16已完成W01Long Easy。",
       "startDate": "2026-11-15"
     },
     "gym": {
@@ -20130,14 +20132,16 @@
     "notes": [
       "SkiErg/RowErg can replace aerobic time but do not replace race-specific running/impact tolerance",
       "5K around 24–25 min is a useful indicator (not a guarantee) of a potential 50min 10K; do not force a test while fatigue/injury signs remain",
-      "Never exceed two hard cardiorespiratory sessions per week as a default when balancing HYROX"
+      "Never exceed two hard cardiorespiratory sessions per week as a default when balancing HYROX",
+      "11/16更新：依個人Garmin晨跑實測先用135–145 bpm作Easy觀察帶，實際Garmin Zone2界線待驗證；只要能說話可容許短暫Z3，勿為追數字頻繁煞停。",
+      "W01 11/16 5.85km算當週Long Easy；W02→W09長跑採6.5–7→7–7.5→6–6.5降載→7.5–8→8–8.5→8.5–9→7–7.5降載→9–10km條件進階，不固定死在星期日。"
     ],
     "phases": [
       {
         "from": 1,
         "to": 4,
         "name": "BASE",
-        "long": "30–50分鐘Easy；以能順暢說話的強度累積有氧",
+        "long": "W01 已完成5.85km；W02 6.5–7km，W03 7–7.5km，W04 6–6.5km降載。Easy先看135–145 bpm觀察帶、可對話RPE2–4；不用死守配速。",
         "quality": "Petra跑課依實際課表；W01/W04控制強度，不強迫5:00/km",
         "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
       },
@@ -20145,7 +20149,7 @@
         "from": 5,
         "to": 8,
         "name": "BUILD",
-        "long": "45–60分鐘Easy，逐步練到6–8km（恢復允許）",
+        "long": "W05 7.5–8km，W06 8–8.5km，W07 8.5–9km，W08 7–7.5km降載；維持輕鬆呼吸，不急著快。",
         "quality": "若沒有Petra品質跑，可選4×800m @5:20–5:35/km、組間慢跑2–3分鐘；目前配速先用RPE6–7核對",
         "milestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
       },
@@ -20153,7 +20157,7 @@
         "from": 9,
         "to": 12,
         "name": "TRANSFER",
-        "long": "50–70分鐘Easy／以8–10km輕鬆跑為里程碑（循序增加）",
+        "long": "W09條件式9–10km Easy，若8–9km未能舒服完成則維持距離；勿在Long Easy中硬跑5:00/km。",
         "quality": "沒有Petra硬跑課時可選3×1000m @5:10–5:20/km，組間2–3分鐘慢跑；未達門檻按當前配速/呼吸調整",
         "milestone": "完成8–10km舒適跑；擇一週做5km受控計時作檢驗，不跟跑站主課硬疊加"
       },
@@ -20180,6 +20184,144 @@
         "long": "比賽週無另排Long Easy",
         "quality": "週五混雙+週六男單，停止額外閾值課",
         "milestone": "賽後恢復1–3週再視狀態測一次獨立10K，50分列為能力目標而非保證"
+      }
+    ],
+    "easyGuide": {
+      "source": "2026-11-16 Garmin FIT分段 + 10/31至11/16近十次5.8–6km跑比較",
+      "hrGuide": "先觀察約135–145 bpm，偶爾145–150不必急停；這不是手錶已驗證的Z2邊界",
+      "paceGuide": "戶外平路先試6:40–7:20/km，心率或呼吸仍高就再放慢，必要時跑走",
+      "protocol": "先10分鐘逐漸暖身；Easy RPE2–4、可講完整句子。連續2–3分鐘明顯超出可對話強度才放慢或走30–60秒，恢復後再跑；優先紀錄呼吸/疲勞及第2–4km心率。",
+      "note": "Garmin可能以最大心率、心率儲備或乳酸閾值設定跑步區間；沒有看見個人心率界線，不能判定141/147究竟是否Zone2。長跑強度比追配速更重要。"
+    },
+    "latestRunReview": {
+      "date": "2026-11-16",
+      "garminActivityId": "25092581863",
+      "distanceKm": 5.8532,
+      "duration": "39:02",
+      "movingDuration": "37:58",
+      "avgHr": 141,
+      "maxHr": 157,
+      "avgPace": "6:40/km (Garmin duration; moving pace 6:29/km)",
+      "aerobicTrainingEffect": 2.6,
+      "splits": [
+        {
+          "km": "1",
+          "distanceM": 1000,
+          "movingPace": "6:57",
+          "avgHr": 127,
+          "maxHr": 140
+        },
+        {
+          "km": "2",
+          "distanceM": 1000,
+          "movingPace": "6:39",
+          "avgHr": 139,
+          "maxHr": 146
+        },
+        {
+          "km": "3",
+          "distanceM": 1000,
+          "movingPace": "6:39",
+          "avgHr": 144,
+          "maxHr": 150
+        },
+        {
+          "km": "4",
+          "distanceM": 1000,
+          "movingPace": "6:38",
+          "avgHr": 147,
+          "maxHr": 154
+        },
+        {
+          "km": "5",
+          "distanceM": 1000,
+          "movingPace": "6:30",
+          "avgHr": 139,
+          "maxHr": 157,
+          "note": "此lap有較長停頓，不適合直接比較心率漂移"
+        },
+        {
+          "km": "5.85",
+          "distanceM": 853.16,
+          "movingPace": "6:37",
+          "avgHr": 150,
+          "maxHr": 156
+        }
+      ],
+      "note": "第二至第四公里接近同配速時HR逐步增加；可用可對話強度進行有氧，但缺少HR區間設定，不能斷言全程屬Z2。"
+    },
+    "nextLongRuns": [
+      {
+        "weekNumber": 1,
+        "week": "W01",
+        "date": "11/15–11/21",
+        "distance": "5.85km 已完成",
+        "duration": "39分鐘",
+        "note": "11/16 已完成本週 Long Easy；不需再補第二次長跑"
+      },
+      {
+        "weekNumber": 2,
+        "week": "W02",
+        "date": "11/22–11/28",
+        "distance": "6.5–7km",
+        "duration": "43–52分鐘",
+        "note": "全程輕鬆說話；若疲勞就維持6km"
+      },
+      {
+        "weekNumber": 3,
+        "week": "W03",
+        "date": "11/29–12/05",
+        "distance": "7–7.5km",
+        "duration": "47–56分鐘",
+        "note": "優先延長時間，不提高速度"
+      },
+      {
+        "weekNumber": 4,
+        "week": "W04",
+        "date": "12/06–12/12",
+        "distance": "6–6.5km",
+        "duration": "40–49分鐘",
+        "note": "降載週，不追跑量"
+      },
+      {
+        "weekNumber": 5,
+        "week": "W05",
+        "date": "12/13–12/19",
+        "distance": "7.5–8km",
+        "duration": "50–60分鐘",
+        "note": "若上週恢復正常再增加"
+      },
+      {
+        "weekNumber": 6,
+        "week": "W06",
+        "date": "12/20–12/26",
+        "distance": "8–8.5km",
+        "duration": "54–64分鐘",
+        "note": "保持可對話強度"
+      },
+      {
+        "weekNumber": 7,
+        "week": "W07",
+        "date": "12/27–01/02",
+        "distance": "8.5–9km",
+        "duration": "57–68分鐘",
+        "note": "身體適應良好才進階"
+      },
+      {
+        "weekNumber": 8,
+        "week": "W08",
+        "date": "01/03–01/09",
+        "distance": "7–7.5km",
+        "duration": "47–57分鐘",
+        "note": "降載週"
+      },
+      {
+        "weekNumber": 9,
+        "week": "W09",
+        "date": "01/10–01/16",
+        "distance": "9–10km",
+        "duration": "60–75分鐘",
+        "note": "只有在8–9km可舒服完成且關節無症狀才進階"
       }
     ]
   }
