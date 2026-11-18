@@ -1,9 +1,16 @@
-# HYROX PERFORMANCE LAB · v1.5.3 (training plan base v1.5.1)
+# HYROX PERFORMANCE LAB · v1.5.5 (training plan base v1.5.1, cardio transfer v1.5.5)
 
-**App data updated:** 2026-11-17 (Garmin and Petra reconciliation + W01 training-review v1.5.3); **strength/station programming:** base v1.5.1. 70 Garmin activities / 218 FIT laps, activity timestamps through 2026-11-16.
+**App data updated:** 2026-11-18 (Petra WOD + Garmin FIT-minute HR analysis and six-week WB/Ski/Row transition v1.5.5); 74 Garmin activities / 36 runs / 150.25 km actual running / 231 FIT laps, 38 audited Petra photos.
 
 **Live Web App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/  
 **Google Sheets central training database:** https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+
+## 2026-11-18 · v1.5.5 Petra WOD and 6-week cardio transfer
+
+- Petra photo IMG_1755.HEIC audited: Nov18 AMRAP30 Ski/HR Push-up/Row/15 Wall Balls/350m run/90s rest, Alvin 3R+45. Three full rounds suggest 45 WB and ~1.05km internal running (photo-based, NOT Garmin run km); +45 is total score units, not 45 more Wall Balls. WB weight unknown.
+- Garmin HIIT 25117883969 30:04 avgHR170, max211 possibly isolated wrist artefact, TE aerobic3.6/anaerobic3.2. Private minute HR shows early ramp, later resting valleys around 141/145/152. WOD after-run 25118351864 5.0583km/30:51 avgHR162, 5km HR153→168. Weekly actual Garmin run 16.7587km from Nov16/17/18, NOT counting WOD internal distance.
+- Week01 Thu hard Petra running and Sat main Station cancelled; avoid extra Long Easy, as hard Wed WOD and run completed. Private Sheet Cardio_Transition_v1_5_5 defines Weeks01–06 controlled Ski→WB→Row moderate transfer replacing original Sat main, only when Wed hard Petra WOD absent; WB reps 18→24→12 deload→24→32 (6kg) included in the main station, not stacked.
+- Garmin GitHub Actions hourly UTC minute23, scheduled short three-day backfill, manual backfill available. Private Garmin_API_HR_Minute contains FIT 60-second HR summaries (no GPS/tracks), and on-demand workflow + minute backfill both succeeded. GitHub schedule may be delayed.
 
 ## 2026-11-17 · v1.5.3 all-data refresh and Petra audit reconciliation
 
