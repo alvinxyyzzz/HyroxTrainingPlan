@@ -111,7 +111,10 @@
         "minute27": 170.8,
         "notes": "minute-level averages not station-tagged; 211 instantaneous peak could be sensor artefact"
       }
-    }
+    },
+    "strengthFitSessions": 11,
+    "strengthFitSetMessages": 190,
+    "strengthFitSource": "Private Google Sheet summary; original Garmin FIT, auto classified—not independently verified"
   },
   "weeklyKm": [
     {
@@ -233,7 +236,7 @@
   ],
   "coach": {
     "headline": "11/18 Petra 3R+45／30min HR170 + 跑5.06km HR162：提高轉換效率，先取消明日硬課",
-    "summary": "11/18 已核實Petra IMG_1755 WOD 3R+45、Garmin HIIT30:04 avgHR170 TE3.6+3.2、後跑5.0583km HRavg162；11/17另跑5.8472km。11/16起3次Garmin跑步合計16.7587km，已達並略超原週12–16目標，WOD場內約1.05km以照片推估分開記。私有FIT minute級HR顯示第一分鐘169、三個低谷141/145/152及高峰180+，反映快速上升與後段累積負荷；max211孤立尖峰可能腕錶雜訊。W01 Thu硬跑與Sat主站取消。W02–W06在原本3分化+Long Easy架構內，改為1次條件式受控Ski→WB→Row漸進循環（不額外加課），易有氧與腿部次極限容量逐步建立。GitHub Garmin Actions hourly UTC xx:23，排程3-day lookback、私有HR分鐘彙總已驗證。",
+    "summary": "11/18 已核實Petra IMG_1755 WOD 3R+45、Garmin HIIT30:04 avgHR170 TE3.6+3.2、後跑5.0583km HRavg162；11/17另跑5.8472km。11/16起3次Garmin跑步合計16.7587km，已達並略超原週12–16目標，WOD場內約1.05km以照片推估分開記。私有FIT minute級HR顯示第一分鐘169、三個低谷141/145/152及高峰180+，反映快速上升與後段累積負荷；max211孤立尖峰可能腕錶雜訊。W01 Thu硬跑與Sat主站取消。W02–W06在原本3分化+Long Easy架構內，改為1次條件式受控Ski→WB→Row漸進循環（不額外加課），易有氧與腿部次極限容量逐步建立。GitHub Garmin Actions hourly UTC xx:23，排程3-day lookback、私有HR分鐘彙總已驗證。 Garmin重訓FIT原始Set訊息現已解析：11/14 20有效組中19個Push首選類別，11/16 16有效組中8個Pull、6個Legs、2未知；使用者親自確認近期Push/Pull已完成。W01週五不再安排Push，優先恢復；版號不因數據更新而改變。",
     "findings": [
       {
         "title": "11/18 衝高心率與可疑211極值",
@@ -248,8 +251,8 @@
         "body": "11/18 AMRAP包含Ski/HR Push-up/Row/WB×15/350m run，個人成績3R+45；3完整輪大致包含45次WB，+45是整體分數單位非45次WB。腿部局部肌耐力、動作節奏、呼吸與疲勞累積都是可能因素；既往膝小腿症狀尚未確認恢復。"
       },
       {
-        "title": "未來6週改為漸進心肺轉換",
-        "body": "W01 Wed硬WOD已完成，Thu休息、Sat不補Station；W02～W06每週只在沒有硬Petra WOD時選Ski200–300m→WallBall6kg 6–8次→Row200–250m Easy的受控循環，週量18→24→12降載→24→32次，完全替代原本Sat站點而非額外加課。週四硬跑視Wed是否有WOD調整。"
+        "title": "當週 Push／Pull 已完成，不要重複堆量",
+        "body": "Garmin FIT原始Set已找出11/14 20有效組主要為Push首選類別、11/16 16組含Pull8+Legs6；使用者也確認近期World Gym推拉都練過。11/18硬Petra+5.06km後，Thu/Fri採恢復、Sat取消Station，不補Push/Pull/硬腿。未來6週受控轉換課維持為原站點主課替代。"
       }
     ],
     "limitation": "Garmin 60s FIT heart rate是私有資料的每分鐘彙總，不包含每站起止標記，不能把心率峰值直接歸給Wall Ball或測準確1min HRR。最高211bpm可能瞬間光學誤差，無胸帶核對；沒有確定HR Zone/LTHR、WOD球重與逐站時間、膝/小腿最新恢復狀態。"
@@ -614,7 +617,9 @@
     "garminNewLaps": 0,
     "petraNewOrModified": 1,
     "garminNewSincePreviousAppSnapshot": 4,
-    "fitLapsNewSincePreviousAppSnapshot": 13
+    "fitLapsNewSincePreviousAppSnapshot": 13,
+    "strengthReconciliation": "11/18 original Garmin FIT strength sets 11 sessions/190 messages processed privately; Nov14 Push provisional 19/20 active, Nov16 Pull8 Legs6 of16 active; user confirmed recent Push+Pull. Auto guesses uncertain.",
+    "strengthRawPrivate": true
   },
   "recentWorkout": {
     "date": "2026-11-18",
@@ -823,7 +828,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-18 · v1.5.5 Petra Nov18 WOD crosscheck, 60s private HR analytics, 6-week controlled cardiovascular transfer adaptation",
+  "planUpdated": "2026-11-18 · Strength FIT sets/data reconciliation; version unchanged at v1.5.5 (no feature release)",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -1711,7 +1716,8 @@
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
           "2026-11-17資料更新：週一Garmin跑步＋力量＋Ski三筆，週二短Easy與額外Ski先暫停，既有17週期化和Long Easy progression不更改。",
-          "11/18 Petra hard WOD Alvin3R+45 + post-WOD 5.0583km HRavg162, same-day high load; minute HR trend and Garmin-based recovery priority, no further run or hard station until next week."
+          "11/18 Petra hard WOD Alvin3R+45 + post-WOD 5.0583km HRavg162, same-day high load; minute HR trend and Garmin-based recovery priority, no further run or hard station until next week.",
+          "11/18 user confirmed recent World Gym Push and Pull had been tracked by watch; Garmin FIT Strength 11/14 provisional Push19 of20 active, Nov16 mixed Pull8+Legs6 of16 active; Fri Push cancelled due WOD recovery, not re-added. No version bump."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -1793,128 +1799,39 @@
             "dayZh": "週一",
             "date": "2026-11-16",
             "kind": "strength",
-            "title": "LEGS｜World Gym 深蹲＋髖伸",
-            "time": "40–55分鐘",
+            "title": "ACTUAL Strength｜Garmin FIT Pull＋Legs 混合",
+            "time": "11/16 36:05 · 已完成",
             "sections": [
               {
-                "name": "LEGS · A Squat / Hinge",
-                "format": "RIR4 · 主項休2–3分鐘",
+                "name": "實際 Garmin 記錄（不是預定動作）",
+                "format": "Private FIT SET messages",
                 "lines": [
-                  "Back Squat 2×5–6 @RIR4",
-                  "Romanian Deadlift 1×6–8 @RIR4",
-                  "記錄實際重量、sets/reps/RIR；Squat與Hinge不要都練到力竭"
-                ]
-              },
-              {
-                "name": "LEGS · B Single Leg / Hamstring",
-                "format": "1 sets · controlled",
-                "lines": [
-                  "Reverse Lunge 或 Step-up 1×6–8/腿（若小腿/膝無痛）",
-                  "Leg Curl 1×8–12",
-                  "Low Step-down 1–2×8/腿；疼痛或腫脹時減少腿量"
-                ]
-              },
-              {
-                "name": "LEGS · C TECHNIQUE Finisher",
-                "format": "0–2 EASY ROUNDS · RPE≤5 · 非Station主課",
-                "lines": [
-                  "選配：Sled Push 10m（技術負重）＋Easy Row 150m，最多2輪",
-                  "這2輪只是腿日收尾，不計入當週Station主課的容量",
-                  "有Petra腿部Strength、高強度WOD或腿痛就不做Finisher"
-                ]
-              },
-              {
-                "name": "Petra Strength / Skill 動態替代",
-                "format": "只能SUN / MON / TUE 其中一天，最多一堂，可不去",
-                "lines": [
-                  "如果週一去Petra Strength，按實際練到的肌群取代World Gym腿日相應組數；別重複練一遍",
-                  "如果是Skill輕技巧，不能假設已完成全部有效力量組數；可降低週量或下週再補",
-                  "不為湊滿訓練天數堆疊額外課"
-                ]
-              },
-              {
-                "name": "週一晨／週末恢復閘門",
-                "format": "依前一日Station + Long Easy恢復決定腿日重量",
-                "lines": [
-                  "若Sat做了站點主課且Sun有Long Easy後仍痠痛，Mon Squat/Hinge主項減1–2組或用RIR4技巧重量",
-                  "若步態改變、提踵疼痛或膝腫脹，取消重腿和高負荷雪橇，評估復健/醫療",
-                  "別因為固定Mon Legs就把兩次高疲勞週末後的腿日練爆"
-                ]
-              },
-              {
-                "name": "腿部肌耐力進階｜不新增重腿日",
-                "format": "Mon LEGS 配件替代 · 疼痛/恢復優先",
-                "lines": [
-                  "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：坐站／Step-up 1–2×6–8/腿（無痛）",
-                  "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
-                  "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                  "11/16 Garmin ID25093285157 有32筆SET記錄，16筆active；依首選類別Pull8、Legs6、Unknown2",
+                  "可作肌群恢復參考，但原始FIT自動辨識不等於確定的訓練動作；11/18 WOD後不補腿部刺激"
                 ]
               }
             ],
-            "subtitle": "Mon主練腿、蹲與髖伸。2輪技巧Finisher≠Station主課；Petra週一Strength可替代"
+            "subtitle": "16個有效組：手錶首選候選Pull8、Legs6、未知2；動作名稱未經使用者逐項核實"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-11-17",
             "kind": "strength",
-            "title": "PULL｜World Gym 背部拉力＋Ski技巧",
-            "time": "40–50分鐘",
+            "title": "11/17 跑步已記錄｜Pull 不重複補課",
+            "time": "11/17 5.85km Run · Pull already done recently",
             "sections": [
               {
-                "name": "PULL · A Vertical / Horizontal",
-                "format": "RIR4 · 休90–180秒",
+                "name": "已完成紀錄與互斥",
+                "format": "No extra Pull prescribed",
                 "lines": [
-                  "Lat Pulldown / Assisted Pull-up 2×6–10 @RIR4",
-                  "Chest-supported Row 2×8–12 @RIR4",
-                  "One-arm DB Row 1×8–10/側"
-                ]
-              },
-              {
-                "name": "PULL · B Upper Back + Biceps",
-                "format": "1 sets · accessory",
-                "lines": [
-                  "Face Pull 1×12–15",
-                  "DB Curl 1×10–12",
-                  "這天不排重深蹲或重硬舉，避免和週三WOD/週四跑課衝突"
-                ]
-              },
-              {
-                "name": "PULL · C Easy Ski Technique",
-                "format": "6–12分鐘 · RPE3–4 · 非主Station",
-                "lines": [
-                  "11/16 已有約11分鐘XC Ski有氧，今天不重複安排Ski技巧；可選徒手Mobility 10–15分鐘或直接省略",
-                  "如決定練Pull，只做主肌群RIR4，不追額外心肺強度"
-                ]
-              },
-              {
-                "name": "Petra Strength / Skill 動態替代",
-                "format": "SUN/MON/TUE 最多一堂，可不去",
-                "lines": [
-                  "如果週二去Petra Strength/Pull，替代World Gym Pull對應部位組數",
-                  "如果只上了輕Skill，記錄技巧但不當作全部背部有效力量組數"
-                ]
-              },
-              {
-                "name": "可選 Tue AM 短Easy跑",
-                "format": "RUN PRIORITY · 獨立跑步，不是Pull課加班",
-                "lines": [
-                  "11/16早上Long Easy 5.85km＋中午力量和Ski均有記錄，11/17不額外安排第三短Easy",
-                  "若本週晚些時候有完整恢復，可選15–20分鐘Easy；無需為了跑量或打卡硬補",
-                  "週三有硬WOD、關節不舒服或疲勞時直接取消，Garmin僅記真實跑步公里"
-                ]
-              },
-              {
-                "name": "穩定心肺底盤｜Easy有氧替代",
-                "format": "與Tue AM Easy Run擇一或省略",
-                "lines": [
-                  "本週11/17先休息或Pull RIR4，暫不另加Row/Ski有氧；週一已有有氧與Ski",
-                  "之後恢復良好才選一堂20–30分鐘Easy，RPE2–4、可完整對話",
-                  "低衝擊替代是用來取代跑步，不是另外疊加第三堂高強度"
+                  "11/17 Garmin跑5.8472km HR144（不算World Gym Pull）",
+                  "11/16 World Gym Strength的Garmin FIT含Pull8+Legs6候選；使用者表示近期Pull確實練過",
+                  "本週不補Pull和Ski間歇，11/18 WOD後重視恢復"
                 ]
               }
             ],
-            "subtitle": "11/16已有長Easy＋力量＋Ski；週二以低疲勞Pull或休息為主，不補額外跑步或Ski",
+            "subtitle": "近期Pull已由使用者確認完成；11/17 Garmin另有5.85km跑",
             "stationTargetRPE": 4,
             "stationRole": "technique"
           },
@@ -1960,20 +1877,21 @@
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-20",
-            "kind": "strength",
-            "title": "PUSH／恢復二選一",
-            "time": "上肢30–40分鐘 · RIR4",
+            "kind": "rest",
+            "title": "REST｜Push/Pull 已練，本週不補上肢主課",
+            "time": "Rest or painless Mobility 10–20min",
             "sections": [
               {
-                "name": "Nov 18 Garmin + Petra 實測後修正",
-                "format": "v1.5.5 實際訓練／恢復優先",
+                "name": "訓練負荷去重",
+                "format": "已練就不硬補",
                 "lines": [
-                  "膝小腿仍痠／全身疲勞高則休息；恢復好才做上肢Push 2組主項RIR4",
-                  "禁止再加Wall Ball／Sled／跳躍finisher"
+                  "11/14 Garmin Strength：20有效組，手錶辨識19組Push首選類別（臥推／側平舉類；具不確定性）",
+                  "11/16 Strength：16有效組包含Pull8、Legs6，使用者確認近期推拉已做過",
+                  "11/18 Petra WOD30分鐘＋跑5.06km後，11/20休息或無痛Mobility；不安排Push/Pull/Wall Ball/Sled"
                 ]
               }
             ],
-            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課",
+            "subtitle": "近期11/14 Garmin Strength主要Push候選且使用者確認近期Push/Pull已完成；11/18大負荷後週五選恢復",
             "wodRunKm": 0,
             "stationTags": [
               "SkiErg",
@@ -2158,7 +2076,7 @@
           "wodType": "TECHNIQUE_ONLY",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "MON LEGS / TUE PULL / FRI PUSH",
+          "strengthAnchor": "W01 actual 11/14 Push (previous weekend) + 11/16 Pull/Legs mixed per FIT, Thurs/Fri recover following Wed WOD",
           "stationIntensity": {
             "tuesdayRPE": 0,
             "fridayRPE": 0,
@@ -20529,5 +20447,40 @@
         "gate": "No next-day symptoms; consider WB10/round next block only if ready"
       }
     ]
+  },
+  "strengthTracking": {
+    "updated": "2026-11-18",
+    "source": "Garmin Personal API original FIT strength SET messages→private Sheets",
+    "userConfirmed": "Recent Push and Pull have both been completed at World Gym; dates of movements mapped provisionally by FIT",
+    "latestSessions": [
+      {
+        "date": "2026-11-14",
+        "garminActivityId": "25073657838",
+        "elapsed": "30:43",
+        "totalFitMessages": 40,
+        "activeFitSets": 20,
+        "autoCategoryPush": 19,
+        "autoUnknown": 1,
+        "classification": "PUSH (watch interpreted)",
+        "userVerification": "User confirmed recent Push, exact exercises unverified"
+      },
+      {
+        "date": "2026-11-16",
+        "garminActivityId": "25093285157",
+        "elapsed": "36:05",
+        "totalFitMessages": 32,
+        "activeFitSets": 16,
+        "autoCategoryPull": 8,
+        "autoCategoryLegs": 6,
+        "autoUnknown": 2,
+        "classification": "MIXED Pull + Legs (watch interpreted)",
+        "userVerification": "User confirmed recent Pull, exact exercises unverified"
+      }
+    ],
+    "totalProcessedSessions": 11,
+    "totalProcessedSetMessages": 190,
+    "dataStorage": "Private Google Sheet Garmin_API_Strength_Sets & Garmin_API_Strength_Sessions only (no raw FIT public)",
+    "parsingLimit": "Original FIT categories are watch first-ranked motion guesses; categories may be wrong and edits in Garmin Connect may not be included. Weight/reps are watch records, not necessarily verified real loads. Prioritize user confirmation.",
+    "currentDecision": "W01 Push and Pull completed; 11/18 hard Petra WOD and 5km post-run; Fri Nov20 rest/mobility, do not stack an extra Push or Pull."
   }
 }
