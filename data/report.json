@@ -1,8 +1,8 @@
 {
-  "version": "1.5.4",
-  "updated": "2026-11-17",
-  "dataThrough": "2026-11-16",
-  "lastSync": "2026-11-17 05:20 Asia/Taipei · Garmin Personal API private GitHub Actions success (70 checked, +0 new) · 11/17 machine monitor photo crosschecked (no new Garmin activity)",
+  "version": "1.5.5",
+  "updated": "2026-11-18",
+  "dataThrough": "2026-11-18",
+  "lastSync": "2026-11-18 20:22 Asia/Taipei · Garmin private sync success (74 activities, +0 on minute-HR backfill; 3 added at 20:15)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,18 +13,18 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 70,
-    "runs": 34,
-    "totalKm": 139.34,
-    "recentWeekKm": 5.85,
-    "petraPhotos": 37,
-    "petraIndividualNote": "37張已索引Petra白板照片，含團隊、無個人成績與歷史重複照片；照片數不等於Alvin實際出席次數。",
+    "activities": 74,
+    "runs": 36,
+    "totalKm": 150.25,
+    "recentWeekKm": 16.76,
+    "petraPhotos": 38,
+    "petraIndividualNote": "38張已索引白板照片，不等於38次出席。最新11/18 Alvin 3R+45為個人成績，團隊分數仍分開。",
     "row1500": "6:20.5",
     "row1500Photo": "6:18",
     "rowAvgHr": 175,
-    "lastEasyDistance": 5.85,
-    "lastEasyHr": 141,
-    "lastEasyPace": "6:40",
+    "lastEasyDistance": 5.8472,
+    "lastEasyHr": 144,
+    "lastEasyPace": "6:28 (2026-11-17, talk test unverified)",
     "easyPrior": {
       "date": "11/07",
       "distance": 5.93,
@@ -36,10 +36,10 @@
     "intervalOlderAvgSeconds": 120,
     "latestWeekStart": "2026-11-16",
     "latestWeekPartial": true,
-    "lastRunDate": "2026-11-16",
-    "lastRunDistance": 5.8532,
-    "lastRunPace": "6:40/km Garmin duration (39:02/5.85km); 6:29/km moving",
-    "lastRunHr": 141,
+    "lastRunDate": "2026-11-18",
+    "lastRunDistance": 5.0583,
+    "lastRunPace": "6:06/km elapsed; run after 30-min Petra WOD, NOT Easy",
+    "lastRunHr": 162,
     "interval600AvgSeconds": 166.5,
     "interval400AvgHR": 168,
     "interval600AvgHR": 174,
@@ -66,6 +66,50 @@
         "averageSpm": 31.2,
         "drag": 60,
         "normalized2kImprovementSeconds": 22.6
+      }
+    },
+    "latestWod": {
+      "date": "2026-11-18",
+      "photo": "IMG_1755.HEIC",
+      "score": "3R+45",
+      "duration": "30:04",
+      "garminId": "25117883969",
+      "avgHr": 170,
+      "maxHr": 211,
+      "peakStatus": "isolated, optical sensor artefact possible; NOT verified HRmax",
+      "aerobicTE": 3.6,
+      "anaerobicTE": 3.2,
+      "stationRunEstimatedKm": 1.05,
+      "stationRunSource": "photo: 3 completed rounds ×350m, not Garmin measured running",
+      "wallBallMinimumReps": 45,
+      "wallBallLoadKg": null,
+      "followupRun": {
+        "activityId": "25118351864",
+        "distanceKm": 5.0583,
+        "time": "30:51",
+        "avgHr": 162,
+        "maxHr": 173,
+        "pace": "6:06/km",
+        "perKmAvgHr": [
+          153,
+          162,
+          164,
+          165,
+          168
+        ]
+      },
+      "privateHrMinuteEvidence": {
+        "firstMinute": 134.2,
+        "minute1": 169.1,
+        "minute3": 178.5,
+        "minute7": 140.9,
+        "minute16": 144.9,
+        "minute25": 151.9,
+        "minute21": 181.9,
+        "minute22": 181.7,
+        "minute26": 191.2,
+        "minute27": 170.8,
+        "notes": "minute-level averages not station-tagged; 211 instantaneous peak could be sensor artefact"
       }
     }
   },
@@ -100,8 +144,9 @@
     },
     {
       "w": "11/16",
-      "km": 5.85,
-      "partial": true
+      "km": 16.76,
+      "partial": true,
+      "note": "11/16 5.8532+11/17 5.8472+11/18 5.0583km Garmin runs; WOD indoor 350m×3 photo estimate separate"
     }
   ],
   "intervals": [
@@ -144,6 +189,12 @@
   ],
   "petra": [
     {
+      "date": "11/18",
+      "name": "Petra AMRAP30 · Ski/Row/HR push-up/Wall Ball/350m run",
+      "score": "3R+45 · 17:30 Alvin",
+      "detail": "Original IMG_1755.HEIC verified. WOD 15 WB per round, 3 completed rounds ~45 WB, +45 score units not extra WB. Garmin HIIT30:04 avgHR170/max211 isolated possibly artefact, aerobicTE3.6/anaerobicTE3.2. Afterwards 5.0583km run avgHR162. Individual score verified; WB ball weight unverified."
+    },
+    {
       "date": "11/12",
       "name": "Interval + 100 Air Squats + cooldown",
       "score": "5×~400m + 4×~600m (FIT work laps)",
@@ -181,27 +232,27 @@
     }
   ],
   "coach": {
-    "headline": "最新 SkiErg 2km 10:39；相較11/15標準化進步約23秒，注意划頻上升",
-    "summary": "11/17收到 CENTR SkiErg 照片：2004m/10:39/94W/384 strokes/drag62，計算2:39.4/500m；螢幕2:44/500m不是依全程距離時間算出的平均配速。相較11/15 2011m/11:04/92W/345 strokes/drag60，等距2km大約快23秒，划頻由約31.2升至36.1 spm。照片未標日期，時間上與11/16 Garmin XC Ski 10:44相近，暫以同堂可能對應，不新增Garmin活動或重複計數。維持W01恢復優先，之後以穩定功率/划頻與技巧優先。",
+    "headline": "11/18 Petra 3R+45／30min HR170 + 跑5.06km HR162：提高轉換效率，先取消明日硬課",
+    "summary": "11/18 已核實Petra IMG_1755 WOD 3R+45、Garmin HIIT30:04 avgHR170 TE3.6+3.2、後跑5.0583km HRavg162；11/17另跑5.8472km。11/16起3次Garmin跑步合計16.7587km，已達並略超原週12–16目標，WOD場內約1.05km以照片推估分開記。私有FIT minute級HR顯示第一分鐘169、三個低谷141/145/152及高峰180+，反映快速上升與後段累積負荷；max211孤立尖峰可能腕錶雜訊。W01 Thu硬跑與Sat主站取消。W02–W06在原本3分化+Long Easy架構內，改為1次條件式受控Ski→WB→Row漸進循環（不額外加課），易有氧與腿部次極限容量逐步建立。GitHub Garmin Actions hourly UTC xx:23，排程3-day lookback、私有HR分鐘彙總已驗證。",
     "findings": [
       {
-        "title": "SkiErg 最新 2km 表現",
-        "body": "CENTR photo IMG_1736：2004m / 10:39，計算全程配速2:39.4/500m、平均94W、384 strokes、Drag62。機器畫面顯示2:44/500m，與計算平均分開記錄。"
+        "title": "11/18 衝高心率與可疑211極值",
+        "body": "Petra WOD Garmin avg170/max211；私有每分鐘HR在第1分鐘169、第3分鐘179，三個下降低谷約141/145/152，後段負荷提高。第26分鐘單分鐘HR極值211、下一分鐘平均約171，可能腕式心率雜訊；需更多證據及症狀確認，非個人最大心率門檻。"
       },
       {
-        "title": "對比上次 11/15 Ski",
-        "body": "11/15為2011m / 11:04 / 92W / 345 strokes / Drag60。等距2km約快23秒，384/639秒≈36.1 spm（前次345/664秒≈31.2spm）。進步主要伴隨划頻提升，未能證明單次划動效率進步；可練穩定節奏與每次動作輸出。"
+        "title": "WOD後5km不算恢復跑",
+        "body": "11/18 WOD後實跑5.0583km/30:51/均心162，公里HR 153→162→164→165→168，後段速度也加快。加上11/16 5.85km與11/17 5.85km，本週已跑16.7587km，另有白板推估WOD內~1.05km，後者不混入Garmin跑量。"
       },
       {
-        "title": "Garmin 與照片去重",
-        "body": "照片無日期，但10:39與11/16 Garmin XC Ski Indoor 10:44.1、均心165/最高178相近；視為可能同一堂，不新增第71筆活動。累積仍70個Garmin activity、218 FIT laps。"
+        "title": "Wall Ball先無力不等於單純心肺差",
+        "body": "11/18 AMRAP包含Ski/HR Push-up/Row/WB×15/350m run，個人成績3R+45；3完整輪大致包含45次WB，+45是整體分數單位非45次WB。腿部局部肌耐力、動作節奏、呼吸與疲勞累積都是可能因素；既往膝小腿症狀尚未確認恢復。"
       },
       {
-        "title": "當週訓練安排不增加硬課",
-        "body": "11/16已有晨跑5.85km、力量及心率較高的Ski；週二不要補Ski間歇，保留上肢或休息。以次日恢復決定週四Petra品質跑強度。"
+        "title": "未來6週改為漸進心肺轉換",
+        "body": "W01 Wed硬WOD已完成，Thu休息、Sat不補Station；W02～W06每週只在沒有硬Petra WOD時選Ski200–300m→WallBall6kg 6–8次→Row200–250m Easy的受控循環，週量18→24→12降載→24→32次，完全替代原本Sat站點而非額外加課。週四硬跑視Wed是否有WOD調整。"
       }
     ],
-    "limitation": "CENTR照片未顯示日期、Garmin+機器數據僅依持續時間推定同堂，未獲使用者明示確認；Garmin跑步心率區間尚未核實，無Ski每段分段功率、技術動作影像或主觀RPE。等距配速改善不等於因果性的心肺或技術效率進步。"
+    "limitation": "Garmin 60s FIT heart rate是私有資料的每分鐘彙總，不包含每站起止標記，不能把心率峰值直接歸給Wall Ball或測準確1min HRR。最高211bpm可能瞬間光學誤差，無胸帶核對；沒有確定HR Zone/LTHR、WOD球重與逐站時間、膝/小腿最新恢復狀態。"
   },
   "weeks": [
     {
@@ -528,81 +579,82 @@
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
-  "lastReview": "2026-11-17",
+  "lastReview": "2026-11-18",
   "reviewStatus": {
     "verified": true,
-    "garminAsOf": "2026-11-16",
-    "petraPhotoAsOf": "2026-11-13 (last uploaded, Nov 10 session)",
-    "garminActivities": 70,
-    "fitLaps": 218,
+    "garminAsOf": "2026-11-18",
+    "petraPhotoAsOf": "2026-11-18 20:05 Asia/Taipei (IMG_1755.HEIC)",
+    "garminActivities": 74,
+    "fitLaps": 231,
     "garminSyncStatus": "ok",
-    "manualReview": "2026-11-17",
+    "manualReview": "2026-11-18",
     "nextWeekStart": "2026-11-09",
     "method": "Garmin activity_id de-dup; multi-part interval workout one session, photo file id+modifiedTime registry; team score never individual score",
-    "garminLastSyncUtc": "2026-11-16T21:20:55+00:00",
+    "garminLastSyncUtc": "2026-11-18T12:22:23+00:00",
     "garminNewActivities": 0,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "Nov 16 Garmin XC Ski Indoor 10:44.1/HR165 max178 ID25093330515 likely matches undated CENTR photo 2004m/10:39/94W/384strokes/drag62. Photo date unverified; no duplicate activity added.",
-    "petraRegistryIndexed": 37,
+    "latestActivityCrossCheck": "11/18 Petra photo IMG_1755 3R+45 -> Garmin HIIT 25117883969 30:04 avgHR170/peak211; immediately after Garmin run 25118351864 5.0583km/30:51 HR162; prior road cycling 25117468740 3.11km recorded separately; 11/17 run 25102516810 5.8472km.",
+    "petraRegistryIndexed": 38,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
     "petraIncrementalMode": true,
-    "garminActivitiesObserved": 70,
-    "garminObservedAt": "2026-11-17 05:21 Asia/Taipei",
-    "detailReanalysis": "CENTR photo IMG_1736.jpeg SkiErg 2004m/10:39, 2:39.4/500m calculated, 2:44/500m screen pace displayed, 94 W, 384 strokes, Drag62; likely Garmin Nov16 Ski 10:44 ID25093330515, but photo has no date. Compared 11/15 Ski 2011m/11:04/92W/345strokes/drag60, normalized 2km improvement ~23s, stroke-rate rose 31.2→36.1/min. Existing 70 Garmin activities unchanged.",
-    "rawGarminActivityCountAsOf": "2026-11-17",
-    "detailedPerformanceSnapshotAsOf": "2026-11-17 verified 70 Garmin activities and 218 FIT laps (activity timestamps through 2026-11-16)",
-    "performanceNote": "CENTR photo is independent machine evidence for Ski distance and watts; Garmin ski distance was 0 and must not be read as measured meters. Both are tentatively linked to the same 11/16 session, not separate workouts.",
-    "lastIntervalAnalysis": "11/12 remains last verified high-intensity running intervals; 11/16 has one Ski cardio activity with elevated measured heart rate, not a separate interval run.",
-    "workoutSubjectiveUpdate": "2026-11-15",
-    "recoveryDataStatus": "Previous calf/knee symptom resolution unconfirmed; do not infer ongoing pain or full recovery.",
+    "garminActivitiesObserved": 74,
+    "garminObservedAt": "2026-11-18 20:22 Asia/Taipei",
+    "detailReanalysis": "Private Garmin_API_HR_Minute tab: WOD minute 1=169, 3=178.5, 7=140.9, 16=144.9, 21=181.9, 22=181.7, 25=151.9, 26=191.2 (peak211), 27=170.8; valleys likely rests, not station-tagged. Post-run 5km FIT hr153/162/164/165/168, elapsed ~6:06/km.",
+    "rawGarminActivityCountAsOf": "2026-11-18",
+    "detailedPerformanceSnapshotAsOf": "2026-11-18 Garmin 74 activities/231 laps and private minute-level FIT HR; Petra 38 photos",
+    "performanceNote": "Max211 is isolated questionable wrist reading, not automatic HRmax. The entire Nov18 WOD and subsequent 5km run constitute a heavy same-day training stimulus; no future hard sessions in W01.",
+    "lastIntervalAnalysis": "11/18 Petra hard HIIT WOD is this week's dominant hard station; 11/19 Thu hard running intervals CANCELLED, 11/21 Sat hard station CANCELLED.",
+    "workoutSubjectiveUpdate": "2026-11-18",
+    "recoveryDataStatus": "User reports sudden HR rise and early WB lower-body fatigue on 11/18. Previous knee/calf soreness resolution still unknown. Low-impact or rest if symptoms; clinical assessment for concerning heart symptoms.",
     "calfSymptomsRecorded": true,
-    "garminLastConfirmedActivities": 70,
-    "petraIndexed": 37,
+    "garminLastConfirmedActivities": 74,
+    "petraIndexed": 38,
     "garminNewLaps": 0,
-    "petraNewOrModified": 0,
-    "garminNewSincePreviousAppSnapshot": 2,
-    "fitLapsNewSincePreviousAppSnapshot": 2
+    "petraNewOrModified": 1,
+    "garminNewSincePreviousAppSnapshot": 4,
+    "fitLapsNewSincePreviousAppSnapshot": 13
   },
   "recentWorkout": {
-    "date": "2026-11-16",
-    "venue": "Garmin tracked; location and specific gym attendance unverified",
-    "session": "Morning Easy Running + Midday Strength/XC Ski Indoor",
-    "source": "Garmin Personal API sync, 2026-11-17 verified",
-    "status": "3 GARMIN ACTIVITY RECORDS, 1 CALENDAR DAY; 2 MIDDAY SEGMENTS; NO PETRA ATTRIBUTION",
+    "date": "2026-11-18",
+    "venue": "Petra Training + Daan Forest Park",
+    "session": "AMRAP30 HYROX-style WOD + post-WOD 5.06km fatigue run",
+    "source": "IMG_1755.HEIC Drive + Garmin Personal API / FIT activity summaries + private 60s HR",
+    "status": "PHOTO_VERIFIED_INDIVIDUAL_SCORE + GARMIN_HIIT_AND_RUN_VERIFIED",
     "movements": [
-      "Outdoor easy run 5.8532km",
-      "Strength Training 36:04 elapsed (actual exercises unknown)",
-      "Indoor Cross Country Skiing 10:44 elapsed (SkiErg distance unknown)"
+      "SkiErg 300/250m",
+      "Hand-release Push-up 15",
+      "RowErg 300/250m",
+      "Wall Ball 15/round (load unknown)",
+      "Run 350m/round",
+      "Rest 90 sec",
+      "Post WOD Daan 5.0583km running"
     ],
     "garmin": {
-      "runId": "25092581863",
-      "runKm": 5.8532,
-      "runAvgHr": 141,
-      "strengthId": "25093285157",
-      "strengthSeconds": 2164.585,
-      "strengthAvgHr": 102,
-      "skiId": "25093330515",
-      "skiSeconds": 644.125,
-      "skiAvgHr": 165,
-      "skiMaxHr": 178,
-      "skiMeasuredDistanceM": null,
-      "skiMachineEvidence": {
-        "distanceM": 2004,
-        "seconds": 639,
-        "calculatedPace500": "2:39.4",
-        "displayedPace500": "2:44",
-        "avgWatt": 94,
-        "strokes": 384,
-        "drag": 62,
-        "source": "user-supplied CENTR IMG_1736.jpeg",
-        "match": "PROBABLE SAME SESSION, date not shown"
-      }
+      "wodActivityId": "25117883969",
+      "wodDurationSeconds": 1803.704,
+      "wodAvgHr": 170,
+      "wodPeakHr": 211,
+      "wodPeakStatus": "isolation; verify before treating as real",
+      "wodAerobicTE": 3.6,
+      "wodAnaerobicTE": 3.2,
+      "postRunActivityId": "25118351864",
+      "postRunDistanceKm": 5.0583,
+      "postRunDurationSeconds": 1851.214,
+      "postRunAvgHr": 162,
+      "postRunMaxHr": 173,
+      "postRunKmHr": [
+        153,
+        162,
+        164,
+        165,
+        168
+      ]
     },
-    "note": "Undated photo IMG_1736.jpeg likely corresponds to 11/16 Garmin XC Ski 10:44; machine 2004m/10:39, 94W, 384 strokes, drag62. Do not double count or invent a separate session. Photo 2:44/500 differs from calculated full average 2:39.4/500.",
-    "interpretation": "A day with distinct easy-run, resistance and higher HR ski/cardio exposure; no new athlete recovery RPE or symptom update, so next sessions conditional.",
-    "nextSteps": "Tue Nov17 optional Easy/Ski omitted, easy Pull RIR4 or rest; Wed mobility/recovery; Thu Petra technique/easy conditional. Do not stack additional hard stations."
+    "note": "Alvin 3R+45 WOD, +45 total score units NOT extra 45 WB. Full rounds imply 45 WB and ~1.05km WOD running photo-estimated. Park 5km separate Garmin run, WOD internal run not double counted.",
+    "interpretation": "Likely combination of fast intensity ramp, peripheral leg fatigue and recent cumulative load; specific station HR attribution not supported by minute-only FIT data.",
+    "nextSteps": "Nov19 rest or easy technique, no hard interval; Sat hard Station off. Follow 6-week controlled Ski→WB→Row and easy aerobic plan."
   },
   "equipmentWorldGym": {
     "confirmedAt": "2026-11-07",
@@ -621,13 +673,13 @@
   "photoProcessing": {
     "mode": "Only newly added / modified Petra photos (by Drive file ID + modifiedTime)",
     "historicalRecordsReused": true,
-    "indexed": 37,
+    "indexed": 38,
     "pending": 0,
     "source": "Petra_Photo_Audit_v5 + Petra_Photo_Registry",
-    "asOf": "2026-11-17 05:21 Asia/Taipei",
-    "newAnalyzed": 0,
-    "latest": "IMG_1702.HEIC (Petra class 2026-11-10; uploaded 2026-11-13)",
-    "latestStatus": "Drive folder 37 photos matched registry 37; no new or modified photo since 11/13; 13 stale historical Petra_Whiteboard pending rows reconciled from audited records, no re-analysis/no duplicate attendance."
+    "asOf": "2026-11-18",
+    "newAnalyzed": 1,
+    "latest": "IMG_1755.HEIC",
+    "latestStatus": "Drive photo 2026-11-18 18:32 EXIF, uploaded 20:05; WOD AMRAP30 Alvin3R+45 photo inspected, Garmin HIIT matched by activity/time."
   },
   "flexiblePlan": {
     "version": "v1.5.1",
@@ -771,7 +823,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-17 · v1.5.4 evidence-based SkiErg photo update; W01 recovery schedule unchanged",
+  "planUpdated": "2026-11-18 · v1.5.5 Petra Nov18 WOD crosscheck, 60s private HR analytics, 6-week controlled cardiovascular transfer adaptation",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -1267,7 +1319,7 @@
         "end": "2026-11-21",
         "blockId": "foundation",
         "tag": "BASELINE",
-        "focus": "Push 起步後：拉力平衡與基礎建立",
+        "focus": "Nov18高強度Petra WOD 3R+45＋5.06km後跑已完成；Thu硬跑取消，Sat主Station取消，先恢復心肺與腿部",
         "why": "基礎動作品質；避免硬舉或雪橇衝刺；Station進展照每週原有WOD與有氧課進行。",
         "load": "recover",
         "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
@@ -1658,7 +1710,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "2026-11-17資料更新：週一Garmin跑步＋力量＋Ski三筆，週二短Easy與額外Ski先暫停，既有17週期化和Long Easy progression不更改。"
+          "2026-11-17資料更新：週一Garmin跑步＋力量＋Ski三筆，週二短Easy與額外Ski先暫停，既有17週期化和Long Easy progression不更改。",
+          "11/18 Petra hard WOD Alvin3R+45 + post-WOD 5.0583km HRavg162, same-day high load; minute HR trend and Garmin-based recovery priority, no further run or hard station until next week."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -1720,32 +1773,20 @@
             "day": "sun",
             "dayZh": "週日",
             "date": "2026-11-15",
-            "kind": "run",
-            "title": "LONG EASY｜戶外跑／Petra Strength·Skill選配",
-            "time": "30–40分鐘 Easy",
+            "kind": "rest",
+            "title": "REST／無痛低強度活動",
+            "time": "不補Long Easy",
             "sections": [
               {
-                "name": "Long Easy / Aerobic Base",
-                "format": "RPE3–4 · 依週六疲勞彈性",
+                "name": "Nov 18 Garmin + Petra 實測後修正",
+                "format": "v1.5.5 實際訓練／恢復優先",
                 "lines": [
-                  "戶外Easy Run 30–40分鐘，能講完整句子",
-                  "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
-                  "Ski/Row距離不能計入實際跑量",
-                  "如果前一天Station主課後腿部反應不佳，Sun Easy/Long縮短至20–30分鐘或改休息，不能為湊跑量硬跑",
-                  "心肺底盤以能談話的Easy Run為主，逐週比較同等配速/路線下的RPE與呼吸恢復，不強求固定bpm"
-                ]
-              },
-              {
-                "name": "Petra Strength / Skill",
-                "format": "SUN、MON、TUE其中一天可選，最多一堂",
-                "lines": [
-                  "週日若去Petra Strength或Skill，根據實際肌群與RPE替代相似World Gym訓練；Long Easy可移日或取消",
-                  "若週一或週二去Petra，週日就不再加第二堂Petra Strength/Skill",
-                  "完全沒有去Petra Strength/Skill也是正常執行方案，不必補課"
+                  "本週Garmin三次實跑共16.7587km，已高於原先12–16km週量上限",
+                  "若有膝小腿疼痛／腫脹／異常疲勞，先恢復並評估"
                 ]
               }
             ],
-            "subtitle": "Sunday Long Easy，或至多一堂Sun/Mon/Tue的Petra Strength/Skill作替代，不需要兩者都做"
+            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課"
           },
           {
             "day": "mon",
@@ -1881,98 +1922,58 @@
             "day": "wed",
             "dayZh": "週三",
             "date": "2026-11-18",
-            "kind": "rest",
-            "title": "REST｜週三恢復／Mobility",
-            "time": "休息或Easy 15–25分鐘",
+            "kind": "station",
+            "title": "ACTUAL PETRA WOD｜3R+45 + 後續5.06km實跑",
+            "time": "30:04 WOD + 30:51 run · 已完成",
             "sections": [
               {
-                "name": "恢復／跑課前準備",
-                "format": "RPE≤3",
+                "name": "Nov 18 Garmin + Petra 實測後修正",
+                "format": "v1.5.5 實際訓練／恢復優先",
                 "lines": [
-                  "可休息、散步、Mobility或Easy Ski/Row 15–25分鐘",
-                  "週三不排World Gym高強度；若臨時參加Petra硬WOD，週四需降強度"
+                  "11/18 白板AMRAP30 Ski/Row/WB15/350m跑，Alvin3R+45；Garmin HIIT平均HR170／最大211待核對",
+                  "WOD後 5.0583km跑步 HRavg162，不是恢復跑；本週硬WOD視為完成Station主課"
                 ]
               }
             ],
-            "subtitle": "本週未預排Petra WOD；保留Thu Interval品質"
+            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-19",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "rest",
+            "title": "REST｜取消11/19 Petra硬Interval",
+            "time": "完全休息優先",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "Nov 18 Garmin + Petra 實測後修正",
+                "format": "v1.5.5 實際訓練／恢復優先",
                 "lines": [
-                  "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                  "疼痛或步態異常不硬跑，記錄隔天反應",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "11/18已有30分鐘硬WOD+5.06km後跑，11/19不做高速間歇",
+                  "症狀完全正常才可選輕活動/技巧RPE2–3 15–20min，非補跑量"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-20",
             "kind": "strength",
-            "title": "PUSH｜World Gym 臥推＋肩（三大力量日）",
-            "time": "40–50分鐘",
+            "title": "PUSH／恢復二選一",
+            "time": "上肢30–40分鐘 · RIR4",
             "sections": [
               {
-                "name": "PUSH · A Bench / Chest",
-                "format": "RIR4 · 主項休2–3分鐘 · Thu後若疲勞保留RIR3–4",
+                "name": "Nov 18 Garmin + Petra 實測後修正",
+                "format": "v1.5.5 實際訓練／恢復優先",
                 "lines": [
-                  "Bench Press 2×5–8 @RIR4",
-                  "Incline DB Press 1×8–10 @RIR4"
-                ]
-              },
-              {
-                "name": "PUSH · B Shoulder / Triceps",
-                "format": "1 sets · controlled",
-                "lines": [
-                  "Seated DB Shoulder Press 1×8–10",
-                  "Lateral Raise 1×12–15",
-                  "Cable Triceps Pressdown 1×10–12"
-                ]
-              },
-              {
-                "name": "弱項技術微課（選配，非Station主課）",
-                "format": "0–5分鐘 · 恢復或省略",
-                "lines": [
-                  "BBJ：不安排跳躍；僅動作檢查",
-                  "Sandbag Lunge：無痛徒手Reverse Lunge 2×6/側",
-                  "Wall Ball：6kg × 2×8技巧（症狀穩定才做）",
-                  "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
-                ]
-              },
-              {
-                "name": "週五 WFH 與 Petra 替代",
-                "format": "Fri World Gym 高機率出席",
-                "lines": [
-                  "週五主要是Push力量主課，不再預設成恢復日",
-                  "如果Sun/Mon/Tue的Petra Strength練了同肌群Push，週五減少相同組數，避免硬堆",
-                  "週四已跑Petra，不要週五順便加一堂硬Station"
-                ]
-              },
-              {
-                "name": "Wall Ball呼吸＋有效次數（擇一微課）",
-                "format": "本週恢復模式：可略過",
-                "lines": [
-                  "Wall Ball 6kg 以 0–2×5–8 次（輕技巧/可不做） 為呼吸與動作練習參考；如果當週Sat/Petra已有Wall Ball，全部共用 w.weakStationSkill.wallBall 週上限，絕不追加完整第二份",
-                  "緩慢吸氣下蹲、上拋時呼氣；若前6–10次就很喘，提早短暫停球，休息90–120秒或到可以說完整句子；不追心率數字",
-                  "只在小腿/膝沒有不適時加入；如周六主站或週三Petra已做同類WB，本堂減量/取消",
-                  "若練習心率過快到伴胸痛、暈眩、異常喘不過氣或不規律心悸，應停止並尋求醫療評估"
+                  "膝小腿仍痠／全身疲勞高則休息；恢復好才做上肢Push 2組主項RIR4",
+                  "禁止再加Wall Ball／Sled／跳躍finisher"
                 ]
               }
             ],
-            "subtitle": "WFH WorldGym PUSH主課，Tue/Thu跑課疲勞時可減量；弱項技術每週選一項低量練，不強迫全部加課",
+            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課",
             "wodRunKm": 0,
             "stationTags": [
               "SkiErg",
@@ -1985,21 +1986,20 @@
             "day": "sat",
             "dayZh": "週六",
             "date": "2026-11-21",
-            "kind": "station",
-            "title": "STATION TECHNIQUE｜RECOVERY EASY ERG",
-            "time": "15–25分鐘 · RPE3",
+            "kind": "rest",
+            "title": "REST｜本週主要Station已由Petra WOD取代",
+            "time": "休息／Mobility",
             "sections": [
               {
-                "name": "恢復／減量的技巧課（不是Station主課）",
-                "format": "0–2 EASY ROUNDS",
+                "name": "Nov 18 Garmin + Petra 實測後修正",
+                "format": "v1.5.5 實際訓練／恢復優先",
                 "lines": [
-                  "SkiErg 10–12分鐘＋RowErg 5–10分鐘，RPE3；可選2×150m Ski技巧",
-                  "小腿/膝恢復不佳則休息；本週不是正式Station主課",
-                  "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
+                  "11/18 WOD已做Ski+Row+Wall Ball+跑，不需補第二次硬Station",
+                  "可休息或10–15分鐘無痛Mobility，沒有追加WB練習"
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課",
             "wodRunKm": 0
           }
         ],
@@ -2047,7 +2047,7 @@
               "id": "easy",
               "priority": "LOW PRIORITY DELoad",
               "title": "TUE AM · 第三次短 Easy Run（恢復許可才做）",
-              "dose": "11/17暫不補；若本週後段恢復良好，可另選15–20分鐘Easy",
+              "dose": "W01 no additional run; 16.7587km actual already exceeds 12–16km plan",
               "details": [
                 "11/16已完成晨跑＋中午力量＋Ski，因此11/17先省略額外Easy和Ski技巧，優先恢復",
                 "與當天World Gym Pull主課可分早晚，無法分離也不需硬塞",
@@ -2059,7 +2059,7 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "5.85km 已完成 · 39分鐘 · Easy 先觀察HR135–145 (非正式Z2)",
+              "dose": "11/16 already completed 5.8532km long easy; no replacement this week",
               "details": [
                 "11/16 Garmin已完成5.85km / 39:02 / 均心141，算本週Long Easy；恢復正常前不補第二次長跑",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
@@ -2071,7 +2071,7 @@
               "id": "quality",
               "priority": "FIXED class, adaptive intensity",
               "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "dose": "11/19 hard interval CANCELLED; recovery only if fully symptom-free",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
                 "疼痛或步態異常不硬跑，記錄隔天反應"
@@ -2080,7 +2080,7 @@
           ],
           "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "W01完成5.85km Long Easy；11/16多項訓練後採恢復優先，Thu Petra Easy/Technique可視恢復決定",
+          "weeklyFocus": "11/18 WOD 30:04 + after-run5.0583km; W01 total recorded runs16.7587km; no further run; Thu hard cancelled",
           "wodRunKm": 0,
           "independentRunKmRange": [
             12,
@@ -2120,7 +2120,8 @@
             ],
             "flexibleDays": true,
             "estimatedAchievement": "conditional; not confirmed"
-          }
+          },
+          "actualRunKm": 16.7587
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2165,7 +2166,7 @@
             "hardSessionCap": 1,
             "strengthFinishersRPE": 5
           },
-          "stationMainRole": "TECHNIQUE_ONLY"
+          "stationMainRole": "W01 Wed Petra hard WOD completed; Thu hard running and Sat station cancelled"
         },
         "scheduleType": "RECOVERY_DELOAD_PPL",
         "petraWednesdayStatus": "NO_WOD_ASSUMED",
@@ -2179,16 +2180,16 @@
         "petraStrengthSkillPolicy": "Optional 0 or 1 class among Sun/Mon/Tue only; if Strength overlap, substitute matched volume; if Skill, count as technique, not equivalent to all heavy strength sets.",
         "weeklyStrengthSplit": "Mon LEGS / Tue PULL / Fri PUSH",
         "stationPrescription": {
-          "day": "sat",
-          "kind": "TECHNIQUE_ONLY",
-          "name": "RECOVERY EASY ERG",
-          "rounds": 0,
-          "rpe": 4,
-          "duration": "10–20分鐘 Easy",
+          "day": "wed",
+          "kind": "COMPLETED_PETRA_WOD",
+          "name": "11/18 Petra AMRAP30 3R+45 (recorded)",
+          "rounds": 3,
+          "rpe": 8,
+          "duration": "30:04 WOD + 30:51 post-WOD running",
           "steps": [
-            "SkiErg 10–12分鐘＋RowErg 5–10分鐘，RPE3；可選2×150m Ski技巧",
-            "小腿/膝恢復不佳則休息；本週不是正式Station主課",
-            "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
+            "SkiErg300/250m→15 HR Pushup→RowErg300/250m→Wall Ball15→350m Run→Rest90sec；3R+45照片分數",
+            "Garmin WOD HRavg170, postrun HRavg162; max211 uncertain",
+            "這是W01主Station，Sat不再做站點"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -2198,13 +2199,13 @@
           ],
           "alternative": null,
           "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "freshness": "completed; photo and Garmin verified"
         },
         "weakStationSkill": {
           "phase": "RECOVERY",
           "bbj": "不安排跳躍；僅動作檢查",
           "sandbagLunge": "無痛徒手Reverse Lunge 2×6/側",
-          "wallBall": "6kg × 2×8技巧（症狀穩定才做）",
+          "wallBall": "11/18 Petra WOD已做3完整輪×15=45次（白板推估，重量未知），W01不再補WB",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -2733,7 +2734,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "v1.5.5 11/18實測後優化：3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量18包含在Station內。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -2789,7 +2791,7 @@
           "tenKGoal": "50:00 (5:00/km) standalone 10km",
           "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
-        "weaknessFocus": "肩部穩定與單腿控制",
+        "weaknessFocus": "建立Ski/Row後Wall Ball低疲勞有效率與呼吸恢復；避免全力爆心率",
         "dailyPlan": [
           {
             "day": "sun",
@@ -2882,6 +2884,14 @@
                   "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：Step-up 2×8/腿＋Leg Curl 2×10",
                   "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
                   "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                ]
+              },
+              {
+                "name": "腿部局部肌耐力／非新增腿日",
+                "format": "替換既有配件，RIR3–4",
+                "lines": [
+                  "Step-up或Split Squat 2×8/側，疼痛或腫脹時直接取消",
+                  "WOD/Station當週已有Wall Ball；這裡只維持單腿力量，不加爆量Squat finisher"
                 ]
               }
             ],
@@ -2989,6 +2999,14 @@
                   "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
                   "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
                 ]
+              },
+              {
+                "name": "Petra強度互斥規則",
+                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "lines": [
+                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
+                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                ]
               }
             ],
             "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
@@ -3026,7 +3044,8 @@
                   "Sandbag Lunge：徒手Reverse Lunge 2×8/側",
                   "Wall Ball：6kg × 4×8 = 32次（間休45–60s，連續能力仍約10–15次）",
                   "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
+                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段",
+                  "v1.5.5：本站已包含該週WB上限；Fri不要再做完整WB微課。若有硬Petra WOD，依實際完成量取代，不要求補足目標。"
                 ]
               },
               {
@@ -3063,39 +3082,22 @@
             "dayZh": "週六",
             "date": "2026-11-28",
             "kind": "mixed",
-            "title": "STATION MAIN｜SkiErg + Carry + Wall Ball",
-            "time": "4 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
+            "time": "3輪 · RPE5.5 · 週三硬Petra時取消",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "4 ROUNDS · 75–90s rest · RPE7",
+                "name": "Run-station controlled transfer · v1.5.5",
+                "format": "6kg WB 3×6；非額外課",
                 "lines": [
-                  "4 ROUNDS：SkiErg 350m → Farmer Carry 30m → Wall Ball 6kg ×6",
-                  "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-                  "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
-                ]
-              },
-              {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
-                "lines": [
-                  "BBJ：安全動作示範：3×3次，低量、不追距離",
-                  "Sandbag Lunge：徒手Reverse Lunge 2×8/側",
-                  "Wall Ball：6kg × 4×8 = 32次（間休45–60s，連續能力仍約10–15次）",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
-                ]
-              },
-              {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
-                "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                  "SkiErg 200m RPE5",
+                  "Wall Ball 6kg×6（不追連續15次）",
+                  "RowErg 200m Easy RPE3，休90–120秒／輪",
+                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
+                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
             "wodRunKm": 0
           }
         ],
@@ -3276,14 +3278,16 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "SkiErg + Carry + Wall Ball",
-          "rounds": 4,
-          "rpe": 7,
-          "duration": "20–40分鐘",
+          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "rounds": 3,
+          "rpe": 5.5,
+          "duration": "15–30min including recoveries (WOD week: OFF)",
           "steps": [
-            "4 ROUNDS：SkiErg 350m → Farmer Carry 30m → Wall Ball 6kg ×6",
-            "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
-            "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+            "SkiErg 200m RPE5",
+            "Wall Ball 6kg×6（不追連續15次）",
+            "RowErg 200m Easy RPE3，休90–120秒／輪",
+            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
+            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -3292,14 +3296,23 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
+          "freshness": "conditional planned, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "SkiErg + Carry + Wall Ball",
+            "kind": "STATION_MAIN",
+            "steps": [
+              "4 ROUNDS：SkiErg 350m → Farmer Carry 30m → Wall Ball 6kg ×6",
+              "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺",
+              "Wall Ball當週專項總次數以弱項進度表為上限，避免把技巧日＋Station重複加總超量"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "BASE",
           "bbj": "安全動作示範：3×3次，低量、不追距離",
           "sandbagLunge": "徒手Reverse Lunge 2×8/側",
-          "wallBall": "6kg × 4×8 = 32次（間休45–60s，連續能力仍約10–15次）",
+          "wallBall": "6kg 3×6 = 18次，已包含在當週受控Station；Petra硬WOD週不重複加量",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -3828,7 +3841,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "v1.5.5 11/18實測後優化：3× [Ski250m RPE5–6→WB8→Row200m Easy] Rest90sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -3884,7 +3898,7 @@
           "tenKGoal": "50:00 (5:00/km) standalone 10km",
           "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
-        "weaknessFocus": "背部拉力與SkiErg的後段輸出",
+        "weaknessFocus": "建立Ski/Row後Wall Ball低疲勞有效率與呼吸恢復；避免全力爆心率",
         "dailyPlan": [
           {
             "day": "sun",
@@ -3977,6 +3991,14 @@
                   "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：Step-up 2×8/腿＋Leg Curl 2×10",
                   "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
                   "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                ]
+              },
+              {
+                "name": "腿部局部肌耐力／非新增腿日",
+                "format": "替換既有配件，RIR3–4",
+                "lines": [
+                  "Step-up或Split Squat 2×8/側，疼痛或腫脹時直接取消",
+                  "WOD/Station當週已有Wall Ball；這裡只維持單腿力量，不加爆量Squat finisher"
                 ]
               }
             ],
@@ -4082,6 +4104,14 @@
                   "跑後不要再加100下Air Squat或大量Wall Ball",
                   "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
                 ]
+              },
+              {
+                "name": "Petra強度互斥規則",
+                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "lines": [
+                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
+                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                ]
               }
             ],
             "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
@@ -4119,7 +4149,8 @@
                   "Sandbag Lunge：輕量Sandbag 5–10kg × 2×10m（可徒手）",
                   "Wall Ball：6kg × 4×10 = 40次",
                   "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
+                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段",
+                  "v1.5.5：本站已包含該週WB上限；Fri不要再做完整WB微課。若有硬Petra WOD，依實際完成量取代，不要求補足目標。"
                 ]
               },
               {
@@ -4157,39 +4188,22 @@
             "dayZh": "週六",
             "date": "2026-12-05",
             "kind": "mixed",
-            "title": "STATION MAIN｜RowErg + Sled Push / Pull",
-            "time": "4 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
+            "time": "3輪 · RPE6 · 週三硬Petra時取消",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "4 ROUNDS · 90–120s rest · RPE7",
+                "name": "Run-station controlled transfer · v1.5.5",
+                "format": "6kg WB 3×8；非額外課",
                 "lines": [
-                  "4 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-                  "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-                  "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
-                ]
-              },
-              {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
-                "lines": [
-                  "BBJ：4×5m 技術，跑姿穩定／無疼痛才加入",
-                  "Sandbag Lunge：輕量Sandbag 5–10kg × 2×10m（可徒手）",
-                  "Wall Ball：6kg × 4×10 = 40次",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
-                ]
-              },
-              {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
-                "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
+                  "SkiErg 250m RPE5–6",
+                  "Wall Ball 6kg×8，動作品質優先",
+                  "RowErg 200m Easy，休90秒／輪",
+                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
+                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
             "wodRunKm": 0
           }
         ],
@@ -4370,14 +4384,16 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "RowErg + Sled Push / Pull",
-          "rounds": 4,
-          "rpe": 7,
-          "duration": "20–40分鐘",
+          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "rounds": 3,
+          "rpe": 6,
+          "duration": "15–30min including recoveries (WOD week: OFF)",
           "steps": [
-            "4 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-            "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-            "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+            "SkiErg 250m RPE5–6",
+            "Wall Ball 6kg×8，動作品質優先",
+            "RowErg 200m Easy，休90秒／輪",
+            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
+            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -4386,14 +4402,23 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
+          "freshness": "conditional planned, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "RowErg + Sled Push / Pull",
+            "kind": "STATION_MAIN",
+            "steps": [
+              "4 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
+              "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
+              "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "BASE",
           "bbj": "4×5m 技術，跑姿穩定／無疼痛才加入",
           "sandbagLunge": "輕量Sandbag 5–10kg × 2×10m（可徒手）",
-          "wallBall": "6kg × 4×10 = 40次",
+          "wallBall": "6kg 3×8 = 24次，已包含在當週受控Station；Petra硬WOD週不重複加量",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -4896,7 +4921,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "v1.5.5 11/18實測後優化：2 easy× [Ski200m RPE4→WB6→Row200m Easy] Rest120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量12包含在Station內。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -4952,7 +4978,7 @@
           "tenKGoal": "50:00 (5:00/km) standalone 10km",
           "runningMilestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy"
         },
-        "weaknessFocus": "核心與單側動作控制",
+        "weaknessFocus": "建立Ski/Row後Wall Ball低疲勞有效率與呼吸恢復；避免全力爆心率",
         "dailyPlan": [
           {
             "day": "sun",
@@ -5045,6 +5071,14 @@
                   "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：坐站／Step-up 1–2×6–8/腿（無痛）",
                   "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
                   "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                ]
+              },
+              {
+                "name": "腿部局部肌耐力／非新增腿日",
+                "format": "替換既有配件，RIR3–4",
+                "lines": [
+                  "Step-up或Split Squat 2×8/側，疼痛或腫脹時直接取消",
+                  "WOD/Station當週已有Wall Ball；這裡只維持單腿力量，不加爆量Squat finisher"
                 ]
               }
             ],
@@ -5151,6 +5185,14 @@
                   "疼痛或步態異常不硬跑，記錄隔天反應",
                   "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
                 ]
+              },
+              {
+                "name": "Petra強度互斥規則",
+                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "lines": [
+                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
+                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                ]
               }
             ],
             "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
@@ -5188,7 +5230,8 @@
                   "Sandbag Lunge：徒手Easy 1×8/側",
                   "Wall Ball：6kg × 2×8 = 16次，無痛才做",
                   "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
+                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段",
+                  "v1.5.5：本站已包含該週WB上限；Fri不要再做完整WB微課。若有硬Petra WOD，依實際完成量取代，不要求補足目標。"
                 ]
               },
               {
@@ -5225,20 +5268,22 @@
             "dayZh": "週六",
             "date": "2026-12-12",
             "kind": "station",
-            "title": "STATION TECHNIQUE｜DELOAD EASY TECHNIQUE",
-            "time": "12–18分鐘 · RPE4",
+            "title": "STATION TECHNIQUE｜心肺轉換降載",
+            "time": "2輪 · RPE4 · 週三硬Petra時取消",
             "sections": [
               {
-                "name": "恢復／減量的技巧課（不是Station主課）",
-                "format": "2–3 EASY ROUNDS",
+                "name": "Run-station controlled transfer · v1.5.5",
+                "format": "6kg WB 2×6；非額外課",
                 "lines": [
-                  "2–3 EASY ROUNDS：SkiErg 200m → RowErg 150m → Farmer Carry 20m（輕）",
-                  "每輪休90–120秒，RPE≤4；2輪是恢復技巧，**不是Station主課**",
-                  "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
+                  "SkiErg 200m RPE4",
+                  "Wall Ball 6kg×6（無痛可做）",
+                  "RowErg 200m Easy，休120秒／輪",
+                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
+                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
                 ]
               }
             ],
-            "subtitle": "2輪只在恢復週當技巧收尾，非正式Station容量訓練",
+            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
             "wodRunKm": 0
           }
         ],
@@ -5418,14 +5463,16 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "TECHNIQUE_ONLY",
-          "name": "DELOAD EASY TECHNIQUE",
+          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
           "rounds": 2,
           "rpe": 4,
-          "duration": "10–20分鐘 Easy",
+          "duration": "15–30min including recoveries (WOD week: OFF)",
           "steps": [
-            "2–3 EASY ROUNDS：SkiErg 200m → RowErg 150m → Farmer Carry 20m（輕）",
-            "每輪休90–120秒，RPE≤4；2輪是恢復技巧，**不是Station主課**",
-            "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
+            "SkiErg 200m RPE4",
+            "Wall Ball 6kg×6（無痛可做）",
+            "RowErg 200m Easy，休120秒／輪",
+            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
+            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -5434,14 +5481,23 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
+          "freshness": "conditional planned, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "DELOAD EASY TECHNIQUE",
+            "kind": "TECHNIQUE_ONLY",
+            "steps": [
+              "2–3 EASY ROUNDS：SkiErg 200m → RowErg 150m → Farmer Carry 20m（輕）",
+              "每輪休90–120秒，RPE≤4；2輪是恢復技巧，**不是Station主課**",
+              "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "DELOAD",
           "bbj": "無跳躍或低量走位",
           "sandbagLunge": "徒手Easy 1×8/側",
-          "wallBall": "6kg × 2×8 = 16次，無痛才做",
+          "wallBall": "6kg 2×6 = 12次，已包含在當週受控Station；Petra硬WOD週不重複加量",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -5954,7 +6010,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "v1.5.5 11/18實測後優化：3× [Ski250m RPE6→WB8→Row250m Easy] Rest90–120sec; replaces prior high Row/Ski engine；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -6010,7 +6067,7 @@
           "tenKGoal": "50:00 (5:00/km) standalone 10km",
           "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
-        "weaknessFocus": "背部／股四頭肌有效增肌",
+        "weaknessFocus": "建立Ski/Row後Wall Ball低疲勞有效率與呼吸恢復；避免全力爆心率",
         "dailyPlan": [
           {
             "day": "sun",
@@ -6103,6 +6160,14 @@
                   "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：Step-up 或 Split Squat 2×8–10/腿＋Leg Curl 2×10–12",
                   "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
                   "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                ]
+              },
+              {
+                "name": "腿部局部肌耐力／非新增腿日",
+                "format": "替換既有配件，RIR3–4",
+                "lines": [
+                  "Step-up或Split Squat 2×10/側，疼痛或腫脹時直接取消",
+                  "WOD/Station當週已有Wall Ball；這裡只維持單腿力量，不加爆量Squat finisher"
                 ]
               }
             ],
@@ -6208,6 +6273,14 @@
                   "跑後不要再加100下Air Squat或大量Wall Ball",
                   "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
                 ]
+              },
+              {
+                "name": "Petra強度互斥規則",
+                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "lines": [
+                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
+                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                ]
               }
             ],
             "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
@@ -6245,7 +6318,8 @@
                   "Sandbag Lunge：Sandbag 10kg × 2×12.5m，動作標準優先",
                   "Wall Ball：6kg × 5×10 = 50次",
                   "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
+                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段",
+                  "v1.5.5：本站已包含該週WB上限；Fri不要再做完整WB微課。若有硬Petra WOD，依實際完成量取代，不要求補足目標。"
                 ]
               },
               {
@@ -6282,27 +6356,22 @@
             "dayZh": "週六",
             "date": "2026-12-19",
             "kind": "mixed",
-            "title": "STATION MAIN｜ROWERG × SKIERG",
-            "time": "3 ROUNDS · Row 5min + Ski 1000m · RPE7.5",
+            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
+            "time": "3輪 · RPE6 · 週三硬Petra時取消",
             "sections": [
               {
-                "name": "主課",
-                "format": "3 ROUNDS · Rest 150s",
+                "name": "Run-station controlled transfer · v1.5.5",
+                "format": "6kg WB 3×8；非額外課",
                 "lines": [
-                  "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
-                  "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺"
-                ]
-              },
-              {
-                "name": "熱身／收操",
-                "format": "Easy 5–8min",
-                "lines": [
-                  "RowErg 5min Easy + SkiErg 300m Easy；兩段漸進加速",
-                  "Easy RowErg or SkiErg 5min"
+                  "SkiErg 250m RPE6",
+                  "Wall Ball 6kg×8",
+                  "RowErg 250m Easy，休90–120秒／輪；替代舊高強度Row5分鐘+Ski1km×3，不疊加",
+                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
+                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
                 ]
               }
             ],
-            "subtitle": "RowErg 擇一 + SkiErg：同一堂主課；不是額外一堂Station。",
+            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
             "wodRunKm": 0
           }
         ],
@@ -6506,15 +6575,16 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "ROWERG × SKIERG｜高強度交替引擎",
+          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
           "rounds": 3,
-          "rpe": 7.5,
-          "duration": "35–45分鐘主課＋暖身",
+          "rpe": 6,
+          "duration": "15–30min including recoveries (WOD week: OFF)",
           "steps": [
-            "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
-            "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
-            "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
-            "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
+            "SkiErg 250m RPE6",
+            "Wall Ball 6kg×8",
+            "RowErg 250m Easy，休90–120秒／輪；替代舊高強度Row5分鐘+Ski1km×3，不疊加",
+            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
+            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -6523,14 +6593,16 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "One Sat hard engine session replaces previous Station main; skip if Wed hard Petra WOD attended; no replacement for running km",
-          "freshness": "prescribed, not completed",
+          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
+          "freshness": "conditional planned, not completed",
           "previousStationPreservedInHistory": {
-            "name": "SkiErg + Carry + Wall Ball",
-            "rounds": 5,
+            "name": "ROWERG × SKIERG｜高強度交替引擎",
+            "kind": "STATION_MAIN",
             "steps": [
-              "5 ROUNDS：SkiErg 400m → Farmer Carry 30m → Wall Ball 6kg ×8",
-              "每輪休75–90秒，SkiErg split要穩定，不要最後一輪衝刺"
+              "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
+              "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
+              "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
+              "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
             ]
           }
         },
@@ -6538,7 +6610,7 @@
           "phase": "BUILD",
           "bbj": "4×5m 技術、步頻一致",
           "sandbagLunge": "Sandbag 10kg × 2×12.5m，動作標準優先",
-          "wallBall": "6kg × 5×10 = 50次",
+          "wallBall": "6kg 3×8 = 24次，已包含在當週受控Station；Petra硬WOD週不重複加量",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -7107,7 +7179,8 @@
           "正式WOD一週僅1堂，由Petra、World Gym或Home擇一。",
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
-          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。"
+          "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
+          "v1.5.5 11/18實測後優化：4× [Ski300m RPE6→WB8→Row250m Easy] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量32包含在Station內。"
         ],
         "optionalSixth": null,
         "wod": null,
@@ -7163,7 +7236,7 @@
           "tenKGoal": "50:00 (5:00/km) standalone 10km",
           "runningMilestone": "能穩定完成6–8km Easy，而不是每次硬跑5分速"
         },
-        "weaknessFocus": "左右腿動作對稱",
+        "weaknessFocus": "建立Ski/Row後Wall Ball低疲勞有效率與呼吸恢復；避免全力爆心率",
         "dailyPlan": [
           {
             "day": "sun",
@@ -7256,6 +7329,14 @@
                   "將本週既有Step-up/Lunge/Leg Curl配件中的部分替換為：Step-up 或 Split Squat 2×8–10/腿＋Leg Curl 2×10–12",
                   "每組做完仍保留2–4次餘力，不把每一組都練成喘爆的AMRAP",
                   "小腿仍酸或腳步／單腳提踵不舒服、膝腫脹/疼痛時：不做高次Wall Ball、重Sled、BBJ、跳躍或硬跑，優先休息/無痛低衝擊活動，必要時專業評估。"
+                ]
+              },
+              {
+                "name": "腿部局部肌耐力／非新增腿日",
+                "format": "替換既有配件，RIR3–4",
+                "lines": [
+                  "Step-up或Split Squat 2×10/側，疼痛或腫脹時直接取消",
+                  "WOD/Station當週已有Wall Ball；這裡只維持單腿力量，不加爆量Squat finisher"
                 ]
               }
             ],
@@ -7363,6 +7444,14 @@
                   "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
                   "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
                 ]
+              },
+              {
+                "name": "Petra強度互斥規則",
+                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "lines": [
+                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
+                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                ]
               }
             ],
             "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
@@ -7400,7 +7489,8 @@
                   "Sandbag Lunge：Sandbag 10–15kg × 3×12.5m",
                   "Wall Ball：6kg × 5×10–12 = 50–60次",
                   "上面是本週各站分組參考上限，不是要在同一天三項全做；Fri最多挑一個薄弱項目做低量技巧，其餘由Sat主課或Petra替代",
-                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段"
+                  "如果Sat主課隔天難恢復、Thu跑課很累或有膝小腿症狀，直接不做這段",
+                  "v1.5.5：本站已包含該週WB上限；Fri不要再做完整WB微課。若有硬Petra WOD，依實際完成量取代，不要求補足目標。"
                 ]
               },
               {
@@ -7438,52 +7528,22 @@
             "dayZh": "週六",
             "date": "2026-12-26",
             "kind": "mixed",
-            "title": "STATION MAIN｜RowErg + Sled Push / Pull",
-            "time": "5 ROUNDS · RPE6–7",
+            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
+            "time": "4輪 · RPE6 · 週三硬Petra時取消",
             "sections": [
               {
-                "name": "Station 主課｜本週主題",
-                "format": "5 ROUNDS · 90–120s rest · RPE7",
+                "name": "Run-station controlled transfer · v1.5.5",
+                "format": "6kg WB 4×8；非額外課",
                 "lines": [
-                  "5 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-                  "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-                  "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
-                ]
-              },
-              {
-                "name": "專項弱項進度｜本週擇一微劑量",
-                "format": "不是全部額外加碼",
-                "lines": [
-                  "BBJ：4×7.5m（累積30m，症狀穩定才做）",
-                  "Sandbag Lunge：Sandbag 10–15kg × 3×12.5m",
-                  "Wall Ball：6kg × 5×10–12 = 50–60次",
-                  "Station主課裡已做過的相同站點次數必須計入，避免Fri+Sat週量超標"
-                ]
-              },
-              {
-                "name": "有 Petra WOD 的替代條件",
-                "format": "Wed硬WOD→Sat Easy 或 Rest",
-                "lines": [
-                  "若週三實際做硬Petra WOD則取消Sat Station主課",
-                  "若Thu強Interval後尚未恢復，Sat降RPE或取消，不能為達標硬補",
-                  "記錄每輪Ski/Row split、Sled實際重量、休息秒數、有效Wall Ball reps／BBJ/Lunge距離"
-                ]
-              },
-              {
-                "name": "MIXED DOUBLES × STACY 換手微課（有同行才做）",
-                "format": "替代既有主課最後一輪／部分站點 · 非額外加課",
-                "lines": [
-                  "若Stacy同場一起練，可在這堂主課的最後一輪或選定站點改為Mixed Doubles換手技巧，**取代原工作量的一部分**，不額外增加WOD或雙人全量模擬",
-                  "兩人跑步需一起，進出站一起；站點採You-Go-I-Go同一時間一人工作。練換手時注意有效動作與場地安全",
-                  "SkiErg Alvin先；RowErg 500m練三段（Alvin200 → Stacy200 → Alvin100，換手2次）",
-                  "Farmer Carry 80m：Alvin25 → Stacy20 → Alvin20 → Stacy15（換手3次，Alvin總量多一點）",
-                  "Sled Pull Alvin先、交替接近平均；Sled Push Stacy較強可多做一些，但不要追最大負重",
-                  "BBJ每人一段4–7跳、距離短且落地穩定；WallBall 6kg練短組12/8交換、Alvin稍多；Lunge兩人交替10–15m，總量受當週上限約束",
-                  "週五混雙＋週六男單的雙日賽事，任何練習都以留下隔天恢復能力為前提；若膝/小腿不適或本週Wed硬WOD，改技術／跳過"
+                  "SkiErg 300m RPE6",
+                  "Wall Ball 6kg×8",
+                  "RowErg 250m Easy，休90–120秒／輪",
+                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
+                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
                 ]
               }
             ],
-            "subtitle": "4–5輪有目的的Station容量，單項薄弱站點由週專項上限控制；完全不需要WorldGym跑步機",
+            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
             "wodRunKm": 0
           }
         ],
@@ -7666,14 +7726,16 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "RowErg + Sled Push / Pull",
-          "rounds": 5,
-          "rpe": 7,
-          "duration": "20–40分鐘",
+          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "rounds": 4,
+          "rpe": 6,
+          "duration": "15–30min including recoveries (WOD week: OFF)",
           "steps": [
-            "5 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-            "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-            "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+            "SkiErg 300m RPE6",
+            "Wall Ball 6kg×8",
+            "RowErg 250m Easy，休90–120秒／輪",
+            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
+            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -7682,14 +7744,23 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
-          "freshness": "prescribed, not completed"
+          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
+          "freshness": "conditional planned, not completed",
+          "previousStationPreservedInHistory": {
+            "name": "RowErg + Sled Push / Pull",
+            "kind": "STATION_MAIN",
+            "steps": [
+              "5 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
+              "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
+              "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
+            ]
+          }
         },
         "weakStationSkill": {
           "phase": "BUILD",
           "bbj": "4×7.5m（累積30m，症狀穩定才做）",
           "sandbagLunge": "Sandbag 10–15kg × 3×12.5m",
-          "wallBall": "6kg × 5×10–12 = 50–60次",
+          "wallBall": "6kg 4×8 = 32次，已包含在當週受控Station；Petra硬WOD週不重複加量",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -19547,11 +19618,12 @@
   },
   "weeklyScheduleNotes": [
     "If hard Wed Petra WOD, Thu class downscale easy/technical, Sat no hard WOD; if Thu cannot downscale, skip Wed hard WOD.",
-    "v1.4: HYROX specificity: run after stations added in W07/W09/W11/W13/W14 only if safe connected outdoor area and no Thu/Wed overload; Wed hard Petra WOD replaces Sat. BBJ, Sandbag Lunges, Wall Ball weekly capped skill doses, Tue short Easy prioritized if recovered, Fri WFH PPL Push retained."
+    "v1.4: HYROX specificity: run after stations added in W07/W09/W11/W13/W14 only if safe connected outdoor area and no Thu/Wed overload; Wed hard Petra WOD replaces Sat. BBJ, Sandbag Lunges, Wall Ball weekly capped skill doses, Tue short Easy prioritized if recovered, Fri WFH PPL Push retained.",
+    "11/18高負荷硬WOD+5.06km後跑，W01 Thu hard interval/Sat station off。W02–W06 Sat漸進Ski→WallBall→Row循環只在無Wed硬WOD時使用；詳見cardioTransitionProgram / 私有Sheet。"
   ],
   "trainingTracks": {
     "version": "FINAL-v1.4-2026-11-14",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "running": {
       "name": "RUNNING",
       "source": "Garmin Personal API via Google Sheets",
@@ -20103,7 +20175,8 @@
     "releasedOn": "2026-11-15",
     "status": "PUBLISHED v1.5.1",
     "dataVerifiedThrough": "2026-11-15",
-    "notes": "v1.5.1 plan preserved; 11/15 private Garmin +2 activities/0 laps, photo 0 changes, Row/Ski manual crossmatched to one Garmin session."
+    "notes": "v1.5.1 plan preserved; 11/15 private Garmin +2 activities/0 laps, photo 0 changes, Row/Ski manual crossmatched to one Garmin session.",
+    "dataRevision": "2026-11-18 v1.5.5 WOD-driven transition block"
   },
   "scheduleRevision": {
     "version": "v1.5.1",
@@ -20368,6 +20441,92 @@
         "distance": "9–10km",
         "duration": "60–75分鐘",
         "note": "只有在8–9km可舒服完成且關節無症狀才進階"
+      }
+    ]
+  },
+  "cardioTransitionProgram": {
+    "version": "v1.5.5",
+    "updated": "2026-11-18",
+    "sourceSheet": "Cardio_Transition_v1_5_5",
+    "purpose": "Improve controlled HR ramp, aerobic return after stations, repeatable Wall Ball leg endurance; no added hard sessions",
+    "isAdditionalWorkout": false,
+    "rules": [
+      "WOD硬課若已上，當週Sat主要Station直接取消，次日Petra跑課改Easy/休息。",
+      "Wall Ball週目標已包含在主循環或Petra課，絕不把兩者相加。",
+      "RPE與談話測試優先；Garmin心率區間未校準，135–145bpm只供觀察，不代表正式Zone2。",
+      "個人膝蓋、小腿症狀與次日恢復優先；疼痛／腫脹／步態異常時停止衝擊與深蹲類負荷。",
+      "若睡眠不足、心跳異常伴胸痛暈眩或呼吸困難，停止訓練並尋求醫療評估。"
+    ],
+    "tracking": {
+      "data": "HR pre-WB / immediately after / 60sec after (same postural condition), RPE, 6kg valid reps, legs gave out rep number, rest duration, next-day knee/calf response",
+      "measuredMinuteHrPrivacy": "Private Sheet Garmin_API_HR_Minute, never publish raw seconds/GPS or individual lap trails"
+    },
+    "weeks": [
+      {
+        "week": "W01",
+        "date": "11/16–11/22",
+        "focus": "Hard WOD completed—recover",
+        "lowIntensity": "REST 11/19; no more running this week",
+        "leg": "Cancel heavy legs/BBJ",
+        "wb": "~45 WOD reps (weight unverified), no additional",
+        "station": "11/18 Petra WOD replaces Sat main",
+        "longRun": "16.76km actual recorded 3 runs, extra ~1.05km WOD photo-estimate",
+        "gate": "Recover 48h, no lingering joint symptoms"
+      },
+      {
+        "week": "W02",
+        "date": "11/23–11/29",
+        "focus": "Control first 3 rounds",
+        "lowIntensity": "Easy erg 25–35min RPE2–4 or short easy run",
+        "leg": "Step-up or Split squat 2×8/side RIR3–4 inside existing Legs",
+        "wb": "6kg 3×6=18 reps included in station",
+        "station": "3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec",
+        "longRun": "6–7km Easy, 6–6.5 if tired",
+        "gate": "3 stable rounds, pain-free day after"
+      },
+      {
+        "week": "W03",
+        "date": "11/30–12/06",
+        "focus": "Increase quality WB dose",
+        "lowIntensity": "Easy 25–35min RPE2–4",
+        "leg": "Step-up or Split squat 2×8–10/side RIR3",
+        "wb": "6kg 3×8=24 reps included",
+        "station": "3× [Ski250m RPE5–6→WB8→Row200m Easy] Rest90sec",
+        "longRun": "7–7.5km conditional",
+        "gate": "HR / RPE settles before next round, no form breakdown"
+      },
+      {
+        "week": "W04",
+        "date": "12/07–12/13",
+        "focus": "Deload",
+        "lowIntensity": "Easy15–25min or rest",
+        "leg": "Reduce main legs sets ~30–40%",
+        "wb": "6kg 2×6=12 reps included",
+        "station": "2 easy× [Ski200m RPE4→WB6→Row200m Easy] Rest120sec",
+        "longRun": "6–6.5km or shorter if symptomatic",
+        "gate": "Knee/calf fully recovered"
+      },
+      {
+        "week": "W05",
+        "date": "12/14–12/20",
+        "focus": "Repeatable 3-round output",
+        "lowIntensity": "Easy25–40min 1–2 times if recovery allows",
+        "leg": "Existing Legs 2–3×5–6 RIR3, Step-up2×10/side as accessory",
+        "wb": "6kg 3×8=24 reps included",
+        "station": "3× [Ski250m RPE6→WB8→Row250m Easy] Rest90–120sec; replaces prior high Row/Ski engine",
+        "longRun": "7.5–8km conditional",
+        "gate": "Similar lap HR /WB technique/ 60s post HR drop"
+      },
+      {
+        "week": "W06",
+        "date": "12/21–12/27",
+        "focus": "Build 4 controlled rounds",
+        "lowIntensity": "Easy30–40min RPE2–4",
+        "leg": "Single-leg 2×10/side within existing day",
+        "wb": "6kg 4×8=32 reps included",
+        "station": "4× [Ski300m RPE6→WB8→Row250m Easy] Rest90–120sec",
+        "longRun": "8–8.5km conditional",
+        "gate": "No next-day symptoms; consider WB10/round next block only if ready"
       }
     ]
   }
