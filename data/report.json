@@ -1,8 +1,8 @@
 {
   "version": "1.5.5",
-  "updated": "2026-11-18",
-  "dataThrough": "2026-11-18",
-  "lastSync": "2026-11-18 20:22 Asia/Taipei · Garmin private sync success (74 activities, +0 on minute-HR backfill; 3 added at 20:15)",
+  "updated": "2026-11-20",
+  "dataThrough": "2026-11-19",
+  "lastSync": "2026-11-20 21:52 Asia/Taipei · Garmin Actions push run success / 77 activities verified, +0 new (11/19 run and strength synced 11/20 04:44 Taipei previously)",
   "nextReview": "每週日晚上（台灣時間）",
   "race": {
     "city": "TAIPEI",
@@ -13,10 +13,10 @@
     "stretch": "SUB 90 · 進階目標"
   },
   "metrics": {
-    "activities": 74,
-    "runs": 36,
-    "totalKm": 150.25,
-    "recentWeekKm": 16.76,
+    "activities": 77,
+    "runs": 37,
+    "totalKm": 156.88,
+    "recentWeekKm": 23.39,
     "petraPhotos": 38,
     "petraIndividualNote": "38張已索引白板照片，不等於38次出席。最新11/18 Alvin 3R+45為個人成績，團隊分數仍分開。",
     "row1500": "6:20.5",
@@ -31,18 +31,18 @@
       "pace": "6:25",
       "hr": 143
     },
-    "intervalLatest": "5×400m + 4×600m",
-    "intervalAvgSeconds": 92.2,
-    "intervalOlderAvgSeconds": 120,
+    "intervalLatest": "4×~400m + 4×~600m (11/19 Petra/ Daan Intervals)",
+    "intervalAvgSeconds": 97.80425,
+    "intervalOlderAvgSeconds": 92.2,
     "latestWeekStart": "2026-11-16",
     "latestWeekPartial": true,
-    "lastRunDate": "2026-11-18",
-    "lastRunDistance": 5.0583,
-    "lastRunPace": "6:06/km elapsed; run after 30-min Petra WOD, NOT Easy",
-    "lastRunHr": 162,
-    "interval600AvgSeconds": 166.5,
-    "interval400AvgHR": 168,
-    "interval600AvgHR": 174,
+    "lastRunDate": "2026-11-19",
+    "lastRunDistance": 6.6323,
+    "lastRunPace": "6.6323km/41:21.8 elapsed (31:13.6 moving), MIXED INTERVAL—NOT EASY",
+    "lastRunHr": 164,
+    "interval600AvgSeconds": 153.0805,
+    "interval400AvgHR": 163.75,
+    "interval600AvgHR": 171.5,
     "latestSki2k": {
       "distanceM": 2004,
       "durationSeconds": 639,
@@ -112,9 +112,89 @@
         "notes": "minute-level averages not station-tagged; 211 instantaneous peak could be sensor artefact"
       }
     },
-    "strengthFitSessions": 11,
-    "strengthFitSetMessages": 190,
-    "strengthFitSource": "Private Google Sheet summary; original Garmin FIT, auto classified—not independently verified"
+    "strengthFitSessions": 12,
+    "strengthFitSetMessages": 191,
+    "strengthFitSource": "Private Google Sheet summary; original Garmin FIT, auto classified—not independently verified",
+    "latestAirSquats": {
+      "date": "2026-11-19",
+      "userReportedReps": 100,
+      "garminAutoDetectedReps": 52,
+      "source": "User first-person report + Garmin Strength original FIT one set",
+      "startLocal": "2026-11-19 20:28:27",
+      "durationSeconds": 236.58,
+      "avgHr": 148,
+      "maxHr": 155,
+      "garminActivityId": "25130251201",
+      "watchExerciseFirstCandidate": "squat",
+      "watchWeightKg": null,
+      "timeAfterRunEndApproxSeconds": 73.5,
+      "note": "One Strength activity/one FIT active set, not separate 52 and 100 rep sessions. Air Squat ≠ Wall Ball 6kg; reps and load not automatically equivalent."
+    },
+    "latestInterval": {
+      "date": "2026-11-19",
+      "garminActivityId": "25130250797",
+      "distanceKm": 6.6323,
+      "elapsedSeconds": 2481.823,
+      "movingSeconds": 1873.604,
+      "avgHr": 164,
+      "maxHr": 184,
+      "aerobicTE": 3.6,
+      "anaerobicTE": 3.8,
+      "repeat400": [
+        {
+          "m": 397,
+          "sec": 100.476,
+          "hr": 156
+        },
+        {
+          "m": 397.65,
+          "sec": 95.54,
+          "hr": 166
+        },
+        {
+          "m": 399.25,
+          "sec": 94.604,
+          "hr": 171
+        },
+        {
+          "m": 396.65,
+          "sec": 100.597,
+          "hr": 162
+        }
+      ],
+      "repeat600": [
+        {
+          "m": 582.26,
+          "sec": 152.273,
+          "hr": 171
+        },
+        {
+          "m": 592.47,
+          "sec": 150.536,
+          "hr": 172
+        },
+        {
+          "m": 581.66,
+          "sec": 150.745,
+          "hr": 172
+        },
+        {
+          "m": 604.37,
+          "sec": 158.768,
+          "hr": 171
+        }
+      ],
+      "mean400sec": 97.80425,
+      "mean600sec": 153.0805,
+      "recoveryMinuteExamples": [
+        125.6,
+        136.8,
+        139.6,
+        137.5,
+        141.8
+      ],
+      "note": "FIT 20 laps total; work segments 4x~400 and 4x~600, recovery laps are not additional workouts, min HR valleys mean some recovery, not direct measure of VO2Max."
+    }
   },
   "weeklyKm": [
     {
@@ -147,9 +227,9 @@
     },
     {
       "w": "11/16",
-      "km": 16.76,
+      "km": 23.39,
       "partial": true,
-      "note": "11/16 5.8532+11/17 5.8472+11/18 5.0583km Garmin runs; WOD indoor 350m×3 photo estimate separate"
+      "note": "Nov16 5.8532+Nov17 5.8472+Nov18 5.0583+Nov19 6.6323=23.3910km Garmin recorded; Petra WOD Nov18 ~1.05km internal running photo-estimated separate; 11/19 100 user reported air squat not run"
     }
   ],
   "intervals": [
@@ -235,27 +315,27 @@
     }
   ],
   "coach": {
-    "headline": "11/18 Petra 3R+45／30min HR170 + 跑5.06km HR162：提高轉換效率，先取消明日硬課",
-    "summary": "11/18 已核實Petra IMG_1755 WOD 3R+45、Garmin HIIT30:04 avgHR170 TE3.6+3.2、後跑5.0583km HRavg162；11/17另跑5.8472km。11/16起3次Garmin跑步合計16.7587km，已達並略超原週12–16目標，WOD場內約1.05km以照片推估分開記。私有FIT minute級HR顯示第一分鐘169、三個低谷141/145/152及高峰180+，反映快速上升與後段累積負荷；max211孤立尖峰可能腕錶雜訊。W01 Thu硬跑與Sat主站取消。W02–W06在原本3分化+Long Easy架構內，改為1次條件式受控Ski→WB→Row漸進循環（不額外加課），易有氧與腿部次極限容量逐步建立。GitHub Garmin Actions hourly UTC xx:23，排程3-day lookback、私有HR分鐘彙總已驗證。 Garmin重訓FIT原始Set訊息現已解析：11/14 20有效組中19個Push首選類別，11/16 16有效組中8個Pull、6個Legs、2未知；使用者親自確認近期Push/Pull已完成。W01週五不再安排Push，優先恢復；版號不因數據更新而改變。",
+    "headline": "11/19 Interval 4×400＋4×600 後完成100 Air Squat；本週實跑23.39km，先恢復",
+    "summary": "11/20 Garmin API重新同步成功：77 activities、37 runs、累積跑步約156.88km、251 FIT laps；當次+0新活動，因11/19兩筆已在前一晚同步。11/19 19:45 Daan interval 6.6323km/41:22、avgHR164 max184、TE3.6 aerobic +3.8 anaerobic；4×~400m avg97.80s，4×~600m avg153.08s，恢復段多次HR低谷約136–142。20:28 Strength 3:56 avgHR148 / watch one Squat set52 reps，使用者直接回報完整做100 Air Squat，差額是自動辨識漏計而非另外做52次。11/18 WOD avgHR170 + 5.06km 後跑，隔天11/19又做Interval+100空蹲，兩個連續硬日，本週11/16–19 Garmin實跑23.391km（超12–16km原目標上限46%／較11/09週19.95km多約17%）。W01週末不補跑/重腿/Station，W02僅恢復正常再做6–7km Easy及有條件的低量跑站技術；版本號v1.5.5保持不變。",
     "findings": [
       {
-        "title": "11/18 衝高心率與可疑211極值",
-        "body": "Petra WOD Garmin avg170/max211；私有每分鐘HR在第1分鐘169、第3分鐘179，三個下降低谷約141/145/152，後段負荷提高。第26分鐘單分鐘HR極值211、下一分鐘平均約171，可能腕式心率雜訊；需更多證據及症狀確認，非個人最大心率門檻。"
+        "title": "11/19 FIT實測：4×400m + 4×600m",
+        "body": "Garmin ID25130250797 跑6.6323km/41:22，均心164 max184、TE3.6有氧/3.8無氧。四組約400m均97.8秒（約4:06/km），四組約600m均153.1秒（約4:20/km）；最後兩組稍慢但未嚴重崩盤。部分恢復分段分鐘均心落到約136–142，並非全程降不下來。"
       },
       {
-        "title": "WOD後5km不算恢復跑",
-        "body": "11/18 WOD後實跑5.0583km/30:51/均心162，公里HR 153→162→164→165→168，後段速度也加快。加上11/16 5.85km與11/17 5.85km，本週已跑16.7587km，另有白板推估WOD內~1.05km，後者不混入Garmin跑量。"
+        "title": "100 Air Squat有同步，但手錶只辨識52",
+        "body": "跑後約74秒啟動 Garmin Strength ID25130251201，3:56.6、平均HR148 max155，FIT自動判為Squat單組52下、無重量值。使用者直接回報100下才是實際完成量，切勿把52再相加或當成完整訓練量；Air Squat不是6kg Wall Ball的等量替代。"
       },
       {
-        "title": "Wall Ball先無力不等於單純心肺差",
-        "body": "11/18 AMRAP包含Ski/HR Push-up/Row/WB×15/350m run，個人成績3R+45；3完整輪大致包含45次WB，+45是整體分數單位非45次WB。腿部局部肌耐力、動作節奏、呼吸與疲勞累積都是可能因素；既往膝小腿症狀尚未確認恢復。"
+        "title": "W01 實際跑量23.39km＋連兩天硬課",
+        "body": "11/16 5.8532km、11/17 5.8472km、11/18 5.0583km（WOD後仍偏高心率）、11/19 6.6323km Interval。原週目標12–16km、上週實跑約19.95km。11/18 30分鐘Petra hard WOD + 後跑緊接11/19硬Interval +100空蹲，因此11/20–22取消補長跑、Station、WallBall與高量Squat。"
       },
       {
-        "title": "當週 Push／Pull 已完成，不要重複堆量",
-        "body": "Garmin FIT原始Set已找出11/14 20有效組主要為Push首選類別、11/16 16組含Pull8+Legs6；使用者也確認近期World Gym推拉都練過。11/18硬Petra+5.06km後，Thu/Fri採恢復、Sat取消Station，不補Push/Pull/硬腿。未來6週受控轉換課維持為原站點主課替代。"
+        "title": "下一週以肌耐力品質與恢復能力優先",
+        "body": "11/23–29若48–72h完全恢復、膝/小腿無痛，再做Long Easy 6–7km（否則4–6km或25–40分鐘Easy Ski/Row）與最多1次主要硬品質刺激（WOD或Interval擇一）。週六Ski200m→WB6kg×6→Row200m採2輪起始、最多3輪RPE5，取代原主站；週三硬WOD後直接取消，100 Air Squat不做每次跑後固定加練。"
       }
     ],
-    "limitation": "Garmin 60s FIT heart rate是私有資料的每分鐘彙總，不包含每站起止標記，不能把心率峰值直接歸給Wall Ball或測準確1min HRR。最高211bpm可能瞬間光學誤差，無胸帶核對；沒有確定HR Zone/LTHR、WOD球重與逐站時間、膝/小腿最新恢復狀態。"
+    "limitation": "11/19 Garmin original FIT exercise first-candidate 'Squat' and rep count52 are watch estimates; user directly reported100 completed, exact breakdown/technique unknown. FIT recovery HR minute averages do not map one-to-one to rep ends, and we lack HR zones/LTHR calibration, sleep, soreness and knee pain follow-up. Bodyweight squats are not identical to race Wall Ball. Avoid overstating causal inference or treating 11/18 isolated HR211 as valid HRmax."
   },
   "weeks": [
     {
@@ -582,84 +662,78 @@
     }
   ],
   "privacy": "Public GitHub Pages — 本頁僅顯示彙總訓練指標，不包含 GPS、完整 FIT、來源白板照片或金鑰。",
-  "lastReview": "2026-11-18",
+  "lastReview": "2026-11-20",
   "reviewStatus": {
     "verified": true,
-    "garminAsOf": "2026-11-18",
+    "garminAsOf": "2026-11-19",
     "petraPhotoAsOf": "2026-11-18 20:05 Asia/Taipei (IMG_1755.HEIC)",
-    "garminActivities": 74,
-    "fitLaps": 231,
+    "garminActivities": 77,
+    "fitLaps": 251,
     "garminSyncStatus": "ok",
-    "manualReview": "2026-11-18",
+    "manualReview": "2026-11-20",
     "nextWeekStart": "2026-11-09",
     "method": "Garmin activity_id de-dup; multi-part interval workout one session, photo file id+modifiedTime registry; team score never individual score",
-    "garminLastSyncUtc": "2026-11-18T12:22:23+00:00",
+    "garminLastSyncUtc": "2026-11-20T13:52:04+00:00",
     "garminNewActivities": 0,
     "nov7StrengthActivities": 2,
     "nov7WallBallRecorded": true,
-    "latestActivityCrossCheck": "11/18 Petra photo IMG_1755 3R+45 -> Garmin HIIT 25117883969 30:04 avgHR170/peak211; immediately after Garmin run 25118351864 5.0583km/30:51 HR162; prior road cycling 25117468740 3.11km recorded separately; 11/17 run 25102516810 5.8472km.",
+    "latestActivityCrossCheck": "11/19 Garmin Running ID25130250797 6.6323km Interval 4×~400+4×~600; immediately after Garmin Strength ID25130251201 3:56.58, FIT Squat first candidate52 reps, user-reported actual100 reps; same event not double counted.",
     "petraRegistryIndexed": 38,
     "petraRegistryPending": 0,
     "petraRegistryBaseline": "2026-11-07",
     "petraIncrementalMode": true,
-    "garminActivitiesObserved": 74,
-    "garminObservedAt": "2026-11-18 20:22 Asia/Taipei",
-    "detailReanalysis": "Private Garmin_API_HR_Minute tab: WOD minute 1=169, 3=178.5, 7=140.9, 16=144.9, 21=181.9, 22=181.7, 25=151.9, 26=191.2 (peak211), 27=170.8; valleys likely rests, not station-tagged. Post-run 5km FIT hr153/162/164/165/168, elapsed ~6:06/km.",
-    "rawGarminActivityCountAsOf": "2026-11-18",
-    "detailedPerformanceSnapshotAsOf": "2026-11-18 Garmin 74 activities/231 laps and private minute-level FIT HR; Petra 38 photos",
-    "performanceNote": "Max211 is isolated questionable wrist reading, not automatic HRmax. The entire Nov18 WOD and subsequent 5km run constitute a heavy same-day training stimulus; no future hard sessions in W01.",
-    "lastIntervalAnalysis": "11/18 Petra hard HIIT WOD is this week's dominant hard station; 11/19 Thu hard running intervals CANCELLED, 11/21 Sat hard station CANCELLED.",
-    "workoutSubjectiveUpdate": "2026-11-18",
-    "recoveryDataStatus": "User reports sudden HR rise and early WB lower-body fatigue on 11/18. Previous knee/calf soreness resolution still unknown. Low-impact or rest if symptoms; clinical assessment for concerning heart symptoms.",
+    "garminActivitiesObserved": 77,
+    "garminObservedAt": "2026-11-20 21:52 Asia/Taipei",
+    "detailReanalysis": "11/19 interval avg400=97.804s avg600=153.0805s; HR work 177–181 commonly, recovery-minute HR valleys 125.6–141.8. Run avgHR164 max184 TE3.6/3.8. 11/18 WOD+post-run high stress on prior day; week run23.391km. 11/19 strength avgHR148 auto-count52 vs user100.",
+    "rawGarminActivityCountAsOf": "2026-11-20",
+    "detailedPerformanceSnapshotAsOf": "2026-11-20 verified through 2026-11-19: 77 Garmin activities, 37 runs, 251 FIT laps, 12 Garmin FIT strength sessions, 191 strength set messages",
+    "performanceNote": "Garmin FIT records strength 1 set/52 squat reps, but user reports 100 actual. Rep detection incomplete, no load value; do not use FIT count to override reported work or convert all squats into Wall Balls.",
+    "lastIntervalAnalysis": "2026-11-19 4x400 + 4x600 high effort, plus reported100 bodyweight air squats; W01 final running23.391km, previously 16.76 through Nov18. No more W01 hard sessions.",
+    "workoutSubjectiveUpdate": "2026-11-20",
+    "recoveryDataStatus": "As of Nov20 user has not reported next-day leg soreness, knee/calf pain, swelling, sleep or feeling recovered after Nov19 100 air squats; conditional load reduction prioritized.",
     "calfSymptomsRecorded": true,
-    "garminLastConfirmedActivities": 74,
+    "garminLastConfirmedActivities": 77,
     "petraIndexed": 38,
     "garminNewLaps": 0,
     "petraNewOrModified": 1,
-    "garminNewSincePreviousAppSnapshot": 4,
-    "fitLapsNewSincePreviousAppSnapshot": 13,
+    "garminNewSincePreviousAppSnapshot": 3,
+    "fitLapsNewSincePreviousAppSnapshot": 20,
     "strengthReconciliation": "11/18 original Garmin FIT strength sets 11 sessions/190 messages processed privately; Nov14 Push provisional 19/20 active, Nov16 Pull8 Legs6 of16 active; user confirmed recent Push+Pull. Auto guesses uncertain.",
     "strengthRawPrivate": true
   },
   "recentWorkout": {
-    "date": "2026-11-18",
-    "venue": "Petra Training + Daan Forest Park",
-    "session": "AMRAP30 HYROX-style WOD + post-WOD 5.06km fatigue run",
-    "source": "IMG_1755.HEIC Drive + Garmin Personal API / FIT activity summaries + private 60s HR",
-    "status": "PHOTO_VERIFIED_INDIVIDUAL_SCORE + GARMIN_HIIT_AND_RUN_VERIFIED",
+    "date": "2026-11-19",
+    "venue": "Daan District interval run (Garmin) + immediately post-run strength; Petra class attribution from user context, not GPS-only verified",
+    "session": "4×~400m +4×~600m intervals, then 100 bodyweight Air Squats (user-reported)",
+    "source": "Garmin API private Google Sheet / FIT laps & strength SET + user explicit completed-reps report",
+    "status": "2 Garmin activities on one training occasion; 100 user reported, FIT auto-count52",
     "movements": [
-      "SkiErg 300/250m",
-      "Hand-release Push-up 15",
-      "RowErg 300/250m",
-      "Wall Ball 15/round (load unknown)",
-      "Run 350m/round",
-      "Rest 90 sec",
-      "Post WOD Daan 5.0583km running"
+      "Run 6.6323km total including intervals/recoveries",
+      "4×~400m work intervals",
+      "4×~600m work intervals",
+      "Air Squat 100 (user reported); auto-classified Squat52 FIT in one set"
     ],
     "garmin": {
-      "wodActivityId": "25117883969",
-      "wodDurationSeconds": 1803.704,
-      "wodAvgHr": 170,
-      "wodPeakHr": 211,
-      "wodPeakStatus": "isolation; verify before treating as real",
-      "wodAerobicTE": 3.6,
-      "wodAnaerobicTE": 3.2,
-      "postRunActivityId": "25118351864",
-      "postRunDistanceKm": 5.0583,
-      "postRunDurationSeconds": 1851.214,
-      "postRunAvgHr": 162,
-      "postRunMaxHr": 173,
-      "postRunKmHr": [
-        153,
-        162,
-        164,
-        165,
-        168
-      ]
+      "runActivityId": "25130250797",
+      "runDistanceKm": 6.6323,
+      "runElapsedSeconds": 2481.823,
+      "runMovingSeconds": 1873.604,
+      "runAvgHr": 164,
+      "runMaxHr": 184,
+      "runTE": {
+        "aerobic": 3.6,
+        "anaerobic": 3.8
+      },
+      "strengthActivityId": "25130251201",
+      "strengthElapsedSeconds": 236.58,
+      "strengthAvgHr": 148,
+      "strengthMaxHr": 155,
+      "strengthAutoCountSquat": 52,
+      "reportedActualAirSquat": 100
     },
-    "note": "Alvin 3R+45 WOD, +45 total score units NOT extra 45 WB. Full rounds imply 45 WB and ~1.05km WOD running photo-estimated. Park 5km separate Garmin run, WOD internal run not double counted.",
-    "interpretation": "Likely combination of fast intensity ramp, peripheral leg fatigue and recent cumulative load; specific station HR attribution not supported by minute-only FIT data.",
-    "nextSteps": "Nov19 rest or easy technique, no hard interval; Sat hard Station off. Follow 6-week controlled Ski→WB→Row and easy aerobic plan."
+    "note": "Run ended around20:27:14, Strength began20:28:27 (~74s later). Air squats are not 100 WB reps. FIT auto 52 is not independent extra squats. No post-Nov19 symptom report.",
+    "interpretation": "Consecutive hard stress Nov18 and Nov19, and ~23.39km W01 running; fatigue-management priority outweighs adding new repeats or finishing squats.",
+    "nextSteps": "Nov20–22 recovery; no new long run or Station/Wall Ball; W02 conditional easy and low-volume controlled transition, only one primary hard work session."
   },
   "equipmentWorldGym": {
     "confirmedAt": "2026-11-07",
@@ -828,7 +902,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-18 · Strength FIT sets/data reconciliation; version unchanged at v1.5.5 (no feature release)",
+  "planUpdated": "2026-11-20 · Actual Nov19 Garmin interval & Air Squat reconciliation + W01/W02 load adjustment; product version unchanged (v1.5.5)",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -1324,7 +1398,7 @@
         "end": "2026-11-21",
         "blockId": "foundation",
         "tag": "BASELINE",
-        "focus": "Nov18高強度Petra WOD 3R+45＋5.06km後跑已完成；Thu硬跑取消，Sat主Station取消，先恢復心肺與腿部",
+        "focus": "Nov18 hard Petra WOD+5.06km and next-day Nov19 hard Interval6.63km+100 reported Air Squats. Total W01 Garmin running23.39km, reduce remaining sessions/recover.",
         "why": "基礎動作品質；避免硬舉或雪橇衝刺；Station進展照每週原有WOD與有氧課進行。",
         "load": "recover",
         "priority": "先讓小腿恢復，不能跑就換低衝擊有氧",
@@ -1717,7 +1791,8 @@
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
           "2026-11-17資料更新：週一Garmin跑步＋力量＋Ski三筆，週二短Easy與額外Ski先暫停，既有17週期化和Long Easy progression不更改。",
           "11/18 Petra hard WOD Alvin3R+45 + post-WOD 5.0583km HRavg162, same-day high load; minute HR trend and Garmin-based recovery priority, no further run or hard station until next week.",
-          "11/18 user confirmed recent World Gym Push and Pull had been tracked by watch; Garmin FIT Strength 11/14 provisional Push19 of20 active, Nov16 mixed Pull8+Legs6 of16 active; Fri Push cancelled due WOD recovery, not re-added. No version bump."
+          "11/18 user confirmed recent World Gym Push and Pull had been tracked by watch; Garmin FIT Strength 11/14 provisional Push19 of20 active, Nov16 mixed Pull8+Legs6 of16 active; Fri Push cancelled due WOD recovery, not re-added. No version bump.",
+          "2026-11-20: Garmin 11/19 Run6.6323km 4x400+4x600 followed ~74s later by Strength3:56.6, FIT autoSquat52 vs user actualAirSquat100. Combined weekly run23.391km and consecutive Nov18/19 hard days; Fri–Sun rest, no Station."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -1780,15 +1855,15 @@
             "dayZh": "週日",
             "date": "2026-11-15",
             "kind": "rest",
-            "title": "REST／無痛低強度活動",
+            "title": "REST｜本週跑量已達23.39km，Long Easy不補",
             "time": "不補Long Easy",
             "sections": [
               {
-                "name": "Nov 18 Garmin + Petra 實測後修正",
-                "format": "v1.5.5 實際訓練／恢復優先",
+                "name": "週量已完成",
+                "format": "不追目標",
                 "lines": [
-                  "本週Garmin三次實跑共16.7587km，已高於原先12–16km週量上限",
-                  "若有膝小腿疼痛／腫脹／異常疲勞，先恢復並評估"
+                  "Garmin 11/16、17、18、19四跑共23.391km，較12–16km原計畫偏高",
+                  "11/18 WOD內約1.05km是白板估計、另計，不可混入 Garmin 跑步總數"
                 ]
               }
             ],
@@ -1858,40 +1933,41 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-19",
-            "kind": "rest",
-            "title": "REST｜取消11/19 Petra硬Interval",
-            "time": "完全休息優先",
+            "kind": "run",
+            "title": "ACTUAL Thu 11/19｜4×400＋4×600 Intervals＋100 Air Squats",
+            "time": "19:45 6.6323km / 41:22 + 20:28 Air Squat3:56 · 完成",
             "sections": [
               {
-                "name": "Nov 18 Garmin + Petra 實測後修正",
-                "format": "v1.5.5 實際訓練／恢復優先",
+                "name": "Garmin API 與本人回報",
+                "format": "實際完成，不代表建議連續兩天高強度",
                 "lines": [
-                  "11/18已有30分鐘硬WOD+5.06km後跑，11/19不做高速間歇",
-                  "症狀完全正常才可選輕活動/技巧RPE2–3 15–20min，非補跑量"
+                  "Garmin Running 25130250797：6.6323km，平均心率164／最高184，有氧TE3.6／無氧TE3.8",
+                  "FIT 4×約400m均97.8秒、4×約600m均153.1秒，間歇恢復包含在6.6323km內",
+                  "Garmin Strength 25130251201：3:56.6，FIT自動Squat52次；本人回報Air Squat100次，後者為實際完成量，二者不是兩次訓練",
+                  "11/18 Wed Petra WOD+跑5km後隔天再做高強度與百次空蹲，後續優先恢復"
                 ]
               }
             ],
-            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課"
+            "subtitle": "原本計畫休息，但實際完成了高強度，必須按 Garmin 已完成量更新"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-20",
             "kind": "rest",
-            "title": "REST｜Push/Pull 已練，本週不補上肢主課",
-            "time": "Rest or painless Mobility 10–20min",
+            "title": "REST｜11/18+11/19連兩天硬課後恢復",
+            "time": "完整休息或無痛Mobility 10–20min",
             "sections": [
               {
-                "name": "訓練負荷去重",
-                "format": "已練就不硬補",
+                "name": "恢復優先",
+                "format": "Garmin實際訓練後調整",
                 "lines": [
-                  "11/14 Garmin Strength：20有效組，手錶辨識19組Push首選類別（臥推／側平舉類；具不確定性）",
-                  "11/16 Strength：16有效組包含Pull8、Legs6，使用者確認近期推拉已做過",
-                  "11/18 Petra WOD30分鐘＋跑5.06km後，11/20休息或無痛Mobility；不安排Push/Pull/Wall Ball/Sled"
+                  "今日不再加跑、深蹲、Sled、WallBall或高強度Erg",
+                  "即使想運動也只在無痛且疲勞可控時做輕Mobility/散步，先評估小腿膝蓋與睡眠"
                 ]
               }
             ],
-            "subtitle": "近期11/14 Garmin Strength主要Push候選且使用者確認近期Push/Pull已完成；11/18大負荷後週五選恢復",
+            "subtitle": "近期Push Pull已做，間歇與Squat也完成，11/20不補原Push",
             "wodRunKm": 0,
             "stationTags": [
               "SkiErg",
@@ -1905,19 +1981,19 @@
             "dayZh": "週六",
             "date": "2026-11-21",
             "kind": "rest",
-            "title": "REST｜本週主要Station已由Petra WOD取代",
+            "title": "REST｜硬Station 已由11/18與11/19高負荷取代",
             "time": "休息／Mobility",
             "sections": [
               {
-                "name": "Nov 18 Garmin + Petra 實測後修正",
-                "format": "v1.5.5 實際訓練／恢復優先",
+                "name": "恢復",
+                "format": "無額外主課",
                 "lines": [
-                  "11/18 WOD已做Ski+Row+Wall Ball+跑，不需補第二次硬Station",
-                  "可休息或10–15分鐘無痛Mobility，沒有追加WB練習"
+                  "不安排Ski→WallBall→Row硬循環、100 air squat尾刀或重腿",
+                  "保留恢復、柔和活動，觀察48–72小時延遲性腿部痠痛與膝蓋反應"
                 ]
               }
             ],
-            "subtitle": "W01 依11/18實際訓練更新，未做完的課無需補課",
+            "subtitle": "本週四次Garmin實跑23.391km，Sat不加高心率或高下肢量",
             "wodRunKm": 0
           }
         ],
@@ -1965,7 +2041,7 @@
               "id": "easy",
               "priority": "LOW PRIORITY DELoad",
               "title": "TUE AM · 第三次短 Easy Run（恢復許可才做）",
-              "dose": "W01 no additional run; 16.7587km actual already exceeds 12–16km plan",
+              "dose": "W01 no additional Easy: already 23.391km actual, high WOD + interval two consecutive days",
               "details": [
                 "11/16已完成晨跑＋中午力量＋Ski，因此11/17先省略額外Easy和Ski技巧，優先恢復",
                 "與當天World Gym Pull主課可分早晚，無法分離也不需硬塞",
@@ -1977,7 +2053,7 @@
               "id": "long",
               "priority": "重點",
               "title": "SUN Long Easy (or Petra Strength/Skill substitution)",
-              "dose": "11/16 already completed 5.8532km long easy; no replacement this week",
+              "dose": "Nov16 Long Easy5.8532km completed; do not compensate another Long Easy this week",
               "details": [
                 "11/16 Garmin已完成5.85km / 39:02 / 均心141，算本週Long Easy；恢復正常前不補第二次長跑",
                 "如週六Station使腿部疲勞，縮短或改日；腿/膝有痛則改無痛低衝擊或休息",
@@ -1989,7 +2065,7 @@
               "id": "quality",
               "priority": "FIXED class, adaptive intensity",
               "title": "THU Petra Interval",
-              "dose": "11/19 hard interval CANCELLED; recovery only if fully symptom-free",
+              "dose": "ACTUAL Nov19: 4×~400m (avg97.8s)+4×~600m (avg153.1s), 6.6323km, HR164. No further quality W01.",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
                 "疼痛或步態異常不硬跑，記錄隔天反應"
@@ -1998,7 +2074,7 @@
           ],
           "optional": "Deload/特殊週不必強求第三次Easy；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "11/18 WOD 30:04 + after-run5.0583km; W01 total recorded runs16.7587km; no further run; Thu hard cancelled",
+          "weeklyFocus": "11/19 Thu 6.6323km hard Interval TE3.6+3.8 after 11/18 hard WOD+5.06km, plus100 user-reported Air Squat. W01 23.391km total actual run vs12–16km target; Fri–Sun recover.",
           "wodRunKm": 0,
           "independentRunKmRange": [
             12,
@@ -2039,7 +2115,7 @@
             "flexibleDays": true,
             "estimatedAchievement": "conditional; not confirmed"
           },
-          "actualRunKm": 16.7587
+          "actualRunKm": 23.391
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -2107,7 +2183,8 @@
           "steps": [
             "SkiErg300/250m→15 HR Pushup→RowErg300/250m→Wall Ball15→350m Run→Rest90sec；3R+45照片分數",
             "Garmin WOD HRavg170, postrun HRavg162; max211 uncertain",
-            "這是W01主Station，Sat不再做站點"
+            "這是W01主Station，Sat不再做站點",
+            "Thu Nov19 interval 4x400+4x600 + user-reported100 Air Squat additional second hard training occasion; Sat hard station remains cancelled"
           ],
           "prerequisites": [
             "No hard Wednesday Petra WOD (it substitutes this main session)",
@@ -2116,14 +2193,14 @@
             "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
           ],
           "alternative": null,
-          "counting": "Sat run-station or pure station main counts as same 1 weekly workout, not two; Fri 0-2 finisher rounds are skill only",
+          "counting": "Nov18 Petra WOD one station event; Nov19 interval+air squats separate workout, not a second station session and not an extra 100 Wall Balls",
           "freshness": "completed; photo and Garmin verified"
         },
         "weakStationSkill": {
           "phase": "RECOVERY",
           "bbj": "不安排跳躍；僅動作檢查",
           "sandbagLunge": "無痛徒手Reverse Lunge 2×6/側",
-          "wallBall": "11/18 Petra WOD已做3完整輪×15=45次（白板推估，重量未知），W01不再補WB",
+          "wallBall": "11/18 Petra WOD estimated WB15×3=45 (ball mass unverified). 11/19 user-reported Air Squat100, Garmin automatically counted52; bodyweight squats are not Wall Ball and should NOT be logged as 100 WB. No extra legs or WB in W01.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -2236,7 +2313,7 @@
         "end": "2026-11-28",
         "blockId": "foundation",
         "tag": "BASE",
-        "focus": "技巧基線與配速分配",
+        "focus": "11/19 100 Air Squat後先恢復：控制Easy和最多一次主要硬課；W02 Station僅條件式回歸",
         "why": "增加深蹲與臥推有效組數；Station進展照每週原有WOD與有氧課進行。",
         "load": "base",
         "priority": "逐步增加Easy而非追間歇速度",
@@ -2653,7 +2730,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "v1.5.5 11/18實測後優化：3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量18包含在Station內。"
+          "v1.5.5 11/18實測後優化：3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量18包含在Station內。",
+          "11/20 Garmin review: Nov18 hard Petra WOD+run followed Nov19 hard interval+100 reported air squats; if DOMS/knee/calf reaction persists, shorten W02 Long Easy to4–6km or replace with Easy Erg, optional Station skill 2×6 WB before max3×6; all alternatives replace, never add sessions."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -2909,6 +2987,14 @@
             "time": "Petra Running · NO WORLD GYM",
             "sections": [
               {
+                "name": "防連續硬日",
+                "format": "恢復優先",
+                "lines": [
+                  "W02要從兩個連續硬日反省，週三高強度WOD＋週四高強度Interval不可再一起做；擇一主要品質刺激",
+                  "若腿DOMS/膝小腿症狀未解除，週四改Easy/技術RPE2–4或不練"
+                ]
+              },
+              {
                 "name": "THURSDAY Running Interval",
                 "format": "若Wed硬→Easy；否則品質跑",
                 "lines": [
@@ -3004,6 +3090,15 @@
             "time": "3輪 · RPE5.5 · 週三硬Petra時取消",
             "sections": [
               {
+                "name": "11/19跑後100次空蹲的個人化恢復規則",
+                "format": "非追加課",
+                "lines": [
+                  "若膝、小腿、股四頭肌仍不適或腿DOMS明顯，取消WallBall與站點，不硬湊任何組數",
+                  "復原正常時Ski200m→6kg WallBall×6→Row200m Easy，先2輪，最多3輪，RPE約5，休90–120秒",
+                  "這堂已取代原Sat Station主課，無需另外再做100次Air Squat；如果Wed已上硬WOD亦直接取消"
+                ]
+              },
+              {
                 "name": "Run-station controlled transfer · v1.5.5",
                 "format": "6kg WB 3×6；非額外課",
                 "lines": [
@@ -3015,7 +3110,7 @@
                 ]
               }
             ],
-            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
+            "subtitle": "恢復良好才做；3輪是上限，首次2輪即可。Wed已上硬Petra WOD則取消。",
             "wodRunKm": 0
           }
         ],
@@ -3096,7 +3191,7 @@
           ],
           "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "技巧基線與配速分配",
+          "weeklyFocus": "W02 after Nov19 high interval+100 Air Squat: Long Easy6–7km only fully recovered (else4–6km/easy erg), one major quality; no 100 squats after intervals.",
           "wodRunKm": 0,
           "independentRunKmRange": [
             13,
@@ -19537,11 +19632,12 @@
   "weeklyScheduleNotes": [
     "If hard Wed Petra WOD, Thu class downscale easy/technical, Sat no hard WOD; if Thu cannot downscale, skip Wed hard WOD.",
     "v1.4: HYROX specificity: run after stations added in W07/W09/W11/W13/W14 only if safe connected outdoor area and no Thu/Wed overload; Wed hard Petra WOD replaces Sat. BBJ, Sandbag Lunges, Wall Ball weekly capped skill doses, Tue short Easy prioritized if recovered, Fri WFH PPL Push retained.",
-    "11/18高負荷硬WOD+5.06km後跑，W01 Thu hard interval/Sat station off。W02–W06 Sat漸進Ski→WallBall→Row循環只在無Wed硬WOD時使用；詳見cardioTransitionProgram / 私有Sheet。"
+    "11/18高負荷硬WOD+5.06km後跑，W01 Thu hard interval/Sat station off。W02–W06 Sat漸進Ski→WallBall→Row循環只在無Wed硬WOD時使用；詳見cardioTransitionProgram / 私有Sheet。",
+    "11/19 Actual Thu interval+100 user-report Air Squat after Nov18 WOD (2 consecutive hard days). W01 running23.391km. W02 recovery gate: quality WOD OR interval, not both; protect knees/calves, no auto100 squat finisher. User-reported 100 vs watch auto52 tracked separately."
   ],
   "trainingTracks": {
     "version": "FINAL-v1.4-2026-11-14",
-    "updated": "2026-11-18",
+    "updated": "2026-11-20",
     "running": {
       "name": "RUNNING",
       "source": "Garmin Personal API via Google Sheets",
@@ -20364,11 +20460,12 @@
   },
   "cardioTransitionProgram": {
     "version": "v1.5.5",
-    "updated": "2026-11-18",
+    "updated": "2026-11-20",
     "sourceSheet": "Cardio_Transition_v1_5_5",
     "purpose": "Improve controlled HR ramp, aerobic return after stations, repeatable Wall Ball leg endurance; no added hard sessions",
     "isAdditionalWorkout": false,
     "rules": [
+      "2026-11-19用戶回報100 Air Squat，Garmin FIT只自動辨識52；不將52+100相加、不將100 Air Squat當Wall Ball次數；W01連續硬日後週末不補課。",
       "WOD硬課若已上，當週Sat主要Station直接取消，次日Petra跑課改Easy/休息。",
       "Wall Ball週目標已包含在主循環或Petra課，絕不把兩者相加。",
       "RPE與談話測試優先；Garmin心率區間未校準，135–145bpm只供觀察，不代表正式Zone2。",
@@ -20383,24 +20480,24 @@
       {
         "week": "W01",
         "date": "11/16–11/22",
-        "focus": "Hard WOD completed—recover",
-        "lowIntensity": "REST 11/19; no more running this week",
-        "leg": "Cancel heavy legs/BBJ",
-        "wb": "~45 WOD reps (weight unverified), no additional",
-        "station": "11/18 Petra WOD replaces Sat main",
-        "longRun": "16.76km actual recorded 3 runs, extra ~1.05km WOD photo-estimate",
-        "gate": "Recover 48h, no lingering joint symptoms"
+        "focus": "Consecutive hard Nov18 WOD + Nov19 intervals/100 Air Squat; recovery and no more W01 running",
+        "lowIntensity": "Nov20–22 REST or light mobility/walk, no extra aerobic goal",
+        "leg": "No heavy Legs/100 Squat/BBJ/Sled or hard station this week",
+        "wb": "~45 WB reps Nov18 based on photo plus user 100 Air Squat Nov19 recorded separately (not WB)",
+        "station": "Wed 11/18 Petra hard WOD and Thu 11/19 intervals+air squats already actual; no Sat Station",
+        "longRun": "23.3910km Garmin running across Nov16–19, plus Nov18 WOD ~1.05km photo-estimated separately",
+        "gate": "48–72h pain-free recovery, no knee/calf changes/swelling, sleep and DOMS check before next hard session"
       },
       {
         "week": "W02",
         "date": "11/23–11/29",
-        "focus": "Control first 3 rounds",
-        "lowIntensity": "Easy erg 25–35min RPE2–4 or short easy run",
-        "leg": "Step-up or Split squat 2×8/side RIR3–4 inside existing Legs",
-        "wb": "6kg 3×6=18 reps included in station",
-        "station": "3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec",
-        "longRun": "6–7km Easy, 6–6.5 if tired",
-        "gate": "3 stable rounds, pain-free day after"
+        "focus": "Recovery first after 100 squats and consecutive hard days; one primary quality session at most",
+        "lowIntensity": "Easy Erg 25–40min RPE2–4, replace running if calf/knee soreness",
+        "leg": "Skip leg accessory or reduce to 1–2 light sets if DOMS persists; only resume planned Step-up / Split Squat if pain-free",
+        "wb": "Optional 6kg 2×6 at first, ceiling 3×6 total in conditional Sat circuit; 0 if sore",
+        "station": "Only if no Wed hard Petra WOD and recovered: 2–3×[Ski200m RPE5→WB6→Row200m Easy]; RPE5, rest90–120s, replaces Sat main",
+        "longRun": "6–7km only when fully recovered; otherwise 4–6km or Easy Erg 25–40min, no hard pace target",
+        "gate": "No pain/swelling, manageable fatigue, and stable technique; no more 100 Air Squat finishers"
       },
       {
         "week": "W03",
