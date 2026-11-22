@@ -246,7 +246,7 @@
       "participants": [
         "Alvin"
       ],
-      "note": "Alvin's individual HYROX PFT on Nov28; pre-PFT taper only Alvin."
+      "note": "2026-11-28 HYROX PFT for Alvin only. W02 Tue optional Petra Strength, Wed childcare precludes WOD, Thu Petra interval optional not fixed."
     }
   },
   "weeklyKm": [
@@ -746,7 +746,7 @@
     "detailReanalysis": "Garmin FIT 20 laps initial1000+1000+338.76m likely correspond to user-reported opening six 200-fast/200-slow alternations (total 2400m prescribed), but cannot individually time/verify 200m reps; remaining 4×400 and4×600 work laps measured and previously analyzed. Same single6.6323km running activity, no duplicate distances.",
     "rawGarminActivityCountAsOf": "2026-11-20",
     "detailedPerformanceSnapshotAsOf": "2026-11-20 verified through 2026-11-19: 77 Garmin activities, 37 runs, 251 FIT laps, 12 Garmin FIT strength sessions, 191 strength set messages",
-    "performanceNote": "Alvin-only W02 plan: Tue optional Petra Strength, Wed childcare no Petra WOD, Thu elective Petra intervals not fixed and this PFT week skip hard class; Sat Alvin PFT.",
+    "performanceNote": "Alvin personal training only: Tue Petra Strength optional, Wed childcare no Petra, Thu Petra interval optional; 11/28 PFT solo and no full interval this taper week.",
     "lastIntervalAnalysis": "2026-11-20 USER CORRECTION: 11/19 run=6×(200m fast+200m slow) +4×400m +4×600m; 6.4km prescribed segments included in Garmin6.6323km; no per-200m FIT Lap available. Plus100 user-confirmed Air Squats, Garmin auto52.",
     "workoutSubjectiveUpdate": "2026-11-20",
     "recoveryDataStatus": "Nov21–22 user surf DOMS. Alvin Wed childcare precludes Petra WOD, Thu class optional; no forced make-up. Prior knee/calf symptoms require subjective clearance.",
@@ -984,7 +984,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-22 · Alvin-only personal training plan; Tue Petra optional, Wed childcare no Petra, Thu Petra intervals elective all weeks; version UNCHANGED.",
+  "planUpdated": "2026-11-22 · Alvin personal training only, Thu Petra Interval elective; plan data update with no app version bump.",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -3263,14 +3263,14 @@
             "Recovered from surfing and no lingering joint pain, swelling or limping",
             "Event organizer standards govern on-site"
           ],
-          "counting": "Saturday PFT replaces Alvin Sat Station; Stacy has no PFT and may do recovery/individual Easy",
+          "counting": "Nov28 Alvin-only PFT replaces Sat station; Wednesday childcare means no Petra WOD, Thursday Petra interval is elective and discouraged this PFT week.",
           "freshness": "PLANNED"
         },
         "weakStationSkill": {
           "phase": "BASE",
           "bbj": "安全動作示範：3×3次，低量、不追距離",
           "sandbagLunge": "徒手Reverse Lunge 2×8/側",
-          "wallBall": "Sat PFT100 wallballs (Alvin male 6kg; Stacy female4kg). No additional high-rep WallBall during Mon–Fri; surf-induced DOMS and prior 100 Air Squat warrant recovery.",
+          "wallBall": "Nov28 Alvin PFT has 100 Wall Balls using 6kg. No extra WB microdose during Mon–Fri except optional very low-volume technique (≤2×5), only if pain-free and time allows.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
