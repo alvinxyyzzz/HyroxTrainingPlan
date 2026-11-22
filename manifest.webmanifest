@@ -3,12 +3,12 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=v151-row-ski-clean",
+  "start_url": "./?app=weekly-board-v36",
   "scope": "./",
   "display": "standalone",
   "description": "17週HYROX Taipei週期化訓練路線、每週詳細課表與Garmin/Petra科學判讀",
-  "background_color": "#f6f8f7",
-  "theme_color": "#f6f8f7",
+  "background_color": "#f2f5f0",
+  "theme_color": "#f2f5f0",
   "icons": [
     {
       "src": "./icon-192-v9.png",
