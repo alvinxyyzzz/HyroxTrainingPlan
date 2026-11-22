@@ -242,14 +242,11 @@
       ],
       "maleWallBallKg": 6,
       "femaleWallBallKg": 4,
-      "comment": "Individual PFT; user asks Alvin and Stacy plans, Stacy PFT attendance assumed not verified",
+      "comment": "Alvin-only planned PFT; user confirms solo.",
       "participants": [
         "Alvin"
       ],
-      "nonParticipants": [
-        "Stacy"
-      ],
-      "note": "ONLY Alvin participates HYROX PFT Nov28. Stacy has her own separate Monday interval running, no PFT; correct earlier wrong assumption."
+      "note": "Alvin's individual HYROX PFT on Nov28; pre-PFT taper only Alvin."
     }
   },
   "weeklyKm": [
@@ -377,27 +374,27 @@
     }
   ],
   "coach": {
-    "headline": "11/28 只有 Alvin PFT｜Stacy 週一 Interval、週三 WOD 或週四 Interval 擇一；PFT後導入選手部 A/B/C",
-    "summary": "Corrected user constraints Nov22: ONLY Alvin attends HYROX PFT on Sat Nov28. Stacy does NOT attend and has her OWN Monday Nov23 Interval Running. Alvin after surfing Nov21/22 has generalized DOMS/fatigue, Garmin refreshed77 unchanged; this week conditional light legs Mon, small familiar-strength Tue, optional low-volume fast PFT race priming2×150–200m RPE7–8 with full recoveries Wed only if soreness resolved, optional Easy Thu, rest Fri and individual PFT Sat. Stacy normal training: Mon hard IntervalRPE7–8, Tue Strength upper/core30–45min RPE5–6, Wed hard Petra WOD if recovered as second hard, Thu Easy; OR if Wed WOD skipped, Thu hard interval as second hard instead; Fri moderate World Gym if recovered, Sat optionalEasy/rest and no PFT. User supplied Petra athlete board 11/21 Every10min×6 featuring A SkiRun, B ReverseLunge+WallBall+Run, C RowRun; integrate after PFT into periodized Saturday Station main with W03 3×10min conditional (postPFT DOMS recovery), W04 2×10min deload, W05 3×10min RPE7, W06 4×10min RPE7–8. The entire6×10min athlete dose is NOT appropriate in Nov28 test week. Normal weeks cap two major hard sessions, substitute instead of stacking Sat station on hard Wed WOD. No app version bump.",
+    "headline": "PFT 11/28 只屬於 Alvin｜週二 Petra Strength 選配、週三顧小孩不去 Petra、週四 Interval 自主選擇",
+    "summary": "Nov22 Alvin personal plan confirmed: Tue Petra Strength optional (20–30min RPE5–6 if soreness recovered and childcare coverage), Wed childcare means NO Petra WOD and optional brief running primer only at a feasible alternative time, Thu Petra Interval is ALWAYS an elective class, NOT fixed, and this PFT week 11/28 Sat means skip full hard intervals; optional Easy15–20min or Rest. Fri rest, Sat individual Alvin PFT. Weekend surfing Nov21–22 generalized soreness self reported; Garmin 77 unique activities +0 new at refresh; do not use lack of Garmin surfing records as recovery evidence. User wants athlete-grade post-PFT ABC progression which replaces Sat main and does not require Thu class or automatic make-up. App training plan excludes all other family members' workout prescriptions. Version remains v1.5.5.",
     "findings": [
       {
-        "title": "Stacy 週一自己已有 Interval，不要再排三天連環硬課",
-        "body": "週一是Stacy第一堂品質刺激，週二上肢/核心中等Strength，週三若恢復就上Petra WOD RPE7–8，週四做Easy；若週三沒上硬WOD才改週四Interval第二堂。Stacy沒有11/28 PFT，不需要跟著Alvin減量。"
+        "title": "週二可去Petra Strength，但低量",
+        "body": "你週二可以自行選擇去Petra Strength，前提是顧小孩安排可行且衝浪後DOMS已退。只做20–30min熟悉動作RPE5–6，避免新肌肉痠痛干擾週六PFT。"
       },
       {
-        "title": "Alvin 週六單人PFT，保留少量快感但不要硬WOD",
-        "body": "衝浪後仍痠痛時週一休息；恢復正常才極輕腿啟動。週二熟悉動作低量Strength，週三可選2×150–200m在PFT跑速感覺、完整恢復+最多2×5 WallBall；不是整堂Petra WOD。週四Easy或休息，週五全休。"
+        "title": "週三顧小孩，Petra WOD 不列入你的課表",
+        "body": "週三不能去Petra WOD，直接排居家恢復。若要在另一個有空的時段做少量跑步賽前啟動2×150–200m，需無痛且能妥善安排家庭照顧；不做也不影響本週計畫。"
       },
       {
-        "title": "選手部圖不是直接照抄6×10分鐘",
-        "body": "11/21白板寫Go Every10min×6 Rounds，分成A Ski→Run→Ski→Run、B DB ReverseLunge→WallBall→Run→WallBall→ReverseLunge、C Row→Run→Row→Run。這是高密度跑站重複能力訓練，適合PFT後漸進，白板斜線距離部分不清晰，App使用縮量版本。"
+        "title": "週四Petra Interval 一直都是選配，不是固定必修",
+        "body": "你每週自己決定是否參加週四跑課；若沒去就不必為了打卡另外補硬Interval。這週六有PFT，週四不建議做完整間歇，頂多Easy15–20min或休息。"
       },
       {
-        "title": "PFT後以強度週期化真正升級",
-        "body": "W03完成PFT後恢復且無痛，再測試A/B/C 3×10min RPE6；W04 2×10min deload；W05 3×10min RPE7–8；W06最多4×10min RPE7–8。每次當Sat Station主課，不與Wed全力WOD相加；週內高強度主課通常不超過2堂。"
+        "title": "PFT後上強度，靠A/B/C選手式主站，而非堆滿日曆",
+        "body": "11/21 Petra選手部白板 A Ski+Run、B DB Reverse Lunge+Wall Ball+Run、C Row+Run。PFT後循序從3×10min進階、降載2×10、再到3–4×10；只在恢復正常、沒有另做硬WOD時作Sat原主站的替代，不將所有高強度課硬塞同週。"
       }
     ],
-    "limitation": "Stacy personally confirmed Monday intervals and nonparticipation in Saturday PFT, but no connected Stacy Garmin data/individual fatigue. Surfing soreness unresolved status. Athlete board from user IMG_1778.jpeg has some slashed distances/reps illegible, so ABC blocks are explicitly inspired modified workouts, not claimed exact coach plan. PFT standard as official HYROX Taiwan page."
+    "limitation": "Garmin data is Alvin-only. Surfing fatigue is self-reported and absence of recorded workouts does not imply rest. User alone is PFT participant. Thu Petra interval is elective; class structure unknown until user elects attendance."
   },
   "weeks": [
     {
@@ -749,10 +746,10 @@
     "detailReanalysis": "Garmin FIT 20 laps initial1000+1000+338.76m likely correspond to user-reported opening six 200-fast/200-slow alternations (total 2400m prescribed), but cannot individually time/verify 200m reps; remaining 4×400 and4×600 work laps measured and previously analyzed. Same single6.6323km running activity, no duplicate distances.",
     "rawGarminActivityCountAsOf": "2026-11-20",
     "detailedPerformanceSnapshotAsOf": "2026-11-20 verified through 2026-11-19: 77 Garmin activities, 37 runs, 251 FIT laps, 12 Garmin FIT strength sessions, 191 strength set messages",
-    "performanceNote": "Only Alvin PFT. Stacy Monday interval RPE7-8, Wed WOD OR Thu hard interval second quality. Alvin optional small 2x150-200m race-pace priming Wed if recovered; not full hard WOD.",
+    "performanceNote": "Alvin-only W02 plan: Tue optional Petra Strength, Wed childcare no Petra WOD, Thu elective Petra intervals not fixed and this PFT week skip hard class; Sat Alvin PFT.",
     "lastIntervalAnalysis": "2026-11-20 USER CORRECTION: 11/19 run=6×(200m fast+200m slow) +4×400m +4×600m; 6.4km prescribed segments included in Garmin6.6323km; no per-200m FIT Lap available. Plus100 user-confirmed Air Squats, Garmin auto52.",
     "workoutSubjectiveUpdate": "2026-11-20",
-    "recoveryDataStatus": "Nov22 surfing2 days and generalized DOMS reported by Alvin, no Garmin surf records. Only Alvin PFT Sat Nov28; Stacy Mon separate interval. Risk gating based on soreness and prior knee/calf sensitivity.",
+    "recoveryDataStatus": "Nov21–22 user surf DOMS. Alvin Wed childcare precludes Petra WOD, Thu class optional; no forced make-up. Prior knee/calf symptoms require subjective clearance.",
     "calfSymptomsRecorded": true,
     "garminLastConfirmedActivities": 77,
     "petraIndexed": 38,
@@ -987,7 +984,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-22 · Corrected Stacy NON-PFT and Monday own intervals; athlete Petra ABC future progressions; routine data update NO VERSION BUMP",
+  "planUpdated": "2026-11-22 · Alvin-only personal training plan; Tue Petra optional, Wed childcare no Petra, Thu Petra intervals elective all weeks; version UNCHANGED.",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -2401,7 +2398,7 @@
         "end": "2026-11-28",
         "blockId": "foundation",
         "tag": "BASE",
-        "focus": "Only Alvin Nov28 PFT: surfer DOMS taper, Wed optional short speed primer. Stacy no PFT: own Mon hard Interval + Wed Petra WOD OR Thu hard Interval, Fri moderate WG if ready.",
+        "focus": "Nov28 HYROX PFT taper for Alvin ONLY. Tue Petra Strength OPTIONAL depending on recovery/childcare, Wed child care => no Petra WOD, Thu Petra Interval OPTIONAL (usually skip hard this PFT week), Fri rest, Sat PFT.",
         "why": "增加深蹲與臥推有效組數；Station進展照每週原有WOD與有氧課進行。",
         "load": "base",
         "priority": "逐步增加Easy而非追間歇速度",
@@ -2421,13 +2418,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "若Wed硬→Easy；否則品質跑",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -2820,8 +2817,7 @@
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
           "v1.5.5 11/18實測後優化：3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量18包含在Station內。",
           "11/20 Garmin review: Nov18 hard Petra WOD+run followed Nov19 hard interval+100 reported air squats; if DOMS/knee/calf reaction persists, shorten W02 Long Easy to4–6km or replace with Easy Erg, optional Station skill 2×6 WB before max3×6; all alternatives replace, never add sessions.",
-          "Nov22: surfing Nov21–22 for two days user report with DOMS/fatigue, Garmin refresh77 activities +0 surf. Official PFT Sat Nov28. W02 is special taper not weekly build: conditional light Mon legs, Tue20-30min light Petra strength, Wed full WOD skip, Thu hard interval skip, Fri rest, Sat PFT. Stacy's Garmin data unavailable, recommendations tentative. No version bump.",
-          "Correction confirmed: ONLY Alvin has PFT Sat Nov28; Stacy independent Monday Nov23 interval, not PFT. Stacy two hard sessions Mon and Wed (or Mon and Thu), not Mon+Wed+Thu. Alvin has optional 2x150-200m race-pace Wed primer if no DOMS; no full athlete WOD before PFT."
+          "User constraints 2026-11-22: Training plan only Alvin. Tue optional Petra Strength if childcare and recovered; Wed cannot attend Petra due childcare; Thu Petra Interval is elective not fixed or mandatory and PFT week hard intervals are discouraged. No makeup required."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -2884,102 +2880,78 @@
             "dayZh": "週日",
             "date": "2026-11-22",
             "kind": "rest",
-            "title": "SUN｜Surf fatigue recovery",
-            "time": "Rest",
+            "title": "SUN｜週末衝浪後恢復",
+            "time": "REST／無痛活動",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "11/22 Surf第2天回報全身DOMS；Rest，不補跑"
+                  "11/21–22衝浪後全身痠痛與疲勞，今天以休息、短散步為主；不補Long Easy。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "恢復日；依自己的疲勞決定走路／伸展"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-11-23",
-            "kind": "mixed",
-            "title": "MON｜Alvin輕腿或休息／Stacy Interval",
-            "time": "Alvin輕啟動 / Stacy硬Interval",
+            "kind": "rest",
+            "title": "MON｜休息或輕腿部啟動",
+            "time": "DOMS未退→REST；否則20min RPE≤4",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "若仍明顯痠痛→Rest；若已無痛可做20min輕腿啟動：Easy bike8min、輕Squat2×5 RPE≤4、臀橋2×8、低台Stepup1×5/側，禁止重腿與大量Lunge"
+                  "明顯痠痛、下樓不舒服、膝小腿局部痛就休息；若恢復且有人照顧小孩，才做Easy Bike8min＋輕Squat2×5＋Glute Bridge2×8＋Stepup1×5/側。不做重腿/RDL/大量Lunge。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "自己已安排的Interval Running，RPE7–8，須充分熱身和放鬆。這是Stacy的第一堂高強度，不計入Alvin Garmin跑量；如自身腿痛、疲勞高則調低"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-11-24",
             "kind": "strength",
-            "title": "TUE｜分級 Petra Strength",
-            "time": "Alvin20–30min / Stacy30–45min",
+            "title": "TUE｜Petra Strength（選配、只由你參加）",
+            "time": "20–30min · RPE5–6 · 可取消",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "Petra Strength20–30min小量熟悉動作，1–2組RPE≤5–6且不誘發DOMS；若仍痠痛直接取消"
+                  "週二安排你單獨去Petra Strength，家裡有人照顧小孩才可參加；PFT賽前以熟悉動作1–2組、RPE5–6、不接近力竭和不引起新痠痛為原則。若仍疲勞，取消也完全可以。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "Petra Strength30–45min上肢＋核心RPE5–6、RIR3–4，昨日間歇後不做重腿；若週一過量則技術或休息"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量",
             "stationTargetRPE": 5,
             "stationRole": "technique"
           },
@@ -2987,103 +2959,79 @@
             "day": "wed",
             "dayZh": "週三",
             "date": "2026-11-25",
-            "kind": "mixed",
-            "title": "WED｜Alvin短快啟動／Stacy WOD條件式",
-            "time": "Alvin短快RPE7–8低量 / Stacy硬WOD條件式",
+            "kind": "rest",
+            "title": "WED｜顧小孩，不能參加 Petra WOD",
+            "time": "居家恢復／Mobility",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "不做整堂選手部WOD。若衝浪DOMS已退、沒有膝小腿痛：暖身後2×150–200m PFT 1km目標感覺RPE7–8，組間走/慢跑3min；選配6kg WallBall 2×5下。總量很小、非衝刺；否則完全休息"
+                  "這天要顧小孩，無法去Petra WOD；在家休息或Mobility即可。若另有確認可安排的時間、痠痛完全消失，可選跑步2×150–200m RPE7–8，組間充分休息3min，最多再做2×5 WB6kg輕技巧，均不是必要課。不要為補課打亂照顧安排。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "若週一Interval已恢復→可正式Petra WOD RPE7–8，作本週第2堂硬課；若腿酸/睡眠差→只做低強度技術或休息，把第2次硬課保留給週四"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-26",
-            "kind": "run",
-            "title": "THU｜Alvin Easy／Stacy WOD-Interval二選一",
-            "time": "AlvinEasy / Stacy Easy 或硬Interval",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 是選配；本週建議不參加硬課",
+            "time": "自主決定 · Easy15–20min或REST",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "週六PFT前2天，Easy Run15–20min RPE2–3或Rest；身體完全恢復才選最多2×10s輕快跑，不做400/600硬Interval"
+                  "Petra週四Interval由你每週自行決定是否參加，不是固定課，也不用沒上就補課。距離週六PFT只剩2天，本週不建議完整Interval；若恢復良好選擇Easy跑15–20min RPE2–3或休息。若到Petra只上教練同意的Easy/Technique。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "若週三做了硬WOD→Thu Petra只做Easy20–30min或休息，不能接著硬Interval；若週三跳過硬WOD且已恢復→週四可做正常Interval RPE7–8作第二次硬課"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-27",
             "kind": "rest",
-            "title": "FRI｜Alvin Rest／Stacy WG optional",
-            "time": "Alvin REST / Stacy WG條件式",
+            "title": "FRI｜PFT前24小時休息",
+            "time": "REST",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "PFT前一天完全休息、正常補水和飲食、早點睡，不補Push/Pull/Legs"
+                  "休息、睡眠、正常吃碳水及補水；不要做重腿、硬跑、WallBall或Station，週六才是正式測驗。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "不參加PFT，不必跟著減量；若已恢復可World Gym中等強度30–45min RIR3–4（週三若WOD大量下肢則以輕上肢為主）；若疲勞高則休息"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量",
             "wodRunKm": 0,
             "stationTags": [
               "SkiErg",
@@ -3097,34 +3045,26 @@
             "dayZh": "週六",
             "date": "2026-11-28",
             "kind": "mixed",
-            "title": "SAT｜Alvin PFT ONLY／Stacy自主Easy",
-            "time": "11/28 PFT Alvin only",
+            "title": "SAT｜HYROX PFT（Alvin 單人）",
+            "time": "11/28 · 計時測驗",
             "sections": [
               {
-                "name": "Alvin｜PFT 賽前減量",
-                "format": "減量但可保留少量速度刺激",
+                "name": "今天的個人安排",
+                "format": "Alvin-only",
                 "lines": [
-                  "只有Alvin參加正式HYROX PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 HR Pushups→100 WallBall6kg。若仍有局部疼痛/腫脹/步態異常，避免全力或延後"
+                  "你自己參加PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 Hand-release Pushups→100 Wall Balls6kg。取代本週原Sat Station；若膝小腿局部痛、腫脹或走路異常，考慮降低強度或不測。"
                 ]
               },
               {
-                "name": "Stacy｜正常強度，Mon Interval 是主課",
-                "format": "非PFT選手，暫無她的Garmin活動",
+                "name": "賽前恢復與品質規則",
+                "format": "條件式，不是必須完成每項",
                 "lines": [
-                  "Stacy不參加PFT；可休息／支持Alvin，或自主Easy30–45min RPE2–4；不做PFT、不需要100次WB"
-                ]
-              },
-              {
-                "name": "硬課互斥規則",
-                "format": "恢復決定是否進階",
-                "lines": [
-                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
-                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
-                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
+                  "週六11/28 PFT為本週主要高強度刺激。疼痛或疲勞就取消加練，無需補課。",
+                  "衝浪導致的痠痛不一定有Garmin數據，依主觀恢復、睡眠、疼痛/步態判斷。"
                 ]
               }
             ],
-            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
+            "subtitle": "Alvin 個人訓練｜週二可選Petra、週三要顧小孩、週四Petra Interval選配非固定；11/28 PFT減量",
             "wodRunKm": 0
           }
         ],
@@ -3166,7 +3106,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "Special PFT taper: no long run, no formal intervals; Thurs optional15–25min Easy if pain-free; official PFT includes 1km Run.",
+          "schedule": "Alvin-only PFT taper: Thu Petra interval NOT a fixed commitment; skip full hard intervals this week; optional Easy15–20min or REST, Sat PFT 1km run. No automatic makeup sessions. Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -3193,26 +3133,27 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "CANCEL hard Thu Petra intervals; optional easy15–25min or rest",
+              "priority": "OPTIONAL / PFT-TAPER",
+              "title": "THU Petra Interval · OPTIONAL this week OFF",
+              "dose": "Thursday class is elective; no hard session pre-PFT; optional Easy15–20min or REST",
               "details": [
-                "週三有做硬Petra WOD→週四課與教練協調Easy/Technique RPE4–5或縮量",
-                "週三沒去硬WOD→週四正常做Interval RPE7–8",
-                "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力"
+                "User chooses each week whether to attend Petra Thursday intervals, not fixed",
+                "This week Nov28 PFT takes priority, so skip full intervals and don't replace them elsewhere",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
           "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "Alvin-only PFT taper and optional short fast race primer Wed, no long easy; Stacy separate Monday Interval not part of Alvin run km.",
+          "weeklyFocus": "Nov28 Alvin-only PFT taper. Wed childcare means no Petra; Thu interval class elective, this week skip hard class and choose Easy or rest.",
           "wodRunKm": 0,
           "independentRunKmRange": [
             1,
             6
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "No hard Petra WOD Wed or hard running Thu; Sat PFT is sole major testing effort.",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -3236,7 +3177,7 @@
             "goalDuration": "50:00",
             "phase": "PFT_TAPER",
             "longRun": "No long easy run this test week",
-            "qualityRunAlternative": "PFT Sat instead of Thu hard intervals",
+            "qualityRunAlternative": "No Thu hard Petra interval pre-PFT. Class is optional, not a fixed weekly commitment.",
             "milestone": "先穩定每週2次跑步，恢復後逐漸延長Long Easy",
             "actualRunTargetKm": [
               1,
@@ -3280,7 +3221,7 @@
           "wodType": "STATION_MAIN",
           "wodRunKm": 0,
           "strengthPhase": "FOUNDATION",
-          "strengthAnchor": "Mon optional activation if no DOMS; Tue short light Strength; Wed WOD skip; Thu easy or rest; Fri rest; Sat PFT",
+          "strengthAnchor": "Alvin-only: Tue optional low-volume Petra Strength, Wed childcare no WOD, Thu Petra interval OPTIONAL and this week Easy/rest, Fri full rest, Sat PFT.",
           "stationIntensity": {
             "tuesdayRPE": 0,
             "fridayRPE": 0,
@@ -3463,13 +3404,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -4111,29 +4052,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-03",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
                 ]
               },
               {
-                "name": "Petra強度互斥規則",
-                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
                 "lines": [
-                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
-                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -4273,7 +4212,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配15–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–19km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配15–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–19km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -4300,12 +4239,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -4318,7 +4259,7 @@
             19
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -4563,13 +4504,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "Easy/Technique RPE3–5",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -5186,29 +5127,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-10",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Easy/Technique or REST",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                  "疼痛或步態異常不硬跑，記錄隔天反應",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "降載週如選上Petra，也以Easy/Technique RPE3–5，否則休息",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
                 ]
               },
               {
-                "name": "Petra強度互斥規則",
-                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
                 "lines": [
-                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
-                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -5345,7 +5284,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量12–15km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量12–15km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -5372,12 +5311,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Easy/Technique RPE3–5 or rest",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                "疼痛或步態異常不硬跑，記錄隔天反應"
+                "疼痛或步態異常不硬跑，記錄隔天反應",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -5390,7 +5331,7 @@
             15
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -5634,13 +5575,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -6266,29 +6207,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-17",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
                 ]
               },
               {
-                "name": "Petra強度互斥規則",
-                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
                 "lines": [
-                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
-                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -6427,7 +6366,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–20km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量15–20km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -6454,12 +6393,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -6472,7 +6413,7 @@
             20
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -6763,13 +6704,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "若Wed硬→Easy；否則品質跑",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -7429,30 +7370,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-24",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "若Wed硬→Easy；否則品質跑",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "週三有做硬Petra WOD→週四課與教練協調Easy/Technique RPE4–5或縮量",
-                  "週三沒去硬WOD→週四正常做Interval RPE7–8",
-                  "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
                 ]
               },
               {
-                "name": "Petra強度互斥規則",
-                "format": "只在沒上Wed硬WOD且恢復足夠才跑品質Interval",
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
                 "lines": [
-                  "若Wed上了硬Petra WOD，Thu只能RPE2–4談話測試/技巧或取消，Sat循環也取消。",
-                  "若Wed沒上WOD，Thu品質跑視恢復安排，Sat受控轉換RPE≤6不追PR。"
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -7593,7 +7531,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量17–21km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量17–21km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -7620,13 +7558,15 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "若Wed硬→Easy；否則品質跑",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "週三有做硬Petra WOD→週四課與教練協調Easy/Technique RPE4–5或縮量",
                 "週三沒去硬WOD→週四正常做Interval RPE7–8",
-                "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力"
+                "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -7639,7 +7579,7 @@
             21
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -7908,13 +7848,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -8561,21 +8501,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-12-31",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -8735,7 +8681,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–23km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配20–30分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–23km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -8762,12 +8708,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -8780,7 +8728,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -9058,13 +9006,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "Easy/Technique RPE3–5",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -9671,21 +9619,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-07",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Easy/Technique or REST",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                  "疼痛或步態異常不硬跑，記錄隔天反應",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "降載週如選上Petra，也以Easy/Technique RPE3–5，否則休息",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -9813,7 +9767,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量14–18km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量14–18km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -9840,12 +9794,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Easy/Technique RPE3–5 or rest",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                "疼痛或步態異常不硬跑，記錄隔天反應"
+                "疼痛或步態異常不硬跑，記錄隔天反應",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -9858,7 +9814,7 @@
             18
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -10107,13 +10063,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -10761,21 +10717,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-14",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -10936,7 +10898,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量19–23km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量19–23km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -10963,12 +10925,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -10981,7 +10945,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -11259,13 +11223,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "若Wed硬→Easy；否則品質跑",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -11883,22 +11847,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-21",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "若Wed硬→Easy；否則品質跑",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "週三有做硬Petra WOD→週四課與教練協調Easy/Technique RPE4–5或縮量",
-                  "週三沒去硬WOD→週四正常做Interval RPE7–8",
-                  "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -12033,7 +12002,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量20–25km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量20–25km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -12060,13 +12029,15 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "若Wed硬→Easy；否則品質跑",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "週三有做硬Petra WOD→週四課與教練協調Easy/Technique RPE4–5或縮量",
                 "週三沒去硬WOD→週四正常做Interval RPE7–8",
-                "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力"
+                "如果教練不允許縮量，就不要參加週三硬WOD，別連兩天全力",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -12079,7 +12050,7 @@
             25
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -12406,13 +12377,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -13060,21 +13031,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-01-28",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -13235,7 +13212,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -13262,12 +13239,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -13280,7 +13259,7 @@
             26
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -13558,13 +13537,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "Easy/Technique RPE3–5",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -14171,21 +14150,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-04",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Easy/Technique or REST",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                  "疼痛或步態異常不硬跑，記錄隔天反應",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "降載週如選上Petra，也以Easy/Technique RPE3–5，否則休息",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -14313,7 +14298,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量16–20km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量16–20km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -14340,12 +14325,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Easy/Technique RPE3–5 or rest",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                "疼痛或步態異常不硬跑，記錄隔天反應"
+                "疼痛或步態異常不硬跑，記錄隔天反應",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -14358,7 +14345,7 @@
             20
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -14607,13 +14594,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -15260,21 +15247,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-11",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -15434,7 +15427,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量21–26km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -15461,12 +15454,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -15479,7 +15474,7 @@
             26
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -15757,13 +15752,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "Easy/Technique RPE3–5",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -16389,21 +16384,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-18",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "本週五W14縮量8站模擬，週四Petra只做RPE3–4的Easy/Technique",
-                  "若週三已做硬WOD，取消週五縮量模擬",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -16527,7 +16528,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量18–23km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量18–23km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -16554,12 +16555,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "本週五W14縮量8站模擬，週四Petra只做RPE3–4的Easy/Technique",
-                "若週三已做硬WOD，取消週五縮量模擬"
+                "若週三已做硬WOD，取消週五縮量模擬",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -16572,7 +16575,7 @@
             23
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -16871,13 +16874,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "主要品質跑 RPE7–8",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -17493,21 +17496,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-02-25",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Petra Interval RPE6–8 or solo easy",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "主要品質跑 RPE7–8",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                  "跑後不要再加100下Air Squat或大量Wall Ball",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "如果本週Wed沒有硬WOD、Sat主站負荷可控、兩堂硬課間隔充分且已恢復，可選Petra Interval RPE6–8；否則不去或降成Easy",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -17643,7 +17652,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–22km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；週二早上優先選配25–35分鐘Easy（若Petra Tue、週一腿酸、Wed硬WOD預計出席或疼痛則取消）。跑量18–22km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -17670,12 +17679,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "主要品質跑 RPE7–8",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Petra Interval RPE6–8 only if fully recovered, no forced makeup",
               "details": [
                 "依Petra教練當天實際Interval跑課進行，約RPE7–8，不要求每組Max",
-                "跑後不要再加100下Air Squat或大量Wall Ball"
+                "跑後不要再加100下Air Squat或大量Wall Ball",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -17688,7 +17699,7 @@
             22
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "PREFERRED_IF_RECOVERED",
             "day": "tue",
@@ -18015,13 +18026,13 @@
           },
           {
             "id": "interval",
-            "name": "PETRA INTERVAL｜週四固定跑課",
+            "name": "PETRA INTERVAL｜週四選配跑課",
             "purpose": "Fixed Thursday interval, no WorldGym",
             "dose": "Petra Running · NO WORLD GYM",
             "details": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力",
             "classPlan": {
               "kind": "PETRA_INTERVAL",
-              "subtitle": "PETRA INTERVAL｜週四固定跑課",
+              "subtitle": "PETRA INTERVAL｜週四選配跑課",
               "duration": "Petra Running · NO WORLD GYM",
               "rpe": "Easy/Technique RPE3–5",
               "warmup": "5–12分鐘逐步暖身與主要動作準備組；有關節痛、腫脹、跑姿異常立即調整",
@@ -18628,21 +18639,27 @@
             "day": "thu",
             "dayZh": "週四",
             "date": "2027-03-04",
-            "kind": "run",
-            "title": "PETRA INTERVAL｜週四固定跑課",
-            "time": "Petra Running · NO WORLD GYM",
+            "kind": "optional",
+            "title": "THU｜Petra Interval 選配／自行決定",
+            "time": "Optional Easy/Technique or REST",
             "sections": [
               {
-                "name": "THURSDAY Running Interval",
-                "format": "Easy/Technique RPE3–5",
+                "name": "選配，不是固定週四必修",
+                "format": "只有決定要上才列為實際訓練",
                 "lines": [
-                  "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                  "疼痛或步態異常不硬跑，記錄隔天反應",
-                  "週四不進World Gym；Garmin記實跑距離、Lap、HR、Session RPE"
+                  "降載週如選上Petra，也以Easy/Technique RPE3–5，否則休息",
+                  "沒去Petra無須另找同等強度補課；依當週實際Garmin與恢復做課表替代。"
+                ]
+              },
+              {
+                "name": "避免過度堆量",
+                "format": "Sat主站與Wed WOD互斥",
+                "lines": [
+                  "本週高強度主課通常上限2堂，若Wed已硬WOD則Thu避免硬Interval、Sat站點取消或降載；週六選手部ABC主站僅在足夠恢復且未超強度額度時做。"
                 ]
               }
             ],
-            "subtitle": "週四固定Petra跑課，不安排World Gym。Wed硬WOD與Thu硬Interval不可都全力"
+            "subtitle": "不是固定跑課；依恢復、家庭時間、週內WOD/Station負荷決定去不去，不必補課"
           },
           {
             "day": "fri",
@@ -18769,7 +18786,7 @@
           ],
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "近期正常週約12–16km、單週25.84km為較高量；11/07 Easy 5.93km/HR143；避免把單次高跑量當常態",
-          "schedule": "週四Petra跑課 + 週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量10–15km為條件目標，不是要強行達標。",
+          "schedule": "週四Petra跑課可選＋週日/可移期Long Easy；恢復／特殊週短Easy不強制。跑量10–15km為條件目標，不是要強行達標。 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [
             {
               "id": "easy",
@@ -18796,12 +18813,14 @@
             },
             {
               "id": "quality",
-              "priority": "FIXED class, adaptive intensity",
-              "title": "THU Petra Interval",
-              "dose": "Easy/Technique RPE3–5",
+              "priority": "OPTIONAL / DEPENDS ON WEEKLY LOAD",
+              "title": "THU · Petra Interval (optional)",
+              "dose": "OPTIONAL Easy/Technique RPE3–5 or rest",
               "details": [
                 "小腿恢復/減量週，只做Easy或技術跑，必要時取消高速間歇",
-                "疼痛或步態異常不硬跑，記錄隔天反應"
+                "疼痛或步態異常不硬跑，記錄隔天反應",
+                "Alvin chooses whether to join Thursday Petra, not a recurring required class",
+                "If Wednesday hard WOD/important Saturday Station or fatigue, skip class or do Easy instead"
               ]
             }
           ],
@@ -18814,7 +18833,7 @@
             15
           ],
           "runAccounting": "Garmin只計實際戶外/室內跑步。World Gym SkiErg/RowErg不轉換成跑公里數。Run→Station→Run若真的戶外完成，跑距離計入當週跑量；無安全動線時不得把分開的gym station稱作即時轉換。",
-          "qualityPolicy": "Thu固定Petra品質跑，Wed硬WOD已參加就降成RPE4–5輕鬆/技巧或跳過Wed硬WOD；若跑量或下肢恢復不佳，優先保存跑步週頻而非每次衝快。；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。",
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled.",
           "thirdEasyRun": {
             "priority": "OPTIONAL_LOW_ONLY",
             "day": "tue",
@@ -19271,7 +19290,7 @@
             "date": "2027-03-11",
             "kind": "rest",
             "kindLabel": "休息",
-            "title": "週四｜賽前休息（暫停Petra跑課）",
+            "title": "THU｜賽前休息，Petra跑課不參加",
             "time": "恢復與裝備檢查",
             "sections": [
               {
@@ -19286,7 +19305,7 @@
             "source": "rest",
             "summary": "",
             "optional": false,
-            "subtitle": "每週四Petra跑課的比賽週例外"
+            "subtitle": "不是固定參加，賽前休息優先"
           },
           {
             "day": "fri",
@@ -19353,7 +19372,7 @@
           "targetKm": null,
           "goal": "獨立10K 50:00（均速5:00/km）＋HYROX跑站能力；以實測調整",
           "baseline": "Garmin資料截至2026-11-13",
-          "schedule": "完全自由；03/12與03/13兩場比賽已包含跑步",
+          "schedule": "完全自由；03/12與03/13兩場比賽已包含跑步 Thursday Petra Interval is optional, never a mandatory class or make-up obligation.",
           "sessions": [],
           "priorities": [
             "比賽前休息與活動度",
@@ -19373,7 +19392,7 @@
             "estimatedAchievement": "conditional; not confirmed"
           },
           "optional": "；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
-          "qualityPolicy": "；目標10K pace 5:00/km是比賽配速，不適用於所有Easy跑；只有在實際能力足夠時才進入接近目標配速的中長間歇。"
+          "qualityPolicy": "Thursday Petra Interval is elective. Attend only if weekly loading/recovery permit; no make-up obligation if skipped. If Wednesday hard WOD has occurred, Thu hard intervals should be skipped/scaled, and Sat hard station reduced or cancelled."
         },
         "trainingIntegration": {
           "runHard": 0,
@@ -19614,7 +19633,8 @@
     "v1.4: HYROX specificity: run after stations added in W07/W09/W11/W13/W14 only if safe connected outdoor area and no Thu/Wed overload; Wed hard Petra WOD replaces Sat. BBJ, Sandbag Lunges, Wall Ball weekly capped skill doses, Tue short Easy prioritized if recovered, Fri WFH PPL Push retained.",
     "11/18高負荷硬WOD+5.06km後跑，W01 Thu hard interval/Sat station off。W02–W06 Sat漸進Ski→WallBall→Row循環只在無Wed硬WOD時使用；詳見cardioTransitionProgram / 私有Sheet。",
     "11/19 Actual Thu interval+100 user-report Air Squat after Nov18 WOD (2 consecutive hard days). W01 running23.391km. W02 recovery gate: quality WOD OR interval, not both; protect knees/calves, no auto100 squat finisher. User-reported 100 vs watch auto52 tracked separately.",
-    "User-verified Nov19 interval:6×(200m fast+200m slow) +4×400 +4×600, 100 Air Squats after. FIT aggregation hides individual 200m splits; keep 6.6323km measured once and week23.391km unchanged."
+    "User-verified Nov19 interval:6×(200m fast+200m slow) +4×400 +4×600, 100 Air Squats after. FIT aggregation hides individual 200m splits; keep 6.6323km measured once and week23.391km unchanged.",
+    "2026-11-22: Alvin-only schedule; Tue Petra Strength optional, Wed childcare prevents Petra WOD, Thu Petra Interval elective each week, Sat Nov28 only Alvin PFT. No auto make-up/extra workout, version unchanged."
   ],
   "trainingTracks": {
     "version": "FINAL-v1.4-2026-11-14",
@@ -20446,8 +20466,7 @@
     "purpose": "Improve controlled HR ramp, aerobic return after stations, repeatable Wall Ball leg endurance; no added hard sessions",
     "isAdditionalWorkout": false,
     "rules": [
-      "CORRECTION: Only Alvin has Nov28 PFT, while Stacy separately runs her Mon Nov23 interval. Stacy may hard WOD Wed OR hard Interval Thu as second hard session; not both. Alvin may very briefly retain PFT-speed 150–200m reps Wed IF recovered.",
-      "W02 Nov22–28 PFT exception supersedes normal Wed WOD, Thu hard Interval and Sat Ski→WB→Row. PFT Sat is sole hard day. No required Long Easy. Mon requested legs: only light activation if DOMS improved. Stacy partner plan conditional on her own fatigue.",
+      "Alvin-only plan: Thu Petra Interval is optional for all weeks, not fixed; user decides to attend. Wed childcare prevents Petra WOD on 2026-11-25, and Tue optional Strength is the only Petra in-person class that week.",
       "11/19 interval first included six200m-fast/200m-slow pairs, then4×400 and4×600; Garmin only captured opening sequence as combined distance laps. Treat as one6.6323km run, not separately add the 6.4km prescribed segments.",
       "2026-11-19用戶回報100 Air Squat，Garmin FIT只自動辨識52；不將52+100相加、不將100 Air Squat當Wall Ball次數；W01連續硬日後週末不補課。",
       "WOD硬課若已上，當週Sat主要Station直接取消，次日Petra跑課改Easy/休息。",
@@ -20475,13 +20494,13 @@
       {
         "week": "W02",
         "date": "11/22–11/28",
-        "focus": "Alvin ONLY PFT Nov28; Stacy independent Mon Interval + Wed WOD OR Thu Interval",
-        "lowIntensity": "Alvin optionalWed 2×150–200m short relaxed fast RPE7–8 if no DOMS, Thu Easy15–20min; Stacy Mon Interval hard, Thu Easy if Wed hard WOD",
-        "leg": "Alvin soreness? rest; if pain-free Mon optional 20min low-dose legs. Stacy Mon own Interval hard, Tue strength upper/core moderate.",
-        "wb": "Alvin official100 WB6kg on Nov28; before test ≤2×5 optional technique only. Stacy no PFT, no mandatory 100 WB.",
-        "station": "Sat Nov28 PFT Alvin ONLY. Stacy may Easy30–45min or rest, no PFT.",
-        "longRun": "Alvin no long run in PFT taper; Stacy's own run program separate/not in Alvin Garmin.",
-        "gate": "Full recovery from surfing soreness, no local pain/swelling or gait change"
+        "focus": "Alvin Nov28 solo PFT taper: Tue optional Strength, Wed child care no Petra, Thu elective Interval not advised as hard session",
+        "lowIntensity": "Tue very light Strength if recovered; Wed home rest; Thu optional Easy15–20min or Rest; Fri full rest",
+        "leg": "Monday no heavy leg or DOMS; Tuesday controlled Strength RPE5–6 only if recovered",
+        "wb": "Up to2×5 optional skill at feasible time if fully recovered; Sat PFT 100 Wall Ball6kg",
+        "station": "Sat Nov28 solo PFT replaces station; Wed cannot attend Petra due childcare",
+        "longRun": "No Long Easy this PFT week; Thu Petra Interval optional, not fixed",
+        "gate": "No knee/calf pain or worsened DOMS; childcare schedule respected, no mandatory class attendance."
       },
       {
         "week": "W03",
@@ -20567,57 +20586,51 @@
   "pftWeekPlan": {
     "status": "planned",
     "date": "2026-11-28",
-    "source": "user stated event + HYROX Taiwan official PFT definition",
-    "dataQualification": "User confirmed only Alvin PFT Sat Nov28; Stacy has separate Mon Nov23 Interval Running. Stacy's activity details not yet available by Garmin connector.",
+    "participant": "Alvin ONLY",
+    "source": "Alvin user confirmation + published HYROX PFT event pattern",
+    "dataQualification": "Only Alvin Garmin activities available; surfing Nov21–22 user reported, not Garmin recorded",
     "schedule": [
       {
         "day": "sun",
         "date": "2026-11-22",
-        "title": "SUN｜Surf fatigue recovery",
-        "alvin": "11/22 Surf第2天回報全身DOMS；Rest，不補跑",
-        "stacy": "恢復日；依自己的疲勞決定走路／伸展"
+        "title": "SUN｜週末衝浪後恢復",
+        "description": "11/21–22衝浪後全身痠痛與疲勞，今天以休息、短散步為主；不補Long Easy。"
       },
       {
         "day": "mon",
         "date": "2026-11-23",
-        "title": "MON｜Alvin輕腿或休息／Stacy Interval",
-        "alvin": "若仍明顯痠痛→Rest；若已無痛可做20min輕腿啟動：Easy bike8min、輕Squat2×5 RPE≤4、臀橋2×8、低台Stepup1×5/側，禁止重腿與大量Lunge",
-        "stacy": "自己已安排的Interval Running，RPE7–8，須充分熱身和放鬆。這是Stacy的第一堂高強度，不計入Alvin Garmin跑量；如自身腿痛、疲勞高則調低"
+        "title": "MON｜休息或輕腿部啟動",
+        "description": "明顯痠痛、下樓不舒服、膝小腿局部痛就休息；若恢復且有人照顧小孩，才做Easy Bike8min＋輕Squat2×5＋Glute Bridge2×8＋Stepup1×5/側。不做重腿/RDL/大量Lunge。"
       },
       {
         "day": "tue",
         "date": "2026-11-24",
-        "title": "TUE｜分級 Petra Strength",
-        "alvin": "Petra Strength20–30min小量熟悉動作，1–2組RPE≤5–6且不誘發DOMS；若仍痠痛直接取消",
-        "stacy": "Petra Strength30–45min上肢＋核心RPE5–6、RIR3–4，昨日間歇後不做重腿；若週一過量則技術或休息"
+        "title": "TUE｜Petra Strength（選配、只由你參加）",
+        "description": "週二安排你單獨去Petra Strength，家裡有人照顧小孩才可參加；PFT賽前以熟悉動作1–2組、RPE5–6、不接近力竭和不引起新痠痛為原則。若仍疲勞，取消也完全可以。"
       },
       {
         "day": "wed",
         "date": "2026-11-25",
-        "title": "WED｜Alvin短快啟動／Stacy WOD條件式",
-        "alvin": "不做整堂選手部WOD。若衝浪DOMS已退、沒有膝小腿痛：暖身後2×150–200m PFT 1km目標感覺RPE7–8，組間走/慢跑3min；選配6kg WallBall 2×5下。總量很小、非衝刺；否則完全休息",
-        "stacy": "若週一Interval已恢復→可正式Petra WOD RPE7–8，作本週第2堂硬課；若腿酸/睡眠差→只做低強度技術或休息，把第2次硬課保留給週四"
+        "title": "WED｜顧小孩，不能參加 Petra WOD",
+        "description": "這天要顧小孩，無法去Petra WOD；在家休息或Mobility即可。若另有確認可安排的時間、痠痛完全消失，可選跑步2×150–200m RPE7–8，組間充分休息3min，最多再做2×5 WB6kg輕技巧，均不是必要課。不要為補課打亂照顧安排。"
       },
       {
         "day": "thu",
         "date": "2026-11-26",
-        "title": "THU｜Alvin Easy／Stacy WOD-Interval二選一",
-        "alvin": "週六PFT前2天，Easy Run15–20min RPE2–3或Rest；身體完全恢復才選最多2×10s輕快跑，不做400/600硬Interval",
-        "stacy": "若週三做了硬WOD→Thu Petra只做Easy20–30min或休息，不能接著硬Interval；若週三跳過硬WOD且已恢復→週四可做正常Interval RPE7–8作第二次硬課"
+        "title": "THU｜Petra Interval 是選配；本週建議不參加硬課",
+        "description": "Petra週四Interval由你每週自行決定是否參加，不是固定課，也不用沒上就補課。距離週六PFT只剩2天，本週不建議完整Interval；若恢復良好選擇Easy跑15–20min RPE2–3或休息。若到Petra只上教練同意的Easy/Technique。"
       },
       {
         "day": "fri",
         "date": "2026-11-27",
-        "title": "FRI｜Alvin Rest／Stacy WG optional",
-        "alvin": "PFT前一天完全休息、正常補水和飲食、早點睡，不補Push/Pull/Legs",
-        "stacy": "不參加PFT，不必跟著減量；若已恢復可World Gym中等強度30–45min RIR3–4（週三若WOD大量下肢則以輕上肢為主）；若疲勞高則休息"
+        "title": "FRI｜PFT前24小時休息",
+        "description": "休息、睡眠、正常吃碳水及補水；不要做重腿、硬跑、WallBall或Station，週六才是正式測驗。"
       },
       {
         "day": "sat",
         "date": "2026-11-28",
-        "title": "SAT｜Alvin PFT ONLY／Stacy自主Easy",
-        "alvin": "只有Alvin參加正式HYROX PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 HR Pushups→100 WallBall6kg。若仍有局部疼痛/腫脹/步態異常，避免全力或延後",
-        "stacy": "Stacy不參加PFT；可休息／支持Alvin，或自主Easy30–45min RPE2–4；不做PFT、不需要100次WB"
+        "title": "SAT｜HYROX PFT（Alvin 單人）",
+        "description": "你自己參加PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 Hand-release Pushups→100 Wall Balls6kg。取代本週原Sat Station；若膝小腿局部痛、腫脹或走路異常，考慮降低強度或不測。"
       }
     ],
     "officialStations": [
@@ -20628,33 +20641,7 @@
       "30 Hand-release Pushups",
       "100 Wall Balls (men 6kg, women 4kg)"
     ],
-    "readiness": "Alvin checks surfing soreness and localized knee/calf symptoms before priming, PFT goal fresh legs; Stacy can train normally but cap two hard sessions (Mon interval + Wed WOD or Thu intervals).",
-    "users": [
-      "Alvin only in PFT",
-      "Stacy normal training, owns Monday interval"
-    ],
-    "participants": [
-      "Alvin"
-    ],
-    "nonParticipants": [
-      "Stacy"
-    ],
-    "alvinRacePrimer": {
-      "date": "2026-11-25",
-      "status": "optional only if recovered",
-      "warmup": "8–12min Easy dynamic movement",
-      "dose": "2×150–200m at PFT1km controlled RPE7–8 with3min full recoveries; optional2×5 WB6kg technique",
-      "not": "not full Petra 60min athlete WOD or sprint session",
-      "rationale": "limited high-intensity exposure with sharply reduced volume"
-    },
-    "stacyHardRules": {
-      "mon": "Interval Running RPE7–8 (separate, user-confirmed planned)",
-      "tue": "Petra upper/core Strength30–45min RPE5–6",
-      "wed": "Hard Petra WOD RPE7–8 only if recovered from Mon",
-      "thu": "If Wed hard, EASY/REST; if Wed easy/rest, can hard Interval as second quality",
-      "fri": "World Gym moderate if fresh",
-      "sat": "No PFT; optionalEasy30–45"
-    }
+    "readiness": "For Alvin: DOMS improved, no painful steps, knee/calf symptoms absent; if not fully recovered, skip optional training and consider not testing."
   },
   "athletePetraABC": {
     "reference": {
@@ -20664,7 +20651,7 @@
       "structure": "Six 10-minute slots, work cap appears 8:30–9:00; handwritten slashed distances/reps partly unclear",
       "note": "Derived modules below are personalized progressions, NOT exact reproduction. No high volume before Nov28 PFT."
     },
-    "system": "RPE and recovery gate over artificial weekly volume; at most 2 major hard sessions per week; Sat module replaces existing main station, Wed hard Petra WOD supersedes it; conditional Thu hard Interval may be second if >=48h before Sat and recovered.",
+    "system": "RPE and recovery gate over artificial weekly volume; at most 2 major hard sessions per week; Sat module replaces existing main station, Wed hard Petra WOD supersedes it; conditional Thu hard Interval may be second if >=48h before Sat and recovered. Thursday Petra interval always optional, not a fixed hard session.",
     "progressions": [
       {
         "week": "W03",
@@ -20752,6 +20739,6 @@
       "Wall Ball technical valid reps and first leg failure point",
       "Next day DOMS/knee/calf status and run economy"
     ],
-    "privacy": "Actual Garmin only Alvin, Stacy prescriptions conditional without connected workout data."
+    "privacy": "Only Alvin sessions stored and displayed in Alvin's training plan. Other household schedules omitted."
   }
 }
