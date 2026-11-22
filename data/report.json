@@ -242,7 +242,14 @@
       ],
       "maleWallBallKg": 6,
       "femaleWallBallKg": 4,
-      "comment": "Individual PFT; user asks Alvin and Stacy plans, Stacy PFT attendance assumed not verified"
+      "comment": "Individual PFT; user asks Alvin and Stacy plans, Stacy PFT attendance assumed not verified",
+      "participants": [
+        "Alvin"
+      ],
+      "nonParticipants": [
+        "Stacy"
+      ],
+      "note": "ONLY Alvin participates HYROX PFT Nov28. Stacy has her own separate Monday interval running, no PFT; correct earlier wrong assumption."
     }
   },
   "weeklyKm": [
@@ -370,27 +377,27 @@
     }
   ],
   "coach": {
-    "headline": "11/28 PFT準備週：週末衝浪2天全身痠痛，Mon輕腿或休息，Tue輕Strength，Wed WOD取消，Thu硬Interval取消",
-    "summary": "Nov22 Garmin on-demand refreshed success 77 activities+0 new; surfing Nov21–22 user-reported two days with generalized soreness/fatigue, no Garmin surf records. Previous week Nov16–19 four runs23.391km and Nov18/19 consecutive intense work. Nov28 official PFT is upcoming: 1km Run/50 BBJ/100 stationary lunges/1km Row/30 HR pushups/100 WB male6kg female4kg. W02 becomes special taper: no long easy, Mon user wanted legs but conditional 20–25min light activation only if comfortable (else rest), Tue Petra Strength low upper/core RPE4–5, Wed hard WOD skipped, Thu hard intervals skipped (optional15–25min easy), Fri rest, Sat PFT replaces main station. Stacy only tentative based on same-day PFT assumption, no linked Garmin. App product version unchanged at v1.5.5.",
+    "headline": "11/28 只有 Alvin PFT｜Stacy 週一 Interval、週三 WOD 或週四 Interval 擇一；PFT後導入選手部 A/B/C",
+    "summary": "Corrected user constraints Nov22: ONLY Alvin attends HYROX PFT on Sat Nov28. Stacy does NOT attend and has her OWN Monday Nov23 Interval Running. Alvin after surfing Nov21/22 has generalized DOMS/fatigue, Garmin refreshed77 unchanged; this week conditional light legs Mon, small familiar-strength Tue, optional low-volume fast PFT race priming2×150–200m RPE7–8 with full recoveries Wed only if soreness resolved, optional Easy Thu, rest Fri and individual PFT Sat. Stacy normal training: Mon hard IntervalRPE7–8, Tue Strength upper/core30–45min RPE5–6, Wed hard Petra WOD if recovered as second hard, Thu Easy; OR if Wed WOD skipped, Thu hard interval as second hard instead; Fri moderate World Gym if recovered, Sat optionalEasy/rest and no PFT. User supplied Petra athlete board 11/21 Every10min×6 featuring A SkiRun, B ReverseLunge+WallBall+Run, C RowRun; integrate after PFT into periodized Saturday Station main with W03 3×10min conditional (postPFT DOMS recovery), W04 2×10min deload, W05 3×10min RPE7, W06 4×10min RPE7–8. The entire6×10min athlete dose is NOT appropriate in Nov28 test week. Normal weeks cap two major hard sessions, substitute instead of stacking Sat station on hard Wed WOD. No app version bump.",
     "findings": [
       {
-        "title": "衝浪兩天，Garmin沒記到也算疲勞",
-        "body": "11/21–22上兩天衝浪課，你說全身痠痛、疲勞。11/22 15:25私人Garmin更新成功但仍77筆，未找到週末新運動活動，不能把未記錄的衝浪當休息。"
+        "title": "Stacy 週一自己已有 Interval，不要再排三天連環硬課",
+        "body": "週一是Stacy第一堂品質刺激，週二上肢/核心中等Strength，週三若恢復就上Petra WOD RPE7–8，週四做Easy；若週三沒上硬WOD才改週四Interval第二堂。Stacy沒有11/28 PFT，不需要跟著Alvin減量。"
       },
       {
-        "title": "Mon想練腿？無痛才做極輕量",
-        "body": "全身明顯痠痛或下樓不舒服：直接REST。無痛且步態正常才選20–25min: Easy bike8min+輕Squat2×5 RPE≤4+GluteBridge2×8+Stepup1×5/側。不做重Squat/RDL/深弓箭步或大量Air Squat。"
+        "title": "Alvin 週六單人PFT，保留少量快感但不要硬WOD",
+        "body": "衝浪後仍痠痛時週一休息；恢復正常才極輕腿啟動。週二熟悉動作低量Strength，週三可選2×150–200m在PFT跑速感覺、完整恢復+最多2×5 WallBall；不是整堂Petra WOD。週四Easy或休息，週五全休。"
       },
       {
-        "title": "Tue Strength、Wed WOD、Thu Interval如何取捨",
-        "body": "Alvin和Stacy Tue最多20–30min低量上肢/核心Strength RPE4–5；Wed完整WOD不參加，Stacy想去也僅10–20min低強度技術；Thu不做正式Interval，Alvin可15–25min Easy，Stacy休息/極輕Easy；Fri全休。"
+        "title": "選手部圖不是直接照抄6×10分鐘",
+        "body": "11/21白板寫Go Every10min×6 Rounds，分成A Ski→Run→Ski→Run、B DB ReverseLunge→WallBall→Run→WallBall→ReverseLunge、C Row→Run→Row→Run。這是高密度跑站重複能力訓練，適合PFT後漸進，白板斜線距離部分不清晰，App使用縮量版本。"
       },
       {
-        "title": "Sat PFT是當週唯一正式高強度",
-        "body": "官方HYROX PFT依序1km Run、50 BBJ、100 stationary lunges、1km Row、30 HR pushups、100 WB (male6kg/female4kg)。11/28 PFT直接取代本站點主課、正常Long Easy與品質跑。若仍痛/腫/跛行，避免硬測。"
+        "title": "PFT後以強度週期化真正升級",
+        "body": "W03完成PFT後恢復且無痛，再測試A/B/C 3×10min RPE6；W04 2×10min deload；W05 3×10min RPE7–8；W06最多4×10min RPE7–8。每次當Sat Station主課，不與Wed全力WOD相加；週內高強度主課通常不超過2堂。"
       }
     ],
-    "limitation": "Weekend surfing and soreness are user-reported but no recent Garmin activity confirmed; surfing HR/energy unknown. Stacy's participation in PFT and training load not yet verified, partner plan conditional. Need current symptom check before adding even light leg session."
+    "limitation": "Stacy personally confirmed Monday intervals and nonparticipation in Saturday PFT, but no connected Stacy Garmin data/individual fatigue. Surfing soreness unresolved status. Athlete board from user IMG_1778.jpeg has some slashed distances/reps illegible, so ABC blocks are explicitly inspired modified workouts, not claimed exact coach plan. PFT standard as official HYROX Taiwan page."
   },
   "weeks": [
     {
@@ -742,10 +749,10 @@
     "detailReanalysis": "Garmin FIT 20 laps initial1000+1000+338.76m likely correspond to user-reported opening six 200-fast/200-slow alternations (total 2400m prescribed), but cannot individually time/verify 200m reps; remaining 4×400 and4×600 work laps measured and previously analyzed. Same single6.6323km running activity, no duplicate distances.",
     "rawGarminActivityCountAsOf": "2026-11-20",
     "detailedPerformanceSnapshotAsOf": "2026-11-20 verified through 2026-11-19: 77 Garmin activities, 37 runs, 251 FIT laps, 12 Garmin FIT strength sessions, 191 strength set messages",
-    "performanceNote": "Corrected full interval workload contains additional six rounds of 200m fast/slow prior to400/600; recovery recommendation unchanged but stronger. User first-person session structure preferred to FIT lap-based guess. Unmeasured individual 200m speeds are UNKNOWN.",
+    "performanceNote": "Only Alvin PFT. Stacy Monday interval RPE7-8, Wed WOD OR Thu hard interval second quality. Alvin optional small 2x150-200m race-pace priming Wed if recovered; not full hard WOD.",
     "lastIntervalAnalysis": "2026-11-20 USER CORRECTION: 11/19 run=6×(200m fast+200m slow) +4×400m +4×600m; 6.4km prescribed segments included in Garmin6.6323km; no per-200m FIT Lap available. Plus100 user-confirmed Air Squats, Garmin auto52.",
     "workoutSubjectiveUpdate": "2026-11-20",
-    "recoveryDataStatus": "User Nov22 reports full-body soreness/fatigue after two beginner surfing days. No Garmin surfing activity; PFT Nov28 imminent. Caution against heavy leg work and full Wed WOD/Thu Interval.",
+    "recoveryDataStatus": "Nov22 surfing2 days and generalized DOMS reported by Alvin, no Garmin surf records. Only Alvin PFT Sat Nov28; Stacy Mon separate interval. Risk gating based on soreness and prior knee/calf sensitivity.",
     "calfSymptomsRecorded": true,
     "garminLastConfirmedActivities": 77,
     "petraIndexed": 38,
@@ -980,7 +987,7 @@
     },
     "selectionRationale": "Official HYROX 8×1km run + stations requires both running and station ability, with ACSM 2026 progressive resistance training and individualized total load. Workouts are personalized coaching prescriptions, not a precise physiological performance prediction."
   },
-  "planUpdated": "2026-11-22 · PFT taper W02, user reported surf fatigue, Garmin refreshed; product version 1.5.5 unchanged",
+  "planUpdated": "2026-11-22 · Corrected Stacy NON-PFT and Monday own intervals; athlete Petra ABC future progressions; routine data update NO VERSION BUMP",
   "planBasis": "Garmin 64 activities + 204 FIT laps through Nov 13; 37 Petra photos, last photo IMG_1702; subjective 11/12 post-interval 100 air squats + 2 easy cooldown laps + severe calf soreness. Do not double count activity segments.",
   "bridge": {
     "dates": "2026-11-13–2026-11-16",
@@ -2394,7 +2401,7 @@
         "end": "2026-11-28",
         "blockId": "foundation",
         "tag": "BASE",
-        "focus": "PFT Sat Nov28 taper: surf Nov21–22 generalized DOMS; Mon legs only optional light activation, Tue short strength, Wed hard WOD OFF, Thu hard interval OFF, Fri REST, Sat PFT",
+        "focus": "Only Alvin Nov28 PFT: surfer DOMS taper, Wed optional short speed primer. Stacy no PFT: own Mon hard Interval + Wed Petra WOD OR Thu hard Interval, Fri moderate WG if ready.",
         "why": "增加深蹲與臥推有效組數；Station進展照每週原有WOD與有氧課進行。",
         "load": "base",
         "priority": "逐步增加Easy而非追間歇速度",
@@ -2813,7 +2820,8 @@
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
           "v1.5.5 11/18實測後優化：3× [Ski200m RPE5→WB6→Row200m RPE3] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量18包含在Station內。",
           "11/20 Garmin review: Nov18 hard Petra WOD+run followed Nov19 hard interval+100 reported air squats; if DOMS/knee/calf reaction persists, shorten W02 Long Easy to4–6km or replace with Easy Erg, optional Station skill 2×6 WB before max3×6; all alternatives replace, never add sessions.",
-          "Nov22: surfing Nov21–22 for two days user report with DOMS/fatigue, Garmin refresh77 activities +0 surf. Official PFT Sat Nov28. W02 is special taper not weekly build: conditional light Mon legs, Tue20-30min light Petra strength, Wed full WOD skip, Thu hard interval skip, Fri rest, Sat PFT. Stacy's Garmin data unavailable, recommendations tentative. No version bump."
+          "Nov22: surfing Nov21–22 for two days user report with DOMS/fatigue, Garmin refresh77 activities +0 surf. Official PFT Sat Nov28. W02 is special taper not weekly build: conditional light Mon legs, Tue20-30min light Petra strength, Wed full WOD skip, Thu hard interval skip, Fri rest, Sat PFT. Stacy's Garmin data unavailable, recommendations tentative. No version bump.",
+          "Correction confirmed: ONLY Alvin has PFT Sat Nov28; Stacy independent Monday Nov23 interval, not PFT. Stacy two hard sessions Mon and Wed (or Mon and Thu), not Mon+Wed+Thu. Alvin has optional 2x150-200m race-pace Wed primer if no DOMS; no full athlete WOD before PFT."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -2876,99 +2884,102 @@
             "dayZh": "週日",
             "date": "2026-11-22",
             "kind": "rest",
-            "title": "SURF RECOVERY｜週末衝浪後休息",
-            "time": "REST",
+            "title": "SUN｜Surf fatigue recovery",
+            "time": "Rest",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "今天衝浪第2天，現在全身痠痛疲勞，直接休息；不補Long Easy"
+                  "11/22 Surf第2天回報全身DOMS；Rest，不補跑"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "若Stacy也衝浪或疲勞，同樣以休息為主"
+                  "恢復日；依自己的疲勞決定走路／伸展"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證"
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
           },
           {
             "day": "mon",
             "dayZh": "週一",
             "date": "2026-11-23",
-            "kind": "rest",
-            "title": "OPTIONAL LIGHT LEGS｜不做真正重腿",
-            "time": "REST or 20–25min RPE≤4",
+            "kind": "mixed",
+            "title": "MON｜Alvin輕腿或休息／Stacy Interval",
+            "time": "Alvin輕啟動 / Stacy硬Interval",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "有明顯痠痛、下樓不舒服或膝小腿痛：REST。無痛且走路正常才做單車8min＋極輕Squat2×5 RPE≤4＋GluteBridge2×8＋Step-up1×5/側。不要RDL、重深蹲或100 AirSquat。"
+                  "若仍明顯痠痛→Rest；若已無痛可做20min輕腿啟動：Easy bike8min、輕Squat2×5 RPE≤4、臀橋2×8、低台Stepup1×5/側，禁止重腿與大量Lunge"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "休息/散步/無痛Mobility；不要為了陪Alvin練重腿"
+                  "自己已安排的Interval Running，RPE7–8，須充分熱身和放鬆。這是Stacy的第一堂高強度，不計入Alvin Garmin跑量；如自身腿痛、疲勞高則調低"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證"
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
           },
           {
             "day": "tue",
             "dayZh": "週二",
             "date": "2026-11-24",
             "kind": "strength",
-            "title": "PETRA STRENGTH｜低量上肢與核心",
-            "time": "20–30min RPE4–5, optional",
+            "title": "TUE｜分級 Petra Strength",
+            "time": "Alvin20–30min / Stacy30–45min",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "Petra可上，但只做上肢/核心1–2輕組，RIR≥5；不做重腿、力竭、大組數Pushup。若疲勞還在就跳過。"
+                  "Petra Strength20–30min小量熟悉動作，1–2組RPE≤5–6且不誘發DOMS；若仍痠痛直接取消"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "可上Petra同堂低量上肢/核心，20–30min RPE4–5；如果也參加PFT，避免大組數"
+                  "Petra Strength30–45min上肢＋核心RPE5–6、RIR3–4，昨日間歇後不做重腿；若週一過量則技術或休息"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證",
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
             "stationTargetRPE": 5,
             "stationRole": "technique"
           },
@@ -2976,100 +2987,103 @@
             "day": "wed",
             "dayZh": "週三",
             "date": "2026-11-25",
-            "kind": "rest",
-            "title": "PETRA WOD｜跳過全力WOD",
-            "time": "REST or 10–20min easy skill",
+            "kind": "mixed",
+            "title": "WED｜Alvin短快啟動／Stacy WOD條件式",
+            "time": "Alvin短快RPE7–8低量 / Stacy硬WOD條件式",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "建議skip全力WOD。若想進教室，只做10–15min簡單PFT動作技術，不做AMRAP或高組數Lunge/BBJ/WallBall。"
+                  "不做整堂選手部WOD。若衝浪DOMS已退、沒有膝小腿痛：暖身後2×150–200m PFT 1km目標感覺RPE7–8，組間走/慢跑3min；選配6kg WallBall 2×5下。總量很小、非衝刺；否則完全休息"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "若也參加PFT，full WOD不做；最多10–20min低量技術RPE≤4–5，教練無法Scale就skip"
+                  "若週一Interval已恢復→可正式Petra WOD RPE7–8，作本週第2堂硬課；若腿酸/睡眠差→只做低強度技術或休息，把第2次硬課保留給週四"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證"
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
           },
           {
             "day": "thu",
             "dayZh": "週四",
             "date": "2026-11-26",
             "kind": "run",
-            "title": "PETRA INTERVAL｜取消硬間歇",
-            "time": "15–25min Easy or REST",
+            "title": "THU｜Alvin Easy／Stacy WOD-Interval二選一",
+            "time": "AlvinEasy / Stacy Easy 或硬Interval",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "身體恢復良好可Easy跑15–25min RPE2–3；最後最多3×10–15s放鬆加速、非衝刺。痠痛或異常疲勞直接REST。"
+                  "週六PFT前2天，Easy Run15–20min RPE2–3或Rest；身體完全恢復才選最多2×10s輕快跑，不做400/600硬Interval"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "休息最佳；若精神好可散步或Easy10–20min，不能照常跑硬Interval"
+                  "若週三做了硬WOD→Thu Petra只做Easy20–30min或休息，不能接著硬Interval；若週三跳過硬WOD且已恢復→週四可做正常Interval RPE7–8作第二次硬課"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證"
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一"
           },
           {
             "day": "fri",
             "dayZh": "週五",
             "date": "2026-11-27",
             "kind": "rest",
-            "title": "FULL REST｜PFT前一天",
-            "time": "REST",
+            "title": "FRI｜Alvin Rest／Stacy WG optional",
+            "time": "Alvin REST / Stacy WG條件式",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "全休，正常飲食、補水、睡眠，不補重腿/Push/Pull/跑步或WB。"
+                  "PFT前一天完全休息、正常補水和飲食、早點睡，不補Push/Pull/Legs"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "全休，準備鞋子、水分與測驗裝備，不補訓"
+                  "不參加PFT，不必跟著減量；若已恢復可World Gym中等強度30–45min RIR3–4（週三若WOD大量下肢則以輕上肢為主）；若疲勞高則休息"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證",
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
             "wodRunKm": 0,
             "stationTags": [
               "SkiErg",
@@ -3083,33 +3097,34 @@
             "dayZh": "週六",
             "date": "2026-11-28",
             "kind": "mixed",
-            "title": "HYROX PFT｜正式測驗日",
-            "time": "PFT replaces Station Main",
+            "title": "SAT｜Alvin PFT ONLY／Stacy自主Easy",
+            "time": "11/28 PFT Alvin only",
             "sections": [
               {
-                "name": "Alvin｜個人課表",
-                "format": "以恢復優先",
+                "name": "Alvin｜PFT 賽前減量",
+                "format": "減量但可保留少量速度刺激",
                 "lines": [
-                  "個人PFT：1km Run→50 BBJ→100 stationary lunges→1km Row→30 HR pushups→100 WB 6kg。若腿/膝痛未恢復，不追PR、必要時不測。"
+                  "只有Alvin參加正式HYROX PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 HR Pushups→100 WallBall6kg。若仍有局部疼痛/腫脹/步態異常，避免全力或延後"
                 ]
               },
               {
-                "name": "Stacy｜共同行程建議",
-                "format": "假設也參加11/28 PFT，需依她恢復情況調整",
+                "name": "Stacy｜正常強度，Mon Interval 是主課",
+                "format": "非PFT選手，暫無她的Garmin活動",
                 "lines": [
-                  "若同場參加PFT：同樣順序，女子WB 4kg；按自己節奏獨立測試，非Mixed Doubles分站共用"
+                  "Stacy不參加PFT；可休息／支持Alvin，或自主Easy30–45min RPE2–4；不做PFT、不需要100次WB"
                 ]
               },
               {
-                "name": "PFT減量規則",
-                "format": "不要連三堂全力",
+                "name": "硬課互斥規則",
+                "format": "恢復決定是否進階",
                 "lines": [
-                  "週六HYROX PFT才是本週正式高強度；週三WOD、週四硬Interval及原週六Station都取消",
-                  "痠痛嚴重、膝小腿局部痛或走路姿勢異常就休息、必要時尋求醫療評估"
+                  "Alvin 週六PFT是唯一大份量高強度，不做完整週三WOD或週四Interval；短快150–200m僅賽前primer",
+                  "Stacy 的高強度優先 Mon Interval + Wed WOD；若Wed WOD未做則Thu Interval可取代，Mon+Wed+Thu不能三次都全力",
+                  "若出現膝小腿疼痛、腫脹、走路姿勢異常或睡眠恢復不良，減量/休息"
                 ]
               }
             ],
-            "subtitle": "PFT 11/28 減量週；11/21–22衝浪負荷為本人回報，Stacy狀態未由Garmin驗證",
+            "subtitle": "Alvin 週六單人PFT減量；Stacy 週一自己的Interval，沒有PFT，後兩堂高強度擇一",
             "wodRunKm": 0
           }
         ],
@@ -3190,7 +3205,7 @@
           ],
           "optional": "優先選配 Tue AM 15–30min Easy（RPE3–4），如疲勞則取消，不得硬補公里；Short Easy自行選日，品質跑／Long Easy優先；不能用SkiErg公尺數抵跑步公里",
           "integration": "跑步至少2個锚點：Thu Petra interval和可移期Long Easy；如恢復允許優先新增Tue AM short Easy。Compromised Run主課是Sat或W14 Fri『取代』Station主課，不新增第三硬課，不需跑步機；若Wed硬Petra WOD，Thu降量且Sat主課取消。",
-          "weeklyFocus": "Nov28 PFT replaces main workout, Nov21-22 surfer DOMS self reported; no 13–17km chase or extra easy run.",
+          "weeklyFocus": "Alvin-only PFT taper and optional short fast race primer Wed, no long easy; Stacy separate Monday Interval not part of Alvin run km.",
           "wodRunKm": 0,
           "independentRunKmRange": [
             1,
@@ -3290,7 +3305,7 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "PFT_EVENT",
-          "name": "HYROX PFT 2026-11-28 (planned, NOT completed)",
+          "name": "HYROX PFT 2026-11-28 — ALVIN ONLY",
           "rounds": 1,
           "rpe": "event effort only if symptom-free",
           "duration": "Individual recorded test time",
@@ -3300,14 +3315,14 @@
             "100 Stationary Lunges",
             "1000m RowErg",
             "30 Hand-release Pushups",
-            "100 Wall Balls (men 6kg, women 4kg)",
+            "100 Wall Balls (Alvin 6kg ONLY)",
             "Event replaces Sat original station; no other hard workouts that week"
           ],
           "prerequisites": [
             "Recovered from surfing and no lingering joint pain, swelling or limping",
             "Event organizer standards govern on-site"
           ],
-          "counting": "PFT is the only planned major intensity day this week",
+          "counting": "Saturday PFT replaces Alvin Sat Station; Stacy has no PFT and may do recovery/individual Easy",
           "freshness": "PLANNED"
         },
         "weakStationSkill": {
@@ -3845,7 +3860,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "v1.5.5 11/18實測後優化：3× [Ski250m RPE5–6→WB8→Row200m Easy] Rest90sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。"
+          "v1.5.5 11/18實測後優化：3× [Ski250m RPE5–6→WB8→Row200m Easy] Rest90sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。",
+          "Nov22 integrated Petra athlete reference IMG_1778: W03 customized 3×10min sequence A→B→C RPE6, as Sat main ONLY when recovered and no Wed hardWOD. Whiteboard six-round session not copied full; avoid overloading after PFT."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -4191,22 +4207,30 @@
             "dayZh": "週六",
             "date": "2026-12-05",
             "kind": "mixed",
-            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
-            "time": "3輪 · RPE6 · 週三硬Petra時取消",
+            "title": "PETRA ATHLETE ABC｜跑站轉換",
+            "time": "Every10min × 3 · RPE 6 · 条件式",
             "sections": [
               {
-                "name": "Run-station controlled transfer · v1.5.5",
-                "format": "6kg WB 3×8；非額外課",
+                "name": "個人化Every10min",
+                "format": "主站取代而非加練",
                 "lines": [
-                  "SkiErg 250m RPE5–6",
-                  "Wall Ball 6kg×8，動作品質優先",
-                  "RowErg 200m Easy，休90秒／輪",
-                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
-                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
+                  "1. A: Ski300m→Run200m→Ski200m→Run200m",
+                  "2. B: DB reverse lunge10 alternating→6kg WB10→Run250m→WB8→reverse lunge10 alternating",
+                  "3. C: Row300m→Run200m→Row200m→Run200m",
+                  "每窗最多8min，其餘休息；整體RPE6",
+                  "Only after PFT DOMS gone and knee/calf pain absent; if hard Petra WOD Wed then no Sat station."
+                ]
+              },
+              {
+                "name": "本週強度上限",
+                "format": "不要每堂都全力",
+                "lines": [
+                  "Wed若上硬Petra WOD，Sat本課取消；若Thu已高強度Interval、Sat想上此主站，須間隔≥48h且確實恢復",
+                  "不要再另外疊加舊版的6kg WB×24–60次、舊Station主課或Wall Ball微課"
                 ]
               }
             ],
-            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
+            "subtitle": "選手部白板 A Ski+Run／B Lunge+WB+Run／C Row+Run 個人化縮量，不是原圖完整60min",
             "wodRunKm": 0
           }
         ],
@@ -4387,41 +4411,26 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "name": "PETRA ATHLETE-INSPIRED A/B/C EVERY10",
           "rounds": 3,
-          "rpe": 6,
-          "duration": "15–30min including recoveries (WOD week: OFF)",
+          "rpe": "6",
+          "duration": "3×10min slots (work cap 8min each)",
           "steps": [
-            "SkiErg 250m RPE5–6",
-            "Wall Ball 6kg×8，動作品質優先",
-            "RowErg 200m Easy，休90秒／輪",
-            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
-            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
+            "1. A: Ski300m→Run200m→Ski200m→Run200m",
+            "2. B: DB reverse lunge10 alternating→6kg WB10→Run250m→WB8→reverse lunge10 alternating",
+            "3. C: Row300m→Run200m→Row200m→Run200m",
+            "Every10min window, rest remaining time; no all-out early sprint",
+            "Only after PFT DOMS gone and knee/calf pain absent; if hard Petra WOD Wed then no Sat station.",
+            "This REPLACES Sat previous Station main and its WB microdose, not an additional session"
           ],
-          "prerequisites": [
-            "No hard Wednesday Petra WOD (it substitutes this main session)",
-            "Thu Petra interval recovery sufficient",
-            "No knee/calf pain with gait change or swelling",
-            "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
-          ],
-          "alternative": null,
-          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
-          "freshness": "conditional planned, not completed",
-          "previousStationPreservedInHistory": {
-            "name": "RowErg + Sled Push / Pull",
-            "kind": "STATION_MAIN",
-            "steps": [
-              "4 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-              "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-              "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
-            ]
-          }
+          "counting": "Sat Station substitute; Wed hard Petra WOD supersedes; at most 2 hard main sessions/wk with >=48hr spacing and recovery",
+          "freshness": "PLANNED athlete-inspired, original whiteboard slashed numbers not fully legible"
         },
         "weakStationSkill": {
           "phase": "BASE",
           "bbj": "4×5m 技術，跑姿穩定／無疼痛才加入",
           "sandbagLunge": "輕量Sandbag 5–10kg × 2×10m（可徒手）",
-          "wallBall": "6kg 3×8 = 24次，已包含在當週受控Station；Petra硬WOD週不重複加量",
+          "wallBall": "Athlete ABC B module planned WB inside Sat main only; DB reverse lunge10 alternating→6kg WB10→Run250m→WB8→reverse lunge10 alternating. Do not stack original WB microdoses or hard Petra WOD.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -4925,7 +4934,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "v1.5.5 11/18實測後優化：2 easy× [Ski200m RPE4→WB6→Row200m Easy] Rest120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量12包含在Station內。"
+          "v1.5.5 11/18實測後優化：2 easy× [Ski200m RPE4→WB6→Row200m Easy] Rest120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量12包含在Station內。",
+          "Nov22 integrated Petra athlete reference IMG_1778: W04 customized 2×10min sequence A→C RPE4–5, as Sat main ONLY when recovered and no Wed hardWOD. Whiteboard six-round session not copied full; avoid overloading after PFT."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -5271,22 +5281,29 @@
             "dayZh": "週六",
             "date": "2026-12-12",
             "kind": "station",
-            "title": "STATION TECHNIQUE｜心肺轉換降載",
-            "time": "2輪 · RPE4 · 週三硬Petra時取消",
+            "title": "ABC DELOAD｜選手部低量技術",
+            "time": "Every10min × 2 · RPE 4–5 · 条件式",
             "sections": [
               {
-                "name": "Run-station controlled transfer · v1.5.5",
-                "format": "6kg WB 2×6；非額外課",
+                "name": "個人化Every10min",
+                "format": "主站取代而非加練",
                 "lines": [
-                  "SkiErg 200m RPE4",
-                  "Wall Ball 6kg×6（無痛可做）",
-                  "RowErg 200m Easy，休120秒／輪",
-                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
-                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
+                  "1. A: Ski200m→Run150m→Ski150m→Run150m",
+                  "2. C: Row200m→Run150m→Row150m→Run150m",
+                  "每窗最多7min，其餘休息；整體RPE4–5",
+                  "No hard simulation; optional extremely low WB technique if fully pain-free, avoid WB double count with Petra."
+                ]
+              },
+              {
+                "name": "本週強度上限",
+                "format": "不要每堂都全力",
+                "lines": [
+                  "Wed若上硬Petra WOD，Sat本課取消；若Thu已高強度Interval、Sat想上此主站，須間隔≥48h且確實恢復",
+                  "不要再另外疊加舊版的6kg WB×24–60次、舊Station主課或Wall Ball微課"
                 ]
               }
             ],
-            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
+            "subtitle": "選手部白板 A Ski+Run／B Lunge+WB+Run／C Row+Run 個人化縮量，不是原圖完整60min",
             "wodRunKm": 0
           }
         ],
@@ -5466,41 +5483,25 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "TECHNIQUE_ONLY",
-          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "name": "PETRA ATHLETE-INSPIRED A/B/C EVERY10",
           "rounds": 2,
-          "rpe": 4,
-          "duration": "15–30min including recoveries (WOD week: OFF)",
+          "rpe": "4–5",
+          "duration": "2×10min slots (work cap 7min each)",
           "steps": [
-            "SkiErg 200m RPE4",
-            "Wall Ball 6kg×6（無痛可做）",
-            "RowErg 200m Easy，休120秒／輪",
-            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
-            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
+            "1. A: Ski200m→Run150m→Ski150m→Run150m",
+            "2. C: Row200m→Run150m→Row150m→Run150m",
+            "Every10min window, rest remaining time; no all-out early sprint",
+            "No hard simulation; optional extremely low WB technique if fully pain-free, avoid WB double count with Petra.",
+            "This REPLACES Sat previous Station main and its WB microdose, not an additional session"
           ],
-          "prerequisites": [
-            "No hard Wednesday Petra WOD (it substitutes this main session)",
-            "Thu Petra interval recovery sufficient",
-            "No knee/calf pain with gait change or swelling",
-            "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
-          ],
-          "alternative": null,
-          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
-          "freshness": "conditional planned, not completed",
-          "previousStationPreservedInHistory": {
-            "name": "DELOAD EASY TECHNIQUE",
-            "kind": "TECHNIQUE_ONLY",
-            "steps": [
-              "2–3 EASY ROUNDS：SkiErg 200m → RowErg 150m → Farmer Carry 20m（輕）",
-              "每輪休90–120秒，RPE≤4；2輪是恢復技巧，**不是Station主課**",
-              "本週只做恢復/技巧；不要為了湊4–5輪Station而破壞減量目的"
-            ]
-          }
+          "counting": "Sat Station substitute; Wed hard Petra WOD supersedes; at most 2 hard main sessions/wk with >=48hr spacing and recovery",
+          "freshness": "PLANNED athlete-inspired, original whiteboard slashed numbers not fully legible"
         },
         "weakStationSkill": {
           "phase": "DELOAD",
           "bbj": "無跳躍或低量走位",
           "sandbagLunge": "徒手Easy 1×8/側",
-          "wallBall": "6kg 2×6 = 12次，已包含在當週受控Station；Petra硬WOD週不重複加量",
+          "wallBall": "Athlete ABC B module planned WB inside Sat main only; No mandatory B module this deload week. Do not stack original WB microdoses or hard Petra WOD.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -6014,7 +6015,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "v1.5.5 11/18實測後優化：3× [Ski250m RPE6→WB8→Row250m Easy] Rest90–120sec; replaces prior high Row/Ski engine；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。"
+          "v1.5.5 11/18實測後優化：3× [Ski250m RPE6→WB8→Row250m Easy] Rest90–120sec; replaces prior high Row/Ski engine；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量24包含在Station內。",
+          "Nov22 integrated Petra athlete reference IMG_1778: W05 customized 3×10min sequence A→B→C RPE7–8, as Sat main ONLY when recovered and no Wed hardWOD. Whiteboard six-round session not copied full; avoid overloading after PFT."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -6359,22 +6361,30 @@
             "dayZh": "週六",
             "date": "2026-12-19",
             "kind": "mixed",
-            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
-            "time": "3輪 · RPE6 · 週三硬Petra時取消",
+            "title": "PETRA ATHLETE ABC｜跑站轉換",
+            "time": "Every10min × 3 · RPE 7–8 · 条件式",
             "sections": [
               {
-                "name": "Run-station controlled transfer · v1.5.5",
-                "format": "6kg WB 3×8；非額外課",
+                "name": "個人化Every10min",
+                "format": "主站取代而非加練",
                 "lines": [
-                  "SkiErg 250m RPE6",
-                  "Wall Ball 6kg×8",
-                  "RowErg 250m Easy，休90–120秒／輪；替代舊高強度Row5分鐘+Ski1km×3，不疊加",
-                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
-                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
+                  "1. A: Ski400m→Run250m→Ski250m→Run250m",
+                  "2. B: DB reverse lunge12 alternating→6kg WB12→Run300m→WB10→reverse lunge10 alternating",
+                  "3. C: Row400m→Run250m→Row250m→Run250m",
+                  "每窗最多8.5min，其餘休息；整體RPE7–8",
+                  "No Wed hard Petra WOD and if previous hard session >=48h apart plus normal next-day recovery; replaces Sat old main, no extra WB dose."
+                ]
+              },
+              {
+                "name": "本週強度上限",
+                "format": "不要每堂都全力",
+                "lines": [
+                  "Wed若上硬Petra WOD，Sat本課取消；若Thu已高強度Interval、Sat想上此主站，須間隔≥48h且確實恢復",
+                  "不要再另外疊加舊版的6kg WB×24–60次、舊Station主課或Wall Ball微課"
                 ]
               }
             ],
-            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
+            "subtitle": "選手部白板 A Ski+Run／B Lunge+WB+Run／C Row+Run 個人化縮量，不是原圖完整60min",
             "wodRunKm": 0
           }
         ],
@@ -6578,42 +6588,26 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "name": "PETRA ATHLETE-INSPIRED A/B/C EVERY10",
           "rounds": 3,
-          "rpe": 6,
-          "duration": "15–30min including recoveries (WOD week: OFF)",
+          "rpe": "7–8",
+          "duration": "3×10min slots (work cap 8.5min each)",
           "steps": [
-            "SkiErg 250m RPE6",
-            "Wall Ball 6kg×8",
-            "RowErg 250m Easy，休90–120秒／輪；替代舊高強度Row5分鐘+Ski1km×3，不疊加",
-            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
-            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
+            "1. A: Ski400m→Run250m→Ski250m→Run250m",
+            "2. B: DB reverse lunge12 alternating→6kg WB12→Run300m→WB10→reverse lunge10 alternating",
+            "3. C: Row400m→Run250m→Row250m→Run250m",
+            "Every10min window, rest remaining time; no all-out early sprint",
+            "No Wed hard Petra WOD and if previous hard session >=48h apart plus normal next-day recovery; replaces Sat old main, no extra WB dose.",
+            "This REPLACES Sat previous Station main and its WB microdose, not an additional session"
           ],
-          "prerequisites": [
-            "No hard Wednesday Petra WOD (it substitutes this main session)",
-            "Thu Petra interval recovery sufficient",
-            "No knee/calf pain with gait change or swelling",
-            "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
-          ],
-          "alternative": null,
-          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
-          "freshness": "conditional planned, not completed",
-          "previousStationPreservedInHistory": {
-            "name": "ROWERG × SKIERG｜高強度交替引擎",
-            "kind": "STATION_MAIN",
-            "steps": [
-              "3 ROUNDS：RowErg 5分鐘 RPE6–7 → SkiErg 1000m RPE7.5",
-              "休息 2.5分鐘／輪；SkiErg分段配速穩定，不要每輪全力衝刺",
-              "這堂取代當週原Station主課，不額外加雪橇、WallBall主課",
-              "若週三已上硬Petra WOD則取消本堂；腿部/小腿仍有不適就先恢復"
-            ]
-          }
+          "counting": "Sat Station substitute; Wed hard Petra WOD supersedes; at most 2 hard main sessions/wk with >=48hr spacing and recovery",
+          "freshness": "PLANNED athlete-inspired, original whiteboard slashed numbers not fully legible"
         },
         "weakStationSkill": {
           "phase": "BUILD",
           "bbj": "4×5m 技術、步頻一致",
           "sandbagLunge": "Sandbag 10kg × 2×12.5m，動作標準優先",
-          "wallBall": "6kg 3×8 = 24次，已包含在當週受控Station；Petra硬WOD週不重複加量",
+          "wallBall": "Athlete ABC B module planned WB inside Sat main only; DB reverse lunge12 alternating→6kg WB12→Run300m→WB10→reverse lunge10 alternating. Do not stack original WB microdoses or hard Petra WOD.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -7183,7 +7177,8 @@
           "5天版不會假裝能同時完成3堂增肌＋跑間歇＋長跑＋WOD：輪流練2個肌群主軸，6天才完整3分化。",
           "本週HYROX增肌與WOD劑量按periodization調整，力量先有效組數再做同主題功能循環。",
           "獨立WOD僅一堂，若Petra上WOD即替代；日程按家庭時間與恢復自由排列。",
-          "v1.5.5 11/18實測後優化：4× [Ski300m RPE6→WB8→Row250m Easy] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量32包含在Station內。"
+          "v1.5.5 11/18實測後優化：4× [Ski300m RPE6→WB8→Row250m Easy] Rest90–120sec；此課取代舊Sat Station，不額外新增訓練；Wed hard Petra WOD則當週直接取消，WB有效量32包含在Station內。",
+          "Nov22 integrated Petra athlete reference IMG_1778: W06 customized 4×10min sequence A→B→C→A RPE7–8, as Sat main ONLY when recovered and no Wed hardWOD. Whiteboard six-round session not copied full; avoid overloading after PFT."
         ],
         "optionalSixth": null,
         "wod": null,
@@ -7531,22 +7526,31 @@
             "dayZh": "週六",
             "date": "2026-12-26",
             "kind": "mixed",
-            "title": "STATION MAIN｜Ski→WB→Row可控轉換",
-            "time": "4輪 · RPE6 · 週三硬Petra時取消",
+            "title": "PETRA ATHLETE ABC｜跑站轉換",
+            "time": "Every10min × 4 · RPE 7–8 · 条件式",
             "sections": [
               {
-                "name": "Run-station controlled transfer · v1.5.5",
-                "format": "6kg WB 4×8；非額外課",
+                "name": "個人化Every10min",
+                "format": "主站取代而非加練",
                 "lines": [
-                  "SkiErg 300m RPE6",
-                  "Wall Ball 6kg×8",
-                  "RowErg 250m Easy，休90–120秒／輪",
-                  "週三若有硬Petra WOD就取消Sat主課；Fri WB微課不再另加",
-                  "若膝/小腿疼痛、無法維持動作技術則停；每輪標記WB前後HR／1min恢復／RPE"
+                  "1. A: Ski350m→Run250m→Ski250m→Run250m",
+                  "2. B: DB reverse lunge12 alternating→6kg WB12→Run300m→WB12→reverse lunge10 alternating",
+                  "3. C: Row350m→Run250m→Row250m→Run250m",
+                  "4. A: Ski350m→Run250m→Ski250m→Run250m",
+                  "每窗最多8.5min，其餘休息；整體RPE7–8",
+                  "Only progress if previous cycle steady and painless, not automatically full 6x10 60-min athlete workout; Wed hard Petra WOD => skip Sat"
+                ]
+              },
+              {
+                "name": "本週強度上限",
+                "format": "不要每堂都全力",
+                "lines": [
+                  "Wed若上硬Petra WOD，Sat本課取消；若Thu已高強度Interval、Sat想上此主站，須間隔≥48h且確實恢復",
+                  "不要再另外疊加舊版的6kg WB×24–60次、舊Station主課或Wall Ball微課"
                 ]
               }
             ],
-            "subtitle": "取代原Station主課，非重疊；WB有效次數含在本課，不可與別處累加",
+            "subtitle": "選手部白板 A Ski+Run／B Lunge+WB+Run／C Row+Run 個人化縮量，不是原圖完整60min",
             "wodRunKm": 0
           }
         ],
@@ -7729,41 +7733,27 @@
         "stationPrescription": {
           "day": "sat",
           "kind": "STATION_MAIN",
-          "name": "CONTROLLED SKI→WALL BALL→ROW · 心肺轉換",
+          "name": "PETRA ATHLETE-INSPIRED A/B/C EVERY10",
           "rounds": 4,
-          "rpe": 6,
-          "duration": "15–30min including recoveries (WOD week: OFF)",
+          "rpe": "7–8",
+          "duration": "4×10min slots (work cap 8.5min each)",
           "steps": [
-            "SkiErg 300m RPE6",
-            "Wall Ball 6kg×8",
-            "RowErg 250m Easy，休90–120秒／輪",
-            "以同RPE穩定各輪、練休息後回穩；Garmin觀察HR，不追假設Z2",
-            "若週三已上硬Petra WOD，本站取消；WB週目標已包含本站，不另外加完整份量"
+            "1. A: Ski350m→Run250m→Ski250m→Run250m",
+            "2. B: DB reverse lunge12 alternating→6kg WB12→Run300m→WB12→reverse lunge10 alternating",
+            "3. C: Row350m→Run250m→Row250m→Run250m",
+            "4. A: Ski350m→Run250m→Ski250m→Run250m",
+            "Every10min window, rest remaining time; no all-out early sprint",
+            "Only progress if previous cycle steady and painless, not automatically full 6x10 60-min athlete workout; Wed hard Petra WOD => skip Sat",
+            "This REPLACES Sat previous Station main and its WB microdose, not an additional session"
           ],
-          "prerequisites": [
-            "No hard Wednesday Petra WOD (it substitutes this main session)",
-            "Thu Petra interval recovery sufficient",
-            "No knee/calf pain with gait change or swelling",
-            "When continuous outdoor run-station requested: safe venue with permission; no treadmill needed"
-          ],
-          "alternative": null,
-          "counting": "Substitutes prior Sat station; no extra WB micro-dose; Wed hard Petra WOD supersedes main; Thu hard interval adapts",
-          "freshness": "conditional planned, not completed",
-          "previousStationPreservedInHistory": {
-            "name": "RowErg + Sled Push / Pull",
-            "kind": "STATION_MAIN",
-            "steps": [
-              "5 ROUNDS：RowErg 300m → Sled Push 12.5m → Sled Pull 12.5m",
-              "Sled重量以能完整控制動作與滑行方式為先；場館摩擦差異大，別把片重當官方比賽負重",
-              "若機器遠距，分成Row與Sled分組完成，不把往返場館動線算跑步訓練"
-            ]
-          }
+          "counting": "Sat Station substitute; Wed hard Petra WOD supersedes; at most 2 hard main sessions/wk with >=48hr spacing and recovery",
+          "freshness": "PLANNED athlete-inspired, original whiteboard slashed numbers not fully legible"
         },
         "weakStationSkill": {
           "phase": "BUILD",
           "bbj": "4×7.5m（累積30m，症狀穩定才做）",
           "sandbagLunge": "Sandbag 10–15kg × 3×12.5m",
-          "wallBall": "6kg 4×8 = 32次，已包含在當週受控Station；Petra硬WOD週不重複加量",
+          "wallBall": "Athlete ABC B module planned WB inside Sat main only; DB reverse lunge12 alternating→6kg WB12→Run300m→WB12→reverse lunge10 alternating. Do not stack original WB microdoses or hard Petra WOD.",
           "trainingLocations": [
             "Fri optional 8–15min low-fatigue technique after Push if no Sat intense station",
             "Sat within Station main, count actual volume in weekly cap",
@@ -20456,6 +20446,7 @@
     "purpose": "Improve controlled HR ramp, aerobic return after stations, repeatable Wall Ball leg endurance; no added hard sessions",
     "isAdditionalWorkout": false,
     "rules": [
+      "CORRECTION: Only Alvin has Nov28 PFT, while Stacy separately runs her Mon Nov23 interval. Stacy may hard WOD Wed OR hard Interval Thu as second hard session; not both. Alvin may very briefly retain PFT-speed 150–200m reps Wed IF recovered.",
       "W02 Nov22–28 PFT exception supersedes normal Wed WOD, Thu hard Interval and Sat Ski→WB→Row. PFT Sat is sole hard day. No required Long Easy. Mon requested legs: only light activation if DOMS improved. Stacy partner plan conditional on her own fatigue.",
       "11/19 interval first included six200m-fast/200m-slow pairs, then4×400 and4×600; Garmin only captured opening sequence as combined distance laps. Treat as one6.6323km run, not separately add the 6.4km prescribed segments.",
       "2026-11-19用戶回報100 Air Squat，Garmin FIT只自動辨識52；不將52+100相加、不將100 Air Squat當Wall Ball次數；W01連續硬日後週末不補課。",
@@ -20484,12 +20475,12 @@
       {
         "week": "W02",
         "date": "11/22–11/28",
-        "focus": "Nov28 PFT TAPER after surfing DOMS",
-        "lowIntensity": "REST or light leg primer Mon, Tue upper/core technique, Thu optional15–25min Easy, Fri rest",
-        "leg": "No heavy legs or eccentric high-rep; Mon 20–25min easy activation only if recovered",
-        "wb": "No extra reps before Sat PFT 100 WallBalls male6kg/female4kg",
-        "station": "OFFICIAL PFT Sat replaces entire usual Ski→WB→Row station",
-        "longRun": "CANCEL normal Long Easy; no running mileage target except optional Easy and PFT1km",
+        "focus": "Alvin ONLY PFT Nov28; Stacy independent Mon Interval + Wed WOD OR Thu Interval",
+        "lowIntensity": "Alvin optionalWed 2×150–200m short relaxed fast RPE7–8 if no DOMS, Thu Easy15–20min; Stacy Mon Interval hard, Thu Easy if Wed hard WOD",
+        "leg": "Alvin soreness? rest; if pain-free Mon optional 20min low-dose legs. Stacy Mon own Interval hard, Tue strength upper/core moderate.",
+        "wb": "Alvin official100 WB6kg on Nov28; before test ≤2×5 optional technique only. Stacy no PFT, no mandatory 100 WB.",
+        "station": "Sat Nov28 PFT Alvin ONLY. Stacy may Easy30–45min or rest, no PFT.",
+        "longRun": "Alvin no long run in PFT taper; Stacy's own run program separate/not in Alvin Garmin.",
         "gate": "Full recovery from surfing soreness, no local pain/swelling or gait change"
       },
       {
@@ -20577,56 +20568,56 @@
     "status": "planned",
     "date": "2026-11-28",
     "source": "user stated event + HYROX Taiwan official PFT definition",
-    "dataQualification": "Surfing Nov21/22 user-reported, not Garmin recorded; Stacy has no linked activity data",
+    "dataQualification": "User confirmed only Alvin PFT Sat Nov28; Stacy has separate Mon Nov23 Interval Running. Stacy's activity details not yet available by Garmin connector.",
     "schedule": [
       {
         "day": "sun",
         "date": "2026-11-22",
-        "title": "SURF RECOVERY｜週末衝浪後休息",
-        "alvin": "今天衝浪第2天，現在全身痠痛疲勞，直接休息；不補Long Easy",
-        "stacy": "若Stacy也衝浪或疲勞，同樣以休息為主"
+        "title": "SUN｜Surf fatigue recovery",
+        "alvin": "11/22 Surf第2天回報全身DOMS；Rest，不補跑",
+        "stacy": "恢復日；依自己的疲勞決定走路／伸展"
       },
       {
         "day": "mon",
         "date": "2026-11-23",
-        "title": "OPTIONAL LIGHT LEGS｜不做真正重腿",
-        "alvin": "有明顯痠痛、下樓不舒服或膝小腿痛：REST。無痛且走路正常才做單車8min＋極輕Squat2×5 RPE≤4＋GluteBridge2×8＋Step-up1×5/側。不要RDL、重深蹲或100 AirSquat。",
-        "stacy": "休息/散步/無痛Mobility；不要為了陪Alvin練重腿"
+        "title": "MON｜Alvin輕腿或休息／Stacy Interval",
+        "alvin": "若仍明顯痠痛→Rest；若已無痛可做20min輕腿啟動：Easy bike8min、輕Squat2×5 RPE≤4、臀橋2×8、低台Stepup1×5/側，禁止重腿與大量Lunge",
+        "stacy": "自己已安排的Interval Running，RPE7–8，須充分熱身和放鬆。這是Stacy的第一堂高強度，不計入Alvin Garmin跑量；如自身腿痛、疲勞高則調低"
       },
       {
         "day": "tue",
         "date": "2026-11-24",
-        "title": "PETRA STRENGTH｜低量上肢與核心",
-        "alvin": "Petra可上，但只做上肢/核心1–2輕組，RIR≥5；不做重腿、力竭、大組數Pushup。若疲勞還在就跳過。",
-        "stacy": "可上Petra同堂低量上肢/核心，20–30min RPE4–5；如果也參加PFT，避免大組數"
+        "title": "TUE｜分級 Petra Strength",
+        "alvin": "Petra Strength20–30min小量熟悉動作，1–2組RPE≤5–6且不誘發DOMS；若仍痠痛直接取消",
+        "stacy": "Petra Strength30–45min上肢＋核心RPE5–6、RIR3–4，昨日間歇後不做重腿；若週一過量則技術或休息"
       },
       {
         "day": "wed",
         "date": "2026-11-25",
-        "title": "PETRA WOD｜跳過全力WOD",
-        "alvin": "建議skip全力WOD。若想進教室，只做10–15min簡單PFT動作技術，不做AMRAP或高組數Lunge/BBJ/WallBall。",
-        "stacy": "若也參加PFT，full WOD不做；最多10–20min低量技術RPE≤4–5，教練無法Scale就skip"
+        "title": "WED｜Alvin短快啟動／Stacy WOD條件式",
+        "alvin": "不做整堂選手部WOD。若衝浪DOMS已退、沒有膝小腿痛：暖身後2×150–200m PFT 1km目標感覺RPE7–8，組間走/慢跑3min；選配6kg WallBall 2×5下。總量很小、非衝刺；否則完全休息",
+        "stacy": "若週一Interval已恢復→可正式Petra WOD RPE7–8，作本週第2堂硬課；若腿酸/睡眠差→只做低強度技術或休息，把第2次硬課保留給週四"
       },
       {
         "day": "thu",
         "date": "2026-11-26",
-        "title": "PETRA INTERVAL｜取消硬間歇",
-        "alvin": "身體恢復良好可Easy跑15–25min RPE2–3；最後最多3×10–15s放鬆加速、非衝刺。痠痛或異常疲勞直接REST。",
-        "stacy": "休息最佳；若精神好可散步或Easy10–20min，不能照常跑硬Interval"
+        "title": "THU｜Alvin Easy／Stacy WOD-Interval二選一",
+        "alvin": "週六PFT前2天，Easy Run15–20min RPE2–3或Rest；身體完全恢復才選最多2×10s輕快跑，不做400/600硬Interval",
+        "stacy": "若週三做了硬WOD→Thu Petra只做Easy20–30min或休息，不能接著硬Interval；若週三跳過硬WOD且已恢復→週四可做正常Interval RPE7–8作第二次硬課"
       },
       {
         "day": "fri",
         "date": "2026-11-27",
-        "title": "FULL REST｜PFT前一天",
-        "alvin": "全休，正常飲食、補水、睡眠，不補重腿/Push/Pull/跑步或WB。",
-        "stacy": "全休，準備鞋子、水分與測驗裝備，不補訓"
+        "title": "FRI｜Alvin Rest／Stacy WG optional",
+        "alvin": "PFT前一天完全休息、正常補水和飲食、早點睡，不補Push/Pull/Legs",
+        "stacy": "不參加PFT，不必跟著減量；若已恢復可World Gym中等強度30–45min RIR3–4（週三若WOD大量下肢則以輕上肢為主）；若疲勞高則休息"
       },
       {
         "day": "sat",
         "date": "2026-11-28",
-        "title": "HYROX PFT｜正式測驗日",
-        "alvin": "個人PFT：1km Run→50 BBJ→100 stationary lunges→1km Row→30 HR pushups→100 WB 6kg。若腿/膝痛未恢復，不追PR、必要時不測。",
-        "stacy": "若同場參加PFT：同樣順序，女子WB 4kg；按自己節奏獨立測試，非Mixed Doubles分站共用"
+        "title": "SAT｜Alvin PFT ONLY／Stacy自主Easy",
+        "alvin": "只有Alvin參加正式HYROX PFT：1km Run→50 BBJ→100 Stationary Lunge→1km Row→30 HR Pushups→100 WallBall6kg。若仍有局部疼痛/腫脹/步態異常，避免全力或延後",
+        "stacy": "Stacy不參加PFT；可休息／支持Alvin，或自主Easy30–45min RPE2–4；不做PFT、不需要100次WB"
       }
     ],
     "officialStations": [
@@ -20637,6 +20628,130 @@
       "30 Hand-release Pushups",
       "100 Wall Balls (men 6kg, women 4kg)"
     ],
-    "readiness": "Skip exercise if lingering pain/swelling/gait change; consider not testing if not recovered"
+    "readiness": "Alvin checks surfing soreness and localized knee/calf symptoms before priming, PFT goal fresh legs; Stacy can train normally but cap two hard sessions (Mon interval + Wed WOD or Thu intervals).",
+    "users": [
+      "Alvin only in PFT",
+      "Stacy normal training, owns Monday interval"
+    ],
+    "participants": [
+      "Alvin"
+    ],
+    "nonParticipants": [
+      "Stacy"
+    ],
+    "alvinRacePrimer": {
+      "date": "2026-11-25",
+      "status": "optional only if recovered",
+      "warmup": "8–12min Easy dynamic movement",
+      "dose": "2×150–200m at PFT1km controlled RPE7–8 with3min full recoveries; optional2×5 WB6kg technique",
+      "not": "not full Petra 60min athlete WOD or sprint session",
+      "rationale": "limited high-intensity exposure with sharply reduced volume"
+    },
+    "stacyHardRules": {
+      "mon": "Interval Running RPE7–8 (separate, user-confirmed planned)",
+      "tue": "Petra upper/core Strength30–45min RPE5–6",
+      "wed": "Hard Petra WOD RPE7–8 only if recovered from Mon",
+      "thu": "If Wed hard, EASY/REST; if Wed easy/rest, can hard Interval as second quality",
+      "fri": "World Gym moderate if fresh",
+      "sat": "No PFT; optionalEasy30–45"
+    }
+  },
+  "athletePetraABC": {
+    "reference": {
+      "date": "2026-11-21",
+      "source": "User provided IMG_1778.jpeg Instagram story / Petra athlete group whiteboard",
+      "text": "Go Every10min×6 Rounds; A SkiErg→Run→SkiErg→Run; B DB reverse lunge→WallBall→Run→WallBall→DB reverse lunge; C RowErg→Run→RowErg→Run",
+      "structure": "Six 10-minute slots, work cap appears 8:30–9:00; handwritten slashed distances/reps partly unclear",
+      "note": "Derived modules below are personalized progressions, NOT exact reproduction. No high volume before Nov28 PFT."
+    },
+    "system": "RPE and recovery gate over artificial weekly volume; at most 2 major hard sessions per week; Sat module replaces existing main station, Wed hard Petra WOD supersedes it; conditional Thu hard Interval may be second if >=48h before Sat and recovered.",
+    "progressions": [
+      {
+        "week": "W03",
+        "date": "11/29–12/05",
+        "goal": "PostPFT recovery then intro",
+        "slots": 3,
+        "intervalMinutes": 10,
+        "workCapMinutes": 8,
+        "rpe": "6",
+        "sequence": [
+          "A",
+          "B",
+          "C"
+        ],
+        "prescription": {
+          "A": "Ski300m→Run200m→Ski200m→Run200m",
+          "B": "DB reverse lunge10 alternating→6kg WB10→Run250m→WB8→reverse lunge10 alternating",
+          "C": "Row300m→Run200m→Row200m→Run200m"
+        },
+        "conditions": "Only after PFT DOMS gone and knee/calf pain absent; if hard Petra WOD Wed then no Sat station."
+      },
+      {
+        "week": "W04",
+        "date": "12/06–12/12",
+        "goal": "Deload technique",
+        "slots": 2,
+        "intervalMinutes": 10,
+        "workCapMinutes": 7,
+        "rpe": "4–5",
+        "sequence": [
+          "A",
+          "C"
+        ],
+        "prescription": {
+          "A": "Ski200m→Run150m→Ski150m→Run150m",
+          "C": "Row200m→Run150m→Row150m→Run150m"
+        },
+        "conditions": "No hard simulation; optional extremely low WB technique if fully pain-free, avoid WB double count with Petra."
+      },
+      {
+        "week": "W05",
+        "date": "12/13–12/19",
+        "goal": "Build athlete-style continuous output",
+        "slots": 3,
+        "intervalMinutes": 10,
+        "workCapMinutes": 8.5,
+        "rpe": "7–8",
+        "sequence": [
+          "A",
+          "B",
+          "C"
+        ],
+        "prescription": {
+          "A": "Ski400m→Run250m→Ski250m→Run250m",
+          "B": "DB reverse lunge12 alternating→6kg WB12→Run300m→WB10→reverse lunge10 alternating",
+          "C": "Row400m→Run250m→Row250m→Run250m"
+        },
+        "conditions": "No Wed hard Petra WOD and if previous hard session >=48h apart plus normal next-day recovery; replaces Sat old main, no extra WB dose."
+      },
+      {
+        "week": "W06",
+        "date": "12/20–12/26",
+        "goal": "Repeatable four 10-min windows without DOMS",
+        "slots": 4,
+        "intervalMinutes": 10,
+        "workCapMinutes": 8.5,
+        "rpe": "7–8",
+        "sequence": [
+          "A",
+          "B",
+          "C",
+          "A"
+        ],
+        "prescription": {
+          "A": "Ski350m→Run250m→Ski250m→Run250m",
+          "B": "DB reverse lunge12 alternating→6kg WB12→Run300m→WB12→reverse lunge10 alternating",
+          "C": "Row350m→Run250m→Row250m→Run250m"
+        },
+        "conditions": "Only progress if previous cycle steady and painless, not automatically full 6x10 60-min athlete workout; Wed hard Petra WOD => skip Sat"
+      }
+    ],
+    "measuredOutcomes": [
+      "Lap time across windows and whether full 1.5–3min rest remains",
+      "Garmin average/end HR and 60s recovery measured same conditions",
+      "Wall Ball technical valid reps and first leg failure point",
+      "Next day DOMS/knee/calf status and run economy"
+    ],
+    "privacy": "Actual Garmin only Alvin, Stacy prescriptions conditional without connected workout data."
   }
 }
