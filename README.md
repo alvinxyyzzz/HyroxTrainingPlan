@@ -1,3 +1,19 @@
+# HYROX PERFORMANCE LAB · UI v36 / 2026-11-22 (data and training baseline retained)
+
+**Live App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/
+
+## Important scheduling correction · 2026-11-22
+
+- **Petra WOD is a Wednesday class only.** A Friday or Saturday workout containing HYROX stations is **self-directed optional Station**, never labeled Petra WOD and never assumed attended.
+- **Saturday has no recurring Petra class or recurring HYROX WOD.** Optional Station/Easy/Recovery is contingent on workload and actual Wednesday participation.
+- **Saturday 2026-11-28 HYROX PFT** is a **one-time test**, goal 25 minutes. The app renders this on that exact date only; it should not propagate to subsequent Saturdays.
+- The athlete program/whiteboard photos supplied on Nov 21 are for the coach to learn exercise progressions (Ski+Run, Lunge+Wall Ball+Run, Row+Run), **not Alvin's attendance, class booking, or a schedule to copy**.
+- Petra Tuesday Strength and Thursday Interval are optional classes; the app is for **Alvin only**, not Stacy's schedule.
+- The app's weekly UI is the default landing view, with a per-week Wednesday WOD attendance choice persisted locally, seven-day cards, PFT callout and a phone-friendly layout. This is an **interface/interpretation correction**; the existing 17-week plan and private training data were not overwritten. Any future data update must preserve these principles.
+- Cache and installed PWA launch version advanced to v36.
+
+---
+
 # HYROX PERFORMANCE LAB · v1.5.5 (training plan base v1.5.1, cardio transfer v1.5.5)
 
 **App data updated:** 2026-11-18 (Petra WOD + Garmin FIT-minute HR analysis and six-week WB/Ski/Row transition v1.5.5); 74 Garmin activities / 36 runs / 150.25 km actual running / 231 FIT laps, 38 audited Petra photos.
