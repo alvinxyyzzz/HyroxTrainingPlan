@@ -412,6 +412,25 @@ header{background:#fffffff0;backdrop-filter:blur(16px)}
  .simpl-day{padding:15px}
  .simpl-day-name strong{font-size:14px}
 }
+
+/* 2026-11-23 date-specific low-fatigue legs + persistent accessory microcycles */
+.simpl-day.day-special{grid-column:1/-1;border:2px solid #afd68d;background:#fbfff7}
+.special-intro{font-size:12px;line-height:1.7;color:#507357;margin:12px 0 14px}
+.special-blocks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:13px}
+.special-block{padding:12px;background:white;border:1px solid #e3eddf;border-radius:12px}
+.special-block-time{display:block;color:#739a73;font-size:10px;font-weight:850;letter-spacing:.04em}
+.special-block strong{display:block;font-size:13px;color:#284734;margin:5px 0}
+.special-block p{font-size:12px;line-height:1.65;color:#385543;margin:0}
+.special-block small{display:block;margin-top:7px;font-size:11px;color:#7c9180;line-height:1.5}
+.special-gate{background:#eaf3e5;color:#315b37;border-radius:11px;margin-top:12px;padding:12px 14px;font-size:12px;line-height:1.7}
+.special-gate strong{color:#234b2b}
+.special-prescription{border-top:1px solid #deebd9;margin-top:12px;padding-top:10px;color:#65836c;font-size:11px;line-height:1.6}
+.capacity-module{margin-top:14px;padding:12px;background:#f2f7ef;border:1px solid #ddebd8;border-radius:12px}
+.capacity-module summary{font-size:12px;font-weight:850;color:#315b3d;cursor:pointer}
+.capacity-module p,.capacity-module li{font-size:11px;color:#4d6b57;line-height:1.65}
+.capacity-module ul{padding-left:18px;margin:8px 0}
+@media(max-width:700px){.special-blocks{grid-template-columns:1fr}.special-block{padding:11px}.simpl-day.day-special{padding:15px}}
+
 </style>
 </head>
 <body>
@@ -522,7 +541,42 @@ function stationItems(z,w){
  }
  return exerciseItems(z);
 }
+
+const SPECIAL_LEG_BLOCKS=[
+ ["00–10","暖身＋動作檢查","SkiErg 5 分鐘 RPE 2–3；髖踝動態活動＋徒手深蹲 5 分鐘","先確認步態、下蹲及單腳站立都自然"],
+ ["10–22","Barbell Back Squat","暖身 20 kg × 8、30 kg × 6；工作組 40 kg × 6 × 2；休 90–120 秒","只做 RPE 4–5；若 40 kg 太吃力就降到 30 kg，不加重量或組數"],
+ ["22–32","Reverse Lunge｜反向弓箭步","徒手 2 × 6／側，組間休 60–90 秒","慢速控制骨盆與膝蓋，明顯痠痛就減為 1 組或跳過"],
+ ["32–37","Low Step-down｜單腳下踩","10–15 cm 低台階，1 × 5／側","純穩定控制；膝蓋不舒服直接略過"],
+ ["37–47","小腿／脛前肌","扶持單腳提踵 2 × 8–10／側；Tibialis Raise 2 × 12","小腿仍痠就取消提踵；今天不做單腳跳或高反應跳躍"],
+ ["47–56","HYROX 低強度有氧","SkiErg 6 分鐘＋RowErg 3 分鐘，均速 RPE 3–4","腿越划越沉就改成輕鬆走路"],
+ ["56–60","收操","慢走與溫和髖、踝活動度 4 分鐘","不強拉痠痛肌肉，練完應比進場更輕鬆"]
+];
+function renderSpecialLegDay(z){
+ const blocks=SPECIAL_LEG_BLOCKS.map(b=>'<div class="special-block"><span class="special-block-time">'+esc(b[0])+' MIN</span><strong>'+esc(b[1])+'</strong><p>'+esc(b[2])+'</p><small>'+esc(b[3])+'</small></div>').join("");
+ return '<article class="simpl-day day-special"><div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"週一")+'</span><small>11/23</small></div><div class="simpl-day-name"><strong>腿部＋單腿穩定｜特殊恢復課</strong><span>60 分鐘內 · 全程 RPE 4–5 · 非例行週一課</span></div><span class="simpl-kind kind-strength">特殊課</span></div>'+
+ '<p class="special-intro">明晚 Petra Strength，週六 11/28 PFT：今天保留動作品質與單腿／踝部刺激，不追重量、不力竭。40 kg 是參考上限，不是必達要求。</p>'+
+ '<div class="special-blocks">'+blocks+'</div>'+
+ '<div class="special-gate"><strong>暖身後決策：</strong>僅輕微痠痛且動作自然 → 做上述課表；明顯痠痛或下蹲受限 → 取消負重、弓箭步和提踵，改 Easy Ski／步行 20–30 分鐘＋活動度；若出現關節腫脹、刺痛或異常無力 → 停止訓練。</div>'+
+ '<p class="special-prescription">今天不做 70–80 kg 深蹲、重雪橇、Wall Ball、BBJ 或高衝擊 Pogo。這是 2026/11/23 一次性調整，並非之後每週一的固定訓練。</p></article>';
+}
+function renderMondayCapacityModule(z,w){
+ if(z.day!=="mon"||w.id==="W17"||pftWeek(w))return "";
+ const week=Number(String(w.id||"").replace(/\D/g,""))||0;
+ const deload=week%4===0||week>=16;
+ const existing=(z.sections||[]).flatMap(g=>g.lines||[]).join(" ");
+ const alreadySingle=/Split Squat|Reverse Lunge|Step.up|Single.leg|單腿|分腿|弓箭步/i.test(existing);
+ const leg=alreadySingle?
+  "已有分腿／單腿動作：維持原定處方，不再疊加另一項；優先記錄左右差與實際重量。":
+  (deload?"分腿蹲或 Step-up 1 × 6／側，徒手或很輕，RPE 4–5。":"Reverse Lunge／Split Squat 二選一，2 × 6–8／側，RPE 6–7；先徒手，再按同動作 Garmin 有效紀錄加重。");
+ const calf=deload?"扶持提踵 1 × 10／側，輕鬆完成。":"單腿提踵 2 × 8–12／側＋屈膝提踵 2 × 10–12，RPE 6–7。";
+ const plyo=deload?"減量週不追彈跳接觸量。":"只有恢復良好且已適應時，暖身後雙腳低幅 Pogo 2 × 10；循序增加，暫不直接上單腳跳。";
+ return '<details class="capacity-module"><summary>長期模組｜單腿力量＋小腿＋跑步彈性（取代輔助項，不加課）</summary><ul>'+
+ '<li>'+esc(leg)+'</li><li>'+esc(calf)+'</li><li>'+esc(plyo)+'</li></ul>'+
+ '<p>依本週總負荷決定：週三硬 Petra WOD、週四品質跑、測驗或異常痠痛時下修或取消。每次只提高重量、次數或接觸量其中一項；負重先看最近同動作 Garmin 組數，不沿用別的動作公斤數。</p></details>';
+}
+
 function renderDay(z,i,w){
+  if(z.date==="2026-11-23")return renderSpecialLegDay(z);
  const race=w.id==="W17",pft=z.date==="2026-11-28",isPftWeek=pftWeek(w);
  const day=z.day,choice=wodChoice(w);
  let category=z.kind||"rest",heading=String(z.title||"").replace(/｜.*$/,"").trim(),duration=z.time||"",items=[];
@@ -564,7 +618,7 @@ function renderDay(z,i,w){
  }
  const reason=sessionReason(z,w),label=LABELS[category]||"訓練";
  const li=items.map(x=>'<li>'+esc(x)+'</li>').join("");
- return '<article class="simpl-day '+(category==="rest"?"simpl-rest ":"")+(category==="optional"?"simpl-optional ":"")+(pft?"day-pft":"")+'"><div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"")+'</span><small>'+esc(dshort(z.date||""))+'</small></div><div class="simpl-day-name"><strong>'+esc(heading)+'</strong><span>'+esc(duration)+'</span></div><span class="simpl-kind kind-'+esc(category)+'">'+esc(label)+'</span></div>'+(reason?'<p class="workout-one-line">'+esc(reason)+'</p>':"")+'<ul class="workout-short-list">'+li+'</ul></article>';
+ return '<article class="simpl-day '+(category==="rest"?"simpl-rest ":"")+(category==="optional"?"simpl-optional ":"")+(pft?"day-pft":"")+'"><div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"")+'</span><small>'+esc(dshort(z.date||""))+'</small></div><div class="simpl-day-name"><strong>'+esc(heading)+'</strong><span>'+esc(duration)+'</span></div><span class="simpl-kind kind-'+esc(category)+'">'+esc(label)+'</span></div>'+(reason?'<p class="workout-one-line">'+esc(reason)+'</p>':"")+'<ul class="workout-short-list">'+li+'</ul>'+renderMondayCapacityModule(z,w)+'</article>';
 }
 function runningPage(){
  const s=state.data.seasonPlan,w=s.weeks[state.week],r=w.runningTrack||{},n=Number(w.id.slice(1));
@@ -685,7 +739,7 @@ async function load(){
   app.innerHTML='<div class="overview" style="margin-top:32px"><h2>暫時讀不到訓練計畫</h2><p>'+esc(err.message)+'。請確認網路後重新整理；離線時可嘗試重新打開已快取的App。</p></div>';
  }
 }
-if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js?v=36").catch(()=>{})}
+if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js?v=37").catch(()=>{})}
 load();
 })();
 </script>
