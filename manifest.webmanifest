@@ -3,10 +3,10 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=garmin-zones-v38",
+  "start_url": "./?app=garmin-petra-coach-v156-v39",
   "scope": "./",
   "display": "standalone",
-  "description": "17週HYROX Taipei週期化訓練路線、每週詳細課表與Garmin/Petra科學判讀",
+  "description": "Alvin 17週HYROX訓練計畫 v1.5.6、Garmin+Petra實際紀錄復盤、週三選配WOD與週六自主訓練",
   "background_color": "#f2f5f0",
   "theme_color": "#f2f5f0",
   "icons": [
