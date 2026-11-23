@@ -1,6 +1,15 @@
-# HYROX PERFORMANCE LAB · UI v36 / 2026-11-22 (data and training baseline retained)
+# HYROX PERFORMANCE LAB · UI v37 / 2026-11-23 (data and training baseline retained)
 
 **Live App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/
+
+## 2026-11-23 · special recovery legs + persistent unilateral/calf microcycles (UI v37)
+
+- Updated **existing GitHub Pages app**, keeping `data/report.json` and the existing 17-week training structure intact. This is not a new app.
+- On **Monday 2026-11-23 only**, the weekly card displays a 60-minute low-fatigue lower-body session before optional Petra Strength Tuesday and the one-off Nov 28 PFT: Ski warm-up; barbell squat warm-ups 20 kg × 8 and 30 kg × 6, then up to 40 kg × 6 × 2 at RPE 4–5; bodyweight reverse lunges 2 × 6/side; low step-down 1 × 5/side; supported single-leg calf raise 2 × 8–10/side plus tibialis raises 2 × 12; SkiErg 6 minutes + RowErg 3 minutes easy; cooldown. No heavy sled/Wall Ball or jumps that day. Warm-up decision gate scales down to recovery cardio or stops as appropriate.
+- **Normal later Monday sessions** expose a progressive unilateral strength / calf / ankle-reactivity accessory module, instead of stacking a new workout. If the underlying training prescription already includes unilateral work, the module does not add a duplicate unilateral exercise. Uses lower volume on W04/W08/W12/W16 deloads, and is suppressed in the Nov 28 PFT week and race week.
+- Future loads should be calibrated to confirmed same-movement Garmin sets, with RPE as a second gate. The UI does not claim a new automated Garmin strength-weight model; private Garmin raw data and symptoms are not stored in public code.
+- PWA cache key updated to `hyrox-weekly-board-20261123-v37`; existing plan, Petra Wed WOD optional status, one-time PFT, and Fri/Sat Taipei race details retained.
+
 
 ## Important scheduling correction · 2026-11-22
 
