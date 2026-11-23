@@ -1,3 +1,13 @@
+# 2026-11-23 · Garmin full-source clarification / UI v38
+
+The official Garmin Personal API does record real FIT strength repetition counts AND weights. Alvin private database: 14 strength sessions, 108 active sets, 107 containing weight, 4–70kg FIT-recorded values. Later edited exercise names in Garmin Connect are **not** available via current Garmin Personal API authorization (`exerciseSets` HTTP404 on two verified IDs), but do NOT say weights were missing. Original FIT first-ranked exercise candidates can be wrong.
+
+Private database has 82 Garmin activity `summaryDTO` rows (including training loads) and 28-day recovery records (sleep, HRV, Body Battery, stress, RHR, VO₂max) and Garmin configured HR zones. Public app must NOT expose personally identifying biometric raw rows. Garmin current (2026-11-23) configured Z2 118–136 bpm, Z3 137–156; this is Garmin HR_MAX model, not validated LT1. 11/23 Easy Run avg149 was Garmin Z3, so use conversational/RPE assessment and avoid assuming prior HR135–145 is true Z2.
+
+11/23 five recorded sessions: 5.897km run + 1.005km Ski + two strength activities (12 active FIT sets/109 reps, recorded kg) + 1.003km Row. Combined activityTrainingLoad ≈199.5. Recovery sleep score55, HRV38 Unbalanced, RHR53, stress41, BB latest14 => priority recovery Tue 11/24, no Wed WOD due to childcare, Thu easy only if recovered, Fri rest, Nov28 one-time PFT. Keep strength session-specific kg PRIVATE until exercises actually reconciled with user's Garmin Connect edits. Private source of truth: https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+
+---
+
 # 2026-11-23 · Garmin 365-day reconciliation + W02 actual / PFT taper (UI v37)
 
 - Central private spreadsheet: https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
