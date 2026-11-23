@@ -628,6 +628,7 @@ function renderDay(z,i,w){
 }
 function runningPage(){
  const s=state.data.seasonPlan,w=s.weeks[state.week],r=w.runningTrack||{},n=Number(w.id.slice(1));
+ const recentPft=w.id==="W02"?'<section class="run-alternatives"><h3>11/28 PFT 減量週</h3><p>11/23 已跑5.897km、平均心率149；午後 Ski1.005km、Row1.003km 不計入跑量。</p><p>取消額外品質跑與追里程，週四如恢復可 Easy 15–20min／最多2次短加速，週五休息、週六PFT。</p></section>':"";
  const goal=state.data.tenKPerformanceGoal||{}, ten=r.tenK50||{};
  const phases=(goal.phases||[
   {from:1,to:4,name:"BASE",milestone:"建立每週2次跑步"},
@@ -683,7 +684,7 @@ function runningPage(){
  return '<section class="screen active track-running-page">'+
  '<div class="simpl-week-top"><span class="mini">RUNNING / AEROBIC</span>'+selector+'</div>'+
  '<div class="track-running-hero"><div><span class="mini">'+esc(w.id)+' · '+esc(dshort(w.start))+'–'+esc(dshort(w.end))+'</span><h1>10K · 50:00</h1><p>目標均速 5:00/km · 一週品質跑1次、Long Easy1次，日期彈性；Ski／Row 是補充。</p></div></div>'+
- focus+coachGuide+alternatives+'<section class="run-timeline"><h2 class="run-timeline-title">賽前 17 週跑步規劃</h2>'+rows+'</section>'+extra+'</section>';
+ recentPft+focus+coachGuide+alternatives+'<section class="run-timeline"><h2 class="run-timeline-title">賽前 17 週跑步規劃</h2>'+rows+'</section>'+extra+'</section>';
 }
 
 function kickoffCard(k){
@@ -713,12 +714,13 @@ function weekPage(){
 }
 function analysis(){
  const d=state.data,m=d.metrics||{},list=d.weeklyKm||[],max=Math.max(28,...list.map(x=>Number(x.km)||0));
+ const recentSummary=d.garminLatest?'<div class="run-alternatives"><h3>11/23 完整歷史回補</h3><p>82筆活動 · 跑步38次／累計162.774km。此次新增4筆、修正4筆既有活動摘要。</p><p><b>今日實際：</b>早跑5.897km；下午Ski1.005km＋Strength兩筆＋Row1.003km。</p><p><b>品質註記：</b>歷史 FIT 詳細資料和 Garmin Connect 後改動作組數仍有回補警告，不能當成已驗證的負重與次數。</p></div>':"";
  const bars=list.map((x,i)=>{const val=Number(x.km)||0;return '<div class="bar-outer"><span class="bar-value">'+val.toFixed(1)+'</span><div class="bar '+(i===list.length-1?'bright':'')+'" style="height:'+Math.max(3,Math.round(val/max*120))+'px" title="'+esc(x.w)+' '+val+' km"></div><span class="bar-label">'+esc(x.w)+'</span></div>'}).join("");
  const findings=(d.coach?.findings||[]).slice(0,4).map((x,i)=>'<article class="insight"><span class="n">0'+(i+1)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.body)+'</p></article>').join("");
  const transitions=(d.cardioTransitionProgram?.weeks||[]).map(x=>'<article class="insight"><span class="n">'+esc(x.week)+'</span><h3>'+esc(x.focus)+'</h3><p><b>受控主站：</b>'+esc(x.station)+'</p><p><b>Wall Ball：</b>'+esc(x.wb)+'</p><p><b>跑步：</b>'+esc(x.longRun)+'</p></article>').join("");
  const athleteBlocks=(d.athletePetraABC?.progressions||[]).map(x=>'<article class="insight"><span class="n">'+esc(x.week)+'</span><h3>'+esc(x.goal)+' · '+esc(x.slots)+'×10min</h3><p><b>順序：</b>'+esc(x.sequence.join(' → '))+' · RPE '+esc(x.rpe)+'</p><p>'+esc(x.sequence.map(z=>z+': '+x.prescription[z]).join(' | '))+'</p><p><b>開課條件：</b>'+esc(x.conditions)+'</p></article>').join("");
  const sources=(d.seasonPlan?.science||[]).map(x=>'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.title)+'</a>').join(' · ');
- return '<section class="screen active"><div class="overview"><span class="mini">TRAINING EVIDENCE / SNAPSHOT</span><h2>用實際紀錄，調整每一週。</h2><p>Garmin 與 Petra 負責紀錄實際訓練；這裡只顯示能影響課表的關鍵指標，不拿不相同的課程做誤導性比較。</p></div><div class="stat-grid"><div class="stat"><span>GARMIN 活動</span><b>'+esc(m.activities)+'</b></div><div class="stat"><span>累積跑步 KM</span><b>'+Number(m.totalKm||0).toFixed(1)+'</b></div><div class="stat"><span>PETRA 照片</span><b>'+esc(m.petraPhotos)+'</b></div></div><article class="chart"><h2>每週跑量</h2><p class="lead" style="font-size:11px">截至 '+esc(d.dataThrough)+'；最新週尚未結束。本週資料僅計Garmin實際跑步，衝浪等未記活動另以本人回報納入疲勞判讀；11/28 PFT 為單次測驗，週六沒有固定 WOD 課程。</p><div class="bars">'+bars+'</div></article><div class="section-head"><h2>AI 教練怎麼判讀</h2><p>分析日期 '+esc(d.lastReview)+'</p></div><div class="insights">'+findings+'</div><div class="section-head"><h2>6週心肺轉換 × Wall Ball 肌耐力</h2><p>11/18 WOD 實測後建立的自主訓練模組，非 Petra 週六課；週三上硬 WOD 就不再加第二次硬主站</p></div><div class="insights">'+transitions+'</div><div class="section-head"><h2>Petra 選手部 A/B/C｜PFT 後漸進</h2><p>11/21 選手部白板只是學習動作設計與進階，非固定課、非 Alvin 出席紀錄；未來可選擇納入自主專項</p></div><div class="insights">'+athleteBlocks+'</div><div class="section-head"><h2>膝蓋與小腿恢復</h2></div><div class="overview"><p>'+esc(d.calfRecovery?.symptom||'')+'</p><p style="margin-top:12px"><b>下次強度課前先確認：</b>步行與上樓是否正常、提踵是否舒適、隔天有沒有加重。仍痛就改低衝擊Easy，避免把酸痛直接診斷成肌耐力不足。</p></div><div class="section-head"><h2>資料與系統</h2></div><div class="status-grid"><div class="status-line"><span>Garmin 同步快照</span><small>'+esc(d.lastSync||'—')+'</small></div><div class="status-line"><span>Petra 歷史索引</span><small>'+esc(m.petraPhotos||'—')+' 張／已分析的快照</small></div><div class="status-line"><span>AI 課表更新</span><small>'+esc(d.lastReview||'—')+'</small></div><div class="status-line"><span>完整17週方案</span><small>V'+esc(d.version||'—')+' · 每週依新資料微調</small></div></div><div class="sources">參考研究：'+sources+'</div></section>'
+ return '<section class="screen active">'+recentSummary+'<div class="overview"><span class="mini">TRAINING EVIDENCE / SNAPSHOT</span><h2>用實際紀錄，調整每一週。</h2><p>Garmin 與 Petra 負責紀錄實際訓練；這裡只顯示能影響課表的關鍵指標，不拿不相同的課程做誤導性比較。</p></div><div class="stat-grid"><div class="stat"><span>GARMIN 活動</span><b>'+esc(m.activities)+'</b></div><div class="stat"><span>累積跑步 KM</span><b>'+Number(m.totalKm||0).toFixed(1)+'</b></div><div class="stat"><span>PETRA 照片</span><b>'+esc(m.petraPhotos)+'</b></div></div><article class="chart"><h2>每週跑量</h2><p class="lead" style="font-size:11px">截至 '+esc(d.dataThrough)+'；最新週尚未結束。本週資料僅計Garmin實際跑步，衝浪等未記活動另以本人回報納入疲勞判讀；11/28 PFT 為單次測驗，週六沒有固定 WOD 課程。</p><div class="bars">'+bars+'</div></article><div class="section-head"><h2>AI 教練怎麼判讀</h2><p>分析日期 '+esc(d.lastReview)+'</p></div><div class="insights">'+findings+'</div><div class="section-head"><h2>6週心肺轉換 × Wall Ball 肌耐力</h2><p>11/18 WOD 實測後建立的自主訓練模組，非 Petra 週六課；週三上硬 WOD 就不再加第二次硬主站</p></div><div class="insights">'+transitions+'</div><div class="section-head"><h2>Petra 選手部 A/B/C｜PFT 後漸進</h2><p>11/21 選手部白板只是學習動作設計與進階，非固定課、非 Alvin 出席紀錄；未來可選擇納入自主專項</p></div><div class="insights">'+athleteBlocks+'</div><div class="section-head"><h2>膝蓋與小腿恢復</h2></div><div class="overview"><p>'+esc(d.calfRecovery?.symptom||'')+'</p><p style="margin-top:12px"><b>下次強度課前先確認：</b>步行與上樓是否正常、提踵是否舒適、隔天有沒有加重。仍痛就改低衝擊Easy，避免把酸痛直接診斷成肌耐力不足。</p></div><div class="section-head"><h2>資料與系統</h2></div><div class="status-grid"><div class="status-line"><span>Garmin 同步快照</span><small>'+esc(d.lastSync||'—')+'</small></div><div class="status-line"><span>Petra 歷史索引</span><small>'+esc(m.petraPhotos||'—')+' 張／已分析的快照</small></div><div class="status-line"><span>AI 課表更新</span><small>'+esc(d.lastReview||'—')+'</small></div><div class="status-line"><span>完整17週方案</span><small>V'+esc(d.version||'—')+' · 每週依新資料微調</small></div></div><div class="sources">參考研究：'+sources+'</div></section>'
 }
 document.addEventListener("click",e=>{
  const c=e.target.closest("[data-wod-choice]");if(c){const w=state.data.seasonPlan.weeks[state.week];save("alvin_wod_"+w.id,c.dataset.wodChoice);nav("week");return}
@@ -736,6 +738,19 @@ async function load(){
   if(!res.ok)throw new Error("HTTP "+res.status);
   const d=await res.json();
   if(!Array.isArray(d.seasonPlan?.weeks)||d.seasonPlan.weeks.length!==17)throw new Error("17週課表未完成");
+  try{
+    const lr=await fetch("./data/latest-garmin.json?t="+Date.now(),{cache:"no-store"});
+    if(lr.ok){
+      const latest=await lr.json();
+      if(String(latest.dataThrough||"")>=String(d.dataThrough||"")){
+        d.metrics={...(d.metrics||{}),...latest.metrics};
+        d.dataThrough=latest.dataThrough;
+        d.lastSync=latest.lastSync;
+        d.lastReview=latest.latestReview;
+        d.garminLatest=latest;
+      }
+    }
+  }catch(_){/* Optional aggregate snapshot; keep existing plan accessible. */}
   state.data=d;
   const parts=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const datePart=k=>parts.find(x=>x.type===k)?.value||"00";const today=datePart("year")+"-"+datePart("month")+"-"+datePart("day"); const closest=d.seasonPlan.weeks.findIndex(w=>today<=w.end);state.week=closest>=0?closest:d.seasonPlan.weeks.length-1;
   document.getElementById("update-stamp").textContent=(d.planRelease?.label||"v1.4.1")+" · DATA "+(d.dataThrough||"—");
