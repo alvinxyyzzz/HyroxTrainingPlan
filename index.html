@@ -559,7 +559,7 @@ function renderSpecialLegDay(z){
  const blocks=SPECIAL_LEG_BLOCKS.map(b=>'<div class="special-block"><span class="special-block-time">'+esc(b[0])+' MIN</span><strong>'+esc(b[1])+'</strong><p>'+esc(b[2])+'</p><small>'+esc(b[3])+'</small></div>').join("");
  return '<article class="simpl-day day-special"><div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"週一")+'</span><small>11/23</small></div><div class="simpl-day-name"><strong>腿部＋單腿穩定｜特殊恢復課</strong><span>60 分鐘內 · 全程 RPE 4–5 · 非例行週一課</span></div><span class="simpl-kind kind-strength">特殊課</span></div>'+
  '<p class="special-intro">Garmin 已確認今天上午跑步＋下午 Ski、力量與 Row。週六 PFT 前不再補高量腿部課；明天 Petra Strength 可依恢復取消。40kg 是原課表參考上限，不代表實際完成重量。</p>'+
- '<div class="garmin-actual"><strong>GARMIN · 11/23 實際記錄</strong><p>07:41 跑步 5.897km／38:24／HR149；16:56 Ski 1.005km／5:22／HR149；17:06 Strength 16:57／HR129；17:28 Strength 3:48／HR147；17:33 Row 1.003km／5:09／HR159。重訓動作、重量未核實。</p></div><div class="special-blocks">'+blocks+'</div>'+
+ '<div class="garmin-actual"><strong>GARMIN · 11/23 實際記錄</strong><p>07:41 跑步 5.897km／38:24／HR149；16:56 Ski 1.005km／5:22／HR149；17:06 Strength 16:57／HR129；17:28 Strength 3:48／HR147；17:33 Row 1.003km／5:09／HR159。原始 FIT 已記錄重量與次數；更正後的動作名稱未核實。</p></div><div class="special-blocks">'+blocks+'</div>'+
  '<div class="special-gate"><strong>暖身後決策：</strong>僅輕微痠痛且動作自然 → 做上述課表；明顯痠痛或下蹲受限 → 取消負重、弓箭步和提踵，改 Easy Ski／步行 20–30 分鐘＋活動度；若出現關節腫脹、刺痛或異常無力 → 停止訓練。</div>'+
  '<p class="special-prescription">今天不做 70–80 kg 深蹲、重雪橇、Wall Ball、BBJ 或高衝擊 Pogo。這是 2026/11/23 一次性調整，並非之後每週一的固定訓練。</p></article>';
 }
@@ -714,7 +714,7 @@ function weekPage(){
 }
 function analysis(){
  const d=state.data,m=d.metrics||{},list=d.weeklyKm||[],max=Math.max(28,...list.map(x=>Number(x.km)||0));
- const recentSummary=d.garminLatest?'<div class="run-alternatives"><h3>11/23 完整歷史回補</h3><p>82筆活動 · 跑步38次／累計162.774km。此次新增4筆、修正4筆既有活動摘要。</p><p><b>今日實際：</b>早跑5.897km；下午Ski1.005km＋Strength兩筆＋Row1.003km。</p><p><b>品質註記：</b>歷史 FIT 詳細資料和 Garmin Connect 後改動作組數仍有回補警告，不能當成已驗證的負重與次數。</p></div>':"";
+ const recentSummary=d.garminLatest?'<div class="run-alternatives"><h3>11/23 完整歷史回補</h3><p>82筆活動 · 跑步38次／累計162.774km。此次新增4筆、修正4筆既有活動摘要；14筆力量活動共108個有效組。</p><p><b>今日實際：</b>早跑5.897km；下午Ski1.005km＋Strength兩筆＋Row1.003km。</p><p><b>品質註記：</b>原始 FIT 已包含108個有效力量組，107組有重量；Garmin Connect 更正後的動作名稱目前 Personal API 查詢為 HTTP 404，不等於沒有重量。</p></div>':"";
  const bars=list.map((x,i)=>{const val=Number(x.km)||0;return '<div class="bar-outer"><span class="bar-value">'+val.toFixed(1)+'</span><div class="bar '+(i===list.length-1?'bright':'')+'" style="height:'+Math.max(3,Math.round(val/max*120))+'px" title="'+esc(x.w)+' '+val+' km"></div><span class="bar-label">'+esc(x.w)+'</span></div>'}).join("");
  const findings=(d.coach?.findings||[]).slice(0,4).map((x,i)=>'<article class="insight"><span class="n">0'+(i+1)+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.body)+'</p></article>').join("");
  const transitions=(d.cardioTransitionProgram?.weeks||[]).map(x=>'<article class="insight"><span class="n">'+esc(x.week)+'</span><h3>'+esc(x.focus)+'</h3><p><b>受控主站：</b>'+esc(x.station)+'</p><p><b>Wall Ball：</b>'+esc(x.wb)+'</p><p><b>跑步：</b>'+esc(x.longRun)+'</p></article>').join("");
