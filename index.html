@@ -431,6 +431,9 @@ header{background:#fffffff0;backdrop-filter:blur(16px)}
 .capacity-module ul{padding-left:18px;margin:8px 0}
 @media(max-width:700px){.special-blocks{grid-template-columns:1fr}.special-block{padding:11px}.simpl-day.day-special{padding:15px}}
 
+.garmin-actual{margin:10px 0 14px;padding:13px 15px;background:#ecf6e8;border:1px solid #cee6cc;border-radius:12px}
+.garmin-actual strong{font-size:10px;letter-spacing:.1em;color:#447e53}
+.garmin-actual p{font-size:12px;color:#375f43;line-height:1.7;margin:6px 0 0}
 </style>
 </head>
 <body>
@@ -470,10 +473,11 @@ function cleanExercise(s){
 }
 
 const LABELS={station:"自主專項",strength:"力量",mixed:"WOD",optional:"選配",rest:"恢復",race:"比賽",run:"跑步",pft:"PFT"};
-const wodChoice=w=>getSave("alvin_wod_"+w.id,"pending");
+const wodChoice=w=>w.id==="W02"?"no":getSave("alvin_wod_"+w.id,"pending");
 const pftWeek=w=>(w.dailyPlan||[]).some(z=>z.date==="2026-11-28");
 function wodSelector(w){
  if(w.id==="W17")return "";
+ if(w.id==="W02")return '<div class="wod-selector"><div><small>WED · FAMILY</small><strong>11/25 顧小孩／不參加 Petra WOD</strong><p>這週不排週三 WOD，也不需要補課。</p></div></div>';
  const current=wodChoice(w),options=[["pending","待定"],["yes","會上"],["no","不會上"]];
  return '<div class="wod-selector"><div><small>WED / PETRA</small><strong>週三 WOD 參加狀態</strong><p>用來調整週六建議，不會把未參加的課算成已完成</p></div><div class="wod-switch">'+options.map(x=>'<button data-wod-choice="'+x[0]+'" class="'+(current===x[0]?'on':'')+'" aria-pressed="'+(current===x[0]?'true':'false')+'">'+x[1]+'</button>').join("")+'</div></div>';
 }
@@ -554,8 +558,8 @@ const SPECIAL_LEG_BLOCKS=[
 function renderSpecialLegDay(z){
  const blocks=SPECIAL_LEG_BLOCKS.map(b=>'<div class="special-block"><span class="special-block-time">'+esc(b[0])+' MIN</span><strong>'+esc(b[1])+'</strong><p>'+esc(b[2])+'</p><small>'+esc(b[3])+'</small></div>').join("");
  return '<article class="simpl-day day-special"><div class="simpl-day-head"><div class="simpl-day-date"><span>'+esc(z.dayZh||"週一")+'</span><small>11/23</small></div><div class="simpl-day-name"><strong>腿部＋單腿穩定｜特殊恢復課</strong><span>60 分鐘內 · 全程 RPE 4–5 · 非例行週一課</span></div><span class="simpl-kind kind-strength">特殊課</span></div>'+
- '<p class="special-intro">明晚 Petra Strength，週六 11/28 PFT：今天保留動作品質與單腿／踝部刺激，不追重量、不力竭。40 kg 是參考上限，不是必達要求。</p>'+
- '<div class="special-blocks">'+blocks+'</div>'+
+ '<p class="special-intro">Garmin 已確認今天上午跑步＋下午 Ski、力量與 Row。週六 PFT 前不再補高量腿部課；明天 Petra Strength 可依恢復取消。40kg 是原課表參考上限，不代表實際完成重量。</p>'+
+ '<div class="garmin-actual"><strong>GARMIN · 11/23 實際記錄</strong><p>07:41 跑步 5.897km／38:24／HR149；16:56 Ski 1.005km／5:22／HR149；17:06 Strength 16:57／HR129；17:28 Strength 3:48／HR147；17:33 Row 1.003km／5:09／HR159。重訓動作、重量未核實。</p></div><div class="special-blocks">'+blocks+'</div>'+
  '<div class="special-gate"><strong>暖身後決策：</strong>僅輕微痠痛且動作自然 → 做上述課表；明顯痠痛或下蹲受限 → 取消負重、弓箭步和提踵，改 Easy Ski／步行 20–30 分鐘＋活動度；若出現關節腫脹、刺痛或異常無力 → 停止訓練。</div>'+
  '<p class="special-prescription">今天不做 70–80 kg 深蹲、重雪橇、Wall Ball、BBJ 或高衝擊 Pogo。這是 2026/11/23 一次性調整，並非之後每週一的固定訓練。</p></article>';
 }
@@ -577,12 +581,14 @@ function renderMondayCapacityModule(z,w){
 
 function renderDay(z,i,w){
   if(z.date==="2026-11-23")return renderSpecialLegDay(z);
+ if(z.date==="2026-11-24")return '<article class="simpl-day simpl-optional"><div class="simpl-day-head"><div class="simpl-day-date"><span>週二</span><small>11/24</small></div><div class="simpl-day-name"><strong>恢復優先｜Petra Strength 選配</strong><span>15–25min · RPE 2–5</span></div><span class="simpl-kind kind-optional">選配</span></div><ul class="workout-short-list"><li>11/23已跑步＋Ski／力量／Row，今日首選休息或 Mobility</li><li>若完全恢復才上 Petra：上肢或技術1–2組 RPE4–5，不重腿</li><li>不加 Wall Ball、Sled、BBJ 或大份量 Lunge</li></ul></article>';
+ if(z.date==="2026-11-25")return '<article class="simpl-day simpl-rest"><div class="simpl-day-head"><div class="simpl-day-date"><span>週三</span><small>11/25</small></div><div class="simpl-day-name"><strong>顧小孩 · 不上 WOD</strong><span>休息或家中 Mobility</span></div><span class="simpl-kind kind-rest">無課</span></div><ul class="workout-short-list"><li>不參加 Petra WOD，也不需補課</li><li>保留週六 PFT 恢復餘裕</li></ul></article>';
  const race=w.id==="W17",pft=z.date==="2026-11-28",isPftWeek=pftWeek(w);
  const day=z.day,choice=wodChoice(w);
  let category=z.kind||"rest",heading=String(z.title||"").replace(/｜.*$/,"").trim(),duration=z.time||"",items=[];
  if(pft){
   category="pft";heading="HYROX PFT · 單次測驗";duration="11/28 週六 · 目標 25 分鐘";
-  items=["漸進熱身 8–12 分鐘＋專項啟動","依正式 PFT 當天流程測驗，前段避免過快","測後緩和補水，不疊加 WOD 或硬站點"];
+  items=["熱身 Easy 8–12min＋專項動態啟動","1km Run → 50 Burpee Broad Jumps","100 Stationary Lunges → 1km Row","30 Hand-release Push-ups → 100 Wall Balls（6kg）","前段不過快，測後緩和補水、不再加硬 Station；若仍有關節疼痛／明顯 DOMS，避免全力測驗"];
  }else if(day==="wed"&&!race){
   category="optional";heading="PETRA WOD · 週三選配";duration="正式團課 · 依 Petra 當日白板";
   items=choice==="yes"?["本週選擇參加 · 作為本週主要 HYROX 強度刺激","週六不再加第二堂硬站點"]:
@@ -605,7 +611,7 @@ function renderDay(z,i,w){
    "或 SkiErg 10–15 分鐘＋RowErg 15–20 分鐘 · RPE 3–4","或休息，週日沒有固定訓練義務"];
  }else if(day==="thu"&&!race){
   category="optional";
-  if(isPftWeek){heading="PFT 前 Easy／休息";duration="測驗前 2 天";items=["Easy Run 15–25 分鐘（狀態佳可 3 次輕鬆加速）","或休息；這週不必加硬 Petra Interval"];}
+  if(isPftWeek){heading="PFT 前 Easy／休息";duration="測驗前 2 天";items=["週一已跑 5.897km；本週不追補跑量","完全恢復可 Easy 15–20min＋最多2×10秒放鬆加速","若仍疲勞直接休息，不上完整 Petra Interval"];}
   else{heading="PETRA INTERVAL · 選配";duration="週四跑課 · 當日課表為準";items=["本週品質跑選項，非固定必上","週三若上了硬 WOD，週四改 Easy 或取消"];}
  }else if(day==="fri"&&isPftWeek){
   category="rest";heading="PFT 前啟動／休息";duration="測驗前一天";items=["放鬆活動度或散步 10–20 分鐘","不做腿部大重量或高強度站點"];
