@@ -1,3 +1,15 @@
+# 2026-11-23 · Garmin 365-day reconciliation + W02 actual / PFT taper (UI v37)
+
+- Central private spreadsheet: https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit
+- Private sync pipeline: `alvinxyyzzz/hyrox-garmin-sync` now calls `src.sync_reconcile`, upserts by Garmin Activity ID, hourly 3-day and weekly 365-day reconciliation.
+- Verified private data: **82 Garmin activities / 38 running activities / 162.7743 km actual runs**, 2026-11-23 20:36 Taipei first full backfill added 4 afternoon sessions and refreshed 4 historic summaries. Second optimized 20:46 Taipei pass found 0 new/0 revised. Private audit log showed **14 optional detail warnings**; corrected Garmin Connect strength exercise sets were **not confirmed** (new optional table exists but is empty). Original FIT strength sets remain provisional estimates, never treat as actual edited exercise names/weights.
+- Public aggregate snapshot: `data/latest-garmin.json` is a safe no-GPS/no-FIT summary. UI only overlays it when its `dataThrough` is at least as fresh as `data/report.json`, so a future automation can supersede old data. Do not publish raw Garmin personal records.
+- **2026-11-23 actual:** 07:41 run 5.897km/38:24/HR149; 16:56 XC Ski Indoor 1.005km/5:22/HR149; 17:06 Strength 16:57/HR129; 17:28 Strength 3:48/HR147; 17:33 Indoor Rowing 1.003km/5:09/HR159. These are five Garmin IDs, not one workout; Ski/Row metres are not running kilometres.
+- **W02 11/22–28:** Tue REST/recovery primary, optional light Petra Strength only if fully recovered. Wed **not attending WOD because childcare**. Thu optional short Easy/activation, no full hard Interval. Fri REST, Sat 11/28 **one-off PFT** (1km run / 50 BBJ / 100 stationary lunges / 1km row / 30 HR push-ups / 100 6kg WB). No recurring Saturday WOD.
+- Keep today's special lower-body capacity card from previous conversation and user preference for long-term single-leg / calf stability, but **do not** mislabel suggested sets as Garmin-verified completed weights/reps. Replace, not stack, when fatigue is elevated.
+
+---
+
 # HYROX PERFORMANCE LAB · UI v37 / 2026-11-23 (data and training baseline retained)
 
 **Live App:** https://alvinxyyzzz.github.io/HyroxTrainingPlan/
