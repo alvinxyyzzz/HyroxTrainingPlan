@@ -3,7 +3,7 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=garmin-petra-coach-v156-v39",
+  "start_url": "./?app=garmin-petra-coach-v156-v40",
   "scope": "./",
   "display": "standalone",
   "description": "Alvin 17週HYROX訓練計畫 v1.5.6、Garmin+Petra實際紀錄復盤、週三選配WOD與週六自主訓練",
