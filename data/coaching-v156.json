@@ -1,13 +1,13 @@
 {
   "version": "v1.5.6",
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "source": "Private Garmin data analysis + Petra photo evidence; only prospective workouts published",
-  "notes": "No personal biometric values, raw FIT or workout GPS data are published. Wed Petra WOD is optional; Sat is self-directed, not fixed class.",
+  "notes": "Prospective coaching only. Tuesday Petra Strength AMRAP/high-HR circuit counts as a Hybrid quality session, not pure strength. Wed WOD and Sat independent training are optional; no personal biometric source records published.",
   "weeks": {
     "W03": {
       "focus": "POST-PFT RECOVERY｜11/28 PFT後7天，以肌肉痠痛/膝小腿/睡眠作閘門；不用追補里程",
       "runTarget": "6–12（視PFT後恢復；1–2 Easy；不追原15–19）",
-      "qualityRule": "0堂硬課為基準；PFT後DOMS或膝小腿痛→不跳、不重腿、不做長間歇。後半週若完全恢復可恢復2次Easy。每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "PFT後預設0硬課；Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN 11/29｜PFT後主動恢復/完全休息：走路10–20min；若BBJ/Lunge/WB留下DOMS，無Long Easy。",
         "mon": "MON｜如關節無痛：Bike/Row Easy 15–25min＋Mobility；不做深蹲大重量、分腿長步距或Pogo。",
@@ -21,77 +21,77 @@
     "W04": {
       "focus": "REBUILD EASY BASE｜恢復到2次Easy跑＋2次全身力量；Petra品質課擇一",
       "runTarget": "12–16（2–3次跑；大多Easy，1次品質選配）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN｜Long Easy 40–50min（大約6–8km，視狀況）@RPE2–3；Garmin設定Z2 118–136bpm僅參考，不強制追配速。",
-        "mon": "MON｜Legs+Unilateral（建議）：Back Squat 2×5 @RIR3（從空槓加到可控工作重）；DB Split Squat 2×6/側（建議DB6–10kg/手，動作標準優先）；單腿提踵2×10/側；Wall Ball 6kg 2×10放腿日最後，若膝不適改取消。",
-        "tue": "TUE｜Pull或Petra Strength擇一（不雙算）：Lat Pulldown 2–3×8–10、DB Row 2×8–10/側、Face Pull 2×12 @RIR3；如去Petra依白板調整，請記錄實際重量。",
+        "mon": "Strength A｜Squat＋Push＋單腿（可移動日期）｜Back Squat 2×5 @RIR3，暖身後以可控工作重量為準；DB Split Squat/Reverse Lunge 2×6–8/側（6–10kg/手試起，動作穩才加）；Bench/DB Press 2×6–8 @RIR3；單腿直膝提踵2×10–12，屈膝提踵1×12；Wall Ball 6kg 2×10（腿日末段，已有WOD高量則扣除，膝痛則取消）。",
+        "tue": "TUE｜Petra Strength或Easy選配。若白板是AMRAP+Easy Machine、高心率反覆循環，算Hybrid品質日，取代本週品質跑/Station之一；若為純力量，按實際內容替代A或B。週一若重腿，週二避免硬Hybrid，或將A移至其他恢復日。不強制補課。",
         "wed": "WED｜Petra WOD只在週三、選配；如果參加完整高強度WOD，Thu不做硬Interval，Sat只選技術或休息。若顧小孩則不上，不補課。",
-        "thu": "THU｜若Wed未上硬WOD且恢復佳：4×400m受控 @RPE7、組間走慢跑2–3min；否則Easy20–30min或Rest。此為單一品質跑，不加第2套。",
-        "fri": "FRI｜World Gym Push選配；Bench/DB Press 2–3×6–8 @RIR3、Shoulder Press 2×8 @RIR3、Core 2×10；本週硬課太多則跳過。",
-        "sat": "SAT｜自主Station 2×8min（不是團課）A Ski250m→Carry20m→WB6kg8；C Row250m→Ski150m；休2–3min，RPE5–6。若Wed上硬WOD則只做Easy。"
+        "thu": "THU｜Easy20–35min優先；僅在本週尚無硬Hybrid/WOD且恢復好時選受控間歇（依原週期），不加第二套。",
+        "fri": "Strength B｜Hinge＋Pull＋Carry（可移動日期）｜RDL 2–3×6–8 @RIR3（先用熟悉重量）；Lat Pulldown 2–3×8–10；Chest-supported Row 2×8–10；Farmer Carry 3×30m，先2×12–16kg依抓握與姿勢調整；HR Push-up 2×8–12（若本週已大量完成則省略）；若隔日硬Station則減量或換日。",
+        "sat": "SAT｜自主Station 2×8min（不是團課）A Ski250m→Carry20m→WB6kg8；C Row250m→Ski150m；休2–3min，RPE5–6。若Wed上硬WOD則只做Easy。 若週二已硬Hybrid，本週Station優先低量技巧，只有恢復充分且未做其他品質課才考慮增加。"
       }
     },
     "W05": {
       "focus": "BASE BUILD｜2力量+2Easy；Petra WOD / Thu間歇 / Sat硬Station取1–2",
       "runTarget": "14–18（2 Easy+1可選品質；症狀與生活安排優先）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN｜Long Easy45–55min @RPE2–3；如前一日Station腿部累，縮至30–40min或換日。",
-        "mon": "MON｜Legs：Squat或Trap-bar 3×5 @RIR3；Reverse Lunge 2×7/側 DB6–12kg/手（以姿勢為準）；單腿提踵2×10–12；WB6kg 3×10只在沒有週三硬WOD時，放腿日最後。",
-        "tue": "TUE｜Pull或Petra Strength擇一（不雙算）：Lat Pulldown 2–3×8–10、DB Row 2×8–10/側、Face Pull 2×12 @RIR3；如去Petra依白板調整，請記錄實際重量。",
+        "mon": "Strength A｜Squat＋Push＋單腿（可移動日期）｜Back Squat 3×5 @RIR3，暖身後以可控工作重量為準；DB Split Squat/Reverse Lunge 2×6–8/側（6–10kg/手試起，動作穩才加）；Bench/DB Press 2×6–8 @RIR3；單腿直膝提踵2×10–12，屈膝提踵1×12；Wall Ball 6kg 3×8–10（腿日末段，已有WOD高量則扣除，膝痛則取消）。",
+        "tue": "TUE｜Petra Strength或Easy選配。若白板是AMRAP+Easy Machine、高心率反覆循環，算Hybrid品質日，取代本週品質跑/Station之一；若為純力量，按實際內容替代A或B。週一若重腿，週二避免硬Hybrid，或將A移至其他恢復日。不強制補課。",
         "wed": "WED｜Petra WOD只在週三、選配；如果參加完整高強度WOD，Thu不做硬Interval，Sat只選技術或休息。若顧小孩則不上，不補課。",
-        "thu": "THU｜若Wed沒上硬WOD：5×400m @RPE7／休2min或4×3min，二選一；已上WOD改Easy20–30。",
-        "fri": "FRI｜World Gym Push選配；Bench/DB Press 2–3×6–8 @RIR3、Shoulder Press 2×8 @RIR3、Core 2×10；本週硬課太多則跳過。",
-        "sat": "SAT｜自主ABC 3×8min @RPE6–7：A Ski250m+FarmerCarry30m+WB6kg8–10；B Row250m+輕Lunge10m；C Ski150m+Row150m；中間休2min；Wed硬WOD則取消。"
+        "thu": "THU｜Easy20–35min優先；僅在本週尚無硬Hybrid/WOD且恢復好時選受控間歇（依原週期），不加第二套。",
+        "fri": "Strength B｜Hinge＋Pull＋Carry（可移動日期）｜RDL 2–3×6–8 @RIR3（先用熟悉重量）；Lat Pulldown 2–3×8–10；Chest-supported Row 2×8–10；Farmer Carry 3×30m，先2×12–16kg依抓握與姿勢調整；HR Push-up 2×8–12（若本週已大量完成則省略）；若隔日硬Station則減量或換日。",
+        "sat": "SAT｜自主ABC 3×8min @RPE6–7：A Ski250m+FarmerCarry30m+WB6kg8–10；B Row250m+輕Lunge10m；C Ski150m+Row150m；中間休2min；Wed硬WOD則取消。 若週二已硬Hybrid，本週Station優先低量技巧，只有恢復充分且未做其他品質課才考慮增加。"
       }
     },
     "W06": {
       "focus": "BUILD / CONTROL｜累積Easy而不是持續追高心率；Station低量轉換",
       "runTarget": "16–20（2–3次，低強度比例提高）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN｜Long Easy50–60min @RPE2–3，前週疲勞則40min；膝小腿異常取消。",
-        "mon": "MON｜Legs：Squat或Trap-bar 3×5–6 @RIR3；DB Step-up 2×8/側 DB6–12kg/手；單腿提踵3×10–12；WB6kg4×10只在未做硬WOD且膝無痛（腿日末段）。",
-        "tue": "TUE｜Pull或Petra Strength擇一（不雙算）：Lat Pulldown 2–3×8–10、DB Row 2×8–10/側、Face Pull 2×12 @RIR3；如去Petra依白板調整，請記錄實際重量。",
+        "mon": "Strength A｜Squat＋Push＋單腿（可移動日期）｜Back Squat 3×5 @RIR3，暖身後以可控工作重量為準；DB Step-up 2×8/側（6–10kg/手試起）；Bench/DB Press 2×6–8 @RIR3；單腿直膝提踵2×10–12，屈膝提踵1×12；Wall Ball 6kg 3×10（腿日末段，已有WOD高量則扣除，膝痛則取消）。",
+        "tue": "TUE｜Petra Strength或Easy選配。若白板是AMRAP+Easy Machine、高心率反覆循環，算Hybrid品質日，取代本週品質跑/Station之一；若為純力量，按實際內容替代A或B。週一若重腿，週二避免硬Hybrid，或將A移至其他恢復日。不強制補課。",
         "wed": "WED｜Petra WOD只在週三、選配；如果參加完整高強度WOD，Thu不做硬Interval，Sat只選技術或休息。若顧小孩則不上，不補課。",
-        "thu": "THU｜品質跑最多一次：5×600m受控 @RPE7，休2–3min，或Petra Interval縮量；Wed WOD已硬則Easy或Rest。",
-        "fri": "FRI｜World Gym Push選配；Bench/DB Press 2–3×6–8 @RIR3、Shoulder Press 2×8 @RIR3、Core 2×10；本週硬課太多則跳過。",
-        "sat": "SAT｜自主 Station 3×9min @RPE6–7：A Ski300m→Run(若同場可行)400m；B Carry30m→Lunge10m→WB6kg10；C Row300m→EasyRun400m；轉換動作不追秒，Wed硬WOD則刪。"
+        "thu": "THU｜Easy20–35min優先；僅在本週尚無硬Hybrid/WOD且恢復好時選受控間歇（依原週期），不加第二套。",
+        "fri": "Strength B｜Hinge＋Pull＋Carry（可移動日期）｜RDL 2–3×6–8 @RIR3（先用熟悉重量）；Lat Pulldown 2–3×8–10；Chest-supported Row 2×8–10；Farmer Carry 3×30m，先2×12–16kg依抓握與姿勢調整；HR Push-up 2×8–12（若本週已大量完成則省略）；若隔日硬Station則減量或換日。",
+        "sat": "SAT｜自主 Station 3×9min @RPE6–7：A Ski300m→Run(若同場可行)400m；B Carry30m→Lunge10m→WB6kg10；C Row300m→EasyRun400m；轉換動作不追秒，Wed硬WOD則刪。 若週二已硬Hybrid，本週Station優先低量技巧，只有恢復充分且未做其他品質課才考慮增加。"
       }
     },
     "W07": {
       "focus": "DELOAD｜每4週減量、讓腿與HRV回復；假日可移動",
       "runTarget": "12–16（DELOAD）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN｜Easy30–40min @RPE2–3，若旅行或睡眠不足可以休息。",
-        "mon": "MON｜Legs Deload：Squat 2×5 @RIR4、徒手Split Squat 1×6/側、Calf Raise1×10；WB6kg2×8只在舒適狀態。",
-        "tue": "TUE Pull/Petra Strength選配，1–2組 @RIR4；不得補高量週。",
+        "mon": "Strength A Deload｜Squat 2×5 @RIR4；徒手Split Squat 1×6/側；DB Press 1–2×8；扶持提踵1×10；Wall Ball 6kg 2×8（完全無痛才做）。",
+        "tue": "TUE｜Petra僅低強度技術或休息，不上高心率AMRAP。",
         "wed": "WED｜Petra WOD只在週三、選配；如果參加完整高強度WOD，Thu不做硬Interval，Sat只選技術或休息。若顧小孩則不上，不補課。",
-        "thu": "THU｜Easy20–30min或Strides 2×10s，無需Petra完整硬Interval。",
-        "fri": "FRI｜上肢輕Push 1–2組@RIR4或休息。",
-        "sat": "SAT｜自主技巧A+C共2×7min Ski150–200m→Row150–200m→EasyCarry20m @RPE4–5，或休息。不是WOD。"
+        "thu": "THU｜Easy20–30min或休息，取消硬Interval。",
+        "fri": "Strength B Deload｜RDL 1–2×6 @RIR4；Pulldown/Row各1–2×8；輕Carry 2×20m；可休息，不補高量。",
+        "sat": "SAT｜自主技巧A+C共2×7min Ski150–200m→Row150–200m→EasyCarry20m @RPE4–5，或休息。不是WOD。 若週二已硬Hybrid，本週Station優先低量技巧，只有恢復充分且未做其他品質課才考慮增加。"
       }
     },
     "W08": {
       "focus": "REBUILD｜Deload後恢復2力量+2Easy+最多1–2硬課",
       "runTarget": "15–19（2–3次跑，優先Easy）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "SUN｜Long Easy45–55min @RPE2–3，注意Garmin區間Z2可能低於你習慣HR。",
-        "mon": "MON｜Legs：Squat 3×5 @RIR3；Reverse Lunge 2×8/側 DB8–12kg/手（不痛且姿勢穩）；單腿提踵2×12；WB6kg3×10只放腿日末，Wed硬WOD則減。",
-        "tue": "TUE｜Pull或Petra Strength擇一（不雙算）：Lat Pulldown 2–3×8–10、DB Row 2×8–10/側、Face Pull 2×12 @RIR3；如去Petra依白板調整，請記錄實際重量。",
+        "mon": "Strength A｜Squat＋Push＋單腿（可移動日期）｜Back Squat 3×5 @RIR3，暖身後以可控工作重量為準；DB Split Squat/Reverse Lunge 2×6–8/側（6–10kg/手試起，動作穩才加）；Bench/DB Press 2×6–8 @RIR3；單腿直膝提踵2×10–12，屈膝提踵1×12；Wall Ball 6kg 3×8–10（腿日末段，已有WOD高量則扣除，膝痛則取消）。",
+        "tue": "TUE｜Petra Strength或Easy選配。若白板是AMRAP+Easy Machine、高心率反覆循環，算Hybrid品質日，取代本週品質跑/Station之一；若為純力量，按實際內容替代A或B。週一若重腿，週二避免硬Hybrid，或將A移至其他恢復日。不強制補課。",
         "wed": "WED｜Petra WOD只在週三、選配；如果參加完整高強度WOD，Thu不做硬Interval，Sat只選技術或休息。若顧小孩則不上，不補課。",
-        "thu": "THU｜品質跑選配：4×600m @RPE7；若Wed hard WOD改Easy或Rest。",
-        "fri": "FRI｜World Gym Push選配；Bench/DB Press 2–3×6–8 @RIR3、Shoulder Press 2×8 @RIR3、Core 2×10；本週硬課太多則跳過。",
-        "sat": "SAT｜自主 ABC 2–3×8min @RPE6，Ski200–250m＋Row200m＋Carry30m＋WB6kg8，Wed hard WOD取消。"
+        "thu": "THU｜Easy20–35min優先；僅在本週尚無硬Hybrid/WOD且恢復好時選受控間歇（依原週期），不加第二套。",
+        "fri": "Strength B｜Hinge＋Pull＋Carry（可移動日期）｜RDL 2–3×6–8 @RIR3（先用熟悉重量）；Lat Pulldown 2–3×8–10；Chest-supported Row 2×8–10；Farmer Carry 3×30m，先2×12–16kg依抓握與姿勢調整；HR Push-up 2×8–12（若本週已大量完成則省略）；若隔日硬Station則減量或換日。",
+        "sat": "SAT｜自主 ABC 2–3×8min @RPE6，Ski200–250m＋Row200m＋Carry30m＋WB6kg8，Wed hard WOD取消。 若週二已硬Hybrid，本週Station優先低量技巧，只有恢復充分且未做其他品質課才考慮增加。"
       }
     },
     "W09": {
       "focus": "transfer",
       "runTarget": "17–21（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 3×5–6 @RIR2",
@@ -105,7 +105,7 @@
     "W10": {
       "focus": "transfer",
       "runTarget": "18–23（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 3×5–6 @RIR2",
@@ -119,7 +119,7 @@
     "W11": {
       "focus": "transfer",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 3×5–6 @RIR2",
@@ -133,7 +133,7 @@
     "W12": {
       "focus": "transfer",
       "runTarget": "14–18（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜30–40分鐘 Easy｜戶外Easy Run 30–40分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜40–55分鐘｜Back Squat 2×5–6 @RIR4",
@@ -147,7 +147,7 @@
     "W13": {
       "focus": "specific",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 2×4–5 @RIR3",
@@ -161,7 +161,7 @@
     "W14": {
       "focus": "specific",
       "runTarget": "16–21（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 2×4–5 @RIR3",
@@ -175,7 +175,7 @@
     "W15": {
       "focus": "specific",
       "runTarget": "16–20（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜50–60分鐘 Easy｜戶外Easy Run 50–60分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜55–75分鐘｜Back Squat 2×4–5 @RIR3",
@@ -189,7 +189,7 @@
     "W16": {
       "focus": "taper",
       "runTarget": "9–13（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週以2次力量＋2次Easy跑為核心，另選品質跑／Petra週三WOD／自主硬Station三者中1–2個，48h隔開；Wed硬WOD→Thu取消硬Interval且Sat不再硬Station。Sat無固定WOD。HRV、RHR、睡眠與主觀痠痛一併判斷，單一數值不下診斷。未核實Garmin動作名稱及器材負重不推論PR。",
+      "qualityRule": "賽前減量，不新增硬Hybrid；Petra週二Strength依白板分類：若是AMRAP/短休/高心率循環，計作Hybrid品質日，不當純力量、不另補硬課。每週優先2次Easy跑及2個可移動純力量A/B（不足時先保1堂全身力量），另選1個品質日；充分恢復才加第2個，硬課間隔約48h。週二硬Hybrid則週三不做硬WOD；週四若充分恢復才選短品質跑、否則Easy；週六無固定課，若已做兩個硬日只做技巧/Rest。週三硬WOD則週四Easy、週六不疊硬Station。當週已做大量Lunge/HR Push-up時扣除同類輔助組。",
       "days": {
         "sun": "LONG EASY｜戶外跑／Petra Strength·Skill選配｜20–30分鐘 Easy｜戶外Easy Run 20–30分鐘，能講完整句子",
         "mon": "LEGS｜World Gym 深蹲＋髖伸｜40–55分鐘｜Back Squat 1×4–5 @RIR4",
