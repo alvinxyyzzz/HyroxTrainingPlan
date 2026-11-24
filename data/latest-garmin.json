@@ -1,55 +1,22 @@
 {
-  "version": "2026-11-23-history-reconcile-1",
-  "dataThrough": "2026-11-23",
-  "lastSync": "2026-11-23T12:36:30+00:00",
-  "latestReview": "2026-11-23",
+  "version": "2026-11-24-reconcile-v160",
+  "dataThrough": "2026-11-24",
+  "lastSync": "2026-11-24T13:43:32+00:00",
+  "latestReview": "2026-11-24",
   "metrics": {
-    "activities": 82,
+    "activities": 84,
     "runs": 38,
     "totalKm": 162.7743
   },
   "historicalRefresh": {
-    "windowStart": "2025-11-23",
-    "windowEnd": "2026-11-24",
-    "fetched": 82,
-    "new": 4,
-    "revised": 4,
-    "fitWarnings": 80,
+    "windowStart": "2025-11-24",
+    "windowEnd": "2026-11-25",
+    "fetched": 84,
+    "new": 0,
+    "revised": 0,
     "fitComplete": false,
-    "connectCorrectedSetsComplete": false
+    "connectCorrectedSetsComplete": false,
+    "warnings": 1
   },
-  "todaySummary": [
-    {
-      "time": "07:41",
-      "type": "跑步",
-      "dose": "5.897 km · 38:24",
-      "avgHr": 149
-    },
-    {
-      "time": "16:56",
-      "type": "SkiErg",
-      "dose": "1,005 m · 5:22",
-      "avgHr": 149
-    },
-    {
-      "time": "17:06",
-      "type": "Strength",
-      "dose": "16:57",
-      "avgHr": 129
-    },
-    {
-      "time": "17:28",
-      "type": "Strength",
-      "dose": "3:48",
-      "avgHr": 147
-    },
-    {
-      "time": "17:33",
-      "type": "RowErg",
-      "dose": "1,003 m · 5:09",
-      "avgHr": 159
-    }
-  ],
-  "coaching": "11/23晨跑加午後 Ski／力量／Row，11/28 PFT 前優先恢復。兩筆力量課的修正後動作／公斤數尚未驗證，不能臆測。週三因照顧小孩不參加 Petra WOD，週四不加硬 Interval。",
-  "source": "Private Garmin API summary only; no GPS/FIT bytes"
+  "source": "Private Garmin reconciliation aggregate only; public snapshot, not live data."
 }

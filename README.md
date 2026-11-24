@@ -1,3 +1,12 @@
+# 2026-11-24 · HYROX PERFORMANCE LAB v1.6.0 (PWA v41)
+
+- Mobile-first five-tab UI: seven-day board, today-only focus, running, station/strength module library, season roadmap and aggregate data review. Training loads in the private Sheet remain private.
+- Current private plan tab: `Training_Plan_v1_6_0_CURRENT`; v1.5.6 preserved. Public prospective overlay remains at `data/coaching-v156.json` for backwards compatibility (content version v1.6.0). W04–W16 integrate two movable strength A/B modules, two Easy runs, optional quality sessions, eight-station progression, and selected partner handovers. PFT W02 and race W17 retained. W03 recovery; W07/W12 deload, W14 limited rehearsal, W16 taper. No mandatory Saturday class.
+- Garmin private 365-day run completed 2026-11-24 21:43 Taipei: 84 unique activities, 0 new, 0 revised, one warning (Connect correction coverage not confirmed). Public summary is a dated snapshot, not live private data; no raw wellness, FIT, GPS, or personal workout rows newly published.
+- Progressions replace existing workload, never add it. RIR and movement quality guide weight changes; no invented max strength or guaranteed pace. PFT performance still pending.
+
+---
+
 # 2026-11-23 · Garmin × Petra 全歷史復盤｜Alvin coach plan v1.5.6 (PWA v39)
 
 - **Current coaching source of truth:** private native Sheet [Training_Plan_v1_5_6_CURRENT](https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit#gid=2115407852). New private [Coaching_Review_v1_5_6](https://docs.google.com/spreadsheets/d/1o48IfYCb14lNhEYOX8cgBFSrbD0CscJocKCYXgef8M0/edit#gid=1472542332) gives evidence, source reliability, and coaching rationale. Historical v1.5.1 preserved.
