@@ -1,0 +1,231 @@
+[
+  {
+    "id": "W01",
+    "start": "2026-11-15",
+    "end": "2026-11-21",
+    "focus": "歷史訓練週"
+  },
+  {
+    "id": "W02",
+    "start": "2026-11-22",
+    "end": "2026-11-28",
+    "focus": "PFT診斷週"
+  },
+  {
+    "id": "W03",
+    "start": "2026-11-29",
+    "end": "2026-12-05",
+    "focus": "POST-PFT RECOVERY｜11/28 PFT後7天，以肌肉痠痛/膝小腿/睡眠作閘門；不用追補里程"
+  },
+  {
+    "id": "W04",
+    "start": "2026-12-06",
+    "end": "2026-12-12",
+    "focus": "FOUNDATION｜力量重建＋雪橇基準"
+  },
+  {
+    "id": "W05",
+    "start": "2026-12-13",
+    "end": "2026-12-19",
+    "focus": "FOUNDATION｜跑步品質＋負重行走"
+  },
+  {
+    "id": "W06",
+    "start": "2026-12-20",
+    "end": "2026-12-26",
+    "focus": "BUILD｜BBJ與跑站轉換"
+  },
+  {
+    "id": "W07",
+    "start": "2026-12-27",
+    "end": "2027-01-02",
+    "focus": "DELOAD｜力量維持／恢復"
+  },
+  {
+    "id": "W08",
+    "start": "2027-01-03",
+    "end": "2027-01-09",
+    "focus": "BUILD｜雪橇推拉＋負重Lunge"
+  },
+  {
+    "id": "W09",
+    "start": "2027-01-10",
+    "end": "2027-01-16",
+    "focus": "BUILD｜閾值入門＋專項技術"
+  },
+  {
+    "id": "W10",
+    "start": "2027-01-17",
+    "end": "2027-01-23",
+    "focus": "TRANSFER｜Engine＋握力＋跑站"
+  },
+  {
+    "id": "W11",
+    "start": "2027-01-24",
+    "end": "2027-01-30",
+    "focus": "TRANSFER｜Tempo＋腿部專項耐力"
+  },
+  {
+    "id": "W12",
+    "start": "2027-01-31",
+    "end": "2027-02-06",
+    "focus": "DELOAD｜力量維持／恢復"
+  },
+  {
+    "id": "W13",
+    "start": "2027-02-07",
+    "end": "2027-02-13",
+    "focus": "SPECIFIC｜前半程賽事轉換"
+  },
+  {
+    "id": "W14",
+    "start": "2027-02-14",
+    "end": "2027-02-20",
+    "focus": "SPECIFIC｜後半程＋連續兩日策略"
+  },
+  {
+    "id": "W15",
+    "start": "2027-02-21",
+    "end": "2027-02-27",
+    "focus": "SHARPEN｜配速與轉換銳化"
+  },
+  {
+    "id": "W16",
+    "start": "2027-02-28",
+    "end": "2027-03-06",
+    "focus": "TAPER｜賽前減量"
+  },
+  {
+    "id": "W17",
+    "start": "2027-03-07",
+    "end": "2027-03-13",
+    "focus": "台北雙日比賽",
+    "dailyPlan": [
+      {
+        "day": "sun",
+        "date": "2027-03-07",
+        "dayZh": "週日",
+        "title": "Easy Walk／休息",
+        "time": "20–30 分",
+        "kind": "rest",
+        "sections": [
+          {
+            "name": "輕鬆活動",
+            "lines": [
+              "散步或活動度20–30分鐘",
+              "本週不再新增高負荷站點訓練"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "mon",
+        "date": "2027-03-08",
+        "dayZh": "週一",
+        "title": "恢復＋活動度",
+        "time": "20 分",
+        "kind": "rest",
+        "sections": [
+          {
+            "name": "輕鬆活動",
+            "lines": [
+              "散步或活動度20–30分鐘",
+              "本週不再新增高負荷站點訓練"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "date": "2027-03-09",
+        "dayZh": "週二",
+        "title": "Easy Run＋短加速",
+        "time": "20–25 分",
+        "kind": "run",
+        "sections": [
+          {
+            "name": "Activation",
+            "lines": [
+              "Easy Run 20–25分鐘",
+              "3–4×10秒輕鬆加速，充分恢復"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "date": "2027-03-10",
+        "dayZh": "週三",
+        "title": "輕量上肢啟動",
+        "time": "20–30 分",
+        "kind": "strength",
+        "sections": [
+          {
+            "name": "Short Upper Primer",
+            "lines": [
+              "Bench Press 1–2×5 @RIR≥5",
+              "Chest-supported Row 2×8（輕）",
+              "Pallof Press 2×8／側"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "date": "2027-03-11",
+        "dayZh": "週四",
+        "title": "THU｜賽前休息，Petra跑課不參加",
+        "time": "恢復與裝備檢查",
+        "kind": "rest",
+        "sections": [
+          {
+            "name": "比賽週例外",
+            "format": "NO INTERVAL",
+            "lines": [
+              "週五Mixed、週六Men Open，週四不跑間歇",
+              "睡眠補給與狀態檢查，避免疲勞"
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "date": "2027-03-12",
+        "dayZh": "週五",
+        "title": "HYROX MIXED DOUBLES｜和 Stacy",
+        "time": "正式比賽",
+        "kind": "race",
+        "sections": [
+          {
+            "name": "力量／增肌 · 正式賽事",
+            "lines": [
+              "前兩公里保守；Ski由Alvin先開始、Sled Pull由Alvin先開始",
+              "Sled Push/Pull依雙方當日狀態交替，不把Stacy做得很強的項目推到極限",
+              "Burpee Broad Jump短段交替，Farmer Carry由Alvin負擔較長；Wall Ball由Alvin多一點但保留餘力"
+            ],
+            "format": "按官方比賽規則"
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "date": "2027-03-13",
+        "dayZh": "週六",
+        "title": "HYROX MEN OPEN｜男單",
+        "time": "正式比賽",
+        "kind": "race",
+        "sections": [
+          {
+            "name": "力量／增肌 · 正式賽事",
+            "lines": [
+              "前2公里只用能維持的節奏，不跟他人的配速衝",
+              "Sled與Lunges每站採節奏分段；Row/Ski以均勻輸出避免早爆",
+              "Wall Ball事先規劃小組數，呼吸控制優先；盡量避免無效動作"
+            ],
+            "format": "穩定完成"
+          }
+        ]
+      }
+    ]
+  }
+]

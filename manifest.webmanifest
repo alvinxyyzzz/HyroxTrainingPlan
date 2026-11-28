@@ -3,10 +3,10 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=performance-v165-v48",
+  "start_url": "./?app=ui2-v49#week",
   "scope": "./",
   "display": "standalone",
-  "description": "HYROX 17週訓練計畫、每日訓練、力量A/B、跑步及專項訓練庫",
+  "description": "有氧、力量與Hybrid課表、實際訓練成果；17週HYROX週期",
   "background_color": "#f2f5f1",
   "theme_color": "#132d25",
   "icons": [

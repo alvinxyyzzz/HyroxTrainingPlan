@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "dataThrough": "2026-11-28",
+  "firstActivityDate": "2026-09-24",
+  "weeks": [
+    {
+      "week": "2026-09-20",
+      "km": 14.041,
+      "runSec": 5713,
+      "runs": 2,
+      "count": 2,
+      "seconds": {
+        "run": 5713,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 2,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-09-27",
+      "km": 10.5016,
+      "runSec": 3547,
+      "runs": 3,
+      "count": 4,
+      "seconds": {
+        "run": 3547,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 4045,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 3,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 1,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-10-04",
+      "km": 15.3307,
+      "runSec": 5418,
+      "runs": 3,
+      "count": 3,
+      "seconds": {
+        "run": 5418,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 3,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-10-11",
+      "km": 13.2721,
+      "runSec": 4590,
+      "runs": 3,
+      "count": 3,
+      "seconds": {
+        "run": 4590,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 3,
+        "strength": 0,
+        "hybrid": 0,
+        "erg": 0,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-10-18",
+      "km": 12.4303,
+      "runSec": 4598,
+      "runs": 3,
+      "count": 16,
+      "seconds": {
+        "run": 4598,
+        "strength": 2463,
+        "hybrid": 4677,
+        "erg": 0,
+        "bike": 2063,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 3,
+        "strength": 6,
+        "hybrid": 5,
+        "erg": 0,
+        "bike": 2,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-10-25",
+      "km": 22.1171,
+      "runSec": 8864,
+      "runs": 7,
+      "count": 12,
+      "seconds": {
+        "run": 8864,
+        "strength": 0,
+        "hybrid": 1009,
+        "erg": 381,
+        "bike": 1285,
+        "mobility": 1580,
+        "other": 0
+      },
+      "counts": {
+        "run": 7,
+        "strength": 0,
+        "hybrid": 1,
+        "erg": 1,
+        "bike": 1,
+        "mobility": 2,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-11-01",
+      "km": 20.0097,
+      "runSec": 7641,
+      "runs": 5,
+      "count": 13,
+      "seconds": {
+        "run": 7641,
+        "strength": 879,
+        "hybrid": 1913,
+        "erg": 680,
+        "bike": 486,
+        "mobility": 2090,
+        "other": 0
+      },
+      "counts": {
+        "run": 5,
+        "strength": 2,
+        "hybrid": 2,
+        "erg": 1,
+        "bike": 1,
+        "mobility": 2,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-11-08",
+      "km": 25.7838,
+      "runSec": 9553,
+      "runs": 7,
+      "count": 13,
+      "seconds": {
+        "run": 9553,
+        "strength": 3270,
+        "hybrid": 1835,
+        "erg": 662,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 7,
+        "strength": 2,
+        "hybrid": 3,
+        "erg": 1,
+        "bike": 0,
+        "mobility": 0,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-11-15",
+      "km": 23.391,
+      "runSec": 8944,
+      "runs": 4,
+      "count": 11,
+      "seconds": {
+        "run": 8944,
+        "strength": 2401,
+        "hybrid": 3553,
+        "erg": 644,
+        "bike": 1152,
+        "mobility": 626,
+        "other": 0
+      },
+      "counts": {
+        "run": 4,
+        "strength": 2,
+        "hybrid": 2,
+        "erg": 1,
+        "bike": 1,
+        "mobility": 1,
+        "other": 0
+      }
+    },
+    {
+      "week": "2026-11-22",
+      "km": 15.7973,
+      "runSec": 6813,
+      "runs": 4,
+      "count": 11,
+      "seconds": {
+        "run": 6813,
+        "strength": 1245,
+        "hybrid": 3003,
+        "erg": 631,
+        "bike": 1044,
+        "mobility": 0,
+        "other": 0
+      },
+      "counts": {
+        "run": 4,
+        "strength": 2,
+        "hybrid": 2,
+        "erg": 2,
+        "bike": 1,
+        "mobility": 0,
+        "other": 0
+      }
+    }
+  ],
+  "method": "Unique Garmin activity IDs; Sunday-start local dates; duration_s, GPS running only; HIIT is a recorded activity type, not verified station attendance; weekly aggregates only. First and last week may have incomplete coverage."
+}
