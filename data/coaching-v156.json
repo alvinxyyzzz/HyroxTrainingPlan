@@ -1,8 +1,8 @@
 {
-  "version": "v1.6.4",
+  "version": "v1.6.5",
   "date": "2026-11-28",
   "source": "Petra 11/28 athlete whiteboard reference + prior Garmin FIT review; athlete class is not attendance; prospective only",
-  "notes": "Full HYROX race-led plan; PFT diagnostic only. All 8 stations, sustained running, progressive PPL, mixed doubles and next-day singles. Two partial race rehearsals, no full maximal simulation.",
+  "notes": "Full race plan retained; two World Gym wall-ball exposures in normal weeks, EMOM plus technique, with shared weekly budget and recovery exceptions. Coach reference: Petra venue coach, unnamed.",
   "weeks": {
     "W03": {
       "focus": "POST-PFT RECOVERY｜11/28 PFT後7天，以肌肉痠痛/膝小腿/睡眠作閘門；不用追補里程",
@@ -21,15 +21,15 @@
     "W04": {
       "focus": "FOUNDATION｜力量重建＋雪橇基準",
       "runTarget": "12–16（2–3次跑；大多Easy，1次品質選配）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 40–50 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR3；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限56次；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR3；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR3；Chest-supported Row 2×8–10 @RIR3；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。；短Easy可與Pull同日、間隔數小時，以留一個完整休息日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。 Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：4×400m RPE6，約1:50–2:05/組，休90–120秒；僅替代Hybrid。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR3；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Hybrid主課｜2×8min｜Ski＋Sled 基準；A：200m Easy Run→Ski 250m→200m Run→Ski 250m，RPE5–6；S：Sled Push 2×12.5m＋Sled Pull 2×12.5m（若繩索可用），各段充分休息，RPE5–6；先校準重量與距離；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Carry 2×30m，12–16kg/手；腿日分腿蹲2×6–8/側，徒手/10kg沙袋技術可替換分腿輔助；WB依EMOM。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR3；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Hybrid主課｜2×8min｜Ski＋Sled 基準；A：200m Easy Run→Ski 250m→200m Run→Ski 250m，RPE5–6；S：Sled Push 2×12.5m＋Sled Pull 2×12.5m（若繩索可用），各段充分休息，RPE5–6；先校準重量與距離；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Carry 2×30m，12–16kg/手；腿日分腿蹲2×6–8/側，徒手/10kg沙袋技術可替換分腿輔助；WB依EMOM。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -38,7 +38,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限56次"
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR3",
@@ -55,7 +55,7 @@
           "雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。",
           "Carry 2×30m，12–16kg/手；腿日分腿蹲2×6–8/側，徒手/10kg沙袋技術可替換分腿輔助；WB依EMOM。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "4×400m RPE6，約1:50–2:05/組，休90–120秒；僅替代Hybrid。",
         "longEasy": "40–50 min",
@@ -67,15 +67,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "HYBRID",
         "wallBall": [
-          "Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。",
-          "週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Ski 500m；Push 25m；Pull 25m（需實際設備）；Carry 60m；Lunge單腿基礎；WB EMOM。Row/BBJ留至W05–06。",
@@ -87,15 +91,15 @@
     "W05": {
       "focus": "FOUNDATION｜跑步品質＋負重行走",
       "runTarget": "14–18（2 Easy+1可選品質；症狀與生活安排優先）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 45–55 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週上限56，疲勞降階或略；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "品質跑｜4×400m RPE6–7，約1:50–2:05/組，休90–120秒；穩定完成優先。 暖身10min、收操5–10min；硬Petra WOD/AMRAP取代。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station技巧日｜低強度技巧日 20–25min；Row 2×400m，RPE4–5，休90秒；Carry 2×30–40m（12–16kg/手起試），Sandbag walking Lunge 2×10m（徒手/10kg），休90秒；不做硬循環；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；若無痛可BBJ 2×5m（替換一組Lunge，不加量），落地穩定才做。WB依EMOM。；若Row 2×400m已穩定，可改成連續1000m RPE5（取代原兩段），記500m split及划頻。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Station技巧日｜低強度技巧日 20–25min；Row 2×400m，RPE4–5，休90秒；Carry 2×30–40m（12–16kg/手起試），Sandbag walking Lunge 2×10m（徒手/10kg），休90秒；不做硬循環；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；若無痛可BBJ 2×5m（替換一組Lunge，不加量），落地穩定才做。WB依EMOM。；若Row 2×400m已穩定，可改成連續1000m RPE5（取代原兩段），記500m split及划頻。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -104,7 +108,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週上限56，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -123,7 +127,7 @@
           "若無痛可BBJ 2×5m（替換一組Lunge，不加量），落地穩定才做。WB依EMOM。",
           "若Row 2×400m已穩定，可改成連續1000m RPE5（取代原兩段），記500m split及划頻。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "4×400m RPE6–7，約1:50–2:05/組，休90–120秒；穩定完成優先。",
         "longEasy": "45–55 min",
@@ -135,15 +139,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "RUN",
         "wallBall": [
-          "Wall Ball：8顆/分鐘 × 5分鐘（40顆上限）；依上次成功階段，不強制升級；全週總量上限56次（含Petra、Hybrid與腿日）；不追補。",
-          "腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。",
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 5min（40顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限56顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Row 800m或連續1000m；Carry 60–80m；Lunge 20m；BBJ短技術選配；WB EMOM。",
@@ -155,15 +163,15 @@
     "W06": {
       "focus": "BUILD｜BBJ與跑站轉換",
       "runTarget": "16–20（2–3次，低強度比例提高）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限66顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 50–60 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限66次；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 10顆/min × 5min（50顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。 Wall Ball：10顆/分鐘 × 5分鐘（50顆上限）；依上次成功階段，不強制升級；全週總量上限66次（含Petra、Hybrid與腿日）；不追補。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：4×600m RPE6–7，慢跑2min；僅替代Hybrid。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Hybrid主課｜2×10min｜Run/BBJ＋Row/Carry；C：250m Run→BBJ 7.5m→250m Run→BBJ 7.5m→250m Run（膝小腿無痛、跳躍穩定）；D：Row 300m→Carry 30m→Row 300m→Carry 30m→Row 200m，RPE6；Carry依同重量穩定推進；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；雙人可把其中一次Row替換成兩次短換手（200m+200m），總量不增加；WB照當週EMOM。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：10顆/分鐘 × 5分鐘（50顆上限）；依上次成功階段，不強制升級；全週總量上限66次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Hybrid主課｜2×10min｜Run/BBJ＋Row/Carry；C：250m Run→BBJ 7.5m→250m Run→BBJ 7.5m→250m Run（膝小腿無痛、跳躍穩定）；D：Row 300m→Carry 30m→Row 300m→Carry 30m→Row 200m，RPE6；Carry依同重量穩定推進；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；雙人可把其中一次Row替換成兩次短換手（200m+200m），總量不增加；WB照當週EMOM。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限66顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -172,7 +180,7 @@
           "DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限66次"
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 5min（50顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -189,7 +197,7 @@
           "Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。",
           "雙人可把其中一次Row替換成兩次短換手（200m+200m），總量不增加；WB照當週EMOM。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：10顆/分鐘 × 5分鐘（50顆上限）；依上次成功階段，不強制升級；全週總量上限66次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限66顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "4×600m RPE6–7，慢跑2min；僅替代Hybrid。",
         "longEasy": "50–60 min",
@@ -201,15 +209,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 2×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "HYBRID",
         "wallBall": [
-          "Wall Ball：10顆/分鐘 × 5分鐘（50顆上限）；依上次成功階段，不強制升級；全週總量上限66次（含Petra、Hybrid與腿日）；不追補。",
-          "週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 5min（50顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限66顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Run 750m；BBJ 15m；Row 800m；Carry 60m；WB EMOM。",
@@ -221,15 +233,15 @@
     "W07": {
       "focus": "DELOAD｜力量維持／恢復",
       "runTarget": "12–16（DELOAD）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。 減量/賽前只做低密度技巧；不加量。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 減量週只做低密度技巧；A、B均可省略或縮短，不追兩次；兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限32顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 30–40 min @RPE2–3，能完整對話；依腿部恢復移日；若週六專項後疲勞，改短Easy或休息，之後按可用時間補安排而非硬追里程。 Easy/Long Easy：RPE2–3、完整說話優先；平路先試6:55–7:45/km、心率130–140觀察而非生理Z2；若心率持續上升且呼吸吃力則放慢或跑走30–60秒；每2週同路線同強度比較配速/心率，胸帶可協助校準。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；Wall Ball 6kg 腿日最後：6顆/分鐘 × 4分鐘（24顆上限）；依上次成功階段，不強制升級；全週上限32，疲勞降階或略；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；WB A｜腿日末段 6kg EMOM 6顆/min × 4min（24顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR4；Chest-supported Row 2×8–10 @RIR4；不再加重髖伸；Single-arm DB Row 1×8–10/側 @RIR4（若背部疲勞改Face Pull）；Face Pull 1×12–15 @RIR4；DB Curl 1×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 1×30m；輕重量；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。",
-        "wed": "休息／Mobility或短Easy；本週不做硬Petra WOD。",
+        "wed": "休息／Mobility或短Easy；減量週不做硬WOD或額外WB。",
         "thu": "Easy 20–30min／休息，減量週不做完整間歇。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station｜2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，或休息；不做硬Sled、BBJ或長Lunge；WB本週上限32次，完全無痛才做；本週Wall Ball預算：32顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主技巧／恢復｜2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，或休息；不做硬Sled、BBJ或長Lunge；全週上限32顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -238,7 +250,7 @@
           "DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3",
           "Leg Curl 1×10–12 @RIR4（可略）",
           "直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：6顆/分鐘 × 4分鐘（24顆上限）；依上次成功階段，不強制升級；全週上限32，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 6顆/min × 4min（24顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR4",
@@ -251,8 +263,7 @@
         "station": [
           "2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，或休息",
           "不做硬Sled、BBJ或長Lunge",
-          "WB本週上限32次，完全無痛才做",
-          "本週Wall Ball預算：32顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+          "全週上限32顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "取消硬間歇；Easy 20–30min",
         "longEasy": "30–40 min",
@@ -264,15 +275,19 @@
           "Seated DB Shoulder Press 1×8 @RIR4",
           "Lateral Raise 1×12–15 @RIR4",
           "Triceps Pushdown 1×10–12 @RIR4",
-          "HR Push-up 1×6–8 技巧"
+          "HR Push-up 1×6–8 技巧",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "DELOAD",
         "wallBall": [
-          "Wall Ball：6顆/分鐘 × 4分鐘（24顆上限）；依上次成功階段，不強制升級；全週總量上限32次（含Petra、Hybrid與腿日）；不追補。",
-          "減量/賽前只做低密度技巧；不加量。",
+          "WB A｜腿日末段 6kg EMOM 6顆/min × 4min（24顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限32顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "減量週只做低密度技巧；A、B均可省略或縮短，不追兩次；兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "減量週：保留低強度Erg及少量動作標準；不補站點或追跑量。"
@@ -283,15 +298,15 @@
     "W08": {
       "focus": "BUILD｜雪橇推拉＋負重Lunge",
       "runTarget": "15–19（2–3次跑，優先Easy）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 45–55 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限76次；主動作休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。；短Easy可與Pull同日、間隔數小時，以留一個完整休息日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。 Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：4×600m RPE6–7，慢跑2min；或Easy，視恢復。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Hybrid主課｜2×12min｜Sled＋Lunge；S：300m Run→Sled Push 2×12.5m→300m Run→Sled Pull 2×12.5m，RPE6；無拉繩依設備備案；D：Row 300m→Sandbag Lunge 10–12.5m→Row 300m→Lunge 10–12.5m→Row 200m，10–15kg起，RPE6；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；Pull日Carry 2×30m，逐步往16–20kg/手；WB與EMOM同週預算。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Hybrid主課｜2×12min｜Sled＋Lunge；S：300m Run→Sled Push 2×12.5m→300m Run→Sled Pull 2×12.5m，RPE6；無拉繩依設備備案；D：Row 300m→Sandbag Lunge 10–12.5m→Row 300m→Lunge 10–12.5m→Row 200m，10–15kg起，RPE6；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；Pull日Carry 2×30m，逐步往16–20kg/手；WB與EMOM同週預算。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -301,7 +316,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限76次"
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -319,7 +334,7 @@
           "Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。",
           "Pull日Carry 2×30m，逐步往16–20kg/手；WB與EMOM同週預算。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "4×600m RPE6–7，慢跑2min；或Easy，視恢復。",
         "longEasy": "45–55 min",
@@ -331,15 +346,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "HYBRID",
         "wallBall": [
-          "Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。",
-          "週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Run 600m；Push/Pull各25m（Pull需器材）；Row 800m；Lunge 20–25m；Carry 60m；WB。",
@@ -351,15 +370,15 @@
     "W09": {
       "focus": "BUILD｜閾值入門＋專項技術",
       "runTarget": "17–21（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 50–60 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週上限76，疲勞降階或略；主動作休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "品質跑｜3×6min 可控Tempo RPE6–7、可短句交談，慢跑2min。 暖身10min、收操5–10min；硬Petra WOD/AMRAP取代。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；選配 DB Push Press 2×4–6 @RIR3，輕重、腿髖帶動；取代肩推部分組數，不額外加量；若肩痛取消。；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station技巧日｜低強度技巧日 20–25min；Ski 2×400m RPE4–5，休90–120秒；Sled Pull 2×12.5m（若有繩）或站姿Cable Row 2×8–10；Carry 2×40m（16–20kg/手條件式）；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；若已做硬WOD/EMOM高強度，只做單一技術或休息。；Ski 2×400m穩定後可改連續1000m RPE5–6（取代原兩段）；不做全力測試。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；選配 DB Push Press 2×4–6 @RIR3，輕重、腿髖帶動；取代肩推部分組數，不額外加量；若肩痛取消。；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Station技巧日｜低強度技巧日 20–25min；Ski 2×400m RPE4–5，休90–120秒；Sled Pull 2×12.5m（若有繩）或站姿Cable Row 2×8–10；Carry 2×40m（16–20kg/手條件式）；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；若已做硬WOD/EMOM高強度，只做單一技術或休息。；Ski 2×400m穩定後可改連續1000m RPE5–6（取代原兩段）；不做全力測試。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -369,7 +388,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週上限76，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -388,7 +407,7 @@
           "若已做硬WOD/EMOM高強度，只做單一技術或休息。",
           "Ski 2×400m穩定後可改連續1000m RPE5–6（取代原兩段）；不做全力測試。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "3×6min 可控Tempo RPE6–7、可短句交談，慢跑2min。",
         "longEasy": "50–60 min",
@@ -401,15 +420,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "RUN",
         "wallBall": [
-          "Wall Ball：10顆/分鐘 × 6分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。",
-          "腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。",
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Ski 800m或連續1000m；Pull 25m（需器材）；Carry 80m；WB EMOM。",
@@ -421,15 +444,15 @@
     "W10": {
       "focus": "TRANSFER｜Engine＋握力＋跑站",
       "runTarget": "18–23（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 50–65 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限88次；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。 Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。 週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：4×800m RPE6–7，慢跑2min；替代主Hybrid，或恢復良好才選較短品質跑。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Hybrid主課｜3×10min｜Ski、Row、Carry（可先做2區塊）；A：400m Run→Ski 500m→400m Run，RPE6–7；B：400m Run→Row 500m→400m Run，RPE6–7；F：Carry 2×40m（16–20kg/手；穩定才向24kg），中間300m Easy Run；若疲勞，F只做低強度技巧；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；雙人替換Ski或Row其中一段為2–3次換手；跑段共同配速，不增加總量。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Hybrid主課｜3×10min｜Ski、Row、Carry（可先做2區塊）；A：400m Run→Ski 500m→400m Run，RPE6–7；B：400m Run→Row 500m→400m Run，RPE6–7；F：Carry 2×40m（16–20kg/手；穩定才向24kg），中間300m Easy Run；若疲勞，F只做低強度技巧；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；雙人替換Ski或Row其中一段為2–3次換手；跑段共同配速，不增加總量。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -439,7 +462,7 @@
           "DB Step-up 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後1–2×6技巧（選配，若週三EMOM或Hybrid有WB則扣量）；週上限88次"
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -457,7 +480,7 @@
           "Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。",
           "雙人替換Ski或Row其中一段為2–3次換手；跑段共同配速，不增加總量。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "4×800m RPE6–7，慢跑2min；替代主Hybrid，或恢復良好才選較短品質跑。",
         "longEasy": "50–65 min",
@@ -469,15 +492,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "HYBRID",
         "wallBall": [
-          "Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。",
-          "週三無WOD且恢復良好才做獨立EMOM（距腿日及Hybrid約48h）；若週三上WOD則取消EMOM。腿日末段可選1–2×6技巧，扣週總量；若本週Hybrid含大量WB則以該區塊取代EMOM。",
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Run 1.6–1.9km；Ski/Row各500m；Carry最多80m；WB。",
@@ -489,15 +516,15 @@
     "W11": {
       "focus": "TRANSFER｜Tempo＋腿部專項耐力",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 55–65 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週上限88，疲勞降階或略；主動作休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 3×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2；Chest-supported Row 3×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。；短Easy可與Pull同日、間隔數小時，以留一個完整休息日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "品質跑｜3×8min 可控Tempo RPE6–7，慢跑2–3min；前階段穩定才做。 暖身10min、收操5–10min；硬Petra WOD/AMRAP取代。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；選配 DB Push Press 2×4–6 @RIR3，輕重、腿髖帶動；取代肩推部分組數，不額外加量；若肩痛取消。；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station技巧日｜低強度技巧日 20–30min；BBJ 3×10m，RPE4–5，休90秒，動作有效且落地穩；Sandbag Lunge 2×15–20m，15kg起、無痛且穩定才20kg；休2min；Sled Push 或 Pull 2×12.5m（輕中阻力），二選一；若疲勞只留一項；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；腿日較累就用此Lunge取代分腿輔助，不累加；WB EMOM可降階。；若前階段負重Lunge穩定且次日無不適，可用3×20m取代2×15–20m；此時省略雪橇技巧及腿日分腿輔助。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 3×5–8 @RIR2；熱身後依RIR選重量；選配 DB Push Press 2×4–6 @RIR3，輕重、腿髖帶動；取代肩推部分組數，不額外加量；若肩痛取消。；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Station技巧日｜低強度技巧日 20–30min；BBJ 3×10m，RPE4–5，休90秒，動作有效且落地穩；Sandbag Lunge 2×15–20m，15kg起、無痛且穩定才20kg；休2min；Sled Push 或 Pull 2×12.5m（輕中阻力），二選一；若疲勞只留一項；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；腿日較累就用此Lunge取代分腿輔助，不累加；WB EMOM可降階。；若前階段負重Lunge穩定且次日無不適，可用3×20m取代2×15–20m；此時省略雪橇技巧及腿日分腿輔助。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -507,7 +534,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週上限88，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 3×6–10 @RIR2",
@@ -527,7 +554,7 @@
           "腿日較累就用此Lunge取代分腿輔助，不累加；WB EMOM可降階。",
           "若前階段負重Lunge穩定且次日無不適，可用3×20m取代2×15–20m；此時省略雪橇技巧及腿日分腿輔助。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "3×8min 可控Tempo RPE6–7，慢跑2–3min；前階段穩定才做。",
         "longEasy": "55–65 min",
@@ -540,15 +567,19 @@
           "Seated DB Shoulder Press 3×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "RUN",
         "wallBall": [
-          "Wall Ball：12顆/分鐘 × 6分鐘（72顆上限）；依上次成功階段，不強制升級；全週總量上限88次（含Petra、Hybrid與腿日）；不追補。",
-          "腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。",
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 6min（72顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×8（16顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限88顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "BBJ最多30m；Lunge 30–40m（條件式60m）；Push或Pull 25m；WB。",
@@ -560,15 +591,15 @@
     "W12": {
       "focus": "DELOAD｜力量維持／恢復",
       "runTarget": "14–18（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。 減量/賽前只做低密度技巧；不加量。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 減量週只做低密度技巧；A、B均可省略或縮短，不追兩次；兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限40顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 35–45 min @RPE2–3，能完整對話；依腿部恢復移日；若週六專項後疲勞，改短Easy或休息，之後按可用時間補安排而非硬追里程。 Easy/Long Easy：RPE2–3、完整說話優先；平路先試6:55–7:45/km、心率130–140觀察而非生理Z2；若心率持續上升且呼吸吃力則放慢或跑走30–60秒；每2週同路線同強度比較配速/心率，胸帶可協助校準。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；Wall Ball 6kg 腿日最後：8顆/分鐘 × 4分鐘（32顆上限）；依上次成功階段，不強制升級；全週上限40，疲勞降階或略；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；WB A｜腿日末段 6kg EMOM 8顆/min × 4min（32顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR4；Chest-supported Row 2×8–10 @RIR4；不再加重髖伸；Single-arm DB Row 1×8–10/側 @RIR4（若背部疲勞改Face Pull）；Face Pull 1×12–15 @RIR4；DB Curl 1×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 1×30m；輕重量；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。",
-        "wed": "休息／Mobility或短Easy；本週不做硬Petra WOD。",
+        "wed": "休息／Mobility或短Easy；減量週不做硬WOD或額外WB。",
         "thu": "Easy 20–30min／休息，減量週不做完整間歇。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station｜2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，休2min；本週減量，不做硬站；WB週總量上限40次（含所有課）；本週Wall Ball預算：40顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主技巧／恢復｜2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，休2min；本週減量，不做硬站；全週上限40顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -577,7 +608,7 @@
           "DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3",
           "Leg Curl 1×10–12 @RIR4（可略）",
           "直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：8顆/分鐘 × 4分鐘（32顆上限）；依上次成功階段，不強制升級；全週上限40，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 4min（32顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR4",
@@ -590,8 +621,7 @@
         "station": [
           "2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，休2min",
           "本週減量，不做硬站",
-          "WB週總量上限40次（含所有課）",
-          "本週Wall Ball預算：40顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+          "全週上限40顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "Easy 20–30min，不做硬間歇",
         "longEasy": "35–45 min",
@@ -603,15 +633,19 @@
           "Seated DB Shoulder Press 1×8 @RIR4",
           "Lateral Raise 1×12–15 @RIR4",
           "Triceps Pushdown 1×10–12 @RIR4",
-          "HR Push-up 1×6–8 技巧"
+          "HR Push-up 1×6–8 技巧",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "DELOAD",
         "wallBall": [
-          "Wall Ball：8顆/分鐘 × 4分鐘（32顆上限）；依上次成功階段，不強制升級；全週總量上限40次（含Petra、Hybrid與腿日）；不追補。",
-          "減量/賽前只做低密度技巧；不加量。",
+          "WB A｜腿日末段 6kg EMOM 8顆/min × 4min（32顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限40顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "減量週只做低密度技巧；A、B均可省略或縮短，不追兩次；兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "減量週：保留低強度Erg及少量動作標準；不補站點或追跑量。"
@@ -622,15 +656,15 @@
     "W13": {
       "focus": "SPECIFIC｜前半程賽事轉換",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日或週三無WOD且已恢復時擇一，距主Hybrid約48h；腿日短組省略。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限80顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 55–65 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball：依當週EMOM擇日，腿日短組省略。；主動作休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；暖身後可選雙腳低幅Pogo 2×10秒，無痛、落地穩定才做（替代一組小腿輔助）；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；彩排週最多12×6（72顆），不追更高。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2；Chest-supported Row 2×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。；短Easy可與Pull同日、間隔數小時，以留一個完整休息日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。 Wall Ball 6kg 10–12/min×6min（60–72上限），週總量最多80；前半程彩排週保留恢復。 腿日或週三無WOD且已恢復時擇一，距主Hybrid約48h；腿日短組省略。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：3×1km RPE7，慢跑2–3min；僅替代主Hybrid，或改Easy。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Hybrid主課｜前半程縮量彩排｜4×800m（恢復充分才4×1km），RPE6–7，不競速；1：800m Run→Ski 500–750m；2：800m Run→Sled Push 25–37.5m；3：800m Run→Sled Pull 25–37.5m（拉繩未確認，需安排有設備場地；替代不算實際Pull）；4：800m Run→BBJ 20–40m（先20m）；各輪可休90–120秒；動作標準及後段配速優先，若品質下降改3輪；不是全程測驗；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；本週WB EMOM降至10–12×6（60–72），不再追90；腿日WB短組可略。可安排短雙人雪橇換手替代其中一段。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball 6kg 10–12/min×6min（60–72上限），週總量最多80；前半程彩排週保留恢復。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Hybrid主課｜前半程縮量彩排｜4×800m（恢復充分才4×1km），RPE6–7，不競速；1：800m Run→Ski 500–750m；2：800m Run→Sled Push 25–37.5m；3：800m Run→Sled Pull 25–37.5m（拉繩未確認，需安排有設備場地；替代不算實際Pull）；4：800m Run→BBJ 20–40m（先20m）；各輪可休90–120秒；動作標準及後段配速優先，若品質下降改3輪；不是全程測驗；雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。；前半程彩排週WB按A/B上限，雙人雪橇短換手替代原站段。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限80顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -640,7 +674,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；若本週站點含負重Lunge，改做該站點處方或減為1組，非加量。",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball：依當週EMOM擇日，腿日短組省略。"
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；彩排週最多12×6（72顆），不追更高。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2",
@@ -658,9 +692,9 @@
           "4：800m Run→BBJ 20–40m（先20m）",
           "各輪可休90–120秒；動作標準及後段配速優先，若品質下降改3輪；不是全程測驗",
           "雪橇推拉記錄雪橇自重+槓片、地面、實際距離/時間/RPE；先用能穩定走完12.5m的負荷。比賽152/103kg含雪橇，非健身房直接目標。拉繩及安全場地尚待確認；沒有時用站姿Cable Row/繩索划船或DB Row 2×8–10替代同肌群（不等同Sled Pull），安排Petra或有器材場地實際拉雪橇，替換該週主課/部分技巧，不另疊加。",
-          "本週WB EMOM降至10–12×6（60–72），不再追90；腿日WB短組可略。可安排短雙人雪橇換手替代其中一段。",
+          "前半程彩排週WB按A/B上限，雙人雪橇短換手替代原站段。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball 6kg 10–12/min×6min（60–72上限），週總量最多80；前半程彩排週保留恢復。；當週所有WB合計。"
+          "全週上限80顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "3×1km RPE7，慢跑2–3min；僅替代主Hybrid，或改Easy。",
         "longEasy": "55–65 min",
@@ -672,18 +706,22 @@
           "Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "HYBRID",
         "wallBall": [
-          "Wall Ball 6kg 10–12/min×6min（60–72上限），週總量最多80；前半程彩排週保留恢復。",
-          "腿日或週三無WOD且已恢復時擇一，距主Hybrid約48h；腿日短組省略。",
+          "WB A｜腿日末段 6kg EMOM 10顆/min × 6min（60顆），按已通過階段降階；彩排週最多12×6（72顆），不追更高。",
+          "WB B｜週五Push後 6kg 1×8（8顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限80顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
-          "Run 3.2–4km；Ski 500–750m；Push/Pull各25–37.5m；BBJ 20–40m；WB 60–72獨立。",
+          "Run 3.2–4km；Ski 500–750m；Push/Pull各25–37.5m；BBJ 20–40m；WB A/B 依週預算。",
           "訓練量為計畫上限，不是完成紀錄；當週Petra同站工作扣除，不追補。"
         ]
       },
@@ -692,15 +730,15 @@
     "W14": {
       "focus": "SPECIFIC｜後半程＋連續兩日策略",
       "runTarget": "16–21（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日WB最多1×8技術或省略，全週上限58顆，扣除Petra；不做100顆極限。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 彩排週例外：不做兩次額外專項；週一技術＋週六比賽轉換，總量包含Petra，疲勞降量。 全週上限58顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 40–50 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 1×8技術或省略；本週不做EMOM。；主動作休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日最後6kg 1×8技巧（可略），本週不做EMOM。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2；Chest-supported Row 2×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／短Easy，週五彩排，本週不做硬Petra WOD。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。",
+        "wed": "休息／短Easy；週六彩排，本週不做硬Petra WOD。",
         "thu": "短Easy 25–35min RPE2–3、完整交談，平路先試6:55–7:45/km，130–140bpm僅觀察。可移至Pull同日（間隔數小時）或其他日。 本週Hybrid優先；替代跑品質課：本週彩排取代硬跑；Easy 20–30min。",
         "fri": "PUSH維持或移日；Barbell Bench Press／DB Bench Press 2×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；若與搭檔練2×400m Easy及短換手，替代輔助量；不做硬課。",
-        "sat": "自主Hybrid主課｜後半程縮量彩排｜4×800m，RPE6–7；1：800m Run→Row 500–750m；2：800m Run→Carry 80–120m（先80m；16–24kg/手，依上週成功負重）；3：800m Run→Sandbag Lunge 30–50m（15–20kg依能力）；4：800m Run→WB 30–50顆（6kg、3m靶、8–12短組）；各輪可休90–120秒；總量依恢復縮至3輪或更短，保持有效動作。這週不做獨立WB EMOM。；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；週五選配20min雙人低量技術：2×400m Easy共同跑＋Ski/Row短換手（RPE4–5），替代Push輔助或移日；週六只有恢復正常才彩排。不是連兩日全力模擬。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：本週不做獨立EMOM；後半程彩排WB 30–50次（6kg），如疲勞降量。；當週所有WB合計。"
+        "sat": "自主Hybrid主課｜後半程縮量彩排｜4×800m，RPE6–7；1：800m Run→Row 500–750m；2：800m Run→Carry 80–120m（先80m；16–24kg/手，依上週成功負重）；3：800m Run→Sandbag Lunge 30–50m（15–20kg依能力）；4：800m Run→WB 30–50顆（6kg、3m靶、8–12短組）；各輪可休90–120秒；總量依恢復縮至3輪或更短，保持有效動作。這週不做獨立WB EMOM。；Carry用兩顆相同重量KB/DB，12–16kg/手起試，RPE5–7；姿勢與握力穩定才逐步18–20→24kg/手，先加距離或重量其中一項，休90–120秒。；Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。；週五選配20min雙人低量技術：2×400m Easy共同跑＋Ski/Row短換手（RPE4–5），替代Push輔助或移日；週六只有恢復正常才彩排。不是連兩日全力模擬。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限58顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -709,7 +747,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 1×8技術或省略；本週不做EMOM。"
+          "WB A｜腿日最後6kg 1×8技巧（可略），本週不做EMOM。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2",
@@ -730,7 +768,7 @@
           "Sandbag走式交替Lunge，徒手/10kg起試，穩定後15kg→20kg；記實際重量及有效距離，不以徒手PFT推定負重能力。",
           "週五選配20min雙人低量技術：2×400m Easy共同跑＋Ski/Row短換手（RPE4–5），替代Push輔助或移日；週六只有恢復正常才彩排。不是連兩日全力模擬。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：本週不做獨立EMOM；後半程彩排WB 30–50次（6kg），如疲勞降量。；當週所有WB合計。"
+          "全週上限58顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "本週彩排取代硬跑；Easy 20–30min。",
         "longEasy": "40–50 min",
@@ -744,13 +782,16 @@
           "Triceps Pushdown 2×10–12 @RIR2",
           "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "REHEARSAL",
         "wallBall": [
-          "本週不做獨立EMOM；後半程彩排WB 30–50次（6kg），如疲勞降量。",
-          "腿日WB最多1×8技術或省略，全週上限58顆，扣除Petra；不做100顆極限。",
+          "WB A｜腿日最後6kg 1×8技巧（可略），本週不做EMOM。",
+          "WB B｜週六後半程彩排已包含6kg WB 30–50顆，取代第二次；週五不丟球。",
+          "全週上限58顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "彩排週例外：不做兩次額外專項；週一技術＋週六比賽轉換，總量包含Petra，疲勞降量。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "Run 3.2km；Row 500–750m；Carry 80–120m；Lunge 30–50m；WB 30–50；混雙換手。",
@@ -762,15 +803,15 @@
     "W15": {
       "focus": "SHARPEN｜配速與轉換銳化",
       "runTarget": "16–20（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。 全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 40–50 min，RPE2–3，依恢復移日或縮短。與短Easy一起保留；若前一天站點疲勞，先休息，不補公里。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；Wall Ball 6kg 腿日最後：12顆/分鐘 × 5分鐘（60顆上限）；依上次成功階段，不強制升級；全週上限76，疲勞降階或略；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 2×5–6 @RIR2；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 2×6–8 @RIR3；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3；Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放；直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放；WB A｜腿日末段 6kg EMOM 12顆/min × 5min（60顆），按已通過階段降階；不力竭。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2；Chest-supported Row 2×8–10 @RIR2；不再加重髖伸；Single-arm DB Row 2×8–10/側 @RIR3（若背部疲勞改Face Pull）；Face Pull 2×12–15 @RIR2；肩胛控制，不追重量；DB Curl 2×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 2×30m；單手12–16kg試起，握力與步態穩定後逐步朝24kg；非代謝循環；當週Station含Carry則移至Station，不重複。；Petra Strength依實際肌群替換，硬AMRAP算品質課。短Easy可同日間隔數小時或移日。",
-        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配，若參加硬WOD則替換當週品質跑與硬Hybrid。；若本週無WOD，可安排短Easy（或既定WB EMOM），若疲勞休息。",
+        "wed": "休息／Mobility或短Easy；Petra WOD僅週三選配。若週一EMOM改短組、週三無WOD且充分恢復，可把EMOM移至今天並取消週五WB；不是額外第三次。硬WOD替換當週主要品質課。",
         "thu": "品質跑｜3×800m RPE6–7，慢跑2min；不追5:00/km，不力竭。 暖身10min、收操5–10min；硬Petra WOD/AMRAP取代。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station技巧日｜低量技術日 15–25min；Ski/Row各300m Easy→Sled Push或Pull 12.5m（輕阻力）；Carry 2×20m，Sandbag Lunge 1×10m（熟悉重量），選2項而非全做；WB 6kg 1×8–10技巧，已有EMOM則略；雙人練換手及出入站，不競速；若疲勞則直接休息；不在賽前補缺失負重。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；Wall Ball週預算：Wall Ball：12顆/分鐘 × 5分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 2×5–8 @RIR2；熱身後依RIR選重量；Incline DB Press 2×8–10 @RIR2；Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭；Lateral Raise 2×12–15 @RIR2；Triceps Pushdown 2×10–12 @RIR2；HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭；WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主Station技巧日｜低量技術日 15–25min；Ski/Row各300m Easy→Sled Push或Pull 12.5m（輕阻力）；Carry 2×20m，Sandbag Lunge 1×10m（熟悉重量），選2項而非全做；雙人練換手及出入站，不競速；WB按A/B，不另加。；若疲勞則直接休息；不在賽前補缺失負重。；站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。；全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -779,7 +820,7 @@
           "DB Split Squat／Reverse Lunge 2×6–8/側；單手6–10kg試起，RIR≥3",
           "Leg Press 2×12–15 @RIR3（隔週與Leg Curl 2×10–12擇一，非兩者都做）；膝無痛、控制下放",
           "直膝單腿提踵 2×10–12/側＋屈膝提踵 2×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：12顆/分鐘 × 5分鐘（60顆上限）；依上次成功階段，不強制升級；全週上限76，疲勞降階或略"
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 5min（60顆），按已通過階段降階；不力竭。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 2×6–10 @RIR2",
@@ -793,10 +834,10 @@
           "低量技術日 15–25min",
           "Ski/Row各300m Easy→Sled Push或Pull 12.5m（輕阻力）",
           "Carry 2×20m，Sandbag Lunge 1×10m（熟悉重量），選2項而非全做",
-          "WB 6kg 1×8–10技巧，已有EMOM則略；雙人練換手及出入站，不競速",
+          "雙人練換手及出入站，不競速；WB按A/B，不另加。",
           "若疲勞則直接休息；不在賽前補缺失負重。",
           "站點是既有主課或技巧日，非額外加課。暖身8–10min，收操5min。計時區塊最多工作到窗口結束前2min，完成就休息；無法完成就停。連續兩次有效動作、RPE≤7、次日無疼痛/不穩才提高一個變數。跑站須安全連通（已確認可用跑步機或跑道），否則分開Easy跑＋室內Erg/站點，不把Erg算跑量或稱為跑站模擬。",
-          "Wall Ball週預算：Wall Ball：12顆/分鐘 × 5分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。；當週所有WB合計。"
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "3×800m RPE6–7，慢跑2min；不追5:00/km，不力竭。",
         "longEasy": "40–50 min",
@@ -808,15 +849,19 @@
           "Seated DB Shoulder Press 2×6–10 @RIR2–3；隔日Ski/WB多則2組，不力竭",
           "Lateral Raise 2×12–15 @RIR2",
           "Triceps Pushdown 2×10–12 @RIR2",
-          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭"
+          "HR Push-up 3×6–10 @RIR2–3；Petra已做則減量，最後不力竭",
+          "WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "RUN",
         "wallBall": [
-          "Wall Ball：12顆/分鐘 × 5分鐘（60顆上限）；依上次成功階段，不強制升級；全週總量上限76次（含Petra、Hybrid與腿日）；不追補。",
-          "腿日最後EMOM取代原WB短組；如腿日疲勞則縮為1–2×6或移日並調整品質跑，不額外疊加。週三不做硬EMOM以免影響週四跑。",
+          "WB A｜腿日末段 6kg EMOM 12顆/min × 5min（60顆），按已通過階段降階；不力竭。",
+          "WB B｜週五Push後 6kg 2×6（12顆），休60–90秒，RPE≤5、完整有效動作；隔日Hybrid疲勞則省略。",
+          "全週上限76顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "低量Erg、Sled、Carry/Lunge與WB技術。",
@@ -828,15 +873,15 @@
     "W16": {
       "focus": "TAPER｜賽前減量",
       "runTarget": "9–13（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。 減量/賽前只做低密度技巧；不加量。",
+      "qualityRule": "正式HYROX優先：每週3個可移動PPL純力量日（忙碌用兩日合併備案），至少2次Easy（短25–35min＋Long），恢復穩定再安排第3次跑（品質跑或Easy）。可把短Easy放Pull同日、間隔數小時，以保留完整休息日。跑站距離計入實跑，不追補目標公里。前期每週1堂主要代謝品質課（Interval/Hybrid/硬Petra WOD/硬AMRAP擇一），後期連續2週恢復良好才考慮品質跑＋中等Hybrid（兩課至少48h且不力竭）；不是兩堂全力。硬WOD只週三，取代當週硬課；週二Petra純力量替換肌群，硬AMRAP算品質課。重腿和硬Hybrid至少48h；週五Push若影響隔天站點則減輔助或移日。留至少1個休息日；疼痛/軟腳/腫脹停相關動作並評估。 賽前減量例外：不做EMOM，不追兩次。 全週上限16顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。 記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。",
       "days": {
         "sun": "Long Easy 20–30 min @RPE2–3，能完整對話；依腿部恢復移日；若週六專項後疲勞，改短Easy或休息，之後按可用時間補安排而非硬追里程。 Easy/Long Easy：RPE2–3、完整說話優先；平路先試6:55–7:45/km、心率130–140觀察而非生理Z2；若心率持續上升且呼吸吃力則放慢或跑走30–60秒；每2週同路線同強度比較配速/心率，胸帶可協助校準。",
-        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 1×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；Wall Ball 6kg 腿日最後：本週不做EMOM，只做6kg WB 1–2×8技巧（無痛）；全週上限16，疲勞降階或略；主力休2–3min，輔助60–120秒。",
+        "mon": "World Gym｜LEGS · 純力量；Barbell Back Squat 1×5–6 @RIR4；空槓起逐步熱身，工作重量依同動作紀錄及RIR；RDL／Trap Bar Deadlift 二選一 1×6–8 @RIR4；髖伸主力，重量以技術/RIR決定；DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3；Leg Curl 1×10–12 @RIR4（可略）；直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放；WB A｜腿日最後6kg 1×8輕技巧，或休息。；主力休2–3min，輔助60–120秒。",
         "tue": "World Gym｜PULL · 純力量；Lat Pulldown／Assisted Pull-up 1×6–10 @RIR4；Chest-supported Row 1×8–10 @RIR4；不再加重髖伸；Single-arm DB Row 1×8–10/側 @RIR4（若背部疲勞改Face Pull）；Face Pull 1×12–15 @RIR4；DB Curl 1×8–12；可由單手7.5kg試起，保留2–3次；減量週用較輕重量；Farmer Carry 1×30m；輕重量；非代謝循環；Petra Strength選配：按實際內容替換相同肌群；硬AMRAP視為品質課，拉力日可移到週五並與Push合併，不補課。",
-        "wed": "休息／Mobility或短Easy；本週不做硬Petra WOD。",
+        "wed": "休息／Mobility或短Easy；減量週不做硬WOD或額外WB。",
         "thu": "Easy 20–30min／休息，減量週不做完整間歇。",
-        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 1×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；隔日Hybrid有WB/Ski則減肩及三頭輔助，保留主要臥推。",
-        "sat": "自主Station｜2輪：Ski 150m → Row 150m，RPE3–4，休2min；或休息；不做硬Sled、BBJ或長Lunge；WB僅10–16次技巧；無痛才做；本週Wall Ball預算：16顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+        "fri": "World Gym｜PUSH · 純力量；Barbell Bench Press／DB Bench Press 1×5–8 @RIR4；熱身後依RIR選重量；Incline DB Press 1×8–10 @RIR4；Seated DB Shoulder Press 1×8 @RIR4；Lateral Raise 1×12–15 @RIR4；Triceps Pushdown 1×10–12 @RIR4；HR Push-up 1×6–8 技巧；WB B｜賽前減量，週五可省略；若完全恢復才1×8技巧，與週六技巧二選一。；隔日Hybrid含WB/Ski時減肩及三頭輔助，保留主要臥推。",
+        "sat": "自主技巧／恢復｜2輪：Ski 150m → Row 150m，RPE3–4，休2min；或休息；不做硬Sled、BBJ或長Lunge；WB僅10–16次技巧；無痛才做；全週上限16顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
       },
       "modules": {
         "strengthA": [
@@ -845,7 +890,7 @@
           "DB Split Squat／Reverse Lunge 1×6–8/側；徒手或輕重，RIR≥3",
           "Leg Curl 1×10–12 @RIR4（可略）",
           "直膝單腿提踵 1×10–12/側＋屈膝提踵 1×12–15；慢下放",
-          "Wall Ball 6kg 腿日最後：本週不做EMOM，只做6kg WB 1–2×8技巧（無痛）；全週上限16，疲勞降階或略"
+          "WB A｜腿日最後6kg 1×8輕技巧，或休息。"
         ],
         "strengthB": [
           "Lat Pulldown／Assisted Pull-up 1×6–10 @RIR4",
@@ -859,7 +904,7 @@
           "2輪：Ski 150m → Row 150m，RPE3–4，休2min；或休息",
           "不做硬Sled、BBJ或長Lunge",
           "WB僅10–16次技巧；無痛才做",
-          "本週Wall Ball預算：16顆上限；Hybrid若含WB則扣除／替代EMOM，非額外。"
+          "全週上限16顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。"
         ],
         "qualityRun": "Easy 20–25min＋可選3×15秒放鬆加速，無痛才做",
         "longEasy": "20–30 min",
@@ -871,15 +916,19 @@
           "Seated DB Shoulder Press 1×8 @RIR4",
           "Lateral Raise 1×12–15 @RIR4",
           "Triceps Pushdown 1×10–12 @RIR4",
-          "HR Push-up 1×6–8 技巧"
+          "HR Push-up 1×6–8 技巧",
+          "WB B｜賽前減量，週五可省略；若完全恢復才1×8技巧，與週六技巧二選一。"
         ],
-        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
+        "twoDay": "兩日備案（取代PPL，不額外加課）：日A 深蹲3×5–6、RDL 2×6–8、臥推3×6–8、分腿蹲2×6/側、提踵2×10–12，WB A末段；日B 下拉3×6–10、胸托划船3×8–10、上斜DB Press 2–3×8–10、肩推2×8、Farmer Carry 2×30m；日B末段依WB B技巧（若恢復允許）；均RIR2–3。重建／減量週按當週PPL較低組數及RIR4調整；不得與PPL並做。",
         "qualityMode": "TAPER",
         "wallBall": [
-          "Wall Ball：本週不做EMOM，只做6kg WB 1–2×8技巧（無痛）；全週總量上限16次（含Petra、Hybrid與腿日）；不追補。",
-          "減量/賽前只做低密度技巧；不加量。",
+          "WB A｜腿日最後6kg 1×8輕技巧，或休息。",
+          "WB B｜賽前減量，週五可省略；若完全恢復才1×8技巧，與週六技巧二選一。",
+          "全週上限16顆（包括Petra、所有Hybrid及World Gym A/B）；先扣其他課實際WB，減B再減A，不補量。",
+          "賽前減量例外：不做EMOM，不追兩次。",
           "EMOM 6kg，優先合規3m靶：每分鐘開始，剩餘時間休息。連續2次全部有效、每分鐘至少15秒休息、RPE≤7、次日膝/肩無惡化才加1–2次/分鐘或1分鐘（二選一）；當週課表為上限，可重複低階。膝無力影響動作、疼痛、腫脹或不穩即停。未來進階15×6→16–18×6→20×6（120）→20×8（160），非賽前必達；高密度EMOM若RPE>7視為當週品質課，替換其他硬課。",
-          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。"
+          "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
+          "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
         ],
         "raceCoverage": [
           "減量週：保留低強度Erg及少量動作標準；不補站點或追跑量。"
@@ -897,7 +946,7 @@
       "先2區塊×8–10min，連續兩次品質穩定、次日無惡化才增加一個變數（時間／距離／重量／區塊數），不直接照搬5×12min。RPE6–7上限，最後區塊仍應能保持動作。",
       "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。",
       "Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。",
-      "Wall Ball 6kg；每組8–12次起，依有效次數與姿勢決定休息20–40秒；若本週已做WB，扣除腿日／Petra的量，不超週上限。",
+      "兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
       "記錄每區塊完成時間、剩餘休息、Erg split、實際負重、WB有效次數、BBJ距離及下次恢復；不把預估當實際。",
       "每個計時窗口最多工作到結束前2min，剩餘時間休息；暖身8–10min、收操5min。",
       "Easy/Long Easy：RPE2–3、完整說話優先；平路先試6:55–7:45/km、心率130–140觀察而非生理Z2；若心率持續上升且呼吸吃力則放慢或跑走30–60秒；每2週同路線同強度比較配速/心率，胸帶可協助校準。",
@@ -905,7 +954,8 @@
       "WB技巧：球近胸/下巴，接球順勢下蹲，髖膝伸展帶動球、手臂導向，出球吐氣；蹲深與命中有效；不靠單獨肩部硬推；由側面錄影請教練核對。",
       "HR Push-up：短組保留2–3次，不力竭；逐步2×8→3×8→3×10，若當週Petra已做大量則扣除。記錄有效次數及休息。",
       "Burpee：從每輪5–8個穩定呼吸、短段落地開始；先做有效動作不追速度。PFT的50次burpee不等同HYROX 80m BBJ。",
-      "官方2026/27規則：https://maintain.hyrox.com/rulebooks/HYROX_RulebookSingles_EN.pdf 及 Doubles 同季規則；賽前核對主辦方最新版本。"
+      "官方2026/27規則：https://maintain.hyrox.com/rulebooks/HYROX_RulebookSingles_EN.pdf 及 Doubles 同季規則；賽前核對主辦方最新版本。",
+      "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
     ],
     "equipment": [
       "已確認：Sandbag、Sled Push、RowErg、SkiErg、Wall Ball。",
@@ -917,7 +967,9 @@
     "wallBallProgress": [
       "起始8×5（40）→ 8×6（48）或10×5（50）→ 10×6（60）→ 12×6（72）→ 13–15×6（78–90）；依兩次成功門檻，一次只加一變數；中間減量。",
       "未來進階16–18×6 → 20×6（120）→ 20×8（160）；不是每次要求。",
-      "同一分鐘剩餘≥15秒、全數合規、次日無症狀；失敗即降階。腿日、Petra與Hybrid共用週預算。"
+      "同一分鐘剩餘≥15秒、全數合規、次日無症狀；失敗即降階。腿日、Petra與Hybrid共用週預算。",
+      "正常週預設World Gym A腿日EMOM、B推日輕技巧；兩次World Gym WB為正常週預設、非額外兩堂硬課；與Petra/Hybrid同週合計。若腿日EMOM影響動作品質，週一改短組、週三無WOD且與週一及週六約隔48h才做EMOM（取代週五短組）；如週三有硬WOD或已做大量WB，取消/縮減週五或EMOM，勿追補。週五只做輕技巧RPE≤5，若隔日Hybrid或肩腿疲勞則省略；若EMOM RPE>7，降階或視為當週品質課替代其他硬課。",
+      "記錄兩次WB各自有效顆數、每分鐘剩餘秒數、RPE、無效球與隔天膝肩反應。連續兩次EMOM穩定且每分鐘約≥15秒休息、次日無惡化，才增加1–2顆/分鐘或1分鐘（二選一）；不強迫追週上限。疼痛、腫脹、膝軟腳或不穩即停止並評估。"
     ],
     "raceStandards": [
       "正式賽事：8×1km Run，每公里之後依序一站；男單Open / Mixed Doubles：Ski 1000m、Sled Push 50m/152kg、Sled Pull 50m/103kg、BBJ 80m、Row 1000m、Carry 200m/2×24kg、Sandbag Lunge 100m/20kg、Wall Ball 100×6kg（男3m、女2.7m）。雪橇含自重。",
