@@ -3,10 +3,10 @@
   "name": "HYROX LAB · Alvin",
   "short_name": "HYROX LAB",
   "lang": "zh-Hant",
-  "start_url": "./?app=ui2-v49#week",
+  "start_url": "./?app=v1.0#week",
   "scope": "./",
   "display": "standalone",
-  "description": "有氧、力量與Hybrid課表、實際訓練成果；17週HYROX週期",
+  "description": "HYROX LAB V1.0 · 彈性力量、站點混合訓練與 Garmin 趨勢",
   "background_color": "#f2f5f1",
   "theme_color": "#132d25",
   "icons": [
