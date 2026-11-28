@@ -1,8 +1,8 @@
 {
-  "version": "v1.6.0",
-  "date": "2026-11-24",
-  "source": "Private Garmin data analysis + Petra photo evidence; only prospective workouts published",
-  "notes": "Prospective mobile training plan. Two movable full-body strength sessions, two easy runs, optional quality session; race-specific progression and recovery gates. No raw health records.",
+  "version": "v1.6.1",
+  "date": "2026-11-28",
+  "source": "Petra 11/28 athlete whiteboard reference + prior Garmin FIT review; athlete class is not attendance; prospective only",
+  "notes": "Athlete-inspired timed blocks, scaled to current fitness and verified World Gym equipment. PFT unchanged, recovery/deload/taper retained. No raw personal records.",
   "weeks": {
     "W03": {
       "focus": "POST-PFT RECOVERY｜11/28 PFT後7天，以肌肉痠痛/膝小腿/睡眠作閘門；不用追補里程",
@@ -21,15 +21,15 @@
     "W04": {
       "focus": "REBUILD｜基礎重建",
       "runTarget": "12–16（2–3次跑；大多Easy，1次品質選配）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 40–50min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 2×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 2×6–8 @RIR3；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 2×10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 4×400m @RPE6，慢跑/走90秒 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 4×400m @RPE6，約1:50–2:05/組（起始參考，不追秒），慢走／跑90–120秒；若掉速明顯先停。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 2×6–8 @RIR3；Lat Pulldown 2×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，12–16kg/手起；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；Ski 250m → Row 250m；2輪，RPE5，休90秒；Sled Push/Pull 各2×12.5m，輕至中等阻力、記錄雪橇與地面；或 BBJ 2×5m 技巧，二選一；Wall Ball 本週總量20–30次（含腿日）；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×8min｜A + D 基礎；A：200m Run → Ski 200m → 200m Run → Ski 200m → 200m Run（RPE5–6）；D：Row 250m → Sandbag Reverse Lunge 6/側（徒手或10kg）→ Row 250m → Lunge 6/側（同重）；WB週總量20–30次，保留腿日短組；如膝痛取消。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -47,11 +47,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "Ski 250m → Row 250m；2輪，RPE5，休90秒",
-          "Sled Push/Pull 各2×12.5m，輕至中等阻力、記錄雪橇與地面；或 BBJ 2×5m 技巧，二選一",
-          "Wall Ball 本週總量20–30次（含腿日）"
+          "2×8min｜A + D 基礎",
+          "A：200m Run → Ski 200m → 200m Run → Ski 200m → 200m Run（RPE5–6）",
+          "D：Row 250m → Sandbag Reverse Lunge 6/側（徒手或10kg）→ Row 250m → Lunge 6/側（同重）",
+          "WB週總量20–30次，保留腿日短組；如膝痛取消。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "4×400m @RPE6，慢跑/走90秒",
+        "qualityRun": "4×400m @RPE6，約1:50–2:05/組（起始參考，不追秒），慢走／跑90–120秒；若掉速明顯先停。",
         "longEasy": "40–50 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -60,15 +63,15 @@
     "W05": {
       "focus": "BASE BUILD｜力量＋有氧",
       "runTarget": "14–18（2 Easy+1可選品質；症狀與生活安排優先）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 45–55min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 4×600m @RPE6–7，慢跑2min 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 5×400m @RPE6–7，約1:50–2:05/組，慢走／跑90–120秒；僅W04穩定才加一組。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，12–16kg/手起；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；3輪：Ski 300m → Carry 30m → Row 250m，RPE6，休2min；Sandbag Lunge 2×10m，10–15kg；若已做大量Lunge則省略；WB本週總量30–40次；BBJ 2×7.5m可替代Lunge；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×9min｜B + E 抗疲勞；B：Row 200m → KB/DB Sumo Deadlift 8＋Gorilla Row 6/側 → Row 200m → 同動作再一次 → Row 200m；KB/DB先6–10kg/手，RIR≥3；若無KB用DB；E：200m Run → WB 8次 → 300m Run → WB 12次（6kg，可拆6+6）；WB週總量30–40次；E已20次，腿日只做剩餘額度。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -86,11 +89,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "3輪：Ski 300m → Carry 30m → Row 250m，RPE6，休2min",
-          "Sandbag Lunge 2×10m，10–15kg；若已做大量Lunge則省略",
-          "WB本週總量30–40次；BBJ 2×7.5m可替代Lunge"
+          "2×9min｜B + E 抗疲勞",
+          "B：Row 200m → KB/DB Sumo Deadlift 8＋Gorilla Row 6/側 → Row 200m → 同動作再一次 → Row 200m；KB/DB先6–10kg/手，RIR≥3；若無KB用DB",
+          "E：200m Run → WB 8次 → 300m Run → WB 12次（6kg，可拆6+6）",
+          "WB週總量30–40次；E已20次，腿日只做剩餘額度。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "4×600m @RPE6–7，慢跑2min",
+        "qualityRun": "5×400m @RPE6–7，約1:50–2:05/組，慢走／跑90–120秒；僅W04穩定才加一組。",
         "longEasy": "45–55 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -99,15 +105,15 @@
     "W06": {
       "focus": "BUILD｜初次跑站轉換",
       "runTarget": "16–20（2–3次，低強度比例提高）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 50–60min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Step-up 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 5×600m @RPE7，慢跑2min 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 4×600m @RPE6–7，慢走／跑2min；前兩週400m均速穩定後才拉長。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，12–16kg/手起；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；3輪：400m Easy Run → 站點輪替（Ski 300m／Sled Push+Pull各12.5m／Row 300m），RPE6–7，休90–120秒；場地不能安全相連則改3輪Ski／Row與站點；跑步另外Easy，不冒充轉換；Lunge 2×10m或WB 2×10擇一，計入週總量；雙人可用20–30秒換手練習替代一輪；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×10min｜A + C 跑站；A：250m Run → Ski 250m → 250m Run → Ski 250m → 250m Run；C：200m Run → BBJ 5m → 200m Run → BBJ 5m → 200m Run；著地穩定、無膝小腿痛；可用步退Burpee替代，另記非BBJ；WB週總量30–40次（腿日為主）；雙人可替換A的一段Ski為短換手。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -125,11 +131,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "3輪：400m Easy Run → 站點輪替（Ski 300m／Sled Push+Pull各12.5m／Row 300m），RPE6–7，休90–120秒",
-          "場地不能安全相連則改3輪Ski／Row與站點；跑步另外Easy，不冒充轉換",
-          "Lunge 2×10m或WB 2×10擇一，計入週總量；雙人可用20–30秒換手練習替代一輪"
+          "2×10min｜A + C 跑站",
+          "A：250m Run → Ski 250m → 250m Run → Ski 250m → 250m Run",
+          "C：200m Run → BBJ 5m → 200m Run → BBJ 5m → 200m Run；著地穩定、無膝小腿痛；可用步退Burpee替代，另記非BBJ",
+          "WB週總量30–40次（腿日為主）；雙人可替換A的一段Ski為短換手。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "5×600m @RPE7，慢跑2min",
+        "qualityRun": "4×600m @RPE6–7，慢走／跑2min；前兩週400m均速穩定後才拉長。",
         "longEasy": "50–60 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": "雙人練習取代部分Station：兩人一起跑；站點一人工作一人休息，Ski／Row／Carry／WB練習短換手，不疊加。"
@@ -146,7 +155,7 @@
         "wed": "本週不做硬Petra WOD；可休息、Mobility或低強度技巧。",
         "thu": "Easy 20–35min（第二次Easy可移動）；取消硬間歇；Easy 20–30min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 2×6–8 @RIR4；Lat Pulldown 2×8–10 @RIR4；Chest-supported Row 1×8–10；Farmer Carry 2×20m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 1×8；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，或休息；不做硬Sled、BBJ或長Lunge；WB本週16–24次上限，完全無痛才做；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）；2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，或休息；不做硬Sled、BBJ或長Lunge；WB本週16–24次上限，完全無痛才做；不做選手部計時硬區塊；若疲勞則休息。"
       },
       "modules": {
         "strengthA": [
@@ -177,15 +186,15 @@
     "W08": {
       "focus": "REBUILD｜雪橇與節奏",
       "runTarget": "15–19（2–3次跑，優先Easy）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 45–55min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；Pogo 2×10–15秒（暖身後、主力量前；無痛且已適應才做，替代部分小腿輔助）；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 4×800m @RPE6–7，慢跑2min 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 4×600m @RPE6–7，慢跑2min；減量週後先回到穩定節奏。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；3輪：Ski 300m → Sled Push或Pull 12.5m（輪替）→ Row 250m，RPE6，休2min；Carry 2×40m，或Lunge 2×12.5m（10–15kg）擇一；WB本週30–45次，扣除Petra與力量日；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×10min｜Sled + D；S：Ski 250m → Sled Push 12.5m → Ski 250m → Sled Push 12.5m → Ski 250m；輕中阻力，RPE6；D：Row 300m → Sandbag Lunge 10m（10–15kg）→ Row 300m → Lunge 10m → Row 200m；WB週總量30–45次（含腿日），不用在站點另外補。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。；Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。"
       },
       "modules": {
         "strengthA": [
@@ -204,11 +213,15 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "3輪：Ski 300m → Sled Push或Pull 12.5m（輪替）→ Row 250m，RPE6，休2min",
-          "Carry 2×40m，或Lunge 2×12.5m（10–15kg）擇一",
-          "WB本週30–45次，扣除Petra與力量日"
+          "2×10min｜Sled + D",
+          "S：Ski 250m → Sled Push 12.5m → Ski 250m → Sled Push 12.5m → Ski 250m；輕中阻力，RPE6",
+          "D：Row 300m → Sandbag Lunge 10m（10–15kg）→ Row 300m → Lunge 10m → Row 200m",
+          "WB週總量30–45次（含腿日），不用在站點另外補。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。",
+          "Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。"
         ],
-        "qualityRun": "4×800m @RPE6–7，慢跑2min",
+        "qualityRun": "4×600m @RPE6–7，慢跑2min；減量週後先回到穩定節奏。",
         "longEasy": "45–55 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -217,15 +230,15 @@
     "W09": {
       "focus": "TRANSFER｜跑站轉換",
       "runTarget": "17–21（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 50–60min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；Pogo 2×10–15秒（暖身後、主力量前；無痛且已適應才做，替代部分小腿輔助）；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 4×800m @RPE7，慢跑2min 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 4×800m @RPE6–7，慢跑2min；先確認600m無明顯掉速。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；3輪：600m跑 → BBJ 10m／Lunge 12.5m／Carry 40m（每輪一項），RPE6–7，休90秒；Lunge 15–20kg及Carry 2×16–20kg，僅動作穩定才加重；WB週總量40–50次；同場安全才做跑站；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×10min｜C + E 跑站肌耐力；C：250m Run → BBJ 7.5m → 250m Run → BBJ 7.5m → 250m Run；E：250m Run → WB 12次 → 400m Run → WB 16次（可8+8）；WB週總量40–50次；E已28次，腿日WB縮量。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -244,11 +257,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "3輪：600m跑 → BBJ 10m／Lunge 12.5m／Carry 40m（每輪一項），RPE6–7，休90秒",
-          "Lunge 15–20kg及Carry 2×16–20kg，僅動作穩定才加重",
-          "WB週總量40–50次；同場安全才做跑站"
+          "2×10min｜C + E 跑站肌耐力",
+          "C：250m Run → BBJ 7.5m → 250m Run → BBJ 7.5m → 250m Run",
+          "E：250m Run → WB 12次 → 400m Run → WB 16次（可8+8）",
+          "WB週總量40–50次；E已28次，腿日WB縮量。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "4×800m @RPE7，慢跑2min",
+        "qualityRun": "4×800m @RPE6–7，慢跑2min；先確認600m無明顯掉速。",
         "longEasy": "50–60 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -257,15 +273,15 @@
     "W10": {
       "focus": "ENGINE｜Ski × Row",
       "runTarget": "18–23（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 50–65min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Step-up 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；Easy 25–35min；本週Erg為品質主課。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 Easy 25–35min；本週Erg為主要品質課，不補硬間歇。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；3輪：Row 4min → Ski 1000–1500m，RPE7，休3min；先選1000m再進階；雙人可將其中一輪替換為500m Row換手＋80m Carry換手練習；另不補硬跑；WB週總量40–60次；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×12min｜A + B Engine；A：Row 300m → Ski 500m → Row 300m → Ski 500m → Row 300m（室內Erg，RPE6–7）；B：Row 250m → KB/DB Sumo Deadlift 10＋Gorilla Row 8/側 → Row 250m → 同動作再一次 → Row 250m；RIR≥3；雙人可替換A一段為短換手；WB週總量40–60次（含腿日），無須另加。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -283,11 +299,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "3輪：Row 4min → Ski 1000–1500m，RPE7，休3min；先選1000m再進階",
-          "雙人可將其中一輪替換為500m Row換手＋80m Carry換手練習",
-          "另不補硬跑；WB週總量40–60次"
+          "2×12min｜A + B Engine",
+          "A：Row 300m → Ski 500m → Row 300m → Ski 500m → Row 300m（室內Erg，RPE6–7）",
+          "B：Row 250m → KB/DB Sumo Deadlift 10＋Gorilla Row 8/側 → Row 250m → 同動作再一次 → Row 250m；RIR≥3；雙人可替換A一段為短換手",
+          "WB週總量40–60次（含腿日），無須另加。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "Easy 25–35min；本週Erg為品質主課",
+        "qualityRun": "Easy 25–35min；本週Erg為主要品質課，不補硬間歇。",
         "longEasy": "50–65 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": "雙人練習取代部分Station：兩人一起跑；站點一人工作一人休息，Ski／Row／Carry／WB練習短換手，不疊加。"
@@ -296,15 +315,15 @@
     "W11": {
       "focus": "TRANSFER｜持續輸出",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 55–65min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 3×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 3×6–8 @RIR3；Pogo 2×10–15秒（暖身後、主力量前；無痛且已適應才做，替代部分小腿輔助）；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 3×8–10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 3–4×1km @RPE7，慢跑2–3min 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 3×1km @RPE7，慢跑2–3min；若選三區塊Hybrid則改Easy。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 3×6–8 @RIR3；Lat Pulldown 3×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；4輪：600m跑 → Lunge 15m／BBJ 12.5m／Sled Push+Pull各12.5m／WB 10–12次，每輪一項，RPE7；Sled 以地面阻力及完整姿勢決定負重；無安全跑站場地則室內站點、另跑Easy；WB週總量50–65次，已完成的Petra reps扣除；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜3×10min｜S + C + D 專項；S：Ski 250m → Sled Push 12.5m → Ski 250m → Sled Push 12.5m → Ski 250m；若確認可拉，第二段可改Pull；C：250m Run → BBJ 10m → 250m Run → BBJ 10m → 250m Run；D：Row 300m → Sandbag Lunge 12.5m（10–15kg，穩定才20kg）→ Row 300m → Lunge 12.5m → Row 200m；WB週總量40–60次，以腿日短組及既有Petra量為主；不為達數字加練。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。；Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。"
       },
       "modules": {
         "strengthA": [
@@ -323,11 +342,16 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "4輪：600m跑 → Lunge 15m／BBJ 12.5m／Sled Push+Pull各12.5m／WB 10–12次，每輪一項，RPE7",
-          "Sled 以地面阻力及完整姿勢決定負重；無安全跑站場地則室內站點、另跑Easy",
-          "WB週總量50–65次，已完成的Petra reps扣除"
+          "3×10min｜S + C + D 專項",
+          "S：Ski 250m → Sled Push 12.5m → Ski 250m → Sled Push 12.5m → Ski 250m；若確認可拉，第二段可改Pull",
+          "C：250m Run → BBJ 10m → 250m Run → BBJ 10m → 250m Run",
+          "D：Row 300m → Sandbag Lunge 12.5m（10–15kg，穩定才20kg）→ Row 300m → Lunge 12.5m → Row 200m",
+          "WB週總量40–60次，以腿日短組及既有Petra量為主；不為達數字加練。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。",
+          "Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。"
         ],
-        "qualityRun": "3–4×1km @RPE7，慢跑2–3min",
+        "qualityRun": "3×1km @RPE7，慢跑2–3min；若選三區塊Hybrid則改Easy。",
         "longEasy": "55–65 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -344,7 +368,7 @@
         "wed": "本週不做硬Petra WOD；可休息、Mobility或低強度技巧。",
         "thu": "Easy 20–35min（第二次Easy可移動）；Easy 20–30min，不做硬間歇。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 2×6–8 @RIR4；Lat Pulldown 2×8–10 @RIR4；Chest-supported Row 1×8–10；Farmer Carry 2×20m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 1×8；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，休2min；本週減量，不做硬站；WB週總量20–30次；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）；2輪：Ski 200m → Row 200m → 輕Carry 20m，RPE4–5，休2min；本週減量，不做硬站；WB週總量20–30次；不做選手部計時硬區塊；若疲勞則休息。"
       },
       "modules": {
         "strengthA": [
@@ -375,15 +399,15 @@
     "W13": {
       "focus": "SPECIFIC｜比賽轉移",
       "runTarget": "19–24（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 55–65min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 2×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 2×6–8 @RIR3；Pogo 2×10–15秒（暖身後、主力量前；無痛且已適應才做，替代部分小腿輔助）；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 2–3×10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 3×1km @RPE7，慢跑2–3min；不硬追5:00 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 3×1km @RPE7，慢跑2–3min；不強制5:00/km，若選Hybrid則改Easy。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 2×6–8 @RIR3；Lat Pulldown 2×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；4輪：800m跑 → Ski 400m／Sled Push+Pull各12.5–20m／Lunge 15–20m／WB 12–15次（每輪一項），RPE7；無安全相連場地就做室內縮量站點，跑另安排；不是正式全程模擬；WB週總量60–80次，分組完成，非單次100；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜3×12min｜A + D + E 比賽轉移；A：350m Run → Ski 300m → 350m Run → Ski 300m → 350m Run；D：Row 350m → Sandbag Lunge 15m（15kg起，穩定才20kg）→ Row 350m → Lunge 15m → Row 200m；E：350m Run → WB 16次 → 500m Run → WB 24次（分8–12次短組，扣除腿日）；WB週總量60–80次為上限而非要求；E最多40次，視PFT及前週恢復降量。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -402,11 +426,15 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "4輪：800m跑 → Ski 400m／Sled Push+Pull各12.5–20m／Lunge 15–20m／WB 12–15次（每輪一項），RPE7",
-          "無安全相連場地就做室內縮量站點，跑另安排；不是正式全程模擬",
-          "WB週總量60–80次，分組完成，非單次100"
+          "3×12min｜A + D + E 比賽轉移",
+          "A：350m Run → Ski 300m → 350m Run → Ski 300m → 350m Run",
+          "D：Row 350m → Sandbag Lunge 15m（15kg起，穩定才20kg）→ Row 350m → Lunge 15m → Row 200m",
+          "E：350m Run → WB 16次 → 500m Run → WB 24次（分8–12次短組，扣除腿日）",
+          "WB週總量60–80次為上限而非要求；E最多40次，視PFT及前週恢復降量。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "3×1km @RPE7，慢跑2–3min；不硬追5:00",
+        "qualityRun": "3×1km @RPE7，慢跑2–3min；不強制5:00/km，若選Hybrid則改Easy。",
         "longEasy": "55–65 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": ""
@@ -422,7 +450,7 @@
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "本週不做硬Petra WOD；可休息、Mobility或低強度技巧。",
         "thu": "Easy 20–35min（第二次Easy可移動）；Easy 20–30min，週五彩排取代品質跑。",
-        "fri": "週五縮量彩排（取代Strength B）；週五縮量彩排：4輪600m跑 → Ski 500m／Sled推拉各12.5–20m／Carry 60m／WB 20–30次，RPE≤7；雙人可分工替換部分站點，不加量；週六只做Easy Ski/Row 15–20min或休息；週五取代力量B和週六硬站；週四Easy，週三不做硬WOD",
+        "fri": "週五縮量彩排（取代Strength B）；週五縮量彩排：4輪600m跑 → Ski 500m／Sled Push 12.5–20m（Pull僅有繩與場地才做）／Carry 60m／WB 20–30次，RPE≤7；雙人可分工替換部分站點，不加量；週六只做Easy Ski/Row 15–20min或休息；週五取代力量B和週六硬站；週四Easy，週三不做硬WOD",
         "sat": "彩排後恢復：Easy Ski／Row 15–20min 或完全休息。"
       },
       "modules": {
@@ -441,7 +469,7 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "週五縮量彩排：4輪600m跑 → Ski 500m／Sled推拉各12.5–20m／Carry 60m／WB 20–30次，RPE≤7",
+          "週五縮量彩排：4輪600m跑 → Ski 500m／Sled Push 12.5–20m（Pull僅有繩與場地才做）／Carry 60m／WB 20–30次，RPE≤7",
           "雙人可分工替換部分站點，不加量；週六只做Easy Ski/Row 15–20min或休息",
           "週五取代力量B和週六硬站；週四Easy，週三不做硬WOD"
         ],
@@ -454,15 +482,15 @@
     "W15": {
       "focus": "SHARPEN｜保留速度",
       "runTarget": "16–20（以過去兩週可恢復的實跑量與疼痛反應滾動調整；不強制補量）",
-      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。",
+      "qualityRule": "每週先保2次Easy跑、1–2次全身力量A/B及最多1次主要品質課；第二次品質課僅恢復充分且相隔至少約48小時。週二Petra若是AMRAP算Hybrid品質課；純力量可替代A/B。週三硬WOD則週四Easy、週六取消硬Station。週六無固定Petra。單腿、WB、Lunge、Carry或Sled訓練算入當週既有量，不疊加。 選手部衍生課只取代主Station，與完整間歇二選一；若週六做主課，週五重腿提前或縮為上肢輕量。",
       "days": {
         "sun": "Long Easy 40–50min @RPE2–3，能完整對話；日期可移動。若前一日腿部疲勞縮短或換日。",
         "mon": "Strength A｜下肢＋推（可移動）；Back Squat 2×5 @RIR3，暖身後試重；非力竭；DB Split Squat／Reverse Lunge 2×6–8/側，6–10kg/手起，姿勢穩再加；Bench／DB Press 2×6–8 @RIR3；單腿直膝提踵 2×10–12/側；屈膝提踵 1×12（可控重量）；Wall Ball 6kg 2–3×10（腿日最後，扣除本週站點量，膝痛取消）；主力量休2–3min；輔助休60–90秒。",
         "tue": "短 Easy 20–30min @RPE2–3 或 Petra Strength 二選一；AMRAP算Hybrid品質課，純力量替代A/B；若前一天重腿則換日或Easy。",
         "wed": "Petra週三 WOD 選配；若做硬WOD，取代週四硬跑及週六硬Station，不補課。",
-        "thu": "Easy 20–35min（第二次Easy可移動）；若本週沒有其他硬課且恢復足，可用 3×800m @RPE6–7，慢跑2min；或選站點 替代；另暖身10min、收操5–10min。",
+        "thu": "Easy 20–35min（可移動）；本週若未做其他硬課且恢復良好，可用 3×800m @RPE6–7，慢跑2min；或選低量Hybrid，不疊加。 替代；暖身10min、收操5–10min。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 2×6–8 @RIR3；Lat Pulldown 2×8–10 @RIR3；Chest-supported Row 2×8–10；Farmer Carry 3×30–40m，從16kg/手逐步往24kg/手；握力姿勢穩才進階；HR Push-up 2×8–12；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；2輪：Row 4min → Ski 800m，RPE6–7，休150秒；或雙人短換手：Ski／Row／Carry／WB，低量替代；WB週總量40–55次，保持動作品質；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）｜2×8min｜A + E 銳化；A：200m Run → Ski 250m → 200m Run → Ski 250m → 200m Run；E：200m Run → WB 8次 → 250m Run → WB 12次；雙人可分工替代部分站點；WB週總量30–45次，保持動作品質，不測極限。；每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。；無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
       },
       "modules": {
         "strengthA": [
@@ -480,11 +508,14 @@
           "HR Push-up 2×8–12；若Petra已大量做則省略"
         ],
         "station": [
-          "2輪：Row 4min → Ski 800m，RPE6–7，休150秒",
-          "或雙人短換手：Ski／Row／Carry／WB，低量替代",
-          "WB週總量40–55次，保持動作品質"
+          "2×8min｜A + E 銳化",
+          "A：200m Run → Ski 250m → 200m Run → Ski 250m → 200m Run",
+          "E：200m Run → WB 8次 → 250m Run → WB 12次；雙人可分工替代部分站點",
+          "WB週總量30–45次，保持動作品質，不測極限。",
+          "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+          "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。"
         ],
-        "qualityRun": "3×800m @RPE6–7，慢跑2min；或選站點",
+        "qualityRun": "3×800m @RPE6–7，慢跑2min；或選低量Hybrid，不疊加。",
         "longEasy": "40–50 min",
         "progression": "同一動作連續兩次達到次數上限且RIR≥2、隔天無惡化，再加最小重量或1–2次；一次只增加一個變數。",
         "partner": "雙人練習取代部分Station：兩人一起跑；站點一人工作一人休息，Ski／Row／Carry／WB練習短換手，不疊加。"
@@ -501,7 +532,7 @@
         "wed": "本週不做硬Petra WOD；可休息、Mobility或低強度技巧。",
         "thu": "Easy 20–35min（第二次Easy可移動）；Easy 20–25min＋可選3×15秒放鬆加速，無痛才做。",
         "fri": "Strength B｜後鏈＋拉＋握力（可移動）；RDL 1×6–8 @RIR4；Lat Pulldown 1×8–10 @RIR4；Chest-supported Row 1×8–10；Farmer Carry 2×20m，輕重量；HR Push-up 1×8；若Petra已大量做則省略；主力量休2–3min；隔天硬站則換日或減量。",
-        "sat": "自主Station（非團課）；2輪：Ski 150m → Row 150m，RPE3–4，休2min；或休息；不做硬Sled、BBJ或長Lunge；WB僅10–16次技巧；無痛才做；已上硬WOD或硬Interval則改技巧／休息，不疊加。"
+        "sat": "自主Station（非團課）；2輪：Ski 150m → Row 150m，RPE3–4，休2min；或休息；不做硬Sled、BBJ或長Lunge；WB僅10–16次技巧；無痛才做；不做選手部計時硬區塊；若疲勞則休息。"
       },
       "modules": {
         "strengthA": [
@@ -529,5 +560,23 @@
         "partner": ""
       }
     }
+  },
+  "athleteLab": {
+    "title": "Petra 選手部｜五區塊進階訓練庫",
+    "rules": [
+      "每區塊從指定時間開始，最多工作窗口−2min，完成後休息至下一窗口；未完成就停，不追趕。暖身8–10min、收操5min。已上硬WOD／完整Interval／硬AMRAP則取消本主課或只做Easy技巧。跑站僅限安全連通場地或已確認可用跑步機；否則按時間改Erg，不算跑量。",
+      "先2區塊×8–10min，連續兩次品質穩定、次日無惡化才增加一個變數（時間／距離／重量／區塊數），不直接照搬5×12min。RPE6–7上限，最後區塊仍應能保持動作。",
+      "無安全跑道／跑步機時，跑段以等時間Easy Row或Ski替代（避免與下一站用同一台時，可連續但記為Erg），RPE5–6；不宣稱是真正跑站。",
+      "Sled Push 按地面阻力與姿勢選重量，記錄雪橇自重及加片；Pull未確認有繩及場地，若沒有改Cable Row或DB Row 2×8–10（僅肌群替代，不等同雪橇拉）。",
+      "Wall Ball 6kg；每組8–12次起，依有效次數與姿勢決定休息20–40秒；若本週已做WB，扣除腿日／Petra的量，不超週上限。",
+      "Friday力量B若隔天做本主課，提前至其他日或改上肢輕量，避免重腿相鄰；週三WOD仍僅選配、週六無固定團課。",
+      "記錄每區塊完成時間、剩餘休息、Erg split、實際負重、WB有效次數、BBJ距離及下次恢復；不把預估當實際。"
+    ],
+    "equipment": [
+      "已確認：Sandbag、Sled Push、RowErg、SkiErg、Wall Ball。",
+      "Bike未確認：以Row/Ski的等時間、同RPE替代，不換算卡路里；Gorilla Row可用DB，若無雙KB/DB，改單手啞鈴划船。",
+      "Sled Pull需確認繩索及場地；Farmer Carry用兩顆DB/KB（設備可用時），不把Sandbag抱走當等同握力訓練。",
+      "跑站需確認場地可安全連接；若室內Erg替代，不計跑量。"
+    ]
   }
 }
